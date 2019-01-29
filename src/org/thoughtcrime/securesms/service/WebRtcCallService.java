@@ -58,6 +58,8 @@ import org.raapp.messenger.webrtc.audio.SignalAudioManager;
 import org.raapp.messenger.webrtc.locks.LockManager;
 import org.webrtc.AudioTrack;
 import org.webrtc.DataChannel;
+import org.webrtc.DefaultVideoDecoderFactory;
+import org.webrtc.DefaultVideoEncoderFactory;
 import org.webrtc.EglBase;
 import org.webrtc.IceCandidate;
 import org.webrtc.MediaConstraints;
@@ -67,6 +69,8 @@ import org.webrtc.PeerConnectionFactory;
 import org.webrtc.RtpReceiver;
 import org.webrtc.SessionDescription;
 import org.webrtc.SurfaceViewRenderer;
+import org.webrtc.VideoDecoderFactory;
+import org.webrtc.VideoEncoderFactory;
 import org.webrtc.VideoTrack;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
@@ -90,6 +94,7 @@ import java.security.SecureRandom;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.Callable;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -178,9 +183,9 @@ public class WebRtcCallService extends Service implements InjectableType,
   @Nullable private List<IceUpdateMessage> pendingOutgoingIceUpdates;
   @Nullable private List<IceCandidate>     pendingIncomingIceUpdates;
 
-  @Nullable public  static SurfaceViewRenderer localRenderer;
-  @Nullable public  static SurfaceViewRenderer remoteRenderer;
-  @Nullable private static EglBase             eglBase;
+  @Nullable private SurfaceViewRenderer localRenderer;
+  @Nullable private SurfaceViewRenderer remoteRenderer;
+  @Nullable private EglBase             eglBase;
 
   private ExecutorService          serviceExecutor = Executors.newSingleThreadExecutor();
   private ExecutorService          networkExecutor = Executors.newSingleThreadExecutor();
@@ -284,9 +289,9 @@ public class WebRtcCallService extends Service implements InjectableType,
 
     this.callState             = CallState.STATE_IDLE;
     this.lockManager           = new LockManager(this);
-    this.peerConnectionFactory = PeerConnectionFactory.builder().setOptions(new PeerConnectionFactoryOptions()).createPeerConnectionFactory();
     this.audioManager          = new SignalAudioManager(this);
     this.bluetoothStateManager = new BluetoothStateManager(this, this);
+
     this.messageSender.setSoTimeoutMillis(TimeUnit.SECONDS.toMillis(10));
     this.accountManager.setSoTimeoutMillis(TimeUnit.SECONDS.toMillis(10));
   }
@@ -370,7 +375,7 @@ public class WebRtcCallService extends Service implements InjectableType,
 
           boolean isAlwaysTurn = TextSecurePreferences.isTurnOnly(WebRtcCallService.this);
 
-          WebRtcCallService.this.peerConnection   = new PeerConnectionWrapper(WebRtcCallService.this, peerConnectionFactory, WebRtcCallService.this, localRenderer, result, WebRtcCallService.this, !isSystemContact || isAlwaysTurn);
+          WebRtcCallService.this.peerConnection   = new PeerConnectionWrapper(WebRtcCallService.this, peerConnectionFactory, WebRtcCallService.this, localRenderer, result, WebRtcCallService.this, eglBase, !isSystemContact || isAlwaysTurn);
           WebRtcCallService.this.localCameraState = WebRtcCallService.this.peerConnection.getCameraState();
           WebRtcCallService.this.peerConnection.setRemoteDescription(new SessionDescription(SessionDescription.Type.OFFER, offer));
           WebRtcCallService.this.lockManager.updatePhoneState(LockManager.PhoneState.PROCESSING);
@@ -434,7 +439,7 @@ public class WebRtcCallService extends Service implements InjectableType,
           try {
             boolean isAlwaysTurn = TextSecurePreferences.isTurnOnly(WebRtcCallService.this);
 
-            WebRtcCallService.this.peerConnection = new PeerConnectionWrapper(WebRtcCallService.this, peerConnectionFactory, WebRtcCallService.this, localRenderer, result, WebRtcCallService.this, isAlwaysTurn);
+            WebRtcCallService.this.peerConnection = new PeerConnectionWrapper(WebRtcCallService.this, peerConnectionFactory, WebRtcCallService.this, localRenderer, result, WebRtcCallService.this, eglBase, isAlwaysTurn);
             WebRtcCallService.this.localCameraState = WebRtcCallService.this.peerConnection.getCameraState();
             WebRtcCallService.this.dataChannel    = WebRtcCallService.this.peerConnection.createDataChannel(DATA_CHANNEL_NAME);
             WebRtcCallService.this.dataChannel.registerObserver(WebRtcCallService.this);
@@ -910,19 +915,22 @@ public class WebRtcCallService extends Service implements InjectableType,
   }
 
   private void initializeVideo() {
-    Util.runOnMainSync(new Runnable() {
-      @Override
-      public void run() {
-        eglBase        = EglBase.create();
-        localRenderer  = new SurfaceViewRenderer(WebRtcCallService.this);
-        remoteRenderer = new SurfaceViewRenderer(WebRtcCallService.this);
+    Util.runOnMainSync(() -> {
+      eglBase        = EglBase.create();
+      localRenderer  = new SurfaceViewRenderer(WebRtcCallService.this);
+      remoteRenderer = new SurfaceViewRenderer(WebRtcCallService.this);
 
-        localRenderer.init(eglBase.getEglBaseContext(), null);
-        remoteRenderer.init(eglBase.getEglBaseContext(), null);
+      localRenderer.init(eglBase.getEglBaseContext(), null);
+      remoteRenderer.init(eglBase.getEglBaseContext(), null);
 
-        peerConnectionFactory.setVideoHwAccelerationOptions(eglBase.getEglBaseContext(),
-                                                            eglBase.getEglBaseContext());
-      }
+      VideoEncoderFactory encoderFactory = new DefaultVideoEncoderFactory(eglBase.getEglBaseContext(), true, true);
+      VideoDecoderFactory decoderFactory = new DefaultVideoDecoderFactory(eglBase.getEglBaseContext());
+
+      peerConnectionFactory = PeerConnectionFactory.builder()
+                                                   .setOptions(new PeerConnectionFactoryOptions())
+                                                   .setVideoEncoderFactory(encoderFactory)
+                                                   .setVideoDecoderFactory(decoderFactory)
+                                                   .createPeerConnectionFactory();
     });
   }
 
@@ -972,7 +980,7 @@ public class WebRtcCallService extends Service implements InjectableType,
                                     boolean               bluetoothAvailable,
                                     boolean               microphoneEnabled)
   {
-    EventBus.getDefault().postSticky(new WebRtcViewModel(state, recipient, localCameraState, remoteVideoEnabled, bluetoothAvailable, microphoneEnabled));
+    EventBus.getDefault().postSticky(new WebRtcViewModel(state, recipient, localCameraState, localRenderer, remoteRenderer, remoteVideoEnabled, bluetoothAvailable, microphoneEnabled));
   }
 
   private void sendMessage(@NonNull WebRtcViewModel.State state,
@@ -983,7 +991,7 @@ public class WebRtcCallService extends Service implements InjectableType,
                                     boolean               bluetoothAvailable,
                                     boolean               microphoneEnabled)
   {
-    EventBus.getDefault().postSticky(new WebRtcViewModel(state, recipient, identityKey, localCameraState, remoteVideoEnabled, bluetoothAvailable, microphoneEnabled));
+    EventBus.getDefault().postSticky(new WebRtcViewModel(state, recipient, identityKey, localCameraState, localRenderer, remoteRenderer, remoteVideoEnabled, bluetoothAvailable, microphoneEnabled));
   }
 
   private ListenableFutureTask<Boolean> sendMessage(@NonNull final Recipient recipient,

@@ -58,48 +58,41 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
-    implementation 'com.android.support:support-v13:28.0.0'
-    implementation 'com.android.support:cardview-v7:28.0.0'
-    implementation 'com.android.support:preference-v7:28.0.0'
-    implementation 'com.android.support:preference-v14:28.0.0'
-    implementation 'com.android.support:gridlayout-v7:28.0.0'
-    implementation 'com.android.support:multidex:1.0.3'
-    implementation 'com.android.support:exifinterface:28.0.0'
-    implementation 'android.arch.lifecycle:extensions:1.1.1'
-    implementation 'android.arch.lifecycle:common-java8:1.1.1'
+    def supportVersion = '28.0.0'
 
-    // implementation 'com.android.support:appcompat-v7:27.0.2'
-    // implementation 'com.android.support:recyclerview-v7:27.0.2'
-    // implementation 'com.android.support:design:27.0.2'
-    // implementation 'com.android.support:support-v13:27.0.2'
-    // implementation 'com.android.support:cardview-v7:27.0.2'
-    // implementation 'com.android.support:preference-v7:27.0.2'
-    // implementation 'com.android.support:preference-v14:27.0.2'
-    // implementation 'com.android.support:gridlayout-v7:27.0.2'
-    // implementation 'com.android.support:multidex:1.0.2'
-    // implementation 'com.android.support:exifinterface:27.0.2'
-    // implementation 'android.arch.lifecycle:extensions:1.1.1'
-    // implementation 'android.arch.lifecycle:common-java8:1.1.1'
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:recyclerview-v7:$supportVersion"
+    compile "com.android.support:design:$supportVersion"
+    compile "com.android.support:support-v13:$supportVersion"
+    compile "com.android.support:cardview-v7:$supportVersion"
+    compile "com.android.support:preference-v7:$supportVersion"
+    compile "com.android.support:preference-v14:$supportVersion"
+    compile "com.android.support:gridlayout-v7:$supportVersion"
+    compile "com.android.support:exifinterface:$supportVersion"
+    compile 'com.android.support.constraint:constraint-layout:1.1.3'
+    compile 'com.android.support:multidex:1.0.3'
+    compile 'android.arch.lifecycle:extensions:1.1.1'
+    compile 'android.arch.lifecycle:common-java8:1.1.1'
+    compile 'android.arch.work:work-runtime:1.0.0-beta03'
 
-    implementation 'com.google.android.gms:play-services-gcm:9.6.1'
-    //implementation 'com.google.android.gms:play-services-gcm:10.2.1'
-    implementation 'com.google.android.gms:play-services-maps:9.6.1'
-    implementation 'com.google.android.gms:play-services-places:9.6.1'
+    compile 'com.google.firebase:firebase-messaging:17.3.4'
+    compile 'com.google.firebase:firebase-core:16.0.6'
+    compile 'com.google.android.gms:play-services-maps:16.0.0'
+    compile 'com.google.android.gms:play-services-places:16.0.0'
+    compile 'com.google.android.gms:play-services-auth:16.0.1'
 
-    implementation 'com.google.android.exoplayer:exoplayer:r2.3.1'
+    compile 'com.google.android.exoplayer:exoplayer-core:2.9.1'
+    compile 'com.google.android.exoplayer:exoplayer-ui:2.9.1'
 
-    implementation 'org.whispersystems:signal-service-android:2.7.6'
-    implementation 'org.whispersystems:webrtc-android:M68'
+    compile 'org.whispersystems:signal-service-android:2.12.7'
+    compile 'org.whispersystems:webrtc-android:M71'
 
-    implementation "me.leolin:ShortcutBadger:1.1.16"
-    implementation 'se.emilsjolander:stickylistheaders:2.7.0'
-    implementation 'com.jpardogo.materialtabstrip:library:1.0.9'
-    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5'
-    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
-    implementation 'com.github.bumptech.glide:glide:4.5.0'
+    compile "me.leolin:ShortcutBadger:1.1.16"
+    compile 'se.emilsjolander:stickylistheaders:2.7.0'
+    compile 'com.jpardogo.materialtabstrip:library:1.0.9'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5'
+    compile 'com.github.chrisbanes:PhotoView:2.1.3'
+    compile 'com.github.bumptech.glide:glide:4.5.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
     implementation 'com.makeramen:roundedimageview:2.1.0'
     implementation 'com.pnikosis:materialish-progress:1.5'
@@ -184,12 +177,15 @@ dependencyVerification {
         'com.android.support:exifinterface:0e7cd526c4468895cd8549def46b3d33c8bcfb1ae4830569898d8c7326b15bb2',
         'android.arch.lifecycle:extensions:429426b2feec2245ffc5e75b3b5309bedb36159cf06dc71843ae43526ac289b6',
         'android.arch.lifecycle:common-java8:7078b5c8ccb94203df9cc2a463c69cf0021596e6cf966d78fbfd697aaafe0630',
-        'com.google.android.gms:play-services-gcm:312e61253a236f2d9b750b9c04fc92fd190d23b0b2755c99de6ce4a28b259dae',
-        'com.google.android.gms:play-services-places:abf3a4a3b146ec7e6e753be62775e512868cf37d6f88ffe2d81167b33b57132b',
-        'com.google.android.gms:play-services-maps:45e8021e7ddac4a44a82a0e9698991389ded3023d35c58f38dbd86d54211ec0e',
-        'com.google.android.exoplayer:exoplayer:955085aa611a8f7cf6c61b88ae03d1a392f4ad94c9bfbc153f3dedb9ffb14718',
-        'org.whispersystems:signal-service-android:823eed29e64fb0aa30d2078cb5ec0245e2a0713a4028121329c5c28788ef27f8',
-        'org.whispersystems:webrtc-android:66cb312eb024eaf6aa93e662d37d0c46632e049d47a2dcc9c291207589ee7a43',
+        'com.google.firebase:firebase-messaging:e42288e7950d7d3b033d3395a5ac9365d230da3e439a2794ec13e2ef0fbaf078',
+        'com.google.firebase:firebase-core:07d1544aeed9690843858982ea5a69506038f94e93b5d031b741ba9164f6258a',
+        'com.google.android.gms:play-services-places:2d5c4e4ac3ee5be21b4ec544411bc51d11457b5ae2fa2a5d4539019f87c233c6',
+        'com.google.android.gms:play-services-maps:07f59c5955b759ce7b80ceaeb8261643c5b79acc9f180df2b7c3987658eed2e8',
+        'com.google.android.gms:play-services-auth:aec9e1c584d442cb9f59481a50b2c66dc191872607c04d97ecb82dd0eb5149ec',
+        'com.google.android.exoplayer:exoplayer-ui:7a942afcc402ff01e9bf48e8d3942850986710f06562d50a1408aaf04a683151',
+        'com.google.android.exoplayer:exoplayer-core:b6ab34abac36bc2bc6934b7a50008162feca2c0fde91aaf1e8c1c22f2c16e2c0',
+        'org.whispersystems:signal-service-android:0afd2cb17ed920611dacc54385f3ed375847c10ecd7839a025d9c61c387f7678',
+        'org.whispersystems:webrtc-android:0620880760976d78ef429dc8b383136981b9a72178e5d70f5affa681deffed69',
         'me.leolin:ShortcutBadger:e3cb3e7625892129b0c92dd5e4bc649faffdd526d5af26d9c45ee31ff8851774',
         'se.emilsjolander:stickylistheaders:a08ca948aa6b220f09d82f16bbbac395f6b78897e9eeac6a9f0b0ba755928eeb',
         'com.jpardogo.materialtabstrip:library:c6ef812fba4f74be7dc4a905faa4c2908cba261a94c13d4f96d5e67e4aad4aaa',
