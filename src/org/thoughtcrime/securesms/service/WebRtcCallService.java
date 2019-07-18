@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 
 import android.Manifest;
@@ -19,43 +19,43 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.telephony.TelephonyManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.contacts.ContactAccessor;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.FutureTaskListener;
-import org.thoughtcrime.securesms.util.ListenableFutureTask;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.webrtc.CallNotificationBuilder;
-import org.thoughtcrime.securesms.webrtc.CameraState;
-import org.thoughtcrime.securesms.webrtc.IncomingPstnCallReceiver;
-import org.thoughtcrime.securesms.webrtc.PeerConnectionFactoryOptions;
-import org.thoughtcrime.securesms.webrtc.PeerConnectionWrapper;
-import org.thoughtcrime.securesms.webrtc.PeerConnectionWrapper.PeerConnectionException;
-import org.thoughtcrime.securesms.webrtc.UncaughtExceptionHandlerManager;
-import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos;
-import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos.Connected;
-import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos.Data;
-import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos.Hangup;
-import org.thoughtcrime.securesms.webrtc.audio.BluetoothStateManager;
-import org.thoughtcrime.securesms.webrtc.audio.OutgoingRinger;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.WebRtcCallActivity;
+import org.bittube.messenger.contacts.ContactAccessor;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.RecipientDatabase.VibrateState;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.events.WebRtcViewModel;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.FutureTaskListener;
+import org.bittube.messenger.util.ListenableFutureTask;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.webrtc.CallNotificationBuilder;
+import org.bittube.messenger.webrtc.CameraState;
+import org.bittube.messenger.webrtc.IncomingPstnCallReceiver;
+import org.bittube.messenger.webrtc.PeerConnectionFactoryOptions;
+import org.bittube.messenger.webrtc.PeerConnectionWrapper;
+import org.bittube.messenger.webrtc.PeerConnectionWrapper.PeerConnectionException;
+import org.bittube.messenger.webrtc.UncaughtExceptionHandlerManager;
+import org.bittube.messenger.webrtc.WebRtcDataProtos;
+import org.bittube.messenger.webrtc.WebRtcDataProtos.Connected;
+import org.bittube.messenger.webrtc.WebRtcDataProtos.Data;
+import org.bittube.messenger.webrtc.WebRtcDataProtos.Hangup;
+import org.bittube.messenger.webrtc.audio.BluetoothStateManager;
+import org.bittube.messenger.webrtc.audio.OutgoingRinger;
+import org.bittube.messenger.webrtc.audio.SignalAudioManager;
+import org.bittube.messenger.webrtc.locks.LockManager;
 import org.webrtc.AudioTrack;
 import org.webrtc.DataChannel;
 import org.webrtc.EglBase;
@@ -98,10 +98,10 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
+import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 public class WebRtcCallService extends Service implements InjectableType,
                                                           PeerConnection.Observer,

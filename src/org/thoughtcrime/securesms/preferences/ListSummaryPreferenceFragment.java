@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.util.Arrays;
 

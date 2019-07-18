@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.bittube.messenger.mms.PartAuthority;
 
 public class DatabaseAttachment extends Attachment {
 

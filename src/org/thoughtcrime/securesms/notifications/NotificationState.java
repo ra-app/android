@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.bittube.messenger.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.ConversationActivity;
-import org.thoughtcrime.securesms.ConversationPopupActivity;
-import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.ConversationActivity;
+import org.bittube.messenger.ConversationPopupActivity;
+import org.bittube.messenger.database.RecipientDatabase.VibrateState;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.LinkedHashSet;
 import java.util.LinkedList;

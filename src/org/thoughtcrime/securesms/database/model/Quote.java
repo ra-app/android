@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.model;
+package org.bittube.messenger.database.model;
 
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.mms.SlideDeck;
 
 public class Quote {
 

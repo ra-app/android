@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager.requirements;
+package org.bittube.messenger.jobmanager.requirements;
 
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
+import org.bittube.messenger.jobmanager.Job;
 
 public abstract class SimpleRequirement implements Requirement {
 

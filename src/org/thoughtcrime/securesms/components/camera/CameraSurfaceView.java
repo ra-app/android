@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.camera;
+package org.bittube.messenger.components.camera;
 
 import android.content.Context;
 import android.view.SurfaceHolder;

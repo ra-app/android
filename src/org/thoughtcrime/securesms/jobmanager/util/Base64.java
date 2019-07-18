@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.util;
+package org.bittube.messenger.jobmanager.util;
 
 /*
  * Copyright (C) 2010 The Android Open Source Project

@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.thoughtcrime.securesms.scribbles.widget;
+package org.bittube.messenger.scribbles.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -49,12 +49,12 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.scribbles.multitouch.MoveGestureDetector;
-import org.thoughtcrime.securesms.scribbles.multitouch.RotateGestureDetector;
-import org.thoughtcrime.securesms.scribbles.widget.entity.MotionEntity;
-import org.thoughtcrime.securesms.scribbles.widget.entity.TextEntity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.scribbles.multitouch.MoveGestureDetector;
+import org.bittube.messenger.scribbles.multitouch.RotateGestureDetector;
+import org.bittube.messenger.scribbles.widget.entity.MotionEntity;
+import org.bittube.messenger.scribbles.widget.entity.TextEntity;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

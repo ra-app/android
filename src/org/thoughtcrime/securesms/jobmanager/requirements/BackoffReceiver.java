@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.requirements;
+package org.bittube.messenger.jobmanager.requirements;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -7,9 +7,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.logging.Log;
 
 import java.util.UUID;
 

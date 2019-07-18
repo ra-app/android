@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logging;
+package org.bittube.messenger.logging;
 
 public class GrowingBuffer {
 

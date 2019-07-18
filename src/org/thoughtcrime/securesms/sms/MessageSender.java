@@ -14,37 +14,37 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.sms;
+package org.bittube.messenger.sms;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MmsSendJob;
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
-import org.thoughtcrime.securesms.jobs.PushMediaSendJob;
-import org.thoughtcrime.securesms.jobs.PushTextSendJob;
-import org.thoughtcrime.securesms.jobs.SmsSendJob;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
-import org.thoughtcrime.securesms.push.AccountManagerFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.ExpiringMessageManager;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MmsMessageRecord;
+import org.bittube.messenger.jobmanager.JobManager;
+import org.bittube.messenger.jobs.MmsSendJob;
+import org.bittube.messenger.jobs.PushGroupSendJob;
+import org.bittube.messenger.jobs.PushMediaSendJob;
+import org.bittube.messenger.jobs.PushTextSendJob;
+import org.bittube.messenger.jobs.SmsSendJob;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.mms.OutgoingMediaMessage;
+import org.bittube.messenger.push.AccountManagerFactory;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.service.ExpiringMessageManager;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;

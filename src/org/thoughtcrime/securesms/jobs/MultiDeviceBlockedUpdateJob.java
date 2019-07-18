@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientReader;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
-import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.RecipientDatabase.RecipientReader;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
+import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
+import org.bittube.messenger.recipients.Recipient;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
 import org.whispersystems.signalservice.api.messages.multidevice.BlockedListMessage;

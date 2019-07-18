@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dualsim;
+package org.bittube.messenger.util.dualsim;
 
 import android.content.Context;
 import android.os.Build;

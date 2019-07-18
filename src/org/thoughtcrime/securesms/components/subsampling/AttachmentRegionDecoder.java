@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.subsampling;
+package org.bittube.messenger.components.subsampling;
 
 
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.net.Uri;
 import com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder;
 import com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.PartAuthority;
 
 import java.io.InputStream;
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -23,7 +23,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.widget.RecyclerView;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,23 +31,23 @@ import android.widget.TextView;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.ConversationAdapter.HeaderViewHolder;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.FastCursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.MmsSmsColumns;
-import org.thoughtcrime.securesms.database.MmsSmsDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Conversions;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.LRUCache;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.ConversationAdapter.HeaderViewHolder;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.FastCursorRecyclerViewAdapter;
+import org.bittube.messenger.database.MmsSmsColumns;
+import org.bittube.messenger.database.MmsSmsDatabase;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MmsMessageRecord;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.SlideDeck;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.Conversions;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.LRUCache;
+import org.bittube.messenger.util.StickyHeaderDecoration;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.lang.ref.SoftReference;

@@ -23,17 +23,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Obriši</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Onemogući lozinku?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Trajno ćete otključatiBittube Messengeri obavijesti o porukama.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Trajno ćete otključati Bittube Messenger i obavijesti o porukama.</string>
   <string name="ApplicationPreferencesActivity_disable">Onemogući</string>
   <string name="ApplicationPreferencesActivity_unregistering">Uklanjanje registracije</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Uklanjanje registracije naBittube Messengerporuke i pozive...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">OnemogućiBittube Messengerporuke i pozive?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">OnemogućiteBittube Messengerporuke i pozive tako što će ukloniti registraciju s poslužitelja. Trebat ćete ponovno registrirati vaš broj telefona kako biste ih koristili u budućnosti.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Uklanjanje registracije na Bittube Messenger poruke i pozive...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Onemogući Bittube Messenger poruke i pozive?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Onemogućite Bittube Messenger poruke i pozive tako što će ukloniti registraciju s poslužitelja. Trebat ćete ponovno registrirati vaš broj telefona kako biste ih koristili u budućnosti.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Greška prilikom povezivanja na poslužitelj!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS omogućen</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Pritisnite za promjenu zadane SMS aplikacije</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS onemogućen</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Pritisnite kako biste postaviliBittube Messengerkao zadanu SMS aplikaciju</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Pritisnite kako biste postavili Bittube Messenger kao zadanu SMS aplikaciju</string>
   <string name="ApplicationPreferencesActivity_on">uključeno</string>
   <string name="ApplicationPreferencesActivity_On">Uključeno</string>
   <string name="ApplicationPreferencesActivity_off">isključeno</string>
@@ -101,7 +101,7 @@
   <string name="ConversationItem_group_action_left">%1$s je napustio grupu.</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Nekriptirani SMS kao rezerva?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Nekriptirani MMS kao rezerva?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ova poruka <b>neće</b> biti kriptirana zato što primatelj nije višeBittube Messengerkorisnik.\n\nPošalji nesigurnu poruku?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ova poruka <b>neće</b> biti kriptirana zato što primatelj nije više Bittube Messenger korisnik.\n\nPošalji nesigurnu poruku?</string>
   <string name="ConversationItem_unable_to_open_media">Nije moguće pronaći aplikaciju za otvaranje ovog medija.</string>
   <string name="ConversationItem_copied_text">Kopirano %s</string>
   <string name="ConversationItem_from_s">od %s</string>
@@ -125,7 +125,7 @@
   <string name="ConversationActivity_transport_insecure_sms">Nesigurni SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nesigurni MMS</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Prebaci se naBittube Messenger%1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Prebaci se na Bittube Messenger %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Koristi ovo za razgovor: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Greška pri napuštanju grupe</string>
   <string name="ConversationActivity_specify_recipient">Odaberite kontakt</string>
@@ -138,7 +138,7 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Na vašem uređaju ne postoji aplikacija koja bi rukovala ovom poveznicom.</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Kako biste poslali audio poruku, dozvolite Signalu pristup vašem mikrofonu.</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal zahtijeva dozvolu pristupa Mikrofonu za slanje zvučnih poruka ali pristup biva odbijen. Molim otvorite opcije aplikacije, odaberite \"Dozvole\" i uključite \"Mikrofon\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Kako biste nazvali %s,Bittube Messengertreba pristup vašem mikrofonu i kameri.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Kako biste nazvali %s, Bittube Messenger treba pristup vašem mikrofonu i kameri.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal zahtijeva pristup Mikrofonu i Kameri za pozivanje %s ali pristup biva odbijen. Molim otvorite opcije aplikacije, odaberite \"Dozvole\" i uključite \"Mikrofon\" i \"Kamera\".</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Kako biste snimili slike i video, dozvolite Signalu pristup kameri.</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal zahtijeva pristup Kameri za fotografiranje i snimanje videa ali pristup biva odbijen. Molim otvorite opcije aplikacije, odaberite \"Dozvole\" i uključite \"Kamera\". </string>
@@ -255,7 +255,7 @@
   <string name="DocumentView_unknown_file">Nepoznata datoteka</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimiziraj za nedostatak Play Services</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Ovaj uređaj ne podržava Play Services. Pritisnite kako biste onemogućili sistemsku optimizaciju baterije koja spriječavaBittube Messengerda dohvaća poruke dok je uređaj neaktivan.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Ovaj uređaj ne podržava Play Services. Pritisnite kako biste onemogućili sistemsku optimizaciju baterije koja spriječava Bittube Messenger da dohvaća poruke dok je uređaj neaktivan.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Podijeli s</string>
   <!--ExperienceUpgradeActivity-->
@@ -265,15 +265,15 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure je sada Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure i RedPhone su sada jedna aplikacija: Signal. Pritisnite za pregled.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Pozdravite sigurne video pozive.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal sada podržava sigurne video pozive. Samo započniteBittube Messengerpoziv kao i inače, pritisnite video tipku, i mahnite sugovorniku.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal sada podržava sigurne video pozive. Samo započnite Bittube Messenger poziv kao i inače, pritisnite video tipku, i mahnite sugovorniku.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal sada podržava sigurne video pozive.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal sada podržava sigurne video pozive. Pritisnite kako biste istražili.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Spremni za snimku izbliza?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Sada možete podijeliti profilnu sliku i ime s prijateljima na Signalu</string>
   <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal profili su stigli</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trajna greška uBittube Messengerkomunikaciji!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal se nije uspješno registrirao na Google Play Services.Bittube Messengerporuke i pozivi su onemogućeni, pokušajte se ponovno registrirati kroz Postavke &gt; Napredno.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trajna greška u Bittube Messenger komunikaciji!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal se nije uspješno registrirao na Google Play Services. Bittube Messenger poruke i pozivi su onemogućeni, pokušajte se ponovno registrirati kroz Postavke &gt; Napredno.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Greška pri dohvaćanju GIFa pune rezolucije</string>
   <!--GiphyFragmentPageAdapter-->
@@ -284,15 +284,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Uredi grupu</string>
   <string name="GroupCreateActivity_group_name_hint">Naziv grupe</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Nova MMS grupa</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Odabrali ste kontakt koji ne podržavaBittube Messengergrupe, tako da će ovo biti MMS grupa.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Niste registrirani zaBittube Messengerporuke i pozive, tako da suBittube Messengergrupe onemogućene. Pokušajte se ponovno registrirati u Postavke &gt; Napredno.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Odabrali ste kontakt koji ne podržava Bittube Messenger grupe, tako da će ovo biti MMS grupa.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Niste registrirani za Bittube Messenger poruke i pozive, tako da su Bittube Messenger grupe onemogućene. Pokušajte se ponovno registrirati u Postavke &gt; Napredno.</string>
   <string name="GroupCreateActivity_contacts_no_members">Potrebna je barem jedna osoba u vašoj grupi!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Jedan od članova vaše grupe ima broj koji ne može biti ispravno pročitan. Ispravite ili uklonite taj kontakt i pokušajte ponovno.</string>
   <string name="GroupCreateActivity_avatar_content_description">Grupni avatar</string>
   <string name="GroupCreateActivity_menu_apply_button">Primjeni</string>
   <string name="GroupCreateActivity_creating_group">Stvaranje %1$s...</string>
   <string name="GroupCreateActivity_updating_group">Ažuriranje %1$s...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Nije moguće dodati %1$s jer nisuBittube Messengerkorisnici.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Nije moguće dodati %1$s jer nisu Bittube Messenger korisnici.</string>
   <string name="GroupCreateActivity_loading_group_details">Učitavanje detalja grupe...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Već ste u grupi.</string>
   <!--GroupShareProfileView-->
@@ -321,7 +321,7 @@
     <item quantity="few">Pošalji %dSMS pozivnice?</item>
     <item quantity="other">Pošalji %dSMS pozivnica?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Prebacimo se naBittube Messenger%1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Prebacimo se na Bittube Messenger %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Izgleda da nemate aplikacije s kojima je moguće dijeljenje.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Prijatelji paze da se njihovi prijatelji kriptirano dopisuju.</string>
   <!--MessageDetailsRecipient-->
@@ -349,8 +349,8 @@
   <string name="MediaOverviewActivity_Documents">Dokumenti</string>
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal poziv u tijeku</string>
-  <string name="NotificationBarManager__establishing_signal_call">UspostavljanjeBittube Messengerpoziva</string>
-  <string name="NotificationBarManager__incoming_signal_call">DolazniBittube Messengerpoziv</string>
+  <string name="NotificationBarManager__establishing_signal_call">Uspostavljanje Bittube Messenger poziva</string>
+  <string name="NotificationBarManager__incoming_signal_call">Dolazni Bittube Messenger poziv</string>
   <string name="NotificationBarManager__deny_call">Odbij poziv</string>
   <string name="NotificationBarManager__answer_call">Prihvati poziv</string>
   <string name="NotificationBarManager__end_call">Završi poziv</string>
@@ -360,7 +360,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Preuzimanje MMS poruke</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Greška pri preuzimanju MMS poruke, pritisnite za ponovni pokušaj</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Primljena je poruka kriptirana starom inačicomBittube Messengeraplikacije koja više nije podržana. Molimo zapitajte pošiljatelja da ažurira na najnoviju inačicu aplikacije i ponovno pošalje poruku.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Primljena je poruka kriptirana starom inačicom Bittube Messenger aplikacije koja više nije podržana. Molimo zapitajte pošiljatelja da ažurira na najnoviju inačicu aplikacije i ponovno pošalje poruku.</string>
   <string name="MessageRecord_left_group">Napustili ste grupu.</string>
   <string name="MessageRecord_you_updated_group">Ažurirali ste grupu.</string>
   <string name="MessageRecord_you_called">Zvali ste</string>
@@ -396,8 +396,8 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Neispravan QR kod.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Imate previše registriranih uređaja, pokušajte ukloniti neke</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Žao nam je, ovo nije važeći QR kôd za povezivanje uređaja.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">PovežiBittube Messengeruređaj?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Izgleda da pokušavate povezatiBittube Messengeruređaj pomoću strane aplikacije. Za Vašu vlastitu sigurnost molimo skenirajte kôd ponovno unutarBittube Messengeraplikacije.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Poveži Bittube Messenger uređaj?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Izgleda da pokušavate povezati Bittube Messenger uređaj pomoću strane aplikacije. Za Vašu vlastitu sigurnost molimo skenirajte kôd ponovno unutar Bittube Messenger aplikacije.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal zahtijeva pristup Kameri za skeniranje QR koda ali pristup biva odbijen. Molim otvorite opcije aplikacije, odaberite \"Dozvole\" i uključite \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nemoguće je skenirati QR kod bez dozvole pristupa Kameri.</string>
   <!--ExpirationDialog-->
@@ -515,11 +515,11 @@ Primljena poruka razmjene ključeva za pogrešnu inačicu protokola.</string>
   <string name="UnverifiedSendDialog_send_message">Pošalji poruku?</string>
   <string name="UnverifiedSendDialog_send">Pošalji</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Vaš kontakt koristi starijuBittube Messengerinačicu. Zamolite ih da ažurirajuBittube Messengerprije provjere sigurnosnog broja.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Vaš kontakt koristi novijuBittube Messengerinačicu s nekompatibilnim QR kod oblikom. Ažurirajte vašu inačicu kako biste usporedili.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Vaš kontakt koristi stariju Bittube Messenger inačicu. Zamolite ih da ažuriraju Bittube Messenger prije provjere sigurnosnog broja.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Vaš kontakt koristi noviju Bittube Messenger inačicu s nekompatibilnim QR kod oblikom. Ažurirajte vašu inačicu kako biste usporedili.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Skenirani QR kod nije ispravno oblikovan sigurnosni broj za provjeru. Pokušajte ponovno skenirati broj.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Podijelite sigurnosni broj putem...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">NašBittube Messengersigurnosni broj:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Naš Bittube Messenger sigurnosni broj:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Izgleda da nemate aplikacije s kojima je moguće dijeljenje.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Sigurnosni broj za usporedbu nije pronađen u međuspremniku</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal zahtijeva pristup Kameri za skeniranje QR koda ali pristup biva odbijen. Molim otvorite opcije aplikacije, odaberite \"Dozvole\" i uključite \"Kamera\".</string>
@@ -558,7 +558,7 @@ Primljena poruka razmjene ključeva za pogrešnu inačicu protokola.</string>
   <string name="MessageNotifier_media_message">Multimedijalna poruka</string>
   <string name="MessageNotifier_reply">Odgovori</string>
   <string name="MessageNotifier_pending_signal_messages">Signal poruke na čekanju</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">ImateBittube Messengerporuka na čekanju, pritisnite kako biste ih otvorili i preuzeli</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Imate Bittube Messenger poruka na čekanju, pritisnite kako biste ih otvorili i preuzeli</string>
   <string name="MessageNotifier_contact_message">%1$s%2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <!--Notification Channels-->
@@ -568,7 +568,7 @@ Primljena poruka razmjene ključeva za pogrešnu inačicu protokola.</string>
   <string name="NotificationChannel_group_messages">Poruke</string>
   <string name="NotificationChannel_missing_display_name">Nepoznato</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Brzi odgovor nije dostupan kada jeBittube Messengerzaključan!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Brzi odgovor nije dostupan kada je Bittube Messenger zaključan!</string>
   <string name="QuickResponseService_problem_sending_message">Greška prilikom slanja poruke!</string>
   <!--SaveAttachmentTask-->
   <!--SearchToolbar-->
@@ -631,7 +631,7 @@ Primljena poruka razmjene ključeva za pogrešnu inačicu protokola.</string>
   <string name="conversation_activity__attachment_thumbnail">Priložena sličica</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Uključi/isključi ladicu brze kamere</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Snimi i pošalji audio privitak</string>
-  <string name="conversation_activity__enable_signal_for_sms">OmogućiBittube Messengerza SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Omogući Bittube Messenger za SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">POVUCITE ZA PREKID</string>
   <!--conversation_item-->
@@ -706,7 +706,7 @@ Primljena poruka razmjene ključeva za pogrešnu inačicu protokola.</string>
   <string name="log_submit_activity__success">Uspješno!</string>
   <string name="log_submit_activity__copied_to_clipboard">Kopirano u međuspremnik</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Želite li uvesti vaše postojeće tekst poruke u kriptiranuBittube Messengerbazu podataka?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Želite li uvesti vaše postojeće tekst poruke u kriptiranu Bittube Messenger bazu podataka?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Zadana sistemska baza podataka neće biti izmjenjena na bilo koji način.</string>
   <string name="database_migration_activity__skip">Preskoči</string>
   <string name="database_migration_activity__import">Uvoz</string>
@@ -837,8 +837,8 @@ Uvezi nekriptiranu kopiju. Kompatibilno s \'SMSBackup And Restore\'.</string>
   <string name="preferences__sms_mms">SMS i MMS</string>
   <string name="preferences__pref_all_sms_title">Primi sve SMS</string>
   <string name="preferences__pref_all_mms_title">Primi sve MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">KoristiBittube Messengerza sve dolazne tekst poruke</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">KoristiBittube Messengerza sve dolazne multimedija poruke</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Koristi Bittube Messenger za sve dolazne tekst poruke</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Koristi Bittube Messenger za sve dolazne multimedija poruke</string>
   <string name="preferences__pref_enter_sends_title">Enter šalje poruku</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Pritisak na Enter će poslati tekst poruku</string>
   <string name="preferences__choose_identity">Odaberite identitet</string>
@@ -847,7 +847,7 @@ Uvezi nekriptiranu kopiju. Kompatibilno s \'SMSBackup And Restore\'.</string>
   <string name="preferences__change_your_passphrase">Izmijenite Vašu lozinku</string>
   <string name="preferences__screen_security">Sigurnost ekrana</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Onemogući snimanje ekrana na popisu nedavnih i unutar aplikacije</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatski zaključajBittube Messengernakon određenog vremenskog intervala neaktivnosti</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatski zaključaj Bittube Messenger nakon određenog vremenskog intervala neaktivnosti</string>
   <string name="preferences__inactivity_timeout_passphrase">Lozinka neaktivnosti</string>
   <string name="preferences__inactivity_timeout_interval">Interval neaktivnosti</string>
   <string name="preferences__notifications">Obavijesti</string>
@@ -900,7 +900,7 @@ Uvezi nekriptiranu kopiju. Kompatibilno s \'SMSBackup And Restore\'.</string>
   <string name="preferences__default">Zadano</string>
   <string name="preferences__language">Jezik</string>
   <string name="preferences__signal_messages_and_calls">Signal poruke i pozivi</string>
-  <string name="preferences__free_private_messages_and_calls">Besplatne privatne poruke i pozivi saBittube Messengerkorisnicima</string>
+  <string name="preferences__free_private_messages_and_calls">Besplatne privatne poruke i pozivi sa Bittube Messenger korisnicima</string>
   <string name="preferences__submit_debug_log">Pošalji debug zapis</string>
   <string name="preferences__support_wifi_calling">\'WiFi Calling\' način kompatibilnosti</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Omogućite ukoliko vaš uređaj koristi SMS/MMS isporuku preko WiFi (omogućite jedino kada je \'WiFi pozivanje\' omogućeno na vašem uređaju)</string>
@@ -915,8 +915,8 @@ Uvezi nekriptiranu kopiju. Kompatibilno s \'SMSBackup And Restore\'.</string>
   <string name="preferences_chats__media_auto_download">Automatsko preuzimanje media sadržaja</string>
   <string name="preferences_chats__message_trimming">Skraćivanje poruke</string>
   <string name="preferences_advanced__use_system_emoji">Koristi emotikone sustava</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Onemogući ugrađenuBittube Messengerpodršku za emotikone</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Preusmjeri sve pozive krozBittube Messengerposlužitelj kako biste izbjegli otkrivanje svoje IP adrese vašem kontaktu. Ukoliko ovo omogućite smanjit će se kvaliteta poziva.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Onemogući ugrađenu Bittube Messenger podršku za emotikone</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Preusmjeri sve pozive kroz Bittube Messenger poslužitelj kako biste izbjegli otkrivanje svoje IP adrese vašem kontaktu. Ukoliko ovo omogućite smanjit će se kvaliteta poziva.</string>
   <string name="preferences_advanced__always_relay_calls">Uvijek preusmjeri pozive</string>
   <string name="preferences_app_protection__app_access">Pristup aplikaciji</string>
   <string name="preferences_app_protection__communication">Komunikacija</string>
@@ -997,15 +997,15 @@ Uvezi nekriptiranu kopiju. Kompatibilno s \'SMSBackup And Restore\'.</string>
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Kopiraj u međuspremnik</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Usporedi s međuspremnikom</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">VašaBittube Messengerinačica je istekla!</string>
+  <string name="reminder_header_outdated_build">Vaša Bittube Messenger inačica je istekla!</string>
   <string name="reminder_header_outdated_build_details_today">Vaša će verzija Signala isteći danas. Dodirnite za ažuriranje na najnoviju inačicu.</string>
   <string name="reminder_header_expired_build">Vaša je verzija Signala istekla!</string>
   <string name="reminder_header_expired_build_details">Poruke više neće moći biti uspješno poslane. Pritisnite za ažuriranje na najnoviju inačicu.</string>
   <string name="reminder_header_sms_default_title">Koristi kao zadanu SMS aplikaciju</string>
-  <string name="reminder_header_sms_default_text">Pritisnite kako biste postaviliBittube Messengerkao zadanu SMS aplikaciju.</string>
+  <string name="reminder_header_sms_default_text">Pritisnite kako biste postavili Bittube Messenger kao zadanu SMS aplikaciju.</string>
   <string name="reminder_header_sms_import_title">Uvezi SMS poruke sustava</string>
-  <string name="reminder_header_sms_import_text">Dodirnite za uvoz postojećih tekstualnih poruka uBittube Messengerkriptiranu bazu podataka?</string>
-  <string name="reminder_header_push_title">OmogućiBittube Messengerporuke i pozive</string>
+  <string name="reminder_header_sms_import_text">Dodirnite za uvoz postojećih tekstualnih poruka u Bittube Messenger kriptiranu bazu podataka?</string>
+  <string name="reminder_header_push_title">Omogući Bittube Messenger poruke i pozive</string>
   <string name="reminder_header_push_text">Nadogradi svoje iskustvo komuniciranja.</string>
   <string name="reminder_header_invite_title">Pozovi u Signal</string>
   <string name="reminder_header_invite_text">Dovedite svoj razgovor s %1$s na sljedeću razinu.</string>

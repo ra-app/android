@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,10 +6,10 @@ import android.support.annotation.NonNull;
 import android.text.style.ClickableSpan;
 import android.view.View;
 
-import org.thoughtcrime.securesms.VerifyIdentityActivity;
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.bittube.messenger.VerifyIdentityActivity;
+import org.bittube.messenger.crypto.IdentityKeyParcelable;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.documents.IdentityKeyMismatch;
 import org.whispersystems.libsignal.IdentityKey;
 
 public class VerifySpan extends ClickableSpan {

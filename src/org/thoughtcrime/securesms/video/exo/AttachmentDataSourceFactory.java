@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.bittube.messenger.video.exo;
 
 
 import android.content.Context;

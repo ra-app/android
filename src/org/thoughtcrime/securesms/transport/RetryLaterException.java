@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.transport;
+package org.bittube.messenger.transport;
 
 import java.io.IOException;
 

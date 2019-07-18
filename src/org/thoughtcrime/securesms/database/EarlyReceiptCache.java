@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.LRUCache;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.LRUCache;
 
 import java.util.HashMap;
 import java.util.Map;

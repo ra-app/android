@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.sms;
+package org.bittube.messenger.sms;
 
-import org.thoughtcrime.securesms.database.Address;
+import org.bittube.messenger.database.Address;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 

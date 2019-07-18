@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.FrameLayout;
 import android.widget.GridView;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class EmojiPageView extends FrameLayout {
   private static final String TAG = EmojiPageView.class.getSimpleName();

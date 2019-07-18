@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.jobs.requirements;
+package org.bittube.messenger.jobs.requirements;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import org.thoughtcrime.securesms.jobmanager.requirements.RequirementListener;
-import org.thoughtcrime.securesms.jobmanager.requirements.RequirementProvider;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import org.bittube.messenger.jobmanager.requirements.RequirementListener;
+import org.bittube.messenger.jobmanager.requirements.RequirementProvider;
+import org.bittube.messenger.service.KeyCachingService;
 
 public class MasterSecretRequirementProvider implements RequirementProvider {
 

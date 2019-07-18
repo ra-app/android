@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Base64;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.Base64;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 
 import java.io.IOException;

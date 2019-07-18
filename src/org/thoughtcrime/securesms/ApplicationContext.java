@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -31,33 +31,33 @@ import android.support.v4.app.NotificationManagerCompat;
 
 import com.google.android.gms.security.ProviderInstaller;
 
-import org.thoughtcrime.securesms.crypto.PRNGFixes;
-import org.thoughtcrime.securesms.dependencies.AxolotlStorageModule;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.dependencies.SignalCommunicationModule;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobmanager.dependencies.DependencyInjector;
-import org.thoughtcrime.securesms.jobmanager.persistence.JavaJobSerializer;
-import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirementProvider;
-import org.thoughtcrime.securesms.jobs.CreateSignedPreKeyJob;
-import org.thoughtcrime.securesms.jobs.GcmRefreshJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceContactUpdateJob;
-import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirementProvider;
-import org.thoughtcrime.securesms.jobs.requirements.ServiceRequirementProvider;
-import org.thoughtcrime.securesms.jobs.requirements.SqlCipherMigrationRequirementProvider;
-import org.thoughtcrime.securesms.logging.AndroidLogger;
-import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.logging.PersistentLogger;
-import org.thoughtcrime.securesms.logging.UncaughtExceptionLogger;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
-import org.thoughtcrime.securesms.service.DirectoryRefreshListener;
-import org.thoughtcrime.securesms.service.ExpiringMessageManager;
-import org.thoughtcrime.securesms.service.LocalBackupListener;
-import org.thoughtcrime.securesms.service.RotateSignedPreKeyListener;
-import org.thoughtcrime.securesms.service.UpdateApkRefreshListener;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.crypto.PRNGFixes;
+import org.bittube.messenger.dependencies.AxolotlStorageModule;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.dependencies.SignalCommunicationModule;
+import org.bittube.messenger.jobmanager.JobManager;
+import org.bittube.messenger.jobmanager.dependencies.DependencyInjector;
+import org.bittube.messenger.jobmanager.persistence.JavaJobSerializer;
+import org.bittube.messenger.jobmanager.requirements.NetworkRequirementProvider;
+import org.bittube.messenger.jobs.CreateSignedPreKeyJob;
+import org.bittube.messenger.jobs.GcmRefreshJob;
+import org.bittube.messenger.jobs.MultiDeviceContactUpdateJob;
+import org.bittube.messenger.jobs.requirements.MasterSecretRequirementProvider;
+import org.bittube.messenger.jobs.requirements.ServiceRequirementProvider;
+import org.bittube.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
+import org.bittube.messenger.logging.AndroidLogger;
+import org.bittube.messenger.logging.CustomSignalProtocolLogger;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.logging.PersistentLogger;
+import org.bittube.messenger.logging.UncaughtExceptionLogger;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.push.SignalServiceNetworkAccess;
+import org.bittube.messenger.service.DirectoryRefreshListener;
+import org.bittube.messenger.service.ExpiringMessageManager;
+import org.bittube.messenger.service.LocalBackupListener;
+import org.bittube.messenger.service.RotateSignedPreKeyListener;
+import org.bittube.messenger.service.UpdateApkRefreshListener;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.webrtc.PeerConnectionFactory;
 import org.webrtc.PeerConnectionFactory.InitializationOptions;
 import org.webrtc.voiceengine.WebRtcAudioManager;
@@ -153,7 +153,7 @@ public class ApplicationContext extends MultiDexApplication implements Dependenc
 
   private void initializeLogging() {
     persistentLogger = new PersistentLogger(this);
-    org.thoughtcrime.securesms.logging.Log.initialize(new AndroidLogger(), persistentLogger);
+    org.bittube.messenger.logging.Log.initialize(new AndroidLogger(), persistentLogger);
 
     SignalProtocolLoggerProvider.setProvider(new CustomSignalProtocolLogger());
   }

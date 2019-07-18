@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 
 import android.content.Context;
@@ -8,12 +8,12 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.AsyncLoader;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.AsyncLoader;
 
 public class PagingMediaLoader extends AsyncLoader<Pair<Cursor, Integer>> {
 

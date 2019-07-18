@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 import android.net.Uri;
 import android.support.annotation.NonNull;

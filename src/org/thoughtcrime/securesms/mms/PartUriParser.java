@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.ContentUris;
 import android.net.Uri;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.bittube.messenger.attachments.AttachmentId;
 
 public class PartUriParser {
 

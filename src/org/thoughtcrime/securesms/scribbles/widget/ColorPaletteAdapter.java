@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.widget;
+package org.bittube.messenger.scribbles.widget;
 
 import android.graphics.PorterDuff;
 import android.support.annotation.NonNull;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.qr;
+package org.bittube.messenger.qr;
 
 public interface ScanListener {
   public void onQrDataFound(String data);

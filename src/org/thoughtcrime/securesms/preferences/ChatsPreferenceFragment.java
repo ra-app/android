@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -16,19 +16,19 @@ import android.text.TextUtils;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupDialog;
-import org.thoughtcrime.securesms.backup.FullBackupBase.BackupEvent;
-import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.preferences.widgets.ProgressPreference;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Trimmer;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.ApplicationPreferencesActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.backup.BackupDialog;
+import org.bittube.messenger.backup.FullBackupBase.BackupEvent;
+import org.bittube.messenger.components.SwitchPreferenceCompat;
+import org.bittube.messenger.jobs.LocalBackupJob;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.preferences.widgets.ProgressPreference;
+import org.bittube.messenger.util.BackupUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Trimmer;
 
 import java.util.ArrayList;
 import java.util.List;

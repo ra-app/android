@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.logging.Log;
 
 /**
  * Represents the information required to find the {@link MessageRecord} pointed to by a quote.

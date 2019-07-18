@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -16,11 +16,11 @@ import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.support.v4.app.NotificationCompat;
 
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.SmsMigrator;
-import org.thoughtcrime.securesms.database.SmsMigrator.ProgressDescription;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.SmsMigrator;
+import org.bittube.messenger.database.SmsMigrator.ProgressDescription;
+import org.bittube.messenger.notifications.NotificationChannels;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.Executor;
@@ -31,8 +31,8 @@ public class ApplicationMigrationService extends Service
     implements SmsMigrator.SmsMigrationProgressListener
 {
   private static final String TAG               = ApplicationMigrationService.class.getSimpleName();
-  public  static final String MIGRATE_DATABASE  = "org.thoughtcrime.securesms.ApplicationMigration.MIGRATE_DATABSE";
-  public  static final String COMPLETED_ACTION  = "org.thoughtcrime.securesms.ApplicationMigrationService.COMPLETED";
+  public  static final String MIGRATE_DATABASE  = "org.bittube.messenger.ApplicationMigration.MIGRATE_DATABSE";
+  public  static final String COMPLETED_ACTION  = "org.bittube.messenger.ApplicationMigrationService.COMPLETED";
   private static final String PREFERENCES_NAME  = "SecureSMS";
   private static final String DATABASE_MIGRATED = "migrated";
 

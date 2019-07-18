@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.multitouch;
+package org.bittube.messenger.scribbles.multitouch;
 
 import android.content.Context;
 import android.view.MotionEvent;

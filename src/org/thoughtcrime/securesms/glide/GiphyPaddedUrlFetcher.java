@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.bittube.messenger.glide;
 
 
 import android.support.annotation.NonNull;
@@ -8,9 +8,9 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.bumptech.glide.util.ContentLengthInputStream;
 
-import org.thoughtcrime.securesms.giph.model.GiphyPaddedUrl;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.giph.model.GiphyPaddedUrl;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Util;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

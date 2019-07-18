@@ -5,7 +5,7 @@
  * Released under the MIT license
  */
 
-package org.thoughtcrime.securesms.scribbles.widget;
+package org.bittube.messenger.scribbles.widget;
 
 
 import android.content.Context;

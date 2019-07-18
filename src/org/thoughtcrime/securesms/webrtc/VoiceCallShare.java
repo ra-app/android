@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.bittube.messenger.webrtc;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.service.WebRtcCallService;
+import org.bittube.messenger.WebRtcCallActivity;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.service.WebRtcCallService;
 
 public class VoiceCallShare extends Activity {
   

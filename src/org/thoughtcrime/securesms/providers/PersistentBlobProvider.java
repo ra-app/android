@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.bittube.messenger.providers;
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
@@ -7,17 +7,17 @@ import android.content.UriMatcher;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 import android.webkit.MimeTypeMap;
 
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.util.FileProviderUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
+import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.bittube.messenger.util.FileProviderUtil;
+import org.bittube.messenger.util.Util;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -34,9 +34,9 @@ public class PersistentBlobProvider {
 
   private static final String TAG = PersistentBlobProvider.class.getSimpleName();
 
-  private static final String     URI_STRING            = "content://org.thoughtcrime.securesms/capture-new";
+  private static final String     URI_STRING            = "content://org.bittube.messenger/capture-new";
   public  static final Uri        CONTENT_URI           = Uri.parse(URI_STRING);
-  public  static final String     AUTHORITY             = "org.thoughtcrime.securesms";
+  public  static final String     AUTHORITY             = "org.bittube.messenger";
   public  static final String     EXPECTED_PATH_OLD     = "capture/*/*/#";
   public  static final String     EXPECTED_PATH_NEW     = "capture-new/*/*/*/*/#";
 

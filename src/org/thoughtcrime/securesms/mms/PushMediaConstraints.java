@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 
 public class PushMediaConstraints extends MediaConstraints {
 

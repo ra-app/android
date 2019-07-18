@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.PreKeyUtil;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.crypto.PreKeyUtil;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
 import org.whispersystems.libsignal.InvalidKeyIdException;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyStore;
@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import static org.thoughtcrime.securesms.dependencies.AxolotlStorageModule.SignedPreKeyStoreFactory;
+import static org.bittube.messenger.dependencies.AxolotlStorageModule.SignedPreKeyStoreFactory;
 
 public class CleanPreKeysJob extends MasterSecretJob implements InjectableType {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.bittube.messenger.components.webrtc;
 
 
 import android.annotation.TargetApi;
@@ -16,11 +16,11 @@ import android.widget.LinearLayout;
 import com.tomergoldst.tooltips.ToolTip;
 import com.tomergoldst.tooltips.ToolTipsManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AccessibleToggleButton;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.webrtc.CameraState;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.AccessibleToggleButton;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.webrtc.CameraState;
 
 public class WebRtcCallControls extends LinearLayout {
 

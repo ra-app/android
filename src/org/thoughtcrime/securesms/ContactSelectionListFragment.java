@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 
 import android.Manifest;
@@ -40,19 +40,19 @@ import android.widget.Toast;
 
 import com.pnikosis.materialishprogress.ProgressWheel;
 
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
-import org.thoughtcrime.securesms.contacts.ContactSelectionListAdapter;
-import org.thoughtcrime.securesms.contacts.ContactSelectionListItem;
-import org.thoughtcrime.securesms.contacts.ContactsCursorLoader;
-import org.thoughtcrime.securesms.contacts.ContactsCursorLoader.DisplayMode;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.DirectoryHelper;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.components.RecyclerViewFastScroller;
+import org.bittube.messenger.contacts.ContactSelectionListAdapter;
+import org.bittube.messenger.contacts.ContactSelectionListItem;
+import org.bittube.messenger.contacts.ContactsCursorLoader;
+import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.bittube.messenger.database.CursorRecyclerViewAdapter;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.util.DirectoryHelper;
+import org.bittube.messenger.util.StickyHeaderDecoration;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.io.IOException;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
@@ -10,11 +10,11 @@ import android.support.v7.app.AlertDialog;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.NoExternalStorageException;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.io.File;

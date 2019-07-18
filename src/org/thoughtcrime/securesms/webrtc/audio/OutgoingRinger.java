@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package org.bittube.messenger.webrtc.audio;
 
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,13 +11,13 @@ import android.support.annotation.ArrayRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.jobs.requirements.SqlCipherMigrationRequirementProvider;
-import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
+import org.bittube.messenger.R;
+import org.bittube.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
+import org.bittube.messenger.lock.RegistrationLockReminders;
+import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
 import org.whispersystems.libsignal.util.Medium;
 
 import java.io.IOException;

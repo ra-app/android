@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search;
+package org.bittube.messenger.search;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,18 +11,18 @@ import android.text.TextUtils;
 import com.annimon.stream.Stream;
 
 
-import org.thoughtcrime.securesms.contacts.ContactAccessor;
-import org.thoughtcrime.securesms.contacts.ContactsDatabase;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.CursorList;
-import org.thoughtcrime.securesms.database.MmsSmsColumns;
-import org.thoughtcrime.securesms.database.SearchDatabase;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.search.model.MessageResult;
-import org.thoughtcrime.securesms.search.model.SearchResult;
+import org.bittube.messenger.contacts.ContactAccessor;
+import org.bittube.messenger.contacts.ContactsDatabase;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.CursorList;
+import org.bittube.messenger.database.MmsSmsColumns;
+import org.bittube.messenger.database.SearchDatabase;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.search.model.MessageResult;
+import org.bittube.messenger.search.model.SearchResult;
 
 import java.util.HashSet;
 import java.util.List;

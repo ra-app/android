@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.scribbles;
+package org.bittube.messenger.scribbles;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.AsyncLoader;
+import org.bittube.messenger.util.AsyncLoader;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -7,23 +7,23 @@ import android.net.Uri;
 import android.os.Build;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.model.SmsMessageRecord;
-import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
-import org.thoughtcrime.securesms.jobs.requirements.NetworkOrServiceRequirement;
-import org.thoughtcrime.securesms.jobs.requirements.ServiceRequirement;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.SmsDeliveryListener;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.NumberUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.NoSuchMessageException;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.model.SmsMessageRecord;
+import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
+import org.bittube.messenger.jobs.requirements.NetworkOrServiceRequirement;
+import org.bittube.messenger.jobs.requirements.ServiceRequirement;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.service.SmsDeliveryListener;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.NumberUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.jobmanager.JobParameters;
 
 import java.util.ArrayList;
 

@@ -1,23 +1,23 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 
 import android.Manifest;
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.FullBackupExporter;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.StorageUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.backup.FullBackupExporter;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.NoExternalStorageException;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.service.GenericForegroundService;
+import org.bittube.messenger.util.BackupUtil;
+import org.bittube.messenger.util.StorageUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.IOException;

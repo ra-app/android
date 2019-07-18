@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MmsSmsDatabase;
-import org.thoughtcrime.securesms.util.AbstractCursorLoader;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MmsSmsDatabase;
+import org.bittube.messenger.util.AbstractCursorLoader;
 
 public class MessageDetailsLoader extends AbstractCursorLoader {
   private final String type;

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.service.KeyCachingService;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.service.KeyCachingService;
 
 public abstract class MasterSecretJob extends ContextJob {
 

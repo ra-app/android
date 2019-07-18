@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -12,17 +12,17 @@ import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.view.ViewPager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.melnykov.fab.FloatingActionButton;
 import com.nineoldandroids.animation.ArgbEvaluator;
 
-import org.thoughtcrime.securesms.IntroPagerAdapter.IntroPage;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.IntroPagerAdapter.IntroPage;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;
@@ -30,7 +30,7 @@ import java.util.List;
 
 public class ExperienceUpgradeActivity extends BaseActionBarActivity {
   private static final String TAG             = ExperienceUpgradeActivity.class.getSimpleName();
-  private static final String DISMISS_ACTION  = "org.thoughtcrime.securesms.ExperienceUpgradeActivity.DISMISS_ACTION";
+  private static final String DISMISS_ACTION  = "org.bittube.messenger.ExperienceUpgradeActivity.DISMISS_ACTION";
   private static final int    NOTIFICATION_ID = 1339;
 
   private enum ExperienceUpgrade {

@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.jobmanager.persistence;
+package org.bittube.messenger.jobmanager.persistence;
 
-import org.thoughtcrime.securesms.jobmanager.EncryptionKeys;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.util.Base64;
+import org.bittube.messenger.jobmanager.EncryptionKeys;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.util.Base64;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -29,7 +29,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- * An implementation of {@link org.thoughtcrime.securesms.jobmanager.persistence.JobSerializer} that uses
+ * An implementation of {@link org.bittube.messenger.jobmanager.persistence.JobSerializer} that uses
  * Java Serialization.
  *
  * NOTE: This {@link JobSerializer} does not support encryption. Jobs will be serialized normally,

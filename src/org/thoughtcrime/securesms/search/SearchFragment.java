@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search;
+package org.bittube.messenger.search;
 
 import android.annotation.SuppressLint;
 import android.arch.lifecycle.ViewModelProviders;
@@ -17,18 +17,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.ConversationActivity;
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.ContactAccessor;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.search.model.MessageResult;
-import org.thoughtcrime.securesms.search.model.SearchResult;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.bittube.messenger.ConversationActivity;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.contacts.ContactAccessor;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.search.model.MessageResult;
+import org.bittube.messenger.search.model.SearchResult;
+import org.bittube.messenger.util.StickyHeaderDecoration;
 
 import java.util.Locale;
 import java.util.concurrent.Executors;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.util.Conversions;
 
 import java.io.File;
 import java.io.FileInputStream;

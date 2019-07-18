@@ -67,7 +67,7 @@
             android:padding="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"/>
 
-        <org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker
+        <org.bittube.messenger.scribbles.widget.VerticalSlideColorPicker
             android:id="@+id/scribble_color_picker"
             android:layout_width="26dp"
             android:layout_height="170dp"

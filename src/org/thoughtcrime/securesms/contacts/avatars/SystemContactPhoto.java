@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.util.Conversions;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

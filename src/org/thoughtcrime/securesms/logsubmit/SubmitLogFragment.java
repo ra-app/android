@@ -15,7 +15,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.logsubmit;
+package org.bittube.messenger.logsubmit;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -50,13 +50,13 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.logsubmit.util.Scrubber;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.contactshare.SimpleTextWatcher;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.logsubmit.util.Scrubber;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.io.BufferedReader;
 import java.io.IOException;

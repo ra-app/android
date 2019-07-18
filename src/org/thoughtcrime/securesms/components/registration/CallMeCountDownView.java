@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.bittube.messenger.components.registration;
 
 
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class CallMeCountDownView extends RelativeLayout {
 

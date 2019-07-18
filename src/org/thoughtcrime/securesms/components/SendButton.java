@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageButton;
 
-import org.thoughtcrime.securesms.TransportOption;
-import org.thoughtcrime.securesms.TransportOptions;
-import org.thoughtcrime.securesms.TransportOptions.OnTransportChangedListener;
-import org.thoughtcrime.securesms.TransportOptionsPopup;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.TransportOption;
+import org.bittube.messenger.TransportOptions;
+import org.bittube.messenger.TransportOptions.OnTransportChangedListener;
+import org.bittube.messenger.TransportOptionsPopup;
+import org.bittube.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class SendButton extends ImageButton

@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -34,18 +34,18 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.preference.Preference;
 
-import org.thoughtcrime.securesms.preferences.AdvancedPreferenceFragment;
-import org.thoughtcrime.securesms.preferences.AppProtectionPreferenceFragment;
-import org.thoughtcrime.securesms.preferences.AppearancePreferenceFragment;
-import org.thoughtcrime.securesms.preferences.ChatsPreferenceFragment;
-import org.thoughtcrime.securesms.preferences.CorrectedPreferenceFragment;
-import org.thoughtcrime.securesms.preferences.NotificationsPreferenceFragment;
-import org.thoughtcrime.securesms.preferences.SmsMmsPreferenceFragment;
-import org.thoughtcrime.securesms.preferences.widgets.ProfilePreference;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.preferences.AdvancedPreferenceFragment;
+import org.bittube.messenger.preferences.AppProtectionPreferenceFragment;
+import org.bittube.messenger.preferences.AppearancePreferenceFragment;
+import org.bittube.messenger.preferences.ChatsPreferenceFragment;
+import org.bittube.messenger.preferences.CorrectedPreferenceFragment;
+import org.bittube.messenger.preferences.NotificationsPreferenceFragment;
+import org.bittube.messenger.preferences.SmsMmsPreferenceFragment;
+import org.bittube.messenger.preferences.widgets.ProfilePreference;
+import org.bittube.messenger.service.KeyCachingService;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 /**
  * The Activity for application preference display and management.

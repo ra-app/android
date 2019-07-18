@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.CommunicationActions;
 
 public class ShortcutLauncherActivity extends AppCompatActivity {
 

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import junit.framework.AssertionFailedError;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
+import org.bittube.messenger.BaseUnitTest;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -8,11 +8,11 @@
  * freely, as long as the origin is not misrepresented.
  */
 
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 import android.os.Build;
 import android.os.Process;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;

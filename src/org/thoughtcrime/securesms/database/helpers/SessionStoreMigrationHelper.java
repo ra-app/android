@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.bittube.messenger.database.helpers;
 
 
 import android.content.ContentValues;
 import android.content.Context;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.SessionDatabase;
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.SessionDatabase;
+import org.bittube.messenger.util.Conversions;
 import org.whispersystems.libsignal.state.SessionRecord;
 import org.whispersystems.libsignal.state.SessionState;
 import org.whispersystems.libsignal.state.StorageProtos.SessionStructure;

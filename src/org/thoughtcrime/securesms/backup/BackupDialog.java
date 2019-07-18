@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.bittube.messenger.backup;
 
 
 import android.content.ClipData;
@@ -11,12 +11,12 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
-import org.thoughtcrime.securesms.service.LocalBackupListener;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.SwitchPreferenceCompat;
+import org.bittube.messenger.service.LocalBackupListener;
+import org.bittube.messenger.util.BackupUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 public class BackupDialog {
 

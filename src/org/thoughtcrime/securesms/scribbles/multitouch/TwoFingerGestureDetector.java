@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.scribbles.multitouch;
+package org.bittube.messenger.scribbles.multitouch;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 /**
  * @author Almer Thie (code.almeros.com)

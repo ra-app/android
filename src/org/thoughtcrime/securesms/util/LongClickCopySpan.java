@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.annotation.TargetApi;
 import android.content.ClipData;
@@ -9,7 +9,7 @@ import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class LongClickCopySpan extends URLSpan {
   private static final String PREFIX_MAILTO = "mailto:";

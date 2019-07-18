@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,12 +17,12 @@ import android.widget.LinearLayout;
 
 import com.astuetz.PagerSlidingTabStrip;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.InputAwareLayout.InputView;
-import org.thoughtcrime.securesms.components.RepeatableImageKey;
-import org.thoughtcrime.securesms.components.RepeatableImageKey.KeyEventListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView.EmojiSelectionListener;
-import org.thoughtcrime.securesms.util.ResUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.InputAwareLayout.InputView;
+import org.bittube.messenger.components.RepeatableImageKey;
+import org.bittube.messenger.components.RepeatableImageKey.KeyEventListener;
+import org.bittube.messenger.components.emoji.EmojiPageView.EmojiSelectionListener;
+import org.bittube.messenger.util.ResUtil;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <org.bittube.messenger.components.ThumbnailView
         android:id="@+id/conversation_thumbnail_image"
         android:layout_width="@dimen/media_bubble_default_dimens"
         android:layout_height="@dimen/media_bubble_default_dimens"
@@ -22,7 +22,7 @@
         android:visibility="gone"
         android:src="@drawable/image_shade" />
 
-    <org.thoughtcrime.securesms.components.ConversationItemFooter
+    <org.bittube.messenger.components.ConversationItemFooter
         android:id="@+id/conversation_thumbnail_footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -39,27 +39,27 @@ import android.widget.TextView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.components.AlertView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.DeliveryStatusView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.search.model.MessageResult;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.components.AlertView;
+import org.bittube.messenger.components.AvatarImageView;
+import org.bittube.messenger.components.DeliveryStatusView;
+import org.bittube.messenger.components.FromTextView;
+import org.bittube.messenger.components.ThumbnailView;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.search.model.MessageResult;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.ThemeUtil;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-import static org.thoughtcrime.securesms.util.SpanUtil.color;
+import static org.bittube.messenger.util.SpanUtil.color;
 
 public class ConversationListItem extends RelativeLayout
                                   implements RecipientModifiedListener,

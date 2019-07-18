@@ -31,7 +31,7 @@
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS lubatud</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Klõpsa, et vahetada SMSi vaikerakendust</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS keelatud</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Puuduta, et tehaBittube MessengerSMSi vaikerakenduseks.</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Puuduta, et teha Bittube Messenger SMSi vaikerakenduseks.</string>
   <string name="ApplicationPreferencesActivity_on">sees</string>
   <string name="ApplicationPreferencesActivity_On">Sees</string>
   <string name="ApplicationPreferencesActivity_off">väljas</string>
@@ -459,7 +459,7 @@
   <string name="RegistrationActivity_less_information">Vähem infot</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal vajab sinu kontaktidele ja meediale ligipääsu, et ühenduda sõpradega, vahetada sõnumeid ja teha turvalisi kõnesid</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Teenusega ei saanud ühendust. Palun kontrolli võrguühendust ja proovi uuesti.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Et sinu telefoninumbrit lihtsalt kinnitada, võibBittube Messengerautomaatselt tuvastada sinu kinnituskoodi, kui lubad sellel vaadata SMS-sõnumeid.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Et sinu telefoninumbrit lihtsalt kinnitada, võib Bittube Messenger automaatselt tuvastada sinu kinnituskoodi, kui lubad sellel vaadata SMS-sõnumeid.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Pildi muutuste salvestamine ebaõnnestus</string>
   <!--Search-->
@@ -588,7 +588,7 @@
   <string name="NotificationChannel_group_messages">Sõnumid</string>
   <string name="NotificationChannel_missing_display_name">Tundmatu</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kuiBittube Messengeron lukustatud!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui Bittube Messenger on lukustatud!</string>
   <string name="QuickResponseService_problem_sending_message">Sõnumi saatmisel esines probleem!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Salvestatud kohta %s</string>
@@ -662,7 +662,7 @@
   <string name="conversation_activity__attachment_thumbnail">Manuse pisipilt</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Lülita kiire kaamera manuse sahtel sisse või välja</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Salvesta ja saada helimanus</string>
-  <string name="conversation_activity__enable_signal_for_sms">LubaBittube MessengerSMSide jaoks</string>
+  <string name="conversation_activity__enable_signal_for_sms">Luba Bittube Messenger SMSide jaoks</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">LIBISTA TÜHISTAMISEKS</string>
   <!--conversation_item-->
@@ -916,7 +916,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lukusta ekraan ja teated salaväljendiga</string>
   <string name="preferences__screen_security">Kuva turvamine</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokeeri kuvatõmmised viimatiste nimekirjas ja rakenduse sees</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">LukustaBittube Messengerautomaatselt pärast määratud ebaaktiivsuse ajaintervalli</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukusta Bittube Messenger automaatselt pärast määratud ebaaktiivsuse ajaintervalli</string>
   <string name="preferences__inactivity_timeout_passphrase">Salaväljend ebaaktiivsuse ajalõpus</string>
   <string name="preferences__inactivity_timeout_interval">Ebaaktiivsuse ajalõpu pikkus</string>
   <string name="preferences__notifications">Teated</string>
@@ -1082,7 +1082,7 @@
   <string name="reminder_header_expired_build">Sinu Signali versioon on aegunud!</string>
   <string name="reminder_header_expired_build_details">Sõnumeid ei saadeta enam edukalt. Koputa, et uuendada uusimale versioonile.</string>
   <string name="reminder_header_sms_default_title">Kasuta vaikimisi SMS-rakendusena</string>
-  <string name="reminder_header_sms_default_text">Koputa, et tehaBittube MessengerSMSi vaikerakenduseks.</string>
+  <string name="reminder_header_sms_default_text">Koputa, et teha Bittube Messenger SMSi vaikerakenduseks.</string>
   <string name="reminder_header_sms_import_title">Impordi süsteemi SMSid</string>
   <string name="reminder_header_sms_import_text">Koputa, et kopeerida oma telefoni SMS-sõnumid Signali krüptitud andmebaasi.</string>
   <string name="reminder_header_push_title">Luba Signali sõnumid ja kõned</string>
@@ -1121,7 +1121,7 @@
   <string name="PushDecryptJob_new_locked_message">Uus lukustatud sõnum</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Ava lukk ootel sõnumite vaatamiseks</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Ava lukk uuenduse lõpuleviimiseks</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Palun lukustaBittube Messengerlahti uuenduse lõpuleviimiseks</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Palun lukusta Bittube Messenger lahti uuenduse lõpuleviimiseks</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Varunduse salaväljend</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varundused salvestatakse välismällu ja krüptitakse valitud salaväljendiga. Sul peab see salaväljend olemas olema, et taastada antud varundust.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ma olen salaväljendi üles kirjutanud. Ilma selleta ei saa ma varundust taastada.</string>
@@ -1183,7 +1183,7 @@
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Selle telefoninumbri registreerimine ilma registreerimisluku PINita on võimalik 7 päeva möödudes ajast, mil number oli viimati Signalis aktiivne. Sul on %d päeva veel jäänud.</string>
   <string name="RegistrationActivity_registration_lock_pin">Registreerimisluku PIN</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Sellel telefoninumbril on registreerimislukk peal. Palun sisesta registreerimisluku PIN.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registreerimislukk on sinu telefoninumbrile lubatud. Et aidata sul seda meelde jätta, küsibBittube Messengerperioodiliselt selle kinnitust.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registreerimislukk on sinu telefoninumbrile lubatud. Et aidata sul seda meelde jätta, küsib Bittube Messenger perioodiliselt selle kinnitust.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Ma unustasin oma PINi.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Unustasid PINi?</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registreerimislukk aitab kaitsta sinu telefoninumbrit soovimatute registreerimiskatsete eest. Seda funktsiooni saab igal ajal keelata sinu Signali privaatsusseadetest.</string>

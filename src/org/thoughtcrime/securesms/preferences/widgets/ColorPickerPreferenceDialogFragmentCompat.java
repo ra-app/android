@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package org.bittube.messenger.preferences.widgets;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

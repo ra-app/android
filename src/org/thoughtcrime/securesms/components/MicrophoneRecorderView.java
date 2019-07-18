@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.Manifest;
 import android.content.Context;
@@ -18,9 +18,9 @@ import android.view.animation.TranslateAnimation;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.util.ViewUtil;
 
 public class MicrophoneRecorderView extends FrameLayout implements View.OnTouchListener {
 

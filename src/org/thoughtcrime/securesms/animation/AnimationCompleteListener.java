@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation;
+package org.bittube.messenger.animation;
 
 
 import android.animation.Animator;

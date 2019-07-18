@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.bittube.messenger.groups;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,21 +8,21 @@ import android.support.annotation.Nullable;
 
 import com.google.protobuf.ByteString;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
-import org.thoughtcrime.securesms.providers.SingleUseBlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.GroupUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.UriAttachment;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
+import org.bittube.messenger.providers.SingleUseBlobProvider;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.MessageSender;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.GroupUtil;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

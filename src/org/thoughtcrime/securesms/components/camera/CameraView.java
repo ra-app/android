@@ -13,7 +13,7 @@
  limitations under the License.
  */
 
-package org.thoughtcrime.securesms.components.camera;
+package org.bittube.messenger.components.camera;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -32,17 +32,17 @@ import android.os.Build.VERSION;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.OrientationEventListener;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.scribbles.widget;
+package org.bittube.messenger.scribbles.widget;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -38,14 +38,14 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.request.transition.Transition;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.scribbles.widget.entity.MotionEntity;
-import org.thoughtcrime.securesms.scribbles.widget.entity.TextEntity;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.scribbles.widget.entity.MotionEntity;
+import org.bittube.messenger.scribbles.widget.entity.TextEntity;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.glide.cache;
+package org.bittube.messenger.glide.cache;
 
 
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 
 import java.io.File;
 import java.io.FileInputStream;

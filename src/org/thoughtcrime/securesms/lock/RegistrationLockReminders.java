@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.lock;
+package org.bittube.messenger.lock;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

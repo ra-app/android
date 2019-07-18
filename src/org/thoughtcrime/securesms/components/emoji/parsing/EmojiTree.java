@@ -18,7 +18,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.thoughtcrime.securesms.components.emoji.parsing;
+package org.bittube.messenger.components.emoji.parsing;
 
 import android.support.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 
 import android.Manifest;
@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v4.content.CursorLoader;
 
-import org.thoughtcrime.securesms.permissions.Permissions;
+import org.bittube.messenger.permissions.Permissions;
 
 public class RecentPhotosLoader extends CursorLoader {
 

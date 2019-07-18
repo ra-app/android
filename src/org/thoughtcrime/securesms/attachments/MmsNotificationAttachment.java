@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.MmsDatabase;
 
 public class MmsNotificationAttachment extends Attachment {
 

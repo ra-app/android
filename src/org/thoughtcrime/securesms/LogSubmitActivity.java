@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.logsubmit.SubmitLogFragment;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.bittube.messenger.logsubmit.SubmitLogFragment;
+import org.bittube.messenger.util.DynamicTheme;
 
 /**
  * Activity for submitting logcat logs to a pastebin service.

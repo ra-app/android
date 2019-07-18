@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.bittube.messenger.permissions;
 
 
 import android.app.AlertDialog;
@@ -14,8 +14,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ViewUtil;
 
 public class RationaleDialog {
 

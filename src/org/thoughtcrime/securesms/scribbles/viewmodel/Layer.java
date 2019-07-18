@@ -20,10 +20,10 @@
  * SOFTWARE.
  */
 
-package org.thoughtcrime.securesms.scribbles.viewmodel;
+package org.bittube.messenger.scribbles.viewmodel;
 
 import android.support.annotation.FloatRange;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 public class Layer {
 

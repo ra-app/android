@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.transport;
+package org.bittube.messenger.transport;
 
 public class InsecureFallbackApprovalException extends Exception {
   public InsecureFallbackApprovalException(String detailMessage) {

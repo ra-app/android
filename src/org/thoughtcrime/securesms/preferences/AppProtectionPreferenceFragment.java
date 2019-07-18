@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
@@ -12,18 +12,18 @@ import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
-import org.thoughtcrime.securesms.BlockedContactsActivity;
-import org.thoughtcrime.securesms.PassphraseChangeActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadReceiptUpdateJob;
-import org.thoughtcrime.securesms.lock.RegistrationLockDialog;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.ApplicationPreferencesActivity;
+import org.bittube.messenger.BlockedContactsActivity;
+import org.bittube.messenger.PassphraseChangeActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.SwitchPreferenceCompat;
+import org.bittube.messenger.crypto.MasterSecretUtil;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobs.MultiDeviceReadReceiptUpdateJob;
+import org.bittube.messenger.lock.RegistrationLockDialog;
+import org.bittube.messenger.service.KeyCachingService;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 import java.util.concurrent.TimeUnit;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -23,9 +23,9 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.util.MediaUtil;
 
 public class ImageSlide extends Slide {
 

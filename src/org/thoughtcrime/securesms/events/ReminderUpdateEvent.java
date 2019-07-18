@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.events;
+package org.bittube.messenger.events;
 
 
 public class ReminderUpdateEvent {

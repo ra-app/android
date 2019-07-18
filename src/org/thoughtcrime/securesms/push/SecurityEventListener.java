@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.push;
+package org.bittube.messenger.push;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.crypto.SecurityEvent;
+import org.bittube.messenger.crypto.SecurityEvent;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

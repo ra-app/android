@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-package org.thoughtcrime.securesms.scribbles.viewmodel;
+package org.bittube.messenger.scribbles.viewmodel;
 
 public class TextLayer extends Layer {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package org.bittube.messenger.preferences.widgets;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,7 +17,7 @@ import com.takisoft.colorpicker.ColorPickerDialog;
 import com.takisoft.colorpicker.ColorPickerDialog.Size;
 import com.takisoft.colorpicker.ColorStateDrawable;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class ColorPickerPreference extends DialogPreference {
 

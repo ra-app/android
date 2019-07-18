@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 
 import android.Manifest;
@@ -19,7 +19,7 @@ import android.support.annotation.RequiresApi;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -33,29 +33,29 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.dd.CircularProgressButton;
 import com.soundcloud.android.crop.Crop;
 
-import org.thoughtcrime.securesms.components.InputAwareLayout;
-import org.thoughtcrime.securesms.components.emoji.EmojiDrawer;
-import org.thoughtcrime.securesms.components.emoji.EmojiToggle;
-import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobs.MultiDeviceProfileKeyUpdateJob;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.ProfileMediaConstraints;
-import org.thoughtcrime.securesms.profiles.SystemProfileUtil;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.FileProviderUtil;
-import org.thoughtcrime.securesms.util.IntentUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.bittube.messenger.components.InputAwareLayout;
+import org.bittube.messenger.components.emoji.EmojiDrawer;
+import org.bittube.messenger.components.emoji.EmojiToggle;
+import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
+import org.bittube.messenger.crypto.ProfileKeyUtil;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobs.MultiDeviceProfileKeyUpdateJob;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.profiles.AvatarHelper;
+import org.bittube.messenger.profiles.ProfileMediaConstraints;
+import org.bittube.messenger.profiles.SystemProfileUtil;
+import org.bittube.messenger.util.BitmapDecodingException;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.FileProviderUtil;
+import org.bittube.messenger.util.IntentUtils;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.crypto.ProfileCipher;
 import org.whispersystems.signalservice.api.util.StreamDetails;
@@ -384,7 +384,7 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
     }
 
     if (includeClear) {
-      extraIntents.add(new Intent("org.thoughtcrime.securesms.action.CLEAR_PROFILE_PHOTO"));
+      extraIntents.add(new Intent("org.bittube.messenger.action.CLEAR_PROFILE_PHOTO"));
     }
 
     Intent chooserIntent = Intent.createChooser(galleryIntent, getString(R.string.CreateProfileActivity_profile_photo));

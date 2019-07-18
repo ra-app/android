@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.giph.model;
+package org.bittube.messenger.giph.model;
 
 
 import android.support.annotation.NonNull;
 
 import com.bumptech.glide.load.Key;
 
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.util.Conversions;
 
 import java.security.MessageDigest;
 

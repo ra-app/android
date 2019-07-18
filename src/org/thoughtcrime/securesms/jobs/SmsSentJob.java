@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.app.Activity;
 import android.content.Context;
 import android.telephony.SmsManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.model.SmsMessageRecord;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.service.SmsDeliveryListener;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.NoSuchMessageException;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.model.SmsMessageRecord;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.service.SmsDeliveryListener;
 
 public class SmsSentJob extends MasterSecretJob {
 

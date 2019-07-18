@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.camera;
+package org.bittube.messenger.components.camera;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -22,14 +22,14 @@ import android.widget.ImageButton;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.InputAwareLayout.InputView;
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout;
-import org.thoughtcrime.securesms.components.camera.CameraView.CameraViewListener;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.InputAwareLayout.InputView;
+import org.bittube.messenger.components.KeyboardAwareLinearLayout;
+import org.bittube.messenger.components.camera.CameraView.CameraViewListener;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
 
 public class QuickAttachmentDrawer extends ViewGroup implements InputView, CameraViewListener {
   private static final String TAG = QuickAttachmentDrawer.class.getSimpleName();

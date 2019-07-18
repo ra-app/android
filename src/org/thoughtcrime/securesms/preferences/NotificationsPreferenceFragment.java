@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,12 +14,12 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationPreferencesActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.SwitchPreferenceCompat;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import static android.app.Activity.RESULT_OK;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.bittube.messenger.glide;
 
 import android.support.annotation.NonNull;
 

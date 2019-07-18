@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.util.MediaUtil;
 
 public class GifSlide extends ImageSlide {
 

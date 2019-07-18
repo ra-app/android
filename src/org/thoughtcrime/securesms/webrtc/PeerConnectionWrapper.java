@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.bittube.messenger.webrtc;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 import org.webrtc.AudioSource;
 import org.webrtc.AudioTrack;
 import org.webrtc.Camera1Enumerator;
@@ -29,10 +29,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import static org.thoughtcrime.securesms.webrtc.CameraState.Direction.BACK;
-import static org.thoughtcrime.securesms.webrtc.CameraState.Direction.FRONT;
-import static org.thoughtcrime.securesms.webrtc.CameraState.Direction.NONE;
-import static org.thoughtcrime.securesms.webrtc.CameraState.Direction.PENDING;
+import static org.bittube.messenger.webrtc.CameraState.Direction.BACK;
+import static org.bittube.messenger.webrtc.CameraState.Direction.FRONT;
+import static org.bittube.messenger.webrtc.CameraState.Direction.NONE;
+import static org.bittube.messenger.webrtc.CameraState.Direction.PENDING;
 
 public class PeerConnectionWrapper {
   private static final String TAG = PeerConnectionWrapper.class.getSimpleName();

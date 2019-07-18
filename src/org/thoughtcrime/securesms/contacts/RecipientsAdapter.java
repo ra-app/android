@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.thoughtcrime.securesms.contacts;
+package org.bittube.messenger.contacts;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.RecipientsFormatter;
+import org.bittube.messenger.R;
+import org.bittube.messenger.recipients.RecipientsFormatter;
 
 import android.content.ContentResolver;
 import android.content.Context;

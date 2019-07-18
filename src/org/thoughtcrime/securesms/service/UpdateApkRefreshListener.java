@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 
 import android.content.Context;
 import android.content.Intent;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.jobs.UpdateApkJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.jobs.UpdateApkJob;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

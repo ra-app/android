@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.emoji.parsing;
+package org.bittube.messenger.components.emoji.parsing;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.ListenableFutureTask;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.components.emoji.EmojiPageModel;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.ListenableFutureTask;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 import java.lang.ref.SoftReference;

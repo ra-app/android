@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -39,7 +39,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.OnScrollListener;
 import android.text.ClipboardManager;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -53,32 +53,32 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
-import org.thoughtcrime.securesms.ConversationAdapter.HeaderViewHolder;
-import org.thoughtcrime.securesms.ConversationAdapter.ItemClickListener;
-import org.thoughtcrime.securesms.contactshare.ContactUtil;
-import org.thoughtcrime.securesms.contactshare.SharedContactDetailsActivity;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MmsSmsDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.loaders.ConversationLoader;
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.profiles.UnknownSenderView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.SaveAttachmentTask;
-import org.thoughtcrime.securesms.util.SaveAttachmentTask.Attachment;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.ConversationAdapter.HeaderViewHolder;
+import org.bittube.messenger.ConversationAdapter.ItemClickListener;
+import org.bittube.messenger.contactshare.ContactUtil;
+import org.bittube.messenger.contactshare.SharedContactDetailsActivity;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MmsSmsDatabase;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.loaders.ConversationLoader;
+import org.bittube.messenger.database.model.MediaMmsMessageRecord;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MmsMessageRecord;
+import org.bittube.messenger.jobs.DirectoryRefreshJob;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.OutgoingMediaMessage;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.profiles.UnknownSenderView;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.MessageSender;
+import org.bittube.messenger.sms.OutgoingTextMessage;
+import org.bittube.messenger.util.CommunicationActions;
+import org.bittube.messenger.util.SaveAttachmentTask;
+import org.bittube.messenger.util.SaveAttachmentTask.Attachment;
+import org.bittube.messenger.util.StickyHeaderDecoration;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collections;
 import java.util.Comparator;

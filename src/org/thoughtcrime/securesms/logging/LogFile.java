@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.logging;
+package org.bittube.messenger.logging;
 
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Conversions;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Conversions;
+import org.bittube.messenger.util.Util;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

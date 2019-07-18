@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 
 import android.app.PendingIntent;
@@ -10,9 +10,9 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.notifications.NotificationChannels;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

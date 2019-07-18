@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.bittube.messenger.webrtc;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -11,12 +11,12 @@ import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 import android.support.v4.app.NotificationCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.WebRtcCallService;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.WebRtcCallActivity;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.service.WebRtcCallService;
+import org.bittube.messenger.util.ServiceUtil;
 
 /**
  * Manages the state of the WebRtc items in the Android notification bar.

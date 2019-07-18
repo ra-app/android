@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.bittube.messenger.components.registration;
 
 
 import android.content.Context;
@@ -19,10 +19,10 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 public class VerificationPinKeyboard extends FrameLayout {
 

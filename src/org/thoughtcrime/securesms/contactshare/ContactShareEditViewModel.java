@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.bittube.messenger.contactshare;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import android.support.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.contactshare.Contact.Name;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.bittube.messenger.contactshare.Contact.Name;
+import org.bittube.messenger.util.SingleLiveEvent;
 
 import java.util.ArrayList;
 import java.util.List;

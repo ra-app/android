@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.gcm;
+package org.bittube.messenger.gcm;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.jobs.PushContentReceiveJob;
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.jobs.PushContentReceiveJob;
+import org.bittube.messenger.jobs.PushNotificationReceiveJob;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
 

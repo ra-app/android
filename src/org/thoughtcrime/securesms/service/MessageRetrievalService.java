@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -6,18 +6,18 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.gcm.GcmBroadcastReceiver;
-import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
-import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirementProvider;
-import org.thoughtcrime.securesms.jobmanager.requirements.RequirementListener;
-import org.thoughtcrime.securesms.jobs.PushContentReceiveJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.gcm.GcmBroadcastReceiver;
+import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
+import org.bittube.messenger.jobmanager.requirements.NetworkRequirementProvider;
+import org.bittube.messenger.jobmanager.requirements.RequirementListener;
+import org.bittube.messenger.jobs.PushContentReceiveJob;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidVersionException;
 import org.whispersystems.signalservice.api.SignalServiceMessagePipe;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
@@ -88,7 +88,7 @@ public class MessageRetrievalService extends Service implements InjectableType, 
       retrievalThread.stopThread();
     }
 
-    sendBroadcast(new Intent("org.thoughtcrime.securesms.RESTART"));
+    sendBroadcast(new Intent("org.bittube.messenger.RESTART"));
   }
 
   @Override

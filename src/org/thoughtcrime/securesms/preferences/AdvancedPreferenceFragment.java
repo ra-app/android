@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,20 +14,20 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.widget.Toast;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
-import org.thoughtcrime.securesms.LogSubmitActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.RegistrationActivity;
-import org.thoughtcrime.securesms.contacts.ContactAccessor;
-import org.thoughtcrime.securesms.contacts.ContactIdentityManager;
-import org.thoughtcrime.securesms.push.AccountManagerFactory;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.ApplicationPreferencesActivity;
+import org.bittube.messenger.LogSubmitActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.RegistrationActivity;
+import org.bittube.messenger.contacts.ContactAccessor;
+import org.bittube.messenger.contacts.ContactIdentityManager;
+import org.bittube.messenger.push.AccountManagerFactory;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.AuthorizationFailedException;

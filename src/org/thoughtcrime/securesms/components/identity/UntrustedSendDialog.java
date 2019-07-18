@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.identity;
+package org.bittube.messenger.components.identity;
 
 
 import android.content.Context;
@@ -7,10 +7,10 @@ import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.IdentityDatabase;
-import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.IdentityDatabase;
+import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
 
 import java.util.List;
 

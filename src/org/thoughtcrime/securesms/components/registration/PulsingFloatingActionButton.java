@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.bittube.messenger.components.registration;
 
 
 import android.animation.Animator;
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
+import org.bittube.messenger.animation.AnimationCompleteListener;
 
 public class PulsingFloatingActionButton extends FloatingActionButton {
 

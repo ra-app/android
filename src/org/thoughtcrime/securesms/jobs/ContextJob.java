@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.jobmanager.dependencies.ContextDependent;
 
 public abstract class ContextJob extends Job implements ContextDependent {
 

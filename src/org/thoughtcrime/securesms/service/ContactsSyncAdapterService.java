@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.contacts.ContactsSyncAdapter;
+import org.bittube.messenger.contacts.ContactsSyncAdapter;
 
 public class ContactsSyncAdapterService extends Service {
 

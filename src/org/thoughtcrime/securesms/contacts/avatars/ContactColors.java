@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.color.MaterialColors;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.color.MaterialColors;
 
 public class ContactColors {
 

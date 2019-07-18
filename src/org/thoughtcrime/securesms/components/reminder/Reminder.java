@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

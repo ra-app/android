@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.StorageUtil;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.util.StorageUtil;
 
 public class DocumentSlide extends Slide {
 

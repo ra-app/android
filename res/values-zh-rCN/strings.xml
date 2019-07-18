@@ -49,10 +49,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(回复)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">无法找到用于选择媒体的应用。</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择Bittube Messenger应用，并启用\"存储空间\"权限。</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal 需要\"通讯录\"权限才能发送联系人名片信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择Bittube Messenger应用，并启用\"通讯录\"权限。</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal 需要\"位置信息\"权限才能发送位置信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择Bittube Messenger应用，并启用\"位置信息\"权限。</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal 需要\"相机\"权限才能拍照并发送相片，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择Bittube Messenger应用，并启用\"相机\"权限。</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Bittube Messenger 应用，并启用\"存储空间\"权限。</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal 需要\"通讯录\"权限才能发送联系人名片信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Bittube Messenger 应用，并启用\"通讯录\"权限。</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal 需要\"位置信息\"权限才能发送位置信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Bittube Messenger 应用，并启用\"位置信息\"权限。</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal 需要\"相机\"权限才能拍照并发送相片，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Bittube Messenger 应用，并启用\"相机\"权限。</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">播放音频时出现错误！</string>
   <!--BlockedContactsActivity-->
@@ -68,7 +68,7 @@
   <string name="ClearProfileActivity_remove">删除</string>
   <string name="ClearProfileActivity_remove_profile_photo">删除头像</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s 的安全代码发生了改变。这可能是因为有人正在尝试截获你们的通讯，或者 %2$s 只是重新安装了Bittube Messenger。</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s 的安全代码发生了改变。这可能是因为有人正在尝试截获你们的通讯，或者 %2$s 只是重新安装了 Bittube Messenger 。</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">您可能希望验证这个联系人的安全码。</string>
   <string name="ConfirmIdentityDialog_accept">接受</string>
   <!--ContactsCursorLoader-->
@@ -131,11 +131,11 @@
   <string name="ConversationActivity_quick_camera_unavailable">摄像头不可用</string>
   <string name="ConversationActivity_unable_to_record_audio">无法录音！</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的设备上没有应用程序能打开这个链接。</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">如果想要发送语音信息，请允许Bittube Messenger使用您设备的麦克风。</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">如果想要发送语音信息，请允许 Bittube Messenger 使用您设备的麦克风。</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal 需要麦克风权限才能发送语音信息，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”。</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Signal 需要使用您的麦克风和照相机来给%s打电话。</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal 需要麦克风和相机权限以呼叫 %s ，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”和“相机”。</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许Bittube Messenger访问相机。</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许 Bittube Messenger 访问相机。</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需要相机权限来拍摄照片或录制视频。但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal 需要相机权限以拍摄照片或视频</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
@@ -230,7 +230,7 @@
   <string name="DocumentView_unknown_file">未知文件</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">对缺失的 Google Play服务进行优化</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">此设备不支持 Google Play 服务。点击以禁用系统电池优化以避免Bittube Messenger无法收到新消息。</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">此设备不支持 Google Play 服务。点击以禁用系统电池优化以避免 Bittube Messenger 无法收到新消息。</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">共享给</string>
   <!--ExperienceUpgradeActivity-->
@@ -240,7 +240,7 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure 已命名为 暗号 。</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">从现在起， TextSecure 和 RedPhone 将是同一个信息平台：暗号。点击以开始探索。</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">试试我们的加密视频通话吧。</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal 现在支持视频通话了！同往常一样开始一个Bittube Messenger通话，然后点击启用视频按钮，同您的联系人问好吧。</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal 现在支持视频通话了！同往常一样开始一个 Bittube Messenger 通话，然后点击启用视频按钮，同您的联系人问好吧。</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal 现在支持视频通话了</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal 现在支持视频通话了，点击以探索此新功能。</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">要拍近照了，准备好了吗？</string>
@@ -337,7 +337,7 @@
   <string name="MessageRecord_s_called_you">%s 呼叫过您</string>
   <string name="MessageRecord_called_s">已呼叫 %s</string>
   <string name="MessageRecord_missed_call_from">来自 %s 的未接来电</string>
-  <string name="MessageRecord_s_joined_signal">%s 在Bittube Messenger上！</string>
+  <string name="MessageRecord_s_joined_signal">%s 在 Bittube Messenger 上！</string>
   <string name="MessageRecord_your_safety_number_with_s_has_changed">您与 %s 的安全代码已经改变</string>
   <string name="MessageRecord_you_marked_your_safety_number_with_s_verified">您已标记您的安全号码 %s 已验证</string>
   <string name="MessageRecord_you_marked_your_safety_number_with_s_verified_from_another_device">您已标记您的安全号码 %s 已在另一台设备上验证</string>
@@ -419,7 +419,7 @@
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">您所指定的号码
 (%s) 无效。</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play 服务缺失</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">此设备缺少 Google Play 服务框架。您仍能使用 Signal，但是Bittube Messenger的功能与稳定性会因此受到很大影响。\n\n如果您不是高级用户，并且运行的是原厂安卓手机操作系统，或者您觉得此错误信息不正确，请使用英文联系 support@whispersystems.org 我们会尝试帮助您解决此问题。</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">此设备缺少 Google Play 服务框架。您仍能使用 Signal，但是 Bittube Messenger 的功能与稳定性会因此受到很大影响。\n\n如果您不是高级用户，并且运行的是原厂安卓手机操作系统，或者您觉得此错误信息不正确，请使用英文联系 support@whispersystems.org 我们会尝试帮助您解决此问题。</string>
   <string name="RegistrationActivity_i_understand">了解</string>
   <string name="RegistrationActivity_play_services_error">Google Play 服务错误</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play 服务正在更新或者暂时不可用。请稍后再试。</string>
@@ -428,8 +428,8 @@
   <string name="RegistrationActivity_more_information">展开</string>
   <string name="RegistrationActivity_less_information">隐藏</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal 需要访问您的联系人和媒体以连接您的朋友，外部存储信息，并建立安全呼叫。</string>
-  <string name="RegistrationActivity_unable_to_connect_to_service">无法连接到Bittube Messenger服务。请检查您的网络连接。</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">为了方便验证您的号码，如果您能允许Bittube Messenger查看您的短信，便可自动检测您的验证代码。</string>
+  <string name="RegistrationActivity_unable_to_connect_to_service">无法连接到 Bittube Messenger 服务。请检查您的网络连接。</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">为了方便验证您的号码，如果您能允许 Bittube Messenger 查看您的短信，便可自动检测您的验证代码。</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">无法保存图像更改</string>
   <!--Search-->
@@ -467,7 +467,7 @@
   <string name="ThreadRecord_called_you">呼叫您的</string>
   <string name="ThreadRecord_missed_call">未接来电</string>
   <string name="ThreadRecord_media_message">多媒体信息</string>
-  <string name="ThreadRecord_s_is_on_signal">%s 在Bittube Messenger上！</string>
+  <string name="ThreadRecord_s_is_on_signal">%s 在 Bittube Messenger 上！</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">信息销毁时间设置为 %s</string>
   <string name="ThreadRecord_safety_number_changed">安全代码已改变</string>
   <string name="ThreadRecord_your_safety_number_with_s_has_changed">您与 %s 的安全码已经改变</string>
@@ -490,11 +490,11 @@
   <string name="UnverifiedSendDialog_send_message">发送信息？</string>
   <string name="UnverifiedSendDialog_send">发送</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的联系人使用的是旧版本的 Signal，在请求对方验证安全码前，请先让对方升级Bittube Messenger客户端。</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的联系人使用的是新版本的 Signal，程序无法识别这个联系人的二维码。请升级您的Bittube Messenger。</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的联系人使用的是旧版本的 Signal，在请求对方验证安全码前，请先让对方升级 Bittube Messenger 客户端。</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的联系人使用的是新版本的 Signal，程序无法识别这个联系人的二维码。请升级您的 Bittube Messenger 。</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">扫描的二维码不正确。请重新扫一次。</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">通过……分享安全码</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">我们的Bittube Messenger安全码：</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">我们的 Bittube Messenger 安全码：</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">看起来您没有任何可以共享的应用。</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">剪切板中没有安全代码进行比较</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal 需要相机权限以扫描 QR 码，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
@@ -568,10 +568,10 @@
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">播放视频时出错</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">如要接听来自 %s 的通话，请首先允许Bittube Messenger访问您设备的麦克风。</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">如要接听来自 %s 的通话，请首先允许 Bittube Messenger 访问您设备的麦克风。</string>
   <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal 需要麦克风和相机权限才能发送或接受呼叫，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”和“相机”。</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">%1$s 的安全码发生了改变。这可能是因为有人正在尝试截获你们的通讯，或者 %2$s 只是重新安装了Bittube Messenger。</string>
+  <string name="WebRtcCallScreen_new_safety_numbers">%1$s 的安全码发生了改变。这可能是因为有人正在尝试截获你们的通讯，或者 %2$s 只是重新安装了 Bittube Messenger 。</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">您可能希望验证这个联系人的安全代码。</string>
   <string name="WebRtcCallScreen_new_safety_number_title">新的安全代码</string>
   <string name="WebRtcCallScreen_accept">接受</string>
@@ -606,7 +606,7 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">联系人照片</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择Bittube Messenger应用，并启用\"通讯录\"权限。</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Bittube Messenger 应用，并启用\"通讯录\"权限。</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">无法获取通讯录数据，请检查您的网络连接</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">没有屏蔽的联系人</string>
@@ -614,7 +614,7 @@
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal 需要访问您的联系人才能显示他们。</string>
   <string name="contact_selection_list_fragment__show_contacts">显示联系人</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">发送Bittube Messenger信息</string>
+  <string name="conversation_activity__type_message_push">发送 Bittube Messenger 信息</string>
   <string name="conversation_activity__type_message_sms_insecure">未加密的短信</string>
   <string name="conversation_activity__type_message_mms_insecure">未加密的彩信</string>
   <string name="conversation_activity__from_sim_name">来自 %1$s</string>
@@ -624,7 +624,7 @@
   <string name="conversation_activity__attachment_thumbnail">附件缩略图</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切换快速相机附件抽屉</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">录音并分享文件</string>
-  <string name="conversation_activity__enable_signal_for_sms"> 将Bittube Messenger设置为默认短信应用</string>
+  <string name="conversation_activity__enable_signal_for_sms"> 将 Bittube Messenger 设置为默认短信应用</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">滑动以取消</string>
   <!--conversation_item-->
@@ -690,9 +690,9 @@
   <string name="IdentityUtil_unverified_banner_one">您的安全号码 %s 已经改变并且不再被验证</string>
   <string name="IdentityUtil_unverified_banner_two">您的安全号码 %1$s 和 %2$s 已经不再被验证</string>
   <string name="IdentityUtil_unverified_banner_many">您的安全号码 %1$s ， %2$s 和 %3$s 已经不再被验证</string>
-  <string name="IdentityUtil_unverified_dialog_one">您的安全号码 %1$s 已经被改变并且不再被验证。这意味着可能有人正在尝试拦截您的通信，或者 %1$s 只是简单的重装Bittube Messenger。</string>
-  <string name="IdentityUtil_unverified_dialog_two">您的安全号码 %1$s 和 %2$s 已经被改变并且不再被验证。这意味着可能有人正在尝试拦截您的通信，或者只是简单的重装Bittube Messenger。</string>
-  <string name="IdentityUtil_unverified_dialog_many">您的安全号码 %1$s ， %2$s 和 %3$s 已经被改变并且不再被验证。这意味着可能有人正在尝试拦截您的通信，或者只是简单的重装Bittube Messenger。</string>
+  <string name="IdentityUtil_unverified_dialog_one">您的安全号码 %1$s 已经被改变并且不再被验证。这意味着可能有人正在尝试拦截您的通信，或者 %1$s 只是简单的重装 Bittube Messenger 。</string>
+  <string name="IdentityUtil_unverified_dialog_two">您的安全号码 %1$s 和 %2$s 已经被改变并且不再被验证。这意味着可能有人正在尝试拦截您的通信，或者只是简单的重装 Bittube Messenger 。</string>
+  <string name="IdentityUtil_unverified_dialog_many">您的安全号码 %1$s ， %2$s 和 %3$s 已经被改变并且不再被验证。这意味着可能有人正在尝试拦截您的通信，或者只是简单的重装 Bittube Messenger 。</string>
   <string name="IdentityUtil_untrusted_dialog_one">您的安全号码 %s 刚刚被改变。</string>
   <string name="IdentityUtil_untrusted_dialog_two">您的安全号码 %1$s 和 %2$s 刚刚被改变。</string>
   <string name="IdentityUtil_untrusted_dialog_many">您的安全号码 %1$s ， %2$s 和 %3$s 刚刚被改变。</string>
@@ -771,7 +771,7 @@
   <string name="redphone_call_controls__flip_camera_rear">切换摄像头</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">电话号码</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal 使用您的电话号码以及您手机上的联系人来更好地帮助您沟通。如此，已经了解您的联系方式的朋友及联系人将能够更轻松地使用Bittube Messenger来与您联络。\n\n注册时联系人将会被上传到服务器，但是他们不会被保存在服务器上。</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal 使用您的电话号码以及您手机上的联系人来更好地帮助您沟通。如此，已经了解您的联系方式的朋友及联系人将能够更轻松地使用 Bittube Messenger 来与您联络。\n\n注册时联系人将会被上传到服务器，但是他们不会被保存在服务器上。</string>
   <string name="registration_activity__verify_your_number">验证您的号码</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">请输入您的电话号码来接收验证码。运营商可能会对此收费。</string>
   <!--recipients_panel-->
@@ -927,7 +927,7 @@
   <string name="preferences_chats__message_trimming">信息整理</string>
   <string name="preferences_advanced__use_system_emoji">使用系统表情符号</string>
   <string name="preferences_advanced__disable_signal_built_in_emoji_support">禁用暗号内置的表情支持</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">使所有呼叫通过Bittube Messenger服务器中转，这样可以避免你的联系人知道你的 IP 地址。但启用此功能会降低通话质量。</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">使所有呼叫通过 Bittube Messenger 服务器中转，这样可以避免你的联系人知道你的 IP 地址。但启用此功能会降低通话质量。</string>
   <string name="preferences_advanced__always_relay_calls">总是中继通话</string>
   <string name="preferences_app_protection__app_access">应用保护</string>
   <string name="preferences_app_protection__communication">通讯</string>
@@ -939,7 +939,7 @@
   <string name="preferences_notifications__calls">通话</string>
   <string name="preferences_notifications__ringtone">铃声</string>
   <string name="preferences_chats__show_invitation_prompts">显示邀请提示</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">显示未使用Bittube Messenger联系人的邀请提示</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">显示未使用 Bittube Messenger 联系人的邀请提示</string>
   <string name="preferences_chats__message_text_size">字体大小</string>
   <string name="preferences_events__contact_joined_signal">联系人加入了 Signal</string>
   <string name="preferences_notifications__priority">优先级</string>
@@ -1054,13 +1054,13 @@
   <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal 需要短信权限以发送短信，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“短信”。</string>
   <string name="Permissions_continue">继续</string>
   <string name="Permissions_not_now">稍后再说</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择Bittube Messenger应用，并启用\"通讯录\"权限。 </string>
-  <string name="conversation_activity__enable_signal_messages">启用Bittube Messenger信息</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">迁移Bittube Messenger数据库</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Bittube Messenger 应用，并启用\"通讯录\"权限。 </string>
+  <string name="conversation_activity__enable_signal_messages">启用 Bittube Messenger 信息</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">迁移 Bittube Messenger 数据库</string>
   <string name="PushDecryptJob_new_locked_message">新的锁定信息</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">解锁才能查看消息</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">解锁才能完成更新</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">请解锁Bittube Messenger来完成更新</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">请解锁 Bittube Messenger 来完成更新</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">备份密码</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">备份将会被保存至外部存储并使用下面的密码加密。您需要使用此密码才能恢复备份。</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已记下此密码。我知道如果没有该密码，我将无法恢复备份。</string>
@@ -1110,7 +1110,7 @@
   <string name="registration_lock_dialog_view__confirm_pin">确认 PIN</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">输入您的注册锁定 PIN</string>
   <string name="registration_lock_reminder_view__enter_pin">输入 PIN</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">如果启用注册锁定 PIN 的话，Signal 服务将会在下次于Bittube Messenger中注册此电话号码时要求此密码。</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">如果启用注册锁定 PIN 的话，Signal 服务将会在下次于 Bittube Messenger 中注册此电话号码时要求此密码。</string>
   <string name="preferences_app_protection__registration_lock_pin">注册锁定 PIN</string>
   <string name="preferences_app_protection__registration_lock">注册锁</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">您必须输入您的注册锁定 PIN</string>
@@ -1119,13 +1119,13 @@
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">您输错太多次注册锁定密码。请在一天后重试。</string>
   <string name="RegistrationActivity_error_connecting_to_service">无法连接到服务</string>
   <string name="RegistrationActivity_oh_no">哦不！</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">您将可能可以在此Bittube Messenger帐号 7 天不活跃后，不使用注册锁定密码注册此电话号码。还剩 %d 天。</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">您将可能可以在此 Bittube Messenger 帐号 7 天不活跃后，不使用注册锁定密码注册此电话号码。还剩 %d 天。</string>
   <string name="RegistrationActivity_registration_lock_pin">注册锁定 PIN</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">该电话号码已经开启注册锁。请输入注册锁PIN码。</string>
   <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">您的电话号码已经启用注册锁。为了帮助您记住您的注册锁密码，Signal 会时常要求您输入该密码。</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">我忘了我的 PIN</string>
   <string name="RegistrationLockDialog_forgotten_pin">忘记 PIN 了？</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">注册锁能够帮助保护您的电话号码，防止其在未经允许的情况下被注册使用。您可以在任何时候在Bittube Messenger隐私设置里关闭这项功能。</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">注册锁能够帮助保护您的电话号码，防止其在未经允许的情况下被注册使用。您可以在任何时候在 Bittube Messenger 隐私设置里关闭这项功能。</string>
   <string name="RegistrationLockDialog_registration_lock">注册锁</string>
   <string name="RegistrationLockDialog_enable">启用</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">注册锁定 PIN 至少需要 4 位</string>

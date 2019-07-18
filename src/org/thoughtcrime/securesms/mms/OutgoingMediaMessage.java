@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

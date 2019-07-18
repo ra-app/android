@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.giph.net;
+package org.bittube.messenger.giph.net;
 
 
 import android.os.AsyncTask;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

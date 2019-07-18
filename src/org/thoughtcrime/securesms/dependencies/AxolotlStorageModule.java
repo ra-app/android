@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.dependencies;
+package org.bittube.messenger.dependencies;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.crypto.storage.SignalProtocolStoreImpl;
-import org.thoughtcrime.securesms.jobs.CleanPreKeysJob;
+import org.bittube.messenger.crypto.storage.SignalProtocolStoreImpl;
+import org.bittube.messenger.jobs.CleanPreKeysJob;
 import org.whispersystems.libsignal.state.SignedPreKeyStore;
 
 import dagger.Module;

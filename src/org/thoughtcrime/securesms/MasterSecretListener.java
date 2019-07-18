@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 public interface MasterSecretListener {
   void onMasterSecretCleared();

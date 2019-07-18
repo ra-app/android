@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.components.webrtc;
+package org.bittube.messenger.components.webrtc;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -38,15 +38,15 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.service.WebRtcCallService;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.VerifySpan;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.webrtc.CameraState;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.service.WebRtcCallService;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.VerifySpan;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.webrtc.CameraState;
 import org.webrtc.SurfaceViewRenderer;
 import org.whispersystems.libsignal.IdentityKey;
 

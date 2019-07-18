@@ -25,7 +25,7 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Видалити</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Вимкнути фразу-пароль?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Це назавжди розблокуєBittube Messengerта сповіщення повідомлень.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Це назавжди розблокує Bittube Messenger та сповіщення повідомлень.</string>
   <string name="ApplicationPreferencesActivity_disable">Вимкнути</string>
   <string name="ApplicationPreferencesActivity_unregistering">Скасувати реєстрацію</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Скасування реєстрації на повідомлення та виклики Signal...</string>
@@ -35,7 +35,7 @@
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS увімкнено</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Торкніться, щоб змінити типову програму для SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS вимкнено</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Торкніться, щоб зробитиBittube Messengerтиповою програмою для SMS</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Торкніться, щоб зробити Bittube Messenger типовою програмою для SMS</string>
   <string name="ApplicationPreferencesActivity_on">увімк.</string>
   <string name="ApplicationPreferencesActivity_On">Увімк.</string>
   <string name="ApplicationPreferencesActivity_off">вимк.</string>
@@ -86,7 +86,7 @@
   <string name="ContactsCursorLoader_groups">Групи</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Повідомлення %s</string>
-  <string name="ContactsDatabase_signal_call_s">ВикликBittube Messenger%s</string>
+  <string name="ContactsDatabase_signal_call_s">Виклик Bittube Messenger %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Призначене ім\'я</string>
   <string name="ContactNameEditActivity_family_name">Сімейне ім\'я</string>
@@ -128,7 +128,7 @@
   <string name="ConversationActivity_transport_insecure_sms">Незахищене SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Незахищене MMS</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Давай перейдемо уBittube Messenger%1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Давай перейдемо у Bittube Messenger %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Давай використовувати це для чату: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Помилка при виході з групи</string>
   <string name="ConversationActivity_specify_recipient">Будь ласка, виберіть контакт</string>
@@ -139,11 +139,11 @@
   <string name="ConversationActivity_quick_camera_unavailable">Камера недоступна</string>
   <string name="ConversationActivity_unable_to_record_audio">Не вдалося записати аудіо!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Немає програми на вашому пристрої, що може відкрити це посилання.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Щоб надсилати аудіо повідомлення, дозвольтеBittube Messengerдоступ до мікрофона.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Щоб надсилати аудіо повідомлення, дозвольте Bittube Messenger доступ до мікрофона.</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal потребує дозволу \"Мікрофон\", щоб надсилати аудіоповідомлення але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Для дзвінка %s,Bittube Messengerпотребує доступ до вашого мікрофону та камери.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Для дзвінка %s, Bittube Messenger потребує доступ до вашого мікрофону та камери.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal потребує дозволів \"Мікрофон\" та \"Камера\", щоб подзвонити до %s, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\" та \"Камера\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Щоб фотографувати або знімати відео дозвольтеBittube Messengerдоступ до камери.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Щоб фотографувати або знімати відео дозвольте Bittube Messenger доступ до камери.</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal потребує дозволу \"Камера\", щоб фотографувати або знімати відео,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal потребує дозволу \"Камера\", щоб фотографувати або фільмувати.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
@@ -269,7 +269,7 @@
   <string name="DocumentView_unknown_file">Невідомий файл</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Оптимізувати для випадку відсутності служб Google Play</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Цей пристрій не підтримує служби Google Play. Торкніться, щоб вимкнути режим ощадливого споживання енергіїBittube Messengerі отримувати повідомлення колиBittube Messengerпрацює у фоні.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Цей пристрій не підтримує служби Google Play. Торкніться, щоб вимкнути режим ощадливого споживання енергії Bittube Messenger і отримувати повідомлення коли Bittube Messenger працює у фоні.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Поділитися із</string>
   <!--ExperienceUpgradeActivity-->
@@ -284,10 +284,10 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal тепер підтримує безпечні відеодзвінок. Натисніть, щоб дізнатись більше.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Готові до огляду?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Тепер ви можете встановити власне фото, а також ім\'я (чи нікнейм) для свого профілю який будуть бачити друзі.</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">ПрофіліBittube Messengerзнаходяться тут</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Профілі Bittube Messenger знаходяться тут</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Постійний збій зв\'язку Signal!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal не зміг зареєструватись у сервісах Google Play. Виклики та повідомленняBittube Messengerнаразі вимкнено, спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal не зміг зареєструватись у сервісах Google Play. Виклики та повідомлення Bittube Messenger наразі вимкнено, спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Помилка при отриманні GIF у повному розширенні</string>
   <!--GiphyFragmentPageAdapter-->
@@ -299,7 +299,7 @@
   <string name="GroupCreateActivity_group_name_hint">Назва групи</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Нова MMS група</string>
   <string name="GroupCreateActivity_contacts_dont_support_push">Ви обрали контакт, який не підтримує групи Signal, тому це буде MMS група.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Ви не зареєстровані для використання повідомлень та викликівBittube Messengerтому групиBittube Messengerвідключено. Спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Ви не зареєстровані для використання повідомлень та викликів Bittube Messenger тому групи Bittube Messenger відключено. Спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
   <string name="GroupCreateActivity_contacts_no_members">Для вашої групи потрібна щонайменше одна особа!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Один із учасників групи має номер, що не може бути прочитаний належним чином. Будь ласка, виправте або вилучіть той контакт і спробуйте ще раз.</string>
   <string name="GroupCreateActivity_avatar_content_description">Зображення групи</string>
@@ -531,7 +531,7 @@
   <string name="ThreadRecord_you_marked_unverified"> Номер безпеки є НЕперевіреним</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Оновлення Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Нова версіяBittube Messengerдоступна, натисніть для оновлення</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Нова версія Bittube Messenger доступна, натисніть для оновлення</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Заблокувати %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Заблоковані контакти не зможуть надсилати повідомлення та дзвонити вам</string>
@@ -547,7 +547,7 @@
   <string name="UnverifiedSendDialog_send">Надіслати</string>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Ваш контакт працює на давнішій версії Signal. Будь ласка, попросіть його/її оновитися перед перевіркою вашого номера безпеки.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Ваш контакт працює на новішій версіїBittube Messengerіз несумісним форматом QR-коду. Будь ласка, оновіться, щоб порівняти.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Ваш контакт працює на новішій версії Bittube Messenger із несумісним форматом QR-коду. Будь ласка, оновіться, щоб порівняти.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Сканований QR-код хибно форматований код підтвердження номера безпеки. Будь ласка, спробуйте сканувати знову.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Поділитися номером безпеки через...</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">Наш номер безпеки Signal:</string>
@@ -607,7 +607,7 @@
   <string name="NotificationChannel_group_messages">Повідомлення</string>
   <string name="NotificationChannel_missing_display_name">Невідомо</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Швидка відповідь неможлива, колиBittube Messengerзаблоковано!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Швидка відповідь неможлива, коли Bittube Messenger заблоковано!</string>
   <string name="QuickResponseService_problem_sending_message">Проблема під час надсилання повідомлення!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Збережено до %s</string>
@@ -623,7 +623,7 @@
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Помилка відтворення відео</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Щоб відповісти нв дзвінок від %s,Bittube Messengerпотребує доступ до вашого мікрофону.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Щоб відповісти нв дзвінок від %s, Bittube Messenger потребує доступ до вашого мікрофону.</string>
   <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal потребує дозволів \"Мікрофон\" та \"Камера\", щоб здійснювати виклики, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\" та \"Камера\".</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">Ваш номер безпеки для розмови із %1$s змінився. Це може означати або те, що хтось намагається перехопити вашу розмову, або те, що %2$s просто перевстановив Signal.</string>
@@ -679,7 +679,7 @@
   <string name="conversation_activity__attachment_thumbnail">Мініатюра вкладення</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Увімк/вимк скриньку прикріплень камери</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Записати та надіслати аудіо-прикріплення</string>
-  <string name="conversation_activity__enable_signal_for_sms">УвімкнутиBittube Messengerдля SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Увімкнути Bittube Messenger для SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">ПРОВЕДІТЬ, ЩОБ СКАСУВАТИ</string>
   <!--conversation_item-->
@@ -842,12 +842,12 @@
   <string name="recipient_preferences__call_settings">Налаштування дзвінків</string>
   <string name="recipient_preferences__ringtone">Мелодія дзвінка</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">ВикликBittube Messenger</string>
+  <string name="redphone_call_card__signal_call">Виклик Bittube Messenger</string>
   <string name="redphone_call_controls__mute">Без звуку</string>
   <string name="redphone_call_controls__flip_camera_rear">Перемикання камер</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">НОМЕР ТЕЛЕФОНУ</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">ЗBittube Messengerдуже легко спілкуватися маючи лише телефонну книги. Друзі та контакти з якими ви вже спілкуєтесь телефоном зможуть легко початки користуватись Signal.\n\nПід час реєстрації передається деяка інформація на сервер але вона не зберігається.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">З Bittube Messenger дуже легко спілкуватися маючи лише телефонну книги. Друзі та контакти з якими ви вже спілкуєтесь телефоном зможуть легко початки користуватись Signal.\n\nПід час реєстрації передається деяка інформація на сервер але вона не зберігається.</string>
   <string name="registration_activity__verify_your_number">Перевірити ваш номер</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Вкажіть ваш мобільний номер, щоб отримати перевірочний код. Вашим оператором може стягуватися плата.</string>
   <!--recipients_panel-->
@@ -926,8 +926,8 @@
   <string name="preferences__sms_mms">SMS та MMS</string>
   <string name="preferences__pref_all_sms_title">Отримати усі SMS</string>
   <string name="preferences__pref_all_mms_title">Отримати усі MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ВикористовуватиBittube Messengerдля усіх вхідних текстових повідомлень</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ВикористовуватиBittube Messengerдля усіх вхідних мультимедійних повідомлень</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Використовувати Bittube Messenger для усіх вхідних текстових повідомлень</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Використовувати Bittube Messenger для усіх вхідних мультимедійних повідомлень</string>
   <string name="preferences__pref_enter_sends_title">Enter надсилає повідомлення</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Натиснення кнопки Enter відправить повідомлення</string>
   <string name="preferences__choose_identity">Обрати особистість</string>
@@ -938,7 +938,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Захистити Сигнал та сповіщення повідомлень фразою-паролем</string>
   <string name="preferences__screen_security">Безпека екрану</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Блокувати знімки екрану в списку недавніх та в програмі</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">АвтоблокуватиBittube Messengerпісля певного часу неактивності</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Автоблокувати Bittube Messenger після певного часу неактивності</string>
   <string name="preferences__inactivity_timeout_passphrase">Фраза-пароль після спливання часу неактивності</string>
   <string name="preferences__inactivity_timeout_interval">Інтервал часу неактивності</string>
   <string name="preferences__notifications">Сповіщення</string>
@@ -1006,8 +1006,8 @@
   <string name="preferences_chats__media_auto_download">Автозавантаження медіа</string>
   <string name="preferences_chats__message_trimming">Обрізка повідомлень</string>
   <string name="preferences_advanced__use_system_emoji">Використовувати системні emoji</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Вимкнути вбудовану вBittube Messengerпідтримку emoji</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ретранслювати всі дзвінки через серверBittube Messengerщоб уникнути розкриття вашого IP-адреси контакту. Включення знизить якість дзвінка.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Вимкнути вбудовану в Bittube Messenger підтримку emoji</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ретранслювати всі дзвінки через сервер Bittube Messenger щоб уникнути розкриття вашого IP-адреси контакту. Включення знизить якість дзвінка.</string>
   <string name="preferences_advanced__always_relay_calls">Завжди ретранслювати дзвінки</string>
   <string name="preferences_app_protection__app_access">Доступ до додатка</string>
   <string name="preferences_app_protection__communication">Спілкування</string>
@@ -1031,7 +1031,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Виклик</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Виклик черезBittube Messenger</string>
+  <string name="conversation_callable_secure__menu_call">Виклик через Bittube Messenger</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Деталі повідомлення</string>
   <string name="conversation_context__menu_copy_text">Скопіювати текст</string>
@@ -1094,18 +1094,18 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Скопіювати до буфера обміну</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Порівняти із буфером обміну</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Ваша версіяBittube Messengerзастаріла</string>
+  <string name="reminder_header_outdated_build">Ваша версія Bittube Messenger застаріла</string>
   <plurals name="reminder_header_outdated_build_details">
     <item quantity="one">Вашу версію Сигналу перестануть підтримувати за %d день. Торкніться, щоб оновити до останньої версії.</item>
     <item quantity="few">Вашу версію Сигналу перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
     <item quantity="many">Вашу версію Сигналу перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
-    <item quantity="other">Вашу версіюBittube Messengerперестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
+    <item quantity="other">Вашу версію Bittube Messenger перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">Вашу версіюBittube Messengerперестануть підтримувати сьогодні. Торкніться, щоб оновити до останньої версії.</string>
-  <string name="reminder_header_expired_build">Ваша версіяBittube Messengerзастаріла!</string>
+  <string name="reminder_header_outdated_build_details_today">Вашу версію Bittube Messenger перестануть підтримувати сьогодні. Торкніться, щоб оновити до останньої версії.</string>
+  <string name="reminder_header_expired_build">Ваша версія Bittube Messenger застаріла!</string>
   <string name="reminder_header_expired_build_details">Повідомлення більше не будуть відправлятися. Торкніться, щоб оновитися до останньої версії.</string>
   <string name="reminder_header_sms_default_title">Використовувати як типову програму для SMS</string>
-  <string name="reminder_header_sms_default_text">Торкніться, щоб зробитиBittube Messengerтиповою програмою для SMS.</string>
+  <string name="reminder_header_sms_default_text">Торкніться, щоб зробити Bittube Messenger типовою програмою для SMS.</string>
   <string name="reminder_header_sms_import_title">Імпортувати системну базу SMS?</string>
   <string name="reminder_header_sms_import_text">Торкніться, щоб імпортувати ваші SMS повідомлення у зашифровану базу даних Signal.</string>
   <string name="reminder_header_push_title">Увімкнути повідомлення та виклики Signal</string>
@@ -1145,7 +1145,7 @@
   <string name="PushDecryptJob_new_locked_message">Нове заблоковане повідомлення</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Розблокуйте, щоб побачити нові повідомлення</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Розблокуйте, щоб завершити оновлення</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Будь-ласка, розблокуйтеBittube Messengerщоб завершити оновлення</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Будь-ласка, розблокуйте Bittube Messenger щоб завершити оновлення</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Фраза-пароль резервної копії</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
@@ -1184,7 +1184,7 @@
   <string name="BackupUtil_never">Ніколи</string>
   <string name="BackupUtil_unknown">Невідомо</string>
   <string name="preferences_app_protection__screen_lock">Блокування екрану</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Заблокувати доступ доBittube Messengerчерез налаштування Андроїд</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Заблокувати доступ до Bittube Messenger через налаштування Андроїд</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Затримка блокування екрану при бездіяльності</string>
   <string name="AppProtectionPreferenceFragment_none">Жодного</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">ПІН блокування доступу це не теж саме що й щойно отриманий СМС-код перевірки. Будь ласка, введіть ПІН, який Ви встановили у налаштуваннях додатку.</string>
@@ -1207,7 +1207,7 @@
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Реєстрація цього телефонного номеру без ПІН блокування доступу буде можлива впродовж 7 днів з моменту останньої активності цього номеру у Signal. У Вас залишилося %d днів.</string>
   <string name="RegistrationActivity_registration_lock_pin">ПІН блокування доступу</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Цей номер телефону має дозволення блокування доступу. Будь ласка, введіть ПІН блокування доступу.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Для Вашого номера телефону дозволено блокування доступу. Щоб допомогти Вам запам\'ятати ПІН блокування доступуBittube Messengerбуде періодично вимагати підтвердити його.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Для Вашого номера телефону дозволено блокування доступу. Щоб допомогти Вам запам\'ятати ПІН блокування доступу Bittube Messenger буде періодично вимагати підтвердити його.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Я забув свій PIN.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Забули PIN?</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Блокування доступу допомагає захистити Ваш телефонний номер від спроб несанкціонованого доступу. Ця функція може бути заборонена в будь-який час у налаштуваннях приватності Вашого Signal.</string>

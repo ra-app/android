@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.request.target.DrawableImageViewTarget;
 
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 public class GlideDrawableListeningTarget extends DrawableImageViewTarget {
 

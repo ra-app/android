@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 
 import android.content.ComponentName;
@@ -14,14 +14,14 @@ import android.service.chooser.ChooserTargetService;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.ShareActivity;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.bittube.messenger.ShareActivity;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.BitmapUtil;
 
 import java.util.LinkedList;
 import java.util.List;

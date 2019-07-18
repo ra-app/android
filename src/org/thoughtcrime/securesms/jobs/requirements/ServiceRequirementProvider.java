@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobs.requirements;
+package org.bittube.messenger.jobs.requirements;
 
 import android.content.Context;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
 import android.telephony.TelephonyManager;
 
-import org.thoughtcrime.securesms.jobmanager.requirements.RequirementListener;
-import org.thoughtcrime.securesms.jobmanager.requirements.RequirementProvider;
+import org.bittube.messenger.jobmanager.requirements.RequirementListener;
+import org.bittube.messenger.jobmanager.requirements.RequirementProvider;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

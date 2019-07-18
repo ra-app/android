@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.viewpager;
+package org.bittube.messenger.components.viewpager;
 
 
 import android.support.v4.view.ViewPager;

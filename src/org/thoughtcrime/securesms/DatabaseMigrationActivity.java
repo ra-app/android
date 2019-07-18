@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -17,9 +17,9 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.database.SmsMigrator.ProgressDescription;
-import org.thoughtcrime.securesms.service.ApplicationMigrationService;
-import org.thoughtcrime.securesms.service.ApplicationMigrationService.ImportState;
+import org.bittube.messenger.database.SmsMigrator.ProgressDescription;
+import org.bittube.messenger.service.ApplicationMigrationService;
+import org.bittube.messenger.service.ApplicationMigrationService.ImportState;
 
 public class DatabaseMigrationActivity extends PassphraseRequiredActionBarActivity {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,20 +20,20 @@ import com.bumptech.glide.load.resource.gif.GifDrawable;
 import com.bumptech.glide.load.resource.gif.StreamGifDecoder;
 import com.bumptech.glide.module.AppGlideModule;
 
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.giph.model.GiphyPaddedUrl;
-import org.thoughtcrime.securesms.glide.ContactPhotoLoader;
-import org.thoughtcrime.securesms.glide.cache.EncryptedBitmapCacheDecoder;
-import org.thoughtcrime.securesms.glide.cache.EncryptedCacheEncoder;
-import org.thoughtcrime.securesms.glide.cache.EncryptedGifCacheDecoder;
-import org.thoughtcrime.securesms.glide.cache.EncryptedBitmapResourceEncoder;
-import org.thoughtcrime.securesms.glide.cache.EncryptedGifDrawableResourceEncoder;
-import org.thoughtcrime.securesms.glide.GiphyPaddedUrlLoader;
-import org.thoughtcrime.securesms.glide.OkHttpUrlLoader;
-import org.thoughtcrime.securesms.mms.AttachmentStreamUriLoader.AttachmentModel;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.contacts.avatars.ContactPhoto;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.giph.model.GiphyPaddedUrl;
+import org.bittube.messenger.glide.ContactPhotoLoader;
+import org.bittube.messenger.glide.cache.EncryptedBitmapCacheDecoder;
+import org.bittube.messenger.glide.cache.EncryptedCacheEncoder;
+import org.bittube.messenger.glide.cache.EncryptedGifCacheDecoder;
+import org.bittube.messenger.glide.cache.EncryptedBitmapResourceEncoder;
+import org.bittube.messenger.glide.cache.EncryptedGifDrawableResourceEncoder;
+import org.bittube.messenger.glide.GiphyPaddedUrlLoader;
+import org.bittube.messenger.glide.OkHttpUrlLoader;
+import org.bittube.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
 
 import java.io.File;
 import java.io.InputStream;

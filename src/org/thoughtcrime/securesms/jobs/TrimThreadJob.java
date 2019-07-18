@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobParameters;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.JobParameters;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class TrimThreadJob extends Job {
 

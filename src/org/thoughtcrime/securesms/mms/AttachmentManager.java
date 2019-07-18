@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -34,7 +34,7 @@ import android.provider.OpenableColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.Toast;
@@ -43,28 +43,28 @@ import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.ui.PlacePicker;
 
-import org.thoughtcrime.securesms.MediaPreviewActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.components.AudioView;
-import org.thoughtcrime.securesms.components.DocumentView;
-import org.thoughtcrime.securesms.components.RemovableEditableMediaView;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.components.location.SignalMapView;
-import org.thoughtcrime.securesms.components.location.SignalPlace;
-import org.thoughtcrime.securesms.giph.ui.GiphyActivity;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
-import org.thoughtcrime.securesms.scribbles.ScribbleActivity;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.bittube.messenger.MediaPreviewActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.components.AudioView;
+import org.bittube.messenger.components.DocumentView;
+import org.bittube.messenger.components.RemovableEditableMediaView;
+import org.bittube.messenger.components.ThumbnailView;
+import org.bittube.messenger.components.location.SignalMapView;
+import org.bittube.messenger.components.location.SignalPlace;
+import org.bittube.messenger.giph.ui.GiphyActivity;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.providers.PersistentBlobProvider;
+import org.bittube.messenger.scribbles.ScribbleActivity;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.ThemeUtil;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.concurrent.AssertedSuccessListener;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.ListenableFuture.Listener;
+import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.bittube.messenger.util.views.Stub;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

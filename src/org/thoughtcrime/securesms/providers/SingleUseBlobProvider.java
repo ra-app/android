@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.bittube.messenger.providers;
 
 import android.content.ContentUris;
 import android.net.Uri;
@@ -17,7 +17,7 @@ public class SingleUseBlobProvider {
   @SuppressWarnings("unused")
   private static final String TAG = SingleUseBlobProvider.class.getSimpleName();
 
-  public  static final String AUTHORITY   = "org.thoughtcrime.securesms";
+  public  static final String AUTHORITY   = "org.bittube.messenger";
   public  static final String PATH        = "memory/*/#";
   private static final Uri    CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/memory");
 

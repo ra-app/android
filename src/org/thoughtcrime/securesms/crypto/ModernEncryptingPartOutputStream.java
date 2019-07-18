@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 
 import android.support.annotation.NonNull;

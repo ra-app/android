@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.color;
+package org.bittube.messenger.color;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.thoughtcrime.securesms.util.ThemeUtil.isDarkTheme;
+import static org.bittube.messenger.util.ThemeUtil.isDarkTheme;
 
 public enum MaterialColor {
   RED        (R.color.conversation_red,    R.color.conversation_red_shade,    "red"),

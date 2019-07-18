@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.bittube.messenger.audio;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -6,15 +6,15 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.support.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 
-import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ThreadUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.providers.PersistentBlobProvider;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.ThreadUtil;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;

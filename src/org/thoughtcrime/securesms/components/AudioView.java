@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -24,14 +24,14 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.audio.AudioSlidePlayer;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.audio.AudioSlidePlayer;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.events.PartProgressEvent;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.AudioSlide;
+import org.bittube.messenger.mms.SlideClickListener;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

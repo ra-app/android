@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.content.Context;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.model.MessageRecord;
 
 import java.util.Comparator;
 import java.util.TreeSet;

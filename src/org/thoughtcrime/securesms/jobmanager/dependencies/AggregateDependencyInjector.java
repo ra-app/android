@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobmanager.dependencies;
+package org.bittube.messenger.jobmanager.dependencies;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.requirements.Requirement;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.requirements.Requirement;
 
 public class AggregateDependencyInjector {
 

@@ -21,17 +21,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Elimina</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Disabilitare la password?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Saranno sbloccati definitivamenteBittube Messengere le relative notifiche</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Saranno sbloccati definitivamente Bittube Messenger e le relative notifiche</string>
   <string name="ApplicationPreferencesActivity_disable">Disabilita</string>
   <string name="ApplicationPreferencesActivity_unregistering">Disiscriviti</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Disiscrizione da messaggi e chiamate Signal...</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Disattivare i messaggi e le chiamate di Signal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Disabilita i messaggi diBittube Messengerannullando la tua registrazione sul server. Avrai bisogno di registrare di nuovo il tuo numero di telefono per usare di nuovo i messaggi diBittube Messengerin futuro.</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Disabilita i messaggi di Bittube Messenger annullando la tua registrazione sul server. Avrai bisogno di registrare di nuovo il tuo numero di telefono per usare di nuovo i messaggi di Bittube Messenger in futuro.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Errore durante la connessione al server!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS Abilitati</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Tocca per cambiare l\'applicazione predefinita per gli SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS Disabilitati</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tocca per usareBittube Messengercome applicazione predefinita per gli SMS</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tocca per usare Bittube Messenger come applicazione predefinita per gli SMS</string>
   <string name="ApplicationPreferencesActivity_on">on</string>
   <string name="ApplicationPreferencesActivity_On">On</string>
   <string name="ApplicationPreferencesActivity_off">off</string>
@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Gruppi</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Messaggio %s</string>
-  <string name="ContactsDatabase_signal_call_s">ChiamataBittube Messenger%s</string>
+  <string name="ContactsDatabase_signal_call_s">Chiamata Bittube Messenger %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Nome</string>
   <string name="ContactNameEditActivity_family_name">Cognome</string>
@@ -125,7 +125,7 @@
   <string name="ConversationActivity_transport_insecure_sms">SMS non sicuro</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS non sicuro</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Passiamo aBittube Messenger%1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Passiamo a Bittube Messenger %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Chattiamo con questa app: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Errore nell\'uscita dal gruppo</string>
   <string name="ConversationActivity_specify_recipient">Scegli un contatto</string>
@@ -136,11 +136,11 @@
   <string name="ConversationActivity_quick_camera_unavailable">Fotocamera non disponibile</string>
   <string name="ConversationActivity_unable_to_record_audio">Impossibile registrare il messaggio!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sul tuo dispositivo non sono presenti app per gestire questo link.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Per poter mandare un messaggio audio, permetti aBittube Messengerdi accedere al tuo microfono.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Per poter mandare un messaggio audio, permetti a Bittube Messenger di accedere al tuo microfono.</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal richiede l\'autorizzazione all\'uso del microfono per inviare messaggi audio, ma è stata negata in modo permanente. Si prega di continuare con le impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Microfono\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Per chiamare %s,Bittube Messengernecessita accesso al tuo microfono e alla tua fotocamera.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Per chiamare %s, Bittube Messenger necessita accesso al tuo microfono e alla tua fotocamera.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal richiede le autorizzazioni all\'uso del microfono e della fotocamera per chiamare %s, ma sono state negate in modo permanente. Si prega di continuare con le impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Microfono\" e \"Fotocamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per poter catturare foto e video, permetti aBittube Messengerdi accedere alla fotocamera del tuo dispositivo</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per poter catturare foto e video, permetti a Bittube Messenger di accedere alla fotocamera del tuo dispositivo</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal richiede l\'autorizzazione all\'uso della fotocamera per scattare foto o registrare video, ma è stata negata in modo permanente. Si prega di continuare al menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Fotocamera\".</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal richiede l\'autorizzazione all\'uso della fotocamera per scattare foto o registrare video</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
@@ -248,7 +248,7 @@
   <string name="DocumentView_unknown_file">File sconosciuto</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Ottimizza per la mancanza di Google Play Services</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Questo dispositivo non supporta Google Play Services. Premi per disabilitare l\'ottimizzazione di sistema del consumo della batteria che impedisce aBittube Messengerdi ricevere messaggi quando è inattivo</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Questo dispositivo non supporta Google Play Services. Premi per disabilitare l\'ottimizzazione di sistema del consumo della batteria che impedisce a Bittube Messenger di ricevere messaggi quando è inattivo</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Condividi con</string>
   <!--ExperienceUpgradeActivity-->
@@ -263,9 +263,9 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal ora supporta le videochiamate sicure. Tocca per esplorare.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Pronto per il tuo primo piano?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Ora puoi condividere una foto profilo e un nome con i tuoi amici su Signal</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">I profiliBittube Messengersono arrivati</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">I profili Bittube Messenger sono arrivati</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">ComunicazioneBittube Messengerfallita definitivamente!</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Comunicazione Bittube Messenger fallita definitivamente!</string>
   <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal è stato impossibilitato a registrarsi con i sevizi di Google Play.
 I suoi messaggi e le chiamate sono state disabilitate, si prega di provare e ri-registrare in Impostazioni &gt; Avanzate.</string>
   <!--GiphyActivity-->
@@ -338,9 +338,9 @@ I suoi messaggi e le chiamate sono state disabilitate, si prega di provare e ri-
   <string name="MediaOverviewActivity_Media_delete_progress_message">Cancellazione messaggi...</string>
   <string name="MediaOverviewActivity_Documents">Documenti</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Chiamata conBittube Messengerin corso</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Chiamata con Bittube Messenger in corso</string>
   <string name="NotificationBarManager__establishing_signal_call">Preparazione chiamata Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">ChiamataBittube Messengerin arrivo</string>
+  <string name="NotificationBarManager__incoming_signal_call">Chiamata Bittube Messenger in arrivo</string>
   <string name="NotificationBarManager__deny_call">Rifiuta chiamata</string>
   <string name="NotificationBarManager__answer_call">Rispondi</string>
   <string name="NotificationBarManager__end_call">Termina chiamata</string>
@@ -350,7 +350,7 @@ I suoi messaggi e le chiamate sono state disabilitate, si prega di provare e ri-
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Scarico MMS</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Errore nello scaricare MMS, premi per riprovare</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Hai ricevuto un messaggio cifrato usando una vecchia versione diBittube Messengerche non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Hai ricevuto un messaggio cifrato usando una vecchia versione di Bittube Messenger che non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
   <string name="MessageRecord_left_group">Hai lasciato il gruppo.</string>
   <string name="MessageRecord_you_updated_group">Hai aggiornato il gruppo.</string>
   <string name="MessageRecord_you_called">Hai chiamato</string>
@@ -391,7 +391,7 @@ I suoi messaggi e le chiamate sono state disabilitate, si prega di provare e ri-
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Siamo spiacenti, hai troppi dispositivi connessi, prova a scollegarne qualcuno</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Ci spiace, questo non è un codice QR valido per collegare il dispositivo.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Collegare un dispositivo Signal?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Sembrerebbe che tu stia provando a connettere un dispositivoBittube Messengerusando uno scanner di terze parti. Per la tua protezione ti preghiamo di  scansionare nuovamente il codice usando Signal.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Sembrerebbe che tu stia provando a connettere un dispositivo Bittube Messenger usando uno scanner di terze parti. Per la tua protezione ti preghiamo di  scansionare nuovamente il codice usando Signal.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal richiede l\'autorizzazione all\'uso della fotocamera per leggere codici QR, ma è stata negata in modo permanente. Si prega di continuare al menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Fotocamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Signal richiede l\'autorizzazione all\'uso della fotocamera per leggere codici QR.</string>
   <!--ExpirationDialog-->
@@ -456,7 +456,7 @@ proprio numero di telefono</string>
   <string name="RegistrationActivity_less_information">Meno informazioni</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal richiede l\'accesso ai tuoi contatti e ai tuoi contenuti multimediali per connetterti con gli amici, scambiare messaggi e fare chiamate sicure</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Impossibile connettersi al servizio. Per favore controlla la connessione a internet e riprova</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Per verificare facilmente il tuo numero di telefono,Bittube Messengerpuò rilevare automaticamente il codice di verifica se consenti aBittube Messengerdi visualizzare i messaggi SMS.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Per verificare facilmente il tuo numero di telefono, Bittube Messenger può rilevare automaticamente il codice di verifica se consenti a Bittube Messenger di visualizzare i messaggi SMS.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Salvataggio modifiche all\'immagine fallito</string>
   <!--Search-->
@@ -521,7 +521,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="UnverifiedSendDialog_send">Invia</string>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Il tuo contatto sta usando una vecchia versione di Signal. Chiedigli cortesemente di aggiornarla prima di verificare il codice di sicurezza.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Il tuo contatto sta eseguendo una versione più aggiornata diBittube Messengercon un formato di codice QR non compatibile. Per effettuare il confronto aggiorna la tua versione.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Il tuo contatto sta eseguendo una versione più aggiornata di Bittube Messenger con un formato di codice QR non compatibile. Per effettuare il confronto aggiorna la tua versione.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Il codice QR letto non è un codice di verifica formalmente valido per un codice di sicurezza. Si prega di rieseguire la scansione.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Condividi il codice di sicurezza tramite...</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">I nostri codice di sicurezza Signal:</string>
@@ -569,8 +569,8 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="MessageNotifier_mark_read">Segna come già letto</string>
   <string name="MessageNotifier_media_message">Messaggio multimediale</string>
   <string name="MessageNotifier_reply">Rispondi</string>
-  <string name="MessageNotifier_pending_signal_messages">MessaggiBittube Messengerin attesa</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Hai messaggiBittube Messengerin attesa, tocca per aprire e ricevere</string>
+  <string name="MessageNotifier_pending_signal_messages">Messaggi Bittube Messenger in attesa</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Hai messaggi Bittube Messenger in attesa, tocca per aprire e ricevere</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Contatto</string>
   <!--Notification Channels-->
@@ -584,7 +584,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="NotificationChannel_group_messages">Messaggi</string>
   <string name="NotificationChannel_missing_display_name">Sconosciuto</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Risposta veloce non disponibile quandoBittube Messengerè bloccato!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Risposta veloce non disponibile quando Bittube Messenger è bloccato!</string>
   <string name="QuickResponseService_problem_sending_message">Problema nell\'invio del messaggio!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Salvato in %s</string>
@@ -598,11 +598,11 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="SingleRecipientNotificationBuilder_new_message">Nuovo messaggio</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Dispositivo non più registrato</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Probabilmente perchè hai registrato il numero di telefono conBittube Messengersu un altro dispositivo. Tocca per registrare di nuovo.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Probabilmente perchè hai registrato il numero di telefono con Bittube Messenger su un altro dispositivo. Tocca per registrare di nuovo.</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Errore riproduzione video</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Per rispondere alla chiamata da %s, dai aBittube Messengerl\'autorizzazione ad accedere al tuo microfono</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Per rispondere alla chiamata da %s, dai a Bittube Messenger l\'autorizzazione ad accedere al tuo microfono</string>
   <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal richiede le autorizzazioni all\'uso del microfono e della fotocamera per fare e ricevere chiamate, ma sono state negate in modo permanente. Si prega di continuare con le impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Microfono\" e \"Fotocamera\".</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">Il codice di sicurezza per le tue conversazioni con %1$s è cambiato. Questo può significare che qualcuno sta provando ad intercettare la tua comunicazione, oppure che %2$s ha semplicemente reinstallato Signal.</string>
@@ -658,7 +658,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="conversation_activity__attachment_thumbnail">Anteprima allegato</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Mostra/nascondi pannello fotocamera</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Registra ed invia allegato audio</string>
-  <string name="conversation_activity__enable_signal_for_sms">AbilitaBittube Messengerper gli SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Abilita Bittube Messenger per gli SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">SPOSTA IL DITO PER ANNULLARE</string>
   <!--conversation_item-->
@@ -900,8 +900,8 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="preferences__sms_mms">SMS e MMS</string>
   <string name="preferences__pref_all_sms_title">Utilizza per tutti gli SMS</string>
   <string name="preferences__pref_all_mms_title">Utilizza per tutti gli MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">UsaBittube Messengerper tutti i messaggi in arrivo</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">UsaBittube Messengerper tutti i messaggi multimediali in arrivo</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Usa Bittube Messenger per tutti i messaggi in arrivo</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Usa Bittube Messenger per tutti i messaggi multimediali in arrivo</string>
   <string name="preferences__pref_enter_sends_title">Spedisci premendo Invio</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Il tasto Invio manderà il messaggio</string>
   <string name="preferences__choose_identity">Scegli identità</string>
@@ -912,7 +912,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Blocca schermo e notifiche con password</string>
   <string name="preferences__screen_security">Sicurezza schermo</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Non consentire di effettuare screenshot nella lista delle applicazione recenti ed all\'interno dell\'app stessa.</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Blocca automaticamenteBittube Messengerdopo uno specifico intervallo di intattività</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Blocca automaticamente Bittube Messenger dopo uno specifico intervallo di intattività</string>
   <string name="preferences__inactivity_timeout_passphrase">Password intervallo di inattività</string>
   <string name="preferences__inactivity_timeout_interval">Intervallo di timeout per inattività</string>
   <string name="preferences__notifications">Notifiche</string>
@@ -982,7 +982,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="preferences_chats__message_trimming">Cancellazione messaggi</string>
   <string name="preferences_advanced__use_system_emoji">Usa le emoji di sistema</string>
   <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disattiva le emoji di Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ritrasmetti le chiamate attraverso i server diBittube Messengerper non rivelare il tuo indirizzo IP ai tuoi contatti. Abilitandolo verrà ridotta la qualità della chiamata.</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ritrasmetti le chiamate attraverso i server di Bittube Messenger per non rivelare il tuo indirizzo IP ai tuoi contatti. Abilitandolo verrà ridotta la qualità della chiamata.</string>
   <string name="preferences_advanced__always_relay_calls">Ritrasmetti sempre le chiamate</string>
   <string name="preferences_app_protection__app_access">Accesso app</string>
   <string name="preferences_app_protection__communication">Comunicazione</string>
@@ -1069,16 +1069,16 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Copia negli appunti</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Confronta con gli appunti</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">La tua versione diBittube Messengerè vecchia</string>
+  <string name="reminder_header_outdated_build">La tua versione di Bittube Messenger è vecchia</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">La tua versione diBittube Messengerscadrà in %d giorno. Tocca per aggiornare alla versione più recente.</item>
-    <item quantity="other">La tua versione diBittube Messengerscadrà in %d giorni. Tocca per aggiornare alla versione più recente.</item>
+    <item quantity="one">La tua versione di Bittube Messenger scadrà in %d giorno. Tocca per aggiornare alla versione più recente.</item>
+    <item quantity="other">La tua versione di Bittube Messenger scadrà in %d giorni. Tocca per aggiornare alla versione più recente.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">La tua versione diBittube Messengerscade oggi. Premi per aggiornare alla versione più recente.</string>
-  <string name="reminder_header_expired_build">La tua versione diBittube Messengerè scaduta!</string>
+  <string name="reminder_header_outdated_build_details_today">La tua versione di Bittube Messenger scade oggi. Premi per aggiornare alla versione più recente.</string>
+  <string name="reminder_header_expired_build">La tua versione di Bittube Messenger è scaduta!</string>
   <string name="reminder_header_expired_build_details">I messaggi non vengono più inviati con successo. Premi per aggiornare alla versione più recente.</string>
   <string name="reminder_header_sms_default_title">Usa come app per tutti gli SMS</string>
-  <string name="reminder_header_sms_default_text">Tocca per usareBittube Messengercome applicazione di default per gli SMS.</string>
+  <string name="reminder_header_sms_default_text">Tocca per usare Bittube Messenger come applicazione di default per gli SMS.</string>
   <string name="reminder_header_sms_import_title">Importa gli SMS di sistema</string>
   <string name="reminder_header_sms_import_text">Tocca per copiare i messaggi SMS del tuo telefono nel database cifrato di Signal</string>
   <string name="reminder_header_push_title">Attiva i messaggi e le chiamate con Signal</string>
@@ -1117,7 +1117,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="PushDecryptJob_new_locked_message">Nuovo messaggio bloccato</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Sblocca per leggere i messaggi in sospeso</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Sblocca per completare l\'aggiornamento</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Per favore sbloccaBittube Messengerper completare l\'aggiornamento</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Per favore sblocca Bittube Messenger per completare l\'aggiornamento</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Passphrase di backup</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">I backup verranno salvati nella memoria esterna e crittografati con la passphrase qui sotto. Sarà necessario avere questa passphrase per ripristinare il backup.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ho scritto questa passphrase. Senza di questa non sarò in grado di ripristinare il backup</string>
@@ -1156,7 +1156,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="BackupUtil_never">Mai</string>
   <string name="BackupUtil_unknown">Sconosciuto</string>
   <string name="preferences_app_protection__screen_lock">Blocco schermo</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Blocca l\'accesso aBittube Messengercon il blocco schermo di Android o la tua impronta digitale</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Blocca l\'accesso a Bittube Messenger con il blocco schermo di Android o la tua impronta digitale</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tempo di inattività per blocco schermo</string>
   <string name="AppProtectionPreferenceFragment_none">Nessuna</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">Il PIN di blocco della registrazione non è uguale al codice di verifica SMS appena ricevuto. Inserire il PIN precedentemente configurato nell\'applicazione.</string>
@@ -1179,7 +1179,7 @@ Ricevuto un messaggio di scambio chiavi per una versione di protocollo non valid
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">La registrazione di questo numero di telefono sarà possibile senza il PIN di blocco della registrazione dopo che saranno trascorsi 7 giorni da quando questo numero di telefono è stato attivo su Signal. Hai %d giorni rimanenti.</string>
   <string name="RegistrationActivity_registration_lock_pin">PIN di blocco registrazione</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Questo numero di telefono ha il blocco registrazione attivo. Per favore inserisci il PIN di blocco registrazione.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Il PIN di blocco registrazione è abilitato sul tuo numero di telefono. Per aiutarti a memorizzarloBittube Messengerti chiederà periodicamente di confermarlo.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Il PIN di blocco registrazione è abilitato sul tuo numero di telefono. Per aiutarti a memorizzarlo Bittube Messenger ti chiederà periodicamente di confermarlo.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Ho dimenticato il mio PIN.</string>
   <string name="RegistrationLockDialog_forgotten_pin">PIN dimenticato?</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Il blocco registrazione aiuta a proteggere il tuo numero di telefono da tentativi non autorizzati di registrazione. Questa funzionalità può essere disabilitata in ogni momento dalle impostazioni Privacy di Signal</string>

@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.recipients;
+package org.bittube.messenger.recipients;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -26,28 +26,28 @@ import android.text.TextUtils;
 
 import com.annimon.stream.function.Consumer;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.GroupRecordContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.SystemContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.TransparentContactPhoto;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientSettings;
-import org.thoughtcrime.securesms.database.RecipientDatabase.RegisteredState;
-import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.RecipientProvider.RecipientDetails;
-import org.thoughtcrime.securesms.util.FutureTaskListener;
-import org.thoughtcrime.securesms.util.ListenableFutureTask;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.contacts.avatars.ContactColors;
+import org.bittube.messenger.contacts.avatars.ContactPhoto;
+import org.bittube.messenger.contacts.avatars.FallbackContactPhoto;
+import org.bittube.messenger.contacts.avatars.GeneratedContactPhoto;
+import org.bittube.messenger.contacts.avatars.GroupRecordContactPhoto;
+import org.bittube.messenger.contacts.avatars.ProfileContactPhoto;
+import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
+import org.bittube.messenger.contacts.avatars.SystemContactPhoto;
+import org.bittube.messenger.contacts.avatars.TransparentContactPhoto;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.database.RecipientDatabase.RecipientSettings;
+import org.bittube.messenger.database.RecipientDatabase.RegisteredState;
+import org.bittube.messenger.database.RecipientDatabase.VibrateState;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.recipients.RecipientProvider.RecipientDetails;
+import org.bittube.messenger.util.FutureTaskListener;
+import org.bittube.messenger.util.ListenableFutureTask;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

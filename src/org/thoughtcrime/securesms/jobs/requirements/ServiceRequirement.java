@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobs.requirements;
+package org.bittube.messenger.jobs.requirements;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
-import org.thoughtcrime.securesms.jobmanager.requirements.Requirement;
-import org.thoughtcrime.securesms.jobmanager.requirements.SimpleRequirement;
-import org.thoughtcrime.securesms.sms.TelephonyServiceState;
+import org.bittube.messenger.jobmanager.dependencies.ContextDependent;
+import org.bittube.messenger.jobmanager.requirements.Requirement;
+import org.bittube.messenger.jobmanager.requirements.SimpleRequirement;
+import org.bittube.messenger.sms.TelephonyServiceState;
 
 public class ServiceRequirement extends SimpleRequirement implements ContextDependent {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.Build.VERSION_CODES;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class SquareFrameLayout extends FrameLayout {
 

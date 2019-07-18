@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.bittube.messenger.permissions;
 
 
 import android.content.pm.PackageManager;

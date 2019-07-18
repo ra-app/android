@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,20 +13,20 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
-import org.thoughtcrime.securesms.database.IdentityDatabase;
-import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.GroupUtil;
-import org.thoughtcrime.securesms.util.IdentityUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.bittube.messenger.crypto.IdentityKeyParcelable;
+import org.bittube.messenger.database.IdentityDatabase;
+import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.ExpirationUtil;
+import org.bittube.messenger.util.GroupUtil;
+import org.bittube.messenger.util.IdentityUtil;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Locale;

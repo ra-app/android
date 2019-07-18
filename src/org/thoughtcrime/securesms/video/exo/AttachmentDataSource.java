@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.bittube.messenger.video.exo;
 
 
 import android.net.Uri;
@@ -7,7 +7,7 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.bittube.messenger.mms.PartAuthority;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -9,25 +9,25 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 import android.webkit.MimeTypeMap;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.gif.GifDrawable;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.DocumentSlide;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.MmsSlide;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.mms.AudioSlide;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.DocumentSlide;
+import org.bittube.messenger.mms.GifSlide;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.ImageSlide;
+import org.bittube.messenger.mms.MmsSlide;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.mms.VideoSlide;
+import org.bittube.messenger.providers.PersistentBlobProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
