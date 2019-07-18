@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Signal</string>
+  <string name="app_name">Bittube Messenger</string>
   <string name="yes">Po</string>
   <string name="no">Jo</string>
   <string name="delete">Fshije</string>
@@ -27,7 +27,7 @@
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS është aktivizuar</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Prek për të ndryshuar aplikacionin e parazgjedhur për SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS është çaktivizuar</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Prek për të bërë Signal aplikacionin tënd SMS të parazgjedhur</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Prek për të bërëBittube Messengeraplikacionin tënd SMS të parazgjedhur</string>
   <string name="ApplicationPreferencesActivity_on">aktivizuar</string>
   <string name="ApplicationPreferencesActivity_On">Aktivizuar</string>
   <string name="ApplicationPreferencesActivity_off">çaktivizuar</string>
@@ -57,7 +57,7 @@
   <string name="ClearProfileActivity_remove">Hiç</string>
   <string name="ClearProfileActivity_remove_profile_photo">Të heq foton e profilit?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Numri sigurie i juaj me %1$s është ndryshuar. Kjo do të thotë që, ose dikush është duke u munduar të nderhyjë në bisedën e juaj, ose thjeshtë që %2$s ka instaluar Signal perseri.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Numri sigurie i juaj me %1$s është ndryshuar. Kjo do të thotë që, ose dikush është duke u munduar të nderhyjë në bisedën e juaj, ose thjeshtë që %2$s ka instaluarBittube Messengerperseri.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Ndoshta deshironi të verifikoni numrin e juaj sigurie me këtë kontakt.</string>
   <string name="ConfirmIdentityDialog_accept">Prano</string>
   <!--ContactsCursorLoader-->
@@ -65,7 +65,7 @@
   <string name="ContactsCursorLoader_contacts">Kontaktet</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Lajmi %s</string>
-  <string name="ContactsDatabase_signal_call_s">Thirrje përmes Signal %s</string>
+  <string name="ContactsDatabase_signal_call_s">Thirrje përmesBittube Messenger%s</string>
   <!--ContactNameEditActivity-->
   <!--ContactShareEditActivity-->
   <!--ConversationItem-->
@@ -97,7 +97,7 @@
   <string name="ConversationActivity_transport_insecure_sms">SMS i pasigurtë</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS i pasigurtë</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Të kalojmë në Signal %1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Të kalojmë nëBittube Messenger%1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Ta përdorim këtë për të biseduar: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Gabim lënia e grupit</string>
   <string name="ConversationActivity_specify_recipient">Ju lutem, përzgjedhni një kontakt</string>
@@ -226,10 +226,10 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal tash mbështetë videothirrje të sigurta.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal tash mbështetë videothirrje të sigurta. Prek për të eksploruar.</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Tani mund të ndani foto profili dhe emrin me shokët në Signal</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Profilet e Signal ndodhen këtu</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Profilet eBittube Messengerndodhen këtu</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Dështim i pëhershëm komunikimi nga Signal!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nuk mundi të regjistrohet me serviset Google Play. Porositë dhe thirrjet Signal janë të pamundësuara, ju lutemi regjistrohuni në Rregullimet &gt; Të avancuara.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nuk mundi të regjistrohet me serviset Google Play. Porositë dhe thirrjetBittube Messengerjanë të pamundësuara, ju lutemi regjistrohuni në Rregullimet &gt; Të avancuara.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Gabim gjatë marrjes së GIF-it me rezolucion të plotë</string>
   <!--GiphyFragmentPageAdapter-->
@@ -240,8 +240,8 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Edito grupin</string>
   <string name="GroupCreateActivity_group_name_hint">Emri i grupit</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Grup MMS i ri</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Keni përzgjedhur kontakt që nuk mbështet Signal grupe, prandaj ky grup do të jetë MMS.Service</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Ju nuk jeni të regjistruar për porosi dhe thirrje Signal, prandaj grupet Signal janë të pamundësuara. Ju lutemi regjistroheni duke shkuar në Rregullimet &gt; Të avancuara.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Keni përzgjedhur kontakt që nuk mbështetBittube Messengergrupe, prandaj ky grup do të jetë MMS.Service</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Ju nuk jeni të regjistruar për porosi dhe thirrje Signal, prandaj grupetBittube Messengerjanë të pamundësuara. Ju lutemi regjistroheni duke shkuar në Rregullimet &gt; Të avancuara.</string>
   <string name="GroupCreateActivity_contacts_no_members">Duhet të kesh së paku një person në grup!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Një pjesëmarrës i grupit tuaj ka numër që nuk mund të lexohet në mënyrë korrekte. Ju lutemi riparoni ose fshini kontaktin dhe provoni sërisht.</string>
   <string name="GroupCreateActivity_avatar_content_description">Avatari i grupit</string>
@@ -267,7 +267,7 @@
   <string name="InviteActivity_heart_content_description">Zemra</string>
   <string name="InviteActivity_invitations_sent">Ftesa u dërgua!</string>
   <string name="InviteActivity_invite_to_signal">Fto në Signal</string>
-  <string name="InviteActivity_lets_switch_to_signal">Të kalojmë në Signal %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Të kalojmë nëBittube Messenger%1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Duket që nuk keni epa me të cilat të ndani.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Miqtë nuk lëjnë miqtë të bisedojnë pa shifrim.</string>
   <!--MessageDetailsRecipient-->
@@ -332,7 +332,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Kërkojmë falje, keni lidhur shumë pajisje, provoni të mënjanoni disa</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Kërkojmë falje, ky QR kod është i gabuar.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Lidh një pajisje Signal?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Duket sikur provoni të lidhni Signal paisje duke përdorur skaner të një pale të 3të. Si përmasë mbrojtëse, skanoni kodin sërish nga përbrenda Signal-it.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Duket sikur provoni të lidhniBittube Messengerpaisje duke përdorur skaner të një pale të 3të. Si përmasë mbrojtëse, skanoni kodin sërish nga përbrenda Signal-it.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">E pamundur të skanohet kodi QR pa lejim të kamerës</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Porosi zhdukëse</string>
@@ -490,11 +490,11 @@ U pranua porosi për shkëmbim çelësash për një version protokolli të pavle
   <string name="MessageNotifier_mark_read">Shëno si të lexuar</string>
   <string name="MessageNotifier_media_message">Porosi mediale</string>
   <string name="MessageNotifier_reply">Përgjigju</string>
-  <string name="MessageNotifier_pending_signal_messages">Mesazhe Signal të mbetur pezull</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Ju keni mesazhe Signal të mbetur pezull, shtypni për t\'i rimarrur</string>
+  <string name="MessageNotifier_pending_signal_messages">MesazheBittube Messengertë mbetur pezull</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Ju keni mesazheBittube Messengertë mbetur pezull, shtypni për t\'i rimarrur</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Përgjigja e shpejtë nuk është në dispozicion kur Signal është i mbyllur!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Përgjigja e shpejtë nuk është në dispozicion kurBittube Messengerështë i mbyllur!</string>
   <string name="QuickResponseService_problem_sending_message">Problem në dërgimin e porosisë!</string>
   <!--SaveAttachmentTask-->
   <!--SearchToolbar-->
@@ -558,7 +558,7 @@ U pranua porosi për shkëmbim çelësash për një version protokolli të pavle
   <string name="conversation_activity__attachment_thumbnail">Foto e shtojcës</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Ndërroje vizatuesin e shtojcave të shpejta te kameres</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Xhironi zërin dhe dërgojeni të bashkangjitur</string>
-  <string name="conversation_activity__enable_signal_for_sms">Aktivizo Signal për SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">AktivizoBittube Messengerpër SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">RRQITË PËR TË ANULUAR</string>
   <!--conversation_item-->
@@ -754,8 +754,8 @@ U pranua porosi për shkëmbim çelësash për një version protokolli të pavle
   <string name="preferences__sms_mms">SMS dhe MMS</string>
   <string name="preferences__pref_all_sms_title">Merr gjithë SMS</string>
   <string name="preferences__pref_all_mms_title">Merr gjithë MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Përdor Signal për të gjitha SMS-të</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Përdor Signal për të gjitha porositë ardhëse multimediale</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">PërdorBittube Messengerpër të gjitha SMS-të</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">PërdorBittube Messengerpër të gjitha porositë ardhëse multimediale</string>
   <string name="preferences__pref_enter_sends_title">Butoni Enter dërgon</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Prekja e butonin Enter do të dërgoj porosi tekstuale</string>
   <string name="preferences__choose_identity">Zgjedh identitetin</string>
@@ -831,7 +831,7 @@ U pranua porosi për shkëmbim çelësash për një version protokolli të pavle
   <string name="preferences_chats__message_trimming">Shkurtimi i porosive</string>
   <string name="preferences_advanced__use_system_emoji">Përdor emoji të sistemit</string>
   <string name="preferences_advanced__disable_signal_built_in_emoji_support">Çaktivizo mbështetjen emoji të ndërtuar në Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Drejtoj të gjitha thirrjet përmes shërbyesit Signal për të shmangur zbulimin e adresës së IP-së tuaj gjatë thirrjes. Aktivizimi do të zvogëlojë cilësinë e telefonatës.</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Drejtoj të gjitha thirrjet përmes shërbyesitBittube Messengerpër të shmangur zbulimin e adresës së IP-së tuaj gjatë thirrjes. Aktivizimi do të zvogëlojë cilësinë e telefonatës.</string>
   <string name="preferences_advanced__always_relay_calls">Gjithmonë ndërlidh thirrjet</string>
   <string name="preferences_app_protection__app_access">Qasja e aplikacionit</string>
   <string name="preferences_app_protection__communication">Komunikim</string>
