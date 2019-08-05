@@ -45,7 +45,7 @@ public class GcmRefreshJob extends ContextJob implements InjectableType {
 
   private static final String TAG = GcmRefreshJob.class.getSimpleName();
 
-  public static final String REGISTRATION_ID = "984614073702";
+  public static final String REGISTRATION_ID = "687730990488";
 
   @Inject transient SignalServiceAccountManager textSecureAccountManager;
 
