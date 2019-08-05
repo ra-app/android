@@ -541,12 +541,12 @@
     <provider android:name=".providers.PartProvider"
               android:grantUriPermissions="true"
               android:exported="false"
-              android:authorities="org.bittube.provider.messenger" />
+              android:authorities="org.raapp.provider.messenger" />
 
     <provider android:name=".providers.MmsBodyProvider"
               android:grantUriPermissions="true"
               android:exported="false"
-              android:authorities="org.bittube.provider.messenger.mms" />
+              android:authorities="org.raapp.provider.messenger.mms" />
 
     <provider android:name="android.support.v4.content.FileProvider"
               android:authorities="org.raapp.messenger.fileprovider"

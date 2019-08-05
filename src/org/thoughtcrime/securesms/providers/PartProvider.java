@@ -46,7 +46,7 @@ public class PartProvider extends ContentProvider {
 
   private static final String TAG = PartProvider.class.getSimpleName();
 
-  private static final String CONTENT_URI_STRING = "content://org.bittube.provider.messenger/part";
+  private static final String CONTENT_URI_STRING = "content://org.raapp.provider.messenger/part";
   private static final Uri    CONTENT_URI        = Uri.parse(CONTENT_URI_STRING);
   private static final int    SINGLE_ROW         = 1;
 
@@ -54,7 +54,7 @@ public class PartProvider extends ContentProvider {
 
   static {
     uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
-    uriMatcher.addURI("org.bittube.provider.messenger", "part/*/#", SINGLE_ROW);
+    uriMatcher.addURI("org.raapp.provider.messenger", "part/*/#", SINGLE_ROW);
   }
 
   @Override
