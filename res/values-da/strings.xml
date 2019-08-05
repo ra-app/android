@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAPP Messenger</string>
+  <string name="app_name">RAAPP Messenger</string>
   <string name="yes">Ja</string>
   <string name="no">Nej</string>
   <string name="delete">Slet</string>
@@ -21,17 +21,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Slet</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Deaktivér kodeord?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dette vil fremover tillade RAPP Messenger og besked notifikationer.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dette vil fremover tillade RAAPP Messenger og besked notifikationer.</string>
   <string name="ApplicationPreferencesActivity_disable">Deaktivér</string>
   <string name="ApplicationPreferencesActivity_unregistering">Afregistrerer</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Afmeld RAPP Messenger beskeder og - opkald...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Deaktivér RAPP Messenger beskeder og - opkald?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Deaktivér RAPP Messenger beskeder og - opkald ved at afregistrere serveren. Du er nødt til at genregistrere dit telefonnummer for at bruge det igen i fremtiden.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Afmeld RAAPP Messenger beskeder og - opkald...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Deaktivér RAAPP Messenger beskeder og - opkald?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Deaktivér RAAPP Messenger beskeder og - opkald ved at afregistrere serveren. Du er nødt til at genregistrere dit telefonnummer for at bruge det igen i fremtiden.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Kan ikke oprette forbindelse til serveren.</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS slået til</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Brug som standard SMS-program</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS slået fra</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tryk for at gøre RAPP Messenger til din standard SMS-app.</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tryk for at gøre RAAPP Messenger til din standard SMS-app.</string>
   <string name="ApplicationPreferencesActivity_on">tændt</string>
   <string name="ApplicationPreferencesActivity_On">Tændt</string>
   <string name="ApplicationPreferencesActivity_off">slukket</string>
@@ -66,7 +66,7 @@
   <string name="ClearProfileActivity_remove">Fjern</string>
   <string name="ClearProfileActivity_remove_profile_photo">Fjern profilbillede?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Sikkerhedsnøglen for %1$s er blevet ændret. Dette kan enten betyde at nogen forsøger at opsnappe kommunikationen, eller at %2$s bare har geninstalleret RAPP Messenger og nu har en ny sikkerhedsnøgle.
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Sikkerhedsnøglen for %1$s er blevet ændret. Dette kan enten betyde at nogen forsøger at opsnappe kommunikationen, eller at %2$s bare har geninstalleret RAAPP Messenger og nu har en ny sikkerhedsnøgle.
     </string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Du bør verificere din sikkerhedsnøgle med denne kontakt</string>
   <string name="ConfirmIdentityDialog_accept">Godkend</string>
@@ -112,8 +112,8 @@
   <string name="ConversationActivity_transport_insecure_sms">Usikker (ikke krypteret) SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Usikker (ikke krypteret) MMS</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Skal vi ikke bruge RAPP Messenger %1$s?</string>
-  <string name="ConversationActivity_lets_use_this_to_chat">Skal vi ikke bruge RAPP Messenger %1$s?</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Skal vi ikke bruge RAAPP Messenger %1$s?</string>
+  <string name="ConversationActivity_lets_use_this_to_chat">Skal vi ikke bruge RAAPP Messenger %1$s?</string>
   <string name="ConversationActivity_error_leaving_group">Der skete en fejl da du forlod gruppen</string>
   <string name="ConversationActivity_specify_recipient">Vælg venligst en kontakt</string>
   <string name="ConversationActivity_unblock_this_contact_question">Stop blokering af denne kontakt?</string>
@@ -123,8 +123,8 @@
   <string name="ConversationActivity_quick_camera_unavailable">Kamera utilgængeligt</string>
   <string name="ConversationActivity_unable_to_record_audio">Fejl ved lydoptagelse!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Der er ingen app, der kan åbne dette link på dit device.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">For at sende talebeskeder skal du give RAPP Messenger adgang til mikrofonen.</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">For at ringe til %s har RAPP Messenger brug for adgang til din mikrofon og dit kamera.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">For at sende talebeskeder skal du give RAAPP Messenger adgang til mikrofonen.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">For at ringe til %s har RAAPP Messenger brug for adgang til din mikrofon og dit kamera.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal har brug for adgang til mikrofon og kamera for at kunne ringe til %s, men det er permanent blevet afvist. Åben indstillinger og gå til \"Tilladelser\" for at give tilladelse til mikrofon og kamera.</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal behøver tilladelse, for at bruge kameraet, til at tage billeder og video</string>
   <!--ConversationAdapter-->
@@ -227,7 +227,7 @@
   <string name="DocumentView_unknown_file">Ukendt fil</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimer for manglende Play Services</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Denne enhed understøtter ikke Play Services. Tryk for at slå batterioptimeringer fra, som forhindrer RAPP Messenger i at modtage beskeder i baggrunden.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Denne enhed understøtter ikke Play Services. Tryk for at slå batterioptimeringer fra, som forhindrer RAAPP Messenger i at modtage beskeder i baggrunden.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Del med</string>
   <!--ExperienceUpgradeActivity-->
@@ -237,15 +237,15 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure er nu Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure og RedPhone er nu én app: Signal. Tryk for at udforske.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Sig hej til sikre videoopkald.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal understøtter nu sikre videoopkald. Du skal bare starte et RAPP Messenger opkald som normalt, tryk på video knappen og vink goddag.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal understøtter nu sikre videoopkald. Du skal bare starte et RAAPP Messenger opkald som normalt, tryk på video knappen og vink goddag.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal understøtter nu sikre videoopkald.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal understøtter nu sikre videoopkald. Tryk for at udforske.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Er du klar til et closeup?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Nu kan du dele dit profilbillede og navn med dine venner på Signal</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Nu er der RAPP Messenger profiler</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Nu er der RAAPP Messenger profiler</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent fejl i Signal-kommunikationen!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal var ude af stand til at registrere med Google Play Services. RAPP Messenger beskeder og opkald blev deaktiveret, prøv venligst at registrere igen i Indstillinger &gt; Advanceret.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal var ude af stand til at registrere med Google Play Services. RAAPP Messenger beskeder og opkald blev deaktiveret, prøv venligst at registrere igen i Indstillinger &gt; Advanceret.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Der skete en fejl i, mens vi hentede GIF i fuld opløsning.</string>
   <!--GiphyFragmentPageAdapter-->
@@ -257,7 +257,7 @@
   <string name="GroupCreateActivity_group_name_hint">Gruppenavn</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Ny MMS-gruppe</string>
   <string name="GroupCreateActivity_contacts_dont_support_push">Du har valgt en person der ikke understøtter Signal-grupper. Denne gruppe vil være en MMS-gruppe.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Du er ikke sat op til RAPP Messenger beskeder og opkald, så RAPP Messenger grupper er deaktiveret. Du bedes registrere dig under Indstillinger &gt; Advanceret.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Du er ikke sat op til RAAPP Messenger beskeder og opkald, så RAAPP Messenger grupper er deaktiveret. Du bedes registrere dig under Indstillinger &gt; Advanceret.</string>
   <string name="GroupCreateActivity_contacts_no_members">Der skal være mindst én person i gruppen!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">En kontakt i gruppen har et nummer, der ikke kan læses. Ret nummeret eller fjern kontakten og prøv igen.</string>
   <string name="GroupCreateActivity_avatar_content_description">Gruppeikon</string>
@@ -347,7 +347,7 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ugyldig QR-kode.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Ups. Du har allerede for mange enheder tilsluttet, prøv at fjerne én</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Beklager. Dette er ikke en gyldig QR-kode til at forbinde enheder.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Forbind en RAPP Messenger enhed?</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Forbind en RAAPP Messenger enhed?</string>
   <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det ser ud som om du forsøger at forbinde en Signal-enhed vha. en tredjeparts-skanner. Af hensyn til sikkerhed, bør du skanne koden igen fra selve Signal-appen.</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Beskeder der forsvinder</string>
@@ -450,7 +450,7 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="ThreadRecord_you_marked_unverified">Du markerede ubekræftet</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Signal opdatering</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version af RAPP Messenger er tilgængelig, tryk for at opdatere</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version af RAAPP Messenger er tilgængelig, tryk for at opdatere</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Blokér %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Blokerede kontakter kan ikke sende dig beskeder eller ringe til dig.</string>
@@ -506,15 +506,15 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="MessageNotifier_mark_read">Markér som læst</string>
   <string name="MessageNotifier_media_message">Multimediebesked</string>
   <string name="MessageNotifier_reply">Svar</string>
-  <string name="MessageNotifier_pending_signal_messages">Afventende RAPP Messenger beskeder</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Du har afventende RAPP Messenger beskeder, tryk for at åbne og modtage</string>
+  <string name="MessageNotifier_pending_signal_messages">Afventende RAAPP Messenger beskeder</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Du har afventende RAAPP Messenger beskeder, tryk for at åbne og modtage</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_messages">Standard</string>
   <string name="NotificationChannel_group_messages">Beskeder</string>
   <string name="NotificationChannel_missing_display_name">Ukendt</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtig-svar utilgængelig når RAPP Messenger er låst!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtig-svar utilgængelig når RAAPP Messenger er låst!</string>
   <string name="QuickResponseService_problem_sending_message">Problem med at sende besked!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Gemt til %s</string>
@@ -579,7 +579,7 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="conversation_activity__attachment_thumbnail">Vedhæftet fil-miniature</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Slå kamera til/fra</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Optag og send en lydbesked</string>
-  <string name="conversation_activity__enable_signal_for_sms">Brug RAPP Messenger til SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Brug RAAPP Messenger til SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">SWIPE FOR AT AFBRYDE</string>
   <!--conversation_item-->
@@ -787,8 +787,8 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="preferences__sms_mms">SMS og MMS</string>
   <string name="preferences__pref_all_sms_title">Modtag alle SMS</string>
   <string name="preferences__pref_all_mms_title">Modtag alle MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Brug RAPP Messenger til alle indgående SMS\'er</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Brug RAPP Messenger til alle indgående MMS\'er</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Brug RAAPP Messenger til alle indgående SMS\'er</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Brug RAAPP Messenger til alle indgående MMS\'er</string>
   <string name="preferences__pref_enter_sends_title">\\"Enter\\" sender</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">\\"Enter\\" vil sende beskeden</string>
   <string name="preferences__choose_identity">Vælg identitet</string>
@@ -797,7 +797,7 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="preferences__change_your_passphrase">Ændring af dit kodeord</string>
   <string name="preferences__screen_security">Skærmsikkerhed</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokér skærmbillede (screenshots) i listen \"forrige apps\" og i Signal</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lås automatisk RAPP Messenger efter et valgt tidsinterval med inaktivitet</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lås automatisk RAAPP Messenger efter et valgt tidsinterval med inaktivitet</string>
   <string name="preferences__inactivity_timeout_passphrase">Kodeord for timeout ved inaktivitet.</string>
   <string name="preferences__inactivity_timeout_interval">Længde for interval ved inaktivitet</string>
   <string name="preferences__notifications">Notifikationer</string>
@@ -944,12 +944,12 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Kopier til udklipsholder</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Sammenlign med udklipsholder</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Din version af RAPP Messenger er forældet</string>
-  <string name="reminder_header_outdated_build_details_today">Din version af RAPP Messenger udløber i dag. Tap for at opdatere til den seneste version.</string>
-  <string name="reminder_header_expired_build">Din version af RAPP Messenger er udgået!</string>
+  <string name="reminder_header_outdated_build">Din version af RAAPP Messenger er forældet</string>
+  <string name="reminder_header_outdated_build_details_today">Din version af RAAPP Messenger udløber i dag. Tap for at opdatere til den seneste version.</string>
+  <string name="reminder_header_expired_build">Din version af RAAPP Messenger er udgået!</string>
   <string name="reminder_header_expired_build_details">Beskeder vil ikke længere blive afsendt ordentligt. Tap for at opdatere til den seneste version.</string>
   <string name="reminder_header_sms_default_title">Anvend som standard SMS-app</string>
-  <string name="reminder_header_sms_default_text">Tryk for at gøre RAPP Messenger til din standard SMS-app.</string>
+  <string name="reminder_header_sms_default_text">Tryk for at gøre RAAPP Messenger til din standard SMS-app.</string>
   <string name="reminder_header_sms_import_title">Importér SMS</string>
   <string name="reminder_header_sms_import_text">Klik for at kopiere din telefons SMS beskeder til Signals krypterede database.</string>
   <string name="reminder_header_push_title">Aktivér Signalbeskeder og -opkald</string>
@@ -984,7 +984,7 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="BackupUtil_never">Aldrig</string>
   <string name="BackupUtil_unknown">Ukendt</string>
   <string name="preferences_app_protection__screen_lock">Skærmlås</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås adgang til RAPP Messenger med Android skærmlås eller fingeraftryk</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås adgang til RAAPP Messenger med Android skærmlås eller fingeraftryk</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Skærmlås inaktivitets-timeout</string>
   <string name="AppProtectionPreferenceFragment_none">Ingen</string>
   <string name="registration_activity__registration_lock_pin">Registreringslås pinkode</string>
@@ -997,7 +997,7 @@ Modtog en nøgle-besked for en ugyldig protokol-version.
   <string name="RegistrationActivity_oh_no">Åh nej!</string>
   <string name="RegistrationActivity_registration_lock_pin">Registreringslås pinkode</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Denne telefon har registreringslås slået til. Venligst indtast pinkoden.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registreringslås pinkode er slået til for dit telefonnummer. For at hjælpe dig med at huske pinkoden beder RAPP Messenger dig periodisk bekræfte den.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registreringslås pinkode er slået til for dit telefonnummer. For at hjælpe dig med at huske pinkoden beder RAAPP Messenger dig periodisk bekræfte den.</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registreringslås pinkoden hjælper dig med at beskytte dit telefonnummer fra uautoriserede registreringsforsøg. Denne funktion kan til enhver tid slås fra under privatlivsindstillinger.</string>
   <string name="RegistrationLockDialog_registration_lock">Registreringslås</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">Registreringslås pinkoden skal være på mindst 4 cifre.</string>

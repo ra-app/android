@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAPP Messenger</string>
+  <string name="app_name">RAAPP Messenger</string>
   <string name="yes">Taip</string>
   <string name="no">Ne</string>
   <string name="delete">Ištrinti</string>
@@ -25,17 +25,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Ištrinti</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Išjungti slaptafrazę?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tai visiems laikams atrakins RAPP Messenger ir žinučių pranešimus.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tai visiems laikams atrakins RAAPP Messenger ir žinučių pranešimus.</string>
   <string name="ApplicationPreferencesActivity_disable">Išjungti</string>
   <string name="ApplicationPreferencesActivity_unregistering">Išregistruojama</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Išregistruojama iš RAPP Messenger žinučių ir skambučių...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Išjungti RAPP Messenger žinutes ir skambučius?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Išjunkite RAPP Messenger žinutes ir skambučius išsiregistruodami iš serverio. Norėdami vėl jais naudotis, jūs turėsite iš naujo užregistruoti savo telefono numerį.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Išregistruojama iš RAAPP Messenger žinučių ir skambučių...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Išjungti RAAPP Messenger žinutes ir skambučius?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Išjunkite RAAPP Messenger žinutes ir skambučius išsiregistruodami iš serverio. Norėdami vėl jais naudotis, jūs turėsite iš naujo užregistruoti savo telefono numerį.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Klaida prisijungiant prie serverio!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS įjungta</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Prilieskite, kad pakeistumėte numatytąją SMS programėlę</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS išjungta</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Padaryti RAPP Messenger numatytąja SMS programėle</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Padaryti RAAPP Messenger numatytąja SMS programėle</string>
   <string name="ApplicationPreferencesActivity_on">įjungta</string>
   <string name="ApplicationPreferencesActivity_On">Įjungta</string>
   <string name="ApplicationPreferencesActivity_off">išjungta</string>
@@ -58,10 +58,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(atsakymas)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Nerasta programėlė medijos pasirinkimui.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, RAPP Messenger reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Saugyklą\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Norint pridėti kontaktinę informaciją, RAPP Messenger reikia kontaktų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kontaktus\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Norint pridėti vietą, RAPP Messenger reikia vietos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Vietą\".</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Norint fotografuoti, RAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, RAAPP Messenger reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Saugyklą\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Norint pridėti kontaktinę informaciją, RAAPP Messenger reikia kontaktų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kontaktus\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Norint pridėti vietą, RAAPP Messenger reikia vietos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Vietą\".</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Norint fotografuoti, RAAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Klaida atkuriant garso įrašą!</string>
   <!--BlockedContactsActivity-->
@@ -106,7 +106,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Siuntimas nepavyko, bakstelėkite, norėdami sugrįžti nesaugaus surogato</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Sugrįžti prie nešifruotų SMS naudojimo?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Sugrįžti prie nešifruotų MMS naudojimo?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ši žinutė <b>nebus</b> užšifruota, nes gavėjas daugiau nebėra RAPP Messenger naudotojas.\n\nSiųsti neapsaugotą žinutę?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ši žinutė <b>nebus</b> užšifruota, nes gavėjas daugiau nebėra RAAPP Messenger naudotojas.\n\nSiųsti neapsaugotą žinutę?</string>
   <string name="ConversationItem_unable_to_open_media">Nepavyksta rasti programėlės, galinčios atverti šią mediją.</string>
   <string name="ConversationItem_copied_text">%s nukopijuota</string>
   <string name="ConversationItem_from_s">nuo %s</string>
@@ -131,7 +131,7 @@
   <string name="ConversationActivity_transport_insecure_sms">Nesaugi SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nesaugi MMS</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Persijunkime į RAPP Messenger %1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Persijunkime į RAAPP Messenger %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Naudokime pokalbiui štai ką: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Klaida, išeinant iš grupės</string>
   <string name="ConversationActivity_specify_recipient">Prašome pasirinkti kontaktą</string>
@@ -142,13 +142,13 @@
   <string name="ConversationActivity_quick_camera_unavailable">Kamera neprieinama</string>
   <string name="ConversationActivity_unable_to_record_audio">Nepavyksta įrašyti garso!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nėra prieinamos programėlės, kuri galėtų apdoroti šią nuorodą jūsų įrenginyje.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Norėdami siųsti garso žinutes, leiskite RAPP Messenger prieigą prie mikrofono.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Norint siųsti garso žinutes, RAPP Messenger reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Norint skambinti %s, RAPP Messenger yra reikalinga prieiga prie jūsų mikrofono ir kameros.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Norint skambinti %s, programai RAPP Messenger reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\" ir \"Kamerą\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite RAPP Messenger prieigą prie kameros.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, RAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, RAPP Messenger reikalinga prieiga prie kameros</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Norėdami siųsti garso žinutes, leiskite RAAPP Messenger prieigą prie mikrofono.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Norint siųsti garso žinutes, RAAPP Messenger reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\".</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Norint skambinti %s, RAAPP Messenger yra reikalinga prieiga prie jūsų mikrofono ir kameros.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Norint skambinti %s, programai RAAPP Messenger reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\" ir \"Kamerą\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite RAAPP Messenger prieigą prie kameros.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, RAAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, RAAPP Messenger reikalinga prieiga prie kameros</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -276,7 +276,7 @@
   <string name="DocumentView_unknown_file">Nežinomas failas</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimizuoti trūkstamoms „Play“ paslaugoms</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šis įrenginys nepalaiko „Play“ paslaugų. Bakstelėkite, norėdami išjungti sistemos baterijos optimizavimus, kurie neleidžia RAPP Messenger gauti žinučių tol, kol įrenginys yra neaktyvus.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šis įrenginys nepalaiko „Play“ paslaugų. Bakstelėkite, norėdami išjungti sistemos baterijos optimizavimus, kurie neleidžia RAAPP Messenger gauti žinučių tol, kol įrenginys yra neaktyvus.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Dalintis su</string>
   <!--ExperienceUpgradeActivity-->
@@ -286,15 +286,15 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure dabar tapo Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ir RedPhone dabar yra viena programėlė: Signal. Bakstelėkite, norėdami sužinoti daugiau.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Pasveikinkite saugius vaizdo skambučius.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Dabar, RAPP Messenger palaiko saugius vaizdo skambučius. Tiesiog, pradėkite, kaip įprasta, RAPP Messenger skambutį, bakstelėkite vaizdo mygtuką ir pamojuokite.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Dabar, RAPP Messenger palaiko saugius vaizdo skambučius.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Dabar, RAPP Messenger palaiko saugius vaizdo skambučius. Bakstelėkite, norėdami išnagrinėti.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Dabar, RAAPP Messenger palaiko saugius vaizdo skambučius. Tiesiog, pradėkite, kaip įprasta, RAAPP Messenger skambutį, bakstelėkite vaizdo mygtuką ir pamojuokite.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Dabar, RAAPP Messenger palaiko saugius vaizdo skambučius.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Dabar, RAAPP Messenger palaiko saugius vaizdo skambučius. Bakstelėkite, norėdami išnagrinėti.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Pasiruošę artimesniam bendravimui?</string>
-  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Dabar, su RAPP Messenger draugais galite bendrinti profilio nuotrauką ir vardą</string>
+  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Dabar, su RAAPP Messenger draugais galite bendrinti profilio nuotrauką ir vardą</string>
   <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal profiliai jau čia</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė RAPP Messenger susisiekimo triktis!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nepavyko prisiregistruoti prie „Google Play“ paslaugų. RAPP Messenger žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė RAAPP Messenger susisiekimo triktis!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nepavyko prisiregistruoti prie „Google Play“ paslaugų. RAAPP Messenger žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Klaida, gaunant pilnos raiškos GIF</string>
   <!--GiphyFragmentPageAdapter-->
@@ -305,15 +305,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Taisyti grupę</string>
   <string name="GroupCreateActivity_group_name_hint">Grupės pavadinimas</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Nauja MMS grupė</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Jūs pasirinkote kontaktą, kuris nepalaiko RAPP Messenger grupes, taigi, ši grupė bus MMS.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Jūs nesate užsiregistravę RAPP Messenger žinutėms ir skambučiams, taigi, RAPP Messenger grupės yra išjungtos. Prašome pabandyti registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Jūs pasirinkote kontaktą, kuris nepalaiko RAAPP Messenger grupes, taigi, ši grupė bus MMS.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Jūs nesate užsiregistravę RAAPP Messenger žinutėms ir skambučiams, taigi, RAAPP Messenger grupės yra išjungtos. Prašome pabandyti registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
   <string name="GroupCreateActivity_contacts_no_members">Jums jūsų grupėje reikalingas bent vienas žmogus!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Vieno iš jūsų grupės dalyvių numerį nepavyksta perskaityti teisingai. Prašome tai ištaisyti arba pašalinti tą kontaktą ir bandyti dar kartą.</string>
   <string name="GroupCreateActivity_avatar_content_description">Grupės avataras</string>
   <string name="GroupCreateActivity_menu_apply_button">Taikyti</string>
   <string name="GroupCreateActivity_creating_group">Kuriama %1$s…</string>
   <string name="GroupCreateActivity_updating_group">Atnaujinama %1$s...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Nepavyko pridėti %1$s, kadangi tai nėra RAPP Messenger naudotojas.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Nepavyko pridėti %1$s, kadangi tai nėra RAAPP Messenger naudotojas.</string>
   <string name="GroupCreateActivity_loading_group_details">Įkeliama išsamesnė grupės informacija...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Jūs jau esate grupėje.</string>
   <!--GroupShareProfileView-->
@@ -374,8 +374,8 @@
   <string name="MediaOverviewActivity_Documents">Dokumentai</string>
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal skambutis yra eigoje</string>
-  <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas RAPP Messenger skambutis</string>
-  <string name="NotificationBarManager__incoming_signal_call">Gaunamasis RAPP Messenger skambutis</string>
+  <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas RAAPP Messenger skambutis</string>
+  <string name="NotificationBarManager__incoming_signal_call">Gaunamasis RAAPP Messenger skambutis</string>
   <string name="NotificationBarManager__deny_call">Atmesti skambutį</string>
   <string name="NotificationBarManager__answer_call">Atsiliepti į skambutį</string>
   <string name="NotificationBarManager__end_call">Baigti skambutį</string>
@@ -385,7 +385,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Atsiunčiama MMS žinutė</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Klaida, atsiunčiant MMS žinutę, bakstelėkite, norėdami bandyti dar kartą</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną RAPP Messenger versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną RAAPP Messenger versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
   <string name="MessageRecord_left_group">Jūs išėjote iš grupės.</string>
   <string name="MessageRecord_you_updated_group">Jūs atnaujinote grupę.</string>
   <string name="MessageRecord_you_called">Jūs skambinote</string>
@@ -426,9 +426,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Neteisingas QR kodas.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Atleiskite, jūs jau turite per daug susietų įrenginių, pabandykite kai kuriuos pašalinti</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Atleiskite, tai nėra teisingas įrenginio nuorodos QR kodas.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti RAPP Messenger įrenginį?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti RAPP Messenger įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, RAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti RAAPP Messenger įrenginį?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti RAAPP Messenger įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami Signal.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, RAAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Išnykstančios žinutės</string>
@@ -493,9 +493,9 @@
   <string name="RegistrationActivity_no_browser">Nepavyko atverti šios nuorodos. Nerasta jokios saityno naršyklės.</string>
   <string name="RegistrationActivity_more_information">Daugiau informacijos</string>
   <string name="RegistrationActivity_less_information">Mažiau informacijos</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Norinti susisiekti su draugais, keistis žinutėmis ir saugiai skambinti, RAPP Messenger reikia prieigos prie jūsų kontaktų ir medijos</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Norinti susisiekti su draugais, keistis žinutėmis ir saugiai skambinti, RAAPP Messenger reikia prieigos prie jūsų kontaktų ir medijos</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Nepavyksta prisijungti prie paslaugos. Patikrinkite tinklo ryšį ir bandykite dar kartą.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Norint lengvai patvirtinti jūsų telefono numerį, RAPP Messenger gali automatiškai aptikti patvirtinimo kodą, jei leisite programai RAPP Messenger peržiūrėti SMS žinutes.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Norint lengvai patvirtinti jūsų telefono numerį, RAAPP Messenger gali automatiškai aptikti patvirtinimo kodą, jei leisite programai RAAPP Messenger peržiūrėti SMS žinutes.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Nepavyko įrašyti paveikslo pakeitimų</string>
   <!--Search-->
@@ -545,7 +545,7 @@
   <string name="ThreadRecord_you_marked_unverified">Jūs pažymėjote nepatvirtintu</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Signal atnaujinimas</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja RAPP Messenger versija, bakstelėkite, norėdami atnaujinti</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja RAAPP Messenger versija, bakstelėkite, norėdami atnaujinti</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Užblokuoti %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Užblokuoti kontaktai daugiau nebegalės jums siųsti žinučių ar skambinti.</string>
@@ -560,14 +560,14 @@
   <string name="UnverifiedSendDialog_send_message">Siųsti žinutę?</string>
   <string name="UnverifiedSendDialog_send">Siųsti</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsų kontaktas naudoja seną RAPP Messenger versiją. Prieš patvirtindami savo saugumo numerį, paprašykite, kad jis atnaujintų programėlę.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsų kontaktas naudoja naujesnę RAPP Messenger versiją su nesuderinamu QR kodo formatu. Norint palyginti, prašome atnaujinti programėlę.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsų kontaktas naudoja seną RAAPP Messenger versiją. Prieš patvirtindami savo saugumo numerį, paprašykite, kad jis atnaujintų programėlę.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsų kontaktas naudoja naujesnę RAAPP Messenger versiją su nesuderinamu QR kodo formatu. Norint palyginti, prašome atnaujinti programėlę.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Nuskenuotas QR kodas nėra teisingai formatuotas saugumo numerio patvirtinimo kodas. Prašome bandyti skenuoti dar kartą.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Dalintis saugumo numeriu per...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsų RAPP Messenger saugumo numeris:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsų RAAPP Messenger saugumo numeris:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Atrodo, kad neturite programėlių su kuriomis dalintis.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Iškarpinėje palyginimui nebuvo rasta jokio saugumo numerio</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Norint skenuoti QR kodą, RAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Norint skenuoti QR kodą, RAAPP Messenger reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Blogai šifruota žinutė</string>
@@ -593,7 +593,7 @@
   <string name="MediaPreviewActivity_you">Jūs</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Nepalaikomas medijos tipas</string>
   <string name="MediaPreviewActivity_draft">Juodraštis</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Norint įrašyti į išorinę saugyklą, RAPP Messenger reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Saugyklą\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Norint įrašyti į išorinę saugyklą, RAAPP Messenger reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Saugyklą\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Ištrinti žinutę?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Tai visiems laikams ištrins šią žinutę.</string>
@@ -609,8 +609,8 @@
   <string name="MessageNotifier_mark_read">Žymėti kaip skaitytą</string>
   <string name="MessageNotifier_media_message">Medijos žinutė</string>
   <string name="MessageNotifier_reply">Atsakyti</string>
-  <string name="MessageNotifier_pending_signal_messages">Laukiančios RAPP Messenger žinutės</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Jūs turite laukiančių RAPP Messenger žinučių, bakstelėkite, norėdami atverti ir jas gauti</string>
+  <string name="MessageNotifier_pending_signal_messages">Laukiančios RAAPP Messenger žinutės</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Jūs turite laukiančių RAAPP Messenger žinučių, bakstelėkite, norėdami atverti ir jas gauti</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontaktas</string>
   <!--Notification Channels-->
@@ -624,7 +624,7 @@
   <string name="NotificationChannel_group_messages">Žinutės</string>
   <string name="NotificationChannel_missing_display_name">Nežinoma</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai RAPP Messenger yra užrakinta!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai RAAPP Messenger yra užrakinta!</string>
   <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Įrašyta į %s</string>
@@ -638,12 +638,12 @@
   <string name="SingleRecipientNotificationBuilder_new_message">Nauja žinutė</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Įrenginys daugiau nebėra registruotas</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tai yra tikėtina, nes registravote savo telefono numerį su RAPP Messenger kitame įrenginyje. Bakstelėkite, norėdami registruoti iš naujo.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tai yra tikėtina, nes registravote savo telefono numerį su RAAPP Messenger kitame įrenginyje. Bakstelėkite, norėdami registruoti iš naujo.</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Klaida, atkuriant vaizdo įrašą</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Norėdami atsiliepti į skambutį nuo %s, suteikite RAPP Messenger prieigą prie mikrofono.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, RAPP Messenger reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\" ir \"Kamerą\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Norėdami atsiliepti į skambutį nuo %s, suteikite RAAPP Messenger prieigą prie mikrofono.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, RAAPP Messenger reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\" ir \"Kamerą\".</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">Jūsų pokalbio su %1$s saugumo numeris pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė Signal.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Jūs, tikriausiai, norėtumėte patvirtinti savo saugumo numerį su šiuo kontaktu.</string>
@@ -680,12 +680,12 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Kontakto nuotrauka</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Norint rodyti jūsų kontaktus, RAPP Messenger reikia kontaktų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kontaktus\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Norint rodyti jūsų kontaktus, RAAPP Messenger reikia kontaktų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kontaktus\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Klaida gaunant kontaktus, patikrinkite tinklo ryšį</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Nėra užblokuotų kontaktų</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų kontaktus, RAPP Messenger reikalinga prieiga prie jų.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų kontaktus, RAAPP Messenger reikalinga prieiga prie jų.</string>
   <string name="contact_selection_list_fragment__show_contacts">Rodyti kontaktus</string>
   <!--conversation_activity-->
   <string name="conversation_activity__type_message_push">Signal žinutė</string>
@@ -698,7 +698,7 @@
   <string name="conversation_activity__attachment_thumbnail">Priedo miniatiūra</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Perjungti sparčiosios kameros priedų stalčių</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Įrašyti ir siųsti garso įrašo priedą</string>
-  <string name="conversation_activity__enable_signal_for_sms">Naudoti RAPP Messenger SMS žinutėms</string>
+  <string name="conversation_activity__enable_signal_for_sms">Naudoti RAAPP Messenger SMS žinutėms</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">SLINKITE, NORĖDAMI ATSISAKYTI</string>
   <!--conversation_item-->
@@ -815,7 +815,7 @@
   <string name="log_submit_activity__please_review_this_log_from_my_app">Peržiūrėkite šį žurnalą iš mano programėlės: %1$s</string>
   <string name="log_submit_activity__network_failure">Tinklo nesėkmė. Bandykite dar kartą.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ar norėtumėte importuoti savo esamas tekstines žinutes į užšifruotą RAPP Messenger duomenų bazę?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ar norėtumėte importuoti savo esamas tekstines žinutes į užšifruotą RAAPP Messenger duomenų bazę?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Numatytoji sistemos duomenų bazė jokiu būdu nebus pakeista ar modifikuota.</string>
   <string name="database_migration_activity__skip">Praleisti</string>
   <string name="database_migration_activity__import">Importuoti</string>
@@ -849,7 +849,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Atrakinti</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Tam, kad pristatytų mediją ir grupės žinutes per jūsų belaidį tiekėją, RAPP Messenger reikalauja MMS nustatymų. Jūsų įrenginys nepadaro šios informacijos prieinamos, kas, dažniausiai, pasitvirtina užrakintiems įrenginiams ir ribotoms konfigūracijoms.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Tam, kad pristatytų mediją ir grupės žinutes per jūsų belaidį tiekėją, RAAPP Messenger reikalauja MMS nustatymų. Jūsų įrenginys nepadaro šios informacijos prieinamos, kas, dažniausiai, pasitvirtina užrakintiems įrenginiams ir ribotoms konfigūracijoms.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Norėdami siųsti mediją ir grupės žinutes, bakstelėkite \"Gerai\" ir užbaikite užklaustus nustatymus. Įprastai, jūsų tiekėjo MMS nustatymus galima rasti, ieškant \"jūsų tiekėjas APN\". Jums reikės tai atlikti tik vieną kartą.</string>
   <!--profile_create_activity-->
   <string name="profile_create_activity__set_later">Nustatyti vėliau</string>
@@ -956,8 +956,8 @@
   <string name="preferences__sms_mms">SMS ir MMS</string>
   <string name="preferences__pref_all_sms_title">Gauti visas SMS</string>
   <string name="preferences__pref_all_mms_title">Gauti visas MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Naudoti RAPP Messenger visoms gaunamosioms tekstinėms žinutėms</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Naudoti RAPP Messenger visoms gaunamosioms multimedijos žinutėms</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Naudoti RAAPP Messenger visoms gaunamosioms tekstinėms žinutėms</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Naudoti RAAPP Messenger visoms gaunamosioms multimedijos žinutėms</string>
   <string name="preferences__pref_enter_sends_title">Enter (Įvedimo) klavišas išsiunčia</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Enter (Įvedimo) klavišo paspaudimas išsiųs tekstines žinutes</string>
   <string name="preferences__choose_identity">Pasirinkti tapatybę</string>
@@ -968,7 +968,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Užrakinti ekraną ir pranešimus, naudojant slaptafrazę</string>
   <string name="preferences__screen_security">Ekrano saugumas</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokuoti ekrano kopijas paskiausiųjų sąraše ir programėlės viduje</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatiškai užrakinti RAPP Messenger po nurodyto neveiklumo laiko intervalo</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatiškai užrakinti RAAPP Messenger po nurodyto neveiklumo laiko intervalo</string>
   <string name="preferences__inactivity_timeout_passphrase">Slaptafrazė po neveiklumui skirto laiko</string>
   <string name="preferences__inactivity_timeout_interval">Neveiklumui skirtas laiko intervalas</string>
   <string name="preferences__notifications">Pranešimai</string>
@@ -1022,7 +1022,7 @@
   <string name="preferences__default">Numatytoji</string>
   <string name="preferences__language">Kalba</string>
   <string name="preferences__signal_messages_and_calls">Signal žinutės ir skambučiai</string>
-  <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai RAPP Messenger naudotojams</string>
+  <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai RAAPP Messenger naudotojams</string>
   <string name="preferences__submit_debug_log">Pateikti derinimo žurnalą</string>
   <string name="preferences__support_wifi_calling">„Wi-Fi skambučių“ suderinamumo veiksena</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Įjunkite jeigu jūsų įrenginys siunčia SMS/MMS per WiFi tinklą (įjunkite tik tuo atveju jeigu jūsų įrenginyje yra aktyvuota \"WiFi skambučių\" funkcija)</string>
@@ -1037,8 +1037,8 @@
   <string name="preferences_chats__media_auto_download">Automatinis medijos atsisiuntimas</string>
   <string name="preferences_chats__message_trimming">Žinučių apkirpimas</string>
   <string name="preferences_advanced__use_system_emoji">Naudoti sistemos jaustukus</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti RAPP Messenger įtaisytą jaustukų palaikymą</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransliuoti visus skambučius per RAPP Messenger serverį, kad būtų išvengta jūsų IP adreso atskleidimo jūsų kontaktui. Įjungus, pablogės skambučių kokybė.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti RAAPP Messenger įtaisytą jaustukų palaikymą</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransliuoti visus skambučius per RAAPP Messenger serverį, kad būtų išvengta jūsų IP adreso atskleidimo jūsų kontaktui. Įjungus, pablogės skambučių kokybė.</string>
   <string name="preferences_advanced__always_relay_calls">Visada retransliuoti skambučius</string>
   <string name="preferences_app_protection__app_access">Programėlės prieiga</string>
   <string name="preferences_app_protection__communication">Susisiekimas</string>
@@ -1125,21 +1125,21 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Kopijuoti į iškarpinę</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Palyginti su iškarpine</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Jūsų RAPP Messenger versija yra pasenusi</string>
+  <string name="reminder_header_outdated_build">Jūsų RAAPP Messenger versija yra pasenusi</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Jūsų RAPP Messenger versija nustos galioti po %d dienos. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
-    <item quantity="few">Jūsų RAPP Messenger versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
-    <item quantity="many">Jūsų RAPP Messenger versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
-    <item quantity="other">Jūsų RAPP Messenger versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+    <item quantity="one">Jūsų RAAPP Messenger versija nustos galioti po %d dienos. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+    <item quantity="few">Jūsų RAAPP Messenger versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+    <item quantity="many">Jūsų RAAPP Messenger versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
+    <item quantity="other">Jūsų RAAPP Messenger versija nustos galioti po %d dienų. Bakstelėkite, norėdami atnaujinti į naujausią versiją.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">Šiandien nustos galioti jūsų RAPP Messenger versija. Bakstelėkite, kad atnaujintumėte į naujausią versiją.</string>
-  <string name="reminder_header_expired_build">Jūsų RAPP Messenger versijos galiojimas baigėsi!</string>
+  <string name="reminder_header_outdated_build_details_today">Šiandien nustos galioti jūsų RAAPP Messenger versija. Bakstelėkite, kad atnaujintumėte į naujausią versiją.</string>
+  <string name="reminder_header_expired_build">Jūsų RAAPP Messenger versijos galiojimas baigėsi!</string>
   <string name="reminder_header_expired_build_details">Žinutės daugiau nebebus siunčiamos sėkmingai. Bakstelėkite, kad atnaujintumėte į naujausią versiją.</string>
   <string name="reminder_header_sms_default_title">Naudoti kaip numatytąją SMS programėlę</string>
-  <string name="reminder_header_sms_default_text">Bakstelėkite, kad padarytumėte RAPP Messenger savo numatytąja SMS programėle.</string>
+  <string name="reminder_header_sms_default_text">Bakstelėkite, kad padarytumėte RAAPP Messenger savo numatytąja SMS programėle.</string>
   <string name="reminder_header_sms_import_title">Importuoti sistemos SMS</string>
-  <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į RAPP Messenger šifruotą duomenų bazę.</string>
-  <string name="reminder_header_push_title">Įjungti RAPP Messenger skambučius ir žinutes</string>
+  <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į RAAPP Messenger šifruotą duomenų bazę.</string>
+  <string name="reminder_header_push_title">Įjungti RAAPP Messenger skambučius ir žinutes</string>
   <string name="reminder_header_push_text">Atnaujinkite savo bendravimo patyrimą.</string>
   <string name="reminder_header_invite_title">Pakviesti į Signal</string>
   <string name="reminder_header_invite_text">Perkelkite savo pokalbį su %1$s į kitą lygmenį.</string>
@@ -1166,12 +1166,12 @@
   <string name="ConversationListFragment_loading">Įkeliama...</string>
   <string name="CallNotificationBuilder_connecting">Jungiamasi...</string>
   <string name="Permissions_permission_required">Reikalingas leidimas</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Norint siųsti SMS žinutes, RAPP Messenger reikia SMS leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Norint siųsti SMS žinutes, RAAPP Messenger reikia SMS leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"SMS\".</string>
   <string name="Permissions_continue">Tęsti</string>
   <string name="Permissions_not_now">Ne dabar</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Norint rodyti jūsų kontaktus, RAPP Messenger reikia kontaktų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kontaktus\".</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Norint rodyti jūsų kontaktus, RAAPP Messenger reikia kontaktų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kontaktus\".</string>
   <string name="conversation_activity__enable_signal_messages">ĮJUNGTI SIGNAL ŽINUTES</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Perkeliama RAPP Messenger duomenų bazė</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Perkeliama RAAPP Messenger duomenų bazė</string>
   <string name="PushDecryptJob_new_locked_message">Nauja užrakinta žinutė</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Atrakinkite, norėdami matyti laukiančias žinutes</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Atrakinkite, norėdami užbaigti atnaujinimą</string>
@@ -1201,7 +1201,7 @@
   <string name="BackupDialog_disable_and_delete_all_local_backups">Išjungti ir ištrinti visas vietines atsargines kopijas?</string>
   <string name="BackupDialog_delete_backups_statement">Ištrinti atsargines kopijas</string>
   <string name="BackupDialog_copied_to_clipboard">Nukopijuota į iškarpinę</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Norint daryti atsargines kopijas, RAPP Messenger reikia išorinės saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Saugyklą\".</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Norint daryti atsargines kopijas, RAAPP Messenger reikia išorinės saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Saugyklą\".</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Paskiausia atsarginė kopija: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">Eigoje</string>
   <string name="LocalBackupJob_creating_backup">Daroma atsarginė kopija...</string>
@@ -1237,10 +1237,10 @@
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Šio telefono numerio registracija be jūsų Registracijos užrakto PIN bus įmanoma praėjus 7 dienoms nuo to laiko, kai šis telefono numeris paskutinį kartą buvo aktyvus Signal. Jums liko %d dienos.</string>
   <string name="RegistrationActivity_registration_lock_pin">Registracijos užrakto PIN</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Šiam telefono numeriui yra įjungtas Registracijos užraktas. Įveskite Registracijos užrakto PIN.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Jūsų telefono numeriui yra įjungtas Registracijos užraktas. Norint jums padėti įsiminti Registracijos užrakto PIN, RAPP Messenger periodiškai prašys jūsų jį patvirtinti.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Jūsų telefono numeriui yra įjungtas Registracijos užraktas. Norint jums padėti įsiminti Registracijos užrakto PIN, RAAPP Messenger periodiškai prašys jūsų jį patvirtinti.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Aš pamiršau savo PIN.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Pamirštas PIN?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registracijos užraktas padeda apsaugoti jūsų telefono numerį nuo neteisėtų registracijos bandymų. Ši ypatybė bet kuriuo metu gali būti išjungta jūsų RAPP Messenger privatumo nustatymuose.</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registracijos užraktas padeda apsaugoti jūsų telefono numerį nuo neteisėtų registracijos bandymų. Ši ypatybė bet kuriuo metu gali būti išjungta jūsų RAAPP Messenger privatumo nustatymuose.</string>
   <string name="RegistrationLockDialog_registration_lock">Registracijos užraktas</string>
   <string name="RegistrationLockDialog_enable">Įjungti</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">Registracijos PIN privalo būti bent 4 skaitmenų.</string>

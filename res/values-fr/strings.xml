@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAPP Messenger</string>
+  <string name="app_name">RAAPP Messenger</string>
   <string name="yes">Oui</string>
   <string name="no">Non</string>
   <string name="delete">Supprimer</string>
@@ -26,12 +26,12 @@
   <string name="ApplicationPreferencesActivity_unregistering">Annulation de l’inscription</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Annulation de l’inscription aux messages et appels Signal…</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Désactiver les messages et appels Signal ?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Désactiver les messages et appels RAPP Messenger en vous désinscrivant du serveur. Vous devrez réinscrire votre numéro de téléphone pour les utiliser de nouveau à l’avenir.</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Désactiver les messages et appels RAAPP Messenger en vous désinscrivant du serveur. Vous devrez réinscrire votre numéro de téléphone pour les utiliser de nouveau à l’avenir.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Erreur de connexion au serveur !</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">Les textos sont activés</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Touchez pour changer votre appli de texto par défaut</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">Les textos sont désactivés</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Touchez pour faire de RAPP Messenger votre appli de texto par défaut</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Touchez pour faire de RAAPP Messenger votre appli de texto par défaut</string>
   <string name="ApplicationPreferencesActivity_on">activé</string>
   <string name="ApplicationPreferencesActivity_On">Activé</string>
   <string name="ApplicationPreferencesActivity_off">Désactivé</string>
@@ -81,7 +81,7 @@
   <string name="ContactsCursorLoader_groups">Groupes</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Message %s</string>
-  <string name="ContactsDatabase_signal_call_s">Appel RAPP Messenger %s</string>
+  <string name="ContactsDatabase_signal_call_s">Appel RAAPP Messenger %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Prénom</string>
   <string name="ContactNameEditActivity_family_name">Nom de famille</string>
@@ -126,7 +126,7 @@
   <string name="ConversationActivity_transport_insecure_sms">Texto non sécurisé</string>
   <string name="ConversationActivity_transport_insecure_mms">Message multimédia non sécurisé</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Passons à RAPP Messenger %1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Passons à RAAPP Messenger %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Utilisons cela pour dialoguer : %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Erreur en quittant le groupe</string>
   <string name="ConversationActivity_specify_recipient">Veuillez choisir un contact</string>
@@ -138,11 +138,11 @@
   <string name="ConversationActivity_unable_to_record_audio">Impossible d’enregistrer l’audio !</string>
   <string name="ConversationActivity_error_sending_voice_message">Erreur lors de l’envoi du message vocal</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Il n’y a aucune appli pour gérer ce lien sur votre appareil.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pour envoyer des messages audio, autorisez RAPP Messenger à accéder à votre microphone.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pour envoyer des messages audio, autorisez RAAPP Messenger à accéder à votre microphone.</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal exige l’autorisation Microphone afin d’envoyer des messages audio, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Microphone ».</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Pour appeler %s, RAPP Messenger a besoin d’accéder à votre microphone et à votre appareil photo.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Pour appeler %s, RAAPP Messenger a besoin d’accéder à votre microphone et à votre appareil photo.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal a besoin des permissions Microphone et Appareil photo pour appeler %s, mais elles ont été refusées définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner Autorisations et activer Microphone et Appareil photo.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pour capturer des photos et des vidéos, autorisez RAPP Messenger à accéder à l’appareil photo.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pour capturer des photos et des vidéos, autorisez RAAPP Messenger à accéder à l’appareil photo.</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal a besoin de l’autorisation Appareil photo afin de prendre des photos ou des vidéos, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner Autorisations et activer Appareil photo.</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal a besoin de l’autorisation Appareil photo pour prendre des photos ou des vidéos</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
@@ -248,7 +248,7 @@
   <string name="DocumentView_unknown_file">Fichier inconnu</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimiser pour palier l’absence des Services Play</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Cet appareil ne prend pas en charge les Services Google Play. Touchez pour désactiver les optimisations système de la pile qui empêchent à RAPP Messenger de récupérer les messages lors d’inactivité.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Cet appareil ne prend pas en charge les Services Google Play. Touchez pour désactiver les optimisations système de la pile qui empêchent à RAAPP Messenger de récupérer les messages lors d’inactivité.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Partager avec</string>
   <!--ExperienceUpgradeActivity-->
@@ -258,16 +258,16 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure est maintenant Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure et RedPhone sont maintenant regroupées en une seule appli : Signal. Touchez pour explorer.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Bienvenue aux appels vidéo sécurisés.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal prend désormais en charge les appels vidéo sécurisés. Démarrez un appel RAPP Messenger normalement, touchez le bouton Vidéo et dites bonjour.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal prend désormais en charge les appels vidéo sécurisés. Démarrez un appel RAAPP Messenger normalement, touchez le bouton Vidéo et dites bonjour.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal prend désormais en charge les appels vidéo sécurisés.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal prend désormais en charge les appels vidéo sécurisés. Touchez pour explorer.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Prêt pour votre gros plan ?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Vous pouvez maintenant partager une photo de profil et un nom avec des amis sur Signal</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Les profils de RAPP Messenger sont arrivés</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Les profils de RAAPP Messenger sont arrivés</string>
   <!--ExportFragment-->
   <string name="ExportFragment_export">Exporter</string>
   <string name="ExportFragment_export_plaintext_to_storage">Exporter en texte en clair vers la mémoire ?</string>
-  <string name="ExportFragment_warning_this_will_export_the_plaintext_contents">Avertissement, le contenu de vos messages RAPP Messenger sera exporté en clair vers la mémoire.</string>
+  <string name="ExportFragment_warning_this_will_export_the_plaintext_contents">Avertissement, le contenu de vos messages RAAPP Messenger sera exporté en clair vers la mémoire.</string>
   <string name="ExportFragment_cancel">Annuler</string>
   <string name="ExportFragment_exporting">Exportation</string>
   <string name="ExportFragment_exporting_plaintext_to_storage">Exportation en clair vers la mémoire…</string>
@@ -275,8 +275,8 @@
   <string name="ExportFragment_error_while_writing_to_storage">Erreur d’écriture dans la mémoire.</string>
   <string name="ExportFragment_export_successful">Exportation réussie.</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Échec de communication RAPP Messenger permanent !</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal n’a pas réussi à s’inscrire auprès des Services Google Play. Les appels et messages RAPP Messenger ont été désactivés. Veuillez essayer de vous réinscrire dans Paramètres &gt; Avancé.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Échec de communication RAAPP Messenger permanent !</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal n’a pas réussi à s’inscrire auprès des Services Google Play. Les appels et messages RAAPP Messenger ont été désactivés. Veuillez essayer de vous réinscrire dans Paramètres &gt; Avancé.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Erreur de récupération du GIF à pleine résolution</string>
   <!--GiphyFragmentPageAdapter-->
@@ -288,7 +288,7 @@
   <string name="GroupCreateActivity_group_name_hint">Nom du groupe</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Nouveau groupe de message multimédia</string>
   <string name="GroupCreateActivity_contacts_dont_support_push">Vous avez sélectionné un contact qui ne ne prend pas en charge les groupes Signal, donc ce groupe sera un groupe de message multimédia.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Vous n’êtes pas inscrit aux appels et messages RAPP Messenger et les groupes RAPP Messenger sont donc désactivés. Veuillez essayer de vous inscrire de nouveau dans Paramètres &gt; Avancé.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Vous n’êtes pas inscrit aux appels et messages RAAPP Messenger et les groupes RAAPP Messenger sont donc désactivés. Veuillez essayer de vous inscrire de nouveau dans Paramètres &gt; Avancé.</string>
   <string name="GroupCreateActivity_contacts_no_members">Il vous faut au moins une personne dans votre groupe !</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Le numéro d’un des membres de votre groupe ne peut pas être lu correctement. Veuillez le vérifier ou supprimer ce contact et ressayer.</string>
   <string name="GroupCreateActivity_avatar_content_description">Avatar du groupe</string>
@@ -369,9 +369,9 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Suppression des messages…</string>
   <string name="MediaOverviewActivity_Documents">Documents</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Appel RAPP Messenger en cours</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Appel RAAPP Messenger en cours</string>
   <string name="NotificationBarManager__establishing_signal_call">Établissement de l’appel Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Appel RAPP Messenger entrant</string>
+  <string name="NotificationBarManager__incoming_signal_call">Appel RAAPP Messenger entrant</string>
   <string name="NotificationBarManager__deny_call">Refuser l’appel</string>
   <string name="NotificationBarManager__answer_call">Répondre à l’appel</string>
   <string name="NotificationBarManager__end_call">Raccrocher</string>
@@ -381,7 +381,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Téléchargement du message multimédia</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Erreur de téléchargement du message multimédia. Touchez pour ressayer</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vous avez reçu un message chiffré avec une ancienne version de RAPP Messenger qui n’est plus prise en charge. Veuillez demander à l’expéditeur de mettre RAPP Messenger à jour vers la version la plus récente et de renvoyer son message.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vous avez reçu un message chiffré avec une ancienne version de RAAPP Messenger qui n’est plus prise en charge. Veuillez demander à l’expéditeur de mettre RAAPP Messenger à jour vers la version la plus récente et de renvoyer son message.</string>
   <string name="MessageRecord_left_group">Vous avez quitté le groupe</string>
   <string name="MessageRecord_you_updated_group">Vous avez mis le groupe à jour.</string>
   <string name="MessageRecord_s_updated_group">%s a mis le groupe à jour.</string>
@@ -418,7 +418,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Désolé, trop d’appareils sont déjà reliés. Essayez d’en supprimer</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Désolé, ceci n’est pas un code QR valide de liaison d’appareil</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Relier un appareil Signal ?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Il semble que vous tentiez de relier un appareil RAPP Messenger en utilisant un lecteur tiers. Pour votre protection, veuillez lire le code de nouveau à partir Signal.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Il semble que vous tentiez de relier un appareil RAAPP Messenger en utilisant un lecteur tiers. Pour votre protection, veuillez lire le code de nouveau à partir Signal.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal a besoin de l’autorisation Appareil photo afin de lire un code QR, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner Autorisations et activer Appareil photo.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Impossible de lire un code QR sans l’autorisation Appareil photo</string>
   <!--ExpirationDialog-->
@@ -483,12 +483,12 @@ introduit (%s) n’est pas valide.</string>
   <string name="RegistrationActivity_less_information">Moins d’informations</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal a besoin d’accéder à vos contacts et médias pour se connecter avec vos amis, échanger des messages et effectuer des appels sécurisés</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Impossible de se connecter au service. Veuillez vérifier la connexion réseau et ressayer.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Pour vérifier facilement votre numéro de téléphone, RAPP Messenger peut automatiquement détecter votre code de vérification si vous autorisez RAPP Messenger à visualiser les textos.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Pour vérifier facilement votre numéro de téléphone, RAAPP Messenger peut automatiquement détecter votre code de vérification si vous autorisez RAAPP Messenger à visualiser les textos.</string>
   <!--RegistrationProblemsActivity-->
   <!--RegistrationProgressActivity-->
   <!--RegistrationService-->
   <string name="RegistrationService_registration_complete">L’inscription est terminée</string>
-  <string name="RegistrationService_signal_registration_has_successfully_completed">L’inscription à RAPP Messenger s’est terminé avec succès.</string>
+  <string name="RegistrationService_signal_registration_has_successfully_completed">L’inscription à RAAPP Messenger s’est terminé avec succès.</string>
   <string name="RegistrationService_registration_error">Erreur d’inscription</string>
   <string name="RegistrationService_signal_registration_has_encountered_a_problem">Un problème est survenu lors de l’inscription à Signal.</string>
   <!--RingtonePreference-->
@@ -549,7 +549,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="ThreadRecord_you_marked_unverified">Vous avez marqué comme non vérifié</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Mise à jour de Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Une nouvelle version de RAPP Messenger est proposée. Touchez pour lancer la mise à jour</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Une nouvelle version de RAAPP Messenger est proposée. Touchez pour lancer la mise à jour</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Bloquer %s ?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Les contacts bloqués ne pourront plus vous envoyer de messages ni vous appeler.</string>
@@ -565,7 +565,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="UnverifiedSendDialog_send">Envoyer</string>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Votre contact utilise une ancienne version de Signal. Veuillez lui demander de la mettre à jour avant de vérifier votre numéro de sécurité.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Votre contact utilise une version plus récente de RAPP Messenger dont le format de code QR est incompatible. Veuillez mettre RAPP Messenger à jour pour comparer.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Votre contact utilise une version plus récente de RAAPP Messenger dont le format de code QR est incompatible. Veuillez mettre RAAPP Messenger à jour pour comparer.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Le code QR lu n’est pas un code de vérification du numéro de sécurité correctement formaté. Veuillez essayer de le lire de nouveau.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Partager le numéro de sécurité avec…</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">Notre numéro de sécurité Signal :</string>
@@ -622,13 +622,13 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="MessageNotifier_mark_read">Marquer comme lu</string>
   <string name="MessageNotifier_media_message">Message multimédia</string>
   <string name="MessageNotifier_reply">Répondre</string>
-  <string name="MessageNotifier_pending_signal_messages">Messages RAPP Messenger en attente</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Vous avez des messages RAPP Messenger en attente. Touchez pour ouvrir et les récupérer</string>
+  <string name="MessageNotifier_pending_signal_messages">Messages RAAPP Messenger en attente</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Vous avez des messages RAAPP Messenger en attente. Touchez pour ouvrir et les récupérer</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Contact</string>
   <!--MmsPreferencesFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La réponse rapide n’est pas proposée quand RAPP Messenger est verrouillée !</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La réponse rapide n’est pas proposée quand RAAPP Messenger est verrouillée !</string>
   <string name="QuickResponseService_problem_sending_message">Erreur lors de l’envoi du message !</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_open_directory">Ouvrir le répertoire</string>
@@ -640,11 +640,11 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="SingleRecipientNotificationBuilder_new_message">Nouveau message</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">L’appareil n’est plus inscrit</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">C’est probablement parce que vous avez inscrit votre numéro de téléphone à RAPP Messenger sur un autre appareil. Touchez pour vous réinscrire.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">C’est probablement parce que vous avez inscrit votre numéro de téléphone à RAAPP Messenger sur un autre appareil. Touchez pour vous réinscrire.</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Erreur de lecture de la vidéo</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Pour répondre à l’appel de %s, autorisez RAPP Messenger à accéder à votre microphone.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Pour répondre à l’appel de %s, autorisez RAAPP Messenger à accéder à votre microphone.</string>
   <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal exige les autorisations Microphone et Appareil photo afin d’effectuer et de recevoir des appels, mais elles ont été refusées définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Microphone » et « Appareil photo ».</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">Le numéro de sécurité de votre conversation avec %1$s a changé. Cela pourrait signifier soit que quelqu’un tente d’intercepter votre communication, soit que %2$s a simplement réinstallé Signal.</string>
@@ -939,8 +939,8 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="preferences__sms_mms">Textos et messages multimédias</string>
   <string name="preferences__pref_all_sms_title">Recevoir tous les textos</string>
   <string name="preferences__pref_all_mms_title">Recevoir tous les messages multimédias</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Utiliser RAPP Messenger pour tous textos entrants</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Utiliser RAPP Messenger pour tous les messages multimédias entrants</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Utiliser RAAPP Messenger pour tous textos entrants</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Utiliser RAAPP Messenger pour tous les messages multimédias entrants</string>
   <string name="preferences__pref_enter_sends_title">La touche Entrée envoie</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Appuyer sur la touche Entrée enverra les textos</string>
   <string name="preferences__choose_identity">Choisir une identité</string>
@@ -951,7 +951,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Verrouiller l’écran et les notifications avec une phrase de passe</string>
   <string name="preferences__screen_security">Sécurité de l’écran</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Bloquer les captures d’écran dans la liste des récents et dans l’appli</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Verrouiller RAPP Messenger automatiquement après un délai précis d’inactivité</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Verrouiller RAAPP Messenger automatiquement après un délai précis d’inactivité</string>
   <string name="preferences__inactivity_timeout_passphrase">Phrase de passe du délai d’inactivité</string>
   <string name="preferences__inactivity_timeout_interval">Délai d’inactivité</string>
   <string name="preferences__notifications">Notifications</string>
@@ -1020,7 +1020,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="preferences_chats__message_trimming">Élagage des messages</string>
   <string name="preferences_advanced__use_system_emoji">Utiliser les émojis du système</string>
   <string name="preferences_advanced__disable_signal_built_in_emoji_support">Désactiver la prise en charge des émojis intégrés à Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Relayer tous les appels par le serveur RAPP Messenger pour éviter de divulguer votre adresse IP à votre contact. L’activation de cette option réduira la qualité des appels.</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Relayer tous les appels par le serveur RAAPP Messenger pour éviter de divulguer votre adresse IP à votre contact. L’activation de cette option réduira la qualité des appels.</string>
   <string name="preferences_advanced__always_relay_calls">Toujours relayer les appels</string>
   <string name="preferences_app_protection__app_access">Accès à l’appli</string>
   <string name="preferences_app_protection__communication">Communication</string>
@@ -1111,16 +1111,16 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Copier dans le presse-papiers</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Comparer avec le presse-papiers</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Cette version de RAPP Messenger est désuète</string>
+  <string name="reminder_header_outdated_build">Cette version de RAAPP Messenger est désuète</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Votre version de RAPP Messenger expirera dans %d jour. Touchez pour mettre à jour vers la version la plus récente.</item>
-    <item quantity="other">Votre version de RAPP Messenger expirera dans %d jours. Touchez pour mettre à jour vers la version la plus récente.</item>
+    <item quantity="one">Votre version de RAAPP Messenger expirera dans %d jour. Touchez pour mettre à jour vers la version la plus récente.</item>
+    <item quantity="other">Votre version de RAAPP Messenger expirera dans %d jours. Touchez pour mettre à jour vers la version la plus récente.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">Votre version de RAPP Messenger expirera aujourd’hui. Touchez pour mettre à jour vers la version la plus récente.</string>
-  <string name="reminder_header_expired_build">Cette version de RAPP Messenger est expirée !</string>
+  <string name="reminder_header_outdated_build_details_today">Votre version de RAAPP Messenger expirera aujourd’hui. Touchez pour mettre à jour vers la version la plus récente.</string>
+  <string name="reminder_header_expired_build">Cette version de RAAPP Messenger est expirée !</string>
   <string name="reminder_header_expired_build_details">Les messages ne seront plus envoyés correctement. Touchez pour mettre à jour vers la version la plus récente.</string>
   <string name="reminder_header_sms_default_title">Utiliser comme appli de textos par défaut</string>
-  <string name="reminder_header_sms_default_text">Touchez pour faire de RAPP Messenger votre appli de texto par défaut.</string>
+  <string name="reminder_header_sms_default_text">Touchez pour faire de RAAPP Messenger votre appli de texto par défaut.</string>
   <string name="reminder_header_sms_import_title">Importer les textos du système</string>
   <string name="reminder_header_sms_import_text">Touchez pour copier les textos de votre téléphone dans la base de données chiffrée de Signal.</string>
   <string name="reminder_header_push_title">Activer les messages et appels Signal</string>
@@ -1128,7 +1128,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="reminder_header_invite_title">Inviter à Signal</string>
   <string name="reminder_header_invite_text">Passez votre conversation avec %1$s au niveau supérieur.</string>
   <string name="reminder_header_share_title">Invitez vos amis !</string>
-  <string name="reminder_header_share_text">Plus vous avez d’amis sur Signal, plus RAPP Messenger devient intéressant.</string>
+  <string name="reminder_header_share_text">Plus vous avez d’amis sur Signal, plus RAAPP Messenger devient intéressant.</string>
   <string name="reminder_header_service_outage_text">Signal éprouve des difficultés techniques. Nous mettons tout en œuvre pour restaurer le service aussi rapidement que possible.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Enregistrer</string>
@@ -1159,7 +1159,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="PushDecryptJob_new_locked_message">Nouveau message verrouillé</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Déverrouiller pour voir les messages en attente</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Déverrouiller pour terminer la mise à jour</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Veuillez déverrouillez RAPP Messenger pour terminer la mise à jour</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Veuillez déverrouillez RAAPP Messenger pour terminer la mise à jour</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Phrase de passe de la sauvegarde</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Les sauvegardes sont enregistrées dans la mémoire externe et chiffrées avec la phrase de passe ci-dessous. Vous devez avoir cette phrase de passe afin de restaurer la sauvegarde.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">J’ai pris cette phrase de passe par écrit. Sans elle, je ne pourrai pas restaurer une sauvegarde.</string>
@@ -1199,7 +1199,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="BackupUtil_unknown">Inconnu</string>
   <string name="prompt_passphrase_activity__unlock_signal">Déverrouiller Signal</string>
   <string name="preferences_app_protection__screen_lock">Verrouillage de l’écran</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Verrouiller l’accès à RAPP Messenger avec le verrouillage de l’écran d’Android ou une empreinte</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Verrouiller l’accès à RAAPP Messenger avec le verrouillage de l’écran d’Android ou une empreinte</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Délai d’inactivité avant verrouillage de l’écran</string>
   <string name="AppProtectionPreferenceFragment_none">Aucune</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">Le NIP de blocage de l’inscription ne correspond pas au code de vérification que vous venez de recevoir par texto. Veuillez saisir le NIP que vous avez précédemment défini dans l’application.</string>
@@ -1222,7 +1222,7 @@ Vous avez reçu un message d’échange de clés pour une version de protocole i
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">L’inscription de ce numéro de téléphone sera possible sans votre NIP de blocage de l’inscription 7 jours après la dernière activité de ce numéro de téléphone sur Signal. Il vous reste %d jours.</string>
   <string name="RegistrationActivity_registration_lock_pin">NIP de blocage de l’inscription</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Un NIP de blocage de l’inscription est activé pour ce numéro de téléphone. Veuillez saisir le NIP de blocage de l’inscription.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Le blocage de l’inscription est activé pour votre numéro de téléphone. Pour vous aider à mémoriser votre NIP de blocage de l’inscription, RAPP Messenger vous demandera de le confirmer régulièrement.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Le blocage de l’inscription est activé pour votre numéro de téléphone. Pour vous aider à mémoriser votre NIP de blocage de l’inscription, RAAPP Messenger vous demandera de le confirmer régulièrement.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">J’ai oubli mon NIP.</string>
   <string name="RegistrationLockDialog_forgotten_pin">NIP oublié ?</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Le blocage de l’inscription aide à protéger votre numéro de téléphone contre les tentatives d’inscription non autorisées. Cette fonction peut être désactivée en tout temps dans vos paramètres de confidentialité de Signal</string>
