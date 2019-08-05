@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 
 import android.content.Context;
@@ -9,12 +9,12 @@ import android.support.v4.content.AsyncTaskLoader;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.Database;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MediaDatabase;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.Database;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MediaDatabase;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

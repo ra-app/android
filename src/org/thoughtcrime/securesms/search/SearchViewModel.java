@@ -1,4 +1,4 @@
-package org.bittube.messenger.search;
+package org.raapp.messenger.search;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.search.model.SearchResult;
-import org.bittube.messenger.util.Debouncer;
+import org.raapp.messenger.search.model.SearchResult;
+import org.raapp.messenger.util.Debouncer;
 
 /**
  * A {@link ViewModel} for handling all the business logic and interactions that take place inside

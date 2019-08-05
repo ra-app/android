@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,13 +11,13 @@ import android.support.annotation.ArrayRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.R;
-import org.bittube.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
-import org.bittube.messenger.lock.RegistrationLockReminders;
-import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.raapp.messenger.R;
+import org.raapp.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
+import org.raapp.messenger.lock.RegistrationLockReminders;
+import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
 import org.whispersystems.libsignal.util.Medium;
 
 import java.io.IOException;

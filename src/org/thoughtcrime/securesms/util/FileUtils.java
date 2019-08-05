@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import java.io.File;
 import java.io.FileDescriptor;

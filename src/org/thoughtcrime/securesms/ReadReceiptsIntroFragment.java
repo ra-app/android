@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.bittube.messenger.jobs.MultiDeviceReadReceiptUpdateJob;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.jobs.MultiDeviceReadReceiptUpdateJob;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 public class ReadReceiptsIntroFragment extends Fragment {
 

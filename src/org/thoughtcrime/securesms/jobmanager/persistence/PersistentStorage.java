@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager.persistence;
+package org.raapp.messenger.jobmanager.persistence;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -22,10 +22,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import org.bittube.messenger.jobmanager.EncryptionKeys;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.dependencies.AggregateDependencyInjector;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.EncryptionKeys;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.dependencies.AggregateDependencyInjector;
+import org.raapp.messenger.logging.Log;
 
 import java.io.IOException;
 import java.util.LinkedList;

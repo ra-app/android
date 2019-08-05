@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.telephony.SmsMessage;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 public class SmsCharacterCalculator extends CharacterCalculator {
 

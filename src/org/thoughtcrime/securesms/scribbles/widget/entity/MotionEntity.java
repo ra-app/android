@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bittube.messenger.scribbles.widget.entity;
+package org.raapp.messenger.scribbles.widget.entity;
 
 import android.graphics.Canvas;
 import android.graphics.Matrix;
@@ -29,8 +29,8 @@ import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.util.MathUtils;
-import org.bittube.messenger.scribbles.viewmodel.Layer;
+import org.raapp.messenger.util.MathUtils;
+import org.raapp.messenger.scribbles.viewmodel.Layer;
 
 
 @SuppressWarnings({"WeakerAccess"})

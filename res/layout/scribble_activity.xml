@@ -6,16 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="org.bittube.messenger.scribbles.ScribbleActivity">
+    tools:context="org.raapp.messenger.scribbles.ScribbleActivity">
 
-    <org.bittube.messenger.scribbles.widget.ScribbleView
+    <org.raapp.messenger.scribbles.widget.ScribbleView
         android:id="@+id/scribble_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center" />
 
-    <org.bittube.messenger.scribbles.ScribbleHud
+    <org.raapp.messenger.scribbles.ScribbleHud
         android:id="@+id/scribble_hud"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

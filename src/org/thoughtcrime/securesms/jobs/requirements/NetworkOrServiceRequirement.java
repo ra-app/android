@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobs.requirements;
+package org.raapp.messenger.jobs.requirements;
 
 import android.content.Context;
 
-import org.bittube.messenger.jobmanager.dependencies.ContextDependent;
-import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
-import org.bittube.messenger.jobmanager.requirements.Requirement;
-import org.bittube.messenger.jobmanager.requirements.SimpleRequirement;
+import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
+import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
+import org.raapp.messenger.jobmanager.requirements.Requirement;
+import org.raapp.messenger.jobmanager.requirements.SimpleRequirement;
 
 public class NetworkOrServiceRequirement extends SimpleRequirement implements ContextDependent {
 

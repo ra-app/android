@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bittube.messenger.scribbles.widget.entity;
+package org.raapp.messenger.scribbles.widget.entity;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -28,7 +28,7 @@ import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.scribbles.viewmodel.Layer;
+import org.raapp.messenger.scribbles.viewmodel.Layer;
 
 
 public class ImageEntity extends MotionEntity {

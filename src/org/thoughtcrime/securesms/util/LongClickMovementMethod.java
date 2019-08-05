@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class LongClickMovementMethod extends LinkMovementMethod {
   @SuppressLint("StaticFieldLeak")

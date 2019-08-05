@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager.requirements;
+package org.raapp.messenger.jobmanager.requirements;
 
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.Job;
 
 import java.io.Serializable;
 

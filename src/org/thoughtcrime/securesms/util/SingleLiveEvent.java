@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.arch.lifecycle.LifecycleOwner;
 import android.arch.lifecycle.MutableLiveData;
@@ -23,7 +23,7 @@ import android.support.annotation.MainThread;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

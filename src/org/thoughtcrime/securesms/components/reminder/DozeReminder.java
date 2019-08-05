@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 
 import android.annotation.SuppressLint;
@@ -12,8 +12,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.view.View;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 @SuppressLint("BatteryLife")
 public class DozeReminder extends Reminder {

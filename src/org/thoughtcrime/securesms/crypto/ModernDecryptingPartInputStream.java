@@ -1,9 +1,9 @@
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.util.Conversions;
+import org.raapp.messenger.util.Conversions;
 
 import java.io.File;
 import java.io.FileInputStream;

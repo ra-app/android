@@ -15,12 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 import android.content.Context;
 
-import org.bittube.messenger.crypto.storage.TextSecurePreKeyStore;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.storage.TextSecurePreKeyStore;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.IdentityKeyPair;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.ecc.Curve;

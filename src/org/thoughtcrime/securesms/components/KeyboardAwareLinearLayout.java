@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -24,13 +24,13 @@ import android.os.Build.VERSION_CODES;
 import android.preference.PreferenceManager;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.Surface;
 import android.view.View;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.Util;
 
 import java.lang.reflect.Field;
 import java.util.HashSet;

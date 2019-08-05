@@ -1,4 +1,4 @@
-package org.bittube.messenger.permissions;
+package org.raapp.messenger.permissions;
 
 
 import android.content.pm.PackageManager;

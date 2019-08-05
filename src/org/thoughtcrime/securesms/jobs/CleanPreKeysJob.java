@@ -1,13 +1,13 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.crypto.PreKeyUtil;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.crypto.PreKeyUtil;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
 import org.whispersystems.libsignal.InvalidKeyIdException;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyStore;
@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import static org.bittube.messenger.dependencies.AxolotlStorageModule.SignedPreKeyStoreFactory;
+import static org.raapp.messenger.dependencies.AxolotlStorageModule.SignedPreKeyStoreFactory;
 
 public class CleanPreKeysJob extends MasterSecretJob implements InjectableType {
 

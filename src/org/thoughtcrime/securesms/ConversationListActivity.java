@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -33,21 +33,21 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.bittube.messenger.components.RatingManager;
-import org.bittube.messenger.components.SearchToolbar;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.bittube.messenger.lock.RegistrationLockDialog;
-import org.bittube.messenger.notifications.MarkReadReceiver;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.search.SearchFragment;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.components.RatingManager;
+import org.raapp.messenger.components.SearchToolbar;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.raapp.messenger.lock.RegistrationLockDialog;
+import org.raapp.messenger.notifications.MarkReadReceiver;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.search.SearchFragment;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.List;
 

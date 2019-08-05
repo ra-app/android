@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.registration;
+package org.raapp.messenger.components.registration;
 
 
 import android.content.Context;
@@ -19,10 +19,10 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 
 public class VerificationPinKeyboard extends FrameLayout {
 

@@ -8,11 +8,11 @@
  * freely, as long as the origin is not misrepresented.
  */
 
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 import android.os.Build;
 import android.os.Process;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts.avatars;
+package org.raapp.messenger.contacts.avatars;
 
 
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.util.Conversions;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.util.Conversions;
 
 import java.io.IOException;
 import java.io.InputStream;

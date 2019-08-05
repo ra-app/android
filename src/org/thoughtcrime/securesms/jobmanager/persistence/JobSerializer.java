@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager.persistence;
+package org.raapp.messenger.jobmanager.persistence;
 
-import org.bittube.messenger.jobmanager.EncryptionKeys;
-import org.bittube.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.EncryptionKeys;
+import org.raapp.messenger.jobmanager.Job;
 
 import java.io.IOException;
 

@@ -1,10 +1,10 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.PointerAttachment;
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.util.GroupUtil;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.PointerAttachment;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;

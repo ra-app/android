@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.Manifest;
 import android.app.Activity;
@@ -11,15 +11,15 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.TaskStackBuilder;
 import android.text.TextUtils;
 
-import org.bittube.messenger.ConversationActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.WebRtcCallActivity;
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.WebRtcCallService;
+import org.raapp.messenger.ConversationActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.WebRtcCallActivity;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.WebRtcCallService;
 
 public class CommunicationActions {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.Manifest;
 import android.content.Context;
@@ -18,9 +18,9 @@ import android.view.animation.TranslateAnimation;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.util.ViewUtil;
 
 public class MicrophoneRecorderView extends FrameLayout implements View.OnTouchListener {
 

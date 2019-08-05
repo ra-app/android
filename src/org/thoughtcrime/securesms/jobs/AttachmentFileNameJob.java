@@ -1,21 +1,21 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.crypto.AsymmetricMasterCipher;
-import org.bittube.messenger.crypto.AsymmetricMasterSecret;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.crypto.MasterSecretUtil;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
-import org.bittube.messenger.mms.IncomingMediaMessage;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.crypto.AsymmetricMasterCipher;
+import org.raapp.messenger.crypto.AsymmetricMasterSecret;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.crypto.MasterSecretUtil;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
+import org.raapp.messenger.mms.IncomingMediaMessage;
 import org.whispersystems.libsignal.InvalidMessageException;
 
 import java.io.IOException;

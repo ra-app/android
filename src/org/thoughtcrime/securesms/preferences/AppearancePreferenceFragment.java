@@ -1,13 +1,13 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.preference.ListPreference;
 
-import org.bittube.messenger.ApplicationPreferencesActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.Arrays;
 

@@ -1,9 +1,9 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 import android.content.Context;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.AsyncLoader;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.AsyncLoader;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;

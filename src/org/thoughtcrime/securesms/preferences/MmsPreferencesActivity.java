@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,9 +22,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.MenuItem;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
 
 public class MmsPreferencesActivity extends PassphraseRequiredActionBarActivity {
 

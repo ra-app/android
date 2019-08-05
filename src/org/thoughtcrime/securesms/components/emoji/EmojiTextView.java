@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,11 +12,11 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiProvider.EmojiDrawable;
-import org.bittube.messenger.components.emoji.parsing.EmojiParser;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiProvider.EmojiDrawable;
+import org.raapp.messenger.components.emoji.parsing.EmojiParser;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 
 public class EmojiTextView extends AppCompatTextView {

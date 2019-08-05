@@ -1,4 +1,4 @@
-package org.bittube.messenger.glide;
+package org.raapp.messenger.glide;
 
 import android.support.annotation.Nullable;
 
@@ -8,7 +8,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.bittube.messenger.giph.net.GiphyProxySelector;
+import org.raapp.messenger.giph.net.GiphyProxySelector;
 
 import java.io.InputStream;
 

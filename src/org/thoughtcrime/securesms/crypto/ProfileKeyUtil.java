@@ -1,12 +1,12 @@
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 

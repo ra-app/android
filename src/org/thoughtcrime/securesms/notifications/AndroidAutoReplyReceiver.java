@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -25,13 +25,13 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.RemoteInput;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.bittube.messenger.mms.OutgoingMediaMessage;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.MessageSender;
-import org.bittube.messenger.sms.OutgoingTextMessage;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.raapp.messenger.mms.OutgoingMediaMessage;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.MessageSender;
+import org.raapp.messenger.sms.OutgoingTextMessage;
 import org.whispersystems.libsignal.logging.Log;
 
 import java.util.Collections;
@@ -44,7 +44,7 @@ import java.util.List;
 public class AndroidAutoReplyReceiver extends BroadcastReceiver {
 
   public static final String TAG             = AndroidAutoReplyReceiver.class.getSimpleName();
-  public static final String REPLY_ACTION    = "org.bittube.messenger.notifications.ANDROID_AUTO_REPLY";
+  public static final String REPLY_ACTION    = "org.raapp.messenger.notifications.ANDROID_AUTO_REPLY";
   public static final String ADDRESS_EXTRA   = "car_address";
   public static final String VOICE_REPLY_KEY = "car_voice_reply_key";
   public static final String THREAD_ID_EXTRA = "car_reply_thread_id";

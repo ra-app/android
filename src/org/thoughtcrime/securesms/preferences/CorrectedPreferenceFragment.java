@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.view.View;
 
-import org.bittube.messenger.components.CustomDefaultPreference;
-import org.bittube.messenger.preferences.widgets.ColorPickerPreference;
-import org.bittube.messenger.preferences.widgets.ColorPickerPreferenceDialogFragmentCompat;
+import org.raapp.messenger.components.CustomDefaultPreference;
+import org.raapp.messenger.preferences.widgets.ColorPickerPreference;
+import org.raapp.messenger.preferences.widgets.ColorPickerPreferenceDialogFragmentCompat;
 
 public abstract class CorrectedPreferenceFragment extends PreferenceFragmentCompat {
 

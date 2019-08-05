@@ -1,9 +1,9 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import junit.framework.AssertionFailedError;
 
 import org.junit.Test;
-import org.bittube.messenger.BaseUnitTest;
+import org.raapp.messenger.BaseUnitTest;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 import org.whispersystems.signalservice.api.util.PhoneNumberFormatter;
 

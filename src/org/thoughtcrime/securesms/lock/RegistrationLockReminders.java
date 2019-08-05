@@ -1,10 +1,10 @@
-package org.bittube.messenger.lock;
+package org.raapp.messenger.lock;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

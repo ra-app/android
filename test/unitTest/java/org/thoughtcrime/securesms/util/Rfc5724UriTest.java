@@ -15,12 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import junit.framework.AssertionFailedError;
 
 import org.junit.Test;
-import org.bittube.messenger.BaseUnitTest;
+import org.raapp.messenger.BaseUnitTest;
 
 import java.net.URISyntaxException;
 

@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.scribbles;
+package org.raapp.messenger.scribbles;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.util.AsyncLoader;
+import org.raapp.messenger.util.AsyncLoader;
 
 import java.io.IOException;
 

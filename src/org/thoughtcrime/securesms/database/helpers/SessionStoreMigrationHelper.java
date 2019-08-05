@@ -1,15 +1,15 @@
-package org.bittube.messenger.database.helpers;
+package org.raapp.messenger.database.helpers;
 
 
 import android.content.ContentValues;
 import android.content.Context;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.SessionDatabase;
-import org.bittube.messenger.util.Conversions;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.SessionDatabase;
+import org.raapp.messenger.util.Conversions;
 import org.whispersystems.libsignal.state.SessionRecord;
 import org.whispersystems.libsignal.state.SessionState;
 import org.whispersystems.libsignal.state.StorageProtos.SessionStructure;

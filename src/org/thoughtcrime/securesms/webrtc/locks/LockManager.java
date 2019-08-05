@@ -1,10 +1,10 @@
-package org.bittube.messenger.webrtc.locks;
+package org.raapp.messenger.webrtc.locks;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.os.PowerManager;
 import android.provider.Settings;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 /**
  * Maintains wake lock state.

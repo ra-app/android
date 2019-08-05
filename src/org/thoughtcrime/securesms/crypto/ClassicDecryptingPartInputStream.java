@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.LimitedInputStream;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.LimitedInputStream;
+import org.raapp.messenger.util.Util;
 
 import java.io.File;
 import java.io.FileInputStream;

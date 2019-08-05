@@ -1,19 +1,19 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;

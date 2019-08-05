@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 public class NotInDirectoryException extends Throwable {
 }

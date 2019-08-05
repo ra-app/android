@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences.widgets;
+package org.raapp.messenger.preferences.widgets;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

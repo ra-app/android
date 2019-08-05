@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.subsampling;
+package org.raapp.messenger.components.subsampling;
 
 
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.net.Uri;
 import com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder;
 import com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.PartAuthority;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.PartAuthority;
 
 import java.io.InputStream;
 

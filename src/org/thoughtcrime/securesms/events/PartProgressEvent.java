@@ -1,9 +1,9 @@
-package org.bittube.messenger.events;
+package org.raapp.messenger.events;
 
 
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.Attachment;
 
 public class PartProgressEvent {
 

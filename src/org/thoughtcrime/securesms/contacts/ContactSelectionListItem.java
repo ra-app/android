@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,15 +9,15 @@ import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.AvatarImageView;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.AvatarImageView;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 
 public class ContactSelectionListItem extends LinearLayout implements RecipientModifiedListener {
 

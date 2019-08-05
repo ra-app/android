@@ -1,4 +1,4 @@
-package org.bittube.messenger.backup;
+package org.raapp.messenger.backup;
 
 
 import android.annotation.SuppressLint;
@@ -8,33 +8,33 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.backup.BackupProtos.Attachment;
-import org.bittube.messenger.backup.BackupProtos.BackupFrame;
-import org.bittube.messenger.backup.BackupProtos.DatabaseVersion;
-import org.bittube.messenger.backup.BackupProtos.SharedPreference;
-import org.bittube.messenger.backup.BackupProtos.SqlStatement;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupReceiptDatabase;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.SearchDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Conversions;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.backup.BackupProtos.Attachment;
+import org.raapp.messenger.backup.BackupProtos.BackupFrame;
+import org.raapp.messenger.backup.BackupProtos.DatabaseVersion;
+import org.raapp.messenger.backup.BackupProtos.SharedPreference;
+import org.raapp.messenger.backup.BackupProtos.SqlStatement;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupReceiptDatabase;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.SearchDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.kdf.HKDFv3;
 import org.whispersystems.libsignal.util.ByteUtil;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,11 +12,11 @@ import android.view.View;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.contacts.avatars.ContactColors;
-import org.bittube.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contacts.avatars.ContactColors;
+import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
 
 public class AvatarImageView extends AppCompatImageView {
 

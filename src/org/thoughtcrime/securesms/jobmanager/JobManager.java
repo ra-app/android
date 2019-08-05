@@ -14,18 +14,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
 import android.content.Context;
 import android.os.PowerManager;
 
-import org.bittube.messenger.jobmanager.dependencies.AggregateDependencyInjector;
-import org.bittube.messenger.jobmanager.dependencies.DependencyInjector;
-import org.bittube.messenger.jobmanager.persistence.JobSerializer;
-import org.bittube.messenger.jobmanager.persistence.PersistentStorage;
-import org.bittube.messenger.jobmanager.requirements.RequirementListener;
-import org.bittube.messenger.jobmanager.requirements.RequirementProvider;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.dependencies.AggregateDependencyInjector;
+import org.raapp.messenger.jobmanager.dependencies.DependencyInjector;
+import org.raapp.messenger.jobmanager.persistence.JobSerializer;
+import org.raapp.messenger.jobmanager.persistence.PersistentStorage;
+import org.raapp.messenger.jobmanager.requirements.RequirementListener;
+import org.raapp.messenger.jobmanager.requirements.RequirementProvider;
+import org.raapp.messenger.logging.Log;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -36,8 +36,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * A JobManager allows you to enqueue {@link org.bittube.messenger.jobmanager.Job} tasks
- * that are executed once a Job's {@link org.bittube.messenger.jobmanager.requirements.Requirement}s
+ * A JobManager allows you to enqueue {@link org.raapp.messenger.jobmanager.Job} tasks
+ * that are executed once a Job's {@link org.raapp.messenger.jobmanager.requirements.Requirement}s
  * are met.
  */
 public class JobManager implements RequirementListener {
@@ -76,7 +76,7 @@ public class JobManager implements RequirementListener {
 
   /**
    * @param context An Android {@link android.content.Context}.
-   * @return a {@link org.bittube.messenger.jobmanager.JobManager.Builder} used to construct a JobManager.
+   * @return a {@link org.raapp.messenger.jobmanager.JobManager.Builder} used to construct a JobManager.
    */
   public static Builder newBuilder(Context context) {
     return new Builder(context);
@@ -89,7 +89,7 @@ public class JobManager implements RequirementListener {
   }
 
   /**
-   * Queue a {@link org.bittube.messenger.jobmanager.Job} to be executed.
+   * Queue a {@link org.raapp.messenger.jobmanager.Job} to be executed.
    *
    * @param job The Job to be executed.
    */
@@ -171,7 +171,7 @@ public class JobManager implements RequirementListener {
     }
 
     /**
-     * A name for the {@link org.bittube.messenger.jobmanager.JobManager}. This is a required parameter,
+     * A name for the {@link org.raapp.messenger.jobmanager.JobManager}. This is a required parameter,
      * and is linked to the durable queue used by persistent jobs.
      *
      * @param name The name for the JobManager to build.
@@ -183,8 +183,8 @@ public class JobManager implements RequirementListener {
     }
 
     /**
-     * The {@link org.bittube.messenger.jobmanager.requirements.RequirementProvider}s to register with this
-     * JobManager.  Optional. Each {@link org.bittube.messenger.jobmanager.requirements.Requirement} an
+     * The {@link org.raapp.messenger.jobmanager.requirements.RequirementProvider}s to register with this
+     * JobManager.  Optional. Each {@link org.raapp.messenger.jobmanager.requirements.Requirement} an
      * enqueued Job depends on should have a matching RequirementProvider registered here.
      *
      * @param requirementProviders The RequirementProviders
@@ -196,7 +196,7 @@ public class JobManager implements RequirementListener {
     }
 
     /**
-     * The {@link org.bittube.messenger.jobmanager.dependencies.DependencyInjector} to use for injecting
+     * The {@link org.raapp.messenger.jobmanager.dependencies.DependencyInjector} to use for injecting
      * dependencies into {@link Job}s. Optional. Injection occurs just before a Job's onAdded() callback, or
      * after deserializing a persistent job.
      *
@@ -209,7 +209,7 @@ public class JobManager implements RequirementListener {
     }
 
     /**
-     * The {@link org.bittube.messenger.jobmanager.persistence.JobSerializer} to use for persistent Jobs.
+     * The {@link org.raapp.messenger.jobmanager.persistence.JobSerializer} to use for persistent Jobs.
      * Required if persistent Jobs are used.
      *
      * @param jobSerializer The serializer to use.

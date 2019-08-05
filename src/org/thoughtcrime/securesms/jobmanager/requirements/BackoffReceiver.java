@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager.requirements;
+package org.raapp.messenger.jobmanager.requirements;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -7,9 +7,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.logging.Log;
 
 import java.util.UUID;
 

@@ -1,14 +1,14 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 
 import android.content.Context;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.AbstractCursorLoader;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.AbstractCursorLoader;
 
 public class ThreadMediaLoader extends AbstractCursorLoader {
 

@@ -1,13 +1,13 @@
-package org.bittube.messenger.push;
+package org.raapp.messenger.push;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.google.android.gms.security.ProviderInstaller;
 
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 public class AccountManagerFactory {

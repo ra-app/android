@@ -1,10 +1,10 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.util.CharacterCalculator;
-import org.bittube.messenger.util.CharacterCalculator.CharacterState;
+import org.raapp.messenger.util.CharacterCalculator;
+import org.raapp.messenger.util.CharacterCalculator.CharacterState;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class TransportOption {

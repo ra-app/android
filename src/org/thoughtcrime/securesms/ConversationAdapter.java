@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -23,7 +23,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.widget.RecyclerView;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,23 +31,23 @@ import android.widget.TextView;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.ConversationAdapter.HeaderViewHolder;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.FastCursorRecyclerViewAdapter;
-import org.bittube.messenger.database.MmsSmsColumns;
-import org.bittube.messenger.database.MmsSmsDatabase;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.database.model.MmsMessageRecord;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Conversions;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.LRUCache;
-import org.bittube.messenger.util.StickyHeaderDecoration;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.ConversationAdapter.HeaderViewHolder;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.FastCursorRecyclerViewAdapter;
+import org.raapp.messenger.database.MmsSmsColumns;
+import org.raapp.messenger.database.MmsSmsDatabase;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.MmsMessageRecord;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.LRUCache;
+import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.lang.ref.SoftReference;

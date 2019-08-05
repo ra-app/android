@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 
 import android.Manifest;
@@ -19,7 +19,7 @@ import android.support.annotation.RequiresApi;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -33,29 +33,29 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.dd.CircularProgressButton;
 import com.soundcloud.android.crop.Crop;
 
-import org.bittube.messenger.components.InputAwareLayout;
-import org.bittube.messenger.components.emoji.EmojiDrawer;
-import org.bittube.messenger.components.emoji.EmojiToggle;
-import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
-import org.bittube.messenger.crypto.ProfileKeyUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobs.MultiDeviceProfileKeyUpdateJob;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.profiles.ProfileMediaConstraints;
-import org.bittube.messenger.profiles.SystemProfileUtil;
-import org.bittube.messenger.util.BitmapDecodingException;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.FileProviderUtil;
-import org.bittube.messenger.util.IntentUtils;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.components.InputAwareLayout;
+import org.raapp.messenger.components.emoji.EmojiDrawer;
+import org.raapp.messenger.components.emoji.EmojiToggle;
+import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
+import org.raapp.messenger.crypto.ProfileKeyUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobs.MultiDeviceProfileKeyUpdateJob;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.profiles.ProfileMediaConstraints;
+import org.raapp.messenger.profiles.SystemProfileUtil;
+import org.raapp.messenger.util.BitmapDecodingException;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.FileProviderUtil;
+import org.raapp.messenger.util.IntentUtils;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.crypto.ProfileCipher;
 import org.whispersystems.signalservice.api.util.StreamDetails;
@@ -384,7 +384,7 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
     }
 
     if (includeClear) {
-      extraIntents.add(new Intent("org.bittube.messenger.action.CLEAR_PROFILE_PHOTO"));
+      extraIntents.add(new Intent("org.raapp.messenger.action.CLEAR_PROFILE_PHOTO"));
     }
 
     Intent chooserIntent = Intent.createChooser(galleryIntent, getString(R.string.CreateProfileActivity_profile_photo));

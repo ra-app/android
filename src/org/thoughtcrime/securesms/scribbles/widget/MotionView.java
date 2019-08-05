@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.bittube.messenger.scribbles.widget;
+package org.raapp.messenger.scribbles.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -49,12 +49,12 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.scribbles.multitouch.MoveGestureDetector;
-import org.bittube.messenger.scribbles.multitouch.RotateGestureDetector;
-import org.bittube.messenger.scribbles.widget.entity.MotionEntity;
-import org.bittube.messenger.scribbles.widget.entity.TextEntity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.scribbles.multitouch.MoveGestureDetector;
+import org.raapp.messenger.scribbles.multitouch.RotateGestureDetector;
+import org.raapp.messenger.scribbles.widget.entity.MotionEntity;
+import org.raapp.messenger.scribbles.widget.entity.TextEntity;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

@@ -1,10 +1,10 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 import java.util.Arrays;
 

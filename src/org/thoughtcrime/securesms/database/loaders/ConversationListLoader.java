@@ -1,15 +1,15 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.database.MergeCursor;
 
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.util.AbstractCursorLoader;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.util.AbstractCursorLoader;
 
 import java.util.LinkedList;
 import java.util.List;

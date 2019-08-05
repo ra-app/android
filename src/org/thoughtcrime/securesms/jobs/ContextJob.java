@@ -1,10 +1,10 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobmanager.dependencies.ContextDependent;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
 
 public abstract class ContextJob extends Job implements ContextDependent {
 

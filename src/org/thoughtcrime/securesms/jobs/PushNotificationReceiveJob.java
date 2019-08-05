@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
+import org.raapp.messenger.logging.Log;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.messages.SignalServiceEnvelope;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;

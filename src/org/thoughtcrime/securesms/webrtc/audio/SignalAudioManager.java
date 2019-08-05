@@ -1,4 +1,4 @@
-package org.bittube.messenger.webrtc.audio;
+package org.raapp.messenger.webrtc.audio;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ServiceUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ServiceUtil;
 
 public class SignalAudioManager {
 

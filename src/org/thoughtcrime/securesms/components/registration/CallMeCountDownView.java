@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.registration;
+package org.raapp.messenger.components.registration;
 
 
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class CallMeCountDownView extends RelativeLayout {
 

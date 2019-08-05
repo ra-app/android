@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.widget.Toast;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Rfc5724Uri;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Rfc5724Uri;
 
 import java.net.URISyntaxException;
 

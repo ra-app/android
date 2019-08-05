@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.annotation.TargetApi;
 import android.app.NotificationChannel;
@@ -16,14 +16,14 @@ import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.RecipientDatabase.VibrateState;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.RecipientDatabase.VibrateState;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.logging.Log;
 
 import java.util.Arrays;

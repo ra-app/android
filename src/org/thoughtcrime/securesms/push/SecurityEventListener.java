@@ -1,8 +1,8 @@
-package org.bittube.messenger.push;
+package org.raapp.messenger.push;
 
 import android.content.Context;
 
-import org.bittube.messenger.crypto.SecurityEvent;
+import org.raapp.messenger.crypto.SecurityEvent;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

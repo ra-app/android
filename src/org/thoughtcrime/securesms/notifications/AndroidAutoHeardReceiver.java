@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -24,8 +24,8 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v4.app.NotificationManagerCompat;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
 import org.whispersystems.libsignal.logging.Log;
 
 import java.util.LinkedList;
@@ -37,7 +37,7 @@ import java.util.List;
 public class AndroidAutoHeardReceiver extends BroadcastReceiver {
 
   public static final String TAG                   = AndroidAutoHeardReceiver.class.getSimpleName();
-  public static final String HEARD_ACTION          = "org.bittube.messenger.notifications.ANDROID_AUTO_HEARD";
+  public static final String HEARD_ACTION          = "org.raapp.messenger.notifications.ANDROID_AUTO_HEARD";
   public static final String THREAD_IDS_EXTRA      = "car_heard_thread_ids";
   public static final String NOTIFICATION_ID_EXTRA = "car_notification_id";
 

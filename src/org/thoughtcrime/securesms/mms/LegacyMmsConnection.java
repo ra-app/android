@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import org.apache.http.Header;
 import org.apache.http.auth.AuthScope;
@@ -36,11 +36,11 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.client.LaxRedirectStrategy;
 import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
 import org.apache.http.message.BasicHeader;
-import org.bittube.messenger.database.ApnDatabase;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TelephonyUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.database.ApnDatabase;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TelephonyUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.BufferedInputStream;

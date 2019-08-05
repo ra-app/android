@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences.widgets;
+package org.raapp.messenger.preferences.widgets;
 
 
 import android.content.Context;
@@ -13,12 +13,12 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.contacts.avatars.ProfileContactPhoto;
-import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
+import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class ProfilePreference extends Preference {
 

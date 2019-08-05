@@ -1,6 +1,6 @@
-package org.bittube.messenger.database.documents;
+package org.raapp.messenger.database.documents;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -13,8 +13,8 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.util.Base64;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.util.Base64;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.InvalidKeyException;
 

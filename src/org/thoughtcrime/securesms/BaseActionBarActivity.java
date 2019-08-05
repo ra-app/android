@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -14,8 +14,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.WindowManager;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.lang.reflect.Field;
 

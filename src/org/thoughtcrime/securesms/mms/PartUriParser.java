@@ -1,9 +1,9 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.ContentUris;
 import android.net.Uri;
 
-import org.bittube.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.AttachmentId;
 
 public class PartUriParser {
 

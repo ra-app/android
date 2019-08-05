@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.scribbles;
+package org.raapp.messenger.scribbles;
 
 import android.content.Context;
 import android.net.Uri;
@@ -33,9 +33,9 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
 
 public class StickerSelectFragment extends Fragment implements LoaderManager.LoaderCallbacks<String[]> {
 

@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package org.bittube.messenger.components.webrtc;
+package org.raapp.messenger.components.webrtc;
 
 import android.content.Context;
 import android.graphics.Bitmap;

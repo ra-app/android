@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.dualsim;
+package org.raapp.messenger.util.dualsim;
 
 import android.content.Context;
 import android.os.Build;

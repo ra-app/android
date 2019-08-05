@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,20 +13,20 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.crypto.IdentityKeyParcelable;
-import org.bittube.messenger.database.IdentityDatabase;
-import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.ExpirationUtil;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.util.IdentityUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.crypto.IdentityKeyParcelable;
+import org.raapp.messenger.database.IdentityDatabase;
+import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.ExpirationUtil;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.util.IdentityUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Locale;

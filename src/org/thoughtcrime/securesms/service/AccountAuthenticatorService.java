@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;

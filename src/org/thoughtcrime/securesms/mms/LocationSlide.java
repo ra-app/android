@@ -1,10 +1,10 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.components.location.SignalPlace;
+import org.raapp.messenger.components.location.SignalPlace;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class LocationSlide extends ImageSlide {

@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 
 import com.annimon.stream.Stream;
@@ -30,20 +30,20 @@ import com.annimon.stream.Stream;
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteStatement;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.documents.IdentityKeyMismatch;
-import org.bittube.messenger.database.documents.IdentityKeyMismatchList;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.database.model.SmsMessageRecord;
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.jobs.TrimThreadJob;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.IncomingGroupMessage;
-import org.bittube.messenger.sms.IncomingTextMessage;
-import org.bittube.messenger.sms.OutgoingTextMessage;
-import org.bittube.messenger.util.JsonUtils;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.raapp.messenger.database.documents.IdentityKeyMismatchList;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.SmsMessageRecord;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.jobs.TrimThreadJob;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.IncomingGroupMessage;
+import org.raapp.messenger.sms.IncomingTextMessage;
+import org.raapp.messenger.sms.OutgoingTextMessage;
+import org.raapp.messenger.util.JsonUtils;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;
@@ -541,7 +541,7 @@ public class SmsDatabase extends MessagingDatabase {
       groupRecipient = Recipient.from(context, message.getGroupId(), true);
     }
 
-    boolean    unread     = (org.bittube.messenger.util.Util.isDefaultSmsProvider(context) ||
+    boolean    unread     = (org.raapp.messenger.util.Util.isDefaultSmsProvider(context) ||
                             message.isSecureMessage() || message.isGroup() || message.isPreKeyBundle()) &&
                             !message.isIdentityUpdate() && !message.isIdentityDefault() && !message.isIdentityVerified();
 

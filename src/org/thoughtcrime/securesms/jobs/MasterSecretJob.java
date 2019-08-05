@@ -1,10 +1,10 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.service.KeyCachingService;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.service.KeyCachingService;
 
 public abstract class MasterSecretJob extends ContextJob {
 

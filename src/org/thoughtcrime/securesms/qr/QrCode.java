@@ -1,9 +1,9 @@
-package org.bittube.messenger.qr;
+package org.raapp.messenger.qr;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;

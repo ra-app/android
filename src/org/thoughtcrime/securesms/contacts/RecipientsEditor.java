@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatMultiAutoCompleteTextView;
@@ -35,8 +35,8 @@ import android.view.MotionEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.MultiAutoCompleteTextView;
 
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientsFormatter;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientsFormatter;
 
 import java.util.ArrayList;
 import java.util.List;

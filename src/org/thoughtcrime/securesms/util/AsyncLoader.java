@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 /*
  * Copyright (C) 2011 Alexander Blom

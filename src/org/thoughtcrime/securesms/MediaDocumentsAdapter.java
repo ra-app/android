@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 
 import android.content.ActivityNotFoundException;
@@ -13,19 +13,19 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.bittube.messenger.MediaDocumentsAdapter.HeaderViewHolder;
-import org.bittube.messenger.MediaDocumentsAdapter.ViewHolder;
-import org.bittube.messenger.components.DocumentView;
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.database.MediaDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.DocumentSlide;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.StickyHeaderDecoration;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.MediaDocumentsAdapter.HeaderViewHolder;
+import org.raapp.messenger.MediaDocumentsAdapter.ViewHolder;
+import org.raapp.messenger.components.DocumentView;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.database.MediaDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.DocumentSlide;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.raapp.messenger.util.Util;
 
 import java.util.Calendar;
 import java.util.Date;

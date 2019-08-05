@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ViewUtil;
 
 /**
  * View to display actionable reminders to the user

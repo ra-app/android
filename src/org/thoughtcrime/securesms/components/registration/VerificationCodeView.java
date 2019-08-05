@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.registration;
+package org.raapp.messenger.components.registration;
 
 
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.widget.TextView;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.groups;
+package org.raapp.messenger.groups;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,21 +8,21 @@ import android.support.annotation.Nullable;
 
 import com.google.protobuf.ByteString;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.UriAttachment;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
-import org.bittube.messenger.providers.SingleUseBlobProvider;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.MessageSender;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.UriAttachment;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
+import org.raapp.messenger.providers.SingleUseBlobProvider;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.MessageSender;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

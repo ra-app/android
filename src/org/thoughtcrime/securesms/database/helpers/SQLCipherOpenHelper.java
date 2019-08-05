@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.helpers;
+package org.raapp.messenger.database.helpers;
 
 
 import android.content.ContentValues;
@@ -9,34 +9,34 @@ import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
 
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteDatabaseHook;
 import net.sqlcipher.database.SQLiteOpenHelper;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.crypto.DatabaseSecret;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DraftDatabase;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.GroupReceiptDatabase;
-import org.bittube.messenger.database.IdentityDatabase;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.OneTimePreKeyDatabase;
-import org.bittube.messenger.database.PushDatabase;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.SearchDatabase;
-import org.bittube.messenger.database.SessionDatabase;
-import org.bittube.messenger.database.SignedPreKeyDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.jobs.RefreshPreKeysJob;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.crypto.DatabaseSecret;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DraftDatabase;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.GroupReceiptDatabase;
+import org.raapp.messenger.database.IdentityDatabase;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.OneTimePreKeyDatabase;
+import org.raapp.messenger.database.PushDatabase;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.SearchDatabase;
+import org.raapp.messenger.database.SessionDatabase;
+import org.raapp.messenger.database.SignedPreKeyDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.jobs.RefreshPreKeysJob;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.File;
 

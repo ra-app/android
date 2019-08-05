@@ -1,14 +1,14 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.bittube.messenger.ConversationListActivity;
-import org.bittube.messenger.DatabaseMigrationActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.service.ApplicationMigrationService;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.DatabaseMigrationActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.service.ApplicationMigrationService;
 
 public class SystemSmsImportReminder extends Reminder {
 

@@ -6,7 +6,7 @@
 
 package signal;
 
-option java_package         = "org.bittube.messenger.webrtc";
+option java_package         = "org.raapp.messenger.webrtc";
 option java_outer_classname = "WebRtcDataProtos";
 
 message Connected {

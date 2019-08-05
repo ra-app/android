@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.animation.Animator;
 import android.app.KeyguardManager;
@@ -32,7 +32,7 @@ import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.TypefaceSpan;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -49,14 +49,14 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.bittube.messenger.animation.AnimationCompleteListener;
-import org.bittube.messenger.components.AnimatingToggle;
-import org.bittube.messenger.crypto.InvalidPassphraseException;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.crypto.MasterSecretUtil;
-import org.bittube.messenger.util.DynamicIntroTheme;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.animation.AnimationCompleteListener;
+import org.raapp.messenger.components.AnimatingToggle;
+import org.raapp.messenger.crypto.InvalidPassphraseException;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.crypto.MasterSecretUtil;
+import org.raapp.messenger.util.DynamicIntroTheme;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 /**
  * Activity that prompts for a user's passphrase.

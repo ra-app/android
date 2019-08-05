@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -35,7 +35,7 @@ import android.support.v4.util.Pair;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -47,23 +47,23 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.components.MediaView;
-import org.bittube.messenger.components.viewpager.ExtendedOnPageChangedListener;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.MediaDatabase.MediaRecord;
-import org.bittube.messenger.database.loaders.PagingMediaLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.AttachmentUtil;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.SaveAttachmentTask;
-import org.bittube.messenger.util.SaveAttachmentTask.Attachment;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.components.MediaView;
+import org.raapp.messenger.components.viewpager.ExtendedOnPageChangedListener;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.MediaDatabase.MediaRecord;
+import org.raapp.messenger.database.loaders.PagingMediaLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.AttachmentUtil;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.SaveAttachmentTask;
+import org.raapp.messenger.util.SaveAttachmentTask.Attachment;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.WeakHashMap;

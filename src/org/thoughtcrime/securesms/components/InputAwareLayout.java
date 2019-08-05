@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -6,8 +6,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
-import org.bittube.messenger.components.KeyboardAwareLinearLayout.OnKeyboardShownListener;
-import org.bittube.messenger.util.ServiceUtil;
+import org.raapp.messenger.components.KeyboardAwareLinearLayout.OnKeyboardShownListener;
+import org.raapp.messenger.util.ServiceUtil;
 
 public class InputAwareLayout extends KeyboardAwareLinearLayout implements OnKeyboardShownListener {
   private InputView current;

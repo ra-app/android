@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences.widgets;
+package org.raapp.messenger.preferences.widgets;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class ProgressPreference extends Preference {
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -31,21 +31,21 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.widget.RemoteViews;
 
-import org.bittube.messenger.ConversationListActivity;
-import org.bittube.messenger.DatabaseUpgradeActivity;
-import org.bittube.messenger.DummyActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.crypto.InvalidPassphraseException;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.crypto.MasterSecretUtil;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.DatabaseUpgradeActivity;
+import org.raapp.messenger.DummyActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.crypto.InvalidPassphraseException;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.crypto.MasterSecretUtil;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 
@@ -61,16 +61,16 @@ public class KeyCachingService extends Service {
 
   public static final int SERVICE_RUNNING_ID = 4141;
 
-  public  static final String KEY_PERMISSION           = "org.bittube.messenger.ACCESS_SECRETS";
-  public  static final String NEW_KEY_EVENT            = "org.bittube.messenger.service.action.NEW_KEY_EVENT";
-  public  static final String CLEAR_KEY_EVENT          = "org.bittube.messenger.service.action.CLEAR_KEY_EVENT";
-  public  static final String LOCK_TOGGLED_EVENT       = "org.bittube.messenger.service.action.LOCK_ENABLED_EVENT";
-  private static final String PASSPHRASE_EXPIRED_EVENT = "org.bittube.messenger.service.action.PASSPHRASE_EXPIRED_EVENT";
-  public  static final String CLEAR_KEY_ACTION         = "org.bittube.messenger.service.action.CLEAR_KEY";
-  public  static final String DISABLE_ACTION           = "org.bittube.messenger.service.action.DISABLE";
-  public  static final String ACTIVITY_START_EVENT     = "org.bittube.messenger.service.action.ACTIVITY_START_EVENT";
-  public  static final String ACTIVITY_STOP_EVENT      = "org.bittube.messenger.service.action.ACTIVITY_STOP_EVENT";
-  public  static final String LOCALE_CHANGE_EVENT      = "org.bittube.messenger.service.action.LOCALE_CHANGE_EVENT";
+  public  static final String KEY_PERMISSION           = "org.raapp.messenger.ACCESS_SECRETS";
+  public  static final String NEW_KEY_EVENT            = "org.raapp.messenger.service.action.NEW_KEY_EVENT";
+  public  static final String CLEAR_KEY_EVENT          = "org.raapp.messenger.service.action.CLEAR_KEY_EVENT";
+  public  static final String LOCK_TOGGLED_EVENT       = "org.raapp.messenger.service.action.LOCK_ENABLED_EVENT";
+  private static final String PASSPHRASE_EXPIRED_EVENT = "org.raapp.messenger.service.action.PASSPHRASE_EXPIRED_EVENT";
+  public  static final String CLEAR_KEY_ACTION         = "org.raapp.messenger.service.action.CLEAR_KEY";
+  public  static final String DISABLE_ACTION           = "org.raapp.messenger.service.action.DISABLE";
+  public  static final String ACTIVITY_START_EVENT     = "org.raapp.messenger.service.action.ACTIVITY_START_EVENT";
+  public  static final String ACTIVITY_STOP_EVENT      = "org.raapp.messenger.service.action.ACTIVITY_STOP_EVENT";
+  public  static final String LOCALE_CHANGE_EVENT      = "org.raapp.messenger.service.action.LOCALE_CHANGE_EVENT";
 
   private DynamicLanguage dynamicLanguage = new DynamicLanguage();
 

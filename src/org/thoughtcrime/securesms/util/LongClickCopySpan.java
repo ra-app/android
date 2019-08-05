@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.annotation.TargetApi;
 import android.content.ClipData;
@@ -9,7 +9,7 @@ import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class LongClickCopySpan extends URLSpan {
   private static final String PREFIX_MAILTO = "mailto:";

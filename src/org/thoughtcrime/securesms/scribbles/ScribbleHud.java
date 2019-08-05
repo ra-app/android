@@ -1,4 +1,4 @@
-package org.bittube.messenger.scribbles;
+package org.raapp.messenger.scribbles;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,15 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.scribbles.widget.ColorPaletteAdapter;
-import org.bittube.messenger.scribbles.widget.VerticalSlideColorPicker;
+import org.raapp.messenger.R;
+import org.raapp.messenger.scribbles.widget.ColorPaletteAdapter;
+import org.raapp.messenger.scribbles.widget.VerticalSlideColorPicker;
 
 import java.util.Set;
 
 /**
  * The HUD (heads-up display) that contains all of the tools for interacting with
- * {@link org.bittube.messenger.scribbles.widget.ScribbleView}
+ * {@link org.raapp.messenger.scribbles.widget.ScribbleView}
  */
 public class ScribbleHud extends FrameLayout {
 

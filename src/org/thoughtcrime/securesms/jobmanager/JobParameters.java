@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
-import org.bittube.messenger.jobmanager.requirements.Requirement;
+import org.raapp.messenger.jobmanager.requirements.Requirement;
 
 import java.io.Serializable;
 import java.util.LinkedList;
@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The set of parameters that describe a {@link org.bittube.messenger.jobmanager.Job}.
+ * The set of parameters that describe a {@link org.raapp.messenger.jobmanager.Job}.
  */
 public class JobParameters implements Serializable {
 
@@ -110,7 +110,7 @@ public class JobParameters implements Serializable {
     private long              wakeLockTimeout = 0;
 
     /**
-     * Specify a {@link org.bittube.messenger.jobmanager.requirements.Requirement }that must be met
+     * Specify a {@link org.raapp.messenger.jobmanager.requirements.Requirement }that must be met
      * before the Job is executed.  May be called multiple times to register multiple requirements.
      * @param requirement The Requirement that must be met.
      * @return the builder.

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageButton;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiDrawer.EmojiDrawerListener;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiDrawer.EmojiDrawerListener;
 
 public class EmojiToggle extends ImageButton implements EmojiDrawerListener {
 

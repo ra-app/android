@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.recipients;
+package org.raapp.messenger.recipients;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -26,28 +26,28 @@ import android.text.TextUtils;
 
 import com.annimon.stream.function.Consumer;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.contacts.avatars.ContactColors;
-import org.bittube.messenger.contacts.avatars.ContactPhoto;
-import org.bittube.messenger.contacts.avatars.FallbackContactPhoto;
-import org.bittube.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.bittube.messenger.contacts.avatars.GroupRecordContactPhoto;
-import org.bittube.messenger.contacts.avatars.ProfileContactPhoto;
-import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
-import org.bittube.messenger.contacts.avatars.SystemContactPhoto;
-import org.bittube.messenger.contacts.avatars.TransparentContactPhoto;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.RecipientDatabase.RecipientSettings;
-import org.bittube.messenger.database.RecipientDatabase.RegisteredState;
-import org.bittube.messenger.database.RecipientDatabase.VibrateState;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.recipients.RecipientProvider.RecipientDetails;
-import org.bittube.messenger.util.FutureTaskListener;
-import org.bittube.messenger.util.ListenableFutureTask;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.contacts.avatars.ContactColors;
+import org.raapp.messenger.contacts.avatars.ContactPhoto;
+import org.raapp.messenger.contacts.avatars.FallbackContactPhoto;
+import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
+import org.raapp.messenger.contacts.avatars.GroupRecordContactPhoto;
+import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
+import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
+import org.raapp.messenger.contacts.avatars.SystemContactPhoto;
+import org.raapp.messenger.contacts.avatars.TransparentContactPhoto;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.RecipientDatabase.RecipientSettings;
+import org.raapp.messenger.database.RecipientDatabase.RegisteredState;
+import org.raapp.messenger.database.RecipientDatabase.VibrateState;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.recipients.RecipientProvider.RecipientDetails;
+import org.raapp.messenger.util.FutureTaskListener;
+import org.raapp.messenger.util.ListenableFutureTask;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

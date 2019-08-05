@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -19,20 +19,20 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiDrawer;
-import org.bittube.messenger.components.emoji.EmojiToggle;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.QuoteModel;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.AssertedSuccessListener;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiDrawer;
+import org.raapp.messenger.components.emoji.EmojiToggle;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.QuoteModel;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.AssertedSuccessListener;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.Build.VERSION_CODES;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class SquareFrameLayout extends FrameLayout {
 

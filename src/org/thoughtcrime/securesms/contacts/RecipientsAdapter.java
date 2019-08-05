@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.recipients.RecipientsFormatter;
+import org.raapp.messenger.R;
+import org.raapp.messenger.recipients.RecipientsFormatter;
 
 import android.content.ContentResolver;
 import android.content.Context;

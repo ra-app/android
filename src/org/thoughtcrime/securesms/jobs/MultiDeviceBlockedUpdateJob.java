@@ -1,16 +1,16 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.RecipientDatabase.RecipientReader;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.RecipientDatabase.RecipientReader;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
+import org.raapp.messenger.recipients.Recipient;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
 import org.whispersystems.signalservice.api.messages.multidevice.BlockedListMessage;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.preferences.widgets;
+package org.raapp.messenger.preferences.widgets;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
@@ -24,7 +24,7 @@ import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 /**
  * List preference that disables dependents when set to "none", similar to a CheckBoxPreference.

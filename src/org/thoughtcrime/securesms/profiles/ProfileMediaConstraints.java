@@ -1,9 +1,9 @@
-package org.bittube.messenger.profiles;
+package org.raapp.messenger.profiles;
 
 
 import android.content.Context;
 
-import org.bittube.messenger.mms.MediaConstraints;
+import org.raapp.messenger.mms.MediaConstraints;
 
 public class ProfileMediaConstraints extends MediaConstraints {
   @Override

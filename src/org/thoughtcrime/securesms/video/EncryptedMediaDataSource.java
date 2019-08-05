@@ -1,4 +1,4 @@
-package org.bittube.messenger.video;
+package org.raapp.messenger.video;
 
 
 import android.annotation.TargetApi;
@@ -7,10 +7,10 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
+import org.raapp.messenger.util.Util;
 
 import java.io.File;
 import java.io.IOException;

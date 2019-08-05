@@ -1,10 +1,10 @@
-package org.bittube.messenger.attachments;
+package org.raapp.messenger.attachments;
 
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.AttachmentDatabase;
 
 public abstract class Attachment {
 

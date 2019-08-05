@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bittube.messenger.webrtc.locks;
+package org.raapp.messenger.webrtc.locks;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -23,7 +23,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.Message;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 /**
  * This class is used to listen to the accelerometer to monitor the

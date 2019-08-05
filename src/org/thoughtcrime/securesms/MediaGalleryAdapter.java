@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -25,12 +25,12 @@ import android.widget.TextView;
 
 import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
-import org.bittube.messenger.components.ThumbnailView;
-import org.bittube.messenger.database.MediaDatabase.MediaRecord;
-import org.bittube.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.components.ThumbnailView;
+import org.raapp.messenger.database.MediaDatabase.MediaRecord;
+import org.raapp.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.util.MediaUtil;
 
 import java.util.Collection;
 import java.util.HashSet;

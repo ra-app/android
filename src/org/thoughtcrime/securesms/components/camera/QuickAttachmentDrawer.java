@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.camera;
+package org.raapp.messenger.components.camera;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -22,14 +22,14 @@ import android.widget.ImageButton;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.InputAwareLayout.InputView;
-import org.bittube.messenger.components.KeyboardAwareLinearLayout;
-import org.bittube.messenger.components.camera.CameraView.CameraViewListener;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.InputAwareLayout.InputView;
+import org.raapp.messenger.components.KeyboardAwareLinearLayout;
+import org.raapp.messenger.components.camera.CameraView.CameraViewListener;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 
 public class QuickAttachmentDrawer extends ViewGroup implements InputView, CameraViewListener {
   private static final String TAG = QuickAttachmentDrawer.class.getSimpleName();

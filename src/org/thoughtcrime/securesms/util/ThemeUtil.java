@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,7 +7,7 @@ import android.support.annotation.AttrRes;
 import android.support.annotation.NonNull;
 import android.util.TypedValue;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class ThemeUtil {
 

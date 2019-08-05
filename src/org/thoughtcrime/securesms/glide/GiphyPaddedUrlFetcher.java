@@ -1,4 +1,4 @@
-package org.bittube.messenger.glide;
+package org.raapp.messenger.glide;
 
 
 import android.support.annotation.NonNull;
@@ -8,9 +8,9 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.bumptech.glide.util.ContentLengthInputStream;
 
-import org.bittube.messenger.giph.model.GiphyPaddedUrl;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.giph.model.GiphyPaddedUrl;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Util;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

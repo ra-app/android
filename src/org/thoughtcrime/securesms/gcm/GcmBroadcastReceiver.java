@@ -1,17 +1,17 @@
-package org.bittube.messenger.gcm;
+package org.raapp.messenger.gcm;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.jobs.PushContentReceiveJob;
-import org.bittube.messenger.jobs.PushNotificationReceiveJob;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.jobs.PushContentReceiveJob;
+import org.raapp.messenger.jobs.PushNotificationReceiveJob;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
 

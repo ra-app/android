@@ -1,12 +1,12 @@
-package org.bittube.messenger.search.model;
+package org.raapp.messenger.search.model;
 
 import android.database.ContentObserver;
 import android.database.DataSetObserver;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.database.CursorList;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.database.CursorList;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.util.List;
 

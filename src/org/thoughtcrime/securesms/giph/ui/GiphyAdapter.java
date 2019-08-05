@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,14 +22,14 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.util.ByteBufferUtil;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.giph.model.GiphyImage;
-import org.bittube.messenger.giph.model.GiphyPaddedUrl;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.giph.model.GiphyImage;
+import org.raapp.messenger.giph.model.GiphyPaddedUrl;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;

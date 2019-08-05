@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -32,26 +32,26 @@ import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
-import org.bittube.messenger.components.SearchToolbar;
-import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.providers.PersistentBlobProvider;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.FileUtils;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.components.SearchToolbar;
+import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.providers.PersistentBlobProvider;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.FileUtils;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.io.FileInputStream;
 import java.io.IOException;

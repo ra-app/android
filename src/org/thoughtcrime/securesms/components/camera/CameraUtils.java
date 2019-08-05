@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.camera;
+package org.raapp.messenger.components.camera;
 
 import android.app.Activity;
 import android.hardware.Camera;
@@ -8,7 +8,7 @@ import android.hardware.Camera.Size;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.Surface;
 
 import java.util.Collections;

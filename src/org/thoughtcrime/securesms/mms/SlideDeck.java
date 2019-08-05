@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.util.MediaUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.LinkedList;

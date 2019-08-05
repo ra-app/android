@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -19,14 +19,14 @@ import android.text.TextUtils;
 import android.text.TextUtils.TruncateAt;
 import android.text.style.RelativeSizeSpan;
 import android.util.AttributeSet;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.TransportOption;
-import org.bittube.messenger.components.emoji.EmojiEditText;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.TransportOption;
+import org.raapp.messenger.components.emoji.EmojiEditText;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class ComposeText extends EmojiEditText {
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.Manifest;
 import android.content.Context;
@@ -26,17 +26,17 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.CursorLoader;
 import android.text.TextUtils;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.NumberUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.NumberUtil;
 
 import java.util.ArrayList;
 import java.util.List;

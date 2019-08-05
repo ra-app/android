@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobmanager.requirements;
+package org.raapp.messenger.jobmanager.requirements;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.dependencies.ContextDependent;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
+import org.raapp.messenger.logging.Log;
 
 import java.util.concurrent.TimeUnit;
 

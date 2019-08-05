@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -22,7 +22,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.google.android.mms.pdu_alt.PduParser;
 import com.google.android.mms.pdu_alt.SendConf;
@@ -33,7 +33,7 @@ import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.HttpPostHC4;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.entity.ByteArrayEntityHC4;
-import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.transport.UndeliverableMessageException;
 
 import java.io.IOException;
 

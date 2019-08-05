@@ -1,4 +1,4 @@
-package org.bittube.messenger.animation;
+package org.raapp.messenger.animation;
 
 
 import android.animation.Animator;

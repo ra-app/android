@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,12 +14,12 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 
-import org.bittube.messenger.ApplicationPreferencesActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.SwitchPreferenceCompat;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.SwitchPreferenceCompat;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import static android.app.Activity.RESULT_OK;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 /**
  * <p>Encodes and decodes to and from Base64 notation.</p>

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.video;
+package org.raapp.messenger.video;
 
 import android.content.Context;
 import android.os.Build;
@@ -50,13 +50,13 @@ import com.google.android.exoplayer2.upstream.BandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.attachments.AttachmentServer;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.mms.VideoSlide;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.video.exo.AttachmentDataSourceFactory;
+import org.raapp.messenger.R;
+import org.raapp.messenger.attachments.AttachmentServer;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.VideoSlide;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.video.exo.AttachmentDataSourceFactory;
 
 import java.io.IOException;
 

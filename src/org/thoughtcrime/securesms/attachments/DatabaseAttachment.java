@@ -1,9 +1,9 @@
-package org.bittube.messenger.attachments;
+package org.raapp.messenger.attachments;
 
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.PartAuthority;
 
 public class DatabaseAttachment extends Attachment {
 

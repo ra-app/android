@@ -1,6 +1,6 @@
-package org.bittube.messenger.sms;
+package org.raapp.messenger.sms;
 
-import org.bittube.messenger.database.Address;
+import org.raapp.messenger.database.Address;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 

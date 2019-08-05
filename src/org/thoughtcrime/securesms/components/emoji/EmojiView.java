@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,8 +8,8 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ResUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ResUtil;
 
 public class EmojiView extends View implements Drawable.Callback {
   private String   emoji;

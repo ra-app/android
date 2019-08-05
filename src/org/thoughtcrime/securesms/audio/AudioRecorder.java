@@ -1,4 +1,4 @@
-package org.bittube.messenger.audio;
+package org.raapp.messenger.audio;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -6,15 +6,15 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.ParcelFileDescriptor;
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 
-import org.bittube.messenger.providers.PersistentBlobProvider;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.ThreadUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.providers.PersistentBlobProvider;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.ThreadUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;

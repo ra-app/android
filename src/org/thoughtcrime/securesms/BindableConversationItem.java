@@ -1,14 +1,14 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.View;
 
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.database.model.MmsMessageRecord;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.MmsMessageRecord;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.List;

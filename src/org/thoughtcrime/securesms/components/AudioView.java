@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -24,14 +24,14 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.bittube.messenger.R;
-import org.bittube.messenger.audio.AudioSlidePlayer;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.events.PartProgressEvent;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.AudioSlide;
-import org.bittube.messenger.mms.SlideClickListener;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.audio.AudioSlidePlayer;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.events.PartProgressEvent;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.AudioSlide;
+import org.raapp.messenger.mms.SlideClickListener;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

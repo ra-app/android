@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.ConversationActivity;
-import org.bittube.messenger.ConversationPopupActivity;
-import org.bittube.messenger.database.RecipientDatabase.VibrateState;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.ConversationActivity;
+import org.raapp.messenger.ConversationPopupActivity;
+import org.raapp.messenger.database.RecipientDatabase.VibrateState;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.util.LinkedHashSet;
 import java.util.LinkedList;

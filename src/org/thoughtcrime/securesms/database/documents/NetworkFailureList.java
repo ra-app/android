@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.documents;
+package org.raapp.messenger.database.documents;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.audio;
+package org.raapp.messenger.audio;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -17,12 +17,12 @@ import android.support.annotation.Nullable;
 import android.util.Pair;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.attachments.AttachmentServer;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.AudioSlide;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.attachments.AttachmentServer;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.AudioSlide;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

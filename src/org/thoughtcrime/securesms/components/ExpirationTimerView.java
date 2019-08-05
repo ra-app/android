@@ -1,12 +1,12 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.Util;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.TimeUnit;

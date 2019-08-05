@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences.widgets;
+package org.raapp.messenger.preferences.widgets;
 
 
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ViewUtil;
 
 public class SignalListPreference extends ListPreference {
 

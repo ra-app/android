@@ -1,7 +1,7 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;

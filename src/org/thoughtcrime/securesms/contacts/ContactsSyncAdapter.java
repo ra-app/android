@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.accounts.Account;
 import android.content.AbstractThreadedSyncAdapter;
@@ -6,10 +6,10 @@ import android.content.ContentProviderClient;
 import android.content.Context;
 import android.content.SyncResult;
 import android.os.Bundle;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.util.DirectoryHelper;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.DirectoryHelper;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.IOException;
 

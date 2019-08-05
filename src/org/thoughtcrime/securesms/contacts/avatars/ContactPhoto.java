@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts.avatars;
+package org.raapp.messenger.contacts.avatars;
 
 
 import android.content.Context;

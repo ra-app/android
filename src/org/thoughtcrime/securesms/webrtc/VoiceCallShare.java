@@ -1,4 +1,4 @@
-package org.bittube.messenger.webrtc;
+package org.raapp.messenger.webrtc;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
 
-import org.bittube.messenger.WebRtcCallActivity;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.service.WebRtcCallService;
+import org.raapp.messenger.WebRtcCallActivity;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.service.WebRtcCallService;
 
 public class VoiceCallShare extends Activity {
   

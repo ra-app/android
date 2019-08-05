@@ -1,20 +1,20 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.app.Activity;
 import android.content.Context;
 import android.telephony.SmsManager;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.NoSuchMessageException;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.model.SmsMessageRecord;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.service.SmsDeliveryListener;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.NoSuchMessageException;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.model.SmsMessageRecord;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.service.SmsDeliveryListener;
 
 public class SmsSentJob extends MasterSecretJob {
 

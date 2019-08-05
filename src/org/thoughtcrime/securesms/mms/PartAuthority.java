@@ -1,4 +1,4 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -7,21 +7,21 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.providers.PersistentBlobProvider;
-import org.bittube.messenger.providers.PartProvider;
-import org.bittube.messenger.providers.SingleUseBlobProvider;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.providers.PersistentBlobProvider;
+import org.raapp.messenger.providers.PartProvider;
+import org.raapp.messenger.providers.SingleUseBlobProvider;
 
 import java.io.IOException;
 import java.io.InputStream;
 
 public class PartAuthority {
 
-  private static final String PART_URI_STRING   = "content://org.bittube.messenger/part";
-  private static final String THUMB_URI_STRING  = "content://org.bittube.messenger/thumb";
+  private static final String PART_URI_STRING   = "content://org.raapp.messenger/part";
+  private static final String THUMB_URI_STRING  = "content://org.raapp.messenger/thumb";
   private static final Uri    PART_CONTENT_URI  = Uri.parse(PART_URI_STRING);
   private static final Uri    THUMB_CONTENT_URI = Uri.parse(THUMB_URI_STRING);
 
@@ -34,8 +34,8 @@ public class PartAuthority {
 
   static {
     uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
-    uriMatcher.addURI("org.bittube.messenger", "part/*/#", PART_ROW);
-    uriMatcher.addURI("org.bittube.messenger", "thumb/*/#", THUMB_ROW);
+    uriMatcher.addURI("org.raapp.messenger", "part/*/#", PART_ROW);
+    uriMatcher.addURI("org.raapp.messenger", "thumb/*/#", THUMB_ROW);
     uriMatcher.addURI(PersistentBlobProvider.AUTHORITY, PersistentBlobProvider.EXPECTED_PATH_OLD, PERSISTENT_ROW);
     uriMatcher.addURI(PersistentBlobProvider.AUTHORITY, PersistentBlobProvider.EXPECTED_PATH_NEW, PERSISTENT_ROW);
     uriMatcher.addURI(SingleUseBlobProvider.AUTHORITY, SingleUseBlobProvider.PATH, SINGLE_USE_ROW);

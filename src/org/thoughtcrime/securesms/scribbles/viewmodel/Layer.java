@@ -20,10 +20,10 @@
  * SOFTWARE.
  */
 
-package org.bittube.messenger.scribbles.viewmodel;
+package org.raapp.messenger.scribbles.viewmodel;
 
 import android.support.annotation.FloatRange;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 public class Layer {
 

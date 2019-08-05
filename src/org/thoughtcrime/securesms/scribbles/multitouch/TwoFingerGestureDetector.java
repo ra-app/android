@@ -1,11 +1,11 @@
-package org.bittube.messenger.scribbles.multitouch;
+package org.raapp.messenger.scribbles.multitouch;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 /**
  * @author Almer Thie (code.almeros.com)

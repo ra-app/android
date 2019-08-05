@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,11 +15,11 @@ import android.util.AttributeSet;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.mms.SlideClickListener;
-import org.bittube.messenger.util.ThemeUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.mms.SlideClickListener;
+import org.raapp.messenger.util.ThemeUtil;
 
 public class ConversationItemThumbnail extends FrameLayout {
 

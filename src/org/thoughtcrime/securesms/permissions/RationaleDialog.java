@@ -1,4 +1,4 @@
-package org.bittube.messenger.permissions;
+package org.raapp.messenger.permissions;
 
 
 import android.app.AlertDialog;
@@ -14,8 +14,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ViewUtil;
 
 public class RationaleDialog {
 

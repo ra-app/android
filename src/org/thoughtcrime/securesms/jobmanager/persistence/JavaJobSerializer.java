@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager.persistence;
+package org.raapp.messenger.jobmanager.persistence;
 
-import org.bittube.messenger.jobmanager.EncryptionKeys;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.util.Base64;
+import org.raapp.messenger.jobmanager.EncryptionKeys;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.util.Base64;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -29,7 +29,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- * An implementation of {@link org.bittube.messenger.jobmanager.persistence.JobSerializer} that uses
+ * An implementation of {@link org.raapp.messenger.jobmanager.persistence.JobSerializer} that uses
  * Java Serialization.
  *
  * NOTE: This {@link JobSerializer} does not support encryption. Jobs will be serialized normally,

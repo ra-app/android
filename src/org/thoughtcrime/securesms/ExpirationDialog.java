@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import org.bittube.messenger.util.ExpirationUtil;
+import org.raapp.messenger.util.ExpirationUtil;
 
 import cn.carbswang.android.numberpickerview.library.NumberPickerView;
 

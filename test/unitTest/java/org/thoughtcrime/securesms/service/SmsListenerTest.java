@@ -1,10 +1,10 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import junit.framework.AssertionFailedError;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.bittube.messenger.BaseUnitTest;
+import org.raapp.messenger.BaseUnitTest;
 
 import java.util.HashMap;
 import java.util.Map;

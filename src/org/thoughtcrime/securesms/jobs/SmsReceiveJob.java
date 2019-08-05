@@ -1,20 +1,20 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.telephony.SmsMessage;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.InsertResult;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobs.requirements.SqlCipherMigrationRequirement;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.IncomingTextMessage;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.InsertResult;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobs.requirements.SqlCipherMigrationRequirement;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.IncomingTextMessage;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.LinkedList;

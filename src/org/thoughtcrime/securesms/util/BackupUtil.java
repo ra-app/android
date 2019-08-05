@@ -1,13 +1,13 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.NoExternalStorageException;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.NoExternalStorageException;
 import org.whispersystems.libsignal.util.ByteUtil;
 
 import java.io.File;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.video.exo;
+package org.raapp.messenger.video.exo;
 
 
 import android.net.Uri;
@@ -7,7 +7,7 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
 
-import org.bittube.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.PartAuthority;
 
 import java.io.IOException;
 

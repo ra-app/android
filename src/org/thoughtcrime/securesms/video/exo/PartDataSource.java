@@ -1,4 +1,4 @@
-package org.bittube.messenger.video.exo;
+package org.raapp.messenger.video.exo;
 
 
 import android.content.Context;
@@ -10,10 +10,10 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.TransferListener;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.mms.PartUriParser;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.mms.PartUriParser;
 
 import java.io.EOFException;
 import java.io.IOException;

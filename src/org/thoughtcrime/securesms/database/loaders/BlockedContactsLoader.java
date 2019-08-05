@@ -1,10 +1,10 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.util.AbstractCursorLoader;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.util.AbstractCursorLoader;
 
 public class BlockedContactsLoader extends AbstractCursorLoader {
 

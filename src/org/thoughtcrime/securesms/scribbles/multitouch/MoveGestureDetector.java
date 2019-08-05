@@ -1,4 +1,4 @@
-package org.bittube.messenger.scribbles.multitouch;
+package org.raapp.messenger.scribbles.multitouch;
 
 import android.content.Context;
 import android.graphics.PointF;

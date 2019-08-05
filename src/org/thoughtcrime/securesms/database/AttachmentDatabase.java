@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -28,32 +28,32 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.mms.MediaStream;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.util.BitmapDecodingException;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.JsonUtils;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.MediaUtil.ThumbnailData;
-import org.bittube.messenger.util.StorageUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.video.EncryptedMediaDataSource;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.mms.MediaStream;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.util.BitmapDecodingException;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.JsonUtils;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.MediaUtil.ThumbnailData;
+import org.raapp.messenger.util.StorageUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.video.EncryptedMediaDataSource;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.util.DateUtils;
+import org.raapp.messenger.util.DateUtils;
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo;
 
 import java.util.Locale;

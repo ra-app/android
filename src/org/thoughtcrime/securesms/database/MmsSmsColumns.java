@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 @SuppressWarnings("UnnecessaryInterfaceModifier")
 public interface MmsSmsColumns {

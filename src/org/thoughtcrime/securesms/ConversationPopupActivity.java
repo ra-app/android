@@ -1,11 +1,11 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Intent;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.support.v4.app.ActivityOptionsCompat;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.Menu;
@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 
-import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
 
 import java.util.concurrent.ExecutionException;
 

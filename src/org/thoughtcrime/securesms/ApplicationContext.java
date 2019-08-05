@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -31,33 +31,33 @@ import android.support.v4.app.NotificationManagerCompat;
 
 import com.google.android.gms.security.ProviderInstaller;
 
-import org.bittube.messenger.crypto.PRNGFixes;
-import org.bittube.messenger.dependencies.AxolotlStorageModule;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.dependencies.SignalCommunicationModule;
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.jobmanager.dependencies.DependencyInjector;
-import org.bittube.messenger.jobmanager.persistence.JavaJobSerializer;
-import org.bittube.messenger.jobmanager.requirements.NetworkRequirementProvider;
-import org.bittube.messenger.jobs.CreateSignedPreKeyJob;
-import org.bittube.messenger.jobs.GcmRefreshJob;
-import org.bittube.messenger.jobs.MultiDeviceContactUpdateJob;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirementProvider;
-import org.bittube.messenger.jobs.requirements.ServiceRequirementProvider;
-import org.bittube.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
-import org.bittube.messenger.logging.AndroidLogger;
-import org.bittube.messenger.logging.CustomSignalProtocolLogger;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.logging.PersistentLogger;
-import org.bittube.messenger.logging.UncaughtExceptionLogger;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.push.SignalServiceNetworkAccess;
-import org.bittube.messenger.service.DirectoryRefreshListener;
-import org.bittube.messenger.service.ExpiringMessageManager;
-import org.bittube.messenger.service.LocalBackupListener;
-import org.bittube.messenger.service.RotateSignedPreKeyListener;
-import org.bittube.messenger.service.UpdateApkRefreshListener;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.PRNGFixes;
+import org.raapp.messenger.dependencies.AxolotlStorageModule;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.dependencies.SignalCommunicationModule;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.jobmanager.dependencies.DependencyInjector;
+import org.raapp.messenger.jobmanager.persistence.JavaJobSerializer;
+import org.raapp.messenger.jobmanager.requirements.NetworkRequirementProvider;
+import org.raapp.messenger.jobs.CreateSignedPreKeyJob;
+import org.raapp.messenger.jobs.GcmRefreshJob;
+import org.raapp.messenger.jobs.MultiDeviceContactUpdateJob;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirementProvider;
+import org.raapp.messenger.jobs.requirements.ServiceRequirementProvider;
+import org.raapp.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
+import org.raapp.messenger.logging.AndroidLogger;
+import org.raapp.messenger.logging.CustomSignalProtocolLogger;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.logging.PersistentLogger;
+import org.raapp.messenger.logging.UncaughtExceptionLogger;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.push.SignalServiceNetworkAccess;
+import org.raapp.messenger.service.DirectoryRefreshListener;
+import org.raapp.messenger.service.ExpiringMessageManager;
+import org.raapp.messenger.service.LocalBackupListener;
+import org.raapp.messenger.service.RotateSignedPreKeyListener;
+import org.raapp.messenger.service.UpdateApkRefreshListener;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.webrtc.PeerConnectionFactory;
 import org.webrtc.PeerConnectionFactory.InitializationOptions;
 import org.webrtc.voiceengine.WebRtcAudioManager;
@@ -153,7 +153,7 @@ public class ApplicationContext extends MultiDexApplication implements Dependenc
 
   private void initializeLogging() {
     persistentLogger = new PersistentLogger(this);
-    org.bittube.messenger.logging.Log.initialize(new AndroidLogger(), persistentLogger);
+    org.raapp.messenger.logging.Log.initialize(new AndroidLogger(), persistentLogger);
 
     SignalProtocolLoggerProvider.setProvider(new CustomSignalProtocolLogger());
   }

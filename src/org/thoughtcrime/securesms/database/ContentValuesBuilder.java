@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.ContentValues;
 
 import com.google.android.mms.pdu_alt.EncodedStringValue;
 
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.util.Util;
 
 public class ContentValuesBuilder {
 

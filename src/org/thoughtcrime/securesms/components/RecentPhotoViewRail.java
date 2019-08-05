@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 
 import android.content.Context;
@@ -24,11 +24,11 @@ import com.bumptech.glide.load.Key;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.signature.MediaStoreSignature;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.database.loaders.RecentPhotosLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.database.loaders.RecentPhotosLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.ViewUtil;
 
 public class RecentPhotoViewRail extends FrameLayout implements LoaderManager.LoaderCallbacks<Cursor> {
 

@@ -1,20 +1,20 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.MessageRetrievalService;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.IdentityUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.MessageRetrievalService;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.IdentityUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.signalservice.api.SignalServiceMessagePipe;

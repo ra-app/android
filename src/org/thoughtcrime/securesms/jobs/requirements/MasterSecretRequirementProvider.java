@@ -1,13 +1,13 @@
-package org.bittube.messenger.jobs.requirements;
+package org.raapp.messenger.jobs.requirements;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import org.bittube.messenger.jobmanager.requirements.RequirementListener;
-import org.bittube.messenger.jobmanager.requirements.RequirementProvider;
-import org.bittube.messenger.service.KeyCachingService;
+import org.raapp.messenger.jobmanager.requirements.RequirementListener;
+import org.raapp.messenger.jobmanager.requirements.RequirementProvider;
+import org.raapp.messenger.service.KeyCachingService;
 
 public class MasterSecretRequirementProvider implements RequirementProvider {
 

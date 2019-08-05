@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-package org.bittube.messenger.scribbles.viewmodel;
+package org.raapp.messenger.scribbles.viewmodel;
 
 public class TextLayer extends Layer {
 

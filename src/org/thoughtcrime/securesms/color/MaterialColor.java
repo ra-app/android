@@ -1,15 +1,15 @@
-package org.bittube.messenger.color;
+package org.raapp.messenger.color;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.bittube.messenger.util.ThemeUtil.isDarkTheme;
+import static org.raapp.messenger.util.ThemeUtil.isDarkTheme;
 
 public enum MaterialColor {
   RED        (R.color.conversation_red,    R.color.conversation_red_shade,    "red"),

@@ -1,22 +1,22 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.TextSecureExpiredException;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.MediaConstraints;
-import org.bittube.messenger.mms.MediaStream;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.transport.UndeliverableMessageException;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.TextSecureExpiredException;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.MediaConstraints;
+import org.raapp.messenger.mms.MediaStream;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.LinkedList;

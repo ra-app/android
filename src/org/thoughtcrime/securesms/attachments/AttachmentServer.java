@@ -1,14 +1,14 @@
-package org.bittube.messenger.attachments;
+package org.raapp.messenger.attachments;
 
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import org.spongycastle.util.encoders.Hex;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.util.Util;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

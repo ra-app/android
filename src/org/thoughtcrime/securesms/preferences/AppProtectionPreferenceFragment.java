@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
@@ -12,18 +12,18 @@ import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
 import android.widget.Toast;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.ApplicationPreferencesActivity;
-import org.bittube.messenger.BlockedContactsActivity;
-import org.bittube.messenger.PassphraseChangeActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.SwitchPreferenceCompat;
-import org.bittube.messenger.crypto.MasterSecretUtil;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobs.MultiDeviceReadReceiptUpdateJob;
-import org.bittube.messenger.lock.RegistrationLockDialog;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.raapp.messenger.BlockedContactsActivity;
+import org.raapp.messenger.PassphraseChangeActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.SwitchPreferenceCompat;
+import org.raapp.messenger.crypto.MasterSecretUtil;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobs.MultiDeviceReadReceiptUpdateJob;
+import org.raapp.messenger.lock.RegistrationLockDialog;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 import java.util.concurrent.TimeUnit;

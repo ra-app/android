@@ -1,4 +1,4 @@
-package org.bittube.messenger.dependencies;
+package org.raapp.messenger.dependencies;
 
 public interface InjectableType {
 }

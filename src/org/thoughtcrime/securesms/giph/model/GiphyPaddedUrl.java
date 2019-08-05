@@ -1,11 +1,11 @@
-package org.bittube.messenger.giph.model;
+package org.raapp.messenger.giph.model;
 
 
 import android.support.annotation.NonNull;
 
 import com.bumptech.glide.load.Key;
 
-import org.bittube.messenger.util.Conversions;
+import org.raapp.messenger.util.Conversions;
 
 import java.security.MessageDigest;
 

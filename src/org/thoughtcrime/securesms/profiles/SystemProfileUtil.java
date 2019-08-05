@@ -1,4 +1,4 @@
-package org.bittube.messenger.profiles;
+package org.raapp.messenger.profiles;
 
 
 import android.accounts.Account;
@@ -13,13 +13,13 @@ import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.mms.MediaConstraints;
-import org.bittube.messenger.util.BitmapDecodingException;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.mms.MediaConstraints;
+import org.raapp.messenger.util.BitmapDecodingException;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 
 public class SystemProfileUtil {
 

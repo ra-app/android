@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.dualsim;
+package org.raapp.messenger.util.dualsim;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.webrtc;
+package org.raapp.messenger.webrtc;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -11,12 +11,12 @@ import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 import android.support.v4.app.NotificationCompat;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.WebRtcCallActivity;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.WebRtcCallService;
-import org.bittube.messenger.util.ServiceUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.WebRtcCallActivity;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.WebRtcCallService;
+import org.raapp.messenger.util.ServiceUtil;
 
 /**
  * Manages the state of the WebRtc items in the Android notification bar.

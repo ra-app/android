@@ -1,11 +1,11 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.contacts.ContactsSyncAdapter;
+import org.raapp.messenger.contacts.ContactsSyncAdapter;
 
 public class ContactsSyncAdapterService extends Service {
 

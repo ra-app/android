@@ -1,7 +1,7 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 
 import com.google.android.mms.pdu_alt.GenericPdu;
@@ -9,13 +9,13 @@ import com.google.android.mms.pdu_alt.NotificationInd;
 import com.google.android.mms.pdu_alt.PduHeaders;
 import com.google.android.mms.pdu_alt.PduParser;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Util;
 
 public class MmsReceiveJob extends ContextJob {
 

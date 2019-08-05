@@ -1,4 +1,4 @@
-package org.bittube.messenger.transport;
+package org.raapp.messenger.transport;
 
 public class UndeliverableMessageException extends Exception {
   public UndeliverableMessageException() {

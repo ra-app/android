@@ -1,9 +1,9 @@
-package org.bittube.messenger.jobmanager.dependencies;
+package org.raapp.messenger.jobmanager.dependencies;
 
 import android.content.Context;
 
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.requirements.Requirement;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.requirements.Requirement;
 
 public class AggregateDependencyInjector {
 

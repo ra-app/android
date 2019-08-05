@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.components.webrtc;
+package org.raapp.messenger.components.webrtc;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -38,15 +38,15 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.service.WebRtcCallService;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.VerifySpan;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.webrtc.CameraState;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.service.WebRtcCallService;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.VerifySpan;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.webrtc.CameraState;
 import org.webrtc.SurfaceViewRenderer;
 import org.whispersystems.libsignal.IdentityKey;
 

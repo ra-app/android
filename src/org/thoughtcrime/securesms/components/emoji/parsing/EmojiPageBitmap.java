@@ -1,17 +1,17 @@
-package org.bittube.messenger.components.emoji.parsing;
+package org.raapp.messenger.components.emoji.parsing;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.components.emoji.EmojiPageModel;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.ListenableFutureTask;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.components.emoji.EmojiPageModel;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.ListenableFutureTask;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 import java.lang.ref.SoftReference;

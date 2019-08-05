@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -39,7 +39,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.OnScrollListener;
 import android.text.ClipboardManager;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -53,32 +53,32 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
-import org.bittube.messenger.ConversationAdapter.HeaderViewHolder;
-import org.bittube.messenger.ConversationAdapter.ItemClickListener;
-import org.bittube.messenger.contactshare.ContactUtil;
-import org.bittube.messenger.contactshare.SharedContactDetailsActivity;
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsSmsDatabase;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.loaders.ConversationLoader;
-import org.bittube.messenger.database.model.MediaMmsMessageRecord;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.database.model.MmsMessageRecord;
-import org.bittube.messenger.jobs.DirectoryRefreshJob;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.OutgoingMediaMessage;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.profiles.UnknownSenderView;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.MessageSender;
-import org.bittube.messenger.sms.OutgoingTextMessage;
-import org.bittube.messenger.util.CommunicationActions;
-import org.bittube.messenger.util.SaveAttachmentTask;
-import org.bittube.messenger.util.SaveAttachmentTask.Attachment;
-import org.bittube.messenger.util.StickyHeaderDecoration;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.ConversationAdapter.HeaderViewHolder;
+import org.raapp.messenger.ConversationAdapter.ItemClickListener;
+import org.raapp.messenger.contactshare.ContactUtil;
+import org.raapp.messenger.contactshare.SharedContactDetailsActivity;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsSmsDatabase;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.loaders.ConversationLoader;
+import org.raapp.messenger.database.model.MediaMmsMessageRecord;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.MmsMessageRecord;
+import org.raapp.messenger.jobs.DirectoryRefreshJob;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.OutgoingMediaMessage;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.profiles.UnknownSenderView;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.MessageSender;
+import org.raapp.messenger.sms.OutgoingTextMessage;
+import org.raapp.messenger.util.CommunicationActions;
+import org.raapp.messenger.util.SaveAttachmentTask;
+import org.raapp.messenger.util.SaveAttachmentTask.Attachment;
+import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collections;
 import java.util.Comparator;

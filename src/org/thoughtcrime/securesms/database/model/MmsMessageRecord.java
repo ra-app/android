@@ -1,16 +1,16 @@
-package org.bittube.messenger.database.model;
+package org.raapp.messenger.database.model;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.database.documents.IdentityKeyMismatch;
-import org.bittube.messenger.database.documents.NetworkFailure;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.raapp.messenger.database.documents.NetworkFailure;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

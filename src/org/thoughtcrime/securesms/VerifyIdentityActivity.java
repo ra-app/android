@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.Manifest;
 import android.animation.TypeEvaluator;
@@ -43,7 +43,7 @@ import android.support.v7.widget.SwitchCompat;
 import android.text.Html;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
@@ -61,26 +61,26 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.components.camera.CameraView;
-import org.bittube.messenger.crypto.IdentityKeyParcelable;
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.IdentityDatabase.VerifiedStatus;
-import org.bittube.messenger.jobs.MultiDeviceVerifiedUpdateJob;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.qr.QrCode;
-import org.bittube.messenger.qr.ScanListener;
-import org.bittube.messenger.qr.ScanningThread;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.IdentityUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.components.camera.CameraView;
+import org.raapp.messenger.crypto.IdentityKeyParcelable;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.IdentityDatabase.VerifiedStatus;
+import org.raapp.messenger.jobs.MultiDeviceVerifiedUpdateJob;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.qr.QrCode;
+import org.raapp.messenger.qr.ScanListener;
+import org.raapp.messenger.qr.ScanningThread;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.IdentityUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.fingerprint.Fingerprint;
 import org.whispersystems.libsignal.fingerprint.FingerprintParsingException;

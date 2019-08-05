@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.support.v7.preference.Preference;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class SwitchPreferenceCompat extends CheckBoxPreference {
 

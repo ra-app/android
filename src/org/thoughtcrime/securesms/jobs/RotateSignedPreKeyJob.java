@@ -1,18 +1,18 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.content.Context;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.crypto.PreKeyUtil;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.jobmanager.requirements.NetworkRequirement;
-import org.bittube.messenger.jobs.requirements.MasterSecretRequirement;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.crypto.PreKeyUtil;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
+import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.IdentityKeyPair;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;

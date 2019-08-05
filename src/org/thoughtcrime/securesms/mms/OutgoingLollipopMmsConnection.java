@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -25,15 +25,15 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.telephony.SmsManager;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.android.mms.service_alt.MmsConfig;
 import com.google.android.mms.pdu_alt.PduParser;
 import com.google.android.mms.pdu_alt.SendConf;
 
-import org.bittube.messenger.providers.MmsBodyProvider;
-import org.bittube.messenger.transport.UndeliverableMessageException;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.providers.MmsBodyProvider;
+import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.util.Util;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

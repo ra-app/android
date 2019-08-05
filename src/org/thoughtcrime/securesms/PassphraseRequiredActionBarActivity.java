@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,14 +9,14 @@ import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.crypto.MasterSecretUtil;
-import org.bittube.messenger.jobs.PushNotificationReceiveJob;
-import org.bittube.messenger.push.SignalServiceNetworkAccess;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.service.MessageRetrievalService;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.MasterSecretUtil;
+import org.raapp.messenger.jobs.PushNotificationReceiveJob;
+import org.raapp.messenger.push.SignalServiceNetworkAccess;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.service.MessageRetrievalService;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.Locale;
 

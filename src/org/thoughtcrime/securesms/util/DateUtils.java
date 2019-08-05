@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.text.format.DateFormat;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

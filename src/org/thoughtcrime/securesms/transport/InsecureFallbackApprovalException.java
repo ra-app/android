@@ -1,4 +1,4 @@
-package org.bittube.messenger.transport;
+package org.raapp.messenger.transport;
 
 public class InsecureFallbackApprovalException extends Exception {
   public InsecureFallbackApprovalException(String detailMessage) {

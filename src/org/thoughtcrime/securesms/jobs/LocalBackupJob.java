@@ -1,23 +1,23 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.Manifest;
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.backup.FullBackupExporter;
-import org.bittube.messenger.crypto.AttachmentSecretProvider;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.NoExternalStorageException;
-import org.bittube.messenger.jobmanager.JobParameters;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.service.GenericForegroundService;
-import org.bittube.messenger.util.BackupUtil;
-import org.bittube.messenger.util.StorageUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.backup.FullBackupExporter;
+import org.raapp.messenger.crypto.AttachmentSecretProvider;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.NoExternalStorageException;
+import org.raapp.messenger.jobmanager.JobParameters;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.service.GenericForegroundService;
+import org.raapp.messenger.util.BackupUtil;
+import org.raapp.messenger.util.StorageUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.IOException;

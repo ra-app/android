@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -26,7 +26,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -42,30 +42,30 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 import com.soundcloud.android.crop.Crop;
 
-import org.bittube.messenger.components.PushRecipientsPanel;
-import org.bittube.messenger.components.PushRecipientsPanel.RecipientsPanelChangedListener;
-import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.bittube.messenger.contacts.RecipientsEditor;
-import org.bittube.messenger.contacts.avatars.ContactColors;
-import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.GroupDatabase.GroupRecord;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.groups.GroupManager;
-import org.bittube.messenger.groups.GroupManager.GroupActionResult;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.SelectedRecipientsAdapter;
-import org.bittube.messenger.util.SelectedRecipientsAdapter.OnRecipientDeletedListener;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.components.PushRecipientsPanel;
+import org.raapp.messenger.components.PushRecipientsPanel.RecipientsPanelChangedListener;
+import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.raapp.messenger.contacts.RecipientsEditor;
+import org.raapp.messenger.contacts.avatars.ContactColors;
+import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.GroupDatabase.GroupRecord;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.groups.GroupManager;
+import org.raapp.messenger.groups.GroupManager.GroupActionResult;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.SelectedRecipientsAdapter;
+import org.raapp.messenger.util.SelectedRecipientsAdapter.OnRecipientDeletedListener;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 

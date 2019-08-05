@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.net;
+package org.raapp.messenger.giph.net;
 
 
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 
-import org.bittube.messenger.giph.model.GiphyImage;
-import org.bittube.messenger.giph.model.GiphyResponse;
-import org.bittube.messenger.util.AsyncLoader;
-import org.bittube.messenger.util.JsonUtils;
+import org.raapp.messenger.giph.model.GiphyImage;
+import org.raapp.messenger.giph.model.GiphyResponse;
+import org.raapp.messenger.util.AsyncLoader;
+import org.raapp.messenger.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.LinkedList;

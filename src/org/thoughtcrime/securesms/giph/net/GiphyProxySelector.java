@@ -1,11 +1,11 @@
-package org.bittube.messenger.giph.net;
+package org.raapp.messenger.giph.net;
 
 
 import android.os.AsyncTask;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

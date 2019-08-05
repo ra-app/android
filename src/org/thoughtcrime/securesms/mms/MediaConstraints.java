@@ -1,17 +1,17 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.util.BitmapDecodingException;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.util.BitmapDecodingException;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.MediaUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

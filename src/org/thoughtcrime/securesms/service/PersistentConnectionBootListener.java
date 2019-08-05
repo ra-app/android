@@ -1,11 +1,11 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 
 public class PersistentConnectionBootListener extends BroadcastReceiver {

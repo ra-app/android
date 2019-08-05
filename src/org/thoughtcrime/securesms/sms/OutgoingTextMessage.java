@@ -1,7 +1,7 @@
-package org.bittube.messenger.sms;
+package org.raapp.messenger.sms;
 
-import org.bittube.messenger.database.model.SmsMessageRecord;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.database.model.SmsMessageRecord;
+import org.raapp.messenger.recipients.Recipient;
 
 public class OutgoingTextMessage {
 

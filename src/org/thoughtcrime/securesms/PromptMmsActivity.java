@@ -1,10 +1,10 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import org.bittube.messenger.preferences.MmsPreferencesActivity;
+import org.raapp.messenger.preferences.MmsPreferencesActivity;
 
 public class PromptMmsActivity extends PassphraseRequiredActionBarActivity {
 

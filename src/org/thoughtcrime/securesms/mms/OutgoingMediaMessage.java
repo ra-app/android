@@ -1,12 +1,12 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

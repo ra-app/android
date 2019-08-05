@@ -1,8 +1,8 @@
-package org.bittube.messenger.attachments;
+package org.raapp.messenger.attachments;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.util.Util;
 
 public class AttachmentId {
 

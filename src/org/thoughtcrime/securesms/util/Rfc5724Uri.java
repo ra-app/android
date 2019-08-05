@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import java.net.URISyntaxException;
 import java.net.URLDecoder;

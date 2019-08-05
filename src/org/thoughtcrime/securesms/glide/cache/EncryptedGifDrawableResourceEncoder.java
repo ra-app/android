@@ -1,8 +1,8 @@
-package org.bittube.messenger.glide.cache;
+package org.raapp.messenger.glide.cache;
 
 
 import android.support.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.bumptech.glide.load.EncodeStrategy;
 import com.bumptech.glide.load.Options;

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

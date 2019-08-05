@@ -1,10 +1,10 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

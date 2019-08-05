@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.CommunicationActions;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.CommunicationActions;
 
 public class ShortcutLauncherActivity extends AppCompatActivity {
 

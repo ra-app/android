@@ -14,24 +14,24 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.Editable;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-import org.bittube.messenger.crypto.InvalidPassphraseException;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.crypto.MasterSecretUtil;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.InvalidPassphraseException;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.crypto.MasterSecretUtil;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 /**
  * Activity for changing a user's local encryption passphrase.

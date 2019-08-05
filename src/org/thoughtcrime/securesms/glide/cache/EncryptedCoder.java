@@ -1,9 +1,9 @@
-package org.bittube.messenger.glide.cache;
+package org.raapp.messenger.glide.cache;
 
 
 import android.support.annotation.NonNull;
 
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.util.Util;
 
 import java.io.File;
 import java.io.FileInputStream;

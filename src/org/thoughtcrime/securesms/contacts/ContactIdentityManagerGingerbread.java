@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,8 +11,8 @@ import android.provider.ContactsContract.PhoneLookup;
 import android.provider.ContactsContract.RawContacts;
 import android.telephony.TelephonyManager;
 
-import org.bittube.messenger.ApplicationPreferencesActivity;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.ArrayList;
 import java.util.List;

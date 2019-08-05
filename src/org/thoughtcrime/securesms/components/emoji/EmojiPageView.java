@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.FrameLayout;
 import android.widget.GridView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class EmojiPageView extends FrameLayout {
   private static final String TAG = EmojiPageView.class.getSimpleName();

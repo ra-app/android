@@ -1,4 +1,4 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.util.StorageUtil;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.util.StorageUtil;
 
 public class DocumentSlide extends Slide {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.providers;
+package org.raapp.messenger.providers;
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
@@ -7,17 +7,17 @@ import android.content.UriMatcher;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.util.Pair;
 import android.webkit.MimeTypeMap;
 
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.AttachmentSecretProvider;
-import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.bittube.messenger.util.FileProviderUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.AttachmentSecretProvider;
+import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.raapp.messenger.util.FileProviderUtil;
+import org.raapp.messenger.util.Util;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -34,9 +34,9 @@ public class PersistentBlobProvider {
 
   private static final String TAG = PersistentBlobProvider.class.getSimpleName();
 
-  private static final String     URI_STRING            = "content://org.bittube.messenger/capture-new";
+  private static final String     URI_STRING            = "content://org.raapp.messenger/capture-new";
   public  static final Uri        CONTENT_URI           = Uri.parse(URI_STRING);
-  public  static final String     AUTHORITY             = "org.bittube.messenger";
+  public  static final String     AUTHORITY             = "org.raapp.messenger";
   public  static final String     EXPECTED_PATH_OLD     = "capture/*/*/#";
   public  static final String     EXPECTED_PATH_NEW     = "capture-new/*/*/*/*/#";
 

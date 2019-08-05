@@ -5,7 +5,7 @@
  * Released under the MIT license
  */
 
-package org.bittube.messenger.scribbles.widget;
+package org.raapp.messenger.scribbles.widget;
 
 
 import android.content.Context;

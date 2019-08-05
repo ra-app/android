@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.scribbles;
+package org.raapp.messenger.scribbles;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -32,8 +32,8 @@ import android.text.SpannableString;
 import android.text.style.ImageSpan;
 import android.view.MenuItem;
 
-import org.bittube.messenger.BaseActionBarActivity;
-import org.bittube.messenger.R;
+import org.raapp.messenger.BaseActionBarActivity;
+import org.raapp.messenger.R;
 
 public class StickerSelectActivity extends FragmentActivity implements StickerSelectFragment.StickerSelectionListener {
 

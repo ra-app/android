@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 
 import android.Manifest;
@@ -40,19 +40,19 @@ import android.widget.Toast;
 
 import com.pnikosis.materialishprogress.ProgressWheel;
 
-import org.bittube.messenger.components.RecyclerViewFastScroller;
-import org.bittube.messenger.contacts.ContactSelectionListAdapter;
-import org.bittube.messenger.contacts.ContactSelectionListItem;
-import org.bittube.messenger.contacts.ContactsCursorLoader;
-import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.util.DirectoryHelper;
-import org.bittube.messenger.util.StickyHeaderDecoration;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.components.RecyclerViewFastScroller;
+import org.raapp.messenger.contacts.ContactSelectionListAdapter;
+import org.raapp.messenger.contacts.ContactSelectionListItem;
+import org.raapp.messenger.contacts.ContactsCursorLoader;
+import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.util.DirectoryHelper;
+import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.io.IOException;
 import java.util.LinkedList;

@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobmanager.requirements;
+package org.raapp.messenger.jobmanager.requirements;
 
 /**
- * Notifies listeners when a {@link org.bittube.messenger.jobmanager.requirements.Requirement}'s
+ * Notifies listeners when a {@link org.raapp.messenger.jobmanager.requirements.Requirement}'s
  * state is likely to have changed.
  */
 public interface RequirementProvider {
 
   /**
-   * The {@link org.bittube.messenger.jobmanager.requirements.RequirementListener} to call when
-   * a {@link org.bittube.messenger.jobmanager.requirements.Requirement}'s status is likely to
+   * The {@link org.raapp.messenger.jobmanager.requirements.RequirementListener} to call when
+   * a {@link org.raapp.messenger.jobmanager.requirements.Requirement}'s status is likely to
    * have changed.
    *
    * @param listener The listener to call.
