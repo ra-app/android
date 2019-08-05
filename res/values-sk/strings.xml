@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Bittube Messenger</string>
+  <string name="app_name">RAPP Messenger</string>
   <string name="yes">Áno</string>
   <string name="no">Nie</string>
   <string name="delete">Zmazať</string>
@@ -25,17 +25,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Zmazať</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Vypnúť heslo?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Toto natrvalo odomkne Bittube Messenger a upozornenia správ.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Toto natrvalo odomkne RAPP Messenger a upozornenia správ.</string>
   <string name="ApplicationPreferencesActivity_disable">Vypnúť</string>
   <string name="ApplicationPreferencesActivity_unregistering">Rušenie registrácie</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Rušenie registrácie Bittube Messenger správ a hovorov...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vypnúť Bittube Messenger správy a hovory?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Zakážte Bittube Messenger správy a hovory zrušením registrácie zo serveru. Pre ich opätovné použitie budete musieť svoje telefónne číslo znovu zaregistrovať.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Rušenie registrácie RAPP Messenger správ a hovorov...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vypnúť RAPP Messenger správy a hovory?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Zakážte RAPP Messenger správy a hovory zrušením registrácie zo serveru. Pre ich opätovné použitie budete musieť svoje telefónne číslo znovu zaregistrovať.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Chyba pripojenia na server!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS zapnuté</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Dotykom môžete zmeniť Vašu predvolenú SMS aplikáciu.</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS vypnuté</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Dotykom nastavte Bittube Messenger ako predvolenú aplikáciu</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Dotykom nastavte RAPP Messenger ako predvolenú aplikáciu</string>
   <string name="ApplicationPreferencesActivity_on">zap.</string>
   <string name="ApplicationPreferencesActivity_On">Zap.</string>
   <string name="ApplicationPreferencesActivity_off">vyp.</string>
@@ -131,7 +131,7 @@
   <string name="ConversationActivity_transport_insecure_sms">Nezabezpečená SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nezabezpečená MMS</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Prejdime na Bittube Messenger %1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Prejdime na RAPP Messenger %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Chatujme cez toto: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Chyba pri opustení skupiny</string>
   <string name="ConversationActivity_specify_recipient">Prosím vyberte kontakt</string>
@@ -142,11 +142,11 @@
   <string name="ConversationActivity_quick_camera_unavailable">Kamera je momentálne neprístupná</string>
   <string name="ConversationActivity_unable_to_record_audio">Nemôžem zaznamenať zvuk!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Vo vašom zariadení nie je aplikácia schopná otvoriť tento odkaz.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pre posielanie zvukových správ potrebuje Bittube Messenger prístup k mikrofónu.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pre posielanie zvukových správ potrebuje RAPP Messenger prístup k mikrofónu.</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Pre volanie %s, portebuje Bittube Messenger prístup k Vášmu mikrofónu a vašej kamere.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Pre volanie %s, portebuje RAPP Messenger prístup k Vášmu mikrofónu a vašej kamere.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal potrebuje prístup k mikrofónu a fotoaparátu aby mohol zavolať %s, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\" a \"Fotoaparát\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje Bittube Messenger prístup k fotoaparátu.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje RAPP Messenger prístup k fotoaparátu.</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
@@ -286,7 +286,7 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure je odteraz Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure a RedPhone sú odteraz jednou aplikáciou: Signal. Ťuknutím preskúmajte.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Privítajte bezpečné videohovory.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal odteraz podporuje zabezpečené videohovory. Začnite Bittube Messenger hovor ako obvykle, ťuknite na tlačidlo videa a zamávajte.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal odteraz podporuje zabezpečené videohovory. Začnite RAPP Messenger hovor ako obvykle, ťuknite na tlačidlo videa a zamávajte.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal odteraz podporuje zabezpečené videohovory.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal odteraz podporuje zabezpečené videohovory. Ťuknutím preskúmajte.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Ste pripravený na portrét?</string>
@@ -294,7 +294,7 @@
   <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal profily sú tu</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trvalá chyba komunikácie Signal!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal sa nebol schopný registrovať k službám Google Play. Bittube Messenger správy a hovory boli vypnuté, prosím zaregistrujte sa opätovne cez Nastavenia &gt; Rozšírené.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal sa nebol schopný registrovať k službám Google Play. RAPP Messenger správy a hovory boli vypnuté, prosím zaregistrujte sa opätovne cez Nastavenia &gt; Rozšírené.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Chyba pri prijímaní GIFu v plnom rozlíšení</string>
   <!--GiphyFragmentPageAdapter-->
@@ -306,7 +306,7 @@
   <string name="GroupCreateActivity_group_name_hint">Názov skupiny</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Nová MMS skupina</string>
   <string name="GroupCreateActivity_contacts_dont_support_push">Vybrali ste kontakt, ktorý nepodporuje skupiny Signal, takže táto skupina bude MMS.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Nie ste zaregistrovaní do Bittube Messenger správ a hovorov, takže Bittube Messenger skupiny sú vypnuté. Prosím zaregistrujte sa cez Nastavenia &gt; Rozšírené.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Nie ste zaregistrovaní do RAPP Messenger správ a hovorov, takže RAPP Messenger skupiny sú vypnuté. Prosím zaregistrujte sa cez Nastavenia &gt; Rozšírené.</string>
   <string name="GroupCreateActivity_contacts_no_members">V skupine musí byť aspoň jedna osoba!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Jeden z členov Vašej skupiny má číslo, ktoré sa nepodarilo správne prečítať. Prosím, upravte tento kontakt a skúste to znovu.</string>
   <string name="GroupCreateActivity_avatar_content_description">Obrázok skupiny</string>
@@ -373,9 +373,9 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Mažú sa správy...</string>
   <string name="MediaOverviewActivity_Documents">Dokumenty</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Prebieha Bittube Messenger hovor</string>
-  <string name="NotificationBarManager__establishing_signal_call">Príprava na Bittube Messenger hovor</string>
-  <string name="NotificationBarManager__incoming_signal_call">Prichádzajúci Bittube Messenger hovor</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Prebieha RAPP Messenger hovor</string>
+  <string name="NotificationBarManager__establishing_signal_call">Príprava na RAPP Messenger hovor</string>
+  <string name="NotificationBarManager__incoming_signal_call">Prichádzajúci RAPP Messenger hovor</string>
   <string name="NotificationBarManager__deny_call">Odmietnuť hovor</string>
   <string name="NotificationBarManager__answer_call">Prijať hovor</string>
   <string name="NotificationBarManager__end_call">Ukončiť hovor</string>
@@ -426,7 +426,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Máte príliš veľa pripojených zariadení, skúste niektoré odpojiť</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Tento QR kód neslúži na pridanie zariadenia.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Pridať zariadenie so Signalom?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Vyzerá to, že sa snažíte pripojiť zariadenie Bittube Messenger cez skener tretej strany. Pre vašu bezpečnosť, prosím naskenujte kód znovu priamo zo Signalu.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Vyzerá to, že sa snažíte pripojiť zariadenie RAPP Messenger cez skener tretej strany. Pre vašu bezpečnosť, prosím naskenujte kód znovu priamo zo Signalu.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal potrebuje prístup k fotoaparátu aby mohol naskenovať QR kód, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nedá sa naskenovať QR kód bez povolenia prístupu k fotoaparátu</string>
   <!--ExpirationDialog-->
@@ -484,7 +484,7 @@ telefónne číslo
 (%s) je neplatné.
 </string>
   <string name="RegistrationActivity_missing_google_play_services">Chýba služba Google Play</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">V tomto zariadení chýba služba Google Play. Bittube Messenger môžete používať aj tak, ale táto konfigurácia môže mať za následok nespoľahlivosť a nižší výkon.\n\nAk nie ste pokročilý užívateľ, nepoužívate neoficiálny ROM telefónu alebo si myslíte, že sa vám toto hlásenie nemalo zobrazovať, kontaktujte nás na support@signal.org pre vyriešenie problému.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">V tomto zariadení chýba služba Google Play. RAPP Messenger môžete používať aj tak, ale táto konfigurácia môže mať za následok nespoľahlivosť a nižší výkon.\n\nAk nie ste pokročilý užívateľ, nepoužívate neoficiálny ROM telefónu alebo si myslíte, že sa vám toto hlásenie nemalo zobrazovať, kontaktujte nás na support@signal.org pre vyriešenie problému.</string>
   <string name="RegistrationActivity_i_understand">Rozumiem</string>
   <string name="RegistrationActivity_play_services_error">Chyba služby Google Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Služba Google Play sa aktualizuje, alebo je dočasne nedostupná. Prosím, skúste to znova.</string>
@@ -494,7 +494,7 @@ telefónne číslo
   <string name="RegistrationActivity_less_information">Menej informácií</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal potrebuje prístup k vašim kontaktom a médiám aby sa mohol spojiť s vašimi priateľmi, posielať správy a uskutočniť zabezpečené hovory</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Nepodarilo sa pripojiť k službe. Prosím, overte Vaše sieťové pripojenie a skúste to znovu.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Pre jednoduchšie overenie Vášho telefónneho čísla môže Bittube Messenger automaticky zistiť Váš verifikačný kód, ak mu povolíte prístup k SMS správam.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Pre jednoduchšie overenie Vášho telefónneho čísla môže RAPP Messenger automaticky zistiť Váš verifikačný kód, ak mu povolíte prístup k SMS správam.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Nepodarilo sa uložiť zmeny v obrázku</string>
   <!--Search-->
@@ -563,7 +563,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Váš kontakt používa novšiu verziu Signalu, nekompatibilnú s formátom QR kódu. Prosím aktualizujte pre porovnanie.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Naskenovaný QR kód nie je správne formátovaný verifikačný kód bezpečnostného čísla. Prosím skúste ho naskenovať znova.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Zdielať bezpečnostné číslo cez...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Naše Bittube Messenger bezpečnostné číslo:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Naše RAPP Messenger bezpečnostné číslo:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Vyzerá to, že nemáte žiadne aplikácie kam by sa dalo zdieľať.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">V schránke sa nenašlo žiadne bezpečnostné číslo pre porovnanie</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal potrebuje prístup k fotoaparátu aby mohol naskenovať QR kód, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
@@ -608,8 +608,8 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="MessageNotifier_mark_read">Označiť ako prečítané</string>
   <string name="MessageNotifier_media_message">Multimediálna správa</string>
   <string name="MessageNotifier_reply">Odpovedať</string>
-  <string name="MessageNotifier_pending_signal_messages">Nevybavené Bittube Messenger správy </string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Máte nevybavené Bittube Messenger správy, stlačením otvorte a prevezmite</string>
+  <string name="MessageNotifier_pending_signal_messages">Nevybavené RAPP Messenger správy </string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Máte nevybavené RAPP Messenger správy, stlačením otvorte a prevezmite</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <!--Notification Channels-->
@@ -623,7 +623,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="NotificationChannel_group_messages">Správy</string>
   <string name="NotificationChannel_missing_display_name">Neznáma</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rýchla odpoveď nie je dostupná, keď je Bittube Messenger zamknutý!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rýchla odpoveď nie je dostupná, keď je RAPP Messenger zamknutý!</string>
   <string name="QuickResponseService_problem_sending_message">Problém pri odosielaní správy!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Uložené do %s</string>
@@ -697,7 +697,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="conversation_activity__attachment_thumbnail">Ikona prílohy</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Prepnúť na rýchlu prílohu fotoaparátom</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Nahrať a odoslať zvukovú prílohu</string>
-  <string name="conversation_activity__enable_signal_for_sms">Zapnúť Bittube Messenger pre SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Zapnúť RAPP Messenger pre SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">POTIAHNITE PRE ZRUŠENIE</string>
   <!--conversation_item-->
@@ -955,8 +955,8 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="preferences__sms_mms">SMS a MMS</string>
   <string name="preferences__pref_all_sms_title">Prijať všetky SMS</string>
   <string name="preferences__pref_all_mms_title">Prijať všetky MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Použiť Bittube Messenger pre všetky prichádzajúce textové správy</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Použiť Bittube Messenger pre všetky prichádzajúce multimediálne správy</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Použiť RAPP Messenger pre všetky prichádzajúce textové správy</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Použiť RAPP Messenger pre všetky prichádzajúce multimediálne správy</string>
   <string name="preferences__pref_enter_sends_title">Odoslať stlačením klávesy Enter</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Stlačením klávesy Enter sa správa odošle</string>
   <string name="preferences__choose_identity">Vyberať identitu</string>
@@ -967,7 +967,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Uzamknúť obrazovku a upozornenia pomocou hesla</string>
   <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Zakázať vytváranie snímkov obrazovky v tejto aplikácii a v zozname bežiacich aplikácií</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automaticky zamknúť Bittube Messenger po určenej dobe bez aktivity</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automaticky zamknúť RAPP Messenger po určenej dobe bez aktivity</string>
   <string name="preferences__inactivity_timeout_passphrase">Heslo po neaktivite</string>
   <string name="preferences__inactivity_timeout_interval">Interval doby bez aktivity</string>
   <string name="preferences__notifications">Upozornenia</string>
@@ -1037,7 +1037,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="preferences_chats__message_trimming">Premazávanie správ</string>
   <string name="preferences_advanced__use_system_emoji">Použiť systémové emoji</string>
   <string name="preferences_advanced__disable_signal_built_in_emoji_support">Vypnúť emoji zabudované v Signalu</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Smerovať všetky hovory cez server Bittube Messenger pre zabránenie odhaleniu vašej IP adresy kontaktu. Zapnutie zníži kvalitu hovoru.</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Smerovať všetky hovory cez server RAPP Messenger pre zabránenie odhaleniu vašej IP adresy kontaktu. Zapnutie zníži kvalitu hovoru.</string>
   <string name="preferences_advanced__always_relay_calls">Vždy presmerovať hovory</string>
   <string name="preferences_app_protection__app_access">Prístup k aplikácii</string>
   <string name="preferences_app_protection__communication">Komunikácia</string>
@@ -1135,10 +1135,10 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="reminder_header_expired_build">Vaša verzia Signalu vypršala!</string>
   <string name="reminder_header_expired_build_details">Správy sa nepodarí úspešne odoslať. Ťuknutím aktualizujte na najnovšiu verziu.</string>
   <string name="reminder_header_sms_default_title">Použiť ako predvolenú SMS aplikáciu</string>
-  <string name="reminder_header_sms_default_text">Ťuknutím nastavíte Bittube Messenger ako Vašu predvolenú SMS aplikáciu.</string>
+  <string name="reminder_header_sms_default_text">Ťuknutím nastavíte RAPP Messenger ako Vašu predvolenú SMS aplikáciu.</string>
   <string name="reminder_header_sms_import_title">Importovať systémové SMS správy?</string>
   <string name="reminder_header_sms_import_text">Ťuknutím skopírujete SMS správy z vášho telefónu do šifrovanej databázy Signalu.</string>
-  <string name="reminder_header_push_title">Zapnúť Bittube Messenger správy a hovory</string>
+  <string name="reminder_header_push_title">Zapnúť RAPP Messenger správy a hovory</string>
   <string name="reminder_header_push_text">Zlepšite svoj zážitok z komunikácie.</string>
   <string name="reminder_header_invite_title">Pozvať do Signalu</string>
   <string name="reminder_header_invite_text">Vyzdvihnite vašu konverzáciu s osobou %1$s na ďalšiu úroveň.</string>
@@ -1174,7 +1174,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="PushDecryptJob_new_locked_message">Nová uzamknutá správa</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Odomknite pre zobrazenie nevybavených správ</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Odomknite pre dokončenie aktualizácie</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Odomknite Bittube Messenger pre dokončenie aktualizácie</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Odomknite RAPP Messenger pre dokončenie aktualizácie</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Heslo pre zálohy</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Zálohy budú uložené na úložisko zašifrované nasledujúcim heslom. K obnoveniu zálohy musíte mať toto heslo k dispozícii.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Heslo som si zapísal/a, bez hesla nebudem schopný/á obnoviť zálohy.</string>
@@ -1213,7 +1213,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="BackupUtil_never">Nikdy</string>
   <string name="BackupUtil_unknown">Neznáma</string>
   <string name="preferences_app_protection__screen_lock">Zámok obrazovky</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uzamknúť Bittube Messenger pomocou zámku obrazovky Androidu alebo odtlačkom prstu</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uzamknúť RAPP Messenger pomocou zámku obrazovky Androidu alebo odtlačkom prstu</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Časový limit neaktivity pred uzamknutím</string>
   <string name="AppProtectionPreferenceFragment_none">Žiadny</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">PIN registračného zámku sa nezhoduje s verifikačným kódom ktorý ste obdržali v SMS správe. Zadajte prosím PIN, ktorý ste si v aplikácii nastavili.</string>
@@ -1236,7 +1236,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Registrácia tohto telefónneho čísla bez PINu registračného zámku bude možná po 7 dňoch neaktivity tohto telefónneho čísla na Signale. Ostáva %d dní.</string>
   <string name="RegistrationActivity_registration_lock_pin">PIN registračného zámku</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Toto telefónne číslo má nastavený registračný zámok. Zadajte PIN registračného zámku.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Toto telefónne číslo má nastavený registračný zámok. Aby ste ho nezabudli, Bittube Messenger občas poprosí o jeho zadanie.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Toto telefónne číslo má nastavený registračný zámok. Aby ste ho nezabudli, RAPP Messenger občas poprosí o jeho zadanie.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Zabudol som svoj PIN.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Zabudli ste PIN?</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registračný zámok pomáha chrániť Vaše telefónne číslo pred neautorizovanou registráciou. Táto funkcia sa dá vypnúť kedykoľvek v nastaveniach súkromia Signalu.</string>

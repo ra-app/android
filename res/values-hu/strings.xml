@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Bittube Messenger</string>
+  <string name="app_name">RAPP Messenger</string>
   <string name="yes">Igen</string>
   <string name="no">Nem</string>
   <string name="delete">Törlés</string>
@@ -24,14 +24,14 @@
   <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Ez véglegesen fel fogja oldani a Signal-t és az üzenet értesítéseket.</string>
   <string name="ApplicationPreferencesActivity_disable">Letiltás</string>
   <string name="ApplicationPreferencesActivity_unregistering">Leregisztrálás</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Leregisztrálás a Bittube Messenger üzenetekről és hívásokról...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Letiltod a Bittube Messenger üzeneteket és hívásokat?</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Leregisztrálás a RAPP Messenger üzenetekről és hívásokról...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Letiltod a RAPP Messenger üzeneteket és hívásokat?</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Signal üzenetek és hívások letiltása a kiszolgálóról történő leregisztrálással. Ha a jövőben újra szeretnéd használni ezeket a szolgáltatásokat, akkor újra kell regisztrálnod telefonszámoddal.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Hiba történt a kiszolgálóhoz történő kapcsolódáskor!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS engedélyezve</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Koppints ide az alapértelmezett SMS alkalmazás megváltoztatásához</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS letiltva</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Koppints ide, hogy a Bittube Messenger legyen az alapértelmezett SMS alkalmazás!</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Koppints ide, hogy a RAPP Messenger legyen az alapértelmezett SMS alkalmazás!</string>
   <string name="ApplicationPreferencesActivity_on">be</string>
   <string name="ApplicationPreferencesActivity_On">Be</string>
   <string name="ApplicationPreferencesActivity_off">ki</string>
@@ -103,7 +103,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Koppints a titkosítatlan üzenetküldéshez</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Szeretnél visszaállni titkosítatlan SMS-re?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Szeretnél visszaállni titkosítatlan MMS-re?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ez az üzenet <b>nem</b> lesz titkosítva, mert a címzett már nem Bittube Messenger felhasználó.\n\nElküldöd titkosítatlan üzenetként?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ez az üzenet <b>nem</b> lesz titkosítva, mert a címzett már nem RAPP Messenger felhasználó.\n\nElküldöd titkosítatlan üzenetként?</string>
   <string name="ConversationItem_unable_to_open_media">Nem található olyan alkalmazás, ami képes lenne megnyitni ezt a médiafájlt.</string>
   <string name="ConversationItem_copied_text">%s másolva</string>
   <string name="ConversationItem_from_s">tőle: %s</string>
@@ -139,7 +139,7 @@
   <string name="ConversationActivity_unable_to_record_audio">Nem lehet hangot rögzíteni!</string>
   <string name="ConversationActivity_error_sending_voice_message">Hiba történt a hangüzenet küldésekor</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nem található eszközödön megfelelő alkalmazás a hivatkozás kezeléséhez.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Hangüzenetek küldéséhez engedélyezd, hogy a Bittube Messenger hozzáférhessen a mikrofonhoz!</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Hangüzenetek küldéséhez engedélyezd, hogy a RAPP Messenger hozzáférhessen a mikrofonhoz!</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">A Signal-nak szüksége van a Mikrofon engedélyre, hogy hangüzeneteket küldhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd az \"Mikrofon\"-t.</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">%s felhívásához a Signal-nak hozzá kell férnie mikrofonodhoz és kamerádhoz.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">A Signal-nak szüksége van Mikrofon és Kamera engedélyekre %s felhívásához, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Mikrofon\"-t és a \"Kamera\"-t.</string>
@@ -259,16 +259,16 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">A TextSecure mostantól Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">A TextSecure és a RedPhone már egy alkalmazás: Signal. Koppints a felfedezéséhez!</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Köszönj a biztonságos videóhívásoknak.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">A Bittube Messenger mostantól támogatja a biztonságos videóhívásokat. Csak indíts egy Bittube Messenger hívást mint általában, koppints a videó gombra, és integess!</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">A Bittube Messenger mostantól támogatja a biztonságos videóhívásokat.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">A Bittube Messenger monstantól támogatja a biztonságos videóhívásokat. Koppints a felfedezéséhez!</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">A RAPP Messenger mostantól támogatja a biztonságos videóhívásokat. Csak indíts egy RAPP Messenger hívást mint általában, koppints a videó gombra, és integess!</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">A RAPP Messenger mostantól támogatja a biztonságos videóhívásokat.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">A RAPP Messenger monstantól támogatja a biztonságos videóhívásokat. Koppints a felfedezéséhez!</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Készen állsz egy közeli portréra?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Mostantól megoszthatod barátaiddal profilképedet és egyéni nevedet Signal-on</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">A Bittube Messenger profilok megérkeztek</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">A RAPP Messenger profilok megérkeztek</string>
   <!--ExportFragment-->
   <string name="ExportFragment_export">Exportálás</string>
   <string name="ExportFragment_export_plaintext_to_storage">Szeretnél titkosítatlan szöveget exportálni a tárolóra?</string>
-  <string name="ExportFragment_warning_this_will_export_the_plaintext_contents">Figyelem, ez a funkció titkosítatlan szövegként fogja exportálni Bittube Messenger üzeneteidet a tárolóra!</string>
+  <string name="ExportFragment_warning_this_will_export_the_plaintext_contents">Figyelem, ez a funkció titkosítatlan szövegként fogja exportálni RAPP Messenger üzeneteidet a tárolóra!</string>
   <string name="ExportFragment_cancel">Mégse</string>
   <string name="ExportFragment_exporting">Exportálás</string>
   <string name="ExportFragment_exporting_plaintext_to_storage">Titkosítatlan szöveg exportálása tárolóra...</string>
@@ -276,8 +276,8 @@
   <string name="ExportFragment_error_while_writing_to_storage">Hiba történt a tárolóra írás során.</string>
   <string name="ExportFragment_export_successful">Az exportálás sikerült.</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Elhúzódó Bittube Messenger kommunikációs hiba!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">A Bittube Messenger nem tudott beregisztrálni a Google Play Szolgáltatásokra. A Bittube Messenger üzenetek és hívások ezért le lettek tiltva. Kérlek próbálj meg újraregisztrálni a Beállítások &gt; Haladó-ban!</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Elhúzódó RAPP Messenger kommunikációs hiba!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">A RAPP Messenger nem tudott beregisztrálni a Google Play Szolgáltatásokra. A RAPP Messenger üzenetek és hívások ezért le lettek tiltva. Kérlek próbálj meg újraregisztrálni a Beállítások &gt; Haladó-ban!</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hiba történt a teljes felbontású GIF letöltése során</string>
   <!--GiphyFragmentPageAdapter-->
@@ -288,15 +288,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Csoport szerkesztése</string>
   <string name="GroupCreateActivity_group_name_hint">Csoport neve</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Új MMS csoport</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Olyan kontaktot is kiválasztottál, aki nem támogatja a Bittube Messenger csoportokat, így ez a csoport MMS lesz.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Nem vagy regisztrálva Bittube Messenger üzenetekre és hívásokra, így a Bittube Messenger csoportok le vannak tiltva. Kérlek próbálj meg újraregisztrálni a Beállítások &gt; Haladó-ban!</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Olyan kontaktot is kiválasztottál, aki nem támogatja a RAPP Messenger csoportokat, így ez a csoport MMS lesz.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Nem vagy regisztrálva RAPP Messenger üzenetekre és hívásokra, így a RAPP Messenger csoportok le vannak tiltva. Kérlek próbálj meg újraregisztrálni a Beállítások &gt; Haladó-ban!</string>
   <string name="GroupCreateActivity_contacts_no_members">A csoport létrehozásához legalább egy személyre szükség van!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">A csoportod egyik tagjának számát nem lehet megfelelően olvasni. Kérlek javítsd ki, vagy távolítsd el a kontaktot, majd próbáld újra!</string>
   <string name="GroupCreateActivity_avatar_content_description">Csoport avatar</string>
   <string name="GroupCreateActivity_menu_apply_button">Alkalmazás</string>
   <string name="GroupCreateActivity_creating_group">%1$s létrehozása...</string>
   <string name="GroupCreateActivity_updating_group">%1$s frissítése...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Nem lehet %1$s-t hozzáadni, mert nem Bittube Messenger felhasználó.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Nem lehet %1$s-t hozzáadni, mert nem RAPP Messenger felhasználó.</string>
   <string name="GroupCreateActivity_loading_group_details">A csoport részleteinek betöltése...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Már a csoportban vagy.</string>
   <!--GroupShareProfileView-->
@@ -378,7 +378,7 @@ akkor az újbóli importálás duplikált üzeneteket fog eredményezni.
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal hívás folyamatban</string>
   <string name="NotificationBarManager__establishing_signal_call">Signal hívás létesítése</string>
-  <string name="NotificationBarManager__incoming_signal_call">Bejövő Bittube Messenger hívás</string>
+  <string name="NotificationBarManager__incoming_signal_call">Bejövő RAPP Messenger hívás</string>
   <string name="NotificationBarManager__deny_call">Hívás elutasítása</string>
   <string name="NotificationBarManager__answer_call">Hívás felvétele</string>
   <string name="NotificationBarManager__end_call">Hívás befejezése</string>
@@ -388,7 +388,7 @@ akkor az újbóli importálás duplikált üzeneteket fog eredményezni.
   <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS üzenet letöltése</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Hiba történt az MMS üzenet letöltése során, koppints az újrapróbálkozáshoz</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Egy olyan üzenet érkezett, amely a Bittube Messenger egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Egy olyan üzenet érkezett, amely a RAPP Messenger egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
   <string name="MessageRecord_left_group">Kiléptél a csoportból.</string>
   <string name="MessageRecord_you_updated_group">Frissítetted a csoportot.</string>
   <string name="MessageRecord_s_updated_group">%s frissítette a csoportot.</string>
@@ -425,7 +425,7 @@ akkor az újbóli importálás duplikált üzeneteket fog eredményezni.
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sajnáljuk, de jelenleg túl sok eszköz van társítva, próbálj meg eltávolítani néhányat</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Sajnáljuk, de ez nem egy érvényes eszköz-társítási QR kód.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Signal eszköz társítása?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Úgy tűnik, hogy egy harmadik féltől származó vonalkódolvasóval próbálsz Bittube Messenger eszközt társítani. A saját védelmed érdekében kérlek szkenneld újra a kódot Signal-on belül!</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Úgy tűnik, hogy egy harmadik féltől származó vonalkódolvasóval próbálsz RAPP Messenger eszközt társítani. A saját védelmed érdekében kérlek szkenneld újra a kódot Signal-on belül!</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">A Signal-nak szüksége van a Kamera engedélyre, hogy QR kódot szkennelhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nem lehet QR kódot szkennelni Kamera hozzáférési engedély nélkül</string>
   <!--ExpirationDialog-->
@@ -494,14 +494,14 @@ szám (%s) érvénytelen.
   <string name="RegistrationActivity_less_information">Kevesebb információ</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">A Signal-nak szüksége van a kontaktjaidhoz és médiádhoz való hozzáférésre a barátokkal való kapcsolódáshoz, üzenetváltáshoz és biztonságos hívások bonyolításához.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Nem lehet kapcsolódni szolgáltatáshoz. Kérlek ellenőrizd a hálózati kapcsolatot és próbáld újra!</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Hogy könnyedén ellenőrizd a telefonszámod, a Bittube Messenger automatikusan érzékeli az ellenőrző kódod, ha engedélyezed a Signal-nak, hogy megtekintse az SMS üzeneteket.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Hogy könnyedén ellenőrizd a telefonszámod, a RAPP Messenger automatikusan érzékeli az ellenőrző kódod, ha engedélyezed a Signal-nak, hogy megtekintse az SMS üzeneteket.</string>
   <!--RegistrationProblemsActivity-->
   <!--RegistrationProgressActivity-->
   <!--RegistrationService-->
   <string name="RegistrationService_registration_complete">Regisztráció befejezve</string>
-  <string name="RegistrationService_signal_registration_has_successfully_completed">A Bittube Messenger regisztrációja sikeresen befejeződött.</string>
+  <string name="RegistrationService_signal_registration_has_successfully_completed">A RAPP Messenger regisztrációja sikeresen befejeződött.</string>
   <string name="RegistrationService_registration_error">Regisztrációs hiba</string>
-  <string name="RegistrationService_signal_registration_has_encountered_a_problem">Hiba történt a Bittube Messenger regisztrációja során.</string>
+  <string name="RegistrationService_signal_registration_has_encountered_a_problem">Hiba történt a RAPP Messenger regisztrációja során.</string>
   <!--RingtonePreference-->
   <string name="RingtonePreference_ringtone_default">Alapértelmezett csengőhang</string>
   <string name="RingtonePreference_ringtone_silent">Egyik sem</string>
@@ -563,7 +563,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="ThreadRecord_you_marked_unverified">Nem ellenőrzöttnek jelölted</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Signal frissítés</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A Bittube Messenger egy új verziója érhető el, koppints a frissítéshez</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A RAPP Messenger egy új verziója érhető el, koppints a frissítéshez</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">%s letiltása?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">A blokkolt kontaktok többé nem lesznek képesek üzeneteket küldeni neked vagy hívni téged.</string>
@@ -578,8 +578,8 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="UnverifiedSendDialog_send_message">Üzenet küldése?</string>
   <string name="UnverifiedSendDialog_send">Küldés</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">A kontaktod a Bittube Messenger egy régebbi verzióját futtatja. Kérd meg, hogy frissítse azt biztonsági számotok ellenőrzése előtt!</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">A kontaktod a Bittube Messenger egy újabb verzióját futtatja, amelynek QR kód formátuma nem kompatibilis a te verzióddal. Kérlek frissíts az összehasonlításhoz!</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">A kontaktod a RAPP Messenger egy régebbi verzióját futtatja. Kérd meg, hogy frissítse azt biztonsági számotok ellenőrzése előtt!</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">A kontaktod a RAPP Messenger egy újabb verzióját futtatja, amelynek QR kód formátuma nem kompatibilis a te verzióddal. Kérlek frissíts az összehasonlításhoz!</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">A szkennelt QR kód nem tartalmaz helyesen formázott biztonság szám ellenőrző kódot. Kérlek próbáld újraszkennelni!</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Biztonsági szám megosztása ezen a csatornán...</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">Signal biztonsági számunk:</string>
@@ -636,13 +636,13 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="MessageNotifier_mark_read">Olvasottnak jelöl</string>
   <string name="MessageNotifier_media_message">Médiaüzenet</string>
   <string name="MessageNotifier_reply">Válasz</string>
-  <string name="MessageNotifier_pending_signal_messages">Függő Bittube Messenger üzenetek</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Függő Bittube Messenger üzeneteid vannak, koppints a megnyitáshoz és letöltéshez</string>
+  <string name="MessageNotifier_pending_signal_messages">Függő RAPP Messenger üzenetek</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Függő RAPP Messenger üzeneteid vannak, koppints a megnyitáshoz és letöltéshez</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Névjegy</string>
   <!--MmsPreferencesFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A gyors válasz nem érhető el, ha a Bittube Messenger zárolva van!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A gyors válasz nem érhető el, ha a RAPP Messenger zárolva van!</string>
   <string name="QuickResponseService_problem_sending_message">Probléma lépett fel az üzenet küldése során!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_open_directory">Könyvtár megnyitása</string>
@@ -813,7 +813,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="log_submit_activity__submitting">Küldés</string>
   <string name="log_submit_activity__no_browser_installed">Nincs telepítve böngésző</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Szeretnéd importálni a már meglévő szöveges üzeneteidet a Bittube Messenger titkosított adatbázisába?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Szeretnéd importálni a már meglévő szöveges üzeneteidet a RAPP Messenger titkosított adatbázisába?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Az alapértelmezett rendszer adatbázist semmilyen módon nem fogjuk megváltoztatni.</string>
   <string name="database_migration_activity__skip">Kihagyás</string>
   <string name="database_migration_activity__import">Importálás</string>
@@ -874,7 +874,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="redphone_call_controls__signal_call">Signal hívás</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">TELEFONSZÁM</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">A Bittube Messenger jelenlegi telefonszámod és címjegyzéked felhasználásával adatainak egyszerűvé teszi a kommunikációt. Azon barátaid és ismerőseid, akik már tudják, hogy hogyan érhetnek el telefonon, a jövőben Signal-on is könnyedén megtalálnak.\n\nA regisztráció során néhány névjegyadat is továbbításra kerül a kiszolgálónak. Az adatokat nem tároljuk.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">A RAPP Messenger jelenlegi telefonszámod és címjegyzéked felhasználásával adatainak egyszerűvé teszi a kommunikációt. Azon barátaid és ismerőseid, akik már tudják, hogy hogyan érhetnek el telefonon, a jövőben Signal-on is könnyedén megtalálnak.\n\nA regisztráció során néhány névjegyadat is továbbításra kerül a kiszolgálónak. Az adatokat nem tároljuk.</string>
   <string name="registration_activity__verify_your_number">Telefonszám ellenőrzése</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Kérlek add meg telefonszámod az ellenőrző kód elküldéséhez! Szolgáltatói költségek felmerülhetnek.</string>
   <!--registration_problems-->
@@ -1019,7 +1019,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="preferences__default">Alapértelmezett</string>
   <string name="preferences__language">Nyelv</string>
   <string name="preferences__signal_messages_and_calls">Signal üzenetek és hívások</string>
-  <string name="preferences__free_private_messages_and_calls">Ingyenes és privát üzenetek, valamint hívások Bittube Messenger felhasználók részére</string>
+  <string name="preferences__free_private_messages_and_calls">Ingyenes és privát üzenetek, valamint hívások RAPP Messenger felhasználók részére</string>
   <string name="preferences__submit_debug_log">Hibakeresési napló küldése</string>
   <string name="preferences__support_wifi_calling">\'WiFi Hívás\' kompatibilitási mód</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Engedélyezd, amennyiben eszközöd az SMS-eket és MMS-eket WiFi-n keresztül kézbesíti (csak akkor engedélyezd, ha a \'WiFi hívás\' is engedélyezve van eszközödön)</string>
@@ -1034,8 +1034,8 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="preferences_chats__media_auto_download">Médiafájlok automatikus letöltése</string>
   <string name="preferences_chats__message_trimming">Üzenetek csonkítása</string>
   <string name="preferences_advanced__use_system_emoji">Rendszer emojik használata</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">A Bittube Messenger beépített emoji-támogatásának letiltása</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">A hívások átjátszása a Bittube Messenger szerverein annak érdekében, hogy IP címed telefonhívás során is rejtve maradjon partnered előtt. Engedélyezésével a hívások minősége gyengébb lesz.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">A RAPP Messenger beépített emoji-támogatásának letiltása</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">A hívások átjátszása a RAPP Messenger szerverein annak érdekében, hogy IP címed telefonhívás során is rejtve maradjon partnered előtt. Engedélyezésével a hívások minősége gyengébb lesz.</string>
   <string name="preferences_advanced__always_relay_calls">Összes hívás átjátszása</string>
   <string name="preferences_app_protection__app_access">Alkalmazás hozzáférés</string>
   <string name="preferences_app_protection__communication">Kommunikáció</string>
@@ -1047,7 +1047,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="preferences_notifications__calls">Hívások</string>
   <string name="preferences_notifications__ringtone">Csengőhang</string>
   <string name="preferences_chats__show_invitation_prompts">Meghívók felajánlása</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Meghívó küldésének felajánlása a Bittube Messenger nélküli kontaktoknál</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Meghívó küldésének felajánlása a RAPP Messenger nélküli kontaktoknál</string>
   <string name="preferences_chats__message_text_size">Üzenetek betűmérete</string>
   <string name="preferences_events__contact_joined_signal">Ismerős csatlakozott a Signal-hoz</string>
   <string name="preferences_notifications__priority">Prioritás</string>
@@ -1135,16 +1135,16 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="reminder_header_expired_build">A Signal-od verziója lejárt!</string>
   <string name="reminder_header_expired_build_details">A továbbiakban üzeneteidet nem lehet sikeresen elküldeni. Koppints ide a legfrissebb verzióra történő frissítéshez.</string>
   <string name="reminder_header_sms_default_title">Alapértelmezett SMS alkalmazás</string>
-  <string name="reminder_header_sms_default_text">Koppints a Bittube Messenger alapértelmezett SMS alkalmazássá tételéhez.</string>
+  <string name="reminder_header_sms_default_text">Koppints a RAPP Messenger alapértelmezett SMS alkalmazássá tételéhez.</string>
   <string name="reminder_header_sms_import_title">Rendszer SMS importálása</string>
-  <string name="reminder_header_sms_import_text">Koppints a telefonod SMS üzeneteinek a Bittube Messenger titkosított adatbázisába történő másolásához.</string>
+  <string name="reminder_header_sms_import_text">Koppints a telefonod SMS üzeneteinek a RAPP Messenger titkosított adatbázisába történő másolásához.</string>
   <string name="reminder_header_push_title">Signal üzenetek és hívások engedélyezése</string>
   <string name="reminder_header_push_text">Tedd jobbá kommunikációs élményedet!</string>
   <string name="reminder_header_invite_title">Meghívás Signal-ba</string>
   <string name="reminder_header_invite_text">Hívd meg %1$s-t, hogy kommunikációtok a következő szintre léphessen!</string>
   <string name="reminder_header_share_title">Hívd meg barátaidat!</string>
   <string name="reminder_header_share_text">Minél több barátod használja a Signal-t, annál jobbá válik.</string>
-  <string name="reminder_header_service_outage_text">A Bittube Messenger technikai nehézségekkel küzd. Keményen dolgozunk azért, hogy a lehető leghamarabb visszaállítsuk a szolgáltatást.</string>
+  <string name="reminder_header_service_outage_text">A RAPP Messenger technikai nehézségekkel küzd. Keményen dolgozunk azért, hogy a lehető leghamarabb visszaállítsuk a szolgáltatást.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Mentés</string>
   <string name="media_preview__forward_title">Továbbítás</string>
@@ -1237,10 +1237,10 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Ezt a telefonszámot Regisztrációs zár PIN kód nélkül is újra lehet regisztrálni 7 nappal azután, hogy a telefonszám utoljára aktív volt Signal-on. Addig még %d nap van hátra.</string>
   <string name="RegistrationActivity_registration_lock_pin">Regisztrációs zár PIN kód</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Ehhez a telefonszámhoz engedélyezték a Regisztrációs zárat. Kérlek add meg a Regisztrációs zár PIN kódot!</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">A Regisztrációs zár engedélyezve van telefonszámodhoz. A Regisztrációs zár PIN kódod könnyebb megjegyzésének érdekében a Bittube Messenger időközönként megkér annak megerősítésére.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">A Regisztrációs zár engedélyezve van telefonszámodhoz. A Regisztrációs zár PIN kódod könnyebb megjegyzésének érdekében a RAPP Messenger időközönként megkér annak megerősítésére.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Elfelejtettem a PIN-em.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Elfelejtett PIN?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">A Regisztrációs zár segít megvédeni a telefonszámodat a jogosulatlan regisztrációs próbálkozásoktól. Ez a funkció bármikor letiltható a Bittube Messenger adatvédelmi beállításaiban.</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">A Regisztrációs zár segít megvédeni a telefonszámodat a jogosulatlan regisztrációs próbálkozásoktól. Ez a funkció bármikor letiltható a RAPP Messenger adatvédelmi beállításaiban.</string>
   <string name="RegistrationLockDialog_registration_lock">Regisztrációs zár</string>
   <string name="RegistrationLockDialog_enable">Engedélyezés</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">A Regisztrációs zár PIN kódnak legalább 4 számjegyből kell állnia.</string>
