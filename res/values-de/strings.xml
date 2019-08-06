@@ -25,8 +25,8 @@
   <string name="ApplicationPreferencesActivity_disable">Deaktivieren</string>
   <string name="ApplicationPreferencesActivity_unregistering">Registrierung löschen</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Registrierung für RAAPP-Nachrichten und -Anrufe wird gelöscht …</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal-Nachrichten und -Anrufe deaktivieren?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Signal-Nachrichten und -Anrufe durch Löschen deiner Registrierung vom Server deaktivieren. Du wirst deine Rufnummer erneut registrieren müssen, um zukünftig wieder verschlüsselt zu kommunizieren.</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">RAAPP-Nachrichten und -Anrufe deaktivieren?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">RAAPP-Nachrichten und -Anrufe durch Löschen deiner Registrierung vom Server deaktivieren. Du wirst deine Rufnummer erneut registrieren müssen, um zukünftig wieder verschlüsselt zu kommunizieren.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Fehler beim Verbinden mit Server!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS aktiviert</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Antippen, um Standard-SMS-App zu ändern</string>
@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Gruppen</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Nachricht %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-Anruf %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP-Anruf %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Vorname</string>
   <string name="ContactNameEditActivity_family_name">Nachname</string>
@@ -337,8 +337,8 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Nachrichten werden gelöscht …</string>
   <string name="MediaOverviewActivity_Documents">Dokumente</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-Anruf läuft</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal-Anruf wird hergestellt</string>
+  <string name="NotificationBarManager_signal_call_in_progress">RAAPP-Anruf läuft</string>
+  <string name="NotificationBarManager__establishing_signal_call">RAAPP-Anruf wird hergestellt</string>
   <string name="NotificationBarManager__incoming_signal_call">Eingehender RAAPP-Anruf</string>
   <string name="NotificationBarManager__deny_call">Anruf ablehnen</string>
   <string name="NotificationBarManager__answer_call">Anruf annehmen</string>
@@ -388,7 +388,7 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ungültiger QR-Code.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Es sind bereits zu viele Geräte gekoppelt. Versuche, mindestens eines zu entfernen.</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Dies ist leider kein gültiger QR-Code zur Gerätekopplung.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Signal-Gerät koppeln?</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">RAAPP-Gerät koppeln?</string>
   <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Du versuchst offenbar, ein RAAPP-Gerät mithilfe einer Scanner-App eines Drittanbieters zu koppeln. Scanne den QR-Code zu deinem Schutz noch einmal direkt aus RAAPP ein.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP benötigt die Berechtigung »Kamera« für das Einscannen von QR-Codes, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Kamera«.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QR-Codes können ohne die Berechtigung »Kamera« nicht eingescannt werden.</string>
@@ -398,7 +398,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">In dieser Unterhaltung gesendete und empfangene Nachrichten werden %s nach dem Lesen verschwinden.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Passphrase eingeben</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-Symbol</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP-Symbol</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Passphrase übermitteln</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Passphrase ungültig!</string>
   <!--PlayServicesProblemFragment-->
@@ -441,7 +441,7 @@
   <string name="RegistrationActivity_invalid_number">Ungültige Rufnummer</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Die angegebene Rufummer (%s) ist ungültig.</string>
   <string name="RegistrationActivity_missing_google_play_services">Fehlende Google-Play-Dienste</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Auf diesem Gerät fehlen die Google-Play-Dienste. RAAPP kann immer noch verwendet werden, allerdings führt diese Konfiguration eventuell zu verringerter Zuverlässigkeit oder Leistung.\n\nFalls du kein erfahrener Benutzer bist, kein Custom-ROM verwendest oder glaubst, diese Meldung irrtümlich angezeigt zu bekommen, kontaktiere bitte support@signal.org für Hilfe bei der Problembehandlung.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Auf diesem Gerät fehlen die Google-Play-Dienste. RAAPP kann immer noch verwendet werden, allerdings führt diese Konfiguration eventuell zu verringerter Zuverlässigkeit oder Leistung.\n\nFalls du kein erfahrener Benutzer bist, kein Custom-ROM verwendest oder glaubst, diese Meldung irrtümlich angezeigt zu bekommen, kontaktiere bitte support@raapp.com für Hilfe bei der Problembehandlung.</string>
   <string name="RegistrationActivity_i_understand">Verstanden</string>
   <string name="RegistrationActivity_play_services_error">Fehler bei den Google-Play-Diensten</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google-Play-Dienste werden aktualisiert oder sind vorübergehend nicht erreichbar. Bitte erneut versuchen.</string>
@@ -462,12 +462,12 @@
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Zu Kontakten hinzufügen</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Zu RAAPP einladen</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal-Nachricht</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-Anruf</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP-Nachricht</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP-Anruf</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Zu Kontakten hinzufügen</string>
   <string name="SharedContactView_invite_to_signal">Zu RAAPP einladen</string>
-  <string name="SharedContactView_message">Signal-Nachricht</string>
+  <string name="SharedContactView_message">RAAPP-Nachricht</string>
   <!--Slide-->
   <string name="Slide_image">Bild</string>
   <string name="Slide_audio">Audio</string>
@@ -497,7 +497,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="ThreadRecord_you_marked_verified">Als verifiziert markiert</string>
   <string name="ThreadRecord_you_marked_unverified">Als nicht verifiziert markiert</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal-Aktualisierung</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP-Aktualisierung</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Eine neue Version von RAAPP ist verfügbar. Zum Aktualisieren antippen.</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">%s blockieren?</string>
@@ -641,7 +641,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP benötigt Zugriff auf deine Kontakte, um sie anzeigen zu können.</string>
   <string name="contact_selection_list_fragment__show_contacts">Kontakte anzeigen</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-Nachricht</string>
+  <string name="conversation_activity__type_message_push">RAAPP-Nachricht</string>
   <string name="conversation_activity__type_message_sms_insecure">Unsichere SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Unsichere MMS</string>
   <string name="conversation_activity__from_sim_name">Von %1$s</string>
@@ -811,7 +811,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="recipient_preferences__call_settings">Anrufeinstellungen</string>
   <string name="recipient_preferences__ringtone">Klingelton</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal-Anruf</string>
+  <string name="redphone_call_card__signal_call">RAAPP-Anruf</string>
   <string name="redphone_call_controls__mute">Stummschalten</string>
   <string name="redphone_call_controls__flip_camera_rear">Kamera wechseln</string>
   <!--registration_activity-->
@@ -828,7 +828,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="unknown_sender_view__add_to_contacts">ZU KONTAKTEN HINZUFÜGEN</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">NICHT HINZUFÜGEN, ABER MEIN PROFIL SICHTBAR MACHEN</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Falls du die Sicherheit deiner Verschlüsselung mit %s verifizieren möchtest, vergleiche bitte die oben dargestellte Nummer mit der Nummer auf dem Gerät deines Kontakts. Alternativ kannst du den Code deines Kontakts einscannen oder ihn deinen eigenen Code einscannen lassen. <a href="https://signal.org/redirect/safety-numbers">Mehr erfahren</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Falls du die Sicherheit deiner Verschlüsselung mit %s verifizieren möchtest, vergleiche bitte die oben dargestellte Nummer mit der Nummer auf dem Gerät deines Kontakts. Alternativ kannst du den Code deines Kontakts einscannen oder ihn deinen eigenen Code einscannen lassen. <a href="https://raapp.com/redirect/safety-numbers">Mehr erfahren</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Zum Scannen antippen</string>
   <string name="verify_display_fragment__loading">Wird geladen …</string>
   <string name="verify_display_fragment__verified">Verifiziert</string>
@@ -958,7 +958,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="preferences__theme">Design</string>
   <string name="preferences__default">Standard</string>
   <string name="preferences__language">Sprache</string>
-  <string name="preferences__signal_messages_and_calls">Signal-Nachrichten und -Anrufe</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP-Nachrichten und -Anrufe</string>
   <string name="preferences__free_private_messages_and_calls">Kostenlos und verschlüsselt mit RAAPP-Nutzern Nachrichten austauschen und telefonieren</string>
   <string name="preferences__submit_debug_log">Diagnoseprotokoll übermitteln</string>
   <string name="preferences__support_wifi_calling">Kompatibilität WLAN-Telefonie</string>
@@ -999,7 +999,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Anruf</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-Anruf</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP-Anruf</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Nachrichtendetails</string>
   <string name="conversation_context__menu_copy_text">Text kopieren</string>
@@ -1074,7 +1074,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="reminder_header_sms_default_text">Antippen, um RAAPP als Standard-SMS-App zu verwenden.</string>
   <string name="reminder_header_sms_import_title">System-SMS importieren</string>
   <string name="reminder_header_sms_import_text">Antippen, um auf deinem Telefon gespeicherte SMS-Nachrichten in die verschlüsselte Datenbank von RAAPP zu importieren.</string>
-  <string name="reminder_header_push_title">Signal-Nachrichten und -Anrufe aktivieren</string>
+  <string name="reminder_header_push_title">RAAPP-Nachrichten und -Anrufe aktivieren</string>
   <string name="reminder_header_push_text">Verbessere dein Kommunikationserlebnis.</string>
   <string name="reminder_header_invite_title">Zu RAAPP einladen</string>
   <string name="reminder_header_invite_text">Hebe deine Kommunikation mit %1$s auf die nächste Stufe.</string>
@@ -1106,7 +1106,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="Permissions_not_now">Nicht jetzt</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP benötigt die Berechtigung »Kontakte« für das Suchen in deinen Kontakten, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Kontakte«.</string>
   <string name="conversation_activity__enable_signal_messages">SIGNAL-NACHRICHTEN AKTIVIEREN</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal-Datenbank wird migriert …</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">RAAPP-Datenbank wird migriert …</string>
   <string name="PushDecryptJob_new_locked_message">Neue gesperrte Nachricht</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Entsperren, um ausstehende Nachrichten anzuzeigen</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Abschließen der Aktualisierung</string>

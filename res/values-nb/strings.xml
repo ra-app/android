@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Grupper</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Melding %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-anrop %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP-anrop %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Fornavn</string>
   <string name="ContactNameEditActivity_family_name">Etternavn</string>
@@ -337,7 +337,7 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Sletter meldinger …</string>
   <string name="MediaOverviewActivity_Documents">Dokumenter</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-samtale pågår</string>
+  <string name="NotificationBarManager_signal_call_in_progress">RAAPP-samtale pågår</string>
   <string name="NotificationBarManager__establishing_signal_call">Setter opp RAAPP-anrop</string>
   <string name="NotificationBarManager__incoming_signal_call">Inngående RAAPP-anrop</string>
   <string name="NotificationBarManager__deny_call">Avslå anrop</string>
@@ -400,7 +400,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldinger du sender og mottar i denne samtalen forsvinner %s etter at de er blitt sett.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Skriv inn passord</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-ikon</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP-ikon</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Send inn passord</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ugyldig passord!</string>
   <!--PlayServicesProblemFragment-->
@@ -446,7 +446,7 @@ telefonnummer</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Nummeret du
 skrev inn (%s) er ugyldig.</string>
   <string name="RegistrationActivity_missing_google_play_services">Mangler Google Play tjenester</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denne enheten mangler Google Play-tjenester. Du kan fremdeles bruke RAAPP, men det kan oppføre seg ustabilit eller gi dårlig ytelse.\n\nHvis du ikke er en avansert bruker, ikke kjører en egeninstallert Android-fastvare, eller du mener at du har Google Play-tjenester installert, ber vi deg om å kontakte support@signal.org så vi kan hjelpe deg med feilsøking.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denne enheten mangler Google Play-tjenester. Du kan fremdeles bruke RAAPP, men det kan oppføre seg ustabilit eller gi dårlig ytelse.\n\nHvis du ikke er en avansert bruker, ikke kjører en egeninstallert Android-fastvare, eller du mener at du har Google Play-tjenester installert, ber vi deg om å kontakte support@raapp.com så vi kan hjelpe deg med feilsøking.</string>
   <string name="RegistrationActivity_i_understand">Jeg forstår</string>
   <string name="RegistrationActivity_play_services_error">Play Tjenester Feil</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play-tjenester er opptatt eller midlertidig utilgjengelig. Vent litt, og prøv på nytt.</string>
@@ -467,12 +467,12 @@ skrev inn (%s) er ugyldig.</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Legg til kontakt</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Inviter til RAAPP</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal-melding</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-samtale</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP-melding</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP-samtale</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Legg til kontakt</string>
   <string name="SharedContactView_invite_to_signal">Inviter til RAAPP</string>
-  <string name="SharedContactView_message">Signal-melding</string>
+  <string name="SharedContactView_message">RAAPP-melding</string>
   <!--Slide-->
   <string name="Slide_image">Bilde</string>
   <string name="Slide_audio">Lyd</string>
@@ -818,7 +818,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="recipient_preferences__call_settings">Samtaleinnstillinger</string>
   <string name="recipient_preferences__ringtone">Ringetone</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal-samtale</string>
+  <string name="redphone_call_card__signal_call">RAAPP-samtale</string>
   <string name="redphone_call_controls__mute">Demp</string>
   <string name="redphone_call_controls__flip_camera_rear">Bytt kamera</string>
   <!--registration_activity-->
@@ -835,7 +835,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="unknown_sender_view__add_to_contacts">LEGG TIL KONTAKTER</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">IKKE LEGG TIL, MEN GJØR PROFILEN MIN SYNLIG</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Hvis du vil bekrefte at du har sikker kryptering mot %s, bør du sammenlikne tallene overfor med tallene på motpartens enhet. Du kan også skanne koden på motpartens enhet, eller be dem om å skanne din <a href="https://signal.org/redirect/safety-numbers">Les mer.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Hvis du vil bekrefte at du har sikker kryptering mot %s, bør du sammenlikne tallene overfor med tallene på motpartens enhet. Du kan også skanne koden på motpartens enhet, eller be dem om å skanne din <a href="https://raapp.com/redirect/safety-numbers">Les mer.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Trykk for å skanne</string>
   <string name="verify_display_fragment__loading">Laster...</string>
   <string name="verify_display_fragment__verified">Verifisert</string>
@@ -965,7 +965,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="preferences__theme">Tema</string>
   <string name="preferences__default">Forvalgt</string>
   <string name="preferences__language">Språk</string>
-  <string name="preferences__signal_messages_and_calls">Signal-meldinger og -samtaler</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP-meldinger og -samtaler</string>
   <string name="preferences__free_private_messages_and_calls">Gratis privatmeldinger og -samtaler til RAAPP-brukere</string>
   <string name="preferences__submit_debug_log">Send feilsøkingslogg</string>
   <string name="preferences__support_wifi_calling">«Wi-Fi-anrop»-tilbakefallsmodus</string>
@@ -1006,7 +1006,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Ring</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-samtale</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP-samtale</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Meldingsdetaljer</string>
   <string name="conversation_context__menu_copy_text">Kopier tekst</string>

@@ -452,7 +452,7 @@ telefona</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Broj koji ste unijeli
 (%s) je neispravan.</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play Services nije dostupan</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Na ovom uređaju Google Play Services nisu dostupne. I dalje možete koristiti RAAPP, ali ovo može rezultirati umanjenim performansama i pouzdanosti u radu.\n\nUkoliko niste napredni korisnik, ne koristite prilagođeni Android sustav ili mislite da vam se ovo upozorenje pojavljuje greškom, kontaktirajte support@signal.org kako bismo vam pokušali pomoći.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Na ovom uređaju Google Play Services nisu dostupne. I dalje možete koristiti RAAPP, ali ovo može rezultirati umanjenim performansama i pouzdanosti u radu.\n\nUkoliko niste napredni korisnik, ne koristite prilagođeni Android sustav ili mislite da vam se ovo upozorenje pojavljuje greškom, kontaktirajte support@raapp.com kako bismo vam pokušali pomoći.</string>
   <string name="RegistrationActivity_i_understand">Razumijem</string>
   <string name="RegistrationActivity_play_services_error">Play Services greška</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services se trenutno ažurira ili je nedostupno. Pokušajte ponovno kasnije.</string>

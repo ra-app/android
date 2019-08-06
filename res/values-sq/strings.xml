@@ -111,7 +111,7 @@
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Për të dërguar porosi zëri, lejoi RAAPP-it qasje në mikrofon.</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Për të thirrë %s, RAAPP-it i duhet qasje në mikrofon dhe kamerë.</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Për të kapur foto dhe dhe video, lejoji RAAPP-it qasje në kamerë.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal-it i duhet qasje në Kamerë për të marrë foto ose video</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">RAAPP-it i duhet qasje në Kamerë për të marrë foto ose video</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="one">%d porosi e palexuar</item>
@@ -222,7 +222,7 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure është tash RAAPP.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TestSecure dhe RedPhone janë tash një app i njëjtë: RAAPP. Shtyp që të shqyrtosh.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Thuaj tung videothirrjeve të sigurta.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal-i tash mbështetë videothirrjet e sigurta. Filloje një thirrje si zakonisht, preke buton e videos, dhe përshëndetë me dorë.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP-i tash mbështetë videothirrjet e sigurta. Filloje një thirrje si zakonisht, preke buton e videos, dhe përshëndetë me dorë.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP tash mbështetë videothirrje të sigurta.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP tash mbështetë videothirrje të sigurta. Prek për të eksploruar.</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Tani mund të ndani foto profili dhe emrin me shokët në RAAPP</string>

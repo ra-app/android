@@ -429,7 +429,7 @@
 isikan (%s) tidak tepat.
 </string>
   <string name="RegistrationActivity_missing_google_play_services">Tidak memiliki Google Play Services</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Perangkat ini kehilangan Google Play Services. Anda tetap dapat menggunakan RAAPP, namun pengaturan ini bisa mengakibatkan berkurangnya keandalan dan kinerja.\n\nJika Anda bukan pengguna tingkat lanjut dan tidak menjalankan Android ROM setelah pembelian, atau yakin yang Anda lihat ini adalah sebuah kekeliruan, mohon menghubungi  support@signal.org untuk membantu penyelesaian masalah.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Perangkat ini kehilangan Google Play Services. Anda tetap dapat menggunakan RAAPP, namun pengaturan ini bisa mengakibatkan berkurangnya keandalan dan kinerja.\n\nJika Anda bukan pengguna tingkat lanjut dan tidak menjalankan Android ROM setelah pembelian, atau yakin yang Anda lihat ini adalah sebuah kekeliruan, mohon menghubungi  support@raapp.com untuk membantu penyelesaian masalah.</string>
   <string name="RegistrationActivity_i_understand">Saya mengerti</string>
   <string name="RegistrationActivity_play_services_error">Play Services gagal</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services diperbarui atau untuk sementara tidak tersedia. Silahkan coba lagi.</string>
@@ -799,7 +799,7 @@ Diterima pesan pertukaran kunci untuk versi protokol yang tidak valid.
   <string name="unknown_sender_view__add_to_contacts">TAMBAHKAN KONTAK</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">JANGAN DIMASUKKAN, TAPI BUAT PROFILKU TAMPAK</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jika Anda ingin memverifikasi keamanan enkripsi Anda dengan %s, bandingkan nomor di atas dengan nomor di perangkat mereka. Alternatifnya, Anda bisa memindai kode di telepon mereka, atau minta mereka untuk memindai kode Anda. <a href="https://signal.org/redirect/safety-numbers">Pelajari lebih lanjut.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jika Anda ingin memverifikasi keamanan enkripsi Anda dengan %s, bandingkan nomor di atas dengan nomor di perangkat mereka. Alternatifnya, Anda bisa memindai kode di telepon mereka, atau minta mereka untuk memindai kode Anda. <a href="https://raapp.com/redirect/safety-numbers">Pelajari lebih lanjut.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Ketuk untuk memindai</string>
   <string name="verify_display_fragment__loading">Memuat...</string>
   <string name="verify_display_fragment__verified">Terverifikasi</string>

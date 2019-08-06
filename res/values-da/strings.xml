@@ -355,7 +355,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Beskeder sendt eller modtaget i denne samtale, vil forsvinde %s, efter at de er læst</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Indtast kodeord</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-ikon</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP-ikon</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Godkend kodeord</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ugyldigt kodeord!</string>
   <!--PlayServicesProblemFragment-->

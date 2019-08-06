@@ -360,7 +360,7 @@
   <string name="MessageRecord_s_called_you">%s-(e)k deitu dizu</string>
   <string name="MessageRecord_called_s">%s-(e)ri deitu duzu</string>
   <string name="MessageRecord_missed_call_from">%s-en erantzun gabeko deia</string>
-  <string name="MessageRecord_s_joined_signal">%sSignal-en dago!</string>
+  <string name="MessageRecord_s_joined_signal">%sRAAPP-en dago!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Mezuen desagerpena ezgaitu duzu.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s-k mezuen desagerpena ezgaitu du.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Mezuen desagerpenaren debora %1$s-tan ezarrita</string>
@@ -450,7 +450,7 @@ zehaztu behar duzu
 zenbakia (%s) baliogabea da.
 </string>
   <string name="RegistrationActivity_missing_google_play_services">Ez dira topatzen Google Play-ren zerbitzuak </string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Ez dago Google Play Services-ik gailu honetan. RAAPP erabili dezakezu, baina konfigurazio honek fidagarritasuna edo errendimendua gutxiagotu dezake.\n\nErabiltzaile aurreratua ez bazara, jatorrizkoa ez den Android ROM bat erabiltzen ari ez bazara edo hau errore bat dela uste baduzu, mesedez jarri zaitez harremanetan support@signal.org helbidean.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Ez dago Google Play Services-ik gailu honetan. RAAPP erabili dezakezu, baina konfigurazio honek fidagarritasuna edo errendimendua gutxiagotu dezake.\n\nErabiltzaile aurreratua ez bazara, jatorrizkoa ez den Android ROM bat erabiltzen ari ez bazara edo hau errore bat dela uste baduzu, mesedez jarri zaitez harremanetan support@raapp.com helbidean.</string>
   <string name="RegistrationActivity_i_understand">Ulertzen dut</string>
   <string name="RegistrationActivity_play_services_error">Play Services-en Errorea</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services eguneratzen ari da edo tenporalki ez dago erabilgarri. Mesedez, berriro saia zaitez.</string>
@@ -501,7 +501,7 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <string name="ThreadRecord_called_you">Deitu dizu</string>
   <string name="ThreadRecord_missed_call">Erantzun gabeko deia</string>
   <string name="ThreadRecord_media_message">Multimedia mezua</string>
-  <string name="ThreadRecord_s_is_on_signal">%sSignal-en dago!</string>
+  <string name="ThreadRecord_s_is_on_signal">%sRAAPP-en dago!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Mezuen desagerpena ezgaituta dago</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Desagertzen diren mezuen debora %s-tan ezarrita</string>
   <string name="ThreadRecord_safety_number_changed">Seguratsun zenbakia aldatua</string>
@@ -838,7 +838,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="unknown_sender_view__add_to_contacts">KONTAKTUETARA GEHITU</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">EZ GEHITU, BAINA PROFILA ERAKUTSI</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%s erabiltzailearekin duzun enkriptazioaren segurtasuna egiaztatu nahi baduzu, goian duzun zenbakia bere gailuan agertzen denarekin alderatu. Beste aukera bat zera da: beraren telefonoan agertzen den kodea eskaneatzea edo berari eskatu zure kodea eskaneatzeko.  <a href="https://signal.org/redirect/safety-numbers">Gehiago ikasi. </a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%s erabiltzailearekin duzun enkriptazioaren segurtasuna egiaztatu nahi baduzu, goian duzun zenbakia bere gailuan agertzen denarekin alderatu. Beste aukera bat zera da: beraren telefonoan agertzen den kodea eskaneatzea edo berari eskatu zure kodea eskaneatzeko.  <a href="https://raapp.com/redirect/safety-numbers">Gehiago ikasi. </a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Ukitu eskaneatzeko</string>
   <string name="verify_display_fragment__loading">Kargatzen...</string>
   <string name="verify_display_fragment__verified">Egiaztatua</string>
@@ -1115,7 +1115,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="Permissions_not_now">Orain ez</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Singnalek Kontaktuen baimena behar du kontaktuak bilatzeko baina ukatu egin diozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Kontaktuak\".</string>
   <string name="conversation_activity__enable_signal_messages">GAITU SIGNAL MEZUAK</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal-en datu-basea migratzen</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">RAAPP-en datu-basea migratzen</string>
   <string name="PushDecryptJob_new_locked_message">Blokeatutako mezu berria</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Desblokeatu begiratu gabeko mezuak ikusteko</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Desblokeatu eguneratzea burutzeko</string>
@@ -1145,7 +1145,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="BackupDialog_disable_and_delete_all_local_backups">Babeskopia lokal guztiak desgaitu eta ezabatu?</string>
   <string name="BackupDialog_delete_backups_statement">Ezabatu babeskopiak</string>
   <string name="BackupDialog_copied_to_clipboard">Arbelera kopiatuta</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal-ek kanpoko memorian gordetzeko baimena behar du babeskopiak egin ahal izateko baina baimena ukatuta izan du beti. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta gaitu \"Biltegiratzea\".</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP-ek kanpoko memorian gordetzeko baimena behar du babeskopiak egin ahal izateko baina baimena ukatuta izan du beti. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta gaitu \"Biltegiratzea\".</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Azken babeskopia: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">Martxan</string>
   <string name="LocalBackupJob_creating_backup">Babeskopia sortzen...</string>

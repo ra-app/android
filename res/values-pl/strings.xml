@@ -479,7 +479,7 @@
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Numer jaki podałeś (%s) jest niepoprawny.
     </string>
   <string name="RegistrationActivity_missing_google_play_services">Brak Usług Google Play</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Brak Usług Google Play na tym urządzeniu. Nadal możesz używać RAAPP, lecz ta konfiguracja może skutkować mniejszą niezawodnością i wydajnością\n\nJeśli nie jesteś zaawansowanym użytkownikiem, nie korzystasz ze zmodyfikowanego Androida, lub jeśli sądzisz, że to błąd, wyślij email na support@signal.org, aby otrzymać pomoc.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Brak Usług Google Play na tym urządzeniu. Nadal możesz używać RAAPP, lecz ta konfiguracja może skutkować mniejszą niezawodnością i wydajnością\n\nJeśli nie jesteś zaawansowanym użytkownikiem, nie korzystasz ze zmodyfikowanego Androida, lub jeśli sądzisz, że to błąd, wyślij email na support@raapp.com, aby otrzymać pomoc.</string>
   <string name="RegistrationActivity_i_understand">Rozumiem</string>
   <string name="RegistrationActivity_play_services_error">Błąd Usług Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Trwa aktualizacja Usług Sklepu Google Play lub są one niedostępne. Spróbuj ponownie.</string>
@@ -880,7 +880,7 @@ Otrzymano wiadomość wymiany klucz dla niepoprawnej wersji protokołu.</string>
   <string name="unknown_sender_view__add_to_contacts">DODAJ DO KONTAKTÓW</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">NIE DODAWAJ, ALE UCZYŃ MÓJ PROFIL WIDOCZNYM</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jeśli chcesz zweryfikować bezpieczeństwo szyfrowania end-to-end z %s, porównaj numer powyżej z numerem na jego urządzeniu. Możesz również zeskanować kod na jego (jej) telefonie lub poprosić o zeskanowanie Twojego kodu. <a href="https://signal.org/redirect/safety-numbers">Dowiedz się więcej</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jeśli chcesz zweryfikować bezpieczeństwo szyfrowania end-to-end z %s, porównaj numer powyżej z numerem na jego urządzeniu. Możesz również zeskanować kod na jego (jej) telefonie lub poprosić o zeskanowanie Twojego kodu. <a href="https://raapp.com/redirect/safety-numbers">Dowiedz się więcej</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Dotknij aby zeskanować</string>
   <string name="verify_display_fragment__loading">Ładowanie...</string>
   <string name="verify_display_fragment__verified">Zweryfikowano</string>

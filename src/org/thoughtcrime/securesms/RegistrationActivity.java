@@ -1003,7 +1003,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
   private void onTermsLinkClicked(View v) {
     try {
-      Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://signal.org/legal"));
+      Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://raapp.com/legal"));
       startActivity(intent);
     } catch (ActivityNotFoundException e) {
       Toast.makeText(this, R.string.RegistrationActivity_no_browser, Toast.LENGTH_SHORT).show();

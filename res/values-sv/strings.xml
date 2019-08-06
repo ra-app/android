@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Grupper</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Meddelande %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-samtal %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP-samtal %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Förnamn</string>
   <string name="ContactNameEditActivity_family_name">Efternamn</string>
@@ -256,7 +256,7 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP stöder nu säkra videosamtal. Tryck för att utforska.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Redo för din närbild?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Du kan nu dela en profilbild och ett namn med dina vänner på RAAPP</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal-profiler är här</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">RAAPP-profiler är här</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent kommunikationsfel med RAAPP!</string>
   <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP kunde inte registrera med Google Play-tjänster. Meddelanden och samtal med RAAPP har avaktiverats, vänligen försök återregistrera i inställningar &gt; Avancerat.</string>
@@ -330,7 +330,7 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Raderar meddelanden...</string>
   <string name="MediaOverviewActivity_Documents">Dokument</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-samtal pågår</string>
+  <string name="NotificationBarManager_signal_call_in_progress">RAAPP-samtal pågår</string>
   <string name="NotificationBarManager__establishing_signal_call">Upprättar RAAPP-samtal</string>
   <string name="NotificationBarManager__incoming_signal_call">Inkommande RAAPP-samtal</string>
   <string name="NotificationBarManager__deny_call">Neka samtal</string>
@@ -387,7 +387,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meddelanden som skickas och tas emot i den här konversationen kommer att försvinna %s efter att de setts.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Ange lösenord</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-ikon</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP-ikon</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Skicka lösenord</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Fel lösenord!</string>
   <!--PlayServicesProblemFragment-->
@@ -450,12 +450,12 @@ angav (%s) är ogiltigt.</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Lägg till i kontakter</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Bjud in till RAAPP</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal-meddelande</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-samtal</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP-meddelande</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP-samtal</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Lägg till i kontakter</string>
   <string name="SharedContactView_invite_to_signal">Bjud in till RAAPP</string>
-  <string name="SharedContactView_message">Signal-meddelande</string>
+  <string name="SharedContactView_message">RAAPP-meddelande</string>
   <!--Slide-->
   <string name="Slide_image">Bilder</string>
   <string name="Slide_audio">Ljud</string>
@@ -485,7 +485,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="ThreadRecord_you_marked_verified">Du markerade verifierad</string>
   <string name="ThreadRecord_you_marked_unverified">Du markerade overifierad</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal-uppdatering</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP-uppdatering</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version av RAAPP finns tillgänglig, tryck för att uppdatera</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Blockera %s</string>
@@ -624,7 +624,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP behöver tillgång till dina kontakter för att kunna visa dem.</string>
   <string name="contact_selection_list_fragment__show_contacts">Visa kontakter</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-meddelande</string>
+  <string name="conversation_activity__type_message_push">RAAPP-meddelande</string>
   <string name="conversation_activity__type_message_sms_insecure">Osäkert SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Osäkert MMS</string>
   <string name="conversation_activity__from_sim_name">Från %1$s</string>
@@ -783,7 +783,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="recipient_preferences__call_settings">Samtalsinställningar</string>
   <string name="recipient_preferences__ringtone">Rington</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal-samtal</string>
+  <string name="redphone_call_card__signal_call">RAAPP-samtal</string>
   <string name="redphone_call_controls__mute">Tysta</string>
   <string name="redphone_call_controls__flip_camera_rear">Byt kamera</string>
   <!--registration_activity-->
@@ -928,7 +928,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <string name="preferences__theme">Tema</string>
   <string name="preferences__default">Standard</string>
   <string name="preferences__language">Språk</string>
-  <string name="preferences__signal_messages_and_calls">Signal-meddelanden och samtal</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP-meddelanden och samtal</string>
   <string name="preferences__free_private_messages_and_calls">Gratis privata meddelanden och samtal med andra RAAPP-användare</string>
   <string name="preferences__submit_debug_log">Skicka in loggfilen för felsökning</string>
   <string name="preferences__support_wifi_calling">\'WiFi Calling\' kompatibilitetsläge</string>
@@ -969,7 +969,7 @@ Tog emot meddelande för nyckelutbyte för ogiltig protokollversion.</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Ring</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-samtal</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP-samtal</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Meddelandedetaljer</string>
   <string name="conversation_context__menu_copy_text">Kopiera text</string>

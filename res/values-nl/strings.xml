@@ -25,7 +25,7 @@
   <string name="ApplicationPreferencesActivity_disable">Uitschakelen</string>
   <string name="ApplicationPreferencesActivity_unregistering">Aan het afmelden</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Aan het afmelden voor RAAPP-berichten en -oproepen...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal-berichten en -oproepen uitschakelen?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">RAAPP-berichten en -oproepen uitschakelen?</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Dit zal RAAPP-berichten en -oproepen uitschakelen door je te deregistreren bij de server. Je zal je telefoonnummer opnieuw moeten registreren als je deze functies weer wil gebruiken.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Fout bij verbinden met de server!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS ingeschakeld</string>
@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Groepen</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Bericht sturen naar %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-oproep %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP-oproep %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Voornaam</string>
   <string name="ContactNameEditActivity_family_name">Achternaam</string>
@@ -263,7 +263,7 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP ondersteunt nu beveiligde videogesprekken. Tik om te verkennen.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Klaar voor je close-up?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Je kan nu een profielfoto en naam met je vrienden op RAAPP delen</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal-profielen zijn nu beschikbaar</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">RAAPP-profielen zijn nu beschikbaar</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanente RAAPP-communicatiefout!</string>
   <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP was niet in staat met Google Play services te registreren. RAAPP berichten en oproepen zijn nu uitgeschakeld, probeer opnieuw te registreren via Instellingen &gt; Geavanceerd.</string>
@@ -337,7 +337,7 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Berichten verwijderen...</string>
   <string name="MediaOverviewActivity_Documents">Documenten</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-oproep aan de gang</string>
+  <string name="NotificationBarManager_signal_call_in_progress">RAAPP-oproep aan de gang</string>
   <string name="NotificationBarManager__establishing_signal_call">Opzetten van RAAPP-oproep</string>
   <string name="NotificationBarManager__incoming_signal_call">Inkomende RAAPP-oproep</string>
   <string name="NotificationBarManager__deny_call">Oproep afwijzen</string>
@@ -400,7 +400,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Berichten die in dit gesprek verzonden en ontvangen worden zullen %s nadat ze gelezen zijn verdwijnen.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Voer wachtwoord in</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-pictogram</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP-pictogram</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Wachtwoord instellen</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ongeldig wachtwoord!</string>
   <!--PlayServicesProblemFragment-->
@@ -503,7 +503,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="ThreadRecord_you_marked_verified">Gemarkeerd als geverifieerd</string>
   <string name="ThreadRecord_you_marked_unverified">Gemarkeerd als niet geverifieerd</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal-update</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP-update</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Er is een nieuwe versie van RAAPP beschikbaar, tik om bij te werken</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">%s blokkeren?</string>
@@ -568,7 +568,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="MessageNotifier_mark_read">Markeren als gelezen</string>
   <string name="MessageNotifier_media_message">Mediabericht</string>
   <string name="MessageNotifier_reply">Reageren</string>
-  <string name="MessageNotifier_pending_signal_messages">Signal-berichten in wachtrij</string>
+  <string name="MessageNotifier_pending_signal_messages">RAAPP-berichten in wachtrij</string>
   <string name="MessageNotifier_you_have_pending_signal_messages">Er staan RAAPP-berichten in de wachtrij, tik om ze te openen en op te halen</string>
   <string name="MessageNotifier_contact_message">%1$s%2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Contactpersoon</string>
@@ -647,7 +647,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP heeft toegang nodig tot je contacten om ze weer te kunnen geven.</string>
   <string name="contact_selection_list_fragment__show_contacts">Contacten tonen</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-bericht</string>
+  <string name="conversation_activity__type_message_push">RAAPP-bericht</string>
   <string name="conversation_activity__type_message_sms_insecure">Onbeveiligde sms</string>
   <string name="conversation_activity__type_message_mms_insecure">Onbeveiligde mms</string>
   <string name="conversation_activity__from_sim_name">Van %1$s</string>
@@ -834,7 +834,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="unknown_sender_view__add_to_contacts">TOEVOEGEN AAN CONTACTEN</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">NIET TOEVOEGEN, MAAR MIJN PROFIEL WEL ZICHTBAAR MAKEN</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Als je de veiligheid van de beveiligde verbinding met %s wil verifiëren, moet je het nummer hierboven vergelijken met dat op hun apparaat. Een alternatieve methode is om de code op hun telefoon te scannen, of hen te vragen jouw code te scannen. <a href="https://signal.org/redirect/safety-numbers">Lees meer.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Als je de veiligheid van de beveiligde verbinding met %s wil verifiëren, moet je het nummer hierboven vergelijken met dat op hun apparaat. Een alternatieve methode is om de code op hun telefoon te scannen, of hen te vragen jouw code te scannen. <a href="https://raapp.com/redirect/safety-numbers">Lees meer.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Tik om te scannen</string>
   <string name="verify_display_fragment__loading">Laden...</string>
   <string name="verify_display_fragment__verified">Geverifieerd</string>
@@ -964,7 +964,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="preferences__theme">Thema</string>
   <string name="preferences__default">Standaard</string>
   <string name="preferences__language">Taal</string>
-  <string name="preferences__signal_messages_and_calls">Signal-berichten en -oproepen</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP-berichten en -oproepen</string>
   <string name="preferences__free_private_messages_and_calls">Gratis privéberichten en bellen met RAAPP-gebruikers</string>
   <string name="preferences__submit_debug_log">Debuglog indienen</string>
   <string name="preferences__support_wifi_calling">\'Bellen via WiFi\'-compatibiliteitsmodus</string>
@@ -1005,7 +1005,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Bellen</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-oproep</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP-oproep</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Berichtdetails</string>
   <string name="conversation_context__menu_copy_text">Tekst kopiëren</string>
@@ -1080,7 +1080,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="reminder_header_sms_default_text">Tik om van RAAPP je standaard-sms-app te maken.</string>
   <string name="reminder_header_sms_import_title">Sms uit systeem importeren</string>
   <string name="reminder_header_sms_import_text">Tik om de sms-berichten uit je telefoon te kopiëren naar de versleutelde database van RAAPP.</string>
-  <string name="reminder_header_push_title">Signal-berichten en -oproepen inschakelen</string>
+  <string name="reminder_header_push_title">RAAPP-berichten en -oproepen inschakelen</string>
   <string name="reminder_header_push_text">Verbeter je communicatie-ervaring.</string>
   <string name="reminder_header_invite_title">Uitnodigen voor RAAPP</string>
   <string name="reminder_header_invite_text">Neem je gesprek met %1$s naar een hoger niveau.</string>
@@ -1112,7 +1112,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="Permissions_not_now">Niet nu</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP heeft toegang nodig tot de contacten om ze te zoeken, maar deze toestemming is permanent geweigerd. Ga naar de appinstellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
   <string name="conversation_activity__enable_signal_messages">SIGNAL-BERICHTEN INSCHAKELEN</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal-database wordt gemigreerd</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">RAAPP-database wordt gemigreerd</string>
   <string name="PushDecryptJob_new_locked_message">Nieuw vergrendeld bericht</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Ontgrendel om je berichten te lezen</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Ontgrendel om de update te voltooien</string>

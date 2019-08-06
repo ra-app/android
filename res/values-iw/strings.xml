@@ -481,7 +481,7 @@
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">המספר שציינת (%s)
 אינו תקף.</string>
   <string name="RegistrationActivity_missing_google_play_services">שירותי Google Play חסרים</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">במכשיר זה חסרים שירותי Google Play. אתה יכול עדין להשתמש ב־Signal, אבל תצורה זו עשויה לגרום לאמינות מופחתת או לביצועים מופחתים.\n\nאם אינך משתמש מתקדם, אינך מריץ ROM של Android שהותקן לאחר רכישה, או שאתה מאמין שאתה רואה זאת בטעות, אנא צור קשר עם support@signal.org לעזרה באיתור תקלות.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">במכשיר זה חסרים שירותי Google Play. אתה יכול עדין להשתמש ב־RAAPP, אבל תצורה זו עשויה לגרום לאמינות מופחתת או לביצועים מופחתים.\n\nאם אינך משתמש מתקדם, אינך מריץ ROM של Android שהותקן לאחר רכישה, או שאתה מאמין שאתה רואה זאת בטעות, אנא צור קשר עם support@raapp.com לעזרה באיתור תקלות.</string>
   <string name="RegistrationActivity_i_understand">הבנתי</string>
   <string name="RegistrationActivity_play_services_error">שגיאת שירותי Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">שירותי גוגל Play מתעדכנים או שאינם זמינים כעת. נא לנסות שוב.</string>
@@ -883,7 +883,7 @@
   <string name="unknown_sender_view__add_to_contacts">הוסף לאנשי הקשר</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">אל תוסיף, אבל הפוך את הפרופיל שלי לנראה</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[אם אתה רוצה לוודא את אבטחת ההצפנה שלך עם %s, השווה את המספר לעיל עם המספר במכשיר שלו. לחלופין, אתה יכול לסרוק את הקוד בטלפון שלו, או לבקש ממנו לסרוק את הקוד שלך. <a href="https://signal.org/redirect/safety-numbers">למד עוד.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[אם אתה רוצה לוודא את אבטחת ההצפנה שלך עם %s, השווה את המספר לעיל עם המספר במכשיר שלו. לחלופין, אתה יכול לסרוק את הקוד בטלפון שלו, או לבקש ממנו לסרוק את הקוד שלך. <a href="https://raapp.com/redirect/safety-numbers">למד עוד.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">הקש כדי לסרוק</string>
   <string name="verify_display_fragment__loading">טוען...</string>
   <string name="verify_display_fragment__verified">מאומת</string>
@@ -1138,7 +1138,7 @@
   <string name="reminder_header_invite_title">הזמן אל RAAPP</string>
   <string name="reminder_header_invite_text">קח את השיחות שלך עם %1$s לשלב הבא.</string>
   <string name="reminder_header_share_title">הזמן את חבריך!</string>
-  <string name="reminder_header_share_text">ככל שיותר חברים משתמשים ב-Signal, כך הוא משתפר.</string>
+  <string name="reminder_header_share_text">ככל שיותר חברים משתמשים ב-RAAPP, כך הוא משתפר.</string>
   <string name="reminder_header_service_outage_text">RAAPP חווה קשיים טכניים. אנו עובדים קשה כדי לשחזר שירות מהר ככל האפשר.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">שמור</string>

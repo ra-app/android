@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Ryhmät</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Viesti %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-puhelu %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP-puhelu %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Etunimi</string>
   <string name="ContactNameEditActivity_family_name">Sukunimi</string>
@@ -337,7 +337,7 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Viestejä poistetaan...</string>
   <string name="MediaOverviewActivity_Documents">Dokumentit</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-puhelu käynnissä</string>
+  <string name="NotificationBarManager_signal_call_in_progress">RAAPP-puhelu käynnissä</string>
   <string name="NotificationBarManager__establishing_signal_call">Muodostetaan RAAPP-puhelua</string>
   <string name="NotificationBarManager__incoming_signal_call">Saapuva RAAPP-puhelu</string>
   <string name="NotificationBarManager__deny_call">Hylkää puhelu</string>
@@ -399,7 +399,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Lähetetyt ja vastaanotetut viestit katoavat tästä keskustelusta %s siitä, kun ne on nähty.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Syötä salalause</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-kuvake</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP-kuvake</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Syötä salalause</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Salalause ei kelpaa!</string>
   <!--PlayServicesProblemFragment-->
@@ -445,7 +445,7 @@ puhelinnumero</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Antamasi puhelinnumero
 (%s) on virheellinen.</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play Services puuttuu</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Tästä laitteesta puuttuu Google Play Services. RAAPP toimii myös ilman sitä, mutta kaikki ominaisuudet eivät välttämättä toimi yhtä hyvin tai luotettavasti.\n\nJos et ole edistyneempi käyttäjä, et käytä kolmannen osapuolen Android ROM:ia tai uskot, että näet tämän ilmoituksen virheellisesti, ota yhteyttä support@signal.org saadaksesi apua.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Tästä laitteesta puuttuu Google Play Services. RAAPP toimii myös ilman sitä, mutta kaikki ominaisuudet eivät välttämättä toimi yhtä hyvin tai luotettavasti.\n\nJos et ole edistyneempi käyttäjä, et käytä kolmannen osapuolen Android ROM:ia tai uskot, että näet tämän ilmoituksen virheellisesti, ota yhteyttä support@raapp.com saadaksesi apua.</string>
   <string name="RegistrationActivity_i_understand">Ymmärrän</string>
   <string name="RegistrationActivity_play_services_error">Play Services -virhe</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Servicesiä päivitetään tai se ei ole juuri nyt saavutettavissa. Yritä myöhemmin uudelleen.</string>
@@ -467,7 +467,7 @@ puhelinnumero</string>
   <string name="SharedContactDetailsActivity_add_to_contacts">Lisää yhteystietoihin</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Kutsu RAAPPiin</string>
   <string name="SharedContactDetailsActivity_signal_message">RAAPP viesti</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-puhelu</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP-puhelu</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Lisää yhteystietoihin</string>
   <string name="SharedContactView_invite_to_signal">Kutsu RAAPPiin</string>
@@ -502,7 +502,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="ThreadRecord_you_marked_verified">Merkitsit varmennetuksi.</string>
   <string name="ThreadRecord_you_marked_unverified">Merkitsit varmentamattomaksi.</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal-päivitys</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP-päivitys</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uusi versio RAAPPista on saatavilla. Päivitä napauttamalla.</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Estä %s?</string>
@@ -567,7 +567,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="MessageNotifier_mark_read">Luettu</string>
   <string name="MessageNotifier_media_message">Mediaviesti</string>
   <string name="MessageNotifier_reply">Vastaa</string>
-  <string name="MessageNotifier_pending_signal_messages">Signal-viestejä odottamassa</string>
+  <string name="MessageNotifier_pending_signal_messages">RAAPP-viestejä odottamassa</string>
   <string name="MessageNotifier_you_have_pending_signal_messages">Sinulle on RAAPP-viestejä. Avaa ja hae napauttamalla.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Yhteystieto</string>
@@ -646,7 +646,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP tarvitsee luvan yhteystietoihisi, jotta se voisi näyttää ne.</string>
   <string name="contact_selection_list_fragment__show_contacts">Näytä yhteystiedot</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-viesti</string>
+  <string name="conversation_activity__type_message_push">RAAPP-viesti</string>
   <string name="conversation_activity__type_message_sms_insecure">Salaamaton SMS-viesti</string>
   <string name="conversation_activity__type_message_mms_insecure">Salaamaton MMS-viesti</string>
   <string name="conversation_activity__from_sim_name">SIM-kortilta %1$s</string>
@@ -816,7 +816,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="recipient_preferences__call_settings">Puheluasetukset</string>
   <string name="recipient_preferences__ringtone">Ilmoitusääni</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal-puhelu</string>
+  <string name="redphone_call_card__signal_call">RAAPP-puhelu</string>
   <string name="redphone_call_controls__mute">Mykistä</string>
   <string name="redphone_call_controls__flip_camera_rear">Vaihda kameraa</string>
   <!--registration_activity-->
@@ -833,7 +833,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="unknown_sender_view__add_to_contacts">LISÄÄ YHTEYSTIETOIHIN</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">ÄLÄ LISÄÄ, MUTTA TEE PROFIILINI NÄKYVÄKSI</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jos haluat varmentaa sinun ja yhteystiedon %s välisen salauksen tietoturvan, vertaa ylläolevia numeroita hänen laitteessaan näkyviin vastaaviin numeroihin. Vaihtoehtoisesti voit skannata koodin hänen puhelimestaan, tai pyytä häntä skannaamaan sinun koodisi. <a href="https://signal.org/redirect/safety-numbers">Lue lisää.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jos haluat varmentaa sinun ja yhteystiedon %s välisen salauksen tietoturvan, vertaa ylläolevia numeroita hänen laitteessaan näkyviin vastaaviin numeroihin. Vaihtoehtoisesti voit skannata koodin hänen puhelimestaan, tai pyytä häntä skannaamaan sinun koodisi. <a href="https://raapp.com/redirect/safety-numbers">Lue lisää.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Skannaa napauttamalla</string>
   <string name="verify_display_fragment__loading">Ladataan...</string>
   <string name="verify_display_fragment__verified">Varmennettu</string>
@@ -963,7 +963,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="preferences__theme">Teema</string>
   <string name="preferences__default">Oletus</string>
   <string name="preferences__language">Kieli</string>
-  <string name="preferences__signal_messages_and_calls">Signal-viestit ja -puhelut</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP-viestit ja -puhelut</string>
   <string name="preferences__free_private_messages_and_calls">Ilmaiset ja yksityiset viestit sekä puhelut RAAPPin käyttäjille</string>
   <string name="preferences__submit_debug_log">Lähetä virheenkorjausloki</string>
   <string name="preferences__support_wifi_calling">\"WiFi Calling\" -yhteensopiva tila</string>
@@ -1004,7 +1004,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Soita</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-puhelu</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP-puhelu</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Viestin tiedot</string>
   <string name="conversation_context__menu_copy_text">Kopioi teksti</string>

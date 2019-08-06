@@ -484,7 +484,7 @@ telefonszámodat!
 szám (%s) érvénytelen.
  </string>
   <string name="RegistrationActivity_missing_google_play_services">Hiányzó Google Play Szolgáltatások</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Ezen a készüléken hiányzik a Google Play Szolgáltatások. Továbbra is használhatod a RAAPP-t, de ez a konfiguráció csökkent megbízhatóságot vagy teljesítményt eredményezhet.\n\nHa nem egy hozzáértő felhasználó vagy, aki egy utángyártott Android ROM-ot futtat, vagy ez egy hibának tűnik neked, akkor kérlek vedd fel a kapcsolatot a probléma megoldása érdekében a support@signal.org -gal.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Ezen a készüléken hiányzik a Google Play Szolgáltatások. Továbbra is használhatod a RAAPP-t, de ez a konfiguráció csökkent megbízhatóságot vagy teljesítményt eredményezhet.\n\nHa nem egy hozzáértő felhasználó vagy, aki egy utángyártott Android ROM-ot futtat, vagy ez egy hibának tűnik neked, akkor kérlek vedd fel a kapcsolatot a probléma megoldása érdekében a support@raapp.com -gal.</string>
   <string name="RegistrationActivity_i_understand">Megértettem</string>
   <string name="RegistrationActivity_play_services_error">Play Szolgáltatások hiba</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">A Google Play Szolgáltatások épp frissítés alatt áll, vagy átmenetileg nem elérhető. Kérlek próbáld újra.</string>
@@ -888,7 +888,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="unknown_sender_view__add_to_contacts">FELVÉTEL A NÉVJEGYZÉKBE</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">NE ADJA HOZZÁ, DE TEGYE A PROFILOM LÁTHATÓVÁ</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Ha szeretnéd ellenőrizni a titkosítás biztonságát %sazonosítójú partnereddel, hasonlítsd össze a fenti számot az ő készülékén megjelenő számmal. Alternatív megoldásként beszkennelheted a kódot a telefonjáról, vagy megkérheted őt is, hogy szkennelje be a tied. <a href="https://signal.org/redirect/safety-numbers">Tudj meg többet.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Ha szeretnéd ellenőrizni a titkosítás biztonságát %sazonosítójú partnereddel, hasonlítsd össze a fenti számot az ő készülékén megjelenő számmal. Alternatív megoldásként beszkennelheted a kódot a telefonjáról, vagy megkérheted őt is, hogy szkennelje be a tied. <a href="https://raapp.com/redirect/safety-numbers">Tudj meg többet.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Kopp a szkenneléshez</string>
   <string name="verify_display_fragment__loading">Betöltés...</string>
   <string name="verify_display_fragment__verified">Ellenőrzött</string>
@@ -1214,7 +1214,7 @@ Kulcs-csere üzenet érkezett érvénytelen protokoll verzióhoz.
   <string name="BackupUtil_unknown">Ismeretlen</string>
   <string name="prompt_passphrase_activity__unlock_signal">RAAPP feloldása</string>
   <string name="preferences_app_protection__screen_lock">Képernyőzár</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signal-hoz való hozzáférés védelme Android képernyőzárral vagy ujjlenyomattal</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">RAAPP-hoz való hozzáférés védelme Android képernyőzárral vagy ujjlenyomattal</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Képernyő lezárása ennyi tétlenséget követően</string>
   <string name="AppProtectionPreferenceFragment_none">Egyik sem</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">A Regisztrációs zár PIN nem ugyanaz mint az SMS ellenőrző kód, amit az előbb kaptál. Kérlek add meg a PIN kódot, amelyet korábban az alkalmazásban állítottál be!</string>

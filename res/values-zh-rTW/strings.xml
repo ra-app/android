@@ -428,7 +428,7 @@
         號碼 (%s) 是無效的
     </string>
   <string name="RegistrationActivity_missing_google_play_services">找不到 Google Play 服務</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">此裝置缺少 Google Play 服務。你仍然可以使用 RAAPP，但是此設定可能會降低可靠性與效能。\n\n如果你不是個進階使用者，不是正在執行售後市場的 Android ROM，或是你認為你看到的可能是一個錯誤，請聯繫 support@signal.org 來獲得協助。</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">此裝置缺少 Google Play 服務。你仍然可以使用 RAAPP，但是此設定可能會降低可靠性與效能。\n\n如果你不是個進階使用者，不是正在執行售後市場的 Android ROM，或是你認為你看到的可能是一個錯誤，請聯繫 support@raapp.com 來獲得協助。</string>
   <string name="RegistrationActivity_i_understand">我了解</string>
   <string name="RegistrationActivity_play_services_error">Play 服務錯誤</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play 服務正在更新或暫時無法使用。請再重試。</string>
@@ -813,7 +813,7 @@ signal 訊息</string>
   <string name="unknown_sender_view__add_to_contacts">加入聯絡人</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">不要加入，但讓我的個人資訊可以被看見</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[如果你希望用%s來驗證你的加密的安全性，比對上面的號碼與他們裝置上的號碼。或者，你可以掃描在他們手機上的QR code，或讓他們掃描您的QR Code。<a href="https://signal.org/redirect/safety-numbers">學息更多資訊</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[如果你希望用%s來驗證你的加密的安全性，比對上面的號碼與他們裝置上的號碼。或者，你可以掃描在他們手機上的QR code，或讓他們掃描您的QR Code。<a href="https://raapp.com/redirect/safety-numbers">學息更多資訊</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">點擊掃描</string>
   <string name="verify_display_fragment__loading">載入中...</string>
   <string name="verify_display_fragment__verified">已驗證</string>
