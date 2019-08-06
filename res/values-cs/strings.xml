@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAAPP Messenger</string>
+  <string name="app_name">RAAPP</string>
   <string name="yes">Ano</string>
   <string name="no">Ne</string>
   <string name="delete">Smazat</string>
@@ -25,17 +25,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Smazat</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Zakázat heslo?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tímto trvale odemknete RAAPP Messenger a upozornění na zprávy.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tímto trvale odemknete RAAPP a upozornění na zprávy.</string>
   <string name="ApplicationPreferencesActivity_disable">Deaktivovat</string>
   <string name="ApplicationPreferencesActivity_unregistering">Rušení registrace</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Odregistrace RAAPP Messenger zpráv a volání</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Zakázat RAAPP Messenger zprávy a volání?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Tímto zakážete RAAPP Messenger zprávy a volání odregistrací ze serveru. Abyste mohli používat RAAPP Messenger zprávy v budoucnosti, budete muset znovu registrovat svoje telefonní číslo.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Odregistrace RAAPP zpráv a volání</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Zakázat RAAPP zprávy a volání?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Tímto zakážete RAAPP zprávy a volání odregistrací ze serveru. Abyste mohli používat RAAPP zprávy v budoucnosti, budete muset znovu registrovat svoje telefonní číslo.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Chyba při připojování k serveru!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS povoleny</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Dotykem nastavte výchozí aplikaci pro SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS zakázány</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Dotykem nastavíte RAAPP Messenger jako výchozí SMS aplikaci</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Dotykem nastavíte RAAPP jako výchozí SMS aplikaci</string>
   <string name="ApplicationPreferencesActivity_on">zap.</string>
   <string name="ApplicationPreferencesActivity_On">Zap.</string>
   <string name="ApplicationPreferencesActivity_off">vyp.</string>
@@ -77,7 +77,7 @@
   <string name="ClearProfileActivity_remove">Odebrat</string>
   <string name="ClearProfileActivity_remove_profile_photo">Odebrat profilovou fotografii?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Vaše bezpečnostní kódy pro %1$s se změnily. To může znamenat, že se někdo pokouší zachytit vaši konverzaci, nebo jen že si %2$s přeinstaloval RAAPP Messenger a má teď nový identifikační klíč.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Vaše bezpečnostní kódy pro %1$s se změnily. To může znamenat, že se někdo pokouší zachytit vaši konverzaci, nebo jen že si %2$s přeinstaloval RAAPP a má teď nový identifikační klíč.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Možná budete chtít zkontrolovat vaše bezpečnostní kódy pro tento kontakt.</string>
   <string name="ConfirmIdentityDialog_accept">Přijmout</string>
   <!--ContactsCursorLoader-->
@@ -286,7 +286,7 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure je nyní Signal.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure a RedPhone jsou nyní jednou aplikací: Signal. Dotkněte se a prozkoumejte.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Přivítejte šifrované video hovory.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal nyní podporuje šifrované video hovory. Začněte volat přes RAAPP Messenger jako obvykle, klikněte na video tlačítko a zamávejte na pozdrav.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal nyní podporuje šifrované video hovory. Začněte volat přes RAAPP jako obvykle, klikněte na video tlačítko a zamávejte na pozdrav.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal nyní podporuje šifrované video hovory.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal nyní podporuje šifrované video hovory. Klikněte pro prozkoumání.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Připraven na portrét?</string>
@@ -306,7 +306,7 @@
   <string name="GroupCreateActivity_group_name_hint">Název skupiny</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Nová MMS skupina</string>
   <string name="GroupCreateActivity_contacts_dont_support_push">Vybrali jste kontakt</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Nejste zaregistrován k použití Signalu pro zprávy a volání, takže jsou skupiny RAAPP Messenger zakázány. Prosím registrujte se v Nastavení &gt; Rozšířené</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Nejste zaregistrován k použití Signalu pro zprávy a volání, takže jsou skupiny RAAPP zakázány. Prosím registrujte se v Nastavení &gt; Rozšířené</string>
   <string name="GroupCreateActivity_contacts_no_members">Ve vaší skupině musí být alespoň jeden kontakt.</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Jeden z členů Vaší skupiny má číslo, které se nedaří správně zpracovat. Prosím opravte jej nebo odstraňte a zkuste znovu.</string>
   <string name="GroupCreateActivity_avatar_content_description">Obrázek skupiny</string>
@@ -373,9 +373,9 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Mažu zprávy...</string>
   <string name="MediaOverviewActivity_Documents">Dokumenty</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Probíhá RAAPP Messenger volání</string>
-  <string name="NotificationBarManager__establishing_signal_call">Navazuji RAAPP Messenger hovor</string>
-  <string name="NotificationBarManager__incoming_signal_call">Příchozí RAAPP Messenger hovor</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Probíhá RAAPP volání</string>
+  <string name="NotificationBarManager__establishing_signal_call">Navazuji RAAPP hovor</string>
+  <string name="NotificationBarManager__incoming_signal_call">Příchozí RAAPP hovor</string>
   <string name="NotificationBarManager__deny_call">Zakázat volání</string>
   <string name="NotificationBarManager__answer_call">Přijmout hovor</string>
   <string name="NotificationBarManager__end_call">Ukončit hovor</string>
@@ -426,7 +426,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Omlouváme se, ale máte provázáno příliš mnoho zařízení, pokuste se některé odpojit</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Omlouváme se, ale toto není platný QR kód pro provázání zařízení</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Provázat zařízení Signal?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Zdá se, že se snažíte propojit zařízení RAAPP Messenger použitím jiné skenovací aplikace. Pro vaši ochranu, prosím oskenujete kód ještě jednou z aplikace Signal.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Zdá se, že se snažíte propojit zařízení RAAPP použitím jiné skenovací aplikace. Pro vaši ochranu, prosím oskenujete kód ještě jednou z aplikace Signal.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signál potřebuje oprávnění pro přístup k fotoaparátu aby skenovat QR kódy, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nelze skenovat QR kód bez přístupu k fotoaparátu.</string>
   <!--ExpirationDialog-->
@@ -553,10 +553,10 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="UnverifiedSendDialog_send">Odeslat</string>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Váš kontakt používá starou verzi aplikace Signal. Před kontrolou bezpečnostních kódů jej prosím požádejte, aby si aplikaci aktualizoval.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Váš kontakt používá novější verzi RAAPP Messenger s nekompatibilním formátem QR kódu. Prosím, aktualizujte svou verzi, abyste mohli QR kódy porovnat.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Váš kontakt používá novější verzi RAAPP s nekompatibilním formátem QR kódu. Prosím, aktualizujte svou verzi, abyste mohli QR kódy porovnat.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Naskenovaný QR kód nemá správný formát bezpečnostního kódu. Prosím naskenujte QR kód znovu.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Sdílet bezpečnostní kód prostřednictvím ...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Vaš RAAPP Messenger bezpečnostní kód:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Vaš RAAPP bezpečnostní kód:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Zdá se, že nemáte žádnou aplikaci pro sdílení.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Ve schránce nebyl nalezen žádný bezpečnostní kód pro porovnání.</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signál potřebuje oprávnění pro přístup k fotoaparátu aby skenovat QR kódy, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
@@ -616,7 +616,7 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="NotificationChannel_group_messages">Zprávy</string>
   <string name="NotificationChannel_missing_display_name">Neznámý</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rychlá odpověď není dostupná, pokud je RAAPP Messenger uzamčen!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rychlá odpověď není dostupná, pokud je RAAPP uzamčen!</string>
   <string name="QuickResponseService_problem_sending_message">Problém při odesílání zprávy!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Uložit do %s</string>
@@ -690,7 +690,7 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="conversation_activity__attachment_thumbnail">Připojený náhled</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vytvořit rychlou přílohu kamerou</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Nahrát a poslat zvukovou přílohu</string>
-  <string name="conversation_activity__enable_signal_for_sms">Povolit aplikaci RAAPP Messenger pro SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Povolit aplikaci RAAPP pro SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">PŘESUŇTE PRO ZRUŠENÍ</string>
   <!--conversation_item-->
@@ -948,8 +948,8 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="preferences__sms_mms">SMS a MMS</string>
   <string name="preferences__pref_all_sms_title">Přijímat všechny SMS</string>
   <string name="preferences__pref_all_mms_title">Přijímat všechny MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Použít RAAPP Messenger pro všechny příchozí textové zprávy</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Použít RAAPP Messenger pro všechny příchozí multimediální zprávy</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Použít RAAPP pro všechny příchozí textové zprávy</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Použít RAAPP pro všechny příchozí multimediální zprávy</string>
   <string name="preferences__pref_enter_sends_title">Klávesa Enter odesílá</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Stisk tlačítka \'enter\' na klávesnici odešle zprávu</string>
   <string name="preferences__choose_identity">Zvolit identitu</string>
@@ -960,7 +960,7 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Zamknout obrazovky a upozornění heslem</string>
   <string name="preferences__screen_security">Zabezpečení obrazovky</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Zablokovat náhled v seznamu aplikací</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automaticky zamknout RAAPP Messenger po určité době neaktivity</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automaticky zamknout RAAPP po určité době neaktivity</string>
   <string name="preferences__inactivity_timeout_passphrase">Heslo po době neaktivity</string>
   <string name="preferences__inactivity_timeout_interval">Interval neaktivity</string>
   <string name="preferences__notifications">Upozornění</string>
@@ -1029,7 +1029,7 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="preferences_chats__media_auto_download">Automatické stahování multimédií</string>
   <string name="preferences_chats__message_trimming">Ořezávání práv</string>
   <string name="preferences_advanced__use_system_emoji">Použít systémové smajlíky</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Zakázat použití interních smajlíků aplikace RAAPP Messenger</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Zakázat použití interních smajlíků aplikace RAAPP</string>
   <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Přenášet všechna volání přes servery Signal, aby nedošlo k odhalení vaší IP adresy volanému. Povolením dojde ke zhoršení kvality hovoru.</string>
   <string name="preferences_advanced__always_relay_calls">Vždy předávat hovory</string>
   <string name="preferences_app_protection__app_access">Přístup aplikace</string>
@@ -1117,21 +1117,21 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Zkopírovat do schránky</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Porovnat se schránkou</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Vaše verze aplikace RAAPP Messenger je zastaralá</string>
+  <string name="reminder_header_outdated_build">Vaše verze aplikace RAAPP je zastaralá</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Platnost vaší verze aplikace RAAPP Messenger skončí za %d den. Dotykem aktualizujte na nejnovější verzi.</item>
-    <item quantity="few">Platnost vaší verze aplikace RAAPP Messenger skončí za %d dny. Dotykem aktualizujte na nejnovější verzi.</item>
-    <item quantity="many">Platnost vaší verze aplikace RAAPP Messenger skončí za %d dnů. Dotykem aktualizujte na nejnovější verzi.</item>
-    <item quantity="other">Platnost vaší verze aplikace RAAPP Messenger skončí za %d dnů. Dotykem aktualizujte na nejnovější verzi.</item>
+    <item quantity="one">Platnost vaší verze aplikace RAAPP skončí za %d den. Dotykem aktualizujte na nejnovější verzi.</item>
+    <item quantity="few">Platnost vaší verze aplikace RAAPP skončí za %d dny. Dotykem aktualizujte na nejnovější verzi.</item>
+    <item quantity="many">Platnost vaší verze aplikace RAAPP skončí za %d dnů. Dotykem aktualizujte na nejnovější verzi.</item>
+    <item quantity="other">Platnost vaší verze aplikace RAAPP skončí za %d dnů. Dotykem aktualizujte na nejnovější verzi.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">Platnost vaší verze aplikace RAAPP Messenger skončí dnes. Dotykem aktualizujte na nejnovější verzi.</string>
-  <string name="reminder_header_expired_build">Platnost vaší verze aplikace RAAPP Messenger vypršela!</string>
+  <string name="reminder_header_outdated_build_details_today">Platnost vaší verze aplikace RAAPP skončí dnes. Dotykem aktualizujte na nejnovější verzi.</string>
+  <string name="reminder_header_expired_build">Platnost vaší verze aplikace RAAPP vypršela!</string>
   <string name="reminder_header_expired_build_details">Zprávy nemohou být úspěšně odesílány. Dotykem aktualizujte na nejnovější verzi.</string>
   <string name="reminder_header_sms_default_title">Nastavit jako výchozí aplikaci pro SMS</string>
-  <string name="reminder_header_sms_default_text">Dotykem nastavíte RAAPP Messenger jako výchozí SMS aplikaci</string>
+  <string name="reminder_header_sms_default_text">Dotykem nastavíte RAAPP jako výchozí SMS aplikaci</string>
   <string name="reminder_header_sms_import_title">Importovat SMS ze systému</string>
   <string name="reminder_header_sms_import_text">Klikněte pro zkopírování SMS z telefonu do šifrované databáze Signal.</string>
-  <string name="reminder_header_push_title">Povolit RAAPP Messenger zprávy a volání</string>
+  <string name="reminder_header_push_title">Povolit RAAPP zprávy a volání</string>
   <string name="reminder_header_push_text">Lepší zážitky z komunikace.</string>
   <string name="reminder_header_invite_title">Pozvat do Signalu</string>
   <string name="reminder_header_invite_text">Posuňte vaši konverzaci s %1$s na vyšší úroveň.</string>
@@ -1164,7 +1164,7 @@ Obdržen požadavek na výměnu klíčů pro neplatnou verzi protokolu.</string>
   <string name="Permissions_not_now">Teď ne</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signál potřebuje oprávnění pro přístup ke kontaktům aby je mohl  vyhledávat, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Kontakty\", </string>
   <string name="conversation_activity__enable_signal_messages">POVOLIT ZPRÁVY</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Přesouvám RAAPP Messenger databázi</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Přesouvám RAAPP databázi</string>
   <string name="PushDecryptJob_new_locked_message">Nová uzamčená zpráva</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Pro zobrazení čekajících zpráv odemkněte</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Odemknout Signal, aby se dokončila akualizace</string>

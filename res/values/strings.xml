@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RAAPP Messenger</string>
+    <string name="app_name">RAAPP</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="delete">Delete</string>
@@ -23,17 +23,17 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Delete</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Disable passphrase?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">This will permanently unlock RAAPP Messenger and message notifications.</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">This will permanently unlock RAAPP and message notifications.</string>
     <string name="ApplicationPreferencesActivity_disable">Disable</string>
     <string name="ApplicationPreferencesActivity_unregistering">Unregistering</string>
-    <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Unregistering from RAAPP Messenger messages and calls...</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Disable RAAPP Messenger messages and calls?</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Disable RAAPP Messenger messages and calls by unregistering from the server. You will need to re-register your phone number to use them again in the future.</string>
+    <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Unregistering from RAAPP messages and calls...</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Disable RAAPP messages and calls?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Disable RAAPP messages and calls by unregistering from the server. You will need to re-register your phone number to use them again in the future.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Error connecting to server!</string>
     <string name="ApplicationPreferencesActivity_sms_enabled">SMS Enabled</string>
     <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Touch to change your default SMS app</string>
     <string name="ApplicationPreferencesActivity_sms_disabled">SMS Disabled</string>
-    <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Touch to make RAAPP Messenger your default SMS app</string>
+    <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Touch to make RAAPP your default SMS app</string>
     <string name="ApplicationPreferencesActivity_on">on</string>
     <string name="ApplicationPreferencesActivity_On">On</string>
     <string name="ApplicationPreferencesActivity_off">off</string>
@@ -116,7 +116,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Send failed, tap for unsecured fallback</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Fallback to unencrypted SMS?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Fallback to unencrypted MMS?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">This message will <b>not</b> be encrypted because the recipient is no longer a RAAPP Messenger user.\n\nSend unsecured message?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">This message will <b>not</b> be encrypted because the recipient is no longer a RAAPP user.\n\nSend unsecured message?</string>
     <string name="ConversationItem_unable_to_open_media">Can\'t find an app able to open this media.</string>
     <string name="ConversationItem_copied_text">Copied %s</string>
     <string name="ConversationItem_from_s">from %s</string>
@@ -143,7 +143,7 @@
     <string name="ConversationActivity_transport_insecure_sms">Insecure SMS</string>
     <string name="ConversationActivity_transport_insecure_mms">Insecure MMS</string>
     <string name="ConversationActivity_transport_signal">Signal</string>
-    <string name="ConversationActivity_lets_switch_to_signal">Let\'s switch to RAAPP Messenger %1$s</string>
+    <string name="ConversationActivity_lets_switch_to_signal">Let\'s switch to RAAPP %1$s</string>
     <string name="ConversationActivity_lets_use_this_to_chat">Let\'s use this to chat: %1$s</string>
     <string name="ConversationActivity_error_leaving_group">Error leaving group</string>
     <string name="ConversationActivity_specify_recipient">Please choose a contact</string>
@@ -155,11 +155,11 @@
     <string name="ConversationActivity_unable_to_record_audio">Unable to record audio!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">There is no app available to handle this link on your device.</string>
 
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">To send audio messages, allow RAAPP Messenger access to your microphone.</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">To send audio messages, allow RAAPP access to your microphone.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal requires the Microphone permission in order to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
-    <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">To call %s, RAAPP Messenger needs access to your microphone and camera.</string>
+    <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">To call %s, RAAPP needs access to your microphone and camera.</string>
     <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal needs the Microphone and Camera permissions in order to call %s, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">To capture photos and video, allow RAAPP Messenger access to the camera.</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">To capture photos and video, allow RAAPP access to the camera.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal needs the Camera permission to take photos or video, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal needs Camera permissions to take photos or video</string>
 
@@ -283,7 +283,7 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimize for missing Play Services</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">This device does not support Play Services. Tap to disable system battery optimizations that prevent RAAPP Messenger from retrieving messages while inactive.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">This device does not support Play Services. Tap to disable system battery optimizations that prevent RAAPP from retrieving messages while inactive.</string>
 
     <!-- ShareActivity -->
     <string name="ShareActivity_share_with">Share with</string>
@@ -296,7 +296,7 @@
     <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure and RedPhone are now one app: Signal. Tap to explore.</string>
 
     <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Say hello to secure video calls.</string>
-    <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal now supports secure video calling. Just start a RAAPP Messenger call like normal, tap the video button, and wave hello.</string>
+    <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal now supports secure video calling. Just start a RAAPP call like normal, tap the video button, and wave hello.</string>
     <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal now supports secure video calling.</string>
     <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal now supports secure video calling. Tap to explore.</string>
 
@@ -305,8 +305,8 @@
     <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal profiles are here</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent RAAPP Messenger communication failure!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal was unable to register with Google Play Services. RAAPP Messenger messages and calls have been disabled, please try re-registering in Settings &gt; Advanced.</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent RAAPP communication failure!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal was unable to register with Google Play Services. RAAPP messages and calls have been disabled, please try re-registering in Settings &gt; Advanced.</string>
 
 
     <!-- GiphyActivity -->
@@ -321,15 +321,15 @@
     <string name="GroupCreateActivity_actionbar_edit_title">Edit group</string>
     <string name="GroupCreateActivity_group_name_hint">Group name</string>
     <string name="GroupCreateActivity_actionbar_mms_title">New MMS group</string>
-    <string name="GroupCreateActivity_contacts_dont_support_push">You have selected a contact that doesn\'t support RAAPP Messenger groups, so this group will be MMS.</string>
-    <string name="GroupCreateActivity_youre_not_registered_for_signal">You\'re not registered for RAAPP Messenger messages and calls, so RAAPP Messenger groups are disabled. Please try registering in Settings &gt; Advanced.</string>
+    <string name="GroupCreateActivity_contacts_dont_support_push">You have selected a contact that doesn\'t support RAAPP groups, so this group will be MMS.</string>
+    <string name="GroupCreateActivity_youre_not_registered_for_signal">You\'re not registered for RAAPP messages and calls, so RAAPP groups are disabled. Please try registering in Settings &gt; Advanced.</string>
     <string name="GroupCreateActivity_contacts_no_members">You need at least one person in your group!</string>
     <string name="GroupCreateActivity_contacts_invalid_number">One of the members of your group has a number that can\'t be read correctly. Please fix or remove that contact and try again.</string>
     <string name="GroupCreateActivity_avatar_content_description">Group avatar</string>
     <string name="GroupCreateActivity_menu_apply_button">Apply</string>
     <string name="GroupCreateActivity_creating_group">Creating %1$s&#8230;</string>
     <string name="GroupCreateActivity_updating_group">Updating %1$s...</string>
-    <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Couldn\'t add %1$s because they\'re not a RAAPP Messenger user.</string>
+    <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Couldn\'t add %1$s because they\'re not a RAAPP user.</string>
     <string name="GroupCreateActivity_loading_group_details">Loading group details...</string>
     <string name="GroupCreateActivity_youre_already_in_the_group">You\'re already in the group.</string>
 
@@ -391,8 +391,8 @@
 
     <!--- NotificationBarManager -->
     <string name="NotificationBarManager_signal_call_in_progress">Signal call in progress</string>
-    <string name="NotificationBarManager__establishing_signal_call">Establishing RAAPP Messenger call</string>
-    <string name="NotificationBarManager__incoming_signal_call">Incoming RAAPP Messenger call</string>
+    <string name="NotificationBarManager__establishing_signal_call">Establishing RAAPP call</string>
+    <string name="NotificationBarManager__incoming_signal_call">Incoming RAAPP call</string>
     <string name="NotificationBarManager__deny_call">Deny call</string>
     <string name="NotificationBarManager__answer_call">Answer call</string>
     <string name="NotificationBarManager__end_call">End call</string>
@@ -404,7 +404,7 @@
     <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Error downloading MMS message, tap to retry</string>
 
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Received a message encrypted using an old version of RAAPP Messenger that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Received a message encrypted using an old version of RAAPP that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
     <string name="MessageRecord_left_group">You have left the group.</string>
     <string name="MessageRecord_you_updated_group">You updated the group.</string>
     <string name="MessageRecord_you_called">You called</string>
@@ -448,8 +448,8 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">Invalid QR code.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sorry, you have too many devices linked already, try removing some</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Sorry, this is not a valid device link QR code.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Link a RAAPP Messenger device?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">It looks like you\'re trying to link a RAAPP Messenger device using a 3rd party scanner.  For your protection, please scan the code again from within Signal.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">Link a RAAPP device?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">It looks like you\'re trying to link a RAAPP device using a 3rd party scanner.  For your protection, please scan the code again from within Signal.</string>
 
     <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Unable to scan a QR code without the Camera permission</string>
@@ -526,7 +526,7 @@
     <string name="RegistrationActivity_less_information">Less information</string>
     <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal needs access to your contacts and media in order to connect with friends, exchange messages, and make secure calls</string>
     <string name="RegistrationActivity_unable_to_connect_to_service">Unable to connect to service. Please check network connection and try again.</string>
-    <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">To easily verify your phone number, RAAPP Messenger can automatically detect your verification code if you allow RAAPP Messenger to view SMS messages.</string>
+    <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">To easily verify your phone number, RAAPP can automatically detect your verification code if you allow RAAPP to view SMS messages.</string>
 
     <!-- ScribbleActivity -->
     <string name="ScribbleActivity_save_failure">Failed to save image changes</string>
@@ -584,7 +584,7 @@
 
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Signal update</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A new version of RAAPP Messenger is available, tap to update</string>
+    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A new version of RAAPP is available, tap to update</string>
 
     <!-- UnknownSenderView -->
     <string name="UnknownSenderView_block_s">Block %s?</string>
@@ -604,10 +604,10 @@
 
     <!-- VerifyIdentityActivity -->
     <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Your contact is running an old version of Signal. Please ask them to update before verifying your safety number.</string>
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Your contact is running a newer version of RAAPP Messenger with an incompatible QR code format. Please update to compare.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Your contact is running a newer version of RAAPP with an incompatible QR code format. Please update to compare.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">The scanned QR code is not a correctly formatted safety number verification code. Please try scanning again.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Share safety number via...</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">Our RAAPP Messenger safety number:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">Our RAAPP safety number:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">It looks like you don\'t have any apps to share to.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">No safety number to compare was found in the clipboard</string>
     <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
@@ -660,8 +660,8 @@
     <string name="MessageNotifier_mark_read">Mark read</string>
     <string name="MessageNotifier_media_message">Media message</string>
     <string name="MessageNotifier_reply">Reply</string>
-    <string name="MessageNotifier_pending_signal_messages">Pending RAAPP Messenger messages</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">You have pending RAAPP Messenger messages, tap to open and retrieve</string>
+    <string name="MessageNotifier_pending_signal_messages">Pending RAAPP messages</string>
+    <string name="MessageNotifier_you_have_pending_signal_messages">You have pending RAAPP messages, tap to open and retrieve</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
 
@@ -677,7 +677,7 @@
     <string name="NotificationChannel_missing_display_name">Unknown</string>
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Quick response unavailable when RAAPP Messenger is locked!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Quick response unavailable when RAAPP is locked!</string>
     <string name="QuickResponseService_problem_sending_message">Problem sending message!</string>
 
     <!-- SaveAttachmentTask -->
@@ -696,13 +696,13 @@
 
     <!-- UnauthorizedReminder -->
     <string name="UnauthorizedReminder_device_no_longer_registered">Device no longer registered</string>
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">This is likely because you registered your phone number with RAAPP Messenger on a different device. Tap to re-register.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">This is likely because you registered your phone number with RAAPP on a different device. Tap to re-register.</string>
 
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Error playing video</string>
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">To answer the call from %s, give RAAPP Messenger access to your microphone.</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">To answer the call from %s, give RAAPP access to your microphone.</string>
     <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal requires Microphone and Camera permissions in order to make or receive calls, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
 
     <!-- WebRtcCallScreen -->
@@ -770,7 +770,7 @@
     <string name="conversation_activity__attachment_thumbnail">Attachment Thumbnail</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle quick camera attachment drawer</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Record and send audio attachment</string>
-    <string name="conversation_activity__enable_signal_for_sms">Enable RAAPP Messenger for SMS</string>
+    <string name="conversation_activity__enable_signal_for_sms">Enable RAAPP for SMS</string>
 
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">SLIDE TO CANCEL</string>
@@ -1074,8 +1074,8 @@
     <string name="preferences__sms_mms">SMS and MMS</string>
     <string name="preferences__pref_all_sms_title">Receive all SMS</string>
     <string name="preferences__pref_all_mms_title">Receive all MMS</string>
-    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Use RAAPP Messenger for all incoming text messages</string>
-    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Use RAAPP Messenger for all incoming multimedia messages</string>
+    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Use RAAPP for all incoming text messages</string>
+    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Use RAAPP for all incoming multimedia messages</string>
     <string name="preferences__pref_enter_sends_title">Enter key sends</string>
     <string name="preferences__pressing_the_enter_key_will_send_text_messages">Pressing the Enter key will send text messages</string>
     <string name="preferences__choose_identity">Choose identity</string>
@@ -1086,7 +1086,7 @@
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lock screen and notifications with a passphrase</string>
     <string name="preferences__screen_security">Screen security</string>
     <string name="preferences__disable_screen_security_to_allow_screen_shots">Block screenshots in the recents list and inside the app</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Auto-lock RAAPP Messenger after a specified time interval of inactivity</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Auto-lock RAAPP after a specified time interval of inactivity</string>
     <string name="preferences__inactivity_timeout_passphrase">Inactivity timeout passphrase</string>
     <string name="preferences__inactivity_timeout_interval">Inactivity timeout interval</string>
     <string name="preferences__notifications">Notifications</string>
@@ -1140,7 +1140,7 @@
     <string name="preferences__default">Default</string>
     <string name="preferences__language">Language</string>
     <string name="preferences__signal_messages_and_calls">Signal messages and calls</string>
-    <string name="preferences__free_private_messages_and_calls">Free private messages and calls to RAAPP Messenger users</string>
+    <string name="preferences__free_private_messages_and_calls">Free private messages and calls to RAAPP users</string>
     <string name="preferences__submit_debug_log">Submit debug log</string>
     <string name="preferences__support_wifi_calling">\'WiFi Calling\' compatibility mode</string>
     <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Enable if your device uses SMS/MMS delivery over WiFi (only enable when \'WiFi Calling\' is enabled on your device)</string>
@@ -1156,7 +1156,7 @@
     <string name="preferences_chats__message_trimming">Message trimming</string>
     <string name="preferences_advanced__use_system_emoji">Use system emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disable Signal\'s built-in emoji support</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Relay all calls through the RAAPP Messenger server to avoid revealing your IP address to your contact. Enabling will reduce call quality.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Relay all calls through the RAAPP server to avoid revealing your IP address to your contact. Enabling will reduce call quality.</string>
     <string name="preferences_advanced__always_relay_calls">Always relay calls</string>
     <string name="preferences_app_protection__app_access">App access</string>
     <string name="preferences_app_protection__communication">Communication</string>
@@ -1269,19 +1269,19 @@
     <string name="verify_display_fragment_context_menu__compare_with_clipboard">Compare with clipboard</string>
 
     <!-- reminder_header -->
-    <string name="reminder_header_outdated_build">Your version of RAAPP Messenger is outdated</string>
+    <string name="reminder_header_outdated_build">Your version of RAAPP is outdated</string>
     <plurals name="reminder_header_outdated_build_details">
-        <item quantity="one">Your version of RAAPP Messenger will expire in %d day. Tap to update to the most recent version.</item>
-        <item quantity="other">Your version of RAAPP Messenger will expire in %d days. Tap to update to the most recent version.</item>
+        <item quantity="one">Your version of RAAPP will expire in %d day. Tap to update to the most recent version.</item>
+        <item quantity="other">Your version of RAAPP will expire in %d days. Tap to update to the most recent version.</item>
     </plurals>
-    <string name="reminder_header_outdated_build_details_today">Your version of RAAPP Messenger will expire today. Tap to update to the most recent version.</string>
-    <string name="reminder_header_expired_build">Your version of RAAPP Messenger has expired!</string>
+    <string name="reminder_header_outdated_build_details_today">Your version of RAAPP will expire today. Tap to update to the most recent version.</string>
+    <string name="reminder_header_expired_build">Your version of RAAPP has expired!</string>
     <string name="reminder_header_expired_build_details">Messages will no longer send successfully. Tap to update to the most recent version.</string>
     <string name="reminder_header_sms_default_title">Use as default SMS app</string>
-    <string name="reminder_header_sms_default_text">Tap to make RAAPP Messenger your default SMS app.</string>
+    <string name="reminder_header_sms_default_text">Tap to make RAAPP your default SMS app.</string>
     <string name="reminder_header_sms_import_title">Import system SMS</string>
     <string name="reminder_header_sms_import_text">Tap to copy your phone\'s SMS messages into Signal\'s encrypted database.</string>
-    <string name="reminder_header_push_title">Enable RAAPP Messenger messages and calls</string>
+    <string name="reminder_header_push_title">Enable RAAPP messages and calls</string>
     <string name="reminder_header_push_text">Upgrade your communication experience.</string>
     <string name="reminder_header_invite_title">Invite to Signal</string>
     <string name="reminder_header_invite_text">Take your conversation with %1$s to the next level.</string>
@@ -1319,11 +1319,11 @@
     <string name="Permissions_not_now">Not now</string>
     <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal needs Contacts permission in order to search your contacts, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Contacts\".</string>
     <string name="conversation_activity__enable_signal_messages">ENABLE SIGNAL MESSAGES</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrating RAAPP Messenger database</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrating RAAPP database</string>
     <string name="PushDecryptJob_new_locked_message">New locked message</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">Unlock to view pending messages</string>
     <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Unlock to complete update</string>
-    <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Please unlock RAAPP Messenger to complete update</string>
+    <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Please unlock RAAPP to complete update</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Backup passphrase</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups will be saved to external storage and encrypted with the passphrase below. You must have this passphrase in order to restore a backup.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">I have written down this passphrase. Without it, I will be unable to restore a backup.</string>
@@ -1363,7 +1363,7 @@
     <string name="BackupUtil_never">Never</string>
     <string name="BackupUtil_unknown">Unknown</string>
     <string name="preferences_app_protection__screen_lock">Screen lock</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lock RAAPP Messenger access with Android screen lock or fingerprint</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lock RAAPP access with Android screen lock or fingerprint</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Screen lock inactivity timeout</string>
     <string name="AppProtectionPreferenceFragment_none">None</string>
     <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">The Registration Lock PIN is not the same as the SMS verification code you just received. Please enter the PIN you previously configured in the application.</string>
@@ -1374,7 +1374,7 @@
     <string name="registration_lock_dialog_view__confirm_pin">Confirm PIN</string>
     <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Enter your Registration Lock PIN</string>
     <string name="registration_lock_reminder_view__enter_pin">Enter PIN</string>
-    <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Enable a Registration Lock PIN that will be required to register this phone number with RAAPP Messenger again.</string>
+    <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Enable a Registration Lock PIN that will be required to register this phone number with RAAPP again.</string>
     <string name="preferences_app_protection__registration_lock_pin">Registration Lock PIN</string>
     <string name="preferences_app_protection__registration_lock">Registration Lock</string>
     <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">You must enter your Registration Lock PIN</string>
@@ -1386,10 +1386,10 @@
     <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Registration of this phone number will be possible without your Registration Lock PIN after 7 days have passed since this phone number was last active on Signal. You have %d days remaining.</string>
     <string name="RegistrationActivity_registration_lock_pin">Registration lock PIN</string>
     <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">This phone number has Registration Lock enabled. Please enter the Registration Lock PIN.</string>
-    <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registration Lock is enabled for your phone number. To help you memorize your Registration Lock PIN, RAAPP Messenger will periodically ask you to confirm it.</string>
+    <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registration Lock is enabled for your phone number. To help you memorize your Registration Lock PIN, RAAPP will periodically ask you to confirm it.</string>
     <string name="RegistrationLockDialog_i_forgot_my_pin">I forgot my PIN.</string>
     <string name="RegistrationLockDialog_forgotten_pin">Forgotten PIN?</string>
-    <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registration Lock helps protect your phone number from unauthorized registration attempts. This feature can be disabled at any time in your RAAPP Messenger privacy settings</string>
+    <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registration Lock helps protect your phone number from unauthorized registration attempts. This feature can be disabled at any time in your RAAPP privacy settings</string>
     <string name="RegistrationLockDialog_registration_lock">Registration Lock</string>
     <string name="RegistrationLockDialog_enable">Enable</string>
     <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">The Registration Lock PIN must be at least 4 digits.</string>

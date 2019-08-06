@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAAPP Messenger</string>
+  <string name="app_name">RAAPP</string>
   <string name="yes">Tá</string>
   <string name="no">Níl</string>
   <string name="delete">Scrios</string>
@@ -20,17 +20,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Scrios</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Díchumasaigh an nath faire?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Baineann sé seo glas de RAAPP Messenger agus de fógraí teachtaireachta go deo.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Baineann sé seo glas de RAAPP agus de fógraí teachtaireachta go deo.</string>
   <string name="ApplicationPreferencesActivity_disable">Díchumasaigh</string>
   <string name="ApplicationPreferencesActivity_unregistering">Ag díchlárú</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Ag díchlárú ón teachtaireachtaí agus glaonna RAAPP Messenger ...</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Ag díchlárú ón teachtaireachtaí agus glaonna RAAPP ...</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Díchumasiagh teachtaireachtaí agus glaonna Signal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Díchumasaigh teachtaireachtaí agus glaonna RAAPP Messenger trí dhíclárú ón bhfreastalaí. Ba chóir duit do uimhir fóin a athchlárú chun iad a úsáid arís sa todhchaí.</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Díchumasaigh teachtaireachtaí agus glaonna RAAPP trí dhíclárú ón bhfreastalaí. Ba chóir duit do uimhir fóin a athchlárú chun iad a úsáid arís sa todhchaí.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Tharla botún ag déanamh teagmháil leis an bhfreastalaí!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS cumasaithe</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Tadhaill chun do aip SMS réamhshocrú a athrú</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS díchumasaithe</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tadhaill chun RAAPP Messenger a úsáid mar aip SMS réamhshocrú</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Tadhaill chun RAAPP a úsáid mar aip SMS réamhshocrú</string>
   <string name="ApplicationPreferencesActivity_on">ar siúl</string>
   <string name="ApplicationPreferencesActivity_On">Ar siúl</string>
   <string name="ApplicationPreferencesActivity_off">as</string>
@@ -45,9 +45,9 @@
   <string name="DraftDatabase_Draft_location_snippet">(suíomh)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Ní féidir teacht ar fheidhmchláirín chun meán a roghnú.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Tá gá ag RAAPP Messenger le cead teagmhálaí chun eolas teagmhálaí a cheangail, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Tá gá ag RAAPP Messenger le cead áite i gcomhair do áit a cheangail, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Áit\". </string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Tá gá ag RAAPP Messenger le cead cheamara chun griangraif a thógáil, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\". </string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Tá gá ag RAAPP le cead teagmhálaí chun eolas teagmhálaí a cheangail, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Tá gá ag RAAPP le cead áite i gcomhair do áit a cheangail, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Áit\". </string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Tá gá ag RAAPP le cead cheamara chun griangraif a thógáil, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\". </string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Tharla botún ag seinm na fuaime!</string>
   <!--BlockedContactsActivity-->
@@ -71,7 +71,7 @@
   <string name="ContactsCursorLoader_contacts">Teagmhálaithe</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Teachtaireacht %s</string>
-  <string name="ContactsDatabase_signal_call_s">Glao RAAPP Messenger %s</string>
+  <string name="ContactsDatabase_signal_call_s">Glao RAAPP %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_family_name">Sloinne</string>
   <!--ContactShareEditActivity-->
@@ -81,7 +81,7 @@
   <string name="ContactShareEditActivity_type_missing">Eile</string>
   <!--ConversationItem-->
   <string name="ConversationItem_group_action_left">D\'fhág %1$s an bhaicle.</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message"><b>Ní</b> bheidh an teachtaireacht seo criptithe mar níl an faighteoir sa lucht RAAPP Messenger a thuilleadh.\n\nSeol teachtaireacht neamhcriptithe?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message"><b>Ní</b> bheidh an teachtaireacht seo criptithe mar níl an faighteoir sa lucht RAAPP a thuilleadh.\n\nSeol teachtaireacht neamhcriptithe?</string>
   <string name="ConversationItem_unable_to_open_media">Ní féidir feidhmchláirín atá in ann an meán seo a oscailt a aimsiú.</string>
   <string name="ConversationItem_copied_text">Macasamhlaíodh %s </string>
   <string name="ConversationItem_from_s">ó %s</string>
@@ -105,7 +105,7 @@
   <string name="ConversationActivity_transport_insecure_sms">SMS easlán</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS easlán</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Téimís i muinín RAAPP Messenger %1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Téimís i muinín RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Déanaimís comhrá ar seo: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Tharla botún ag fágáil an bhaicle</string>
   <string name="ConversationActivity_specify_recipient">Roghnaigh teagmhálaí</string>
@@ -116,13 +116,13 @@
   <string name="ConversationActivity_quick_camera_unavailable">Níl an grianghrafadán ar fáil</string>
   <string name="ConversationActivity_unable_to_record_audio">Ní féidir fuaim a thaifeadadh!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Níl aon fheidhmchláirín ar fáil ar do ghléas chun an nasc seo a láimhseáil.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Ceadaigh RAAPP Messenger do mhicreafón a úsáid chun teachtaireachtaí fuaime a sheoladh.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Tá gá ag RAAPP Messenger le cead micreafóin chun teachtaireachtaí fuaime a sheoladh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Micreafón\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Chun %s a ghlaoigh, is gá le RAAPP Messenger rochtain ar do mhicreafón agus do cheamara.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Tá gá ag RAAPP Messenger le cead micreafóin agus cheamara chun %s a ghlaoigh, ach ní ceadaítear iad go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Micreafón\" agus \"Ceamara\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ceadaigh RAAPP Messenger do cheamara a úsáid chun grianghraif a thógáil nó físéan a dhéanamh.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Tá gá ag RAAPP Messenger le cead cheamara chun griangraif a thógáil nó físéan a dhéanamh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Tá gá ag RAAPP Messenger le ceadanna cheamara chun griangraif a thógáil nó físéan a dhéanamh.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Ceadaigh RAAPP do mhicreafón a úsáid chun teachtaireachtaí fuaime a sheoladh.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Tá gá ag RAAPP le cead micreafóin chun teachtaireachtaí fuaime a sheoladh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Micreafón\".</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Chun %s a ghlaoigh, is gá le RAAPP rochtain ar do mhicreafón agus do cheamara.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Tá gá ag RAAPP le cead micreafóin agus cheamara chun %s a ghlaoigh, ach ní ceadaítear iad go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Micreafón\" agus \"Ceamara\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ceadaigh RAAPP do cheamara a úsáid chun grianghraif a thógáil nó físéan a dhéanamh.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Tá gá ag RAAPP le cead cheamara chun griangraif a thógáil nó físéan a dhéanamh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Tá gá ag RAAPP le ceadanna cheamara chun griangraif a thógáil nó físéan a dhéanamh.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -208,17 +208,17 @@
   <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Fáilte go Signal!</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">Is an teachtaire príobháideach céanna anois iad TextSecure agus RedPhone le gach cúrsa: Signal.</string>
   <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Fáilte go Signal</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">Is RAAPP Messenger anois é TextSecure.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">Is RAAPP anois é TextSecure.</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">Is an feidhmchláirín céanna anois iad TextSecure agus RedPhone: Signal. Brúigh chun taiscéal.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Abair hóra le físghlaonna slána.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Tugann RAAPP Messenger tacaíocht ar físghlaonna slána anois. Ní mór ach glao RAAPP Messenger a thosnú mar is gnáth, cnag an cnaipe físe, agus croith do lámh.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Tugann RAAPP Messenger tacaíocht ar físghlaonna slána anois.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Tugann RAAPP Messenger tacaíocht ar físghlaonna slána anois. Cnag chun taiscéal.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Tugann RAAPP tacaíocht ar físghlaonna slána anois. Ní mór ach glao RAAPP a thosnú mar is gnáth, cnag an cnaipe físe, agus croith do lámh.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Tugann RAAPP tacaíocht ar físghlaonna slána anois.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Tugann RAAPP tacaíocht ar físghlaonna slána anois. Cnag chun taiscéal.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">An bhfuil tú réidh do do ghrianghraf gar-amhairc?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Is féidir do ghrianghraf próifíle agus do aimn a chomhroinn le cairde anois le Signal.</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Tá próifíl RAAPP Messenger anseo</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Tá próifíl RAAPP anseo</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Fadhb cumarsáid RAAPP Messenger buan!</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Fadhb cumarsáid RAAPP buan!</string>
   <!--GiphyActivity-->
   <!--GiphyFragmentPageAdapter-->
   <string name="GiphyFragmentPagerAdapter_gifs">GIFeanna</string>
@@ -235,7 +235,7 @@
   <string name="GroupCreateActivity_menu_apply_button">Cuir i bhfeidhm é</string>
   <string name="GroupCreateActivity_creating_group">Ag cruthú %1$s...</string>
   <string name="GroupCreateActivity_updating_group">Ag nuashonrú %1$s...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Ní féidir %1$s a cuir leis mar ní bhall den lucht RAAPP Messenger é.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Ní féidir %1$s a cuir leis mar ní bhall den lucht RAAPP é.</string>
   <string name="GroupCreateActivity_loading_group_details">Ag luchtú sonraí na baicle...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Tá tú sa bhaicle cheana féin.</string>
   <!--GroupShareProfileView-->
@@ -275,9 +275,9 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Ag scriosadh teachtaireachtaí...</string>
   <string name="MediaOverviewActivity_Documents">Cáipéisí</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Glao RAAPP Messenger ar siúl</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Glao RAAPP ar siúl</string>
   <string name="NotificationBarManager__establishing_signal_call">Ag cruthú glao Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Glao RAAPP Messenger isteach</string>
+  <string name="NotificationBarManager__incoming_signal_call">Glao RAAPP isteach</string>
   <string name="NotificationBarManager__deny_call">Diúltaigh an glao</string>
   <string name="NotificationBarManager__answer_call">Freagair an glao</string>
   <string name="NotificationBarManager__end_call">Críochnaigh an glao</string>
@@ -287,7 +287,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Ag íosluchtú teachtaireacht MMS</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Tharla botún ag íosluchtú teachtaireacht MMS, cnag chun ath-íosluchtú.</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Fuair teachtaireacht cripithe ón seanleagan RAAPP Messenger nach bhfuil taca go bhfóill. Fiafraigh an seoltóir an leagan is déanaí a úsáid agus an teachtaireacht a athsheoladh.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Fuair teachtaireacht cripithe ón seanleagan RAAPP nach bhfuil taca go bhfóill. Fiafraigh an seoltóir an leagan is déanaí a úsáid agus an teachtaireacht a athsheoladh.</string>
   <string name="MessageRecord_left_group">D\'fhág tú an bhaicle.</string>
   <string name="MessageRecord_you_updated_group">Nuashonraigh tú an bhaicle</string>
   <string name="MessageRecord_you_called">Ghlaoigh tú air</string>
@@ -321,7 +321,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Faraor, tá a thuilleadh gléasanna nascaithe, cuir de le cúpla cinn.</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Faraor, ní QR code nacs gléis bailí é seo.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Nasc gléas Signal?</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Tá gá ag RAAPP Messenger cead cheamara chun QR code a scanadh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\". </string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Tá gá ag RAAPP cead cheamara chun QR code a scanadh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\". </string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Ní féidir QR code a scanadh gan cead Cheamara.</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Teachtaireachtaí a imíonn as amharc</string>
@@ -379,8 +379,8 @@ a shonrú</string>
   <string name="RegistrationActivity_play_services_error">Botún le Play Services</string>
   <string name="RegistrationActivity_more_information">Tuilleadh eolais</string>
   <string name="RegistrationActivity_less_information">Níos lú eolais</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Tá gá ag RAAPP Messenger riochtain ar do theagmhálaithe agus do mheáin chun nasc a dhéanamh le cairde, teachtaireachtaí a mhalairt agus glaonna slán a dhéanamh.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Chun do uimhir fóin a deimhniú, is féidir le RAAPP Messenger to uimhir deimhnithe a léamh uaidh féin má tá cead ag RAAPP Messenger do theachtaireachtaí SMS a léamh.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Tá gá ag RAAPP riochtain ar do theagmhálaithe agus do mheáin chun nasc a dhéanamh le cairde, teachtaireachtaí a mhalairt agus glaonna slán a dhéanamh.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Chun do uimhir fóin a deimhniú, is féidir le RAAPP to uimhir deimhnithe a léamh uaidh féin má tá cead ag RAAPP do theachtaireachtaí SMS a léamh.</string>
   <!--ScribbleActivity-->
   <!--Search-->
   <string name="SearchFragment_no_results">Níor aimsíodh aon torthaí le haghaidh \'%s\'</string>
@@ -421,7 +421,7 @@ a shonrú</string>
   <string name="ThreadRecord_your_safety_number_with_s_has_changed">D\'athraíodh do uimhir shábhála le %s.</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Nuashonrú Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Tá leagan nua de RAAPP Messenger ar fáil, cnag chun é a nuashonrú</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Tá leagan nua de RAAPP ar fáil, cnag chun é a nuashonrú</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Cuir bac ar %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Ní féidir teagmháláithe bacáilte teachtaireachtaí a sheoladh chugat no tú a ghlaoigh.</string>
@@ -436,14 +436,14 @@ a shonrú</string>
   <string name="UnverifiedSendDialog_send_message">Seol an teachtaireacht? </string>
   <string name="UnverifiedSendDialog_send">Seol</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Tá seanleagan RAAPP Messenger ag do theagmhálaí. Fiafraigh do theagmhálái leagan nua a úsáid roimh do uimhir shábhála a deimhniú.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Tá nualeagan RAAPP Messenger ag do theagmhálaí le QR code neamhfhreaghrach duit. Le do thoil, nuashonraigh chun cuir i gcomórtas.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Tá seanleagan RAAPP ag do theagmhálaí. Fiafraigh do theagmhálái leagan nua a úsáid roimh do uimhir shábhála a deimhniú.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Tá nualeagan RAAPP ag do theagmhálaí le QR code neamhfhreaghrach duit. Le do thoil, nuashonraigh chun cuir i gcomórtas.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Ní uimhir shábhála bailí é an QR code. Le do thoil, bain triail as an QR code a scanadh arís.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Comhroinn do uimhir shábhála le ...</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">Ár uimhir shábhála Signal:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Tá an dealramh air nach bhfuil aon fheidhmchláirín agat lena roinnt leis.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Níl aon uimhir shábhála sa ghearrthaisce chun cuir i gcomórtas leis.</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Tá gá ag RAAPP Messenger cead cheamara chun QR code a scanadh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\". </string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Tá gá ag RAAPP cead cheamara chun QR code a scanadh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Ceamara\". </string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Ní féidir QR code a scanadh gan cead Cheamara.</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Teachtaireacht criptiú go mícheart</string>
@@ -480,11 +480,11 @@ a shonrú</string>
   <string name="MessageNotifier_media_message">Teachtaireacht mheán</string>
   <string name="MessageNotifier_reply">Freagair</string>
   <string name="MessageNotifier_pending_signal_messages">Ar feitheamh ar teachtaireachtaí Signal</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Tá teachtaireachtaí RAAPP Messenger ar feitheamh agat, cnag chun iad a oscailt agus a athfháil.</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Tá teachtaireachtaí RAAPP ar feitheamh agat, cnag chun iad a oscailt agus a athfháil.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Teagmhálaí</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Níl freagairt tapa le fáil agus RAAPP Messenger faoi ghlas.</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Níl freagairt tapa le fáil agus RAAPP faoi ghlas.</string>
   <string name="QuickResponseService_problem_sending_message">Tharla fadhb ag seoladh na teachtaireachta!</string>
   <!--SaveAttachmentTask-->
   <!--SearchToolbar-->
@@ -494,12 +494,12 @@ a shonrú</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Teachtaireacht nua</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Níl an gléas cláráithe a thulleadh.</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Is dócha go chláraigh do uimhir fóin le RAAPP Messenger ar gléas eile. Cnag chun athchláraigh.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Is dócha go chláraigh do uimhir fóin le RAAPP ar gléas eile. Cnag chun athchláraigh.</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Tharla fadhb ag seinm an fhíseáin</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Chun an ghlao ón %s a fhreaghairt, tabhairt riochtain do Shignal do do mhicreafón.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Tá gá ag RAAPP Messenger le ceadanna micreafóin agus cheamara chun glaonna a chuir nó a fháil, ach ní ceadaítear iad go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Micreafón\" agus \"Ceamara\".</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Tá gá ag RAAPP le ceadanna micreafóin agus cheamara chun glaonna a chuir nó a fháil, ach ní ceadaítear iad go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Micreafón\" agus \"Ceamara\".</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">D\'athraíodh an uimhir shábhála le haghaigh an comhrá le %1$s. Ciallaíonn sé sin go bhfuil duine éigéan ag iarraigh do teagmháil a idircheapadh, nó go athshuiteáil %2$s Signal.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">B\'fhéidir go mhian leat do uimhir sábhailte a dheimhniú leis an dteagmhálaí seo.</string>
@@ -535,11 +535,11 @@ a shonrú</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Grianghraf den teagmhálaí</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Tá gá ag RAAPP Messenger le cead teagmhálaí chun teagmháláithe a léiriú, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Tá gá ag RAAPP le cead teagmhálaí chun teagmháláithe a léiriú, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Níl aon teaghmhálaithe le bac orthu</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Tá gá ag RAAPP Messenger riochtain ar do theagmhálaithe chun iad a thaispeáint.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Tá gá ag RAAPP riochtain ar do theagmhálaithe chun iad a thaispeáint.</string>
   <string name="contact_selection_list_fragment__show_contacts">Táispeáin teagmhálaithe</string>
   <!--conversation_activity-->
   <string name="conversation_activity__type_message_push">Teachtaireacht Signal</string>
@@ -551,7 +551,7 @@ a shonrú</string>
   <string name="conversation_activity__emoji_toggle_description">Scoránaigh an méarchlár emoji</string>
   <string name="conversation_activity__attachment_thumbnail">Mionshamhail an cheangaltáin</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ceangaltán fuaime a thaifid agus a sheoladh</string>
-  <string name="conversation_activity__enable_signal_for_sms">Cumasaigh RAAPP Messenger le haghaidh SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Cumasaigh RAAPP le haghaidh SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">SLEAMHNAIGH CHUN É A CHEALÚ</string>
   <!--conversation_item-->
@@ -745,8 +745,8 @@ a shonrú</string>
   <string name="preferences__sms_mms">SMS agus MMS</string>
   <string name="preferences__pref_all_sms_title">Glac le gach SMS</string>
   <string name="preferences__pref_all_mms_title">Glac le gach MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Bain feidhm as RAAPP Messenger i gcomhair gach teachtaireacht téacs isteach</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Bain feidhm as RAAPP Messenger i gcomhair gach teachtaireachtaí mhéain isteach</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Bain feidhm as RAAPP i gcomhair gach teachtaireacht téacs isteach</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Bain feidhm as RAAPP i gcomhair gach teachtaireachtaí mhéain isteach</string>
   <string name="preferences__choose_identity">Roghnaigh céannacht</string>
   <string name="preferences__choose_your_contact_entry_from_the_contacts_list">Roghnaigh do iontráil teagmhálaí ón liosta teagmhálaithe</string>
   <string name="preferences__change_passphrase">Athraigh an nath faire</string>
@@ -885,12 +885,12 @@ a shonrú</string>
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Macasamhlaigh chuig an ghearrthaisce</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Cuir i gcomórtas leis an ngearrthaisce</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Tá an leagan de RAAPP Messenger a bhfuil agat seanda</string>
-  <string name="reminder_header_outdated_build_details_today">Rachaidh do leagan RAAPP Messenger as bhfeidhm inniu. Cnag chun é a nuashonrú chuig an leagan is deanaí.</string>
-  <string name="reminder_header_expired_build">Tá an leagan de RAAPP Messenger atá agat as feidhm!</string>
+  <string name="reminder_header_outdated_build">Tá an leagan de RAAPP a bhfuil agat seanda</string>
+  <string name="reminder_header_outdated_build_details_today">Rachaidh do leagan RAAPP as bhfeidhm inniu. Cnag chun é a nuashonrú chuig an leagan is deanaí.</string>
+  <string name="reminder_header_expired_build">Tá an leagan de RAAPP atá agat as feidhm!</string>
   <string name="reminder_header_expired_build_details">Ní sheolfar go rathúil teachtaireachtaí a thuilleadh. Cnag chun é a nuashonrú chuig an leagan is déanaí.</string>
   <string name="reminder_header_sms_default_title">Úsáid mar aip SMS réamhshocrú</string>
-  <string name="reminder_header_sms_default_text">Cnag chun RAAPP Messenger a úsáid mar aip SMS réamhshocrú</string>
+  <string name="reminder_header_sms_default_text">Cnag chun RAAPP a úsáid mar aip SMS réamhshocrú</string>
   <string name="reminder_header_push_title">Cumasaigh teachtaireachtaí agus glaonna Signal</string>
   <string name="reminder_header_push_text">Feabhsaigh do chumarsáid.</string>
   <string name="reminder_header_invite_title">Tabhair cuireadh chuig Signal</string>
@@ -917,14 +917,14 @@ a shonrú</string>
   <string name="ConversationListFragment_loading">Ag luchtú...</string>
   <string name="CallNotificationBuilder_connecting">Ag ceangail...</string>
   <string name="Permissions_permission_required">Is gá cead a fháil</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Tá gá ag RAAPP Messenger leis an cead SMS chun SMS a sheol, ach ní ceadaítear é go deo. Lean ar aghaigh, le do thoil, go socruithe aipe, roghnaigh \"SMS\". </string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Tá gá ag RAAPP leis an cead SMS chun SMS a sheol, ach ní ceadaítear é go deo. Lean ar aghaigh, le do thoil, go socruithe aipe, roghnaigh \"SMS\". </string>
   <string name="Permissions_continue">Lean ar aghaidh</string>
   <string name="Permissions_not_now">Ní anois</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Tá gá ag RAAPP Messenger le cead teagmhálaí chun teagmhálaithe a chuardaigh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Tá gá ag RAAPP le cead teagmhálaí chun teagmhálaithe a chuardaigh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
   <string name="conversation_activity__enable_signal_messages">CUMASAIGH TEACHTAIREACHTAÍ SIGNAL</string>
   <string name="PushDecryptJob_new_locked_message">Teachtaireacht ghlasaithe nua</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Bain an glas de chun an nuashonrú a chríochnú</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Bain an glas de RAAPP Messenger chun an nuashonrú a chríochnú</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Bain an glas de RAAPP chun an nuashonrú a chríochnú</string>
   <string name="registration_activity__skip">Léim thar seo</string>
   <string name="registration_activity__register">Cláraigh</string>
   <string name="RegistrationActivity_restore">Cuir ar ais</string>
@@ -951,7 +951,7 @@ a shonrú</string>
   <string name="RegistrationLockDialog_disable">Díchumasaigh</string>
   <string name="RegistrationActivity_continue">Lean ar aghaidh</string>
   <string name="preferences_chats__backups">Cúltacaithe</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Tá RAAPP Messenger faoi ghlas</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Tá RAAPP faoi ghlas</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">CNAG CHUN É A DHÍGHLASÁIL</string>
   <string name="RegistrationLockDialog_reminder">Cuimhneachán:</string>
   <string name="recipient_preferences__about">Maidir leis</string>

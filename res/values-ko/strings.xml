@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAAPP Messenger</string>
+  <string name="app_name">RAAPP</string>
   <string name="yes">예</string>
   <string name="no">아니요</string>
   <string name="delete">삭제</string>
@@ -21,7 +21,7 @@
   <string name="ApplicationPreferencesActivity_unregistering">Signal 메시지 서비스 탈퇴</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal 메시지와 통화 서비스를 탈퇴 중…</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal 메시지와 통화를 사용 중지하시겠습니까?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">서버에 탈퇴하여 RAAPP Messenger 메시지와 통화를 사용 중지합니다. 다시 사용하려면 전화번호를 입력해 재가입해야 합니다.</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">서버에 탈퇴하여 RAAPP 메시지와 통화를 사용 중지합니다. 다시 사용하려면 전화번호를 입력해 재가입해야 합니다.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">서버에 연결할 수 없음</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS 사용</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">기본 SMS 앱을 변경하려면 터치하세요</string>
@@ -64,7 +64,7 @@
   <string name="ContactsCursorLoader_groups">그룹</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">%s에 메시지 보내기</string>
-  <string name="ContactsDatabase_signal_call_s">%s에 RAAPP Messenger 통화</string>
+  <string name="ContactsDatabase_signal_call_s">%s에 RAAPP 통화</string>
   <!--ContactNameEditActivity-->
   <!--ContactShareEditActivity-->
   <!--ConversationItem-->
@@ -75,7 +75,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">보안 해제로 바꾸려면 터치하세요</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">암호화되지않은 SMS로 바꾸시겠습니까?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">암호화되지않은 MMS로 바꾸시겠습니까?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">수신자는 이젠 RAAPP Messenger 사용자가 아니어서 이 메시지는 <b>암호화되지 않습니다</b>.\n\n보안 해제된 메시지를 보내시겠습니까?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">수신자는 이젠 RAAPP 사용자가 아니어서 이 메시지는 <b>암호화되지 않습니다</b>.\n\n보안 해제된 메시지를 보내시겠습니까?</string>
   <string name="ConversationItem_unable_to_open_media">미디어를 열 수 있는 앱이 없음</string>
   <string name="ConversationItem_copied_text">복사됨 %s</string>
   <string name="ConversationItem_from_s">%s을(를) 사용하여 수신 문자</string>
@@ -111,7 +111,7 @@
   <string name="ConversationActivity_unable_to_record_audio">오디오 녹음할 수 없음</string>
   <string name="ConversationActivity_error_sending_voice_message">음성 메시지 보내는 동안 오류 발생</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">작업을 처리할 수 있는 앱 없음</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">음성 메시지를 보내기 위해서, RAAPP Messenger 이 마이크에 접근하 수 있게 허용하십시오.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">음성 메시지를 보내기 위해서, RAAPP 이 마이크에 접근하 수 있게 허용하십시오.</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="other">%d 읽지 않은 메시지</item>
@@ -213,7 +213,7 @@
   <!--ExportFragment-->
   <string name="ExportFragment_export">내보내기</string>
   <string name="ExportFragment_export_plaintext_to_storage">암호화되지 않은 대화를 저장소로 내보내시겠습니까?</string>
-  <string name="ExportFragment_warning_this_will_export_the_plaintext_contents">경고: RAAPP Messenger 메시지를 암호화되지 않은 채로 저장소로 내보냅니다.</string>
+  <string name="ExportFragment_warning_this_will_export_the_plaintext_contents">경고: RAAPP 메시지를 암호화되지 않은 채로 저장소로 내보냅니다.</string>
   <string name="ExportFragment_cancel">취소</string>
   <string name="ExportFragment_exporting">대화 내보내기</string>
   <string name="ExportFragment_exporting_plaintext_to_storage">암호화되지 않은 대화를 저장소로 내보내는 중…</string>
@@ -221,8 +221,8 @@
   <string name="ExportFragment_error_while_writing_to_storage">저장소에 저장하는 동안 오류 발생</string>
   <string name="ExportFragment_export_successful">대화 내보내기 완료됨</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">영구적인 RAAPP Messenger 통신 실패!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal은 Google Play 서비스에 등록할 수 없습니다. RAAPP Messenger 메시지와 통화는 사용 중지되었으므로 RAAPP Messenger 설정 메뉴에서 재가입해 주세요.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">영구적인 RAAPP 통신 실패!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal은 Google Play 서비스에 등록할 수 없습니다. RAAPP 메시지와 통화는 사용 중지되었으므로 RAAPP 설정 메뉴에서 재가입해 주세요.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">최대 해상도 GIF 파일을 받는 동안 오류 발생</string>
   <!--GiphyFragmentPageAdapter-->
@@ -233,15 +233,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">그룹 편집</string>
   <string name="GroupCreateActivity_group_name_hint">그룹 이름</string>
   <string name="GroupCreateActivity_actionbar_mms_title">MMS 그룹 만들기</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">선택된 연락처는 RAAPP Messenger 그룹을 지원하지 않아서 이 그룹은 MMS를 사용하게 됩니다.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Signal 메시지와 통화에 가입되지 않아서 RAAPP Messenger 그룹이 사용 중지되었습니다.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">선택된 연락처는 RAAPP 그룹을 지원하지 않아서 이 그룹은 MMS를 사용하게 됩니다.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Signal 메시지와 통화에 가입되지 않아서 RAAPP 그룹이 사용 중지되었습니다.</string>
   <string name="GroupCreateActivity_contacts_no_members">그룹 멤버 한명 이상 선택 되어야 함</string>
   <string name="GroupCreateActivity_contacts_invalid_number">그룹 멤버 중 한명은 잘못된 전화번호가 있으므로 정확한 전화번호를 입력하거나 그 연락처를 삭제하고 다시 시도해 주세요.</string>
   <string name="GroupCreateActivity_avatar_content_description">그룹 프로필 사진</string>
   <string name="GroupCreateActivity_menu_apply_button">적용</string>
   <string name="GroupCreateActivity_creating_group">%1$s을(를) 만드는 중…</string>
   <string name="GroupCreateActivity_updating_group">%1$s을(를) 업데이트 중…</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">%1$s님은 RAAPP Messenger 사용자가 아니어서 추가할 수 없음</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">%1$s님은 RAAPP 사용자가 아니어서 추가할 수 없음</string>
   <string name="GroupCreateActivity_loading_group_details">그룹 세부정보를 로드 중…</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">이미 그룹에 참여하는 중</string>
   <!--GroupShareProfileView-->
@@ -306,7 +306,7 @@
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal 통화 중</string>
   <string name="NotificationBarManager__establishing_signal_call">Signal 통화 연결 중</string>
-  <string name="NotificationBarManager__incoming_signal_call">수신 RAAPP Messenger 통화</string>
+  <string name="NotificationBarManager__incoming_signal_call">수신 RAAPP 통화</string>
   <string name="NotificationBarManager__deny_call">통화 거부</string>
   <string name="NotificationBarManager__answer_call">통화 수락</string>
   <string name="NotificationBarManager__end_call">통화 종료</string>
@@ -316,14 +316,14 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS 메시지 내려 받는 중</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">MMS 내려 받기 오류, 다시 보내려면 다시 시도를 눌러주세요.</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 RAAPP Messenger 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 RAAPP 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
   <string name="MessageRecord_left_group">그룹에서 퇴장했습니다.</string>
   <string name="MessageRecord_you_updated_group">그룹을 갱신하였습니다.</string>
   <string name="MessageRecord_s_updated_group">%s 이 그룹을 갱신했습니다.</string>
   <string name="MessageRecord_s_called_you">%s님으로 부터의 수신통화</string>
   <string name="MessageRecord_called_s">%s님에게 발신통화</string>
   <string name="MessageRecord_missed_call_from">%s님의 부재중 통화</string>
-  <string name="MessageRecord_s_joined_signal">%s 이 RAAPP Messenger 에 연결되어 있습니다.</string>
+  <string name="MessageRecord_s_joined_signal">%s 이 RAAPP 에 연결되어 있습니다.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">사라지는 메시지 시간을 %1$s 로 설정합니다</string>
   <string name="MessageRecord_s_set_disappearing_message_time_to_s">%1$s 님이 사라지는 메시지 시간을 %2$s 로 설정했습니다</string>
   <string name="MessageRecord_your_safety_number_with_s_has_changed">당신의  %s 와의 안전번호가 변경되었습니다.</string>
@@ -448,7 +448,7 @@
   <string name="ThreadRecord_called_you">수신통화</string>
   <string name="ThreadRecord_missed_call">부재중 통화</string>
   <string name="ThreadRecord_media_message">미디어 메시지</string>
-  <string name="ThreadRecord_s_is_on_signal">%s 이 RAAPP Messenger 에 연결되어 있습니다.</string>
+  <string name="ThreadRecord_s_is_on_signal">%s 이 RAAPP 에 연결되어 있습니다.</string>
   <string name="ThreadRecord_your_safety_number_with_s_has_changed">당신의  %s 와의 안전번호가 변경되었습니다.</string>
   <!--UpdateApkReadyListener-->
   <!--UnknownSenderView-->
@@ -702,8 +702,8 @@
   <string name="preferences__sms_mms">SMS 및 MMS</string>
   <string name="preferences__pref_all_sms_title">SMS 메시지 수신</string>
   <string name="preferences__pref_all_mms_title">MMS 메시지 수신</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">모든 수신 문자를 받을 수 있도록 RAAPP Messenger 사용</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">모든 수신 멀티미디어 메시지를 받을 수 있도록 RAAPP Messenger 사용</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">모든 수신 문자를 받을 수 있도록 RAAPP 사용</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">모든 수신 멀티미디어 메시지를 받을 수 있도록 RAAPP 사용</string>
   <string name="preferences__pref_enter_sends_title">Enter키로 메시지 보내기</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Enter키 사용하여 메시지 보냄</string>
   <string name="preferences__choose_identity">내 연락처 선택</string>
@@ -712,7 +712,7 @@
   <string name="preferences__change_your_passphrase">암호 변경</string>
   <string name="preferences__screen_security">화면 보안</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">최근 사용 목록/개요 및 앱 안에서 스크린샷 차단</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">설정된 비활동 기간 지나면 RAAPP Messenger 잠금</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">설정된 비활동 기간 지나면 RAAPP 잠금</string>
   <string name="preferences__inactivity_timeout_passphrase">비활동 시간 초과</string>
   <string name="preferences__inactivity_timeout_interval">비활동 시간 초과 간격</string>
   <string name="preferences__notifications">알림</string>
@@ -847,9 +847,9 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">클립보드에 복사</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">클립보드와 비교</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">설치된 RAAPP Messenger 버전 곧 만료</string>
-  <string name="reminder_header_outdated_build_details_today">오늘 설치된 RAAPP Messenger 버전은 만료됩니다. 최신 버전으로 업데이트 하려면 터치하세요.</string>
-  <string name="reminder_header_expired_build">설치된 RAAPP Messenger 버전 만료</string>
+  <string name="reminder_header_outdated_build">설치된 RAAPP 버전 곧 만료</string>
+  <string name="reminder_header_outdated_build_details_today">오늘 설치된 RAAPP 버전은 만료됩니다. 최신 버전으로 업데이트 하려면 터치하세요.</string>
+  <string name="reminder_header_expired_build">설치된 RAAPP 버전 만료</string>
   <string name="reminder_header_expired_build_details">메시지가 전송되지 않습니다. 최신 버전으로 업데이트 하려면 터치하세요.</string>
   <string name="reminder_header_sms_default_title">기본 SMS 앱으로 사용</string>
   <string name="reminder_header_sms_default_text">Signal을 기본 SMS 앱으로 설정하려면 터치하세요.</string>
