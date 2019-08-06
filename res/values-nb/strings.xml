@@ -24,9 +24,9 @@
   <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dette låser opp RAAPP og meldingsvarsler.</string>
   <string name="ApplicationPreferencesActivity_disable">Slå av</string>
   <string name="ApplicationPreferencesActivity_unregistering">Avregistrerer</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Avregistrerer fra Signal-meldinger og samtaler...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vil du slå av Signal-meldinger og -samtaler?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Slå av Signal-meldinger og -samtaler ved å avregistrere deg fra tjeneren. Du må registrere telefonnummeret ditt for å kunne finne igjen disse senere.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Avregistrerer fra RAAPP-meldinger og samtaler...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vil du slå av RAAPP-meldinger og -samtaler?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Slå av RAAPP-meldinger og -samtaler ved å avregistrere deg fra tjeneren. Du må registrere telefonnummeret ditt for å kunne finne igjen disse senere.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Feil under tilkobling til tjener.</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS slått på</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Trykk for å bytte forvalgt SMS-program</string>
@@ -52,10 +52,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(svar)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Fant ingen programmer for valg av medier.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal krever tillatelse fra systemet for å kunne legge til bilder, videoer eller lyd, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal krever tillatelse fra systemet for å kunne legge til kontaktinformasjon, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kontakter».</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal krever tillatelse fra systemet for å kunne legge til posisjonsdata, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Posisjon».</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal krever tillatelse fra systemet for å kunne ta bilder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">RAAPP krever tillatelse fra systemet for å kunne legge til bilder, videoer eller lyd, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">RAAPP krever tillatelse fra systemet for å kunne legge til kontaktinformasjon, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kontakter».</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">RAAPP krever tillatelse fra systemet for å kunne legge til posisjonsdata, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Posisjon».</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">RAAPP krever tillatelse fra systemet for å kunne ta bilder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Det oppstod en feil under lydavspilling.</string>
   <!--BlockedContactsActivity-->
@@ -137,11 +137,11 @@
   <string name="ConversationActivity_unable_to_record_audio">Klarte ikke ta opp lyd.</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har ingen programmer på denne enheten som kan håndtere denne lenka.</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Du må gi RAAPP tilgang til mikrofonen for å kunne sende lydmeldinger.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal krever tillatelse fra systemet for å kunne bruke mikrofonen, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Mikrofon».</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Signal må ha tilgang til mikrofon og kamera for å kunne ringe «1%s».</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal krever tillatelser fra systemet for å kunne ringe 1%s, men du har valgt å avslå minst én av disse permanent. Gå til «Apper»-menyen på systemet og slå på tillatelser for «Mikrofon» og «Kamera».</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP krever tillatelse fra systemet for å kunne bruke mikrofonen, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Mikrofon».</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">RAAPP må ha tilgang til mikrofon og kamera for å kunne ringe «1%s».</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP krever tillatelser fra systemet for å kunne ringe 1%s, men du har valgt å avslå minst én av disse permanent. Gå til «Apper»-menyen på systemet og slå på tillatelser for «Mikrofon» og «Kamera».</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Du må gi RAAPP «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal krever tillatelse fra systemet for å kunne ta bilder eller filme, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">RAAPP krever tillatelse fra systemet for å kunne ta bilder eller filme, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Du må gi RAAPP «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
   <!--ConversationAdapter-->
@@ -252,21 +252,21 @@
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Del med</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Velkommen til Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure og RedPhone er nå ett program for privat kommunikasjon, til alle formål: Signal.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Velkommen til Signal!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure er nå Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure og RedPhone er nå ett program: Signal. Trykk for å utforske.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Velkommen til RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure og RedPhone er nå ett program for privat kommunikasjon, til alle formål: RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Velkommen til RAAPP!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure er nå RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure og RedPhone er nå ett program: RAAPP. Trykk for å utforske.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Si hei til sikre videosamtaler.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal støtter nå sikker videosamtaler. Bare start et signalanrop som normalt, trykk på videoknappen og vink hei.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal støtter nå sikker videosamtaler.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal støtter nå sikker videosamtaler. Trykk for å utforske.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP støtter nå sikker videosamtaler. Bare start et signalanrop som normalt, trykk på videoknappen og vink hei.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP støtter nå sikker videosamtaler.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP støtter nå sikker videosamtaler. Trykk for å utforske.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Klar for nærbilde?</string>
-  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Nå kan du dele et profilbilde og et navn med venner på Signal</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal introduserer profiler</string>
+  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Nå kan du dele et profilbilde og et navn med venner på RAAPP</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">RAAPP introduserer profiler</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Varig Signal-kommunikasjonsfeil.</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal klarte ikke å registrere seg som Google Play-tjeneste. Signal-meldinger og samtaler er derfor slått av. Prøv å registrere programmet på nytt under Innstillinger &gt; Avansert.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Varig RAAPP-kommunikasjonsfeil.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP klarte ikke å registrere seg som Google Play-tjeneste. RAAPP-meldinger og samtaler er derfor slått av. Prøv å registrere programmet på nytt under Innstillinger &gt; Avansert.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Feil under henting av GIF</string>
   <!--GiphyFragmentPageAdapter-->
@@ -277,15 +277,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Rediger gruppe</string>
   <string name="GroupCreateActivity_group_name_hint">Gruppenavn</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Ny MMS-gruppe</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Du har valgt en kontakt som ikke støtter Signal-grupper. Denne gruppa blir derfor en MMS-gruppe.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Du er ikke registrert for Signal-meldinger og -samtaler. Signal-grupper er derfor slått av. Prøv å registrere programmet på nytt under Innstillinger &gt; Avansert.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Du har valgt en kontakt som ikke støtter RAAPP-grupper. Denne gruppa blir derfor en MMS-gruppe.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Du er ikke registrert for RAAPP-meldinger og -samtaler. RAAPP-grupper er derfor slått av. Prøv å registrere programmet på nytt under Innstillinger &gt; Avansert.</string>
   <string name="GroupCreateActivity_contacts_no_members">Du må ta med minst én person i gruppa.</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Et av gruppemedlemmene har et nummer som ikke ble tolket skikkelig. Rett opp eller fjern aktuell kontakt, og prøv igjen.</string>
   <string name="GroupCreateActivity_avatar_content_description">Gruppe-avatar</string>
   <string name="GroupCreateActivity_menu_apply_button">Bruk</string>
   <string name="GroupCreateActivity_creating_group">Lager %1$s …</string>
   <string name="GroupCreateActivity_updating_group">Oppdaterer %1$s …</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Klarte ikke å legge til %1$s fordi vedkommende ikke bruker Signal.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Klarte ikke å legge til %1$s fordi vedkommende ikke bruker RAAPP.</string>
   <string name="GroupCreateActivity_loading_group_details">Laster inn gruppedetaljer </string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Du ligger allerede i gruppa.</string>
   <!--GroupShareProfileView-->
@@ -303,7 +303,7 @@
   <string name="InviteActivity_sending">Sender …</string>
   <string name="InviteActivity_heart_content_description">Hjerte</string>
   <string name="InviteActivity_invitations_sent">Invitasjoner sendt.</string>
-  <string name="InviteActivity_invite_to_signal">Inviter til Signal</string>
+  <string name="InviteActivity_invite_to_signal">Inviter til RAAPP</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">SEND SMS TIL %dVENN</item>
     <item quantity="other">SEND SMS TIL %dVENNER</item>
@@ -312,7 +312,7 @@
     <item quantity="one">Vil du sende %d SMS-invitasjon?</item>
     <item quantity="other">Vil du sende %d SMS-invitasjoner?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">La oss bytte til Signal. %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">La oss bytte til RAAPP. %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Det ser ut som at du ikke har noen programmer å dele denne informasjonen med.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Venner bør ikke prate ukryptert over nettet.</string>
   <!--MessageDetailsRecipient-->
@@ -338,8 +338,8 @@
   <string name="MediaOverviewActivity_Documents">Dokumenter</string>
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal-samtale pågår</string>
-  <string name="NotificationBarManager__establishing_signal_call">Setter opp Signal-anrop</string>
-  <string name="NotificationBarManager__incoming_signal_call">Inngående Signal-anrop</string>
+  <string name="NotificationBarManager__establishing_signal_call">Setter opp RAAPP-anrop</string>
+  <string name="NotificationBarManager__incoming_signal_call">Inngående RAAPP-anrop</string>
   <string name="NotificationBarManager__deny_call">Avslå anrop</string>
   <string name="NotificationBarManager__answer_call">Svar på anrop</string>
   <string name="NotificationBarManager__end_call">Avslutt samtale</string>
@@ -359,7 +359,7 @@
   <string name="MessageRecord_s_called_you">%s ringte deg</string>
   <string name="MessageRecord_called_s">Ringte %s</string>
   <string name="MessageRecord_missed_call_from">Tapt anrop fra %s</string>
-  <string name="MessageRecord_s_joined_signal">%s er på Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s er på RAAPP!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Du deaktiverte forsvinner meldinger.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s deaktivert utløpstid meldinger.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Du satt utløpstid meldingstimeren til %1$s.</string>
@@ -390,9 +390,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ugyldig QR-kode.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Du har koblet sammen sammen for mange enheter allerede. Prøv å fjerne noen</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Dette er ikke en gyldig QR-kode for enhetstilkobling.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Vil du koble til en Signal-enhet?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det ser ut som at du prøver å koble en enhet til RAAPP ved hjelp av en tredjepartsskanner. For din egen sikkerhet må du skanne koden på nytt via Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal krever tillatelse fra systemet for å kunne skanne QR-koder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Vil du koble til en RAAPP-enhet?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det ser ut som at du prøver å koble en enhet til RAAPP ved hjelp av en tredjepartsskanner. For din egen sikkerhet må du skanne koden på nytt via RAAPP.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP krever tillatelse fra systemet for å kunne skanne QR-koder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Du kan ikke skanne en QR-kode når systemet ikke tillater RAAPP å bruke kameraet</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Utløptstid for meldinger</string>
@@ -446,7 +446,7 @@ telefonnummer</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Nummeret du
 skrev inn (%s) er ugyldig.</string>
   <string name="RegistrationActivity_missing_google_play_services">Mangler Google Play tjenester</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denne enheten mangler Google Play-tjenester. Du kan fremdeles bruke Signal, men det kan oppføre seg ustabilit eller gi dårlig ytelse.\n\nHvis du ikke er en avansert bruker, ikke kjører en egeninstallert Android-fastvare, eller du mener at du har Google Play-tjenester installert, ber vi deg om å kontakte support@signal.org så vi kan hjelpe deg med feilsøking.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denne enheten mangler Google Play-tjenester. Du kan fremdeles bruke RAAPP, men det kan oppføre seg ustabilit eller gi dårlig ytelse.\n\nHvis du ikke er en avansert bruker, ikke kjører en egeninstallert Android-fastvare, eller du mener at du har Google Play-tjenester installert, ber vi deg om å kontakte support@signal.org så vi kan hjelpe deg med feilsøking.</string>
   <string name="RegistrationActivity_i_understand">Jeg forstår</string>
   <string name="RegistrationActivity_play_services_error">Play Tjenester Feil</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play-tjenester er opptatt eller midlertidig utilgjengelig. Vent litt, og prøv på nytt.</string>
@@ -454,9 +454,9 @@ skrev inn (%s) er ugyldig.</string>
   <string name="RegistrationActivity_no_browser">Klarte ikke å åpne lenke. Fant ingen nettleser.</string>
   <string name="RegistrationActivity_more_information">Mer informasjon</string>
   <string name="RegistrationActivity_less_information">Mindre informasjon</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal må ha tilgang til kontakter og medier på systemet for å kunne koble til venner, sende/motta meldinger og ringe</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">RAAPP må ha tilgang til kontakter og medier på systemet for å kunne koble til venner, sende/motta meldinger og ringe</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Klarte ikke å koble til tjenesten. Kontroller at du har en stabil nettilkobling og prøv på nytt.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Signal kan hente SMS-bekreftelseskoden din automatisk hvis du tillater at programmet leser SMS-meldinger på enheten.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">RAAPP kan hente SMS-bekreftelseskoden din automatisk hvis du tillater at programmet leser SMS-meldinger på enheten.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Klarte ikke å lagre bildeendringer</string>
   <!--Search-->
@@ -466,12 +466,12 @@ skrev inn (%s) er ugyldig.</string>
   <string name="SearchFragment_header_messages">Meldinger</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Legg til kontakt</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Inviter til Signal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Inviter til RAAPP</string>
   <string name="SharedContactDetailsActivity_signal_message">Signal-melding</string>
   <string name="SharedContactDetailsActivity_signal_call">Signal-samtale</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Legg til kontakt</string>
-  <string name="SharedContactView_invite_to_signal">Inviter til Signal</string>
+  <string name="SharedContactView_invite_to_signal">Inviter til RAAPP</string>
   <string name="SharedContactView_message">Signal-melding</string>
   <!--Slide-->
   <string name="Slide_image">Bilde</string>
@@ -495,7 +495,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="ThreadRecord_called_you">Ringte deg</string>
   <string name="ThreadRecord_missed_call">Ubesvart anrop</string>
   <string name="ThreadRecord_media_message">Mediemelding</string>
-  <string name="ThreadRecord_s_is_on_signal"> %s er på Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal"> %s er på RAAPP!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Forsvinner meldinger deaktivert</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Utløpstid for meldinger endret til %s</string>
   <string name="ThreadRecord_safety_number_changed">Sikkerhetsnummer endret </string>
@@ -503,7 +503,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="ThreadRecord_you_marked_verified">Markert som verifisert</string>
   <string name="ThreadRecord_you_marked_unverified">Markert som ikke verifisert</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal oppdatering</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP oppdatering</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny versjon av RAAPP er tilgjengelig, trykk for å oppdatere</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Blokker %s?</string>
@@ -519,14 +519,14 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="UnverifiedSendDialog_send_message">Send melding?</string>
   <string name="UnverifiedSendDialog_send">Send</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kontakten kjører en gammel versjon av Signal. Be vedkommende om å oppdatere og deretter bekrefte sikkerhetsnummeret ditt.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kontakten kjører en gammel versjon av RAAPP. Be vedkommende om å oppdatere og deretter bekrefte sikkerhetsnummeret ditt.</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kontakten kjører en nyere versjon av RAAPP og bruker et QR-kodeformat som ikke kan brukes med din versjon. Oppdater RAAPP for å sammenligne.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">QR-koden du skannet er feilformatert. Prøv å skanne på nytt.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Del sikkerhets nummer via...</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">Vår RAAPP sikkerhet nummer:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Det ser ut som at du ikke har noen programmer å dele denne informasjonen med.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Ingen sikkerhet nummer å sammenligne ble funnet i utklippstavlen </string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal krever tillatelse fra systemet for å kunne skanne QR-koder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">RAAPP krever tillatelse fra systemet for å kunne skanne QR-koder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Du kan ikke skanne en QR-kode når systemet ikke tillater RAAPP å bruke kameraet</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Ugyldig kryptert melding</string>
@@ -546,13 +546,13 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Trykk for å åpne.</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Trykk for å åpne, eller trykk på lås for å lukke.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal er låst opp</string>
-  <string name="KeyCachingService_lock">Lås Signal</string>
+  <string name="KeyCachingService_passphrase_cached">RAAPP er låst opp</string>
+  <string name="KeyCachingService_lock">Lås RAAPP</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Deg</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Ustøttet medietype</string>
   <string name="MediaPreviewActivity_draft">Utkast</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal krever tillatelse fra systemet for å kunne skrive til ekstern lagringsenhet, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">RAAPP krever tillatelse fra systemet for å kunne skrive til ekstern lagringsenhet, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Du kan ikke lagre på ekstern lagringsenhet uten å slå på tillatelse i systemet først</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Vil du slette denne meldinga?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Meldinga blir slettet for godt.</string>
@@ -568,8 +568,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="MessageNotifier_mark_read">Merk som lest</string>
   <string name="MessageNotifier_media_message">Mediemelding</string>
   <string name="MessageNotifier_reply">Svar</string>
-  <string name="MessageNotifier_pending_signal_messages">Venter Signalmeldinger </string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Du har ventende Signalmeldinger, trykk for å åpne og hente</string>
+  <string name="MessageNotifier_pending_signal_messages">Venter RAAPPmeldinger </string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Du har ventende RAAPPmeldinger, trykk for å åpne og hente</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <!--Notification Channels-->
@@ -602,9 +602,9 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="VideoPlayer_error_playing_video">Feil ved avspilling av video</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Gi RAAPP tilgang til mikrofonen for å besvare samtalen fra 1%s.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal krever tillatelser fra systemet for å kunne ringe eller motta samtaler, men du har valgt å avslå minst én av disse permanent. Gå til «Apper»-menyen på systemet og slå på tillatelser for «Mikrofon» og «Kamera».</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">RAAPP krever tillatelser fra systemet for å kunne ringe eller motta samtaler, men du har valgt å avslå minst én av disse permanent. Gå til «Apper»-menyen på systemet og slå på tillatelser for «Mikrofon» og «Kamera».</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">Sikkerhetsnummeret for samtalen din med %1$s er endret. Dette kan enten bety at noen prøver å fange opp kommunikasjonen din, eller at %2$s bare gjeninstalleres Signal.</string>
+  <string name="WebRtcCallScreen_new_safety_numbers">Sikkerhetsnummeret for samtalen din med %1$s er endret. Dette kan enten bety at noen prøver å fange opp kommunikasjonen din, eller at %2$s bare gjeninstalleres RAAPP.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Du bør bekrefte sikkerhetsnummeret ditt med denne kontakten.</string>
   <string name="WebRtcCallScreen_new_safety_number_title">Ny sikkerhets nummer</string>
   <string name="WebRtcCallScreen_accept">Godta</string>
@@ -639,15 +639,15 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Kontaktfoto</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal krever tillatelse fra systemet for å kunne vise kontakter, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kontakter».</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">RAAPP krever tillatelse fra systemet for å kunne vise kontakter, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kontakter».</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Klarte ikke å hente kontakter. Kontroller nettforbindelse</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Ingen blokkerte kontakter</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal må ha tilgang til kontaktene dine for å kunne vise dem.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP må ha tilgang til kontaktene dine for å kunne vise dem.</string>
   <string name="contact_selection_list_fragment__show_contacts">Vis Kontakter</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal melding</string>
+  <string name="conversation_activity__type_message_push">RAAPP melding</string>
   <string name="conversation_activity__type_message_sms_insecure">Usikret SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Usikret MMS</string>
   <string name="conversation_activity__from_sim_name">Fra %1$s</string>
@@ -687,7 +687,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="country_selection_fragment__loading_countries">Laster inn land …</string>
   <string name="country_selection_fragment__search">Søk</string>
   <!--device_add_fragment-->
-  <string name="device_add_fragment__scan_the_qr_code_displayed_on_the_device_to_link">Skann QR-koden på Signal-enheten du vil koble denne enheten med</string>
+  <string name="device_add_fragment__scan_the_qr_code_displayed_on_the_device_to_link">Skann QR-koden på RAAPP-enheten du vil koble denne enheten med</string>
   <!--device_link_fragment-->
   <string name="device_link_fragment__link_device">Koble til enhet</string>
   <!--device_list_fragment-->
@@ -729,9 +729,9 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="IdentityUtil_unverified_banner_one">Sikkerhetsnummeret for %s har endret seg og er ikke lenger verifisert</string>
   <string name="IdentityUtil_unverified_banner_two">Sikkerhetsnummeret for %1$s og %2$s er ikke lenger verifisert</string>
   <string name="IdentityUtil_unverified_banner_many">Sikkerhetsnummer for %1$s, %2$s og %3$s er ikke lenger verifisert</string>
-  <string name="IdentityUtil_unverified_dialog_one">Sikkerhetsnummer for %1$s har endret seg og er ikke lenger verifisert. Dette kan enten bety at noen forsøker å overvåke eller manipulere kommunikasjonen, eller det kan være så enkelt som at %1$s reinstallerte Signal-appen.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Sikkerhetsnummer for %1$s og %2$s er ikke lenger verifisert. Dette kan enten bety at noen forsøker å overvåke eller manipulere kommunikasjonen, eller det kan være så enkelt som at de reinstallerte Signal-appen.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Sikkerhetsnummer for %1$s, %2$s og %3$ser ikke lenger verifisert. Dette kan enten bety at noen forsøker å overvåke eller manipulere kommunikasjonen, eller det kan være så enkelt som at de reinstallerte Signal-appen. </string>
+  <string name="IdentityUtil_unverified_dialog_one">Sikkerhetsnummer for %1$s har endret seg og er ikke lenger verifisert. Dette kan enten bety at noen forsøker å overvåke eller manipulere kommunikasjonen, eller det kan være så enkelt som at %1$s reinstallerte RAAPP-appen.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Sikkerhetsnummer for %1$s og %2$s er ikke lenger verifisert. Dette kan enten bety at noen forsøker å overvåke eller manipulere kommunikasjonen, eller det kan være så enkelt som at de reinstallerte RAAPP-appen.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Sikkerhetsnummer for %1$s, %2$s og %3$ser ikke lenger verifisert. Dette kan enten bety at noen forsøker å overvåke eller manipulere kommunikasjonen, eller det kan være så enkelt som at de reinstallerte RAAPP-appen. </string>
   <string name="IdentityUtil_untrusted_dialog_one">Sikkerhetsnummer for %s har nylig endret seg.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Sikkerhetsnummer for %1$s og %2$s har nylig endret seg.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Sikkerhetsnummer for %1$s, %2$s og %3$s endret seg nylig.</string>
@@ -763,7 +763,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="log_submit_activity__please_review_this_log_from_my_app">Vennligst prøv denne loggen fra appen min: %1$s</string>
   <string name="log_submit_activity__network_failure">Nettverksfeil. Vær så snill, prøv på nytt.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vil du importere tekstmeldinger som ligger på enheten til Signals krypterte database?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vil du importere tekstmeldinger som ligger på enheten til RAAPPs krypterte database?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Forvalgt systemdatabase blir ikke endret på noen måte.</string>
   <string name="database_migration_activity__skip">Hopp over</string>
   <string name="database_migration_activity__import">Importer</string>
@@ -795,7 +795,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Lås opp</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal krever MMS-oppsett for å levere medier og gruppemeldinger via mobilnett. Enheten din gjør ikke ikke denne informasjonen tilgjengelig. Dette er vanlig på enheter med restriktive oppsett.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">RAAPP krever MMS-oppsett for å levere medier og gruppemeldinger via mobilnett. Enheten din gjør ikke ikke denne informasjonen tilgjengelig. Dette er vanlig på enheter med restriktive oppsett.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Trykk «OK» og følg anvisninger hvis du vil sende medie- og gruppemeldinger. Du finner vanligvis MMS-oppsettet for operatøren din ved å søke etter «din operatør APN». Du trenger bare å gjøre dette én gang.</string>
   <!--profile_create_activity-->
   <string name="profile_create_activity__set_later">Legg til senere</string>
@@ -823,7 +823,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="redphone_call_controls__flip_camera_rear">Bytt kamera</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">TELEFONNUMMER</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal gjør det enkelt å kommunisere ved å bruke telefonnummeret og adresseboka du allerede har. Venner og kontakter som allerede vet hvordan de kontakter deg via telefon kan enkelt ta kontakt via Signal.\n\nRegistrering overfører noe kontaktinformasjon til Signal-tjeneren. Dette blir ikke lagret.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP gjør det enkelt å kommunisere ved å bruke telefonnummeret og adresseboka du allerede har. Venner og kontakter som allerede vet hvordan de kontakter deg via telefon kan enkelt ta kontakt via RAAPP.\n\nRegistrering overfører noe kontaktinformasjon til RAAPP-tjeneren. Dette blir ikke lagret.</string>
   <string name="registration_activity__verify_your_number">Bekreft nummeret ditt</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Skriv inn mobilnummeret ditt for å motta en bekreftelseskode. Teleoperatøren kan belaste deg for dette.</string>
   <!--recipients_panel-->
@@ -966,7 +966,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="preferences__default">Forvalgt</string>
   <string name="preferences__language">Språk</string>
   <string name="preferences__signal_messages_and_calls">Signal-meldinger og -samtaler</string>
-  <string name="preferences__free_private_messages_and_calls">Gratis privatmeldinger og -samtaler til Signal-brukere</string>
+  <string name="preferences__free_private_messages_and_calls">Gratis privatmeldinger og -samtaler til RAAPP-brukere</string>
   <string name="preferences__submit_debug_log">Send feilsøkingslogg</string>
   <string name="preferences__support_wifi_calling">«Wi-Fi-anrop»-tilbakefallsmodus</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Bruk dette hvis enheten leverer SMS / MMS via Wi-Fi (og «Wi-Fi-anrop» er slått på)</string>
@@ -981,8 +981,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="preferences_chats__media_auto_download">Automatisk nedlasting av medier</string>
   <string name="preferences_chats__message_trimming">Automatisk sletting</string>
   <string name="preferences_advanced__use_system_emoji">Bruk systemets emoji</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">La alle anrop gå via Signal-tjeneren for å unngå å avsløre telefonens IP-adresse til kontakten. Dette reduserer samtalekvaliteten.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i RAAPP</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">La alle anrop gå via RAAPP-tjeneren for å unngå å avsløre telefonens IP-adresse til kontakten. Dette reduserer samtalekvaliteten.</string>
   <string name="preferences_advanced__always_relay_calls">Videresend alle anrop</string>
   <string name="preferences_app_protection__app_access">App tilgang</string>
   <string name="preferences_app_protection__communication">Kommunikasjon</string>
@@ -994,9 +994,9 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="preferences_notifications__calls">Samtaler</string>
   <string name="preferences_notifications__ringtone">Ringetone</string>
   <string name="preferences_chats__show_invitation_prompts">Vis invitasjonsmeldinger</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Vis invitasjonsspørringer for kontakter som ikke har Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Vis invitasjonsspørringer for kontakter som ikke har RAAPP</string>
   <string name="preferences_chats__message_text_size">Skriftstørrelse i meldinger</string>
-  <string name="preferences_events__contact_joined_signal">Når kontakt installerer Signal</string>
+  <string name="preferences_events__contact_joined_signal">Når kontakt installerer RAAPP</string>
   <string name="preferences_notifications__priority">Prioritet</string>
   <!--****************************************-->
   <!--menus-->
@@ -1070,7 +1070,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Kopiere til utklippstavle</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Sammenlign med utklippstavlen</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Denne Signal-installasjonen er utdatert</string>
+  <string name="reminder_header_outdated_build">Denne RAAPP-installasjonen er utdatert</string>
   <plurals name="reminder_header_outdated_build_details">
     <item quantity="one">Denne versjonen av RAAPP utløper om %ddag. Trykk for å oppdatere programmet til nyeste versjon.</item>
     <item quantity="other">Denne versjonen av RAAPP utløper om %d dag. Trykk for å oppdatere programmet til nyeste versjon.</item>
@@ -1082,13 +1082,13 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="reminder_header_sms_default_text">Trykk for å gjøre RAAPP til forvalgt SMS-program.</string>
   <string name="reminder_header_sms_import_title">Importer system-SMS</string>
   <string name="reminder_header_sms_import_text">Trykk for å kopiere telefonens SMS-meldinger til signals krypterte database.</string>
-  <string name="reminder_header_push_title">Slå på Signal-meldinger og -samtaler</string>
+  <string name="reminder_header_push_title">Slå på RAAPP-meldinger og -samtaler</string>
   <string name="reminder_header_push_text">Oppgrader kommunikasjonsopplevelsen.</string>
-  <string name="reminder_header_invite_title">Inviter til Signal</string>
+  <string name="reminder_header_invite_title">Inviter til RAAPP</string>
   <string name="reminder_header_invite_text">Ta samtalen med %1$s til neste nivå.</string>
   <string name="reminder_header_share_title">Inviter vennene dine!</string>
-  <string name="reminder_header_share_text">Jo flere venner som bruker Signal, desto bedre blir det.</string>
-  <string name="reminder_header_service_outage_text">Signal har tekniske problemer. Vi jobber med å få tjenesten i gang igjen så fort som mulig.</string>
+  <string name="reminder_header_share_text">Jo flere venner som bruker RAAPP, desto bedre blir det.</string>
+  <string name="reminder_header_service_outage_text">RAAPP har tekniske problemer. Vi jobber med å få tjenesten i gang igjen så fort som mulig.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Lagre</string>
   <string name="media_preview__forward_title">Videresend</string>
@@ -1109,12 +1109,12 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="ConversationListFragment_loading">Laster...</string>
   <string name="CallNotificationBuilder_connecting">Kobler til …</string>
   <string name="Permissions_permission_required">Tillatelse kreves</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal krever tillatelse fra systemet for å kunne sende SMS-meldinger, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «SMS».</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">RAAPP krever tillatelse fra systemet for å kunne sende SMS-meldinger, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «SMS».</string>
   <string name="Permissions_continue">Fortsett</string>
   <string name="Permissions_not_now">Ikke nå</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal krever tillatelse fra systemet for å kunne søke etter kontakter, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kontakter».</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP krever tillatelse fra systemet for å kunne søke etter kontakter, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kontakter».</string>
   <string name="conversation_activity__enable_signal_messages">SLÅ PÅ SIGNAL-MELDINGER</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Flytter Signal-database</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Flytter RAAPP-database</string>
   <string name="PushDecryptJob_new_locked_message">Ny låst melding</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Lås opp for å vise ventende meldinger</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Lås opp for å fullføre oppdatering</string>
@@ -1144,7 +1144,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="BackupDialog_disable_and_delete_all_local_backups">Vil du slå av og slette alle lokale sikkerhetskopier?</string>
   <string name="BackupDialog_delete_backups_statement">Slett sikkerhetskopier</string>
   <string name="BackupDialog_copied_to_clipboard">Kopiert til utklippstavle</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal krever tillatelse fra systemet for å kunne lagre sikkerhetskopier, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP krever tillatelse fra systemet for å kunne lagre sikkerhetskopier, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Forrige sikkerhetskopi: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">Under behandling</string>
   <string name="LocalBackupJob_creating_backup">Tar sikkerhetskopi …</string>
@@ -1193,7 +1193,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversion.</string>
   <string name="RegistrationLockDialog_disable">Slå av</string>
   <string name="RegistrationActivity_continue">Fortsett</string>
   <string name="preferences_chats__backups">Sikkerhetskopiering</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal er låst</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP er låst</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TRYKK FOR Å LÅSE OPP</string>
   <string name="RegistrationLockDialog_reminder">Påminnelse:</string>
   <string name="recipient_preferences__about">Om</string>

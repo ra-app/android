@@ -133,7 +133,7 @@
   <string name="ConversationActivity_unable_to_record_audio">មិនអាចថតសំឡេងបាន!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">មិនមានកម្មវិធីដើម្បីបើកតំណនេះ នៅលើឧបករណ៍របស់អ្នកទេ។</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ដើម្បីផ្ញើសារជាសំឡេង អនុញ្ញាតឱ្យ RAAPP ចូលទៅប្រើប្រាស់មីក្រូហ្វូនរបស់អ្នក។</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">ដើម្បីហៅចេញ %s, RAAPP ត្រូវការចូលប្រើប្រាស់ប្រដាប់ម៉ៃក្រូហ្វូន និងកាមេរ៉ារបស់អ្នក។</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">ស៊ីហ្គណលត្រូវការសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ាដើម្បីហៅទៅកាន់ %s, ប៉ុន្តែពួកវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"ម៉ៃក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ដើម្បីថតរូបភាព និងវីដេអូ, សូមអនុញ្ញាត RAAPP ចូលប្រើប្រាស់កាមេរ៉ា។</string>
@@ -445,12 +445,12 @@
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">បន្ថែមចូល បញ្ជីទំនាក់ទំនង</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">អញ្ជើញចូលប្រើស៊ីហ្គណល</string>
-  <string name="SharedContactDetailsActivity_signal_message">សារ Signal </string>
+  <string name="SharedContactDetailsActivity_signal_message">សារ RAAPP </string>
   <string name="SharedContactDetailsActivity_signal_call">ការហៅស៊ីហ្គណល</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">បន្ថែមចូល បញ្ជីទំនាក់ទំនង</string>
   <string name="SharedContactView_invite_to_signal">អញ្ជើញចូលប្រើស៊ីហ្គណល</string>
-  <string name="SharedContactView_message">សារ Signal </string>
+  <string name="SharedContactView_message">សារ RAAPP </string>
   <!--Slide-->
   <string name="Slide_image">រូបភាព</string>
   <string name="Slide_audio">សំឡេង</string>

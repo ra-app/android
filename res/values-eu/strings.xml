@@ -21,17 +21,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Ezabatu</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Desgaitu pasahitza?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Signal eta mezu jakinarazpenak iraunkorki desbloketuako dira.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">RAAPP eta mezu jakinarazpenak iraunkorki desbloketuako dira.</string>
   <string name="ApplicationPreferencesActivity_disable">Desgaitu</string>
   <string name="ApplicationPreferencesActivity_unregistering">Deserregistratzen</string>
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Deserregistratzen RAAPP mezu eta deietatik...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal mezu eta deiak desgaitu?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">RAAPP mezu eta deiak desgaitu?</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Desgaitu RAAPP mezu eta deiak zerbitzaritik deserregistratuz. Zure telefono zenbakia bererregistratu beharko duzu mezu eta deiak berriro erabili ahal izateko.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Errorea zerbitzariarekin konektatzerakoan!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS Gaituta</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Ukitu zure SMS aplikazio lehenetsia aldatzeko</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS Desgaituta</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Signal zure SMS aplikazio lehenetsia izan dadin, ukitu.</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">RAAPP zure SMS aplikazio lehenetsia izan dadin, ukitu.</string>
   <string name="ApplicationPreferencesActivity_on">piztuta</string>
   <string name="ApplicationPreferencesActivity_On">Aktibatuta</string>
   <string name="ApplicationPreferencesActivity_off">desaktibatuta</string>
@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Taldeak</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Mezu %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal Dei %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP Dei %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Izen tipia</string>
   <string name="ContactNameEditActivity_family_name">Abizena</string>
@@ -136,11 +136,11 @@
   <string name="ConversationActivity_quick_camera_unavailable">Kamera ez dago eskuragarri</string>
   <string name="ConversationActivity_unable_to_record_audio">Ezgai audioa grabatzeko!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ez dago erabil daitekeen aplikaziorik lotura hau kudeatzeko zure gailuan.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Audio mezuak bidaltzeko, onartu Signalek zure mikrofonoa erabiltzea</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Audio mezuak bidaltzeko, onartu RAAPPek zure mikrofonoa erabiltzea</string>
   <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signalek Mikronofoa baimena behar du audio mezuak bidaltzeko baina ukatu egin diozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Mikrofonoa\"</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">%s-i deitzeko, Singalek zure mikrofono eta kamera erabiltzeko baimena behar du.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signalek Mikronofoa eta Kamera baimenak behar ditu %s-i deitzeko baina ukatu egin dizkiozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Mikrofonoa\" eta \"Kamera\"</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Argazkiak eta bideoak grabatzeko, eman baimena Signali kamera erabiltzeko.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Argazkiak eta bideoak grabatzeko, eman baimena RAAPPi kamera erabiltzeko.</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signalek Kamera baimena behar du argazkiak eta bideoak egiteko, baina ukatu egin diozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Kamera\".</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signalek Kamera baimena behar du argazkiak eta bideoak egiteko</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
@@ -253,21 +253,21 @@
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Norekin konpartitu</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Ongi etorri Signalera!</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Ongi etorri RAAPPera!</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure eta RedPhone mezulari pribatua bakar bat dira orain, edozein egoeratako.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Ongi etorri Signalera!</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Ongi etorri RAAPPera!</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure orain RAAPP da.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure eta RedPhone aplikazio bera da orain: Signal.  Ukitu arakatzeko.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure eta RedPhone aplikazio bera da orain: RAAPP.  Ukitu arakatzeko.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Kaixo esan bideodei seguruei</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal orain bideodei seguruak egiteko gai da. Besterik gabe, hasi  RAAPP dei normal bat, ukitu bideo botoia eta kaixo esan.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal orain bideodei seguruak egiteko gai da.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal orain bideodei seguruak egiteko gai da. Ukitu argibide gehiago lortzeko.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP orain bideodei seguruak egiteko gai da. Besterik gabe, hasi  RAAPP dei normal bat, ukitu bideo botoia eta kaixo esan.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP orain bideodei seguruak egiteko gai da.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP orain bideodei seguruak egiteko gai da. Ukitu argibide gehiago lortzeko.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Prest zaude zure gertuko argazkia hartzeko?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Signaleko zure lagunekin profileko argazkia eta izena partekatu ditzakezu</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal profilak heldu dira</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">RAAPP profilak heldu dira</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signal behin betiko komunikazio hutsegitea!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal ez da gai izan Google Play Zerbitzuekin erregistratzeko. RAAPP mezu eta deiak desgaitu egin dira, mesedez saiatu bererregistratzen Ezarpenak &gt; Aurreratua menuan.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">RAAPP behin betiko komunikazio hutsegitea!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP ez da gai izan Google Play Zerbitzuekin erregistratzeko. RAAPP mezu eta deiak desgaitu egin dira, mesedez saiatu bererregistratzen Ezarpenak &gt; Aurreratua menuan.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Errorea bereizmen osoko GIFa eskuratzerakoan</string>
   <!--GiphyFragmentPageAdapter-->
@@ -278,8 +278,8 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Taldea editatu</string>
   <string name="GroupCreateActivity_group_name_hint">Taldearen izena</string>
   <string name="GroupCreateActivity_actionbar_mms_title">MMS talde berria</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Signal taldeak onartzen ez duen kontaktu bat aukeratu duzu; beraz, talde hau MMS izango da.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Signal zerbitzuan izena eman ez duzunez, RAAPP taldeak desaktibatuta daude.  Saiatu izena ematen Ezarpenak &gt; Aurreratua menutik mesedez.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">RAAPP taldeak onartzen ez duen kontaktu bat aukeratu duzu; beraz, talde hau MMS izango da.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">RAAPP zerbitzuan izena eman ez duzunez, RAAPP taldeak desaktibatuta daude.  Saiatu izena ematen Ezarpenak &gt; Aurreratua menutik mesedez.</string>
   <string name="GroupCreateActivity_contacts_no_members">Gutxienez pertsona bat behar duzu zure taldean!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Zure taldeko partaide batek ondo irakurri ezin daitekeen zenbaki bat dauka. Konpondu edo ezabatu kontaktua eta saiatu berriro mesedez.</string>
   <string name="GroupCreateActivity_avatar_content_description">Taldearen abatarra</string>
@@ -339,7 +339,7 @@
   <string name="MediaOverviewActivity_Documents">Agiriak</string>
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Uneko RAAPP deia</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal deia finkatzen</string>
+  <string name="NotificationBarManager__establishing_signal_call">RAAPP deia finkatzen</string>
   <string name="NotificationBarManager__incoming_signal_call">Sarrerako RAAPP deia</string>
   <string name="NotificationBarManager__deny_call">Ukatu deia</string>
   <string name="NotificationBarManager__answer_call">Erantzun deia</string>
@@ -350,7 +350,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS mezu berria deskargatzen</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Errorea MMS mezua jaisterakoan, ukitu berriro saiatzeko</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Signal bertsio zaharregitik jaso da mezu zifratua.  Eskatu igorleari birbidaltzeko mesedez bere RAAPP egiaztatu ondoren.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">RAAPP bertsio zaharregitik jaso da mezu zifratua.  Eskatu igorleari birbidaltzeko mesedez bere RAAPP egiaztatu ondoren.</string>
   <string name="MessageRecord_left_group">Taldea utzi duzu.</string>
   <string name="MessageRecord_you_updated_group">Taldea eguneratu duzu</string>
   <string name="MessageRecord_you_called">Deitu duzu</string>
@@ -392,7 +392,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Zoritxarrez, gailu gehiegi dauzkazu lotuta, saia zaitez batzuk ezabatzen</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Barkatu, hau ez da gailua lotzeko baliozko QR kodea.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Lotu RAAPP gailu bat?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Signalez kanpoko eskaner batez parekatzen omen duzu RAAPP gailu bat.  Zure segurtasunerako, eskaneatu kodea Signaletik mesedez.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Signalez kanpoko eskaner batez parekatzen omen duzu RAAPP gailu bat.  Zure segurtasunerako, eskaneatu kodea RAAPPetik mesedez.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signalek Kamera baimena behar du QR kodea eskaneatzeko baina ukatu egin diozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Ezin da QR koderik eskaneatu Kamera baimen gabe</string>
   <!--ExpirationDialog-->
@@ -401,7 +401,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Solasaldi honetan jaso eta bidalitako mezuak ikusi eta %s gero desagertuko dira.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Pasahitza sartu</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal ikonoa</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP ikonoa</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Bidali pasahitza</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Pasahitz baliogabea!</string>
   <!--PlayServicesProblemFragment-->
@@ -460,7 +460,7 @@ zenbakia (%s) baliogabea da.
   <string name="RegistrationActivity_less_information">Informazio gutxiago</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signalek zure kontaktu eta mediara sartzeko baimena behar du zure lagunekin kontaktuan jarri, mezuak bidali eta dei seguruak egiteko</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Ezin da zerbitzura konektatu. Egiaztatu sarearen ezarpenak eta saiatu berriz.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Zure telefono zenbakia erraz egiaztatzeko, Signalek automatikoki irakur dezake egiaztapen kodea SMS mezuak ikusteko baimena ematen badiozu.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Zure telefono zenbakia erraz egiaztatzeko, RAAPPek automatikoki irakur dezake egiaztapen kodea SMS mezuak ikusteko baimena ematen badiozu.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Irudien aldaketak gordetzeak huts egin du</string>
   <!--Search-->
@@ -471,12 +471,12 @@ zenbakia (%s) baliogabea da.
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Gehitu kontaktu-zerrendan</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Gonbidatu RAAPP erabiltzera</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal mezua</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal deia</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP mezua</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP deia</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Gehitu kontaktu-zerrendan</string>
   <string name="SharedContactView_invite_to_signal">Gonbidatu RAAPP erabiltzera</string>
-  <string name="SharedContactView_message">Signal mezua</string>
+  <string name="SharedContactView_message">RAAPP mezua</string>
   <!--Slide-->
   <string name="Slide_image">Irudia</string>
   <string name="Slide_audio">Audioa</string>
@@ -509,7 +509,7 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <string name="ThreadRecord_you_marked_verified">Egiaztatutzat markatu duzu</string>
   <string name="ThreadRecord_you_marked_unverified">Ez egiaztatutzat markatu duzu</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal eguneratu</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP eguneratu</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signalaren bertsio berria dago, sakatu eguneratzeko</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">%s blokeatu?</string>
@@ -525,11 +525,11 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <string name="UnverifiedSendDialog_send_message">Mezua bidali?</string>
   <string name="UnverifiedSendDialog_send">Bidali</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Zure kontaktua Signal-en bertsio zahar bat erabiltzen ari da. Mesedez, eskatu iezaiozu eguneratzeko zure segurtasun zenbaki berria egiaztatu baino lehenago.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Zure kontaktua RAAPP-en bertsio zahar bat erabiltzen ari da. Mesedez, eskatu iezaiozu eguneratzeko zure segurtasun zenbaki berria egiaztatu baino lehenago.</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Zure kontaktua RAAPP aplikazioaren bertsio berriago bat erabiltzen ari da eta horrek QR kode formatua eguneratu du. Eguneratu konparazioa egiteko.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Eskaneatutako QR kodea ez da formato zuzena duen segurtasun berifikazio kode batena. Mesedez, saia zaitez berriro eskaneatzen.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Segurtasun zenbakia partekatu honen bidez...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Gure Signal-en segurtasun zenbakia:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Gure RAAPP-en segurtasun zenbakia:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Dirudienez ez duzu partekatzeko aplikazio bakar bat ere.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Ez da aurkitu konparantzeko segurtasun zenbakirik arbelean</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signalek Kamera baimena behar du QR kodea eskaneatzeko baina ukatu egin diozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Kamera\".</string>
@@ -552,8 +552,8 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Ukitu irekitzeko.</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Ukitu irekitzeko, edo sarraila ukitu ixteko.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal desblokeatuta dago</string>
-  <string name="KeyCachingService_lock">Blokeatu Signal</string>
+  <string name="KeyCachingService_passphrase_cached">RAAPP desblokeatuta dago</string>
+  <string name="KeyCachingService_lock">Blokeatu RAAPP</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Zu</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Euskarri mota ez-onartua</string>
@@ -574,8 +574,8 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <string name="MessageNotifier_mark_read">Markatu irakurritako gisa</string>
   <string name="MessageNotifier_media_message">Multimedia mezua</string>
   <string name="MessageNotifier_reply">Erantzun</string>
-  <string name="MessageNotifier_pending_signal_messages">Falta diren Signalen mezuak</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Signal mezuak  zain dauzkazu, ukitu irekitzeko eta jasotzeko.</string>
+  <string name="MessageNotifier_pending_signal_messages">Falta diren RAAPPen mezuak</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">RAAPP mezuak  zain dauzkazu, ukitu irekitzeko eta jasotzeko.</string>
   <string name="MessageNotifier_contact_message">%1$s%2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontaktua</string>
   <!--Notification Channels-->
@@ -606,7 +606,7 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Bideoa ikusterakoan huts egin du</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s-ren deiari erantzuteko, eman Signali mikrofonoa erabiltzeko baimena.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s-ren deiari erantzuteko, eman RAAPPi mikrofonoa erabiltzeko baimena.</string>
   <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signalek Mikronofoa eta Kamera baimenak behar ditu deiak egin edo jasotzeko baina ukatu egin dizkiozu. Joan aplikazioaren ezarpenetara, aukeratu \"Baimenak\" eta aktibatu \"Mikrofonoa\" eta \"Kamera\"</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">%1$serabiltzailearekin duzun solasaldirako segurtasun zenbakia aldatu da. Agian norbait zure komunikazioa atzematen saiatzen ari da edo %2$s erabiltzaileak RAAPP berrinstalatu du.</string>
@@ -652,7 +652,7 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Singalek zure kontaktuak lortzeko baimena behar du erakutsi ahal izateko.</string>
   <string name="contact_selection_list_fragment__show_contacts">Kontaktuak erakutsi</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal mezua</string>
+  <string name="conversation_activity__type_message_push">RAAPP mezua</string>
   <string name="conversation_activity__type_message_sms_insecure">SMS ez segurua</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS ez segurua</string>
   <string name="conversation_activity__from_sim_name">%1$s-(e)tik</string>
@@ -767,7 +767,7 @@ Gakoaren elkar-trukeraro mezua jaso da protokoloaren bertsio baliogabe baterako.
   <string name="log_submit_activity__please_review_this_log_from_my_app">Egiaztatu mesedez nire aplikazioaren egunkari hau: %1$s</string>
   <string name="log_submit_activity__network_failure">Sare hutsegitea. Saiatu beriro</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Oraingo telefonoaren zifratu gabeko mezuak Signalen datu-base zifratura inportatzea gustatuko litzaizuke?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Oraingo telefonoaren zifratu gabeko mezuak RAAPPen datu-base zifratura inportatzea gustatuko litzaizuke?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Sistemaren lehenetsitako datubasea ez da inolako moduan aldatuko.</string>
   <string name="database_migration_activity__skip">Saltatu</string>
   <string name="database_migration_activity__import">Inportatu</string>
@@ -821,12 +821,12 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="recipient_preferences__call_settings">Dei-ezarpenak</string>
   <string name="recipient_preferences__ringtone">dei-hots tonua</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal deia</string>
+  <string name="redphone_call_card__signal_call">RAAPP deia</string>
   <string name="redphone_call_controls__mute">Isildu</string>
   <string name="redphone_call_controls__flip_camera_rear">Aldatu kamera</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">TELEFONO ZENBAKIA</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signalek komunikatzea erraz bihurtzen du, zure telefono zenbaki eta helbide-liburua erabiliz. Zurekin harremanetan nola jarri dakiten lagunek eta kontaktuek modu errazean egin ahal izango dute Signalen bitartez.\n\nErregistratzeak kontakturako informazioa igortzen du zerbitzarira. Ez da gordetzen.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signalek komunikatzea erraz bihurtzen du, zure telefono zenbaki eta helbide-liburua erabiliz. Zurekin harremanetan nola jarri dakiten lagunek eta kontaktuek modu errazean egin ahal izango dute RAAPPen bitartez.\n\nErregistratzeak kontakturako informazioa igortzen du zerbitzarira. Ez da gordetzen.</string>
   <string name="registration_activity__verify_your_number">Zure zenbakia egiaztatzen</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Idatzi zure telefono zenbakia egiaztatze-kode bat lortzeko. Telefono-konpainiaren arabera kostua izan dezake mezu honek.</string>
   <!--recipients_panel-->
@@ -967,7 +967,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="preferences__theme">Gaia</string>
   <string name="preferences__default">Lehenetsia</string>
   <string name="preferences__language">Hizkuntza</string>
-  <string name="preferences__signal_messages_and_calls">Signal mezu eta deiak</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP mezu eta deiak</string>
   <string name="preferences__free_private_messages_and_calls">Mezu eta dei pribatu doanak RAAPP erabiltzaileri.</string>
   <string name="preferences__submit_debug_log">Arazketaren log-a bidali</string>
   <string name="preferences__support_wifi_calling">\'\"WiFi Calling\' modu bateragarria</string>
@@ -983,8 +983,8 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="preferences_chats__media_auto_download">Multimedia edukiak deskargatze automatikoa</string>
   <string name="preferences_chats__message_trimming">Mezu murrizketa </string>
   <string name="preferences_advanced__use_system_emoji">Erabili sistemako emojiak</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desaktibatu Signalen emoji integratuak</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Signal zerbizariren bitartez birtransmititu dei guztiak; horrela ez diozu erakutsiko zure IP helbidea kontaktuari. Gaitzeak deiaren kalitatea gutxiagotuko du.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desaktibatu RAAPPen emoji integratuak</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">RAAPP zerbizariren bitartez birtransmititu dei guztiak; horrela ez diozu erakutsiko zure IP helbidea kontaktuari. Gaitzeak deiaren kalitatea gutxiagotuko du.</string>
   <string name="preferences_advanced__always_relay_calls">Deiak  beti birtransmititu</string>
   <string name="preferences_app_protection__app_access">App-erako sarrera</string>
   <string name="preferences_app_protection__communication">Komunikazioa</string>
@@ -996,9 +996,9 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="preferences_notifications__calls">Deiak</string>
   <string name="preferences_notifications__ringtone">dei-hots tonua</string>
   <string name="preferences_chats__show_invitation_prompts">Gonbidapenen mezuak erakutsi</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signal ez duten kontaktuei gonbidapen mezuak erakutsi</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">RAAPP ez duten kontaktuei gonbidapen mezuak erakutsi</string>
   <string name="preferences_chats__message_text_size">Mezuaren letra-tipoaren tamaina</string>
-  <string name="preferences_events__contact_joined_signal">Kontaktua orain Signalen dago</string>
+  <string name="preferences_events__contact_joined_signal">Kontaktua orain RAAPPen dago</string>
   <string name="preferences_notifications__priority">Lehentasuna</string>
   <!--****************************************-->
   <!--menus-->
@@ -1008,7 +1008,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Deitu</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal deia</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP deia</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Mezuaren detaileak</string>
   <string name="conversation_context__menu_copy_text">Testua kopiatu</string>
@@ -1073,8 +1073,8 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <!--reminder_header-->
   <string name="reminder_header_outdated_build">Zure RAAPP bertsioa zaharkitua dago</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Zure Signal-en bertsioa egun %d barru iraungiko da. Sakatu azkenengo bertsiora eguneratzeko.</item>
-    <item quantity="other">Zure Signal-en bertsioa %d egun barru iraungiko da. Sakatu azkenengo bertsiora eguneratzeko.</item>
+    <item quantity="one">Zure RAAPP-en bertsioa egun %d barru iraungiko da. Sakatu azkenengo bertsiora eguneratzeko.</item>
+    <item quantity="other">Zure RAAPP-en bertsioa %d egun barru iraungiko da. Sakatu azkenengo bertsiora eguneratzeko.</item>
   </plurals>
   <string name="reminder_header_outdated_build_details_today">Gaur amaituko da zure RAAPP bertsioa erabiltzeko epea. Ukitu azken bertsioara eguneratzeko.</string>
   <string name="reminder_header_expired_build">Amaitu da zure RAAPP bertsioa erabiltzeko epea!</string>
@@ -1082,14 +1082,14 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="reminder_header_sms_default_title">Lehenetsitako SMS aplikazio gisa erabili</string>
   <string name="reminder_header_sms_default_text">Ukitu RAAPP zure SMS aplikazio lehenetsia bihurtzeko</string>
   <string name="reminder_header_sms_import_title">Importatu sistemaren SMS mezuak</string>
-  <string name="reminder_header_sms_import_text">Ukitu telefonoaren zifratu gabeko SMS mezuak Signalen datu-base zifratura kopiatzeko.</string>
+  <string name="reminder_header_sms_import_text">Ukitu telefonoaren zifratu gabeko SMS mezuak RAAPPen datu-base zifratura kopiatzeko.</string>
   <string name="reminder_header_push_title">Aktibatu RAAPP mezu eta deiak</string>
   <string name="reminder_header_push_text">Berritu zure komunikazio-esperientzia.</string>
-  <string name="reminder_header_invite_title">Signal erabilitzera gonbidatu</string>
+  <string name="reminder_header_invite_title">RAAPP erabilitzera gonbidatu</string>
   <string name="reminder_header_invite_text">Hobetu zure %1$s-(e)kiko solasaldia.</string>
   <string name="reminder_header_share_title">Gonbidatu zure lagunak!</string>
-  <string name="reminder_header_share_text">Zenbat eta Signalen adiskide gehiago izan, hobe.</string>
-  <string name="reminder_header_service_outage_text">Signal arazo teknikoak izaten ari da. Gogor ari gara lanean zerbitzua ahal bezain laster berriro martxan jartzeko.</string>
+  <string name="reminder_header_share_text">Zenbat eta RAAPPen adiskide gehiago izan, hobe.</string>
+  <string name="reminder_header_service_outage_text">RAAPP arazo teknikoak izaten ari da. Gogor ari gara lanean zerbitzua ahal bezain laster berriro martxan jartzeko.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Gorde</string>
   <string name="media_preview__forward_title">Birbidali</string>
@@ -1158,7 +1158,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="BackupUtil_never">Inoiz ez</string>
   <string name="BackupUtil_unknown">Ezezaguna</string>
   <string name="preferences_app_protection__screen_lock">Blokeo-pantaila</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Blokeatu Signal-era sarbidea Android pantaila-blokeoarekin edo hatz-markarekin</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Blokeatu RAAPP-era sarbidea Android pantaila-blokeoarekin edo hatz-markarekin</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Blokeo-pantailaren inaktibitate denbora-muga</string>
   <string name="AppProtectionPreferenceFragment_none">Bat ere ez</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">Erregistratzea blokeatzeko PINa ez da jaso berri duzun SMS bidezko egiaztapen-kodearen berdina. Sartu aurrez aplikazioan konfiguratu duzun PINa.</string>
@@ -1169,7 +1169,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="registration_lock_dialog_view__confirm_pin">Berretsi PINa</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Sartu erregistratzea blokeatzeko zure PINa</string>
   <string name="registration_lock_reminder_view__enter_pin">Sartu PINa</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Gaitu erregistratzea blokeatzeko PINa telefono-zenbaki hau Signal-en berriro erregistratu nahi denerako.</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Gaitu erregistratzea blokeatzeko PINa telefono-zenbaki hau RAAPP-en berriro erregistratu nahi denerako.</string>
   <string name="preferences_app_protection__registration_lock_pin">Erregistratzea blokeatzeko PINa</string>
   <string name="preferences_app_protection__registration_lock">Erregistratze-blokeoa</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Erregistratzea blokeatzeko zure PINa sartu behar duzu</string>
@@ -1178,13 +1178,13 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Erregistratzea blokeatzeko PINarekin okerreko saiakera gehiegi egin dituzu. Saiatu berriro egun bat barru.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Akatsa zerbitzura konektatzean</string>
   <string name="RegistrationActivity_oh_no">Ez ba!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Erregistratzea blokeatzeko PINik gabe telefono-zenbaki hau erregistratu ahal izango duzu betiere telefono-zenbaki hau Signal-en aktibo egon zen azken alditik 7 egun igaro ondoren. %d egun gelditzen zaizkizu.</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Erregistratzea blokeatzeko PINik gabe telefono-zenbaki hau erregistratu ahal izango duzu betiere telefono-zenbaki hau RAAPP-en aktibo egon zen azken alditik 7 egun igaro ondoren. %d egun gelditzen zaizkizu.</string>
   <string name="RegistrationActivity_registration_lock_pin">Erregistratzea blokeatzeko PINa</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Telefono-zenbaki honek gaituta du erregistratzea blokeatzeko aukera. Sartu erregistratzea blokeatzeko PINa.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Erregistratzea blokeatzeko aukera gaituta dago zure telefono-zenbakiarentzat. Erregistratzea blokeatzeko PINa buruz ikasten laguntzeko, Signal-ek aldian-aldian berau baieztatzea eskatuko dizu.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Erregistratzea blokeatzeko aukera gaituta dago zure telefono-zenbakiarentzat. Erregistratzea blokeatzeko PINa buruz ikasten laguntzeko, RAAPP-ek aldian-aldian berau baieztatzea eskatuko dizu.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Nire PINa ahaztu dut.</string>
   <string name="RegistrationLockDialog_forgotten_pin">PINa ahaztu al duzu?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Erregistratzea blokeatzeko aukerak zure telefono-zenbakia baimenik gabe erregistratzeko saiakeretatik babesten du. Aukera hau nahi duzunean desgaitu daiteke Signal-eko pribatutasun-ezarpenetan</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Erregistratzea blokeatzeko aukerak zure telefono-zenbakia baimenik gabe erregistratzeko saiakeretatik babesten du. Aukera hau nahi duzunean desgaitu daiteke RAAPP-eko pribatutasun-ezarpenetan</string>
   <string name="RegistrationLockDialog_registration_lock">Erregistratze-blokeoa</string>
   <string name="RegistrationLockDialog_enable">Gaitu</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">Erregistratzea blokeatzeko PINak 4 digitu izan behar ditu gutxienez.</string>
@@ -1194,7 +1194,7 @@ Inportatu \'SMSBackup and Restorekin\' bateragarria den zifratu gabeko babeskopi
   <string name="RegistrationLockDialog_disable">Desgaitu</string>
   <string name="RegistrationActivity_continue">Jarraitu</string>
   <string name="preferences_chats__backups">Babes-kopiak</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal blokeatuta dago</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP blokeatuta dago</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">SAKATU DESBLOKEATZEKO</string>
   <string name="RegistrationLockDialog_reminder">Oroigarria:</string>
   <string name="recipient_preferences__about">Honi buruz</string>

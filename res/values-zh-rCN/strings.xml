@@ -49,10 +49,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(回复)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">无法找到用于选择媒体的应用。</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"存储空间\"权限。</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal 需要\"通讯录\"权限才能发送联系人名片信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"通讯录\"权限。</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal 需要\"位置信息\"权限才能发送位置信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"位置信息\"权限。</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal 需要\"相机\"权限才能拍照并发送相片，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"相机\"权限。</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">RAAPP 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"存储空间\"权限。</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">RAAPP 需要\"通讯录\"权限才能发送联系人名片信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"通讯录\"权限。</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">RAAPP 需要\"位置信息\"权限才能发送位置信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"位置信息\"权限。</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">RAAPP 需要\"相机\"权限才能拍照并发送相片，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"相机\"权限。</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">播放音频时出现错误！</string>
   <!--BlockedContactsActivity-->
@@ -132,12 +132,12 @@
   <string name="ConversationActivity_unable_to_record_audio">无法录音！</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的设备上没有应用程序能打开这个链接。</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">如果想要发送语音信息，请允许 RAAPP 使用您设备的麦克风。</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal 需要麦克风权限才能发送语音信息，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”。</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Signal 需要使用您的麦克风和照相机来给%s打电话。</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal 需要麦克风和相机权限以呼叫 %s ，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”和“相机”。</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP 需要麦克风权限才能发送语音信息，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”。</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">RAAPP 需要使用您的麦克风和照相机来给%s打电话。</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP 需要麦克风和相机权限以呼叫 %s ，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”和“相机”。</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许 RAAPP 访问相机。</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需要相机权限来拍摄照片或录制视频。但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal 需要相机权限以拍摄照片或视频</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">RAAPP 需要相机权限来拍摄照片或录制视频。但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">RAAPP 需要相机权限以拍摄照片或视频</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -240,12 +240,12 @@
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure 已命名为 暗号 。</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">从现在起， TextSecure 和 RedPhone 将是同一个信息平台：暗号。点击以开始探索。</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">试试我们的加密视频通话吧。</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal 现在支持视频通话了！同往常一样开始一个 RAAPP 通话，然后点击启用视频按钮，同您的联系人问好吧。</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal 现在支持视频通话了</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal 现在支持视频通话了，点击以探索此新功能。</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP 现在支持视频通话了！同往常一样开始一个 RAAPP 通话，然后点击启用视频按钮，同您的联系人问好吧。</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP 现在支持视频通话了</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP 现在支持视频通话了，点击以探索此新功能。</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">要拍近照了，准备好了吗？</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">在Signal上和朋友们分享你的头像和昵称</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal 个人档案来了</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">RAAPP 个人档案来了</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">暗号持续连接失效！</string>
   <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">暗号无法在 Google Play 服务中注册。暗号消息和呼叫已经被金庸。请尝试在设置 &gt; 高级中重新注册。</string>
@@ -365,7 +365,7 @@
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">抱歉，这不是有效的设备连接二维码。</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">连接一个暗号设备？</string>
   <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">看起来您正在使用第三方的扫描器来连接暗号设备。处于您的安全考虑，请尝试使用暗号的扫描器扫描二维码。</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal 需要相机权限以扫描 QR 码，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP 需要相机权限以扫描 QR 码，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">无法在没有访问相机的权限时扫描 QR 码</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">阅后即焚信息</string>
@@ -419,7 +419,7 @@
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">您所指定的号码
 (%s) 无效。</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play 服务缺失</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">此设备缺少 Google Play 服务框架。您仍能使用 Signal，但是 RAAPP 的功能与稳定性会因此受到很大影响。\n\n如果您不是高级用户，并且运行的是原厂安卓手机操作系统，或者您觉得此错误信息不正确，请使用英文联系 support@whispersystems.org 我们会尝试帮助您解决此问题。</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">此设备缺少 Google Play 服务框架。您仍能使用 RAAPP，但是 RAAPP 的功能与稳定性会因此受到很大影响。\n\n如果您不是高级用户，并且运行的是原厂安卓手机操作系统，或者您觉得此错误信息不正确，请使用英文联系 support@whispersystems.org 我们会尝试帮助您解决此问题。</string>
   <string name="RegistrationActivity_i_understand">了解</string>
   <string name="RegistrationActivity_play_services_error">Google Play 服务错误</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play 服务正在更新或者暂时不可用。请稍后再试。</string>
@@ -427,7 +427,7 @@
   <string name="RegistrationActivity_no_browser">无法打开链接。没有找到网络浏览器</string>
   <string name="RegistrationActivity_more_information">展开</string>
   <string name="RegistrationActivity_less_information">隐藏</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal 需要访问您的联系人和媒体以连接您的朋友，外部存储信息，并建立安全呼叫。</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">RAAPP 需要访问您的联系人和媒体以连接您的朋友，外部存储信息，并建立安全呼叫。</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">无法连接到 RAAPP 服务。请检查您的网络连接。</string>
   <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">为了方便验证您的号码，如果您能允许 RAAPP 查看您的短信，便可自动检测您的验证代码。</string>
   <!--ScribbleActivity-->
@@ -440,12 +440,12 @@
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">添加到通讯录</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">邀请至暗号</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal 消息</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP 消息</string>
   <string name="SharedContactDetailsActivity_signal_call">暗号呼叫</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">添加到通讯录</string>
   <string name="SharedContactView_invite_to_signal">邀请至暗号</string>
-  <string name="SharedContactView_message">Signal 消息</string>
+  <string name="SharedContactView_message">RAAPP 消息</string>
   <!--Slide-->
   <string name="Slide_image">图片</string>
   <string name="Slide_audio">音频</string>
@@ -474,8 +474,8 @@
   <string name="ThreadRecord_you_marked_verified">你被标识为已验证</string>
   <string name="ThreadRecord_you_marked_unverified">你被标记为未验证</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal 更新</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal 有新版本了，点击升级！</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP 更新</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">RAAPP 有新版本了，点击升级！</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">屏蔽 %s？</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">您将不会再收到来自被屏蔽用户的信息和呼叫。</string>
@@ -490,14 +490,14 @@
   <string name="UnverifiedSendDialog_send_message">发送信息？</string>
   <string name="UnverifiedSendDialog_send">发送</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的联系人使用的是旧版本的 Signal，在请求对方验证安全码前，请先让对方升级 RAAPP 客户端。</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的联系人使用的是新版本的 Signal，程序无法识别这个联系人的二维码。请升级您的 RAAPP 。</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的联系人使用的是旧版本的 RAAPP，在请求对方验证安全码前，请先让对方升级 RAAPP 客户端。</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的联系人使用的是新版本的 RAAPP，程序无法识别这个联系人的二维码。请升级您的 RAAPP 。</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">扫描的二维码不正确。请重新扫一次。</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">通过……分享安全码</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">我们的 RAAPP 安全码：</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">看起来您没有任何可以共享的应用。</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">剪切板中没有安全代码进行比较</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal 需要相机权限以扫描 QR 码，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">RAAPP 需要相机权限以扫描 QR 码，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">无法在没有访问相机的权限时扫描 QR 二维码</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">已损坏的加密消息</string>
@@ -518,12 +518,12 @@
   <string name="KeyCachingService_signal_passphrase_cached">轻触以开启。</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">轻触以开启，或点击锁定以关闭。</string>
   <string name="KeyCachingService_passphrase_cached">暗号已解锁</string>
-  <string name="KeyCachingService_lock">锁定 Signal</string>
+  <string name="KeyCachingService_lock">锁定 RAAPP</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">您</string>
   <string name="MediaPreviewActivity_unssuported_media_type">不支持的媒体类型。</string>
   <string name="MediaPreviewActivity_draft">草稿</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal 需要存储权限以写入外部存储，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“存储”。</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">RAAPP 需要存储权限以写入外部存储，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“存储”。</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">无法在没有写入到外部存储的权限时保存到外部存储</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">删除消息吗？</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">这将会永久删除消息。</string>
@@ -564,12 +564,12 @@
   <string name="SingleRecipientNotificationBuilder_new_message">新信息</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">设备已注销</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">这可能是因为您的号码在另一台设备上注册了 Signal。点击以重试。</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">这可能是因为您的号码在另一台设备上注册了 RAAPP。点击以重试。</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">播放视频时出错</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">如要接听来自 %s 的通话，请首先允许 RAAPP 访问您设备的麦克风。</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal 需要麦克风和相机权限才能发送或接受呼叫，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”和“相机”。</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">RAAPP 需要麦克风和相机权限才能发送或接受呼叫，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”和“相机”。</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">%1$s 的安全码发生了改变。这可能是因为有人正在尝试截获你们的通讯，或者 %2$s 只是重新安装了 RAAPP 。</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">您可能希望验证这个联系人的安全代码。</string>
@@ -606,12 +606,12 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">联系人照片</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"通讯录\"权限。</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">RAAPP 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"通讯录\"权限。</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">无法获取通讯录数据，请检查您的网络连接</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">没有屏蔽的联系人</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal 需要访问您的联系人才能显示他们。</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP 需要访问您的联系人才能显示他们。</string>
   <string name="contact_selection_list_fragment__show_contacts">显示联系人</string>
   <!--conversation_activity-->
   <string name="conversation_activity__type_message_push">发送 RAAPP 信息</string>
@@ -771,7 +771,7 @@
   <string name="redphone_call_controls__flip_camera_rear">切换摄像头</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">电话号码</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal 使用您的电话号码以及您手机上的联系人来更好地帮助您沟通。如此，已经了解您的联系方式的朋友及联系人将能够更轻松地使用 RAAPP 来与您联络。\n\n注册时联系人将会被上传到服务器，但是他们不会被保存在服务器上。</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP 使用您的电话号码以及您手机上的联系人来更好地帮助您沟通。如此，已经了解您的联系方式的朋友及联系人将能够更轻松地使用 RAAPP 来与您联络。\n\n注册时联系人将会被上传到服务器，但是他们不会被保存在服务器上。</string>
   <string name="registration_activity__verify_your_number">验证您的号码</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">请输入您的电话号码来接收验证码。运营商可能会对此收费。</string>
   <!--recipients_panel-->
@@ -941,7 +941,7 @@
   <string name="preferences_chats__show_invitation_prompts">显示邀请提示</string>
   <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">显示未使用 RAAPP 联系人的邀请提示</string>
   <string name="preferences_chats__message_text_size">字体大小</string>
-  <string name="preferences_events__contact_joined_signal">联系人加入了 Signal</string>
+  <string name="preferences_events__contact_joined_signal">联系人加入了 RAAPP</string>
   <string name="preferences_notifications__priority">优先级</string>
   <!--****************************************-->
   <!--menus-->
@@ -1051,10 +1051,10 @@
   <string name="ConversationListFragment_loading">载入中…</string>
   <string name="CallNotificationBuilder_connecting">连接中……</string>
   <string name="Permissions_permission_required">需要相应权限</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal 需要短信权限以发送短信，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“短信”。</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">RAAPP 需要短信权限以发送短信，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“短信”。</string>
   <string name="Permissions_continue">继续</string>
   <string name="Permissions_not_now">稍后再说</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"通讯录\"权限。 </string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP 需要\"通讯录\"权限才能显示联系人信息，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 RAAPP 应用，并启用\"通讯录\"权限。 </string>
   <string name="conversation_activity__enable_signal_messages">启用 RAAPP 信息</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">迁移 RAAPP 数据库</string>
   <string name="PushDecryptJob_new_locked_message">新的锁定信息</string>
@@ -1086,7 +1086,7 @@
   <string name="BackupDialog_disable_and_delete_all_local_backups">关闭并且删除所有本地备份吗？</string>
   <string name="BackupDialog_delete_backups_statement">删除备份</string>
   <string name="BackupDialog_copied_to_clipboard">已复制到剪切板</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal 需要存储空间权限才能创建备份，但是此权限已被永久禁用。请转到系统的应用设置，选择“权限”然后启用“存储空间”权限。</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP 需要存储空间权限才能创建备份，但是此权限已被永久禁用。请转到系统的应用设置，选择“权限”然后启用“存储空间”权限。</string>
   <string name="ChatsPreferenceFragment_last_backup_s">上一次备份：%s</string>
   <string name="ChatsPreferenceFragment_in_progress">进行中</string>
   <string name="LocalBackupJob_creating_backup">正在创建备份…</string>
@@ -1099,7 +1099,7 @@
   <string name="BackupUtil_never">永不</string>
   <string name="BackupUtil_unknown">未知</string>
   <string name="preferences_app_protection__screen_lock">锁屏</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Signal</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 RAAPP</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">不活跃锁屏超时</string>
   <string name="AppProtectionPreferenceFragment_none">无</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">注册锁定 PIN 和您刚才收到的短信验证码不是一个东西。请输入您之前在应用中设置的密码。</string>
@@ -1110,7 +1110,7 @@
   <string name="registration_lock_dialog_view__confirm_pin">确认 PIN</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">输入您的注册锁定 PIN</string>
   <string name="registration_lock_reminder_view__enter_pin">输入 PIN</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">如果启用注册锁定 PIN 的话，Signal 服务将会在下次于 RAAPP 中注册此电话号码时要求此密码。</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">如果启用注册锁定 PIN 的话，RAAPP 服务将会在下次于 RAAPP 中注册此电话号码时要求此密码。</string>
   <string name="preferences_app_protection__registration_lock_pin">注册锁定 PIN</string>
   <string name="preferences_app_protection__registration_lock">注册锁</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">您必须输入您的注册锁定 PIN</string>
@@ -1122,7 +1122,7 @@
   <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">您将可能可以在此 RAAPP 帐号 7 天不活跃后，不使用注册锁定密码注册此电话号码。还剩 %d 天。</string>
   <string name="RegistrationActivity_registration_lock_pin">注册锁定 PIN</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">该电话号码已经开启注册锁。请输入注册锁PIN码。</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">您的电话号码已经启用注册锁。为了帮助您记住您的注册锁密码，Signal 会时常要求您输入该密码。</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">您的电话号码已经启用注册锁。为了帮助您记住您的注册锁密码，RAAPP 会时常要求您输入该密码。</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">我忘了我的 PIN</string>
   <string name="RegistrationLockDialog_forgotten_pin">忘记 PIN 了？</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">注册锁能够帮助保护您的电话号码，防止其在未经允许的情况下被注册使用。您可以在任何时候在 RAAPP 隐私设置里关闭这项功能。</string>
@@ -1135,7 +1135,7 @@
   <string name="RegistrationLockDialog_disable">禁用</string>
   <string name="RegistrationActivity_continue">继续</string>
   <string name="preferences_chats__backups">备份</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal 已锁定</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP 已锁定</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">轻触解锁</string>
   <string name="RegistrationLockDialog_reminder">提醒：</string>
   <string name="recipient_preferences__about">关于</string>

@@ -21,12 +21,12 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Verwijderen</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Wachtwoord uitschakelen?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dit zal Signal- en berichtmeldingen blijvend ontgrendelen.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dit zal RAAPP- en berichtmeldingen blijvend ontgrendelen.</string>
   <string name="ApplicationPreferencesActivity_disable">Uitschakelen</string>
   <string name="ApplicationPreferencesActivity_unregistering">Aan het afmelden</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Aan het afmelden voor Signal-berichten en -oproepen...</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Aan het afmelden voor RAAPP-berichten en -oproepen...</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal-berichten en -oproepen uitschakelen?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Dit zal Signal-berichten en -oproepen uitschakelen door je te deregistreren bij de server. Je zal je telefoonnummer opnieuw moeten registreren als je deze functies weer wil gebruiken.</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Dit zal RAAPP-berichten en -oproepen uitschakelen door je te deregistreren bij de server. Je zal je telefoonnummer opnieuw moeten registreren als je deze functies weer wil gebruiken.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Fout bij verbinden met de server!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS ingeschakeld</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Tik om je standaard-SMS-applicatie te wijzigen</string>
@@ -52,10 +52,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(beantwoorden)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Geen app gevonden om media te selecteren.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal heeft toegang nodig tot de opslagruimte om foto\'s, video\'s of audio te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal heeft toegang nodig tot de contacten om contactinformatie te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal heeft toegang nodig tot de locatie om locaties te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Locatie\" in.</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal heeft toegang nodig tot de camera om foto\'s te kunnen maken, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">RAAPP heeft toegang nodig tot de opslagruimte om foto\'s, video\'s of audio te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">RAAPP heeft toegang nodig tot de contacten om contactinformatie te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">RAAPP heeft toegang nodig tot de locatie om locaties te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Locatie\" in.</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">RAAPP heeft toegang nodig tot de camera om foto\'s te kunnen maken, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Fout bij afspelen van audio!</string>
   <!--BlockedContactsActivity-->
@@ -137,12 +137,12 @@
   <string name="ConversationActivity_unable_to_record_audio">Fout bij opnemen audio!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Er is geen app aanwezig op het apparaat om deze link te openen.</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Geef RAAPP toegang tot je microfoon om audioberichten te sturen.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal heeft toegang nodig tot de microfoon om audioberichten te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Microfoon\" in.</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Signal heeft toegang nodig tot je microfoon en camera om %s te bellen.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal heeft toegang nodig tot de microfoon en camera om %s te kunnen bellen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Microfoon\" en \"Camera\" in.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP heeft toegang nodig tot de microfoon om audioberichten te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Microfoon\" in.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">RAAPP heeft toegang nodig tot je microfoon en camera om %s te bellen.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP heeft toegang nodig tot de microfoon en camera om %s te kunnen bellen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Microfoon\" en \"Camera\" in.</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Geef RAAPP toegang tot de camera om foto\'s en video\'s te maken.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal heeft toegang nodig tot de camera om foto\'s en video\'s te kunnen opnemen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal heeft toegang nodig tot de camera om foto\'s en video\'s te kunnen opnemen</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">RAAPP heeft toegang nodig tot de camera om foto\'s en video\'s te kunnen opnemen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">RAAPP heeft toegang nodig tot de camera om foto\'s en video\'s te kunnen opnemen</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -252,21 +252,21 @@
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Delen met</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Welkom bij Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure en RedPhone zijn nu samen één privé-messenger, geschikt voor iedere situatie: Signal.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Welkom bij Signal!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure heet nu Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure en RedPhone zijn nu één app: Signal. Maak snel kennis!</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Welkom bij RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure en RedPhone zijn nu samen één privé-messenger, geschikt voor iedere situatie: RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Welkom bij RAAPP!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure heet nu RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure en RedPhone zijn nu één app: RAAPP. Maak snel kennis!</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Hallo, beveiligde videogesprekken.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal ondersteunt nu beveiligde videogesprekken. Maak gewoon een Signal-oproep en tik op de videoknop om een videogesprek te beginnen.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal ondersteunt nu beveiligde videogesprekken.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal ondersteunt nu beveiligde videogesprekken. Tik om te verkennen.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP ondersteunt nu beveiligde videogesprekken. Maak gewoon een RAAPP-oproep en tik op de videoknop om een videogesprek te beginnen.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP ondersteunt nu beveiligde videogesprekken.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP ondersteunt nu beveiligde videogesprekken. Tik om te verkennen.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Klaar voor je close-up?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Je kan nu een profielfoto en naam met je vrienden op RAAPP delen</string>
   <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal-profielen zijn nu beschikbaar</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanente Signal-communicatiefout!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal was niet in staat met Google Play services te registreren. RAAPP berichten en oproepen zijn nu uitgeschakeld, probeer opnieuw te registreren via Instellingen &gt; Geavanceerd.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanente RAAPP-communicatiefout!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP was niet in staat met Google Play services te registreren. RAAPP berichten en oproepen zijn nu uitgeschakeld, probeer opnieuw te registreren via Instellingen &gt; Geavanceerd.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Fout bij het ophalen van de GIF in volledige resolutie</string>
   <!--GiphyFragmentPageAdapter-->
@@ -277,15 +277,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Groep bijwerken</string>
   <string name="GroupCreateActivity_group_name_hint">Groepsnaam</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Nieuwe mms-groep</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Je hebt een contactpersoon geselecteerd die geen Signal-groepen ondersteunt, dus deze groep zal gebruik maken van mms.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Je bent niet geregistreerd voor Signal-berichten en -oproepen, dus Signal-groepen zijn uitgeschakeld. Registreren kan via Instellingen &gt; Geavanceerd.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Je hebt een contactpersoon geselecteerd die geen RAAPP-groepen ondersteunt, dus deze groep zal gebruik maken van mms.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Je bent niet geregistreerd voor RAAPP-berichten en -oproepen, dus RAAPP-groepen zijn uitgeschakeld. Registreren kan via Instellingen &gt; Geavanceerd.</string>
   <string name="GroupCreateActivity_contacts_no_members">Je groep moet minstens één persoon bevatten.</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Het nummer van een van de leden van je groep kan niet goed worden gelezen. Corrigeer dit of verwijder deze persoon, en probeer het opnieuw.</string>
   <string name="GroupCreateActivity_avatar_content_description">Groepsafbeelding</string>
   <string name="GroupCreateActivity_menu_apply_button">Toepassen</string>
   <string name="GroupCreateActivity_creating_group">%1$s aanmaken...</string>
   <string name="GroupCreateActivity_updating_group">%1$s bijwerken...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Kon  %1$s niet toevoegen omdat het geen Signal-gebruikers zijn</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Kon  %1$s niet toevoegen omdat het geen RAAPP-gebruikers zijn</string>
   <string name="GroupCreateActivity_loading_group_details">Groepsdetails laden...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Je bent al lid van deze groep.</string>
   <!--GroupShareProfileView-->
@@ -303,7 +303,7 @@
   <string name="InviteActivity_sending">Verzenden...</string>
   <string name="InviteActivity_heart_content_description">Hartje</string>
   <string name="InviteActivity_invitations_sent">Uitnodigingen verzonden!</string>
-  <string name="InviteActivity_invite_to_signal">Uitnodigen voor Signal</string>
+  <string name="InviteActivity_invite_to_signal">Uitnodigen voor RAAPP</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">STUUR SMS NAAR %d VRIEND</item>
     <item quantity="other">STUUR SMS NAAR %d VRIENDEN</item>
@@ -312,7 +312,7 @@
     <item quantity="one">%d sms-uitnodiging verzenden?</item>
     <item quantity="other">%d sms-uitnodigingen verzenden?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Laten we overstappen naar Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Laten we overstappen naar RAAPP: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Het lijkt erop dat je geen apps hebt om naar te delen.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Vrienden laten vrienden niet onversleuteld chatten.</string>
   <!--MessageDetailsRecipient-->
@@ -338,8 +338,8 @@
   <string name="MediaOverviewActivity_Documents">Documenten</string>
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal-oproep aan de gang</string>
-  <string name="NotificationBarManager__establishing_signal_call">Opzetten van Signal-oproep</string>
-  <string name="NotificationBarManager__incoming_signal_call">Inkomende Signal-oproep</string>
+  <string name="NotificationBarManager__establishing_signal_call">Opzetten van RAAPP-oproep</string>
+  <string name="NotificationBarManager__incoming_signal_call">Inkomende RAAPP-oproep</string>
   <string name="NotificationBarManager__deny_call">Oproep afwijzen</string>
   <string name="NotificationBarManager__answer_call">Oproep beantwoorden</string>
   <string name="NotificationBarManager__end_call">Oproep beëindigen</string>
@@ -349,7 +349,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Downloaden van mms-bericht</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Fout bij downloaden van mms-bericht, tik om opnieuw te proberen</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Dit bericht gebruikt verouderde versleuteling van een Signal-versie die niet meer ondersteund wordt. Vraag de afzender om bij te werken naar de meest recente versie en het bericht opnieuw te verzenden.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Dit bericht gebruikt verouderde versleuteling van een RAAPP-versie die niet meer ondersteund wordt. Vraag de afzender om bij te werken naar de meest recente versie en het bericht opnieuw te verzenden.</string>
   <string name="MessageRecord_left_group">Je hebt de groep verlaten.</string>
   <string name="MessageRecord_you_updated_group">Je hebt de groep bijgewerkt.</string>
   <string name="MessageRecord_you_called">Jij hebt gebeld</string>
@@ -359,7 +359,7 @@
   <string name="MessageRecord_s_called_you">%s heeft je gebeld</string>
   <string name="MessageRecord_called_s">%s gebeld</string>
   <string name="MessageRecord_missed_call_from">Gemiste oproep van %s</string>
-  <string name="MessageRecord_s_joined_signal">%s zit op Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s zit op RAAPP!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Je hebt verdwijnende berichten uitgezet.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$sschakelde verdwijnende berichten uit.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Je hebt de timer voor verdwijnende berichten op %1$s gezet.</string>
@@ -390,9 +390,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ongeldige QR-code.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sorry, je hebt te veel apparaten geregistreerd, probeer er enkele te verwijderen</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Sorry, dit is geen geldige QR-code voor koppeling van een apparaat.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Een Signal-apparaat koppelen?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Het lijkt erop dat je een Signal-apparaat wil koppelen met een externe scanner. Scan voor de veiligheid alsjeblieft de code opnieuw vanuit Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal heeft toegang nodig tot de camera om een QR-code te scannen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Een RAAPP-apparaat koppelen?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Het lijkt erop dat je een RAAPP-apparaat wil koppelen met een externe scanner. Scan voor de veiligheid alsjeblieft de code opnieuw vanuit RAAPP.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP heeft toegang nodig tot de camera om een QR-code te scannen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Kan geen QR-code scannen zonder toegang tot camera</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Verdwijnende berichten</string>
@@ -454,7 +454,7 @@ ingevoerd (%s) is ongeldig.</string>
   <string name="RegistrationActivity_no_browser">Kan link niet openen, geen webbrowser gevonden.</string>
   <string name="RegistrationActivity_more_information">Meer informatie</string>
   <string name="RegistrationActivity_less_information">Minder informatie</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal heeft toegang nodig tot je contacten en media om je met je vrienden te laten verbinden, elkaar berichten te sturen en beveiligde oproepen te maken</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">RAAPP heeft toegang nodig tot je contacten en media om je met je vrienden te laten verbinden, elkaar berichten te sturen en beveiligde oproepen te maken</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Verbinden met dienst niet mogelijk. Controleer je netwerkverbinding en probeer het opnieuw.</string>
   <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Als je RAAPP toestaat sms-berichten te lezen, kan het je verificatiecode automatisch detecteren om je telefoonnummer eenvoudig te verifiëren.</string>
   <!--ScribbleActivity-->
@@ -466,13 +466,13 @@ ingevoerd (%s) is ongeldig.</string>
   <string name="SearchFragment_header_messages">Berichten</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Toevoegen aan contacten</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Uitnodigen voor Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal bericht</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal oproep</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Uitnodigen voor RAAPP</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP bericht</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP oproep</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Toevoegen aan contacten</string>
-  <string name="SharedContactView_invite_to_signal">Uitnodigen voor Signal</string>
-  <string name="SharedContactView_message">Signal bericht</string>
+  <string name="SharedContactView_invite_to_signal">Uitnodigen voor RAAPP</string>
+  <string name="SharedContactView_message">RAAPP bericht</string>
   <!--Slide-->
   <string name="Slide_image">Afbeelding</string>
   <string name="Slide_audio">Audio</string>
@@ -495,7 +495,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="ThreadRecord_called_you">Heeft je gebeld</string>
   <string name="ThreadRecord_missed_call">Gemiste oproep</string>
   <string name="ThreadRecord_media_message">Mediabericht</string>
-  <string name="ThreadRecord_s_is_on_signal">%s zit op Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s zit op RAAPP!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Verdwijnende berichten uitgeschakeld</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Berichten zullen verdwijnen na %s</string>
   <string name="ThreadRecord_safety_number_changed">Veiligheidsnummer veranderd</string>
@@ -519,14 +519,14 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="UnverifiedSendDialog_send_message">Bericht verzenden?</string>
   <string name="UnverifiedSendDialog_send">Verzenden</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Dit contact gebruikt een oude versie van Signal. Vraag hen om RAAPP bij te werken vooraleer je het veiligheidsnummer verifieert.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Dit contact gebruikt een oude versie van RAAPP. Vraag hen om RAAPP bij te werken vooraleer je het veiligheidsnummer verifieert.</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Je contact gebruikt een nieuwere versie van RAAPP met een incompatibel QR-codeformaat. Werk RAAPP bij om te vergelijken.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">De gescande QR-code is geen goed veiligheidsnummer. Probeer de code opnieuw te scannen.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Veiligheidsnummer delen via...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Ons Signal-veiligheidsnummer:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Ons RAAPP-veiligheidsnummer:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Het lijkt erop dat je geen apps hebt om naar te delen.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Geen veiligheidsnummer gevonden op het klembord</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal heeft toegang nodig tot de camera om een QR-code te scannen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">RAAPP heeft toegang nodig tot de camera om een QR-code te scannen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Camera\" in.</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Kan QR-code niet scannen zonder toegang tot camera</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Verkeerd versleuteld bericht</string>
@@ -546,13 +546,13 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Tik om te openen.</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Tik om te openen of tik op het slot om te sluiten.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal is ontgrendeld</string>
-  <string name="KeyCachingService_lock">Signal vergrendelen</string>
+  <string name="KeyCachingService_passphrase_cached">RAAPP is ontgrendeld</string>
+  <string name="KeyCachingService_lock">RAAPP vergrendelen</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Jij</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Niet-ondersteund mediatype</string>
   <string name="MediaPreviewActivity_draft">Concept</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal heeft toegang nodig tot de opslagruimte om naar de externe opslag te kunnen opslaan, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">RAAPP heeft toegang nodig tot de opslagruimte om naar de externe opslag te kunnen opslaan, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan niet opslaan naar externe opslag zonder toestemming</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Bericht verwijderen?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Dit bericht zal voorgoed verwijderd worden.</string>
@@ -569,7 +569,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="MessageNotifier_media_message">Mediabericht</string>
   <string name="MessageNotifier_reply">Reageren</string>
   <string name="MessageNotifier_pending_signal_messages">Signal-berichten in wachtrij</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Er staan Signal-berichten in de wachtrij, tik om ze te openen en op te halen</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Er staan RAAPP-berichten in de wachtrij, tik om ze te openen en op te halen</string>
   <string name="MessageNotifier_contact_message">%1$s%2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Contactpersoon</string>
   <!--Notification Channels-->
@@ -602,7 +602,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="VideoPlayer_error_playing_video">Fout bij afspelen van video</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Geef RAAPP toegang tot je microfoon om de oproep van %s te beantwoorden.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal heeft toegang nodig tot de microfoon en de camera om oproepen te maken of ontvangen, maar deze toestemmingen zijn permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Microfoon\" en \"Camera\" in.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">RAAPP heeft toegang nodig tot de microfoon en de camera om oproepen te maken of ontvangen, maar deze toestemmingen zijn permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Microfoon\" en \"Camera\" in.</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">Je veiligheidsnummer met %1$s is veranderd. Dit kan betekenen dat iemand je communicatie probeert te onderscheppen, of gewoon dat %2$s RAAPP opnieuw geïnstalleerd heeft.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Veiligheidsnummers met deze contactpersoon verifiëren.</string>
@@ -639,12 +639,12 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Contactfoto</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal heeft toegang nodig tot de contacten om je contacten weer te kunnen geven, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">RAAPP heeft toegang nodig tot de contacten om je contacten weer te kunnen geven, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Fout bij ophalen van contacten, controleer je netwerkverbinding</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Geen geblokkeerde contacten</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal heeft toegang nodig tot je contacten om ze weer te kunnen geven.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP heeft toegang nodig tot je contacten om ze weer te kunnen geven.</string>
   <string name="contact_selection_list_fragment__show_contacts">Contacten tonen</string>
   <!--conversation_activity-->
   <string name="conversation_activity__type_message_push">Signal-bericht</string>
@@ -762,7 +762,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="log_submit_activity__please_review_this_log_from_my_app">Bestudeer a.u.b. dit logbestand van mijn app: %1$s</string>
   <string name="log_submit_activity__network_failure">Netwerkfout. Probeer het opnieuw.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Wil je je huidige tekstberichtendatabase importeren naar de versleutelde database van Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Wil je je huidige tekstberichtendatabase importeren naar de versleutelde database van RAAPP?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">De standaardsysteemdatabase zal niet gewijzigd of aangepast worden op enige wijze.</string>
   <string name="database_migration_activity__skip">Overslaan</string>
   <string name="database_migration_activity__import">Importeren</string>
@@ -794,7 +794,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Ontgrendelen</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal heeft mms-instellingen nodig om mediaberichten te kunnen versturen via je telefoonprovider. Je apparaat maakt deze informatie niet beschikbaar. Dit komt vaker voor bij gelockte apparaten en andere beperkende configuraties.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">RAAPP heeft mms-instellingen nodig om mediaberichten te kunnen versturen via je telefoonprovider. Je apparaat maakt deze informatie niet beschikbaar. Dit komt vaker voor bij gelockte apparaten en andere beperkende configuraties.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Om media- en groepsberichten te verzenden tik je op Oké en voer je de gevraagde gegevens in. De mms-instellingen voor je provider kunnen meestal gevonden worden door online te zoeken naar \"naam-van-je-provider APN\". Dit hoef je maar één keer te doen.</string>
   <!--profile_create_activity-->
   <string name="profile_create_activity__set_later">Later instellen</string>
@@ -817,12 +817,12 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="recipient_preferences__call_settings">Oproep instellingen</string>
   <string name="recipient_preferences__ringtone">Beltoon</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal oproep</string>
+  <string name="redphone_call_card__signal_call">RAAPP oproep</string>
   <string name="redphone_call_controls__mute">Dempen</string>
   <string name="redphone_call_controls__flip_camera_rear">Andere camera</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">TELEFOONNUMMER</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal maakt het eenvoudig om met je bestaande telefoonnummer en adresboek te communiceren. Vrienden en contacten die jou al via je telefoon kunnen contacteren zullen eenvoudig met je contact kunnen opnemen via Signal.\n\nRegistreren deelt tijdelijk enige informatie met de server. Het wordt niet bewaard.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP maakt het eenvoudig om met je bestaande telefoonnummer en adresboek te communiceren. Vrienden en contacten die jou al via je telefoon kunnen contacteren zullen eenvoudig met je contact kunnen opnemen via RAAPP.\n\nRegistreren deelt tijdelijk enige informatie met de server. Het wordt niet bewaard.</string>
   <string name="registration_activity__verify_your_number">Verifieer je nummer</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Voer je telefoonnummer in om een verificatiecode te ontvangen. Extra providerkosten zijn mogelijk van toepassing.</string>
   <!--recipients_panel-->
@@ -899,8 +899,8 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="preferences__sms_mms">Sms en mms</string>
   <string name="preferences__pref_all_sms_title">Ontvang alle sms</string>
   <string name="preferences__pref_all_mms_title">Ontvang alle mms</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Signal gebruiken voor alle inkomende tekstberichten</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Signal gebruiken voor alle inkomende multimediaberichten</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">RAAPP gebruiken voor alle inkomende tekstberichten</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">RAAPP gebruiken voor alle inkomende multimediaberichten</string>
   <string name="preferences__pref_enter_sends_title">Enter-toets verzendt</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Gebruik de Enter-toets voor verzenden van tekstberichten</string>
   <string name="preferences__choose_identity">Identiteit kiezen</string>
@@ -911,7 +911,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Vergrendel scherm en meldingen met een wachtwoord</string>
   <string name="preferences__screen_security">Schermbeveiliging</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Schermafdrukken onmogelijk maken in deze app en de lijst van recent gebruikte apps</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Signal automatisch vergrendelen na een bepaalde periode van inactiviteit</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">RAAPP automatisch vergrendelen na een bepaalde periode van inactiviteit</string>
   <string name="preferences__inactivity_timeout_passphrase">Vergrendeling bij inactiviteit</string>
   <string name="preferences__inactivity_timeout_interval">Inactiviteitsduur voor vergrendeling</string>
   <string name="preferences__notifications">Meldingen</string>
@@ -965,7 +965,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="preferences__default">Standaard</string>
   <string name="preferences__language">Taal</string>
   <string name="preferences__signal_messages_and_calls">Signal-berichten en -oproepen</string>
-  <string name="preferences__free_private_messages_and_calls">Gratis privéberichten en bellen met Signal-gebruikers</string>
+  <string name="preferences__free_private_messages_and_calls">Gratis privéberichten en bellen met RAAPP-gebruikers</string>
   <string name="preferences__submit_debug_log">Debuglog indienen</string>
   <string name="preferences__support_wifi_calling">\'Bellen via WiFi\'-compatibiliteitsmodus</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Schakel dit in als je apparaat sms/mms over wifi gebruikt (alleen inschakelen als \'Bellen via wifi\' is ingeschakeld op je apparaat)</string>
@@ -995,7 +995,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="preferences_chats__show_invitation_prompts">Uitnodigingsvragen tonen</string>
   <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Toon een vraag of contacten zonder RAAPP uitgenodigd moeten worden</string>
   <string name="preferences_chats__message_text_size">Tekstgrootte voor berichten</string>
-  <string name="preferences_events__contact_joined_signal">Contact gebruikt nu Signal</string>
+  <string name="preferences_events__contact_joined_signal">Contact gebruikt nu RAAPP</string>
   <string name="preferences_notifications__priority">Prioriteit</string>
   <!--****************************************-->
   <!--menus-->
@@ -1079,14 +1079,14 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="reminder_header_sms_default_title">Gebruiken als standaard-sms-app</string>
   <string name="reminder_header_sms_default_text">Tik om van RAAPP je standaard-sms-app te maken.</string>
   <string name="reminder_header_sms_import_title">Sms uit systeem importeren</string>
-  <string name="reminder_header_sms_import_text">Tik om de sms-berichten uit je telefoon te kopiëren naar de versleutelde database van Signal.</string>
+  <string name="reminder_header_sms_import_text">Tik om de sms-berichten uit je telefoon te kopiëren naar de versleutelde database van RAAPP.</string>
   <string name="reminder_header_push_title">Signal-berichten en -oproepen inschakelen</string>
   <string name="reminder_header_push_text">Verbeter je communicatie-ervaring.</string>
-  <string name="reminder_header_invite_title">Uitnodigen voor Signal</string>
+  <string name="reminder_header_invite_title">Uitnodigen voor RAAPP</string>
   <string name="reminder_header_invite_text">Neem je gesprek met %1$s naar een hoger niveau.</string>
   <string name="reminder_header_share_title">Nodig je vrienden uit!</string>
   <string name="reminder_header_share_text">Hoe meer vrienden RAAPP gebruiken, hoe beter het wordt.</string>
-  <string name="reminder_header_service_outage_text">Signal heeft technische problemen. We werken er hard aan om zo snel mogelijk de dienst weer beschikbaar te maken.</string>
+  <string name="reminder_header_service_outage_text">RAAPP heeft technische problemen. We werken er hard aan om zo snel mogelijk de dienst weer beschikbaar te maken.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Opslaan</string>
   <string name="media_preview__forward_title">Doorsturen</string>
@@ -1107,10 +1107,10 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="ConversationListFragment_loading">Laden...</string>
   <string name="CallNotificationBuilder_connecting">Verbinden...</string>
   <string name="Permissions_permission_required">Toestemming vereist</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal heeft toegang nodig tot je sms-berichten om er te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Sms\" in.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">RAAPP heeft toegang nodig tot je sms-berichten om er te kunnen sturen, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Sms\" in.</string>
   <string name="Permissions_continue">Doorgaan</string>
   <string name="Permissions_not_now">Niet nu</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal heeft toegang nodig tot de contacten om ze te zoeken, maar deze toestemming is permanent geweigerd. Ga naar de appinstellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP heeft toegang nodig tot de contacten om ze te zoeken, maar deze toestemming is permanent geweigerd. Ga naar de appinstellingen, selecteer \"Toestemmingen\" en schakel \"Contacten\" in.</string>
   <string name="conversation_activity__enable_signal_messages">SIGNAL-BERICHTEN INSCHAKELEN</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal-database wordt gemigreerd</string>
   <string name="PushDecryptJob_new_locked_message">Nieuw vergrendeld bericht</string>
@@ -1142,7 +1142,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="BackupDialog_disable_and_delete_all_local_backups">Uitschakelen en alle lokale back-ups verwijderen?</string>
   <string name="BackupDialog_delete_backups_statement">Back-ups verwijderen</string>
   <string name="BackupDialog_copied_to_clipboard">Gekopieerd naar klembord</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal heeft toegang nodig tot de opslagruimte om backups te kunnen maken maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP heeft toegang nodig tot de opslagruimte om backups te kunnen maken maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Laatste back-up: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">Bezig</string>
   <string name="LocalBackupJob_creating_backup">Backup aan het maken...</string>
@@ -1166,7 +1166,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="registration_lock_dialog_view__confirm_pin">Bevestig pincode</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Voer je pincode voor registratievergrendeling in</string>
   <string name="registration_lock_reminder_view__enter_pin">Voer pincode in</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Voer een pincode in voor de registratievergrendeling. De volgende keer dat je dit telefoonnummer probeert te registreren bij Signal, zal je gevraagd worden deze pincode in te voeren.</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Voer een pincode in voor de registratievergrendeling. De volgende keer dat je dit telefoonnummer probeert te registreren bij RAAPP, zal je gevraagd worden deze pincode in te voeren.</string>
   <string name="preferences_app_protection__registration_lock_pin">Pincode voor registratievergrendeling</string>
   <string name="preferences_app_protection__registration_lock">Registratievergrendeling</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Je moet je pincode voor registratievergrendeling invoeren</string>
@@ -1175,13 +1175,13 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Je hebt te veel ongeldige pogingen om een pincode voor registratievergrendeling in te voeren ondernomen, probeer het morgen opnieuw.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Fout bij het verbinden met de dienst</string>
   <string name="RegistrationActivity_oh_no">Oh nee!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Registratie van dit telefoonnummer zonder pincode voor registratievergrendeling is pas mogelijk 7 dagen nadat dit telefoonnummer voor het laatst actief was op Signal. Je hebt nog %ddagen te gaan.</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Registratie van dit telefoonnummer zonder pincode voor registratievergrendeling is pas mogelijk 7 dagen nadat dit telefoonnummer voor het laatst actief was op RAAPP. Je hebt nog %ddagen te gaan.</string>
   <string name="RegistrationActivity_registration_lock_pin">Pincode voor registratievergrendeling</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Registratievergrendeling is ingeschakeld voor dit telefoonnummer. Voer de pincode voor registratievergrendeling in.</string>
   <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Registratievergrendeling is ingeschakeld voor je telefoonnummer. RAAPP zal je af en toe vragen om je pincode voor registratievergrendeling te bevestigen opdat je deze niet zou vergeten.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Ik ben mijn pincode vergeten.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Pincode vergeten?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registratievergrendeling beschermt je telefoonnummer tegen niet-geautoriseerde registratiepogingen. Deze functie kan op elk moment in je Signal-privacyinstellingen uitgeschakeld worden.</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Registratievergrendeling beschermt je telefoonnummer tegen niet-geautoriseerde registratiepogingen. Deze functie kan op elk moment in je RAAPP-privacyinstellingen uitgeschakeld worden.</string>
   <string name="RegistrationLockDialog_registration_lock">Registratievergrendeling</string>
   <string name="RegistrationLockDialog_enable">Inschakelen</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">De pincode voor registratievergrendeling moet minstens uit 4 cijfers bestaan.</string>
@@ -1191,7 +1191,7 @@ Sleuteluitwisselingsbericht ontvangen voor een verkeerde protocol-versie.</strin
   <string name="RegistrationLockDialog_disable">Uitschakelen</string>
   <string name="RegistrationActivity_continue">Doorgaan</string>
   <string name="preferences_chats__backups">Back-ups</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal is vergrendeld</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP is vergrendeld</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TIK OM TE ONTGRENDELEN</string>
   <string name="RegistrationLockDialog_reminder">Herinnering:</string>
   <string name="recipient_preferences__about">Over</string>

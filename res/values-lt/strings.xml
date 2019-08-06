@@ -77,7 +77,7 @@
   <string name="ClearProfileActivity_remove">Šalinti</string>
   <string name="ClearProfileActivity_remove_profile_photo">Šalinti profilio nuotrauką?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %1$s pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %1$s pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė RAAPP.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Jūs, tikriausiai, norėtumėte patvirtinti savo saugumo numerį su šiuo kontaktu.</string>
   <string name="ConfirmIdentityDialog_accept">Priimti</string>
   <!--ContactsCursorLoader-->
@@ -86,7 +86,7 @@
   <string name="ContactsCursorLoader_groups">Grupės</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Žinutė %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal skambutis %s</string>
+  <string name="ContactsDatabase_signal_call_s">RAAPP skambutis %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Vardas</string>
   <string name="ContactNameEditActivity_family_name">Pavardė</string>
@@ -280,21 +280,21 @@
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Dalintis su</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Sveiki atvykę į Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure ir RedPhone dabar yra viena privati pokalbių programėlė kiekvienai situacijai: Signal.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Sveiki atvykę į Signal!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure dabar tapo Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ir RedPhone dabar yra viena programėlė: Signal. Bakstelėkite, norėdami sužinoti daugiau.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Sveiki atvykę į RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure ir RedPhone dabar yra viena privati pokalbių programėlė kiekvienai situacijai: RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Sveiki atvykę į RAAPP!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure dabar tapo RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ir RedPhone dabar yra viena programėlė: RAAPP. Bakstelėkite, norėdami sužinoti daugiau.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Pasveikinkite saugius vaizdo skambučius.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Dabar, RAAPP palaiko saugius vaizdo skambučius. Tiesiog, pradėkite, kaip įprasta, RAAPP skambutį, bakstelėkite vaizdo mygtuką ir pamojuokite.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Dabar, RAAPP palaiko saugius vaizdo skambučius.</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Dabar, RAAPP palaiko saugius vaizdo skambučius. Bakstelėkite, norėdami išnagrinėti.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Pasiruošę artimesniam bendravimui?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Dabar, su RAAPP draugais galite bendrinti profilio nuotrauką ir vardą</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal profiliai jau čia</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">RAAPP profiliai jau čia</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė RAAPP susisiekimo triktis!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nepavyko prisiregistruoti prie „Google Play“ paslaugų. RAAPP žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP nepavyko prisiregistruoti prie „Google Play“ paslaugų. RAAPP žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Klaida, gaunant pilnos raiškos GIF</string>
   <!--GiphyFragmentPageAdapter-->
@@ -331,7 +331,7 @@
   <string name="InviteActivity_sending">Siunčiama...</string>
   <string name="InviteActivity_heart_content_description">Širdis</string>
   <string name="InviteActivity_invitations_sent">Pakvietimai išsiųsti!</string>
-  <string name="InviteActivity_invite_to_signal">Pakviesti į Signal</string>
+  <string name="InviteActivity_invite_to_signal">Pakviesti į RAAPP</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">SIŲSTI SMS %d DRAUGUI</item>
     <item quantity="few">SIŲSTI SMS %d DRAUGAMS</item>
@@ -344,7 +344,7 @@
     <item quantity="many">Siųsti %d SMS pakvietimų?</item>
     <item quantity="other">Siųsti %d SMS pakvietimų?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Persijunkime į Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Persijunkime į RAAPP: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Atrodo, kad neturite programėlių su kuriomis dalintis.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Draugai neleidžia draugams kalbėtis nešifruotai.</string>
   <!--MessageDetailsRecipient-->
@@ -373,7 +373,7 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Ištrinamos žinutės...</string>
   <string name="MediaOverviewActivity_Documents">Dokumentai</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal skambutis yra eigoje</string>
+  <string name="NotificationBarManager_signal_call_in_progress">RAAPP skambutis yra eigoje</string>
   <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas RAAPP skambutis</string>
   <string name="NotificationBarManager__incoming_signal_call">Gaunamasis RAAPP skambutis</string>
   <string name="NotificationBarManager__deny_call">Atmesti skambutį</string>
@@ -395,7 +395,7 @@
   <string name="MessageRecord_s_called_you">Jums skambino %s</string>
   <string name="MessageRecord_called_s">Skambino %s</string>
   <string name="MessageRecord_missed_call_from">Praleistas skambutis nuo %s</string>
-  <string name="MessageRecord_s_joined_signal">%s atėjo į Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s atėjo į RAAPP!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Jūs išjungėte išnykstančias žinutes.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s išjungė išnykstančias žinutes.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Jūs nustatėte išnykstančių žinučių laikmatį į %1$s.</string>
@@ -427,7 +427,7 @@
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Atleiskite, jūs jau turite per daug susietų įrenginių, pabandykite kai kuriuos pašalinti</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Atleiskite, tai nėra teisingas įrenginio nuorodos QR kodas.</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti RAAPP įrenginį?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti RAAPP įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami Signal.</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti RAAPP įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami RAAPP.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, RAAPP reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite \"Leidimai\" ir įjunkite \"Kamerą\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
   <!--ExpirationDialog-->
@@ -436,7 +436,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Šiame pokalbyje išsiųstos ir gautos žinutės išnyks %s po to, kai jos buvo pamatytos.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Įveskite slaptafrazę</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal piktograma</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">RAAPP piktograma</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Pateikti slaptafrazę</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Neteisinga slaptafrazė!</string>
   <!--PlayServicesProblemFragment-->
@@ -485,7 +485,7 @@
         nurodėte (%s) yra neteisingas.
     </string>
   <string name="RegistrationActivity_missing_google_play_services">Trūksta „Google Play“ paslaugų</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šiame įrenginyje nėra „Google Play“ paslaugų. Jūs vis tiek galite naudoti Signal, tačiau tokia konfigūracija gali sąlygoti mažesnį patikimumą ir našumą.\n\nJeigu jūs nesate pažengęs naudotojas, nenaudojate atsarginių dalių Android ROM ar manote, jog matote tai per klaidą, tuomet pagalbai ir nesklandumų šalinimui susisiekite su support@signal.org.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šiame įrenginyje nėra „Google Play“ paslaugų. Jūs vis tiek galite naudoti RAAPP, tačiau tokia konfigūracija gali sąlygoti mažesnį patikimumą ir našumą.\n\nJeigu jūs nesate pažengęs naudotojas, nenaudojate atsarginių dalių Android ROM ar manote, jog matote tai per klaidą, tuomet pagalbai ir nesklandumų šalinimui susisiekite su support@signal.org.</string>
   <string name="RegistrationActivity_i_understand">Aš suprantu</string>
   <string name="RegistrationActivity_play_services_error">„Play“ paslaugų klaida</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">„Google Play“ paslaugos yra atnaujinamos arba laikinai neprieinamos. Prašome bandyti dar kartą.</string>
@@ -505,13 +505,13 @@
   <string name="SearchFragment_header_messages">Žinutės</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Pridėti į kontaktus</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Pakviesti į Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal žinutė</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal skambutis</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Pakviesti į RAAPP</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP žinutė</string>
+  <string name="SharedContactDetailsActivity_signal_call">RAAPP skambutis</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Pridėti į kontaktus</string>
-  <string name="SharedContactView_invite_to_signal">Pakviesti į Signal</string>
-  <string name="SharedContactView_message">Signal žinutė</string>
+  <string name="SharedContactView_invite_to_signal">Pakviesti į RAAPP</string>
+  <string name="SharedContactView_message">RAAPP žinutė</string>
   <!--Slide-->
   <string name="Slide_image">Paveikslas</string>
   <string name="Slide_audio">Garsas</string>
@@ -536,7 +536,7 @@
   <string name="ThreadRecord_called_you">Jums skambino</string>
   <string name="ThreadRecord_missed_call">Praleistas skambutis</string>
   <string name="ThreadRecord_media_message">Medijos žinutė</string>
-  <string name="ThreadRecord_s_is_on_signal">%s atėjo į Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s atėjo į RAAPP!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Išnykstančios žinutės išjungtos</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Išnykstančių žinučių laikas nustatytas į %s</string>
   <string name="ThreadRecord_safety_number_changed">Saugumo numeris pasikeitė</string>
@@ -544,7 +544,7 @@
   <string name="ThreadRecord_you_marked_verified">Jūs pažymėjote patvirtintu</string>
   <string name="ThreadRecord_you_marked_unverified">Jūs pažymėjote nepatvirtintu</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal atnaujinimas</string>
+  <string name="UpdateApkReadyListener_Signal_update">RAAPP atnaujinimas</string>
   <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja RAAPP versija, bakstelėkite, norėdami atnaujinti</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Užblokuoti %s?</string>
@@ -587,8 +587,8 @@
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Prilieskite, kad atvertumėte.</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Prilieskite, norėdami atverti arba prilieskite spyną, norėdami užverti.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal yra atrakinta</string>
-  <string name="KeyCachingService_lock">Užrakinti Signal</string>
+  <string name="KeyCachingService_passphrase_cached">RAAPP yra atrakinta</string>
+  <string name="KeyCachingService_lock">Užrakinti RAAPP</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Jūs</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Nepalaikomas medijos tipas</string>
@@ -645,7 +645,7 @@
   <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Norėdami atsiliepti į skambutį nuo %s, suteikite RAAPP prieigą prie mikrofono.</string>
   <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, RAAPP reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite \"Leidimai\" ir įjunkite \"Mikrofoną\" ir \"Kamerą\".</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">Jūsų pokalbio su %1$s saugumo numeris pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė Signal.</string>
+  <string name="WebRtcCallScreen_new_safety_numbers">Jūsų pokalbio su %1$s saugumo numeris pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė RAAPP.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Jūs, tikriausiai, norėtumėte patvirtinti savo saugumo numerį su šiuo kontaktu.</string>
   <string name="WebRtcCallScreen_new_safety_number_title">Naujas saugumo numeris</string>
   <string name="WebRtcCallScreen_accept">Priimti</string>
@@ -688,7 +688,7 @@
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų kontaktus, RAAPP reikalinga prieiga prie jų.</string>
   <string name="contact_selection_list_fragment__show_contacts">Rodyti kontaktus</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal žinutė</string>
+  <string name="conversation_activity__type_message_push">RAAPP žinutė</string>
   <string name="conversation_activity__type_message_sms_insecure">Neapsaugota SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Neapsaugota MMS</string>
   <string name="conversation_activity__from_sim_name">Nuo %1$s</string>
@@ -780,9 +780,9 @@
   <string name="IdentityUtil_unverified_banner_one">Jūsų saugumo numeris su %s pasikeitė ir yra daugiau nebepatvirtintas</string>
   <string name="IdentityUtil_unverified_banner_two">Jūsų saugumo numeriai su %1$s ir %2$s yra daugiau nebepatvirtinti</string>
   <string name="IdentityUtil_unverified_banner_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s yra daugiau nebepatvirtinti</string>
-  <string name="IdentityUtil_unverified_dialog_one">Jūsų saugumo numeris su %1$s pasikeitė ir yra daugiau nebepatvirtintas. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad %1$s iš naujo įdiegė Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s yra daugiau nebepatvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie kontaktai iš naujo įdiegė Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s yra daugiau nebepatvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie kontaktai iš naujo įdiegė Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Jūsų saugumo numeris su %1$s pasikeitė ir yra daugiau nebepatvirtintas. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad %1$s iš naujo įdiegė RAAPP.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s yra daugiau nebepatvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie kontaktai iš naujo įdiegė RAAPP.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s yra daugiau nebepatvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie kontaktai iš naujo įdiegė RAAPP.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Jūsų saugumo numeris su %s ką tik pasikeitė.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s ką tik pasikeitė.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s ką tik pasikeitė.</string>
@@ -872,12 +872,12 @@
   <string name="recipient_preferences__call_settings">Skambučių nustatymai</string>
   <string name="recipient_preferences__ringtone">Skambučio melodija</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal skambutis</string>
+  <string name="redphone_call_card__signal_call">RAAPP skambutis</string>
   <string name="redphone_call_controls__mute">Nutildyti</string>
   <string name="redphone_call_controls__flip_camera_rear">Perjungti kamerą</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">TELEFONO NUMERIS</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal padaro bendravimą, naudojant jūsų esamą telefono numerį ir adresų knygą, lengvą. Draugai ir kontaktai, kurie jau žino kaip susisiekti su jumis telefonu, galės lengvai su jumis susisiekti, naudojant Signal.\n\nRegistracija persiunčia kai kurią kontaktinę informaciją į serverį. Ši informacija nėra kaupiama.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP padaro bendravimą, naudojant jūsų esamą telefono numerį ir adresų knygą, lengvą. Draugai ir kontaktai, kurie jau žino kaip susisiekti su jumis telefonu, galės lengvai su jumis susisiekti, naudojant RAAPP.\n\nRegistracija persiunčia kai kurią kontaktinę informaciją į serverį. Ši informacija nėra kaupiama.</string>
   <string name="registration_activity__verify_your_number">Patvirtinkite savo numerį</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Norėdami gauti patvirtinimo kodą, įveskite savo mobiliojo telefono numerį. Gali būti taikomi mobiliojo ryšio paslaugos teikėjo mokesčiai.</string>
   <!--recipients_panel-->
@@ -1021,7 +1021,7 @@
   <string name="preferences__theme">Tema</string>
   <string name="preferences__default">Numatytoji</string>
   <string name="preferences__language">Kalba</string>
-  <string name="preferences__signal_messages_and_calls">Signal žinutės ir skambučiai</string>
+  <string name="preferences__signal_messages_and_calls">RAAPP žinutės ir skambučiai</string>
   <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai RAAPP naudotojams</string>
   <string name="preferences__submit_debug_log">Pateikti derinimo žurnalą</string>
   <string name="preferences__support_wifi_calling">„Wi-Fi skambučių“ suderinamumo veiksena</string>
@@ -1050,9 +1050,9 @@
   <string name="preferences_notifications__calls">Skambučiai</string>
   <string name="preferences_notifications__ringtone">Skambučio melodija</string>
   <string name="preferences_chats__show_invitation_prompts">Rodyti pakvietimų užklausas</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Rodyti pakvietimų užklausas kontaktams, kurie neturi Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Rodyti pakvietimų užklausas kontaktams, kurie neturi RAAPP</string>
   <string name="preferences_chats__message_text_size">Žinučių šrifto dydis</string>
-  <string name="preferences_events__contact_joined_signal">Kontaktas prisijungė prie Signal</string>
+  <string name="preferences_events__contact_joined_signal">Kontaktas prisijungė prie RAAPP</string>
   <string name="preferences_notifications__priority">Pirmenybė</string>
   <!--****************************************-->
   <!--menus-->
@@ -1062,7 +1062,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Skambinti</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal skambutis</string>
+  <string name="conversation_callable_secure__menu_call">RAAPP skambutis</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Žinutės informacija</string>
   <string name="conversation_context__menu_copy_text">Kopijuoti tekstą</string>
@@ -1141,11 +1141,11 @@
   <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į RAAPP šifruotą duomenų bazę.</string>
   <string name="reminder_header_push_title">Įjungti RAAPP skambučius ir žinutes</string>
   <string name="reminder_header_push_text">Atnaujinkite savo bendravimo patyrimą.</string>
-  <string name="reminder_header_invite_title">Pakviesti į Signal</string>
+  <string name="reminder_header_invite_title">Pakviesti į RAAPP</string>
   <string name="reminder_header_invite_text">Perkelkite savo pokalbį su %1$s į kitą lygmenį.</string>
   <string name="reminder_header_share_title">Pakvieskite savo draugus!</string>
-  <string name="reminder_header_share_text">Kuo daugiau draugų naudoja Signal, tuo geresnė ji tampa.</string>
-  <string name="reminder_header_service_outage_text">Signal patiria techninius nesklandumus. Mes sunkiai dirbame, kad kaip įmanoma greičiau atkurtume paslaugą.</string>
+  <string name="reminder_header_share_text">Kuo daugiau draugų naudoja RAAPP, tuo geresnė ji tampa.</string>
+  <string name="reminder_header_service_outage_text">RAAPP patiria techninius nesklandumus. Mes sunkiai dirbame, kad kaip įmanoma greičiau atkurtume paslaugą.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Įrašyti</string>
   <string name="media_preview__forward_title">Persiųsti</string>
@@ -1175,7 +1175,7 @@
   <string name="PushDecryptJob_new_locked_message">Nauja užrakinta žinutė</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Atrakinkite, norėdami matyti laukiančias žinutes</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Atrakinkite, norėdami užbaigti atnaujinimą</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Atrakinkite Signal, norėdami užbaigti atnaujinimą</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Atrakinkite RAAPP, norėdami užbaigti atnaujinimą</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Atsarginės kopijos slaptafrazė</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Atsarginės kopijos bus įrašytos į išorinę saugyklą ir bus užšifruotos, naudojant žemiau esančią slaptafrazę. Norėdami atkurti atsarginę kopiją, privalėsite turėti šią slaptafrazę.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Aš užsirašiau šią slaptafrazę. Be jos aš negalėsiu atkurti atsarginės kopijos.</string>
@@ -1214,7 +1214,7 @@
   <string name="BackupUtil_never">Niekada</string>
   <string name="BackupUtil_unknown">Nežinoma</string>
   <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie Signal, naudojant Android ekrano užraktą ar piršto atspaudą</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie RAAPP, naudojant Android ekrano užraktą ar piršto atspaudą</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekrano užrakto neveiklumui skirtas laikas</string>
   <string name="AppProtectionPreferenceFragment_none">Nėra</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">Registracijos užrakto PIN nėra tas pats, kas jūsų gautas SMS patvirtinimo kodas. Įveskite PIN, kurį esate anksčiau sukonfigūravę programėlėje.</string>
@@ -1225,7 +1225,7 @@
   <string name="registration_lock_dialog_view__confirm_pin">Patvirtinkite PIN</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Įveskite savo Registracijos užrakto PIN</string>
   <string name="registration_lock_reminder_view__enter_pin">Įveskite PIN</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Įjungti Registracijos užrakto PIN, kurio bus reikalaujama, norint vėl registruoti šį telefono numerį su Signal.</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Įjungti Registracijos užrakto PIN, kurio bus reikalaujama, norint vėl registruoti šį telefono numerį su RAAPP.</string>
   <string name="preferences_app_protection__registration_lock_pin">Registracijos užrakto PIN</string>
   <string name="preferences_app_protection__registration_lock">Registracijos užraktas</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Privalote įvesti savo Registracijos užrakto PIN</string>
@@ -1234,7 +1234,7 @@
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Jūs atlikote per daug neteisingų Registracijos užrakto PIN bandymų. Po vienos dienos bandykite dar kartą.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Klaida, jungiantis prie paslaugos</string>
   <string name="RegistrationActivity_oh_no">O, ne!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Šio telefono numerio registracija be jūsų Registracijos užrakto PIN bus įmanoma praėjus 7 dienoms nuo to laiko, kai šis telefono numeris paskutinį kartą buvo aktyvus Signal. Jums liko %d dienos.</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Šio telefono numerio registracija be jūsų Registracijos užrakto PIN bus įmanoma praėjus 7 dienoms nuo to laiko, kai šis telefono numeris paskutinį kartą buvo aktyvus RAAPP. Jums liko %d dienos.</string>
   <string name="RegistrationActivity_registration_lock_pin">Registracijos užrakto PIN</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Šiam telefono numeriui yra įjungtas Registracijos užraktas. Įveskite Registracijos užrakto PIN.</string>
   <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Jūsų telefono numeriui yra įjungtas Registracijos užraktas. Norint jums padėti įsiminti Registracijos užrakto PIN, RAAPP periodiškai prašys jūsų jį patvirtinti.</string>
@@ -1250,7 +1250,7 @@
   <string name="RegistrationLockDialog_disable">Išjungti</string>
   <string name="RegistrationActivity_continue">Tęsti</string>
   <string name="preferences_chats__backups">Atsarginės kopijos</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal yra užrakinta</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP yra užrakinta</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">BAKSTELĖKITE, NORĖDAMI ATRAKINTI</string>
   <string name="RegistrationLockDialog_reminder">Priminimas:</string>
   <string name="recipient_preferences__about">Apie</string>

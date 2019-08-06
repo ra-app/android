@@ -21,17 +21,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Poista</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Poista salalause käytöstä?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tämä avaa Signalin ja viesti-ilmoitusten lukituksen pysyvästi.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tämä avaa RAAPPin ja viesti-ilmoitusten lukituksen pysyvästi.</string>
   <string name="ApplicationPreferencesActivity_disable">Poista käytöstä</string>
   <string name="ApplicationPreferencesActivity_unregistering">Puretaan rekisteröintiä</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Puretaan rekisteröintiä Signal-viesteistä ja -puheluista...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Otetaanko Signal-viestit ja -puhelut pois käytöstä?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Tämä ottaa Signal-viestit ja -puhelut pois käytöstä  purkamalla rekisteröitymisesi palvelimelta. Jos haluat käyttää niitä jatkossa, täytyy sinun rekisteröityä puhelinnumerollasi uudelleen.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Puretaan rekisteröintiä RAAPP-viesteistä ja -puheluista...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Otetaanko RAAPP-viestit ja -puhelut pois käytöstä?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Tämä ottaa RAAPP-viestit ja -puhelut pois käytöstä  purkamalla rekisteröitymisesi palvelimelta. Jos haluat käyttää niitä jatkossa, täytyy sinun rekisteröityä puhelinnumerollasi uudelleen.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Virhe yhdistettäessä palvelimeen!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">Tekstiviestit käytössä</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Kosketa, jos haluat vaihtaa oletustekstiviestisovellustasi</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">Tekstiviestit poissa käytöstä</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Kosketa, jos haluat asettaa Signalin oletustekstiviestisovellukseksi</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Kosketa, jos haluat asettaa RAAPPin oletustekstiviestisovellukseksi</string>
   <string name="ApplicationPreferencesActivity_on">päällä</string>
   <string name="ApplicationPreferencesActivity_On">Päällä</string>
   <string name="ApplicationPreferencesActivity_off">pois</string>
@@ -52,10 +52,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(vastaus)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Median valintaan ei löytynyt sovellusta.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal tarvitsee lupaa käyttää laitteesi tallennustilaa kuvien, videoiden tai äänitiedostojen liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal tarvitsee lupaa käyttää laitteesi yhteystietoja oman yhteystietolistansa käsittelyä varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Yhteystiedot\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal tarvitsee lupaa käyttää sijaintitietoja sijainnin liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Sijainti\".</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal tarvitsee lupaa käyttää kameraa kuvien ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">RAAPP tarvitsee lupaa käyttää laitteesi tallennustilaa kuvien, videoiden tai äänitiedostojen liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">RAAPP tarvitsee lupaa käyttää laitteesi yhteystietoja oman yhteystietolistansa käsittelyä varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Yhteystiedot\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">RAAPP tarvitsee lupaa käyttää sijaintitietoja sijainnin liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Sijainti\".</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">RAAPP tarvitsee lupaa käyttää kameraa kuvien ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Virhe toistettaessa äänitallennetta!</string>
   <!--BlockedContactsActivity-->
@@ -71,7 +71,7 @@
   <string name="ClearProfileActivity_remove">Poista</string>
   <string name="ClearProfileActivity_remove_profile_photo">Poista profiilikuva?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Turvanumerosi yhteystiedon %1$s kanssa on vaihtunut. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että %2$s on vain yksinkertaisesti asentanut Signalin uudelleen.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Turvanumerosi yhteystiedon %1$s kanssa on vaihtunut. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että %2$s on vain yksinkertaisesti asentanut RAAPPin uudelleen.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Saatat haluta varmentaa turvanumerosi tämän yhteystiedon kanssa.</string>
   <string name="ConfirmIdentityDialog_accept">Hyväksy</string>
   <!--ContactsCursorLoader-->
@@ -100,7 +100,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Lähetys epäonnistui, napauta lähettääksesi suojaamattomana</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Käytetäänkö salaamattomia tekstiviestejä?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Käytetäänkö salaamattomia MMS-viestejä?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Tätä viestiä <b>ei</b> voida salata, koska vastaanottaja ei enää käytä Signalia.\n\nLähetetäänkö salaamattomana?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Tätä viestiä <b>ei</b> voida salata, koska vastaanottaja ei enää käytä RAAPPia.\n\nLähetetäänkö salaamattomana?</string>
   <string name="ConversationItem_unable_to_open_media">Median avaamiseen ei löytynyt sovellusta.</string>
   <string name="ConversationItem_copied_text">Kopioitu: %s</string>
   <string name="ConversationItem_from_s">SIM-kortilta %s</string>
@@ -125,7 +125,7 @@
   <string name="ConversationActivity_transport_insecure_sms">Salaamaton tekstiviesti</string>
   <string name="ConversationActivity_transport_insecure_mms">Salaamaton MMS-viesti</string>
   <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Hei, vaihdetaan Signaliin %1$s</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Hei, vaihdetaan RAAPPiin %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Hei, kokeillaan keskustella tällä: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Virhe ryhmästä lähtiessä</string>
   <string name="ConversationActivity_specify_recipient">Valitse yhteystieto</string>
@@ -137,12 +137,12 @@
   <string name="ConversationActivity_unable_to_record_audio">Äänen nauhoitus ei onnistunut!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Laitteessasi ei ole sovellusta, joka osaa avata tämän linkin.</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Jotta voit lähettää ääniviestejä, RAAPP tarvitsee lupaa käyttää mikrofonia.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Jotta voit soittaa yhteystiedolle %s, RAAPP tarvitsee lupaa käyttää mikrofonia ja kameraa.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal tarvitsee lupaa käyttää laitteesi mikrofonia ja kameraa yhteystiedolle %s soittamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\" ja \"Kamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Jotta voit ottaa kuvia ja videoita, anna Signalille lupaa käyttää kameraa.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal tarvitsee lupaa käyttää laitteesi kameraa kuvien ja videoiden ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal tarvitsee kameran käyttöoikeutta kuvien ja videoiden ottamista varten.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP tarvitsee lupaa käyttää laitteesi mikrofonia ja kameraa yhteystiedolle %s soittamista varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\" ja \"Kamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Jotta voit ottaa kuvia ja videoita, anna RAAPPille lupaa käyttää kameraa.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">RAAPP tarvitsee lupaa käyttää laitteesi kameraa kuvien ja videoiden ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">RAAPP tarvitsee kameran käyttöoikeutta kuvien ja videoiden ottamista varten.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -248,25 +248,25 @@
   <string name="DocumentView_unknown_file">Tuntematon tiedosto</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimoi Play Servicesin puuttumista</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Tämä laite ei tue Play Servicesiä. Napauta tästä ottaaksesi pois päältä virransäästöominaisuudet, jotka estävät Signalia hakemasta viestejä taustalla.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Tämä laite ei tue Play Servicesiä. Napauta tästä ottaaksesi pois päältä virransäästöominaisuudet, jotka estävät RAAPPia hakemasta viestejä taustalla.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Jaa</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Tervetuloa Signaliin.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure ja RedPhone ovat yhdistyneet nyt Signaliksi: yksityiset viestit ja puhelut samassa paketissa.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Tervetuloa Signaliin!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure on nyt Signal.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ja RedPhone ovat nyt yksi ja sama sovellus: Signal. Napauta tutustuaksesi.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Tervetuloa RAAPPiin.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure ja RedPhone ovat yhdistyneet nyt RAAPPiksi: yksityiset viestit ja puhelut samassa paketissa.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Tervetuloa RAAPPiin!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure on nyt RAAPP.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ja RedPhone ovat nyt yksi ja sama sovellus: RAAPP. Napauta tutustuaksesi.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Sano hei turvallisille videopuheluille.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal tukee nyt turvallisia videopuheluita. Aloita puhelu kuten ennenkin, sitten vain napauta kamerakuvaketta ja vilkuta hei.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal tukee nyt turvallisia videopuheluita.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal tukee nyt turvallisia videopuheluita. Jatka napauttamalla.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP tukee nyt turvallisia videopuheluita. Aloita puhelu kuten ennenkin, sitten vain napauta kamerakuvaketta ja vilkuta hei.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP tukee nyt turvallisia videopuheluita.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP tukee nyt turvallisia videopuheluita. Jatka napauttamalla.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Oletko valmis kuvaamista varten?</string>
-  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Nyt voit jakaa profiilikuvasi ja nimesi ystäviesi kanssa Signalissa</string>
+  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Nyt voit jakaa profiilikuvasi ja nimesi ystäviesi kanssa RAAPPissa</string>
   <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signaali-profiilit ovat täällä</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Pysyvä Signal-yhteysvirhe!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal ei voinut rekisteröityä Google Play Services -palveluun, minkä vuoksi Signal-viestit ja puhelut ovat otettu pois käytöstä. Kokeile rekisteröityä uudelleen Signalin lisäasetuksista.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Pysyvä RAAPP-yhteysvirhe!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP ei voinut rekisteröityä Google Play Services -palveluun, minkä vuoksi RAAPP-viestit ja puhelut ovat otettu pois käytöstä. Kokeile rekisteröityä uudelleen RAAPPin lisäasetuksista.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Täysikokoisen GIFin lataaminen epäonnistui</string>
   <!--GiphyFragmentPageAdapter-->
@@ -277,15 +277,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Muokkaa ryhmää</string>
   <string name="GroupCreateActivity_group_name_hint">Ryhmän nimi</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Uusi MMS-ryhmä</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Olet valinnut yhteystiedon, joka ei tue Signalin ryhmäkeskusteluja. Tämä ryhmä tulee olemaan MMS-pohjainen.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Et ole rekisteröitynyt Signal-viesteihin ja -puheluihin, joten Signalin ryhmäkeskustelut eivät ole käytettävissä. Kokeile rekisteröityä Signalin lisäasetuksista.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Olet valinnut yhteystiedon, joka ei tue RAAPPin ryhmäkeskusteluja. Tämä ryhmä tulee olemaan MMS-pohjainen.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Et ole rekisteröitynyt RAAPP-viesteihin ja -puheluihin, joten RAAPPin ryhmäkeskustelut eivät ole käytettävissä. Kokeile rekisteröityä RAAPPin lisäasetuksista.</string>
   <string name="GroupCreateActivity_contacts_no_members">Ryhmässä täytyy olla vähintään yksi henkilö!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Yhdellä ryhmän jäsenistä on puhelinnumero, jota ei voida lukea. Ole hyvä ja korjaa tämän henkilön yhteystiedot tai poista hänet ryhmästä ja yritä uudelleen.</string>
   <string name="GroupCreateActivity_avatar_content_description">Ryhmän kuvake</string>
   <string name="GroupCreateActivity_menu_apply_button">Valmis</string>
   <string name="GroupCreateActivity_creating_group">Luodaan %1$s…</string>
   <string name="GroupCreateActivity_updating_group">Päivitetään %1$s...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Yhteystietoa %1$s ei voitu lisätä ryhmään, koska hän ei ole Signalin-käyttäjä</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Yhteystietoa %1$s ei voitu lisätä ryhmään, koska hän ei ole RAAPPin-käyttäjä</string>
   <string name="GroupCreateActivity_loading_group_details">Ladataan ryhmän tiedot...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Olet jo ryhmässä.</string>
   <!--GroupShareProfileView-->
@@ -303,7 +303,7 @@
   <string name="InviteActivity_sending">Lähetetään...</string>
   <string name="InviteActivity_heart_content_description">Sydän</string>
   <string name="InviteActivity_invitations_sent">Kutsut lähetetty!</string>
-  <string name="InviteActivity_invite_to_signal">Kutsu Signaliin</string>
+  <string name="InviteActivity_invite_to_signal">Kutsu RAAPPiin</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">LÄHETÄ TEKSTIVIESTI %d YSTÄVÄLLE</item>
     <item quantity="other">LÄHETÄ TEKSTIVIESTI %d YSTÄVÄLLE</item>
@@ -312,7 +312,7 @@
     <item quantity="one">Lähetetäänkö %d tekstiviestikutsu?</item>
     <item quantity="other">Lähetetäänkö %d tekstiviestikutsua?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Hei, vaihdetaan Signaliin: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Hei, vaihdetaan RAAPPiin: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Näyttää siltä, ettei sinulla ole yhtään sovellusta, johon jakaa.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Kaveri ei anna kaverin keskustella ilman salausta.</string>
   <!--MessageDetailsRecipient-->
@@ -338,8 +338,8 @@
   <string name="MediaOverviewActivity_Documents">Dokumentit</string>
   <!--- NotificationBarManager-->
   <string name="NotificationBarManager_signal_call_in_progress">Signal-puhelu käynnissä</string>
-  <string name="NotificationBarManager__establishing_signal_call">Muodostetaan Signal-puhelua</string>
-  <string name="NotificationBarManager__incoming_signal_call">Saapuva Signal-puhelu</string>
+  <string name="NotificationBarManager__establishing_signal_call">Muodostetaan RAAPP-puhelua</string>
+  <string name="NotificationBarManager__incoming_signal_call">Saapuva RAAPP-puhelu</string>
   <string name="NotificationBarManager__deny_call">Hylkää puhelu</string>
   <string name="NotificationBarManager__answer_call">Vastaa puheluun</string>
   <string name="NotificationBarManager__end_call">Lopeta puhelu</string>
@@ -349,7 +349,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Ladataan MMS-viestiä</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Virhe ladattaessa MMS-viestiä. Yritä uudelleen napauttamalla.</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastaanotettiin viesti, joka on salattu Signalin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastaanotettiin viesti, joka on salattu RAAPPin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
   <string name="MessageRecord_left_group">Olet lähtenyt ryhmästä.</string>
   <string name="MessageRecord_you_updated_group">Sinä päivitit ryhmää.</string>
   <string name="MessageRecord_you_called">Soitit puhelun</string>
@@ -359,7 +359,7 @@
   <string name="MessageRecord_s_called_you">%s soitti sinulle</string>
   <string name="MessageRecord_called_s">Soitit puhelun: %s</string>
   <string name="MessageRecord_missed_call_from">Vastaamatta jäänyt puhelu: %s</string>
-  <string name="MessageRecord_s_joined_signal">%s käyttää Signalia!</string>
+  <string name="MessageRecord_s_joined_signal">%s käyttää RAAPPia!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Sinä asetit katoavat viestit pois päältä.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s asetti katoavat viestit pois päältä.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Sinä asetit viestien katoamisajan: %1$s</string>
@@ -389,9 +389,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Virheellinen QR-koodi.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sinulla on liian monta laitetta yhdistettynä. Kokeile poistaa joitakin</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Valitettavasti tämä ei ole laitteen yhdistämiseksi tarkoitettu QR-koodi.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Yhdistetäänkö Signal-laite?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Vaikuttaa siltä, että yrität yhdistää laitetta käyttämällä Signalin ulkopuolista skannaussovellusta. Oman turvallisuutesi vuoksi skannaa QR-koodi uudelleen Signalilla itsellään.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal tarvitsee lupaa käyttää kameraa QR-koodien skannaamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Yhdistetäänkö RAAPP-laite?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Vaikuttaa siltä, että yrität yhdistää laitetta käyttämällä RAAPPin ulkopuolista skannaussovellusta. Oman turvallisuutesi vuoksi skannaa QR-koodi uudelleen RAAPPilla itsellään.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP tarvitsee lupaa käyttää kameraa QR-koodien skannaamista varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QR-koodin skannaus ei onnistu ilman kameran käyttöoikeutta.</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Katoavat viestit</string>
@@ -406,7 +406,7 @@
   <string name="PlayServicesProblemFragment_the_version_of_google_play_services_you_have_installed_is_not_functioning">Käyttämäsi versio Google Play Servicestä ei toimi kunnolla. Asenna Google Play Services uudelleen ja yritä uudestaan.</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Arvostele tämä sovellus</string>
-  <string name="RatingManager_if_you_enjoy_using_this_app_please_take_a_moment">Jos pidät Signalista, voit auttaa meitä arvostelemalla sen.</string>
+  <string name="RatingManager_if_you_enjoy_using_this_app_please_take_a_moment">Jos pidät RAAPPista, voit auttaa meitä arvostelemalla sen.</string>
   <string name="RatingManager_rate_now">Arvostele nyt!</string>
   <string name="RatingManager_no_thanks">Ei kiitos</string>
   <string name="RatingManager_later">Myöhemmin</string>
@@ -453,9 +453,9 @@ puhelinnumero</string>
   <string name="RegistrationActivity_no_browser">Tätä linkkiä ei voida avata. Verkkoselainta ei löydetty.</string>
   <string name="RegistrationActivity_more_information">Näytä lisää</string>
   <string name="RegistrationActivity_less_information">Näytä vähemmän</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal tarvitsee lupaa käyttää yhteystietojasi ja mediaa, jotta voit olla yhteydessä ystäviisi, viestitellä ja soitella turvallisesti.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">RAAPP tarvitsee lupaa käyttää yhteystietojasi ja mediaa, jotta voit olla yhteydessä ystäviisi, viestitellä ja soitella turvallisesti.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Yhteyttä ei voitu muodostaa palveluun. Tarkista verkkoyhteytesi ja yritä uudelleen.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Jotta voit helposti vahvistaa puhelinnumerosi, RAAPP voi automaattisesti lukea saamasi vahvistustekstiviestin, jos annat Signalille luvan lukea tesktiviestejäsi.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Jotta voit helposti vahvistaa puhelinnumerosi, RAAPP voi automaattisesti lukea saamasi vahvistustekstiviestin, jos annat RAAPPille luvan lukea tesktiviestejäsi.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Kuvaan tehtyjen muutosten tallentaminen ei onnistunut.</string>
   <!--Search-->
@@ -465,13 +465,13 @@ puhelinnumero</string>
   <string name="SearchFragment_header_messages">Viestit</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Lisää yhteystietoihin</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Kutsu Signaliin</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal viesti</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Kutsu RAAPPiin</string>
+  <string name="SharedContactDetailsActivity_signal_message">RAAPP viesti</string>
   <string name="SharedContactDetailsActivity_signal_call">Signal-puhelu</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Lisää yhteystietoihin</string>
-  <string name="SharedContactView_invite_to_signal">Kutsu Signaliin</string>
-  <string name="SharedContactView_message">Signal viesti</string>
+  <string name="SharedContactView_invite_to_signal">Kutsu RAAPPiin</string>
+  <string name="SharedContactView_message">RAAPP viesti</string>
   <!--Slide-->
   <string name="Slide_image">Kuva</string>
   <string name="Slide_audio">Äänitallenne</string>
@@ -494,7 +494,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="ThreadRecord_called_you">Soitti sinulle</string>
   <string name="ThreadRecord_missed_call">Vastaamatta jäänyt puhelu</string>
   <string name="ThreadRecord_media_message">Mediaviesti</string>
-  <string name="ThreadRecord_s_is_on_signal">%s käyttää Signalia!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s käyttää RAAPPia!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Katoavat viestit poistettu käytöstä</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Katoavien viestien ajaksi asetettu %s</string>
   <string name="ThreadRecord_safety_number_changed">Turvanumero vaihtunut</string>
@@ -503,7 +503,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="ThreadRecord_you_marked_unverified">Merkitsit varmentamattomaksi.</string>
   <!--UpdateApkReadyListener-->
   <string name="UpdateApkReadyListener_Signal_update">Signal-päivitys</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uusi versio Signalista on saatavilla. Päivitä napauttamalla.</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uusi versio RAAPPista on saatavilla. Päivitä napauttamalla.</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Estä %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Estetyt yhteystiedot eivät voi enää lähettää sinulle viestejä eivätkä soittaa sinulle.</string>
@@ -518,14 +518,14 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="UnverifiedSendDialog_send_message">Lähetä viesti?</string>
   <string name="UnverifiedSendDialog_send">Lähetä</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Yhteystietosi käyttää vanhaa versiota Signalista. Pyydä häntä päivittämään, jotta voit varmentaa turvanumeron.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Yhteystietosi käyttää uudempaa versiota Signalista, jonka QR-koodi ei toimi oman versiosi kanssa. Päivitä Signalisi uusimpaan versioon.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Yhteystietosi käyttää vanhaa versiota RAAPPista. Pyydä häntä päivittämään, jotta voit varmentaa turvanumeron.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Yhteystietosi käyttää uudempaa versiota RAAPPista, jonka QR-koodi ei toimi oman versiosi kanssa. Päivitä RAAPPisi uusimpaan versioon.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Skannaamasi QR-koodi ei ole oikeanmallinen turvanumerokoodi. Yritä skannata uudelleen.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Jaa turvanumero...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Meidän Signal-turvanumeromme:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Meidän RAAPP-turvanumeromme:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Näyttää siltä, ettei sinulla ole yhtään sovellusta, johon jakaa.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Leikepöydältä ei löytynyt turvanumeroa, johon verrata</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal tarvitsee lupaa käyttää kameraa QR-koodien skannaamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">RAAPP tarvitsee lupaa käyttää kameraa QR-koodien skannaamista varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">QR-koodin skannaus ei onnistu ilman kameran käyttöoikeutta.</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Viestin salaus on kelvoton</string>
@@ -541,17 +541,17 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="ApplicationMigrationService_import_in_progress">Tuonti käynnissä</string>
   <string name="ApplicationMigrationService_importing_text_messages">Tuo tekstiviestejä</string>
   <string name="ApplicationMigrationService_import_complete">Tuonti valmis</string>
-  <string name="ApplicationMigrationService_system_database_import_is_complete">Järjestelmän tekstiviestitietokannan tuonti Signaliin on valmis.</string>
+  <string name="ApplicationMigrationService_system_database_import_is_complete">Järjestelmän tekstiviestitietokannan tuonti RAAPPiin on valmis.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Siirry takaisin sovellukseen koskettamalla tästä.</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Lukitse sovellus koskettamalla lukkoa.</string>
   <string name="KeyCachingService_passphrase_cached">Signalin lukitus on auki</string>
-  <string name="KeyCachingService_lock">Lukitse Signal</string>
+  <string name="KeyCachingService_lock">Lukitse RAAPP</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Sinä</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Median tyyppiä ei tueta</string>
   <string name="MediaPreviewActivity_draft">Luonnos</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal tarvitsee lupaa käyttää laitteesi tallennustilaa tallentaakseen sinne, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">RAAPP tarvitsee lupaa käyttää laitteesi tallennustilaa tallentaakseen sinne, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Poistetaanko viesti?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Tämä poistaa pysyvästi tämän viestin.</string>
@@ -568,7 +568,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="MessageNotifier_media_message">Mediaviesti</string>
   <string name="MessageNotifier_reply">Vastaa</string>
   <string name="MessageNotifier_pending_signal_messages">Signal-viestejä odottamassa</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Sinulle on Signal-viestejä. Avaa ja hae napauttamalla.</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Sinulle on RAAPP-viestejä. Avaa ja hae napauttamalla.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Yhteystieto</string>
   <!--Notification Channels-->
@@ -596,14 +596,14 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="SingleRecipientNotificationBuilder_new_message">Uusi viesti</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Tämä laite ei ole enää rekisteröity</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tämä johtuu todennäköisesti siitä, että olet rekisteröitynyt puhelinnumerollasi Signaliin toisella laitteella. Napauta rekisteröityäksesi uudelleen.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tämä johtuu todennäköisesti siitä, että olet rekisteröitynyt puhelinnumerollasi RAAPPiin toisella laitteella. Napauta rekisteröityäksesi uudelleen.</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Virhe videon toistossa</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Jotta voit vastata yhteystiedon %s puheluun, anna Signalille lupa käyttää mikrofonia.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal tarvitsee lupaa käyttää mikrofonia ja kameraa puheluiden soittamista ja vastaanottamista varten, mutta nämä käyttöoikeudet ovat pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\" ja \"Kamera\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Jotta voit vastata yhteystiedon %s puheluun, anna RAAPPille lupa käyttää mikrofonia.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">RAAPP tarvitsee lupaa käyttää mikrofonia ja kameraa puheluiden soittamista ja vastaanottamista varten, mutta nämä käyttöoikeudet ovat pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\" ja \"Kamera\".</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">Turvanumerosi yhteystiedon %1$s kanssa on vaihtunut. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että %2$s on vain yksinkertaisesti asentanut Signalin uudelleen.</string>
+  <string name="WebRtcCallScreen_new_safety_numbers">Turvanumerosi yhteystiedon %1$s kanssa on vaihtunut. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että %2$s on vain yksinkertaisesti asentanut RAAPPin uudelleen.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Saatat haluta varmentaa turvanumerosi tämän yhteystiedon kanssa.</string>
   <string name="WebRtcCallScreen_new_safety_number_title">Uusi turvanumero</string>
   <string name="WebRtcCallScreen_accept">Hyväksy</string>
@@ -638,12 +638,12 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Yhteystiedon kuva</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal tarvitsee lupaa käyttää laitteesi yhteystietoja voidakseen näyttää yhteystietosi, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Yhteystiedot\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">RAAPP tarvitsee lupaa käyttää laitteesi yhteystietoja voidakseen näyttää yhteystietosi, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Yhteystiedot\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Yhteystietojen haussa tapahtui virhe. Tarkista verkkoyhteytesi.</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Ei estettyjä yhteystietoja</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal tarvitsee luvan yhteystietoihisi, jotta se voisi näyttää ne.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP tarvitsee luvan yhteystietoihisi, jotta se voisi näyttää ne.</string>
   <string name="contact_selection_list_fragment__show_contacts">Näytä yhteystiedot</string>
   <!--conversation_activity-->
   <string name="conversation_activity__type_message_push">Signal-viesti</string>
@@ -656,7 +656,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="conversation_activity__attachment_thumbnail">Liitteen esikatselu</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Avaa tai sulje pikakamera</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Nauhoita ja lähetä ääniviesti</string>
-  <string name="conversation_activity__enable_signal_for_sms">Käytä Signalia tekstiviesteille</string>
+  <string name="conversation_activity__enable_signal_for_sms">Käytä RAAPPia tekstiviesteille</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Pyyhkäise peruuttaaksesi</string>
   <!--conversation_item-->
@@ -728,9 +728,9 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="IdentityUtil_unverified_banner_one">Sinun turvanumerosi yhteystiedon %s kanssa on vaihtunut eikä se ole enää varmennettu.</string>
   <string name="IdentityUtil_unverified_banner_two">Sinun turvanumerot yhteystietojen %1$s ja %2$s kanssa eivät ole enää varmennettuja.</string>
   <string name="IdentityUtil_unverified_banner_many">Sinun turvanumerot yhteystietojen %1$s, %2$s ja %3$s kanssa eivät ole enää varmennettuja.</string>
-  <string name="IdentityUtil_unverified_dialog_one">Turvanumerosi yhteystiedon %1$s kanssa on vaihtunut eikä ole enää varmennettu. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että %1$s on vain yksinkertaisesti asentanut Signalin uudelleen.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Turvanumerosi yhteystietojen %1$s ja %2$s kanssa ovat vaihtuneet eivätkä ne ole enää varmennettuja. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että he ovat vain yksinkertaisesti asentaneet Signalin uudelleen.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Turvanumerosi yhteystietojen %1$s, %2$s ja %3$s kanssa ovat vaihtuneet eivätkä ne ole enää varmennettuja. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että he ovat vain yksinkertaisesti asentaneet Signalin uudelleen.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Turvanumerosi yhteystiedon %1$s kanssa on vaihtunut eikä ole enää varmennettu. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että %1$s on vain yksinkertaisesti asentanut RAAPPin uudelleen.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Turvanumerosi yhteystietojen %1$s ja %2$s kanssa ovat vaihtuneet eivätkä ne ole enää varmennettuja. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että he ovat vain yksinkertaisesti asentaneet RAAPPin uudelleen.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Turvanumerosi yhteystietojen %1$s, %2$s ja %3$s kanssa ovat vaihtuneet eivätkä ne ole enää varmennettuja. Tämä voi tarkoittaa joko sitä, että joku yrittää kaapata viestiliikennettänne, tai sitä, että he ovat vain yksinkertaisesti asentaneet RAAPPin uudelleen.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Turvanumerosi yhteystiedon %s kanssa on vaihtunut.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Turvanumerosi yhteystietojen %1$s ja %2$s kanssa ovat vaihtuneet.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Turvanumerosi yhteystietojen %1$s, %2$s ja %3$s kanssa ovat vaihtuneet.</string>
@@ -761,7 +761,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="log_submit_activity__please_review_this_log_from_my_app">Please review this log from my app: %1$s</string>
   <string name="log_submit_activity__network_failure">Verkkovirhe. Yritä uudelleen.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Napauta, jos haluat kopioida puhelimesi tekstiviestit Signalin salattuun tietokantaan.</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Napauta, jos haluat kopioida puhelimesi tekstiviestit RAAPPin salattuun tietokantaan.</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Järjestelmän oletustietokantaa ei tulla muuttamaan millään tavalla.</string>
   <string name="database_migration_activity__skip">Ohita</string>
   <string name="database_migration_activity__import">Tuo</string>
@@ -770,7 +770,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <!--database_upgrade_activity-->
   <string name="database_upgrade_activity__updating_database">Tietokantaa päivitetään...</string>
   <string name="import_fragment__import_system_sms_database">Tuo järjestelmän tekstiviestit</string>
-  <string name="import_fragment__import_the_database_from_the_default_system">Tuo tietokanta järjestelmän oletustekstiviestisovelluksesta Signaliin.</string>
+  <string name="import_fragment__import_the_database_from_the_default_system">Tuo tietokanta järjestelmän oletustekstiviestisovelluksesta RAAPPiin.</string>
   <string name="import_fragment__import_plaintext_backup">Tuo salaamaton varmuuskopio</string>
   <string name="import_fragment__import_a_plaintext_backup_file">Tuo salaamaton varmuuskopiotiedosto. Yhteensopiva \"SMS Backup And Restore\" -sovelluksen kanssa.</string>
   <!--load_more_header-->
@@ -821,7 +821,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="redphone_call_controls__flip_camera_rear">Vaihda kameraa</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">PUHELINNUMERO</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal tekee kommunikoinnista helppoa käyttämällä hyödyksi olemassaolevaa puhelinnumeroasi ja yhteystietojasi. Ystäväsi, jotka tuntevat sinut puhelinnumerosi kautta, voivat ottaa sinuun yhteyttä jatkossa myös Signalin kautta.\n\nRekisteröityminen siirtää joitakin yhteystietoja väliaikaisesti palvelimelle. Niitä ei kuitenkaan tallenneta sinne.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP tekee kommunikoinnista helppoa käyttämällä hyödyksi olemassaolevaa puhelinnumeroasi ja yhteystietojasi. Ystäväsi, jotka tuntevat sinut puhelinnumerosi kautta, voivat ottaa sinuun yhteyttä jatkossa myös RAAPPin kautta.\n\nRekisteröityminen siirtää joitakin yhteystietoja väliaikaisesti palvelimelle. Niitä ei kuitenkaan tallenneta sinne.</string>
   <string name="registration_activity__verify_your_number">Vahvista numerosi</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Syötä puhelinnumerosi saadaksesi vahvistuskoodin. Matkapuhelinoperaattorisi hinnat voivat olla voimassa.</string>
   <!--recipients_panel-->
@@ -898,8 +898,8 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="preferences__sms_mms">SMS ja MMS</string>
   <string name="preferences__pref_all_sms_title">Vastaanota kaikki tekstiviestit</string>
   <string name="preferences__pref_all_mms_title">Vastaanota kaikki multimediaviestit</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Käytä Signalia kaikkiin saapuviin tekstiviesteihin</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Käytä Signalia kaikkiin saapuviin multimediaviesteihin</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Käytä RAAPPia kaikkiin saapuviin tekstiviesteihin</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Käytä RAAPPia kaikkiin saapuviin multimediaviesteihin</string>
   <string name="preferences__pref_enter_sends_title">Rivinvaihto lähettää</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Rivinvaihdon painallus lähettää viestin</string>
   <string name="preferences__choose_identity">Valitse identiteetti</string>
@@ -910,7 +910,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lukitse näyttö ja ilmoitukset salalauseella</string>
   <string name="preferences__screen_security">Näytön suojaus</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Estä kuvakaappaukset \"viimeksi käytetyt sovellukset\" -näkymästä sekä sovelluksen sisältä</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukitse automaattisesti salalauseella, jos Signalia ei ole käytetty määriteltynä aikavälinä</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukitse automaattisesti salalauseella, jos RAAPPia ei ole käytetty määriteltynä aikavälinä</string>
   <string name="preferences__inactivity_timeout_passphrase">Ajasta lukitus</string>
   <string name="preferences__inactivity_timeout_interval">Automaattisen lukituksen aikaväli</string>
   <string name="preferences__notifications">Ilmoitukset</string>
@@ -964,7 +964,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="preferences__default">Oletus</string>
   <string name="preferences__language">Kieli</string>
   <string name="preferences__signal_messages_and_calls">Signal-viestit ja -puhelut</string>
-  <string name="preferences__free_private_messages_and_calls">Ilmaiset ja yksityiset viestit sekä puhelut Signalin käyttäjille</string>
+  <string name="preferences__free_private_messages_and_calls">Ilmaiset ja yksityiset viestit sekä puhelut RAAPPin käyttäjille</string>
   <string name="preferences__submit_debug_log">Lähetä virheenkorjausloki</string>
   <string name="preferences__support_wifi_calling">\"WiFi Calling\" -yhteensopiva tila</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Ota käyttöön, jos laitteesi lähettää SMS- ja MMS-viestit WiFi-yhteyden kautta. (Ota käyttöön vain, kun \"WiFi Calling\" on käytössä laitteessasi.)</string>
@@ -979,8 +979,8 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="preferences_chats__media_auto_download">Liitetiedostojen automaattinen lataus</string>
   <string name="preferences_chats__message_trimming">Keskustelujen karsiminen</string>
   <string name="preferences_advanced__use_system_emoji">Käytä järjestelmän hymiöitä</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Ota Signalin oletushymiöt pois käytöstä</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Välitä kaikki puhelut Signal-palvelimen kautta välttääksesi IP-osoitteesi paljastumista yhteystiedollesi. Tämä toiminto heikentää puhelun laatua.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Ota RAAPPin oletushymiöt pois käytöstä</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Välitä kaikki puhelut RAAPP-palvelimen kautta välttääksesi IP-osoitteesi paljastumista yhteystiedollesi. Tämä toiminto heikentää puhelun laatua.</string>
   <string name="preferences_advanced__always_relay_calls">Välitä aina kaikki puhelut</string>
   <string name="preferences_app_protection__app_access">Sovelluksen käyttö</string>
   <string name="preferences_app_protection__communication">Kommunikointi</string>
@@ -992,9 +992,9 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="preferences_notifications__calls">Puhelut</string>
   <string name="preferences_notifications__ringtone">Ilmoitusääni</string>
   <string name="preferences_chats__show_invitation_prompts">Näytä kutsukehotukset</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Näytä kehotuksia kutsua yhteystietoja, jotka eivät vielä käytä Signalia</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Näytä kehotuksia kutsua yhteystietoja, jotka eivät vielä käytä RAAPPia</string>
   <string name="preferences_chats__message_text_size">Viestien tekstin koko</string>
-  <string name="preferences_events__contact_joined_signal">Yhteistietosi liittyi Signaliin</string>
+  <string name="preferences_events__contact_joined_signal">Yhteistietosi liittyi RAAPPiin</string>
   <string name="preferences_notifications__priority">Prioriteetti</string>
   <!--****************************************-->
   <!--menus-->
@@ -1067,24 +1067,24 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Kopioi leikepöydälle</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Vertaa leikepöytään</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Käyttämäsi Signalin versio on vanhentunut!</string>
+  <string name="reminder_header_outdated_build">Käyttämäsi RAAPPin versio on vanhentunut!</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Käyttämäsi Signalin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</item>
-    <item quantity="other">Käyttämäsi Signalin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</item>
+    <item quantity="one">Käyttämäsi RAAPPin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</item>
+    <item quantity="other">Käyttämäsi RAAPPin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">Käyttämäsi Signalin versio vanhenee tänään. Napauta päivittääksesi viimeisimpään versioon.</string>
-  <string name="reminder_header_expired_build">Käyttämäsi Signalin versio on vanhentunut!</string>
+  <string name="reminder_header_outdated_build_details_today">Käyttämäsi RAAPPin versio vanhenee tänään. Napauta päivittääksesi viimeisimpään versioon.</string>
+  <string name="reminder_header_expired_build">Käyttämäsi RAAPPin versio on vanhentunut!</string>
   <string name="reminder_header_expired_build_details">Viestien lähetys ei enää onnistu. Napauta päivittääksesi viimeisimpään versioon.</string>
   <string name="reminder_header_sms_default_title">Käytä oletuksena tekstiviesteille?</string>
-  <string name="reminder_header_sms_default_text">Napauta, jos haluat tehdä Signalista oletustekstiviestisovelluksesi.</string>
+  <string name="reminder_header_sms_default_text">Napauta, jos haluat tehdä RAAPPista oletustekstiviestisovelluksesi.</string>
   <string name="reminder_header_sms_import_title">Tuo järjestelmän tekstiviestit</string>
-  <string name="reminder_header_sms_import_text">Napauta, jos haluat kopioida puhelimesi tekstiviestit Signalin salattuun tietokantaan.</string>
-  <string name="reminder_header_push_title">Ota käyttöön Signal-viestit ja -puhelut</string>
+  <string name="reminder_header_sms_import_text">Napauta, jos haluat kopioida puhelimesi tekstiviestit RAAPPin salattuun tietokantaan.</string>
+  <string name="reminder_header_push_title">Ota käyttöön RAAPP-viestit ja -puhelut</string>
   <string name="reminder_header_push_text">Päivitä keskustelukokemuksesi</string>
-  <string name="reminder_header_invite_title">Kutsu Signaliin</string>
+  <string name="reminder_header_invite_title">Kutsu RAAPPiin</string>
   <string name="reminder_header_invite_text">Vie keskustelusi yhteystiedon %1$s kanssa seuraavalle tasolle.</string>
   <string name="reminder_header_share_title">Kutsu ystäviäsi!</string>
-  <string name="reminder_header_share_text">Mitä useampi ystävistäsi käyttää Signalia, sitä paremmaksi se muuttuu.</string>
+  <string name="reminder_header_share_text">Mitä useampi ystävistäsi käyttää RAAPPia, sitä paremmaksi se muuttuu.</string>
   <string name="reminder_header_service_outage_text">Signalissa ilmenee tällä hetkellä teknisiä ongelmia. Työskentelemme parhaillaan palvelun palauttamiseksi.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Tallenna</string>
@@ -1106,16 +1106,16 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="ConversationListFragment_loading">Ladataan...</string>
   <string name="CallNotificationBuilder_connecting">Yhdistetään...</string>
   <string name="Permissions_permission_required">Tarvitaan käyttöoikeus</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal tarvitsee tekstiviestien käyttöoikeutta niiden lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tekstiviestit\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">RAAPP tarvitsee tekstiviestien käyttöoikeutta niiden lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tekstiviestit\".</string>
   <string name="Permissions_continue">Jatka</string>
   <string name="Permissions_not_now">Ei nyt</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal tarvitsee lupaa käyttää laitteesi yhteystietoja niiden etsimistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Yhteystiedot\".</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP tarvitsee lupaa käyttää laitteesi yhteystietoja niiden etsimistä varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Yhteystiedot\".</string>
   <string name="conversation_activity__enable_signal_messages">OTA KÄYTTÖÖN SIGNAL-VIESTIT</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Signalin tietokantaa siirretään</string>
   <string name="PushDecryptJob_new_locked_message">Uusi lukittu viesti</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Avaa nähdäksesi odottavat viestit</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Avaa lukitus päivityksen loppuunsaattamiseksi</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Avaa Signalin lukitus päivityksen loppuunsaattamiseksi</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Avaa RAAPPin lukitus päivityksen loppuunsaattamiseksi</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Varmuuskopioi salalause</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varmuuskopiot tallennetaan laitteesi tallennustilaan ja ne salataan allaolevalla salalauseella. Ilman tätä salalausetta et voi palauttaa varmuuskopiota.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Olen kirjoittanut ylös tämän salalauseen. Ilman sitä, en pysty palauttamaan varmuuskopiota.</string>
@@ -1141,7 +1141,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="BackupDialog_disable_and_delete_all_local_backups">Otetaanko paikalliset varmuuskopiot pois käytöstä ja poistetaanko ne?</string>
   <string name="BackupDialog_delete_backups_statement">Poista varmuuskopiot</string>
   <string name="BackupDialog_copied_to_clipboard">Kopioitu leikepöydälle</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal tarvitsee lupaa käyttää laitteesi tallennustilaa varmuuskopioiden luomista varten, mutta tämä käyttöoikeus on pysyvästi evätty Signalilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP tarvitsee lupaa käyttää laitteesi tallennustilaa varmuuskopioiden luomista varten, mutta tämä käyttöoikeus on pysyvästi evätty RAAPPilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Viimeksi varmuuskopioitu: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">Meneillään</string>
   <string name="LocalBackupJob_creating_backup">Luodaan varmuuskopiota...</string>
@@ -1165,7 +1165,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="registration_lock_dialog_view__confirm_pin">Vahvista PIN</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Syötä rekisteröinnin lukituksen PIN-koodi</string>
   <string name="registration_lock_reminder_view__enter_pin">Syötä PIN</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Syötä rekisteröinnin lukituksen PIN-koodi, jota vaaditaan, jotta voit rekisteröidä tämän puhelinnumeron uudelleen Signaliin.</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Syötä rekisteröinnin lukituksen PIN-koodi, jota vaaditaan, jotta voit rekisteröidä tämän puhelinnumeron uudelleen RAAPPiin.</string>
   <string name="preferences_app_protection__registration_lock_pin">Rekisteröinnin lukituksen PIN-koodi</string>
   <string name="preferences_app_protection__registration_lock">Rekisteröinnin lukitus</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Sinun täytyy syöttää rekisteröinnin lukituksen PIN-koodisi</string>
@@ -1174,13 +1174,13 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Olet syöttänyt rekisteröinnin lukituksen PIN-koodin väärin liian monta kertaa. Ole hyvä ja yritä uudelleen seuraavana päivänä.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Virhe yhdistettäessä palveluun</string>
   <string name="RegistrationActivity_oh_no">Voi ei!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Tämän puhelinnumeron rekisteröiminen uudelleen on mahdollista ilman rekisteröinnin lukituksen PIN-koodia seitsemän päivän kuluttua siitä, kun tämä numero oli viimeksi aktiivinen Signalissa. Sinulla on %d päivää jäljellä.</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Tämän puhelinnumeron rekisteröiminen uudelleen on mahdollista ilman rekisteröinnin lukituksen PIN-koodia seitsemän päivän kuluttua siitä, kun tämä numero oli viimeksi aktiivinen RAAPPissa. Sinulla on %d päivää jäljellä.</string>
   <string name="RegistrationActivity_registration_lock_pin">Rekisteröinnin lukituksen PIN-koodi</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Tällä puhelinnumerolla on rekisteröinnin lukituksen PIN-koodi käytössä. Syötä rekisteröinnin lukituksen PIN.</string>
   <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Rekisteröinnin lukitus on käytössä puhelinnumerollasi. RAAPP auttaa sinua muistamaan rekisteröinnin lukituksen PIN-koodisi pyytämällä sinua silloin tällöin vahvistamaan sen.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Unohdin PIN-koodini.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Unohditko PIN-koodisi?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Rekisteröinnin lukitus auttaa suojaamaan puhelinnumeroasi luvattomilta rekisteröintiyrityksiltä. Voit ottaa tämän ominaisuuden pois käytöstä milloin tahansa Signalin yksityisyysasetuksista.</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Rekisteröinnin lukitus auttaa suojaamaan puhelinnumeroasi luvattomilta rekisteröintiyrityksiltä. Voit ottaa tämän ominaisuuden pois käytöstä milloin tahansa RAAPPin yksityisyysasetuksista.</string>
   <string name="RegistrationLockDialog_registration_lock">Rekisteröinnin lukitus</string>
   <string name="RegistrationLockDialog_enable">Ota käyttöön</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">Rekisteröinnin lukituksen PIN-koodin tulee olla vähintään 4 numeron pituinen.</string>
@@ -1190,7 +1190,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <string name="RegistrationLockDialog_disable">Poista käytöstä</string>
   <string name="RegistrationActivity_continue">Jatka</string>
   <string name="preferences_chats__backups">Varmuuskopiot</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal on lukittu</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP on lukittu</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">AVAA NAPAUTTAMALLA</string>
   <string name="RegistrationLockDialog_reminder">Muistutus:</string>
   <string name="recipient_preferences__about">Tiedot</string>
