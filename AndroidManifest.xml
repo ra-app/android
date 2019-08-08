@@ -558,15 +558,15 @@
     </provider>
 
     <provider android:name=".database.DatabaseContentProviders$Conversation"
-              android:authorities="org.thoughtcrime.securesms.database.conversation"
+              android:authorities="org.raapp.messenger.database.conversation"
               android:exported="false" />
 
     <provider android:name=".database.DatabaseContentProviders$ConversationList"
-              android:authorities="org.thoughtcrime.securesms.database.conversationlist"
+              android:authorities="org.raapp.messenger.database.conversationlist"
               android:exported="false" />
 
     <provider android:name=".database.DatabaseContentProviders$Attachment"
-              android:authorities="org.thoughtcrime.securesms.database.attachment"
+              android:authorities="org.raapp.messenger.database.attachment"
               android:exported="false" />
 
     <receiver android:name=".service.BootReceiver">

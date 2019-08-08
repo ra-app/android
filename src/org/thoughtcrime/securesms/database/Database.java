@@ -23,6 +23,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 
 import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.database.DatabaseContentProviders;
 
 import java.util.Set;
 

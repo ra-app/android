@@ -16,6 +16,7 @@ build.log
 build-log.xml
 .gradle
 build
+play
 signing.properties
 library/lib/
 library/obj/
