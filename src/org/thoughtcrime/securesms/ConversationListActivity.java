@@ -33,20 +33,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-
-import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.components.RatingManager;
 import org.raapp.messenger.components.SearchToolbar;
-import org.raapp.messenger.contacts.avatars.ContactColors;
-import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
-import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
 import org.raapp.messenger.lock.RegistrationLockDialog;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.GlideApp;
 import org.raapp.messenger.notifications.MarkReadReceiver;
 import org.raapp.messenger.notifications.MessageNotifier;
 import org.raapp.messenger.permissions.Permissions;
@@ -57,8 +48,6 @@ import org.raapp.messenger.util.DynamicLanguage;
 import org.raapp.messenger.util.DynamicNoActionBarTheme;
 import org.raapp.messenger.util.DynamicTheme;
 import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.concurrent.LifecycleBoundTask;
-import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.List;
 

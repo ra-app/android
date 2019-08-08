@@ -1,21 +1,21 @@
 package org.raapp.messenger.service;
 
+import junit.framework.AssertionFailedError;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.raapp.messenger.BaseUnitTest;
-import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.mockito.Matchers.anyBoolean;
 import static org.mockito.Matchers.contains;
 import static org.mockito.Mockito.when;
 
-public class VerificationCodeParserTest extends BaseUnitTest {
+public class SmsListenerTest extends BaseUnitTest {
   private static Map<String, String> CHALLENGES = new HashMap<String,String>() {{
       put("Your TextSecure verification code: 337-337",        "337337");
       put("XXX\nYour TextSecure verification code: 1337-1337", "13371337");
@@ -34,28 +34,25 @@ public class VerificationCodeParserTest extends BaseUnitTest {
       put("XXXYour Signal verification code: 1337-1337",   "13371337");
       put("Your Signal verification code: 1337-1337XXX",   "13371337");
       put("Your Signal verification code 1337-1337",       "13371337");
-
-      put("<#>Your Signal verification code: 1337-1337 aAbBcCdDeEf",     "13371337");
-      put("<#> Your Signal verification code: 1337-1337 aAbBcCdDeEf",    "13371337");
-      put("<#>Your Signal verification code: 1337-1337\naAbBcCdDeEf",    "13371337");
-      put("<#> Your Signal verification code: 1337-1337\naAbBcCdDeEf",   "13371337");
-      put("<#> Your Signal verification code: 1337-1337\n\naAbBcCdDeEf", "13371337");
   }};
+
+  private SmsListener listener;
 
   @Before
   @Override
   public void setUp() throws Exception {
     super.setUp();
+    listener = new SmsListener();
     when(sharedPreferences.getBoolean(contains("pref_verifying"), anyBoolean())).thenReturn(true);
   }
 
   @Test
-  public void testChallenges() {
+  public void testChallenges() throws Exception {
     for (Entry<String,String> challenge : CHALLENGES.entrySet()) {
-      Optional<String> result = VerificationCodeParser.parse(context, challenge.getKey());
-
-      assertTrue(result.isPresent());
-      assertEquals(result.get(), challenge.getValue());
+      if (!listener.isChallenge(context, challenge.getKey())) {
+        throw new AssertionFailedError("SmsListener didn't recognize body as a challenge.");
+      }
+      assertEquals(listener.parseChallenge(challenge.getKey()), challenge.getValue());
     }
   }
 }
