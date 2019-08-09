@@ -430,7 +430,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     }
 
     Permissions.with(this)
-               .request(Manifest.permission.READ_SMS)
+               .request(Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS)
                .ifNecessary()
                .withRationaleDialog(getString(R.string.RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code), R.drawable.ic_textsms_white_48dp)
                .onAnyResult(this::handleRegisterWithPermissions)
