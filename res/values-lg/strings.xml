@@ -86,7 +86,7 @@ a</string>
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Okakasa oyagala kuva mu kibija kino?</string>
   <string name="ConversationActivity_transport_insecure_sms">Obubaka obutalina bukuumi</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS terina bukumi</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Katudde ku RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Katukozese emboozi eno: %1$s</string>
   <string name="ConversationActivity_specify_recipient">Bambi londa contact</string>
@@ -122,7 +122,7 @@ a</string>
     <item quantity="other">ebigattibwako %1$d biterekebwa mu terekero</item>
   </plurals>
   <string name="ConversationFragment_pending">kirindirirwa</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">Obubaka</string>
   <string name="ConversationFragment_deleting">Kisangulwa</string>
@@ -174,7 +174,7 @@ a</string>
   <!--ExperienceUpgradeActivity-->
   <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Tukwaniriza ku RAAPP</string>
   <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Tukwaniriza ku RAAPP</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">Obubaka obukumidwa buli kati ku signal</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">Obubaka obukumidwa buli kati ku RAAPP</string>
   <!--ExportFragment-->
   <string name="ExportFragment_export">Fulumya</string>
   <string name="ExportFragment_export_plaintext_to_storage">Fulumya obubaba obulongosemu kuterekero</string>
@@ -249,7 +249,7 @@ a</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">obubaka obwa  vidiyo oba amaloboozi</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Ofuny obubaka obubuabuzidwa nga bakozesa vazoni ya signal etakyaakola. wattu saba asindise okuza obujja  signal ye  era addemu asindike obubaka</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Ofuny obubaka obubuabuzidwa nga bakozesa vazoni ya RAAPP etakyaakola. wattu saba asindise okuza obujja  RAAPP ye  era addemu asindike obubaka</string>
   <string name="MessageRecord_left_group">Ovudemu mu kibinja.</string>
   <string name="MessageRecord_s_called_you">%s yakkubiddeko</string>
   <string name="MessageRecord_called_s">Wakubidde %s</string>

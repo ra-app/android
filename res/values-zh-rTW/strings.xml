@@ -121,7 +121,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">您確定要離開此群組？</string>
   <string name="ConversationActivity_transport_insecure_sms">不安全的簡訊</string>
   <string name="ConversationActivity_transport_insecure_mms">不安全的多媒體訊息</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">我們要不要切換到 RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">我們要不要用這個軟體來聊天：%1$s</string>
   <string name="ConversationActivity_error_leaving_group">離開群組時發生錯誤</string>
@@ -167,7 +167,7 @@
     <item quantity="other">正在保存 %1$d 個附件至儲存空間...</item>
   </plurals>
   <string name="ConversationFragment_pending">等待中…</string>
-  <string name="ConversationFragment_push">資料 (Signal)</string>
+  <string name="ConversationFragment_push">資料 (RAAPP)</string>
   <string name="ConversationFragment_mms">多媒體訊息</string>
   <string name="ConversationFragment_sms">簡訊</string>
   <string name="ConversationFragment_deleting">正在刪除</string>
@@ -303,7 +303,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">傳送失敗</string>
   <string name="MessageDetailsRecipient_new_safety_number">新的安全碼</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">背景連線已經啟用</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">讀取無線供應商的 MMS 設定時發生錯誤</string>
@@ -450,13 +450,13 @@
   <string name="SharedContactDetailsActivity_add_to_contacts">新增至連˙絡人</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">邀請至 RAAPP</string>
   <string name="SharedContactDetailsActivity_signal_message">
-signal 訊息</string>
+RAAPP 訊息</string>
   <string name="SharedContactDetailsActivity_signal_call">RAAPP 通話</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">新增至連˙絡人</string>
   <string name="SharedContactView_invite_to_signal">邀請至 RAAPP</string>
   <string name="SharedContactView_message">
-signal 訊息</string>
+RAAPP 訊息</string>
   <!--Slide-->
   <string name="Slide_image">圖片</string>
   <string name="Slide_audio">音訊</string>
@@ -579,7 +579,7 @@ signal 訊息</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">無效的捷徑</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">新訊息</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">此裝置不再註冊於Signal</string>

@@ -124,8 +124,8 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Möchtest du wirklich diese Gruppe verlassen?</string>
   <string name="ConversationActivity_transport_insecure_sms">Unsichere SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Unsichere MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Lass uns zu »Signal« wechseln: %1$s</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Lass uns zu »RAAPP« wechseln: %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Unterhalten wir uns hiermit: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Fehler beim Verlassen der Gruppe</string>
   <string name="ConversationActivity_specify_recipient">Bitte einen Kontakt auswählen</string>
@@ -177,7 +177,7 @@
     <item quantity="other">%1$d Anhänge werden im Gerätespeicher gespeichert …</item>
   </plurals>
   <string name="ConversationFragment_pending">Ausstehend …</string>
-  <string name="ConversationFragment_push">Internet (Signal)</string>
+  <string name="ConversationFragment_push">Internet (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Löschen</string>
@@ -312,14 +312,14 @@
     <item quantity="one">%d SMS-Einladung senden?</item>
     <item quantity="other">%d SMS-Einladungen senden?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Lass uns zu »Signal« wechseln: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Lass uns zu »RAAPP« wechseln: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Es sieht so aus, als hättest du keine zum Teilen geeignete Apps installiert.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Freunde lassen Freunde nicht unverschlüsselt kommunizieren.</string>
   <!--MessageDetailsRecipient-->
   <string name="MessageDetailsRecipient_failed_to_send">Versand gescheitert</string>
   <string name="MessageDetailsRecipient_new_safety_number">Neue Sicherheitsnummer</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Hintergrundverbindung aktiviert</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">MMS-Einstellungen des Mobilfunkanbieters konnten nicht gelesen werden</string>
@@ -587,7 +587,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Ungültige Verknüpfung</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Neue Nachricht</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Gerät nicht mehr registriert</string>
@@ -1105,7 +1105,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="Permissions_continue">Weiter</string>
   <string name="Permissions_not_now">Nicht jetzt</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP benötigt die Berechtigung »Kontakte« für das Suchen in deinen Kontakten, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Kontakte«.</string>
-  <string name="conversation_activity__enable_signal_messages">SIGNAL-NACHRICHTEN AKTIVIEREN</string>
+  <string name="conversation_activity__enable_signal_messages">RAAPP-NACHRICHTEN AKTIVIEREN</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">RAAPP-Datenbank wird migriert …</string>
   <string name="PushDecryptJob_new_locked_message">Neue gesperrte Nachricht</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Entsperren, um ausstehende Nachrichten anzuzeigen</string>

@@ -127,7 +127,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Sunteți sigur că doriți să părăsiți acest grup?</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS nesecurizat</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS nesecurizat</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Hai să folosim RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Hai să utilizăm aplicația asta ca să vorbim: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Eroare la parăsirea grupului</string>
@@ -187,7 +187,7 @@
     <item quantity="other">Se salvează %1$d atașamente pe spațiul de stocare...</item>
   </plurals>
   <string name="ConversationFragment_pending">În așteptare...</string>
-  <string name="ConversationFragment_push">Date (Signal)</string>
+  <string name="ConversationFragment_push">Date (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Se șterge</string>
@@ -335,7 +335,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Expediere eşuată</string>
   <string name="MessageDetailsRecipient_new_safety_number">Număr nou de siguranță</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Conexiune în fundal activată</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Eroare la citirea setărilor MMS ale operatorului wireless</string>
@@ -611,7 +611,7 @@ Am primit mesajul conform căruia schimbul de chei a avut loc pentru o versiune 
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Scurtătură invalidă</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Mesaj nou</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Dispozitivul nu mai este înregistrat</string>
@@ -1139,7 +1139,7 @@ Am primit mesajul conform căruia schimbul de chei a avut loc pentru o versiune 
   <string name="Permissions_continue">Continuă</string>
   <string name="Permissions_not_now">Nu acum</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP are nevoie de permisiunea pentru Contacte pentru a putea căuta în contactele tale dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Contacte\".</string>
-  <string name="conversation_activity__enable_signal_messages">ACTIVEAZĂ MESAJELE SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">ACTIVEAZĂ MESAJELE RAAPP</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Se migrează baza de date RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">Mesaj nou blocat</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Deblocați pentru a vedea mesajele în curs</string>

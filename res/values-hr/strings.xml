@@ -124,7 +124,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Jeste li sigurni da želite napustiti ovu grupu?</string>
   <string name="ConversationActivity_transport_insecure_sms">Nesigurni SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nesigurni MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Prebaci se na RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Koristi ovo za razgovor: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Greška pri napuštanju grupe</string>
@@ -184,7 +184,7 @@
     <item quantity="other">Spremanje %1$d privitaka na disk...</item>
   </plurals>
   <string name="ConversationFragment_pending">U toku...</string>
-  <string name="ConversationFragment_push">Podaci (Signal)</string>
+  <string name="ConversationFragment_push">Podaci (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Brisanje</string>
@@ -328,7 +328,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Neuspješno slanje</string>
   <string name="MessageDetailsRecipient_new_safety_number">Novi sigurnosni broj</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Pozadinska veza omogućena</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Greška pri čitanju MMS postavki od operatera</string>
@@ -575,7 +575,7 @@ Primljena poruka razmjene ključeva za pogrešnu inačicu protokola.</string>
   <string name="SearchToolbar_search">Traži</string>
   <!--ShortcutLauncherActivity-->
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Nova poruka</string>
   <!--UnauthorizedReminder-->
   <!--VideoPlayer-->

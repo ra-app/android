@@ -124,7 +124,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Haluatko varmasti poistua tästä ryhmästä?</string>
   <string name="ConversationActivity_transport_insecure_sms">Salaamaton tekstiviesti</string>
   <string name="ConversationActivity_transport_insecure_mms">Salaamaton MMS-viesti</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Hei, vaihdetaan RAAPPiin %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Hei, kokeillaan keskustella tällä: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Virhe ryhmästä lähtiessä</string>
@@ -177,7 +177,7 @@
     <item quantity="other">Tallennetaan %1$d liitetiedostoa tallennustilaan...</item>
   </plurals>
   <string name="ConversationFragment_pending">Käsiteltävänä...</string>
-  <string name="ConversationFragment_push">Tietoverkko (Signal)</string>
+  <string name="ConversationFragment_push">Tietoverkko (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Poistetaan</string>
@@ -319,7 +319,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Lähetys epäonnistui</string>
   <string name="MessageDetailsRecipient_new_safety_number">Uusi turvanumero</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Taustayhteys päällä</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Virhe luettaessa operaattorin MMS-asetuksia</string>
@@ -592,7 +592,7 @@ Vastaanotetiin avaintenvaihtoviesti, joka kuuluu väärälle protokollaversiolle
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Virheellinen pikakuvake</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Uusi viesti</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Tämä laite ei ole enää rekisteröity</string>

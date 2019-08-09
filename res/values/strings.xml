@@ -142,7 +142,7 @@
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Are you sure you want to leave this group?</string>
     <string name="ConversationActivity_transport_insecure_sms">Insecure SMS</string>
     <string name="ConversationActivity_transport_insecure_mms">Insecure MMS</string>
-    <string name="ConversationActivity_transport_signal">Signal</string>
+    <string name="ConversationActivity_transport_signal">RAAPP</string>
     <string name="ConversationActivity_lets_switch_to_signal">Let\'s switch to RAAPP %1$s</string>
     <string name="ConversationActivity_lets_use_this_to_chat">Let\'s use this to chat: %1$s</string>
     <string name="ConversationActivity_error_leaving_group">Error leaving group</string>
@@ -199,7 +199,7 @@
         <item quantity="other">Saving %1$d attachments to storage...</item>
     </plurals>
     <string name="ConversationFragment_pending">Pending...</string>
-    <string name="ConversationFragment_push">Data (Signal)</string>
+    <string name="ConversationFragment_push">Data (RAAPP)</string>
     <string name="ConversationFragment_mms">MMS</string>
     <string name="ConversationFragment_sms">SMS</string>
     <string name="ConversationFragment_deleting">Deleting</string>
@@ -369,7 +369,7 @@
     <string name="MessageDetailsRecipient_new_safety_number">New safety number</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Signal</string>
+    <string name="MessageRetrievalService_signal">RAAPP</string>
     <string name="MessageRetrievalService_background_connection_enabled">Background connection enabled</string>
 
     <!-- MmsDownloader -->
@@ -691,7 +691,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Invalid shortcut</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+    <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
     <string name="SingleRecipientNotificationBuilder_new_message">New message</string>
 
     <!-- UnauthorizedReminder -->

@@ -733,8 +733,8 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       String inviteText;
 
       boolean a = SecureRandom.getInstance("SHA1PRNG").nextBoolean();
-      if (a) inviteText = getString(R.string.ConversationActivity_lets_switch_to_signal, "https://sgnl.link/1LoIMUl");
-      else   inviteText = getString(R.string.ConversationActivity_lets_use_this_to_chat, "https://sgnl.link/1MF56H1");
+      if (a) inviteText = getString(R.string.ConversationActivity_lets_switch_to_signal, "https://invite.ra-app.eu");
+      else   inviteText = getString(R.string.ConversationActivity_lets_use_this_to_chat, "https://invite.ra-app.eu");
 
       if (isDefaultSms) {
         composeText.appendInvite(inviteText);

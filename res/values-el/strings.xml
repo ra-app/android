@@ -124,7 +124,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Είσαι σίγουρος/η πως θέλεις να αποχωρήσεις από την ομάδα;</string>
   <string name="ConversationActivity_transport_insecure_sms">Μη ασφαλές μήνυμα SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Μη ασφαλές μήνυμα πολυμέσων MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Ας χρησιμοποιήσουμε το RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Ας χρησιμοποιήσουμε αυτό για να συνομιλήσουμε: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Πρόβλημα κατά την αποχώρηση από την ομάδα</string>
@@ -177,7 +177,7 @@
     <item quantity="other">%1$d συνημμένα αποθηκεύονται στη μνήμη...</item>
   </plurals>
   <string name="ConversationFragment_pending">Εν αναμονή...</string>
-  <string name="ConversationFragment_push">Δεδομένα (Signal)</string>
+  <string name="ConversationFragment_push">Δεδομένα (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Γίνεται διαγραφή</string>
@@ -320,7 +320,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Αποτυχία αποστολής</string>
   <string name="MessageDetailsRecipient_new_safety_number">Νέος αριθμός ασφαλείας</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Η σύνδεση στο παρασκήνιο ενεργοποιήθηκε</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Πρόβλημα κατά την ανάκτηση ρυθμίσεων από τον πάροχο για τα MMS </string>
@@ -594,7 +594,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Μη έγκυρη συντόμευση</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Νέο μήνυμα</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Η συσκευή δεν είναι πλέον εγγεγραμμένη</string>
@@ -1113,7 +1113,7 @@
   <string name="Permissions_continue">Συνέχεια</string>
   <string name="Permissions_not_now">Όχι τώρα</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Το RAAPP χρειάζεται τα δικαιώματα Επαφών για να μπορούμε να αναζητήσουμε τις επαφές σου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε τις \"Επαφές\".</string>
-  <string name="conversation_activity__enable_signal_messages">ΕΝΕΡΓΟΠΟΙΗΣΗ ΜΗΝΥΜΑΤΩΝ SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">ΕΝΕΡΓΟΠΟΙΗΣΗ ΜΗΝΥΜΑΤΩΝ RAAPP</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Μετεγκατάσταση της βάσης δεδομένων του RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">Νέο κλειδωμένο μήνυμα</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Ξεκλείδωσε για να δείς τα εκκρεμή μηνύματα</string>

@@ -130,7 +130,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ste prepričani, da res želite zapustiti to skupino?</string>
   <string name="ConversationActivity_transport_insecure_sms">Nezavarovan SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nezavarovan MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Začni uporabljati aplikacijo RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Uporabljajva tole za pogovore: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Napaka ob zapuščanju skupine</string>
@@ -197,7 +197,7 @@
     <item quantity="other">Shranjujem %1$d priponk v shrambo ...</item>
   </plurals>
   <string name="ConversationFragment_pending">V teku ...</string>
-  <string name="ConversationFragment_push">Podatkovno (Signal)</string>
+  <string name="ConversationFragment_push">Podatkovno (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Brišem</string>
@@ -351,7 +351,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Pošiljanje ni uspelo</string>
   <string name="MessageDetailsRecipient_new_safety_number">Novo varnostno število</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Povezava v ozadju je omogočena</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Napaka pri branju nastavitev MMS brezžičnega ponudnika</string>
@@ -625,7 +625,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Neveljavna bližnjica</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Novo sporočilo</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Naprava ni več registrirana</string>
@@ -1161,7 +1161,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="Permissions_continue">Nadaljuj</string>
   <string name="Permissions_not_now">Ne zdaj</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Dostop do stikov je bil trajno onemogočen. Aplikacija RAAPP potrebuje dovoljenje za dostop do stikov za iskanje med osebami iz vašega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
-  <string name="conversation_activity__enable_signal_messages">VKLOPI SPOROČILA SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">VKLOPI SPOROČILA RAAPP</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Prenašam podatkovno bazo RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">Novo zaklenjeno sporočilo</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Za ogled čakajočih sporočil odklenite</string>

@@ -120,7 +120,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">คุณแน่ใจหรือไหมว่าต้องการออกจากกลุ่มนี้</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS ที่ไม่ปลอดภัย</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS ที่ไม่ปลอดภัย</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">เปลี่ยนมาใช้ RAAPP กันเถอะ %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">ใช้อันนี้คุยกัน: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">เกิดข้อผิดพลาดระหว่างออกจากกลุ่ม</string>
@@ -166,7 +166,7 @@
     <item quantity="other">บันทึกไฟล์แนบไปยังที่เก็บข้อมูลแล้ว %1$d...</item>
   </plurals>
   <string name="ConversationFragment_pending">รอดำเนินการ...</string>
-  <string name="ConversationFragment_push">ข้อมูล (Signal)</string>
+  <string name="ConversationFragment_push">ข้อมูล (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">กำลังลบ</string>
@@ -300,7 +300,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">การส่งล้มเหลว</string>
   <string name="MessageDetailsRecipient_new_safety_number">รหัสความปลอดภัยใหม่</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">เปิดใช้งานให้การเชื่อมต่อทำงานเบื้องหลัง</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">เกิดข้อผิดพลาดระหว่างอ่านการตั้งค่า MMS ของผู้ให้บริการไร้สาย</string>
@@ -573,7 +573,7 @@
   <string name="SearchToolbar_search_for_conversations_contacts_and_messages">ค้นหาการสนทนา ผู้ติดต่อและข้อความ</string>
   <!--ShortcutLauncherActivity-->
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">ข้อความใหม่</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">อุปกรณ์นี้ไม่ได้ลงทะเบียนอีกต่อไป</string>
@@ -1066,7 +1066,7 @@
   <string name="Permissions_continue">ดำเนินการต่อ</string>
   <string name="Permissions_not_now">ไม่ใช่ตอนนี้</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">เพื่อที่จะค้นหาผู้ติดต่อได้ RAAPP ต้องได้รับอนุญาตให้เข้าถึงผู้ติดต่อ แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปยังเมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ผู้ติดต่อ\"</string>
-  <string name="conversation_activity__enable_signal_messages">เปิดใช้งานข้อความ SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">เปิดใช้งานข้อความ RAAPP</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">ย้ายฐานข้อมูล RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">ข้อความที่ถูกล็อกใหม่</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">ปลดล็อกเพื่อดูข้อความที่รออยู่</string>

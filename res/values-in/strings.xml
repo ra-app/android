@@ -120,7 +120,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Apakah Anda yakin ingin meninggalkan grup ini?</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS tidak aman</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS tidak aman</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Ayo pindah ke RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Ayo gunakan ini untuk mengobrol: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Gagal meninggalkan grup</string>
@@ -166,7 +166,7 @@
     <item quantity="other">Menyimpan %1$d lampiran ke penyimpanan...</item>
   </plurals>
   <string name="ConversationFragment_pending">Tertunda...</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Menghapus</string>
@@ -247,7 +247,7 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP sekarang mendukung panggilan video yang aman. Ketuk untuk menjelajahi.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Siap foto wajah</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Sekarang anda dapat membagikan nama dan foto profil dengan kawan anda di RAAPP</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Profil signal ada di sini</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Profil RAAPP ada di sini</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Kegagalan permanen komunikasi RAAPP!</string>
   <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP tidak dapat melakukan registrasi dengan Layanan Google Play. Fitur RAAPP seperti pesan dan panggilan di nonaktifkan, mohon registrasi ulang melalui Pengaturan &gt; Lanjutan.</string>
@@ -301,7 +301,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Gagal mengirim</string>
   <string name="MessageDetailsRecipient_new_safety_number">Angka keamanan baru</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Koneksi latar belakang diaktifkan</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Gagal saat membaca pengaturan MMS penyedia nirkabel</string>
@@ -574,7 +574,7 @@ Diterima pesan pertukaran kunci untuk versi protokol yang tidak valid.
   <string name="SearchToolbar_search_for_conversations_contacts_and_messages">Cari untuk percakapan, daftar kontak dan pesan</string>
   <!--ShortcutLauncherActivity-->
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Pesan baru</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Perangkat tidak lagi terdaftar</string>
@@ -1073,7 +1073,7 @@ Diterima pesan pertukaran kunci untuk versi protokol yang tidak valid.
   <string name="Permissions_continue">Lanjutkan</string>
   <string name="Permissions_not_now">Nanti saja</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP memerlukan izin akses ke Kontak untuk mencari Kontak Anda, tetapi telah ditolak secara permanen. Silakan lanjut ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Kontak\".</string>
-  <string name="conversation_activity__enable_signal_messages">AKTIFKAN PESAN SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">AKTIFKAN PESAN RAAPP</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Memindahkan database RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">Pesan terkunci baru</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Buka kunci untuk melihat pesan tertunda</string>

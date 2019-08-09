@@ -124,7 +124,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Bu gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="ConversationActivity_transport_insecure_sms">Şifresiz SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Şifresiz MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">RAAPP uygulamasından konuşalım %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Sohbet etmek için bunu kullanalım: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Gruptan ayrılırken hata</string>
@@ -137,7 +137,7 @@
   <string name="ConversationActivity_unable_to_record_audio">Ses kaydedilemedi!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazınızda bu bağlantıyı işleyebilecek uygulama bulunmamaktadır.</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Sesli mesaj göndermek için RAAPP\'in mikrofonunuza erişmesine izin verin.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal,sesli mesaj göndermek için Mikrofon iznini gerektirir, ancak izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne geçin, \"İzinler\" i seçin ve \"Mikrofon\" u etkinleştirin.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP,sesli mesaj göndermek için Mikrofon iznini gerektirir, ancak izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne geçin, \"İzinler\" i seçin ve \"Mikrofon\" u etkinleştirin.</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Arama yapmak için %s RAAPP\'in mikrofon ve kameranıza erişime ihtiyacı var.</string>
   <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP, %s \'ı aramak için Mikrofon ve Kamera iznini gerektirir, ancak izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne geçin, \"İzinler\" i seçin ve \"Mikrofon\" ve \"Kamera\" yı etkinleştirin.</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotoğraf veya video çekmek için, RAAPP\'in kameraya erişmesine izin verin.</string>
@@ -177,7 +177,7 @@
     <item quantity="other">%1$d eklenti hafızaya kaydediliyor...</item>
   </plurals>
   <string name="ConversationFragment_pending">Beklemede...</string>
-  <string name="ConversationFragment_push">Veri (Signal)</string>
+  <string name="ConversationFragment_push">Veri (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Siliniyor</string>
@@ -319,7 +319,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Gönderilemedi</string>
   <string name="MessageDetailsRecipient_new_safety_number">Yeni güvenlik numarası</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Arkaplan bağlantısı etkinleştirildi</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Kablosuz MMS sağlayıcısı ayarları okunurken hata</string>
@@ -597,7 +597,7 @@ Geçersiz protokol sürümünde anahtar değişim mesajı alındı.</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Geçersiz kısayol</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Yeni mesaj</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Cihaz artık kayıtlı değil</string>

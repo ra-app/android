@@ -110,7 +110,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Tem certeza que deseja sair deste grupo?</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS inseguro</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS inseguro</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Vamos mudar para o RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Vamos usar isto para conversar: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Erro ao sair do grupo</string>
@@ -162,7 +162,7 @@
     <item quantity="other">Gravando %1$d anexos no armazenamento...</item>
   </plurals>
   <string name="ConversationFragment_pending">Pendente...</string>
-  <string name="ConversationFragment_push">Dados (Signal)</string>
+  <string name="ConversationFragment_push">Dados (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Excluindo</string>
@@ -300,7 +300,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Falha no envio</string>
   <string name="MessageDetailsRecipient_new_safety_number">Novo número de segurança</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Conexão em segundo plano habilitada</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Erro ao ler configuracoes de MMS do provedor sem fio </string>
@@ -556,7 +556,7 @@
   <string name="SearchToolbar_search">Procurar</string>
   <!--ShortcutLauncherActivity-->
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Nova mensagem</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Aparelho não mais registrado</string>
@@ -1057,7 +1057,7 @@
   <string name="Permissions_continue">Continuar</string>
   <string name="Permissions_not_now">Agora não</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP precisa da permissão de Contatos para poder pesquisar nos seus contatos, mas ela foi permanentemente negada. Por favor, vá nas configurações do aplicativo, selecione \"Permissões\" e ative \"Contatos\".</string>
-  <string name="conversation_activity__enable_signal_messages">HABILITAR MENSAGENS SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">HABILITAR MENSAGENS RAAPP</string>
   <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrando a base de dados do RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">Nova mensagem trancada</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Destranque para ver as mensagens pendentes</string>

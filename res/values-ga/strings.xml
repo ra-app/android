@@ -104,7 +104,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">An bhfuil tú cinnte gur mian leat an bhaicle seo a fhágáil?</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS easlán</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS easlán</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Téimís i muinín RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Déanaimís comhrá ar seo: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Tharla botún ag fágáil an bhaicle</string>
@@ -148,7 +148,7 @@
     <item quantity="other">Scriosfaidh sé seo go buan gach %1$d theachtaireacht roghnaithe.</item>
   </plurals>
   <string name="ConversationFragment_pending">Ar feitheamh...</string>
-  <string name="ConversationFragment_push">Sonraí (Signal)</string>
+  <string name="ConversationFragment_push">Sonraí (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Ag scriosadh</string>
@@ -260,7 +260,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Theip air seoladh</string>
   <string name="MessageDetailsRecipient_new_safety_number">Uimhir shábhála nua</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <!--MmsDownloader-->
   <!--MediaOverviewActivity-->
   <string name="MediaOverviewActivity_Media">Meáin</string>
@@ -490,7 +490,7 @@ a shonrú</string>
   <!--SearchToolbar-->
   <string name="SearchToolbar_search">Cuardaigh</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Teachtaireacht nua</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Níl an gléas cláráithe a thulleadh.</string>
@@ -921,7 +921,7 @@ a shonrú</string>
   <string name="Permissions_continue">Lean ar aghaidh</string>
   <string name="Permissions_not_now">Ní anois</string>
   <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Tá gá ag RAAPP le cead teagmhálaí chun teagmhálaithe a chuardaigh, ach ní ceadaítear é go deo. Lean ar aghaidh, le do thoil, go socruithe aipe, roghnaigh \"Ceadanna\", agus cumasaigh \"Teagmhálaí\". </string>
-  <string name="conversation_activity__enable_signal_messages">CUMASAIGH TEACHTAIREACHTAÍ SIGNAL</string>
+  <string name="conversation_activity__enable_signal_messages">CUMASAIGH TEACHTAIREACHTAÍ RAAPP</string>
   <string name="PushDecryptJob_new_locked_message">Teachtaireacht ghlasaithe nua</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Bain an glas de chun an nuashonrú a chríochnú</string>
   <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Bain an glas de RAAPP chun an nuashonrú a chríochnú</string>

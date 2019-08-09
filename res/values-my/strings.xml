@@ -164,7 +164,7 @@
     <item quantity="other">ပူးတွဲဖိုင် %1$d ကို ဖုန်း ထဲတွင် သိမ်းနေသည် </item>
   </plurals>
   <string name="ConversationFragment_pending">ဆိုင်းငံ့ထားသည်...</string>
-  <string name="ConversationFragment_push">ဒေတာ (Signal)</string>
+  <string name="ConversationFragment_push">ဒေတာ (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">ဖျက်နေသည်</string>
@@ -295,7 +295,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">ပို့လွှတ်၍ မရပါ</string>
   <string name="MessageDetailsRecipient_new_safety_number">လုံခြုံရေးနံပါတ် အသစ်</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">အင်တာနက်ဆက်သွယ်မှု နောက်ကွယ်တွင် ဖွင့်ထားသည်</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">အင်တာနက်ဝန်ဆောင်မှုမှ MMS အပြင်အဆင်များ ဖတ်၍မရပါ</string>
@@ -323,7 +323,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS များအား ဒေါင်းလုပ်ဆွဲမည်</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">MMS များအားဒေါင်းလုပ်ဆွဲနေစဉ် ရပ်တန့်သွားသည်၊ ပြန်စရန် နှိပ်ပါ</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ထပ်မံပံ့ပိုးမှုမရှိတော့သော RAAPP ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ထပ်မံပံ့ပိုးမှုမရှိတော့သော RAAPP ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား RAAPP နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
   <string name="MessageRecord_left_group">အဖွဲ့မှ သင်ထွက်လိုက်သည်။</string>
   <string name="MessageRecord_you_updated_group">အဖွဲ့အား သင်ပြောင်းလဲမှုပြုလိုက်သည်။</string>
   <string name="MessageRecord_you_called">သင်မှခေါ်သည်</string>
@@ -402,7 +402,7 @@
   <string name="RedPhone_recipient_unavailable">ခေါ်ဆိုလိုသည့် တစ်ဖက်လူ မအားပါ</string>
   <string name="RedPhone_network_failed">ကွန်ယက် ကျသွားသည်!</string>
   <string name="RedPhone_number_not_registered">ယခု ဖုန်းနံပါတ်မှာ မှတ်ပုံတင်ထားခြင်း မရှိပါ။</string>
-  <string name="RedPhone_the_number_you_dialed_does_not_support_secure_voice">သင်ခေါ်ဆိုလိုက်သော ဖုန်းနံပါတ်မှာ signal ၏ လုံခြုံစွာဖုန်းခေါ်ဆိုခြင်း စနစ်အား မပံ့ပိုးနိုင်ပါ။</string>
+  <string name="RedPhone_the_number_you_dialed_does_not_support_secure_voice">သင်ခေါ်ဆိုလိုက်သော ဖုန်းနံပါတ်မှာ RAAPP ၏ လုံခြုံစွာဖုန်းခေါ်ဆိုခြင်း စနစ်အား မပံ့ပိုးနိုင်ပါ။</string>
   <string name="RedPhone_got_it">ရပြီ</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">နိုင်ငံရွေးချယ်ပါ</string>
@@ -486,7 +486,7 @@
   <string name="UnverifiedSendDialog_send_message">စာပို့မလား?</string>
   <string name="UnverifiedSendDialog_send">ပို့ပါ</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">သင့်မိတ်ဆွေသည် signal ဗားရှင်းအဟောင်းအသုံးပြုထားပါသည်။ လုံခြုံရေးနံပါတ်များ အတည်မပြုခင် RAAPP ဗားရှင်းအား မြှင့်တင်ခိုင်းလိုက်ပါ။</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">သင့်မိတ်ဆွေသည် RAAPP ဗားရှင်းအဟောင်းအသုံးပြုထားပါသည်။ လုံခြုံရေးနံပါတ်များ အတည်မပြုခင် RAAPP ဗားရှင်းအား မြှင့်တင်ခိုင်းလိုက်ပါ။</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">သင့်မိတ်ဆွေသည်  RAAPP ဗားရှင်းအသစ်နှင့် သင်နှင့်လိုက်လျောညီထွေမရှိသည့် QR code ပုံစံကိုအသုံးပြုထားပါသည်။ နှိုင်းယှဉ်စစ်ဆေးရန် အဆင့်မြှင့်ပါ။</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">စကန်ဖတ်ထားသော QR ကုဒ်သည် မှန်ကန်သော လုံခြုံရေးနံပါတ်ပုံစံမဟုတ်သဖြင့် ထပ်မံ စကန်ဖတ်လိုက်ပါ။</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">... မှတဆင့် လုံခြုံရေးနံပါတ်ကို မျှဝေမယ်</string>
@@ -555,7 +555,7 @@
   <string name="SearchToolbar_search">ရှာရန်</string>
   <!--ShortcutLauncherActivity-->
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">စာအသစ်</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ယခုဖုန်းမှာ မှတ်ပုံတင်ထားခြင်း မရှိတော့ပါ</string>

@@ -130,7 +130,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ste si istí že chcete opustiť túto skupinu?</string>
   <string name="ConversationActivity_transport_insecure_sms">Nezabezpečená SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nezabezpečená MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">RAAPP</string>
   <string name="ConversationActivity_lets_switch_to_signal">Prejdime na RAAPP %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Chatujme cez toto: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Chyba pri opustení skupiny</string>
@@ -197,7 +197,7 @@
     <item quantity="other">Ukladanie %1$d príloh na úložisko...</item>
   </plurals>
   <string name="ConversationFragment_pending">Čaká na spracovanie...</string>
-  <string name="ConversationFragment_push">Dáta (Signal)</string>
+  <string name="ConversationFragment_push">Dáta (RAAPP)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Mazanie</string>
@@ -351,7 +351,7 @@
   <string name="MessageDetailsRecipient_failed_to_send">Nepodarilo sa odoslať</string>
   <string name="MessageDetailsRecipient_new_safety_number">Nové bezpečnostné číslo</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">RAAPP</string>
   <string name="MessageRetrievalService_background_connection_enabled">Pripojenie na pozadí zapnuté</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Chyba pri načítaní MMS nastavení poskytovateľa</string>
@@ -633,7 +633,7 @@ Bola prijatá správa výmeny kľúčov s neplatnou verziou protokolu.
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Neplatná skratka</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Nová správa</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Zariadenie už nie je registrované</string>
