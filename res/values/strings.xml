@@ -1403,6 +1403,8 @@
     <string name="prompt_passphrase_activity__tap_to_unlock">TAP TO UNLOCK</string>
     <string name="RegistrationLockDialog_reminder">Reminder:</string>
     <string name="recipient_preferences__about">About</string>
+    <string name="text_secure_normal__menu_new_message">New Message</string>
+
     <!-- EOF -->
 
 </resources>

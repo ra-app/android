@@ -10,15 +10,16 @@ buildscript {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
         classpath files('libs/gradle-witness.jar')
     }
 }
 
 apply plugin: 'com.android.application'
-apply plugin: 'witness'
+//apply plugin: 'witness'
 
 repositories {
     maven {
@@ -146,6 +147,7 @@ dependencies {
     }
 }
 
+/*
 dependencyVerification {
     verify = [
         'com.android.support:design:fa5c27a705310e95a8f4099c98777132ed901a0d69178942306bb34cd76f0d57',
@@ -238,6 +240,7 @@ dependencyVerification {
         'com.madgag.spongycastle:core:8d6240b974b0aca4d3da9c7dd44d42339d8a374358aca5fc98e50a995764511f',
     ]
 }
+*/
 
 android {
     flavorDimensions "none"
@@ -250,7 +253,7 @@ android {
     }
 
     defaultConfig {
-        versionCode 002
+        versionCode 102
         versionName "0.0.2"
 
         minSdkVersion 14
@@ -372,33 +375,35 @@ android {
     }
 }
 
-task assembleWebsiteDescriptor << {
-    android.applicationVariants.all { variant ->
-        if (variant.name.equals("websiteDebug") ||
-            variant.name.equals("websiteRelease"))
-        {
-            File file = new File(variant.outputs[0].outputFile.path)
+task assembleWebsiteDescriptor {
+    doLast {
+        android.applicationVariants.all { variant ->
+            if (variant.name.equals("websiteDebug") ||
+                variant.name.equals("websiteRelease"))
+            {
+                File file = new File(variant.outputs[0].outputFile.path)
 
-            if (file.exists()) {
-                MessageDigest md = MessageDigest.getInstance("SHA-256");
-                file.eachByte 4096, {bytes, size ->
-                    md.update(bytes, 0, size);
+                if (file.exists()) {
+                    MessageDigest md = MessageDigest.getInstance("SHA-256");
+                    file.eachByte 4096, {bytes, size ->
+                        md.update(bytes, 0, size);
+                    }
+
+                    String digest = md.digest().collect {String.format "%02x", it}.join();
+                    String url = variant.productFlavors.get(0).ext.websiteUpdateUrl
+                    String apkName = variant.outputs[0].outputFile.name
+
+                    String descriptor = "{" +
+                            "\"versionCode\" : $project.android.defaultConfig.versionCode," +
+                            "\"versionName\" : \"$project.android.defaultConfig.versionName\"," +
+                            "\"sha256sum\" : \"$digest\"," +
+                            "\"url\" : \"$url/$apkName\"" +
+                            "}"
+
+                    File descriptorFile = new File(variant.outputs[0].outputFile.parent, apkName.replace(".apk", ".json"))
+
+                    descriptorFile.write(descriptor)
                 }
-
-                String digest = md.digest().collect {String.format "%02x", it}.join();
-                String url = variant.productFlavors.get(0).ext.websiteUpdateUrl
-                String apkName = variant.outputs[0].outputFile.name
-
-                String descriptor = "{" +
-                        "\"versionCode\" : $project.android.defaultConfig.versionCode," +
-                        "\"versionName\" : \"$project.android.defaultConfig.versionName\"," +
-                        "\"sha256sum\" : \"$digest\"," +
-                        "\"url\" : \"$url/$apkName\"" +
-                        "}"
-
-                File descriptorFile = new File(variant.outputs[0].outputFile.parent, apkName.replace(".apk", ".json"))
-
-                descriptorFile.write(descriptor)
             }
         }
     }
