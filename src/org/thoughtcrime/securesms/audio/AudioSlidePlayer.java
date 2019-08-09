@@ -5,6 +5,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.AudioAttributes;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -91,8 +92,21 @@ public class AudioSlidePlayer implements SensorEventListener {
 
     audioAttachmentServer.start();
 
-    mediaPlayer.setDataSource(context, audioAttachmentServer.getUri());
+    //mediaPlayer.setDataSource(context, audioAttachmentServer.getUri());
+    String src = audioAttachmentServer.getUri().toString();
+    Log.d(TAG, "src: " + src);
+    mediaPlayer.setDataSource(src);
+
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+      AudioAttributes aa = new AudioAttributes.Builder()
+              .setContentType(earpiece ? AudioAttributes.CONTENT_TYPE_SPEECH : AudioAttributes.CONTENT_TYPE_MUSIC)
+              .setUsage(earpiece ? AudioAttributes.USAGE_VOICE_COMMUNICATION : AudioAttributes.USAGE_MEDIA)
+              .build();
+      mediaPlayer.setAudioAttributes(aa);
+    }
     mediaPlayer.setAudioStreamType(earpiece ? AudioManager.STREAM_VOICE_CALL : AudioManager.STREAM_MUSIC);
+
     mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
       @Override
       public void onPrepared(MediaPlayer mp) {
@@ -296,6 +310,7 @@ public class AudioSlidePlayer implements SensorEventListener {
       double progress = position / duration;
 
       if (wakeLock != null) wakeLock.acquire();
+
       stop();
       try {
         play(progress, true);
@@ -306,7 +321,13 @@ public class AudioSlidePlayer implements SensorEventListener {
                mediaPlayer.getAudioStreamType() != streamType &&
                System.currentTimeMillis() - startTime > 500)
     {
-      if (wakeLock != null) wakeLock.release();
+      try {
+        if (wakeLock != null) wakeLock.release();
+      } catch (Exception e) {
+        Log.e(TAG, "Exception thrown from wakelock:");
+        Log.e(TAG, e.getClass().getName() + " : " + e.getLocalizedMessage());
+      }
+
       stop();
       notifyOnStop();
     }
@@ -352,7 +373,10 @@ public class AudioSlidePlayer implements SensorEventListener {
     @Override
     public void setAudioStreamType(int streamType) {
       this.streamType = streamType;
-      super.setAudioStreamType(streamType);
+
+      if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+        super.setAudioStreamType(streamType);
+      }
     }
 
     public int getAudioStreamType() {

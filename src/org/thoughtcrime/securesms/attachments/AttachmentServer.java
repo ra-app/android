@@ -37,14 +37,14 @@ public class AttachmentServer implements Runnable {
   private static final String TAG = AttachmentServer.class.getSimpleName();
 
   private final Context      context;
-  private final Attachment   attachment;
+  private final org.raapp.messenger.attachments.Attachment attachment;
   private final ServerSocket socket;
   private final int          port;
   private final String       auth;
 
   private volatile boolean isRunning;
 
-  public AttachmentServer(Context context, Attachment attachment)
+  public AttachmentServer(Context context, org.raapp.messenger.attachments.Attachment attachment)
       throws IOException
   {
     try {
