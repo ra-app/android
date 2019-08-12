@@ -109,6 +109,9 @@ if $darwin; then
     GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
 fi
 
+# GRADLE_OPTS="$GRADLE_OPTS \"-Xmx16024m\" \"-Xms256m\" \"-XX:MaxPermSize=16024m\""
+
+
 # For Cygwin, switch paths to Windows format before running java
 if $cygwin ; then
     APP_HOME=`cygpath --path --mixed "$APP_HOME"`
