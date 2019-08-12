@@ -66,8 +66,8 @@ public class SignalMapView extends LinearLayout {
     this.mapView.getMapAsync(new OnMapReadyCallback() {
       @Override
       public void onMapReady(final GoogleMap googleMap) {
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(place.getLatLong(), 13));
-        googleMap.addMarker(new MarkerOptions().position(place.getLatLong()));
+        //googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(place.getLatLong(), 13));
+        //googleMap.addMarker(new MarkerOptions().position(place.getLatLong()));
         googleMap.setBuildingsEnabled(true);
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         googleMap.getUiSettings().setAllGesturesEnabled(false);
