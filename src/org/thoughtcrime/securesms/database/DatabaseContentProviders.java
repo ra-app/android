@@ -26,7 +26,7 @@ public class DatabaseContentProviders {
   }
 
   public static class Attachment extends NoopContentProvider {
-    public static final Uri CONTENT_URI = Uri.parse("content://oorg.raapp.messenger.database.attachment");
+    public static final Uri CONTENT_URI = Uri.parse("content://org.raapp.messenger.database.attachment");
   }
 
   private static abstract class NoopContentProvider extends ContentProvider {
