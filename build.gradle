@@ -275,8 +275,8 @@ android {
     }
 
     defaultConfig {
-        versionCode 107
-        versionName "0.0.7"
+        versionCode 108
+        versionName "0.0.8"
 
         minSdkVersion 14
         targetSdkVersion 28
@@ -359,7 +359,7 @@ android {
 
         website {
             dimension "none"
-            ext.websiteUpdateUrl = "https://updates.raapp.com/android"
+            ext.websiteUpdateUrl = "https://signal.ra-app.eu/updates/android"
             buildConfigField "boolean", "PLAY_STORE_DISABLED", "true"
             buildConfigField "String", "NOPLAY_UPDATE_URL", "\"$ext.websiteUpdateUrl\""
         }
