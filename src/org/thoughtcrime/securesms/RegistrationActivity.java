@@ -502,8 +502,8 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
           }
 
           accountManager = AccountManagerFactory.createManager(RegistrationActivity.this, e164number, password);
-          // accountManager.requestSmsVerificationCode(smsRetrieverSupported); // org.whispersystems:signal-service-android:2.12.4
-          accountManager.requestSmsVerificationCode();
+          accountManager.requestSmsVerificationCode(smsRetrieverSupported); // org.whispersystems:signal-service-android:2.12.4
+          // accountManager.requestSmsVerificationCode();
 
           return new Pair<>(password, gcmToken);
         } catch (IOException e) {
