@@ -1,0 +1,4 @@
+include ':service:android', ':service:java'
+project(':service').projectDir = new File('repos/service')
+project(':service:android').projectDir = new File('repos/service/android')
+project(':service:java').projectDir = new File('repos/service/java')

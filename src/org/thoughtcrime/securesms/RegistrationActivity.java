@@ -681,7 +681,7 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
         @Override
         protected Void doInBackground(Void... voids) {
           try {
-            accountManager.requestVoiceVerificationCode();
+            accountManager.requestVoiceVerificationCode(Locale.getDefault());
           } catch (IOException e) {
             Log.w(TAG, e);
           }
