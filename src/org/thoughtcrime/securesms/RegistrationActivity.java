@@ -146,7 +146,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   private VerificationPinKeyboard     keyboard;
   private VerificationCodeView        verificationCodeView;
   private RegistrationState           registrationState;
-  private ChallengeReceiver           challengeReceiver;
+  // private ChallengeReceiver           challengeReceiver;
   private SignalServiceAccountManager accountManager;
 
 
@@ -159,13 +159,13 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     initializeSpinner();
     initializePermissions();
     initializeNumber();
-    initializeChallengeListener();
+    // initializeChallengeListener();
   }
 
   @Override
   public void onDestroy() {
     super.onDestroy();
-    shutdownChallengeListener();
+    // shutdownChallengeListener();
     markAsVerifying(false);
     EventBus.getDefault().unregister(this);
   }
@@ -294,7 +294,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     Permissions.with(RegistrationActivity.this)
                .request(Manifest.permission.WRITE_CONTACTS, Manifest.permission.READ_CONTACTS,
                         Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE,
-                        Manifest.permission.READ_PHONE_STATE, Manifest.permission.READ_CALL_LOG) // , Manifest.permission.PROCESS_OUTGOING_CALLS
+                        Manifest.permission.READ_PHONE_STATE) // , Manifest.permission.READ_CALL_LOG, Manifest.permission.PROCESS_OUTGOING_CALLS
                .ifNecessary()
                .withRationaleDialog(getString(R.string.RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends),
                                     R.drawable.ic_contacts_white_48dp, R.drawable.ic_folder_white_48dp)
@@ -428,6 +428,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       return;
     }
 
+    /*
     Permissions.with(this)
                .request(Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS)
                .ifNecessary()
@@ -437,6 +438,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   }
 
   private void handleRegisterWithPermissions() {
+    */
+
     if (TextUtils.isEmpty(countryCode.getText())) {
       Toast.makeText(this, getString(R.string.RegistrationActivity_you_must_specify_your_country_code), Toast.LENGTH_LONG).show();
       return;
@@ -979,6 +982,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     dialog.show();
   }
 
+  /*
   private void initializeChallengeListener() {
     challengeReceiver = new ChallengeReceiver();
     IntentFilter filter = new IntentFilter(CHALLENGE_EVENT);
@@ -991,6 +995,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       challengeReceiver = null;
     }
   }
+  */
 
   private void markAsVerifying(boolean verifying) {
     TextSecurePreferences.setVerifying(this, verifying);
@@ -1015,6 +1020,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     else                       restoreBackupProgress.setText(getString(R.string.RegistrationActivity_d_messages_so_far, event.getCount()));
   }
 
+  /*
   private class ChallengeReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -1022,6 +1028,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       handleChallengeReceived(intent.getStringExtra(CHALLENGE_EXTRA));
     }
   }
+  */
 
   private class CountryCodeChangedListener implements TextWatcher {
     @Override
