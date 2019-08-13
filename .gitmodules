@@ -1,0 +1,3 @@
+[submodule "service"]
+	path = repos/service
+	url = git@github.com:ra-app/service-java.git
