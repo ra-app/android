@@ -1,13 +1,13 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.database.NoExternalStorageException;
 import org.whispersystems.libsignal.util.ByteUtil;
 
 import java.io.File;

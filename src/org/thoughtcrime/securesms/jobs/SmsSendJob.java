@@ -1,4 +1,4 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -7,23 +7,23 @@ import android.net.Uri;
 import android.os.Build;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.NoSuchMessageException;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.database.model.SmsMessageRecord;
-import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
-import org.raapp.messenger.jobs.requirements.NetworkOrServiceRequirement;
-import org.raapp.messenger.jobs.requirements.ServiceRequirement;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.service.SmsDeliveryListener;
-import org.raapp.messenger.transport.UndeliverableMessageException;
-import org.raapp.messenger.util.NumberUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.NoSuchMessageException;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.model.SmsMessageRecord;
+import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
+import org.thoughtcrime.securesms.jobs.requirements.NetworkOrServiceRequirement;
+import org.thoughtcrime.securesms.jobs.requirements.ServiceRequirement;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.service.SmsDeliveryListener;
+import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
+import org.thoughtcrime.securesms.util.NumberUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
 
 import java.util.ArrayList;
 

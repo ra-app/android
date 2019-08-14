@@ -18,7 +18,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.raapp.messenger.components.emoji.parsing;
+package org.thoughtcrime.securesms.components.emoji.parsing;
 
 
 import android.support.annotation.NonNull;

@@ -1,4 +1,4 @@
-package org.raapp.messenger.search;
+package org.thoughtcrime.securesms.search;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -8,14 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.raapp.messenger.ConversationListItem;
+import org.thoughtcrime.securesms.ConversationListItem;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.search.model.MessageResult;
-import org.raapp.messenger.search.model.SearchResult;
-import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.search.model.MessageResult;
+import org.thoughtcrime.securesms.search.model.SearchResult;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
 
 import java.util.Collections;
 import java.util.Locale;

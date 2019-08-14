@@ -1,4 +1,4 @@
-package org.raapp.messenger.webrtc.audio;
+package org.thoughtcrime.securesms.webrtc.audio;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothClass;
@@ -14,9 +14,9 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.ServiceUtil;
 
 import java.util.List;
 

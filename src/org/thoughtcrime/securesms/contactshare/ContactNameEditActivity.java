@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -8,13 +8,13 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
-import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicNoActionBarTheme;
-import org.raapp.messenger.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 
-import static org.raapp.messenger.contactshare.Contact.*;
+import static org.thoughtcrime.securesms.contactshare.Contact.*;
 
 public class ContactNameEditActivity extends PassphraseRequiredActionBarActivity {
 

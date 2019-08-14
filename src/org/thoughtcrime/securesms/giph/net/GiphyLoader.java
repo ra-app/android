@@ -1,4 +1,4 @@
-package org.raapp.messenger.giph.net;
+package org.thoughtcrime.securesms.giph.net;
 
 
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 
-import org.raapp.messenger.giph.model.GiphyImage;
-import org.raapp.messenger.giph.model.GiphyResponse;
-import org.raapp.messenger.util.AsyncLoader;
-import org.raapp.messenger.util.JsonUtils;
+import org.thoughtcrime.securesms.giph.model.GiphyImage;
+import org.thoughtcrime.securesms.giph.model.GiphyResponse;
+import org.thoughtcrime.securesms.util.AsyncLoader;
+import org.thoughtcrime.securesms.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package org.raapp.messenger.recipients;
+package org.thoughtcrime.securesms.recipients;
 
 
 public interface RecipientModifiedListener {

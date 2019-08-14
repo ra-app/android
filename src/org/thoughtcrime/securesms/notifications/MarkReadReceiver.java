@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -11,16 +11,16 @@ import android.support.v4.app.NotificationManagerCompat;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MessagingDatabase.ExpirationInfo;
-import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
-import org.raapp.messenger.jobs.MultiDeviceReadUpdateJob;
-import org.raapp.messenger.jobs.SendReadReceiptJob;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.service.ExpiringMessageManager;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MessagingDatabase.ExpirationInfo;
+import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
+import org.thoughtcrime.securesms.database.MessagingDatabase.SyncMessageId;
+import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
+import org.thoughtcrime.securesms.jobs.SendReadReceiptJob;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.service.ExpiringMessageManager;
 
 import java.util.LinkedList;
 import java.util.List;

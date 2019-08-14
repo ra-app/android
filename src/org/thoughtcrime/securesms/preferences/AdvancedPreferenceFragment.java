@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,20 +14,20 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.widget.Toast;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.raapp.messenger.ApplicationPreferencesActivity;
-import org.raapp.messenger.LogSubmitActivity;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.LogSubmitActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.RegistrationActivity;
-import org.raapp.messenger.contacts.ContactAccessor;
-import org.raapp.messenger.contacts.ContactIdentityManager;
-import org.raapp.messenger.push.AccountManagerFactory;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.thoughtcrime.securesms.RegistrationActivity;
+import org.thoughtcrime.securesms.contacts.ContactAccessor;
+import org.thoughtcrime.securesms.contacts.ContactIdentityManager;
+import org.thoughtcrime.securesms.push.AccountManagerFactory;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.AuthorizationFailedException;

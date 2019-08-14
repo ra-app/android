@@ -1,4 +1,4 @@
-package org.raapp.messenger.glide;
+package org.thoughtcrime.securesms.glide;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 
-import org.raapp.messenger.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
 
 import java.io.IOException;
 import java.io.InputStream;

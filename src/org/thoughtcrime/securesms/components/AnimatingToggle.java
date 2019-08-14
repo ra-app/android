@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -12,7 +12,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class AnimatingToggle extends FrameLayout {
 

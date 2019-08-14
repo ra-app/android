@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.viewpager;
+package org.thoughtcrime.securesms.components.viewpager;
 
 
 import android.support.v4.view.ViewPager;

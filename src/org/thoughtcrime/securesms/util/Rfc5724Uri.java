@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import java.net.URISyntaxException;
 import java.net.URLDecoder;

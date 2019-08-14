@@ -1,4 +1,4 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,17 +6,17 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.annimon.stream.Stream;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.raapp.messenger.color.MaterialColor;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.Closeable;

@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.app.Activity;
 import android.content.Intent;

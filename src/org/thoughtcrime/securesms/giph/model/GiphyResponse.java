@@ -1,4 +1,4 @@
-package org.raapp.messenger.giph.model;
+package org.thoughtcrime.securesms.giph.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

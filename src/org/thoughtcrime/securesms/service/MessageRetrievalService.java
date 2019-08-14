@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -6,18 +6,18 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.ApplicationContext;
+import org.thoughtcrime.securesms.ApplicationContext;
 import org.raapp.messenger.R;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.gcm.GcmBroadcastReceiver;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirementProvider;
-import org.raapp.messenger.jobmanager.requirements.RequirementListener;
-import org.raapp.messenger.jobs.PushContentReceiveJob;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.gcm.GcmBroadcastReceiver;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirementProvider;
+import org.thoughtcrime.securesms.jobmanager.requirements.RequirementListener;
+import org.thoughtcrime.securesms.jobs.PushContentReceiveJob;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidVersionException;
 import org.whispersystems.signalservice.api.SignalServiceMessagePipe;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

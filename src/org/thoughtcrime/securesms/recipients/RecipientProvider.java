@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.recipients;
+package org.thoughtcrime.securesms.recipients;
 
 import android.content.Context;
 import android.net.Uri;
@@ -23,16 +23,16 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.color.MaterialColor;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase.GroupRecord;
-import org.raapp.messenger.database.RecipientDatabase.RecipientSettings;
-import org.raapp.messenger.database.RecipientDatabase.RegisteredState;
-import org.raapp.messenger.database.RecipientDatabase.VibrateState;
-import org.raapp.messenger.util.ListenableFutureTask;
-import org.raapp.messenger.util.SoftHashMap;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
+import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientSettings;
+import org.thoughtcrime.securesms.database.RecipientDatabase.RegisteredState;
+import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
+import org.thoughtcrime.securesms.util.ListenableFutureTask;
+import org.thoughtcrime.securesms.util.SoftHashMap;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

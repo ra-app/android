@@ -1,4 +1,4 @@
-package org.raapp.messenger.events;
+package org.thoughtcrime.securesms.events;
 
 
 public class ReminderUpdateEvent {

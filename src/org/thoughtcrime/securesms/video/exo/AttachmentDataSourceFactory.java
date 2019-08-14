@@ -1,4 +1,4 @@
-package org.raapp.messenger.video.exo;
+package org.thoughtcrime.securesms.video.exo;
 
 
 import android.content.Context;

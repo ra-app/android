@@ -1,21 +1,21 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.crypto.AsymmetricMasterCipher;
-import org.raapp.messenger.crypto.AsymmetricMasterSecret;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.crypto.MasterSecretUtil;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
-import org.raapp.messenger.mms.IncomingMediaMessage;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.crypto.AsymmetricMasterCipher;
+import org.thoughtcrime.securesms.crypto.AsymmetricMasterSecret;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
+import org.thoughtcrime.securesms.mms.IncomingMediaMessage;
 import org.whispersystems.libsignal.InvalidMessageException;
 
 import java.io.IOException;

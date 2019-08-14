@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,14 +13,14 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.*;
 import android.support.annotation.WorkerThread;
 import android.support.media.ExifInterface;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.bitmap.DownsampleStrategy;
 
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.MediaConstraints;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.MediaConstraints;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

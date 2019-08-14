@@ -1,4 +1,4 @@
-package org.raapp.messenger.contacts.avatars;
+package org.thoughtcrime.securesms.contacts.avatars;
 
 
 import android.content.Context;
@@ -6,10 +6,10 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.util.Conversions;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.util.Conversions;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.ByteArrayInputStream;

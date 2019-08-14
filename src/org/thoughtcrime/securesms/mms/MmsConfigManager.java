@@ -1,4 +1,4 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.support.annotation.WorkerThread;
 
 import com.android.mms.service_alt.MmsConfig;
 
-import org.raapp.messenger.util.dualsim.SubscriptionInfoCompat;
-import org.raapp.messenger.util.dualsim.SubscriptionManagerCompat;
+import org.thoughtcrime.securesms.util.dualsim.SubscriptionInfoCompat;
+import org.thoughtcrime.securesms.util.dualsim.SubscriptionManagerCompat;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

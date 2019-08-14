@@ -1,17 +1,17 @@
-package org.raapp.messenger.gcm;
+package org.thoughtcrime.securesms.gcm;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.jobs.PushContentReceiveJob;
-import org.raapp.messenger.jobs.PushNotificationReceiveJob;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.jobs.PushContentReceiveJob;
+import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
 

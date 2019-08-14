@@ -1,9 +1,11 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.content.DialogInterface;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
+
+import org.raapp.messenger.R;
 
 import java.util.concurrent.TimeUnit;
 

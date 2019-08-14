@@ -1,4 +1,4 @@
-package org.raapp.messenger.backup;
+package org.thoughtcrime.securesms.backup;
 
 
 import android.content.Context;
@@ -14,24 +14,24 @@ import com.google.protobuf.ByteString;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.crypto.AttachmentSecret;
-import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.raapp.messenger.crypto.IdentityKeyUtil;
-import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.GroupReceiptDatabase;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.MmsSmsColumns;
-import org.raapp.messenger.database.OneTimePreKeyDatabase;
-import org.raapp.messenger.database.SearchDatabase;
-import org.raapp.messenger.database.SessionDatabase;
-import org.raapp.messenger.database.SignedPreKeyDatabase;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.profiles.AvatarHelper;
-import org.raapp.messenger.util.Conversions;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
+import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
+import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.GroupReceiptDatabase;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.MmsSmsColumns;
+import org.thoughtcrime.securesms.database.OneTimePreKeyDatabase;
+import org.thoughtcrime.securesms.database.SearchDatabase;
+import org.thoughtcrime.securesms.database.SessionDatabase;
+import org.thoughtcrime.securesms.database.SignedPreKeyDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.profiles.AvatarHelper;
+import org.thoughtcrime.securesms.util.Conversions;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.kdf.HKDFv3;
 import org.whispersystems.libsignal.util.ByteUtil;
 

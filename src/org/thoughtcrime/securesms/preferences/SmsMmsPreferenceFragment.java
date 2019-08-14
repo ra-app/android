@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,10 +15,10 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 
-import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 
 public class SmsMmsPreferenceFragment extends CorrectedPreferenceFragment {
   private static final String KITKAT_DEFAULT_PREF = "pref_set_default";

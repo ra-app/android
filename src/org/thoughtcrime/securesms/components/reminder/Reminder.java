@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.reminder;
+package org.thoughtcrime.securesms.components.reminder;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

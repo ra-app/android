@@ -1,19 +1,19 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.GroupUtil;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.GroupUtil;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;

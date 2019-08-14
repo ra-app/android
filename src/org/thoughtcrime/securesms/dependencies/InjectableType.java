@@ -1,4 +1,4 @@
-package org.raapp.messenger.dependencies;
+package org.thoughtcrime.securesms.dependencies;
 
 public interface InjectableType {
 }

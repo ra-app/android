@@ -15,12 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import junit.framework.AssertionFailedError;
 
 import org.junit.Test;
-import org.raapp.messenger.BaseUnitTest;
+import org.thoughtcrime.securesms.BaseUnitTest;
 
 import java.net.URISyntaxException;
 

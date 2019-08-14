@@ -1,4 +1,4 @@
-package org.raapp.messenger.giph.ui;
+package org.thoughtcrime.securesms.giph.ui;
 
 
 import android.annotation.SuppressLint;
@@ -14,17 +14,17 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.providers.PersistentBlobProvider;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicNoActionBarTheme;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.util.concurrent.ExecutionException;
 

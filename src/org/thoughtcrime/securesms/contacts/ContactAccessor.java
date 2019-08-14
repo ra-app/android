@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -29,9 +29,9 @@ import android.provider.ContactsContract.PhoneLookup;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -40,7 +40,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import static org.raapp.messenger.database.GroupDatabase.GroupRecord;
+import static org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
 
 /**
  * This class was originally a layer of indirection between

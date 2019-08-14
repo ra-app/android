@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -20,14 +20,14 @@ import com.davemorrissey.labs.subscaleview.decoder.DecoderFactory;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.subsampling.AttachmentBitmapDecoder;
-import org.raapp.messenger.components.subsampling.AttachmentRegionDecoder;
-import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.util.BitmapDecodingException;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.MediaUtil;
+import org.thoughtcrime.securesms.components.subsampling.AttachmentBitmapDecoder;
+import org.thoughtcrime.securesms.components.subsampling.AttachmentRegionDecoder;
+import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.MediaUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

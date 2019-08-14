@@ -1,10 +1,11 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import org.raapp.messenger.preferences.MmsPreferencesActivity;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.preferences.MmsPreferencesActivity;
 
 public class PromptMmsActivity extends PassphraseRequiredActionBarActivity {
 

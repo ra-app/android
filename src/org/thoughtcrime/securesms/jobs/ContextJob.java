@@ -1,10 +1,10 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 
-import org.raapp.messenger.jobmanager.Job;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
+import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
 
 public abstract class ContextJob extends Job implements ContextDependent {
 

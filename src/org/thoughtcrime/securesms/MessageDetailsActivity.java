@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,7 +27,9 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.Loader;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,26 +37,26 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.raapp.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
-import org.raapp.messenger.color.MaterialColor;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupReceiptDatabase;
-import org.raapp.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.MmsSmsDatabase;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.database.loaders.MessageDetailsLoader;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.util.DateUtils;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.ExpirationUtil;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
+import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupReceiptDatabase;
+import org.thoughtcrime.securesms.database.GroupReceiptDatabase.GroupReceiptInfo;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.MmsSmsDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.loaders.MessageDetailsLoader;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.ExpirationUtil;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.lang.ref.WeakReference;

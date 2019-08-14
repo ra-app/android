@@ -15,17 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECKeyPair;
 import org.whispersystems.libsignal.ecc.ECPrivateKey;
 import org.whispersystems.libsignal.ecc.ECPublicKey;
-import org.raapp.messenger.util.Conversions;
+import org.thoughtcrime.securesms.util.Conversions;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;

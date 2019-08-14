@@ -1,4 +1,4 @@
-package org.raapp.messenger.crypto.storage;
+package org.thoughtcrime.securesms.crypto.storage;
 
 import android.content.Context;
 

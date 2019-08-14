@@ -1,11 +1,11 @@
-package org.raapp.messenger.jobs.requirements;
+package org.thoughtcrime.securesms.jobs.requirements;
 
 import android.content.Context;
 
-import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
-import org.raapp.messenger.jobmanager.requirements.Requirement;
-import org.raapp.messenger.jobmanager.requirements.SimpleRequirement;
-import org.raapp.messenger.sms.TelephonyServiceState;
+import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
+import org.thoughtcrime.securesms.jobmanager.requirements.Requirement;
+import org.thoughtcrime.securesms.jobmanager.requirements.SimpleRequirement;
+import org.thoughtcrime.securesms.sms.TelephonyServiceState;
 
 public class ServiceRequirement extends SimpleRequirement implements ContextDependent {
 

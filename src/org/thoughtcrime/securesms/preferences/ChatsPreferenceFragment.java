@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -16,19 +16,19 @@ import android.text.TextUtils;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.backup.BackupDialog;
-import org.raapp.messenger.backup.FullBackupBase.BackupEvent;
-import org.raapp.messenger.components.SwitchPreferenceCompat;
-import org.raapp.messenger.jobs.LocalBackupJob;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.preferences.widgets.ProgressPreference;
-import org.raapp.messenger.util.BackupUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Trimmer;
+import org.thoughtcrime.securesms.backup.BackupDialog;
+import org.thoughtcrime.securesms.backup.FullBackupBase.BackupEvent;
+import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
+import org.thoughtcrime.securesms.jobs.LocalBackupJob;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.preferences.widgets.ProgressPreference;
+import org.thoughtcrime.securesms.util.BackupUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Trimmer;
 
 import java.util.ArrayList;
 import java.util.List;

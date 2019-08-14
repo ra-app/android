@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.os.AsyncTask;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
 
 public class Trimmer {
 

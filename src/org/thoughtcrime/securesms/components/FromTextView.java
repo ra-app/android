@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -14,10 +14,10 @@ import android.text.style.TypefaceSpan;
 import android.util.AttributeSet;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.EmojiTextView;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.ResUtil;
-import org.raapp.messenger.util.spans.CenterAlignedRelativeSizeSpan;
+import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.ResUtil;
+import org.thoughtcrime.securesms.util.spans.CenterAlignedRelativeSizeSpan;
 
 public class FromTextView extends EmojiTextView {
 

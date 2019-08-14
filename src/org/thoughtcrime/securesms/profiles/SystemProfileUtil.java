@@ -1,4 +1,4 @@
-package org.raapp.messenger.profiles;
+package org.thoughtcrime.securesms.profiles;
 
 
 import android.accounts.Account;
@@ -13,13 +13,13 @@ import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.mms.MediaConstraints;
-import org.raapp.messenger.util.BitmapDecodingException;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.thoughtcrime.securesms.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 
 public class SystemProfileUtil {
 

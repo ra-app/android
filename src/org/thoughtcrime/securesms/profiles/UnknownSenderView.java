@@ -1,4 +1,4 @@
-package org.raapp.messenger.profiles;
+package org.thoughtcrime.securesms.profiles;
 
 
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class UnknownSenderView extends FrameLayout {
 

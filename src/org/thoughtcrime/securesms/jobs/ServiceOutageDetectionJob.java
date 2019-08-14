@@ -1,15 +1,15 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 
 import org.greenrobot.eventbus.EventBus;
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.events.ReminderUpdateEvent;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.transport.RetryLaterException;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.events.ReminderUpdateEvent;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.transport.RetryLaterException;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

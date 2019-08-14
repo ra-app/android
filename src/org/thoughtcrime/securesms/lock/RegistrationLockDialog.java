@@ -1,4 +1,4 @@
-package org.raapp.messenger.lock;
+package org.thoughtcrime.securesms.lock;
 
 
 import android.annotation.SuppressLint;
@@ -17,7 +17,7 @@ import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.StyleSpan;
 import android.util.DisplayMetrics;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.Display;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,9 +29,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.SwitchPreferenceCompat;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 

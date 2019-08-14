@@ -1,12 +1,13 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 
 public class ConversationListArchiveActivity extends PassphraseRequiredActionBarActivity
     implements ConversationListFragment.ConversationSelectedListener

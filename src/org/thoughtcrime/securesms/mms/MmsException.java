@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 /**
  * A generic exception that is thrown by the Mms client.

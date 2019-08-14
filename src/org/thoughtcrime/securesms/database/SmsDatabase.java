@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import com.annimon.stream.Stream;
@@ -30,20 +30,21 @@ import com.annimon.stream.Stream;
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteStatement;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.database.documents.IdentityKeyMismatchList;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.database.model.SmsMessageRecord;
-import org.raapp.messenger.jobmanager.JobManager;
-import org.raapp.messenger.jobs.TrimThreadJob;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.IncomingGroupMessage;
-import org.raapp.messenger.sms.IncomingTextMessage;
-import org.raapp.messenger.sms.OutgoingTextMessage;
-import org.raapp.messenger.util.JsonUtils;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchList;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.database.model.SmsMessageRecord;
+import org.thoughtcrime.securesms.jobmanager.JobManager;
+import org.thoughtcrime.securesms.jobs.TrimThreadJob;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.IncomingGroupMessage;
+import org.thoughtcrime.securesms.sms.IncomingTextMessage;
+import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
+import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;
@@ -541,7 +542,7 @@ public class SmsDatabase extends MessagingDatabase {
       groupRecipient = Recipient.from(context, message.getGroupId(), true);
     }
 
-    boolean    unread     = (org.raapp.messenger.util.Util.isDefaultSmsProvider(context) ||
+    boolean    unread     = (Util.isDefaultSmsProvider(context) ||
                             message.isSecureMessage() || message.isGroup() || message.isPreKeyBundle()) &&
                             !message.isIdentityUpdate() && !message.isIdentityDefault() && !message.isIdentityVerified();
 

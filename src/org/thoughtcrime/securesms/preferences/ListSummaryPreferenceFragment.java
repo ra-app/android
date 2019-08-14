@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 
 import android.support.v7.preference.ListPreference;

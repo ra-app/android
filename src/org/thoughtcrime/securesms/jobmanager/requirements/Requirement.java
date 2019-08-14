@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.jobmanager.requirements;
+package org.thoughtcrime.securesms.jobmanager.requirements;
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.Job;
 
 import java.io.Serializable;
 

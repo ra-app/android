@@ -1,10 +1,10 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.Context;
 import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.telephony.TelephonyManager;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.Locale;
 

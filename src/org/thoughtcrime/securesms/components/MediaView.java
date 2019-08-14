@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 
 import android.content.Context;
@@ -13,10 +13,10 @@ import android.view.Window;
 import android.widget.FrameLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.mms.VideoSlide;
-import org.raapp.messenger.util.views.Stub;
-import org.raapp.messenger.video.VideoPlayer;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.mms.VideoSlide;
+import org.thoughtcrime.securesms.util.views.Stub;
+import org.thoughtcrime.securesms.video.VideoPlayer;
 
 import java.io.IOException;
 

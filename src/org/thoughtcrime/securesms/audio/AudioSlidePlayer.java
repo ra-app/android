@@ -1,4 +1,4 @@
-package org.raapp.messenger.audio;
+package org.thoughtcrime.securesms.audio;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -19,11 +19,11 @@ import android.util.Pair;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.attachments.AttachmentServer;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.AudioSlide;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.attachments.AttachmentServer;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.AudioSlide;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

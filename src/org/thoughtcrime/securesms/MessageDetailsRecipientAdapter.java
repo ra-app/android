@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,10 +8,11 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.Conversions;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

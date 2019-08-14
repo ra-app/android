@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -25,8 +25,8 @@ import android.support.annotation.Nullable;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.util.Base64;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.util.Base64;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.util.guava.Optional;

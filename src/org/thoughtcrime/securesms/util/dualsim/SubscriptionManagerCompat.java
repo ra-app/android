@@ -1,4 +1,4 @@
-package org.raapp.messenger.util.dualsim;
+package org.thoughtcrime.securesms.util.dualsim;
 
 import android.content.Context;
 import android.os.Build;

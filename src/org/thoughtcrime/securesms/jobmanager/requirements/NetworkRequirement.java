@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.jobmanager.requirements;
+package org.thoughtcrime.securesms.jobmanager.requirements;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
+import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
 
 /**
  * A requirement that is satisfied when a network connection is present.

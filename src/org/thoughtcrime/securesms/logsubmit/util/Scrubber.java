@@ -15,9 +15,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger.logsubmit.util;
+package org.thoughtcrime.securesms.logsubmit.util;
 
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

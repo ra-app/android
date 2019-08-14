@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,10 +13,10 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.EmojiProvider.EmojiDrawable;
-import org.raapp.messenger.components.emoji.parsing.EmojiParser;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.components.emoji.EmojiProvider.EmojiDrawable;
+import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 
 
 public class EmojiTextView extends AppCompatTextView {

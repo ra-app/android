@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.Hex;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.Hex;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECPrivateKey;

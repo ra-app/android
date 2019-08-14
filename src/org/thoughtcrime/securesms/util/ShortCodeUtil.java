@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.support.annotation.NonNull;
 
@@ -7,7 +7,7 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 import com.google.i18n.phonenumbers.ShortNumberInfo;
 
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.HashSet;
 import java.util.Set;

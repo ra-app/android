@@ -1,13 +1,13 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.Base64;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.Base64;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 
 import java.io.IOException;

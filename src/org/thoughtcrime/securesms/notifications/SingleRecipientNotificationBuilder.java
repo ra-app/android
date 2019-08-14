@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -13,24 +13,24 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.Action;
 import android.support.v4.app.RemoteInput;
 import android.text.SpannableStringBuilder;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.contacts.avatars.ContactColors;
-import org.raapp.messenger.contacts.avatars.ContactPhoto;
-import org.raapp.messenger.contacts.avatars.FallbackContactPhoto;
-import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.raapp.messenger.mms.DecryptableStreamUriLoader;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
+import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto;
+import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.util.LinkedList;
 import java.util.List;

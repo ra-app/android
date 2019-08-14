@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -26,6 +26,8 @@ import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 
 import com.google.android.gms.common.GooglePlayServicesUtil;
+
+import org.raapp.messenger.R;
 
 public class PlayServicesProblemFragment extends DialogFragment {
 

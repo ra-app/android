@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.recyclerview;
+package org.thoughtcrime.securesms.components.recyclerview;
 
 
 import android.support.v7.widget.DefaultItemAnimator;

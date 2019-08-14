@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -34,7 +34,7 @@ import android.provider.OpenableColumns;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.Toast;
@@ -43,28 +43,28 @@ import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.ui.PlacePicker;
 
-import org.raapp.messenger.MediaPreviewActivity;
+import org.thoughtcrime.securesms.MediaPreviewActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.components.AudioView;
-import org.raapp.messenger.components.DocumentView;
-import org.raapp.messenger.components.RemovableEditableMediaView;
-import org.raapp.messenger.components.ThumbnailView;
-import org.raapp.messenger.components.location.SignalMapView;
-import org.raapp.messenger.components.location.SignalPlace;
-import org.raapp.messenger.giph.ui.GiphyActivity;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.providers.PersistentBlobProvider;
-import org.raapp.messenger.scribbles.ScribbleActivity;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.MediaUtil;
-import org.raapp.messenger.util.ThemeUtil;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.concurrent.AssertedSuccessListener;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.ListenableFuture.Listener;
-import org.raapp.messenger.util.concurrent.SettableFuture;
-import org.raapp.messenger.util.views.Stub;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.components.AudioView;
+import org.thoughtcrime.securesms.components.DocumentView;
+import org.thoughtcrime.securesms.components.RemovableEditableMediaView;
+import org.thoughtcrime.securesms.components.ThumbnailView;
+import org.thoughtcrime.securesms.components.location.SignalMapView;
+import org.thoughtcrime.securesms.components.location.SignalPlace;
+import org.thoughtcrime.securesms.giph.ui.GiphyActivity;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
+import org.thoughtcrime.securesms.scribbles.ScribbleActivity;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.util.views.Stub;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

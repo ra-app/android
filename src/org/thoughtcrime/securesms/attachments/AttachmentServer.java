@@ -1,14 +1,14 @@
-package org.raapp.messenger.attachments;
+package org.thoughtcrime.securesms.attachments;
 
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import org.spongycastle.util.encoders.Hex;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -37,14 +37,14 @@ public class AttachmentServer implements Runnable {
   private static final String TAG = AttachmentServer.class.getSimpleName();
 
   private final Context      context;
-  private final org.raapp.messenger.attachments.Attachment attachment;
+  private final Attachment attachment;
   private final ServerSocket socket;
   private final int          port;
   private final String       auth;
 
   private volatile boolean isRunning;
 
-  public AttachmentServer(Context context, org.raapp.messenger.attachments.Attachment attachment)
+  public AttachmentServer(Context context, Attachment attachment)
       throws IOException
   {
     try {

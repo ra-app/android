@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.content.Context;
 
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.regex.Matcher;

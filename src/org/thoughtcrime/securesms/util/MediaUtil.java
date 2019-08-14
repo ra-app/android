@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -9,25 +9,25 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 import android.webkit.MimeTypeMap;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.gif.GifDrawable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.mms.AudioSlide;
-import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.raapp.messenger.mms.DocumentSlide;
-import org.raapp.messenger.mms.GifSlide;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.ImageSlide;
-import org.raapp.messenger.mms.MmsSlide;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.mms.VideoSlide;
-import org.raapp.messenger.providers.PersistentBlobProvider;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.mms.AudioSlide;
+import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.mms.DocumentSlide;
+import org.thoughtcrime.securesms.mms.GifSlide;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.ImageSlide;
+import org.thoughtcrime.securesms.mms.MmsSlide;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.mms.VideoSlide;
+import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

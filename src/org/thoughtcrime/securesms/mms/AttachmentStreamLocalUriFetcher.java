@@ -1,7 +1,7 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;

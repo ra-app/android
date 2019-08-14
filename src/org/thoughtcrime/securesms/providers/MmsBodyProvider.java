@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.providers;
+package org.thoughtcrime.securesms.providers;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -24,7 +24,7 @@ import android.content.UriMatcher;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.io.File;
 import java.io.FileNotFoundException;

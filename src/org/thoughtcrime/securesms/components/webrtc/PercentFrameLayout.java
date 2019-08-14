@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package org.raapp.messenger.components.webrtc;
+package org.thoughtcrime.securesms.components.webrtc;
 
 import android.content.Context;
 import android.graphics.Bitmap;

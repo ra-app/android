@@ -38,7 +38,7 @@
             android:background="@color/white"
             tools:backgroundTint="@color/core_light_10">
 
-            <org.raapp.messenger.components.QuoteView
+            <org.thoughtcrime.securesms.components.QuoteView
                 android:id="@+id/quote_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 android:layout_marginLeft="@dimen/message_bubble_horizontal_padding"
                 android:layout_marginRight="@dimen/message_bubble_horizontal_padding" />
 
-            <org.raapp.messenger.components.emoji.EmojiTextView
+            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
                 android:id="@+id/conversation_item_body"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
 
-            <org.raapp.messenger.components.ConversationItemFooter
+            <org.thoughtcrime.securesms.components.ConversationItemFooter
                 android:id="@+id/conversation_item_footer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
 
         </LinearLayout>
 
-        <org.raapp.messenger.components.AlertView
+        <org.thoughtcrime.securesms.components.AlertView
             android:id="@+id/indicators_parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package org.raapp.messenger.giph.ui;
+package org.thoughtcrime.securesms.giph.ui;
 
 
 import android.content.Context;
@@ -20,8 +20,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.AnimatingToggle;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.components.AnimatingToggle;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class GiphyActivityToolbar extends Toolbar {
 

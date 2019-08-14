@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.jobmanager;
+package org.thoughtcrime.securesms.jobmanager;
 
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.jobmanager.persistence.PersistentStorage;
+import org.thoughtcrime.securesms.jobmanager.persistence.PersistentStorage;
 
 class JobConsumer extends Thread {
 

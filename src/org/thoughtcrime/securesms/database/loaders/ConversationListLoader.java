@@ -1,15 +1,15 @@
-package org.raapp.messenger.database.loaders;
+package org.thoughtcrime.securesms.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.database.MergeCursor;
 
-import org.raapp.messenger.contacts.ContactAccessor;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.util.AbstractCursorLoader;
+import org.thoughtcrime.securesms.contacts.ContactAccessor;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.util.AbstractCursorLoader;
 
 import java.util.LinkedList;
 import java.util.List;

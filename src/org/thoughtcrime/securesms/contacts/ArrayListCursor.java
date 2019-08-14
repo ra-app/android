@@ -1,4 +1,4 @@
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 /*
  * Copyright (C) 2006 The Android Open Source Project
  *

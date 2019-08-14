@@ -1,9 +1,9 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
 import org.raapp.messenger.service.KeyCachingService;
 
 public abstract class MasterSecretJob extends ContextJob {

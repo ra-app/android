@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -11,12 +11,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.attachments.UriAttachment;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.util.JsonUtils;
-import org.raapp.messenger.util.MediaUtil;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.UriAttachment;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.Collections;

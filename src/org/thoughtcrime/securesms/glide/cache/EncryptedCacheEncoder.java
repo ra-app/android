@@ -1,4 +1,4 @@
-package org.raapp.messenger.glide.cache;
+package org.thoughtcrime.securesms.glide.cache;
 
 
 import android.support.annotation.NonNull;
@@ -7,7 +7,7 @@ import com.bumptech.glide.load.Encoder;
 import com.bumptech.glide.load.Options;
 import com.bumptech.glide.load.engine.bitmap_recycle.ArrayPool;
 
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.io.File;
 import java.io.IOException;

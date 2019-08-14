@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.webrtc;
+package org.thoughtcrime.securesms.components.webrtc;
 
 
 import android.annotation.TargetApi;
@@ -17,10 +17,10 @@ import com.tomergoldst.tooltips.ToolTip;
 import com.tomergoldst.tooltips.ToolTipsManager;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.AccessibleToggleButton;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.webrtc.CameraState;
+import org.thoughtcrime.securesms.components.AccessibleToggleButton;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.webrtc.CameraState;
 
 public class WebRtcCallControls extends LinearLayout {
 

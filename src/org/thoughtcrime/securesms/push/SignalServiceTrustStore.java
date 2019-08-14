@@ -1,4 +1,4 @@
-package org.raapp.messenger.push;
+package org.thoughtcrime.securesms.push;
 
 import android.content.Context;
 

@@ -1,30 +1,30 @@
-package org.raapp.messenger.groups;
+package org.thoughtcrime.securesms.groups;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.google.protobuf.ByteString;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.database.MessagingDatabase.InsertResult;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.jobs.AvatarDownloadJob;
-import org.raapp.messenger.jobs.PushGroupUpdateJob;
-import org.raapp.messenger.mms.MmsException;
-import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.IncomingGroupMessage;
-import org.raapp.messenger.sms.IncomingTextMessage;
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.GroupUtil;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.MessagingDatabase.InsertResult;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.jobs.AvatarDownloadJob;
+import org.thoughtcrime.securesms.jobs.PushGroupUpdateJob;
+import org.thoughtcrime.securesms.mms.MmsException;
+import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.IncomingGroupMessage;
+import org.thoughtcrime.securesms.sms.IncomingTextMessage;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
 import org.whispersystems.signalservice.api.messages.SignalServiceDataMessage;
@@ -38,7 +38,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import static org.raapp.messenger.database.GroupDatabase.GroupRecord;
+import static org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.AttachmentPointer;
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

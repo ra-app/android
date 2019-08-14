@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,11 +18,11 @@ import android.widget.LinearLayout;
 import com.astuetz.PagerSlidingTabStrip;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.InputAwareLayout.InputView;
-import org.raapp.messenger.components.RepeatableImageKey;
-import org.raapp.messenger.components.RepeatableImageKey.KeyEventListener;
-import org.raapp.messenger.components.emoji.EmojiPageView.EmojiSelectionListener;
-import org.raapp.messenger.util.ResUtil;
+import org.thoughtcrime.securesms.components.InputAwareLayout.InputView;
+import org.thoughtcrime.securesms.components.RepeatableImageKey;
+import org.thoughtcrime.securesms.components.RepeatableImageKey.KeyEventListener;
+import org.thoughtcrime.securesms.components.emoji.EmojiPageView.EmojiSelectionListener;
+import org.thoughtcrime.securesms.util.ResUtil;
 
 import java.util.LinkedList;
 import java.util.List;

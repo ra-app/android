@@ -8,11 +8,11 @@
  * freely, as long as the origin is not misrepresented.
  */
 
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 import android.os.Build;
 import android.os.Process;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;

@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 
 import android.animation.Animator;
@@ -18,7 +18,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.animation.AnimationCompleteListener;
+import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
 
 public class SearchToolbar extends LinearLayout {
 

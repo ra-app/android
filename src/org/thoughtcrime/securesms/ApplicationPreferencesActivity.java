@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -34,18 +34,19 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.preference.Preference;
 
-import org.raapp.messenger.preferences.AdvancedPreferenceFragment;
-import org.raapp.messenger.preferences.AppProtectionPreferenceFragment;
-import org.raapp.messenger.preferences.AppearancePreferenceFragment;
-import org.raapp.messenger.preferences.ChatsPreferenceFragment;
-import org.raapp.messenger.preferences.CorrectedPreferenceFragment;
-import org.raapp.messenger.preferences.NotificationsPreferenceFragment;
-import org.raapp.messenger.preferences.SmsMmsPreferenceFragment;
-import org.raapp.messenger.preferences.widgets.ProfilePreference;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.preferences.AdvancedPreferenceFragment;
+import org.thoughtcrime.securesms.preferences.AppProtectionPreferenceFragment;
+import org.thoughtcrime.securesms.preferences.AppearancePreferenceFragment;
+import org.thoughtcrime.securesms.preferences.ChatsPreferenceFragment;
+import org.thoughtcrime.securesms.preferences.CorrectedPreferenceFragment;
+import org.thoughtcrime.securesms.preferences.NotificationsPreferenceFragment;
+import org.thoughtcrime.securesms.preferences.SmsMmsPreferenceFragment;
+import org.thoughtcrime.securesms.preferences.widgets.ProfilePreference;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 /**
  * The Activity for application preference display and management.

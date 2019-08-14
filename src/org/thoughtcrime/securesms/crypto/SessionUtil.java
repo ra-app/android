@@ -1,10 +1,10 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.crypto.storage.TextSecureSessionStore;
-import org.raapp.messenger.database.Address;
+import org.thoughtcrime.securesms.crypto.storage.TextSecureSessionStore;
+import org.thoughtcrime.securesms.database.Address;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 import org.whispersystems.libsignal.state.SessionRecord;
 import org.whispersystems.libsignal.state.SessionStore;

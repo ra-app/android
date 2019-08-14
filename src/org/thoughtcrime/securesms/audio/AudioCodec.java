@@ -1,4 +1,4 @@
-package org.raapp.messenger.audio;
+package org.thoughtcrime.securesms.audio;
 
 import android.annotation.TargetApi;
 import android.media.AudioFormat;
@@ -8,9 +8,9 @@ import android.media.MediaCodecInfo;
 import android.media.MediaFormat;
 import android.media.MediaRecorder;
 import android.os.Build;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;
 import java.io.OutputStream;

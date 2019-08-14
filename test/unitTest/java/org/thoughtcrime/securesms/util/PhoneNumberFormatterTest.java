@@ -1,9 +1,9 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import junit.framework.AssertionFailedError;
 
 import org.junit.Test;
-import org.raapp.messenger.BaseUnitTest;
+import org.thoughtcrime.securesms.BaseUnitTest;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 import org.whispersystems.signalservice.api.util.PhoneNumberFormatter;
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 
 import android.Manifest;
@@ -19,43 +19,43 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.telephony.TelephonyManager;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.greenrobot.eventbus.EventBus;
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.WebRtcCallActivity;
-import org.raapp.messenger.contacts.ContactAccessor;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.RecipientDatabase.VibrateState;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.events.WebRtcViewModel;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.FutureTaskListener;
-import org.raapp.messenger.util.ListenableFutureTask;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.webrtc.CallNotificationBuilder;
-import org.raapp.messenger.webrtc.CameraState;
-import org.raapp.messenger.webrtc.IncomingPstnCallReceiver;
-import org.raapp.messenger.webrtc.PeerConnectionFactoryOptions;
-import org.raapp.messenger.webrtc.PeerConnectionWrapper;
-import org.raapp.messenger.webrtc.PeerConnectionWrapper.PeerConnectionException;
-import org.raapp.messenger.webrtc.UncaughtExceptionHandlerManager;
-import org.raapp.messenger.webrtc.WebRtcDataProtos;
-import org.raapp.messenger.webrtc.WebRtcDataProtos.Connected;
-import org.raapp.messenger.webrtc.WebRtcDataProtos.Data;
-import org.raapp.messenger.webrtc.WebRtcDataProtos.Hangup;
-import org.raapp.messenger.webrtc.audio.BluetoothStateManager;
-import org.raapp.messenger.webrtc.audio.OutgoingRinger;
-import org.raapp.messenger.webrtc.audio.SignalAudioManager;
-import org.raapp.messenger.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.WebRtcCallActivity;
+import org.thoughtcrime.securesms.contacts.ContactAccessor;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.FutureTaskListener;
+import org.thoughtcrime.securesms.util.ListenableFutureTask;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.webrtc.CallNotificationBuilder;
+import org.thoughtcrime.securesms.webrtc.CameraState;
+import org.thoughtcrime.securesms.webrtc.IncomingPstnCallReceiver;
+import org.thoughtcrime.securesms.webrtc.PeerConnectionFactoryOptions;
+import org.thoughtcrime.securesms.webrtc.PeerConnectionWrapper;
+import org.thoughtcrime.securesms.webrtc.PeerConnectionWrapper.PeerConnectionException;
+import org.thoughtcrime.securesms.webrtc.UncaughtExceptionHandlerManager;
+import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos;
+import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos.Connected;
+import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos.Data;
+import org.thoughtcrime.securesms.webrtc.WebRtcDataProtos.Hangup;
+import org.thoughtcrime.securesms.webrtc.audio.BluetoothStateManager;
+import org.thoughtcrime.securesms.webrtc.audio.OutgoingRinger;
+import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
+import org.thoughtcrime.securesms.webrtc.locks.LockManager;
 import org.webrtc.AudioTrack;
 import org.webrtc.DataChannel;
 import org.webrtc.DefaultVideoDecoderFactory;
@@ -103,10 +103,10 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
-import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
-import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
-import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
+import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 public class WebRtcCallService extends Service implements InjectableType,
                                                           PeerConnection.Observer,

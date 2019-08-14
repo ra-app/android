@@ -1,9 +1,9 @@
-package org.raapp.messenger.dependencies;
+package org.thoughtcrime.securesms.dependencies;
 
 import android.content.Context;
 
-import org.raapp.messenger.crypto.storage.SignalProtocolStoreImpl;
-import org.raapp.messenger.jobs.CleanPreKeysJob;
+import org.thoughtcrime.securesms.crypto.storage.SignalProtocolStoreImpl;
+import org.thoughtcrime.securesms.jobs.CleanPreKeysJob;
 import org.whispersystems.libsignal.state.SignedPreKeyStore;
 
 import dagger.Module;

@@ -1,13 +1,13 @@
-package org.raapp.messenger.push;
+package org.thoughtcrime.securesms.push;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.google.android.gms.security.ProviderInstaller;
 
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 public class AccountManagerFactory {

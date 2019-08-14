@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.webrtc;
+package org.thoughtcrime.securesms.components.webrtc;
 
 
 import android.animation.Animator;
@@ -21,7 +21,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class WebRtcAnswerDeclineButton extends LinearLayout implements View.OnTouchListener {
 

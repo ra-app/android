@@ -1,4 +1,4 @@
-package org.raapp.messenger.sms;
+package org.thoughtcrime.securesms.sms;
 
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

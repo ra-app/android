@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,9 +22,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.MenuItem;
 
-import org.raapp.messenger.PassphraseRequiredActionBarActivity;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
+import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 
 public class MmsPreferencesActivity extends PassphraseRequiredActionBarActivity {
 

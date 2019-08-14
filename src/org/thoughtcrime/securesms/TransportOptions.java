@@ -1,23 +1,24 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.Manifest;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.util.CharacterCalculator;
-import org.raapp.messenger.util.MmsCharacterCalculator;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.util.PushCharacterCalculator;
-import org.raapp.messenger.util.SmsCharacterCalculator;
-import org.raapp.messenger.util.dualsim.SubscriptionInfoCompat;
-import org.raapp.messenger.util.dualsim.SubscriptionManagerCompat;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.util.CharacterCalculator;
+import org.thoughtcrime.securesms.util.MmsCharacterCalculator;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.util.PushCharacterCalculator;
+import org.thoughtcrime.securesms.util.SmsCharacterCalculator;
+import org.thoughtcrime.securesms.util.dualsim.SubscriptionInfoCompat;
+import org.thoughtcrime.securesms.util.dualsim.SubscriptionManagerCompat;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.raapp.messenger.TransportOption.Type;
+import static org.thoughtcrime.securesms.TransportOption.Type;
 
 public class TransportOptions {
 

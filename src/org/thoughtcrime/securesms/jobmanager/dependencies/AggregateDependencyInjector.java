@@ -1,9 +1,9 @@
-package org.raapp.messenger.jobmanager.dependencies;
+package org.thoughtcrime.securesms.jobmanager.dependencies;
 
 import android.content.Context;
 
-import org.raapp.messenger.jobmanager.Job;
-import org.raapp.messenger.jobmanager.requirements.Requirement;
+import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.requirements.Requirement;
 
 public class AggregateDependencyInjector {
 

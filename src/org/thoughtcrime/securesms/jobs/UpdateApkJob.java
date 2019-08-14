@@ -1,4 +1,4 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 
 import android.app.DownloadManager;
@@ -10,18 +10,18 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.Nullable;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
-import org.raapp.messenger.service.UpdateApkReadyListener;
-import org.raapp.messenger.util.FileUtils;
-import org.raapp.messenger.util.Hex;
-import org.raapp.messenger.util.JsonUtils;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
+import org.thoughtcrime.securesms.service.UpdateApkReadyListener;
+import org.thoughtcrime.securesms.util.FileUtils;
+import org.thoughtcrime.securesms.util.Hex;
+import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.FileInputStream;
 import java.io.IOException;

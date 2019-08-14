@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -17,9 +17,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.raapp.messenger.database.SmsMigrator.ProgressDescription;
-import org.raapp.messenger.service.ApplicationMigrationService;
-import org.raapp.messenger.service.ApplicationMigrationService.ImportState;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.SmsMigrator.ProgressDescription;
+import org.thoughtcrime.securesms.service.ApplicationMigrationService;
+import org.thoughtcrime.securesms.service.ApplicationMigrationService.ImportState;
 
 public class DatabaseMigrationActivity extends PassphraseRequiredActionBarActivity {
 

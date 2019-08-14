@@ -1,23 +1,23 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 
 import android.Manifest;
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.backup.FullBackupExporter;
-import org.raapp.messenger.crypto.AttachmentSecretProvider;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.NoExternalStorageException;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.service.GenericForegroundService;
-import org.raapp.messenger.util.BackupUtil;
-import org.raapp.messenger.util.StorageUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.backup.FullBackupExporter;
+import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.service.GenericForegroundService;
+import org.thoughtcrime.securesms.util.BackupUtil;
+import org.thoughtcrime.securesms.util.StorageUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.IOException;

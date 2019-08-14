@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.providers;
+package org.thoughtcrime.securesms.providers;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -27,15 +27,15 @@ import android.os.MemoryFile;
 import android.os.ParcelFileDescriptor;
 import android.provider.OpenableColumns;
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.mms.PartUriParser;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.mms.PartUriParser;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.util.MemoryFileUtil;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.MemoryFileUtil;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

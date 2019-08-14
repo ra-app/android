@@ -1,4 +1,4 @@
-package org.raapp.messenger.database.helpers;
+package org.thoughtcrime.securesms.database.helpers;
 
 
 import android.content.ContentValues;
@@ -9,34 +9,34 @@ import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.logging.Log;
 
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteDatabaseHook;
 import net.sqlcipher.database.SQLiteOpenHelper;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.crypto.DatabaseSecret;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DraftDatabase;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.database.GroupReceiptDatabase;
-import org.raapp.messenger.database.IdentityDatabase;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.OneTimePreKeyDatabase;
-import org.raapp.messenger.database.PushDatabase;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.SearchDatabase;
-import org.raapp.messenger.database.SessionDatabase;
-import org.raapp.messenger.database.SignedPreKeyDatabase;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.jobs.RefreshPreKeysJob;
-import org.raapp.messenger.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.crypto.DatabaseSecret;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DraftDatabase;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.GroupReceiptDatabase;
+import org.thoughtcrime.securesms.database.IdentityDatabase;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.OneTimePreKeyDatabase;
+import org.thoughtcrime.securesms.database.PushDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.SearchDatabase;
+import org.thoughtcrime.securesms.database.SessionDatabase;
+import org.thoughtcrime.securesms.database.SignedPreKeyDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.jobs.RefreshPreKeysJob;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.File;
 

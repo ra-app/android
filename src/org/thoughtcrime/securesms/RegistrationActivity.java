@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -25,7 +25,9 @@ import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -57,41 +59,41 @@ import net.sqlcipher.database.SQLiteDatabase;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.raapp.messenger.animation.AnimationCompleteListener;
-import org.raapp.messenger.backup.FullBackupBase;
-import org.raapp.messenger.backup.FullBackupImporter;
-import org.raapp.messenger.components.registration.CallMeCountDownView;
-import org.raapp.messenger.components.registration.VerificationCodeView;
-import org.raapp.messenger.components.registration.VerificationPinKeyboard;
-import org.raapp.messenger.crypto.AttachmentSecretProvider;
-import org.raapp.messenger.crypto.IdentityKeyUtil;
-import org.raapp.messenger.crypto.PreKeyUtil;
-import org.raapp.messenger.crypto.SessionUtil;
-//import org.raapp.messenger.crypto.UnidentifiedAccessUtil;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.IdentityDatabase;
-import org.raapp.messenger.database.NoExternalStorageException;
-import org.raapp.messenger.jobs.DirectoryRefreshJob;
-import org.raapp.messenger.jobs.GcmRefreshJob;
-//import org.raapp.messenger.jobs.RotateCertificateJob;
-import org.raapp.messenger.lock.RegistrationLockReminders;
-//import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.push.AccountManagerFactory;
-import org.raapp.messenger.service.DirectoryRefreshListener;
-import org.raapp.messenger.service.RotateSignedPreKeyListener;
-import org.raapp.messenger.service.VerificationCodeParser;
-import org.raapp.messenger.util.BackupUtil;
-import org.raapp.messenger.util.DateUtils;
-import org.raapp.messenger.util.Dialogs;
-import org.raapp.messenger.util.PlayServicesUtil;
-import org.raapp.messenger.util.PlayServicesUtil.PlayServicesStatus;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.concurrent.AssertedSuccessListener;
+import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
+import org.thoughtcrime.securesms.backup.FullBackupBase;
+import org.thoughtcrime.securesms.backup.FullBackupImporter;
+import org.thoughtcrime.securesms.components.registration.CallMeCountDownView;
+import org.thoughtcrime.securesms.components.registration.VerificationCodeView;
+import org.thoughtcrime.securesms.components.registration.VerificationPinKeyboard;
+import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
+import org.thoughtcrime.securesms.crypto.PreKeyUtil;
+import org.thoughtcrime.securesms.crypto.SessionUtil;
+//import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.IdentityDatabase;
+import org.thoughtcrime.securesms.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.jobs.GcmRefreshJob;
+//import org.thoughtcrime.securesms.jobs.RotateCertificateJob;
+import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
+//import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.push.AccountManagerFactory;
+import org.thoughtcrime.securesms.service.DirectoryRefreshListener;
+import org.thoughtcrime.securesms.service.RotateSignedPreKeyListener;
+import org.thoughtcrime.securesms.service.VerificationCodeParser;
+import org.thoughtcrime.securesms.util.BackupUtil;
+import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.util.Dialogs;
+import org.thoughtcrime.securesms.util.PlayServicesUtil;
+import org.thoughtcrime.securesms.util.PlayServicesUtil.PlayServicesStatus;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
 import org.whispersystems.libsignal.IdentityKeyPair;
 import org.whispersystems.libsignal.state.PreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;
@@ -116,7 +118,7 @@ import java.util.concurrent.TimeUnit;
  * @author Moxie Marlinspike
  *
  */
-public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActivity implements VerificationCodeView.OnCodeEnteredListener {
+public class RegistrationActivity extends BaseActionBarActivity implements VerificationCodeView.OnCodeEnteredListener {
 
   private static final int    PICK_COUNTRY              = 1;
   private static final int    SCENE_TRANSITION_DURATION = 250;
@@ -271,7 +273,7 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
     });
     this.countrySpinner.setOnKeyListener((v, keyCode, event) -> {
       if (keyCode == KeyEvent.KEYCODE_DPAD_CENTER && event.getAction() == KeyEvent.ACTION_UP) {
-        Intent intent = new Intent(RegistrationActivity.this, org.raapp.messenger.CountrySelectionActivity.class);
+        Intent intent = new Intent(RegistrationActivity.this, CountrySelectionActivity.class);
         startActivityForResult(intent, PICK_COUNTRY);
         return true;
       }
@@ -731,7 +733,7 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
   }
 
   private void handleSuccessfulRegistration() {
-    org.raapp.messenger.ApplicationContext.getInstance(RegistrationActivity.this).getJobManager().add(new DirectoryRefreshJob(RegistrationActivity.this, false));
+    ApplicationContext.getInstance(RegistrationActivity.this).getJobManager().add(new DirectoryRefreshJob(RegistrationActivity.this, false));
 
     DirectoryRefreshListener.schedule(RegistrationActivity.this);
     RotateSignedPreKeyListener.schedule(RegistrationActivity.this);
@@ -739,7 +741,7 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
     Intent nextIntent = getIntent().getParcelableExtra("next_intent");
 
     if (nextIntent == null) {
-      nextIntent = new Intent(RegistrationActivity.this, org.raapp.messenger.ConversationListActivity.class);
+      nextIntent = new Intent(RegistrationActivity.this, ConversationListActivity.class);
     }
 
     startActivity(nextIntent);
@@ -986,7 +988,7 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
     Intent nextIntent = getIntent().getParcelableExtra("next_intent");
 
     if (nextIntent == null) {
-      nextIntent = new Intent(RegistrationActivity.this, org.raapp.messenger.ConversationListActivity.class);
+      nextIntent = new Intent(RegistrationActivity.this, ConversationListActivity.class);
     }
 
     startActivity(nextIntent);

@@ -1,15 +1,17 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import org.raapp.messenger.logsubmit.SubmitLogFragment;
-import org.raapp.messenger.util.DynamicTheme;
+import org.thoughtcrime.securesms.logsubmit.SubmitLogFragment;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 
 /**
  * Activity for submitting logcat logs to a pastebin service.

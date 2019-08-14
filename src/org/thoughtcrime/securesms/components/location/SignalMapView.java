@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.location;
+package org.thoughtcrime.securesms.components.location;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -20,9 +20,9 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 
 public class SignalMapView extends LinearLayout {
 

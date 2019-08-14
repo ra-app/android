@@ -1,11 +1,11 @@
-package org.raapp.messenger.database.model;
+package org.thoughtcrime.securesms.database.model;
 
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.mms.SlideDeck;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.mms.SlideDeck;
 
 public class Quote {
 

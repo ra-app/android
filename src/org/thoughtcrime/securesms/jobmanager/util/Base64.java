@@ -1,4 +1,4 @@
-package org.raapp.messenger.jobmanager.util;
+package org.thoughtcrime.securesms.jobmanager.util;
 
 /*
  * Copyright (C) 2010 The Android Open Source Project

@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji.parsing;
+package org.thoughtcrime.securesms.components.emoji.parsing;
 
 
 public enum Fitzpatrick {

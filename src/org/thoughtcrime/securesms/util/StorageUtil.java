@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,7 +8,7 @@ import android.support.annotation.Nullable;
 import com.annimon.stream.Objects;
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.database.NoExternalStorageException;
 
 import java.io.File;
 

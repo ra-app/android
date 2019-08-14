@@ -1,13 +1,13 @@
-package org.raapp.messenger.jobs.requirements;
+package org.thoughtcrime.securesms.jobs.requirements;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
-import org.raapp.messenger.jobmanager.requirements.Requirement;
-import org.raapp.messenger.jobmanager.requirements.SimpleRequirement;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
+import org.thoughtcrime.securesms.jobmanager.requirements.Requirement;
+import org.thoughtcrime.securesms.jobmanager.requirements.SimpleRequirement;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class SqlCipherMigrationRequirement extends SimpleRequirement implements ContextDependent {
 

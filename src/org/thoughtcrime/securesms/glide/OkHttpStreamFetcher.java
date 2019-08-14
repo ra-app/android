@@ -1,4 +1,4 @@
-package org.raapp.messenger.glide;
+package org.thoughtcrime.securesms.glide;
 
 import android.support.annotation.NonNull;
 

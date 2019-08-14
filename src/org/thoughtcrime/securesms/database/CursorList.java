@@ -1,4 +1,4 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.database.ContentObserver;
 import android.database.Cursor;

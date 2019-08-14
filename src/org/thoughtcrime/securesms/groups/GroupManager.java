@@ -1,4 +1,4 @@
-package org.raapp.messenger.groups;
+package org.thoughtcrime.securesms.groups;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,21 +8,21 @@ import android.support.annotation.Nullable;
 
 import com.google.protobuf.ByteString;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.UriAttachment;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
-import org.raapp.messenger.providers.SingleUseBlobProvider;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.MessageSender;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.GroupUtil;
-import org.raapp.messenger.util.MediaUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.UriAttachment;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
+import org.thoughtcrime.securesms.providers.SingleUseBlobProvider;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.GroupUtil;
+import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

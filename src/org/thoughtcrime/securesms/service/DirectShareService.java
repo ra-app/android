@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 
 import android.content.ComponentName;
@@ -14,14 +14,14 @@ import android.service.chooser.ChooserTargetService;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 
-import org.raapp.messenger.ShareActivity;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.BitmapUtil;
+import org.thoughtcrime.securesms.ShareActivity;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.BitmapUtil;
 
 import java.util.LinkedList;
 import java.util.List;

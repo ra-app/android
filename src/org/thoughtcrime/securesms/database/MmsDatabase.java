@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -23,7 +23,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import com.annimon.stream.Stream;
@@ -35,36 +35,36 @@ import net.sqlcipher.database.SQLiteDatabase;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.attachments.MmsNotificationAttachment;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.database.documents.IdentityKeyMismatchList;
-import org.raapp.messenger.database.documents.NetworkFailure;
-import org.raapp.messenger.database.documents.NetworkFailureList;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.database.model.MediaMmsMessageRecord;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.database.model.NotificationMmsMessageRecord;
-import org.raapp.messenger.database.model.Quote;
-import org.raapp.messenger.jobmanager.JobManager;
-import org.raapp.messenger.jobs.TrimThreadJob;
-import org.raapp.messenger.mms.IncomingMediaMessage;
-import org.raapp.messenger.mms.MmsException;
-import org.raapp.messenger.mms.OutgoingExpirationUpdateMessage;
-import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
-import org.raapp.messenger.mms.OutgoingMediaMessage;
-import org.raapp.messenger.mms.OutgoingSecureMediaMessage;
-import org.raapp.messenger.mms.QuoteModel;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientFormattingException;
-import org.raapp.messenger.util.JsonUtils;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.attachments.MmsNotificationAttachment;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchList;
+import org.thoughtcrime.securesms.database.documents.NetworkFailure;
+import org.thoughtcrime.securesms.database.documents.NetworkFailureList;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.database.model.NotificationMmsMessageRecord;
+import org.thoughtcrime.securesms.database.model.Quote;
+import org.thoughtcrime.securesms.jobmanager.JobManager;
+import org.thoughtcrime.securesms.jobs.TrimThreadJob;
+import org.thoughtcrime.securesms.mms.IncomingMediaMessage;
+import org.thoughtcrime.securesms.mms.MmsException;
+import org.thoughtcrime.securesms.mms.OutgoingExpirationUpdateMessage;
+import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
+import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
+import org.thoughtcrime.securesms.mms.OutgoingSecureMediaMessage;
+import org.thoughtcrime.securesms.mms.QuoteModel;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientFormattingException;
+import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.Closeable;
@@ -79,8 +79,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static org.raapp.messenger.contactshare.Contact.Avatar;
-import static org.raapp.messenger.contactshare.Contact.deserialize;
+import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
+import static org.thoughtcrime.securesms.contactshare.Contact.deserialize;
 
 public class MmsDatabase extends MessagingDatabase {
 
@@ -836,7 +836,7 @@ public class MmsDatabase extends MessagingDatabase {
     notifyConversationListeners(threadId);
     DatabaseFactory.getThreadDatabase(context).update(threadId, true);
 
-    if (org.raapp.messenger.util.Util.isDefaultSmsProvider(context)) {
+    if (Util.isDefaultSmsProvider(context)) {
       DatabaseFactory.getThreadDatabase(context).incrementUnread(threadId, 1);
     }
 
@@ -1237,10 +1237,10 @@ public class MmsDatabase extends MessagingDatabase {
       byte[]transactionIdBytes   = null;
 
       if (!TextUtils.isEmpty(contentLocation))
-        contentLocationBytes = org.raapp.messenger.util.Util.toIsoBytes(contentLocation);
+        contentLocationBytes = Util.toIsoBytes(contentLocation);
 
       if (!TextUtils.isEmpty(transactionId))
-        transactionIdBytes = org.raapp.messenger.util.Util.toIsoBytes(transactionId);
+        transactionIdBytes = Util.toIsoBytes(transactionId);
 
       SlideDeck slideDeck = new SlideDeck(context, new MmsNotificationAttachment(status, messageSize));
 

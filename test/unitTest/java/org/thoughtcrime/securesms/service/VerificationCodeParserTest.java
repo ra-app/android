@@ -1,8 +1,8 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.raapp.messenger.BaseUnitTest;
+import org.thoughtcrime.securesms.BaseUnitTest;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

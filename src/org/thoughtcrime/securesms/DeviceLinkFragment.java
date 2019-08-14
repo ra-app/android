@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+
+import org.raapp.messenger.R;
 
 public class DeviceLinkFragment extends Fragment implements View.OnClickListener {
 

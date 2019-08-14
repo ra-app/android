@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.reminder;
+package org.thoughtcrime.securesms.components.reminder;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 public class InviteReminder extends Reminder {
 

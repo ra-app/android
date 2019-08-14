@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
@@ -11,10 +11,10 @@ import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.NoExternalStorageException;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.thoughtcrime.securesms.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.io.File;

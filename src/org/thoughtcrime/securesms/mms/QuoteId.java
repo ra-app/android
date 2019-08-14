@@ -1,13 +1,13 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.logging.Log;
 
 /**
  * Represents the information required to find the {@link MessageRecord} pointed to by a quote.

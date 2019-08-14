@@ -1,6 +1,6 @@
-package org.raapp.messenger.webrtc;
+package org.thoughtcrime.securesms.webrtc;
 
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.ArrayList;
 import java.util.List;

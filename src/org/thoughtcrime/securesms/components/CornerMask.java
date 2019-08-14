@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

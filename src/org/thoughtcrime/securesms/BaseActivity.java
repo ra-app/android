@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.os.Build;
 import android.os.Build.VERSION;

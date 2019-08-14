@@ -1,8 +1,8 @@
-package org.raapp.messenger.webrtc.locks;
+package org.thoughtcrime.securesms.webrtc.locks;
 
 import android.os.Build;
 import android.os.PowerManager;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import org.whispersystems.libsignal.util.guava.Optional;
 

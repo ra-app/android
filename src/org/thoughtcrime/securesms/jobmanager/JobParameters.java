@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.jobmanager;
+package org.thoughtcrime.securesms.jobmanager;
 
-import org.raapp.messenger.jobmanager.requirements.Requirement;
+import org.thoughtcrime.securesms.jobmanager.requirements.Requirement;
 
 import java.io.Serializable;
 import java.util.LinkedList;

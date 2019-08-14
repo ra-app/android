@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.registration;
+package org.thoughtcrime.securesms.components.registration;
 
 
 import android.content.Context;
@@ -25,7 +25,7 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.util.ArrayList;
 import java.util.List;

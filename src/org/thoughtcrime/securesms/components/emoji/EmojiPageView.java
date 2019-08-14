@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import android.content.Context;
 import android.util.AttributeSet;

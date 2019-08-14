@@ -1,11 +1,11 @@
-package org.raapp.messenger.giph.net;
+package org.thoughtcrime.securesms.giph.net;
 
 
 import android.os.AsyncTask;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

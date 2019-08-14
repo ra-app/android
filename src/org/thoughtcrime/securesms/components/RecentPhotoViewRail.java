@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 
 import android.content.Context;
@@ -25,10 +25,10 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.signature.MediaStoreSignature;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.CursorRecyclerViewAdapter;
-import org.raapp.messenger.database.loaders.RecentPhotosLoader;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
+import org.thoughtcrime.securesms.database.loaders.RecentPhotosLoader;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class RecentPhotoViewRail extends FrameLayout implements LoaderManager.LoaderCallbacks<Cursor> {
 

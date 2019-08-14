@@ -1,8 +1,8 @@
-package org.raapp.messenger.search.model;
+package org.thoughtcrime.securesms.search.model;
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 /**
  * Represents a search result for a message.

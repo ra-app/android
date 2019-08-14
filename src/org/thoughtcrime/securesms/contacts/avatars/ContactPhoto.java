@@ -1,4 +1,4 @@
-package org.raapp.messenger.contacts.avatars;
+package org.thoughtcrime.securesms.contacts.avatars;
 
 
 import android.content.Context;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -39,7 +39,9 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.OnScrollListener;
 import android.text.ClipboardManager;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -53,32 +55,32 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
-import org.raapp.messenger.ConversationAdapter.HeaderViewHolder;
-import org.raapp.messenger.ConversationAdapter.ItemClickListener;
-import org.raapp.messenger.contactshare.ContactUtil;
-import org.raapp.messenger.contactshare.SharedContactDetailsActivity;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MmsSmsDatabase;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.loaders.ConversationLoader;
-import org.raapp.messenger.database.model.MediaMmsMessageRecord;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.database.model.MmsMessageRecord;
-import org.raapp.messenger.jobs.DirectoryRefreshJob;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.OutgoingMediaMessage;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.profiles.UnknownSenderView;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.MessageSender;
-import org.raapp.messenger.sms.OutgoingTextMessage;
-import org.raapp.messenger.util.CommunicationActions;
-import org.raapp.messenger.util.SaveAttachmentTask;
-import org.raapp.messenger.util.SaveAttachmentTask.Attachment;
-import org.raapp.messenger.util.StickyHeaderDecoration;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.thoughtcrime.securesms.ConversationAdapter.HeaderViewHolder;
+import org.thoughtcrime.securesms.ConversationAdapter.ItemClickListener;
+import org.thoughtcrime.securesms.contactshare.ContactUtil;
+import org.thoughtcrime.securesms.contactshare.SharedContactDetailsActivity;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MmsSmsDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.loaders.ConversationLoader;
+import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.profiles.UnknownSenderView;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
+import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.thoughtcrime.securesms.util.SaveAttachmentTask;
+import org.thoughtcrime.securesms.util.SaveAttachmentTask.Attachment;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collections;
 import java.util.Comparator;

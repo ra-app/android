@@ -1,4 +1,4 @@
-package org.raapp.messenger.video.exo;
+package org.thoughtcrime.securesms.video.exo;
 
 
 import android.net.Uri;
@@ -7,7 +7,7 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
 
-import org.raapp.messenger.mms.PartAuthority;
+import org.thoughtcrime.securesms.mms.PartAuthority;
 
 import java.io.IOException;
 

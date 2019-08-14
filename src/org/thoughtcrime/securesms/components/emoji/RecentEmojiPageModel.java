@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,8 +10,8 @@ import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.JsonUtils;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.Iterator;

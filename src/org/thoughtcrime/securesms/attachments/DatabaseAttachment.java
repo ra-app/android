@@ -1,9 +1,9 @@
-package org.raapp.messenger.attachments;
+package org.thoughtcrime.securesms.attachments;
 
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.mms.PartAuthority;
+import org.thoughtcrime.securesms.mms.PartAuthority;
 
 public class DatabaseAttachment extends Attachment {
 

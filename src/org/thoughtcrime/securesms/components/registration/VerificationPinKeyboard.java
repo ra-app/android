@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.registration;
+package org.thoughtcrime.securesms.components.registration;
 
 
 import android.content.Context;
@@ -20,9 +20,9 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 
 public class VerificationPinKeyboard extends FrameLayout {
 

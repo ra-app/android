@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.CustomDefaultPreference;
-import org.raapp.messenger.database.ApnDatabase;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.LegacyMmsConnection;
-import org.raapp.messenger.util.TelephonyUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.components.CustomDefaultPreference;
+import org.thoughtcrime.securesms.database.ApnDatabase;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.LegacyMmsConnection;
+import org.thoughtcrime.securesms.util.TelephonyUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.IOException;
 

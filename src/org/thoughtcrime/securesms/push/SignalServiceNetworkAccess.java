@@ -1,11 +1,11 @@
-package org.raapp.messenger.push;
+package org.thoughtcrime.securesms.push;
 
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.push.TrustStore;
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl;
 import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;

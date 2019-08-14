@@ -1,4 +1,4 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,12 +7,12 @@ import android.text.TextUtils;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.raapp.messenger.database.documents.Document;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.database.documents.IdentityKeyMismatchList;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.JsonUtils;
+import org.thoughtcrime.securesms.database.documents.Document;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchList;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.JsonUtils;
 import org.whispersystems.libsignal.IdentityKey;
 
 import java.io.IOException;

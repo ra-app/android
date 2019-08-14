@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.ConversationActivity;
-import org.raapp.messenger.ConversationPopupActivity;
-import org.raapp.messenger.database.RecipientDatabase.VibrateState;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.ConversationActivity;
+import org.thoughtcrime.securesms.ConversationPopupActivity;
+import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.LinkedHashSet;
 import java.util.LinkedList;

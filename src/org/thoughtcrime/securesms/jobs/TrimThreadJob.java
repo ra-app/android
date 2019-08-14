@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.jobmanager.Job;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class TrimThreadJob extends Job {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -14,8 +14,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.WindowManager;
 
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.lang.reflect.Field;
 

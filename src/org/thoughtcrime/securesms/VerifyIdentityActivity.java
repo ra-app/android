@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.Manifest;
 import android.animation.TypeEvaluator;
@@ -43,7 +43,9 @@ import android.support.v7.widget.SwitchCompat;
 import android.text.Html;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
@@ -61,26 +63,26 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.raapp.messenger.color.MaterialColor;
-import org.raapp.messenger.components.camera.CameraView;
-import org.raapp.messenger.crypto.IdentityKeyParcelable;
-import org.raapp.messenger.crypto.IdentityKeyUtil;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.IdentityDatabase.VerifiedStatus;
-import org.raapp.messenger.jobs.MultiDeviceVerifiedUpdateJob;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.qr.QrCode;
-import org.raapp.messenger.qr.ScanListener;
-import org.raapp.messenger.qr.ScanningThread;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.IdentityUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.components.camera.CameraView;
+import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
+import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.IdentityDatabase.VerifiedStatus;
+import org.thoughtcrime.securesms.jobs.MultiDeviceVerifiedUpdateJob;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.qr.QrCode;
+import org.thoughtcrime.securesms.qr.ScanListener;
+import org.thoughtcrime.securesms.qr.ScanningThread;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.IdentityUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.fingerprint.Fingerprint;
 import org.whispersystems.libsignal.fingerprint.FingerprintParsingException;

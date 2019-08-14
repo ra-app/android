@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.registration;
+package org.thoughtcrime.securesms.components.registration;
 
 
 import android.content.Context;

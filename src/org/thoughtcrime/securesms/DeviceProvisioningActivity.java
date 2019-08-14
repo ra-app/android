@@ -1,9 +1,11 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.view.Window;
+
+import org.raapp.messenger.R;
 
 public class DeviceProvisioningActivity extends PassphraseRequiredActionBarActivity {
 

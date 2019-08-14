@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences.widgets;
+package org.thoughtcrime.securesms.preferences.widgets;
 
 
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class SignalListPreference extends ListPreference {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.scribbles.widget;
+package org.thoughtcrime.securesms.scribbles.widget;
 
 import android.graphics.PorterDuff;
 import android.support.annotation.NonNull;

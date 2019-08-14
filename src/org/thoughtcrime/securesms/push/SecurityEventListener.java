@@ -1,8 +1,8 @@
-package org.raapp.messenger.push;
+package org.thoughtcrime.securesms.push;
 
 import android.content.Context;
 
-import org.raapp.messenger.crypto.SecurityEvent;
+import org.thoughtcrime.securesms.crypto.SecurityEvent;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

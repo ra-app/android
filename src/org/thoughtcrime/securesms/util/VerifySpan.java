@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,10 +6,10 @@ import android.support.annotation.NonNull;
 import android.text.style.ClickableSpan;
 import android.view.View;
 
-import org.raapp.messenger.VerifyIdentityActivity;
-import org.raapp.messenger.crypto.IdentityKeyParcelable;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.VerifyIdentityActivity;
+import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
 import org.whispersystems.libsignal.IdentityKey;
 
 public class VerifySpan extends ClickableSpan {

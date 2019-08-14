@@ -1,4 +1,4 @@
-package org.raapp.messenger.util.views;
+package org.thoughtcrime.securesms.util.views;
 
 
 import android.support.annotation.NonNull;

@@ -1,11 +1,11 @@
-package org.raapp.messenger.giph.model;
+package org.thoughtcrime.securesms.giph.model;
 
 
 import android.support.annotation.NonNull;
 
 import com.bumptech.glide.load.Key;
 
-import org.raapp.messenger.util.Conversions;
+import org.thoughtcrime.securesms.util.Conversions;
 
 import java.security.MessageDigest;
 

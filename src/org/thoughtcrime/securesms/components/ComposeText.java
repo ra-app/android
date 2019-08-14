@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -19,14 +19,14 @@ import android.text.TextUtils;
 import android.text.TextUtils.TruncateAt;
 import android.text.style.RelativeSizeSpan;
 import android.util.AttributeSet;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.TransportOption;
-import org.raapp.messenger.components.emoji.EmojiEditText;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.TransportOption;
+import org.thoughtcrime.securesms.components.emoji.EmojiEditText;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class ComposeText extends EmojiEditText {
 

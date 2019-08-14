@@ -1,9 +1,9 @@
-package org.raapp.messenger.events;
+package org.thoughtcrime.securesms.events;
 
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.Attachment;
 
 public class PartProgressEvent {
 

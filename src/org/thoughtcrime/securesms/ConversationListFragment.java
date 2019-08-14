@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -56,32 +56,33 @@ import android.widget.TextView;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.raapp.messenger.ConversationListAdapter.ItemClickListener;
-import org.raapp.messenger.components.recyclerview.DeleteItemAnimator;
-import org.raapp.messenger.components.registration.PulsingFloatingActionButton;
-import org.raapp.messenger.components.reminder.DefaultSmsReminder;
-import org.raapp.messenger.components.reminder.DozeReminder;
-import org.raapp.messenger.components.reminder.ExpiredBuildReminder;
-import org.raapp.messenger.components.reminder.OutdatedBuildReminder;
-import org.raapp.messenger.components.reminder.PushRegistrationReminder;
-import org.raapp.messenger.components.reminder.Reminder;
-import org.raapp.messenger.components.reminder.ReminderView;
-import org.raapp.messenger.components.reminder.ServiceOutageReminder;
-import org.raapp.messenger.components.reminder.ShareReminder;
-import org.raapp.messenger.components.reminder.SystemSmsImportReminder;
-import org.raapp.messenger.components.reminder.UnauthorizedReminder;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.raapp.messenger.database.loaders.ConversationListLoader;
-import org.raapp.messenger.events.ReminderUpdateEvent;
-import org.raapp.messenger.jobs.ServiceOutageDetectionJob;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.notifications.MarkReadReceiver;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.task.SnackbarAsyncTask;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.ConversationListAdapter.ItemClickListener;
+import org.thoughtcrime.securesms.components.recyclerview.DeleteItemAnimator;
+import org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton;
+import org.thoughtcrime.securesms.components.reminder.DefaultSmsReminder;
+import org.thoughtcrime.securesms.components.reminder.DozeReminder;
+import org.thoughtcrime.securesms.components.reminder.ExpiredBuildReminder;
+import org.thoughtcrime.securesms.components.reminder.OutdatedBuildReminder;
+import org.thoughtcrime.securesms.components.reminder.PushRegistrationReminder;
+import org.thoughtcrime.securesms.components.reminder.Reminder;
+import org.thoughtcrime.securesms.components.reminder.ReminderView;
+import org.thoughtcrime.securesms.components.reminder.ServiceOutageReminder;
+import org.thoughtcrime.securesms.components.reminder.ShareReminder;
+import org.thoughtcrime.securesms.components.reminder.SystemSmsImportReminder;
+import org.thoughtcrime.securesms.components.reminder.UnauthorizedReminder;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
+import org.thoughtcrime.securesms.database.loaders.ConversationListLoader;
+import org.thoughtcrime.securesms.events.ReminderUpdateEvent;
+import org.thoughtcrime.securesms.jobs.ServiceOutageDetectionJob;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.task.SnackbarAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashSet;

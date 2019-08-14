@@ -1,13 +1,13 @@
-package org.raapp.messenger.components.reminder;
+package org.thoughtcrime.securesms.components.reminder;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 public class ExpiredBuildReminder extends Reminder {
   @SuppressWarnings("unused")

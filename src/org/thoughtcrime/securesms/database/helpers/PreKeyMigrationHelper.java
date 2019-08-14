@@ -1,4 +1,4 @@
-package org.raapp.messenger.database.helpers;
+package org.thoughtcrime.securesms.database.helpers;
 
 
 import android.content.ContentValues;
@@ -9,13 +9,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.raapp.messenger.database.OneTimePreKeyDatabase;
-import org.raapp.messenger.database.SignedPreKeyDatabase;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.Conversions;
-import org.raapp.messenger.util.JsonUtils;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.database.OneTimePreKeyDatabase;
+import org.thoughtcrime.securesms.database.SignedPreKeyDatabase;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.Conversions;
+import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.state.PreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;

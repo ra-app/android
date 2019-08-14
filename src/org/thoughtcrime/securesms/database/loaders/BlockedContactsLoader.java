@@ -1,10 +1,10 @@
-package org.raapp.messenger.database.loaders;
+package org.thoughtcrime.securesms.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.util.AbstractCursorLoader;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.util.AbstractCursorLoader;
 
 public class BlockedContactsLoader extends AbstractCursorLoader {
 

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,30 +25,32 @@ import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.preference.PreferenceManager;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.crypto.IdentityKeyUtil;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.MmsDatabase.Reader;
-import org.raapp.messenger.database.PushDatabase;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.jobs.AttachmentDownloadJob;
-import org.raapp.messenger.jobs.CreateSignedPreKeyJob;
-import org.raapp.messenger.jobs.DirectoryRefreshJob;
-import org.raapp.messenger.jobs.PushDecryptJob;
-import org.raapp.messenger.jobs.RefreshAttributesJob;
-import org.raapp.messenger.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.MmsDatabase.Reader;
+import org.thoughtcrime.securesms.database.PushDatabase;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.jobs.AttachmentDownloadJob;
+import org.thoughtcrime.securesms.jobs.CreateSignedPreKeyJob;
+import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.jobs.PushDecryptJob;
+import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.util.FileUtils;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.VersionTracker;
+import org.thoughtcrime.securesms.util.FileUtils;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.VersionTracker;
 
 import java.io.File;
 import java.io.IOException;

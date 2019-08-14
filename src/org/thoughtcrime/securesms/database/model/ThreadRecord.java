@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database.model;
+package org.thoughtcrime.securesms.database.model;
 
 import android.content.Context;
 import android.net.Uri;
@@ -27,10 +27,10 @@ import android.text.TextUtils;
 import android.text.style.StyleSpan;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.MmsSmsColumns;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.ExpirationUtil;
+import org.thoughtcrime.securesms.database.MmsSmsColumns;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.ExpirationUtil;
 
 /**
  * The message record model which represents thread heading messages.

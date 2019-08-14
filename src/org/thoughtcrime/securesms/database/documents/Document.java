@@ -1,4 +1,4 @@
-package org.raapp.messenger.database.documents;
+package org.thoughtcrime.securesms.database.documents;
 
 import java.util.List;
 

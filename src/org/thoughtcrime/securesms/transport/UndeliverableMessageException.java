@@ -1,4 +1,4 @@
-package org.raapp.messenger.transport;
+package org.thoughtcrime.securesms.transport;
 
 public class UndeliverableMessageException extends Exception {
   public UndeliverableMessageException() {

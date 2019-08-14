@@ -1,4 +1,4 @@
-package org.raapp.messenger.search;
+package org.thoughtcrime.securesms.search;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.raapp.messenger.search.model.SearchResult;
-import org.raapp.messenger.util.Debouncer;
+import org.thoughtcrime.securesms.search.model.SearchResult;
+import org.thoughtcrime.securesms.util.Debouncer;
 
 /**
  * A {@link ViewModel} for handling all the business logic and interactions that take place inside

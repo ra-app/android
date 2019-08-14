@@ -1,11 +1,11 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.util.MediaUtil;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.util.MediaUtil;
 
 public class GifSlide extends ImageSlide {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 
 import android.content.ActivityNotFoundException;
@@ -13,19 +13,20 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.raapp.messenger.MediaDocumentsAdapter.HeaderViewHolder;
-import org.raapp.messenger.MediaDocumentsAdapter.ViewHolder;
-import org.raapp.messenger.components.DocumentView;
-import org.raapp.messenger.database.CursorRecyclerViewAdapter;
-import org.raapp.messenger.database.MediaDatabase;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.DocumentSlide;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.util.DateUtils;
-import org.raapp.messenger.util.MediaUtil;
-import org.raapp.messenger.util.StickyHeaderDecoration;
-import org.raapp.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.MediaDocumentsAdapter.HeaderViewHolder;
+import org.thoughtcrime.securesms.MediaDocumentsAdapter.ViewHolder;
+import org.thoughtcrime.securesms.components.DocumentView;
+import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
+import org.thoughtcrime.securesms.database.MediaDatabase;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.DocumentSlide;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.util.Calendar;
 import java.util.Date;

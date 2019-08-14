@@ -1,6 +1,6 @@
-package org.raapp.messenger.util.concurrent;
+package org.thoughtcrime.securesms.util.concurrent;
 
-import org.raapp.messenger.util.concurrent.ListenableFuture.Listener;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener;
 
 import java.util.concurrent.ExecutionException;
 

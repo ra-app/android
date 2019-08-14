@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,14 +9,14 @@ import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.crypto.MasterSecretUtil;
-import org.raapp.messenger.jobs.PushNotificationReceiveJob;
-import org.raapp.messenger.push.SignalServiceNetworkAccess;
+import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
+import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.service.MessageRetrievalService;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.service.MessageRetrievalService;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.Locale;
 

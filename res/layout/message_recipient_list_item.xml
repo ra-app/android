@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:padding="16dp">
 
-    <org.raapp.messenger.components.AvatarImageView
+    <org.thoughtcrime.securesms.components.AvatarImageView
             android:id="@+id/contact_photo_image"
             android:foreground="@drawable/contact_photo_background"
             android:layout_width="40dp"
@@ -37,7 +37,7 @@
                       android:layout_height="wrap_content"
                       android:orientation="vertical">
 
-            <org.raapp.messenger.components.FromTextView
+            <org.thoughtcrime.securesms.components.FromTextView
                       android:id="@+id/from"
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 android:visibility="gone"
                 tools:visibility="gone" />
 
-        <org.raapp.messenger.components.DeliveryStatusView
+        <org.thoughtcrime.securesms.components.DeliveryStatusView
                 android:id="@+id/delivery_status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

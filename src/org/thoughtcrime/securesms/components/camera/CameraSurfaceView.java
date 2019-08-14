@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.camera;
+package org.thoughtcrime.securesms.components.camera;
 
 import android.content.Context;
 import android.view.SurfaceHolder;

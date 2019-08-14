@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,9 +8,10 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.util.Locale;
 import java.util.Set;

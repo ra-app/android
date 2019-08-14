@@ -1,11 +1,11 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.contacts.ContactsSyncAdapter;
+import org.thoughtcrime.securesms.contacts.ContactsSyncAdapter;
 
 public class ContactsSyncAdapterService extends Service {
 

@@ -1,12 +1,12 @@
-package org.raapp.messenger.jobs.requirements;
+package org.thoughtcrime.securesms.jobs.requirements;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import org.raapp.messenger.jobmanager.requirements.RequirementListener;
-import org.raapp.messenger.jobmanager.requirements.RequirementProvider;
+import org.thoughtcrime.securesms.jobmanager.requirements.RequirementListener;
+import org.thoughtcrime.securesms.jobmanager.requirements.RequirementProvider;
 import org.raapp.messenger.service.KeyCachingService;
 
 public class MasterSecretRequirementProvider implements RequirementProvider {

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.Manifest;
 import android.content.Context;
@@ -27,16 +27,16 @@ import android.support.v4.content.CursorLoader;
 import android.text.TextUtils;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.NumberUtil;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.NumberUtil;
 
 import java.util.ArrayList;
 import java.util.List;

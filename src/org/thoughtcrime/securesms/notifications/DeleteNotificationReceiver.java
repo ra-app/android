@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 
 import android.content.BroadcastReceiver;
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 
-import org.raapp.messenger.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
 
 public class DeleteNotificationReceiver extends BroadcastReceiver {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -20,19 +20,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.EmojiDrawer;
-import org.raapp.messenger.components.emoji.EmojiToggle;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.mms.QuoteModel;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.concurrent.AssertedSuccessListener;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.components.emoji.EmojiDrawer;
+import org.thoughtcrime.securesms.components.emoji.EmojiToggle;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.mms.QuoteModel;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.concurrent.TimeUnit;

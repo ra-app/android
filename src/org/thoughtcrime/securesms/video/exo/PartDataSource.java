@@ -1,4 +1,4 @@
-package org.raapp.messenger.video.exo;
+package org.thoughtcrime.securesms.video.exo;
 
 
 import android.content.Context;
@@ -10,10 +10,10 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.TransferListener;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.mms.PartUriParser;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.mms.PartUriParser;
 
 import java.io.EOFException;
 import java.io.IOException;

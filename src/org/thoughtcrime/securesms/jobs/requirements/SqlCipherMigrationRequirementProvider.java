@@ -1,11 +1,11 @@
-package org.raapp.messenger.jobs.requirements;
+package org.thoughtcrime.securesms.jobs.requirements;
 
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.raapp.messenger.jobmanager.requirements.RequirementListener;
-import org.raapp.messenger.jobmanager.requirements.RequirementProvider;
+import org.thoughtcrime.securesms.jobmanager.requirements.RequirementListener;
+import org.thoughtcrime.securesms.jobmanager.requirements.RequirementProvider;
 
 public class SqlCipherMigrationRequirementProvider implements RequirementProvider {
 

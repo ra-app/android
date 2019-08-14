@@ -1,12 +1,12 @@
-package org.raapp.messenger.logging;
+package org.thoughtcrime.securesms.logging;
 
 import android.content.Context;
 import android.os.Build;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.crypto.KeyStoreHelper;
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.security.SecureRandom;

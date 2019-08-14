@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.arch.lifecycle.LifecycleOwner;
 import android.arch.lifecycle.MutableLiveData;
@@ -23,7 +23,7 @@ import android.support.annotation.MainThread;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

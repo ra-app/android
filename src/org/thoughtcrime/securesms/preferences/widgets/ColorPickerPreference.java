@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences.widgets;
+package org.thoughtcrime.securesms.preferences.widgets;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

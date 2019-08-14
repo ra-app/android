@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -26,7 +26,9 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -42,30 +44,30 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 import com.soundcloud.android.crop.Crop;
 
-import org.raapp.messenger.components.PushRecipientsPanel;
-import org.raapp.messenger.components.PushRecipientsPanel.RecipientsPanelChangedListener;
-import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.raapp.messenger.contacts.RecipientsEditor;
-import org.raapp.messenger.contacts.avatars.ContactColors;
-import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.database.GroupDatabase.GroupRecord;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.groups.GroupManager;
-import org.raapp.messenger.groups.GroupManager.GroupActionResult;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.SelectedRecipientsAdapter;
-import org.raapp.messenger.util.SelectedRecipientsAdapter.OnRecipientDeletedListener;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.thoughtcrime.securesms.components.PushRecipientsPanel;
+import org.thoughtcrime.securesms.components.PushRecipientsPanel.RecipientsPanelChangedListener;
+import org.thoughtcrime.securesms.contacts.ContactsCursorLoader.DisplayMode;
+import org.thoughtcrime.securesms.contacts.RecipientsEditor;
+import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
+import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.groups.GroupManager;
+import org.thoughtcrime.securesms.groups.GroupManager.GroupActionResult;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.SelectedRecipientsAdapter;
+import org.thoughtcrime.securesms.util.SelectedRecipientsAdapter.OnRecipientDeletedListener;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.util.InvalidNumberException;
 

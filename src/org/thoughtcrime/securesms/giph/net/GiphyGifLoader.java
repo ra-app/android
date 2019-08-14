@@ -1,4 +1,4 @@
-package org.raapp.messenger.giph.net;
+package org.thoughtcrime.securesms.giph.net;
 
 
 import android.content.Context;

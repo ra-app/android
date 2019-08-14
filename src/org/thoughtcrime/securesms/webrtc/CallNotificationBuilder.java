@@ -1,4 +1,4 @@
-package org.raapp.messenger.webrtc;
+package org.thoughtcrime.securesms.webrtc;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -12,11 +12,11 @@ import android.support.annotation.StringRes;
 import android.support.v4.app.NotificationCompat;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.WebRtcCallActivity;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.service.WebRtcCallService;
-import org.raapp.messenger.util.ServiceUtil;
+import org.thoughtcrime.securesms.WebRtcCallActivity;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.service.WebRtcCallService;
+import org.thoughtcrime.securesms.util.ServiceUtil;
 
 /**
  * Manages the state of the WebRtc items in the Android notification bar.

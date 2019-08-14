@@ -1,20 +1,20 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.telephony.SmsMessage;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MessagingDatabase.InsertResult;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobs.requirements.SqlCipherMigrationRequirement;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.IncomingTextMessage;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MessagingDatabase.InsertResult;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobs.requirements.SqlCipherMigrationRequirement;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.IncomingTextMessage;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.LinkedList;

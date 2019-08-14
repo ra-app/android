@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -33,21 +33,22 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.raapp.messenger.components.RatingManager;
-import org.raapp.messenger.components.SearchToolbar;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.raapp.messenger.lock.RegistrationLockDialog;
-import org.raapp.messenger.notifications.MarkReadReceiver;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.search.SearchFragment;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.RatingManager;
+import org.thoughtcrime.securesms.components.SearchToolbar;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
+import org.thoughtcrime.securesms.lock.RegistrationLockDialog;
+import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.search.SearchFragment;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicNoActionBarTheme;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.List;
 

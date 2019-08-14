@@ -1,4 +1,4 @@
-package org.raapp.messenger.permissions;
+package org.thoughtcrime.securesms.permissions;
 
 
 import android.content.pm.PackageManager;

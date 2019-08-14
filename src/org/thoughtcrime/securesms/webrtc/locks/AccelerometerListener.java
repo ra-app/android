@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.raapp.messenger.webrtc.locks;
+package org.thoughtcrime.securesms.webrtc.locks;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -23,7 +23,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.Message;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 /**
  * This class is used to listen to the accelerometer to monitor the

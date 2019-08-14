@@ -1,14 +1,14 @@
-package org.raapp.messenger.components.reminder;
+package org.thoughtcrime.securesms.components.reminder;
 
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.raapp.messenger.ConversationListActivity;
-import org.raapp.messenger.DatabaseMigrationActivity;
+import org.thoughtcrime.securesms.ConversationListActivity;
+import org.thoughtcrime.securesms.DatabaseMigrationActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.service.ApplicationMigrationService;
+import org.thoughtcrime.securesms.service.ApplicationMigrationService;
 
 public class SystemSmsImportReminder extends Reminder {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.color;
+package org.thoughtcrime.securesms.color;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -9,7 +9,7 @@ import org.raapp.messenger.R;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.raapp.messenger.util.ThemeUtil.isDarkTheme;
+import static org.thoughtcrime.securesms.util.ThemeUtil.isDarkTheme;
 
 public enum MaterialColor {
   RED        (R.color.conversation_red,    R.color.conversation_red_shade,    "red"),

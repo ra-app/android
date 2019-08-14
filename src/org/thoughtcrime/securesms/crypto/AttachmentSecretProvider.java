@@ -1,11 +1,11 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 
 import android.content.Context;
 import android.os.Build;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.security.SecureRandom;
 

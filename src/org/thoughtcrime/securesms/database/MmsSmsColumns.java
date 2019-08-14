@@ -1,4 +1,4 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 @SuppressWarnings("UnnecessaryInterfaceModifier")
 public interface MmsSmsColumns {

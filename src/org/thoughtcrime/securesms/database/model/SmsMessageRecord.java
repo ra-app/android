@@ -15,16 +15,16 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.raapp.messenger.database.model;
+package org.thoughtcrime.securesms.database.model;
 
 import android.content.Context;
 import android.text.SpannableString;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.MmsSmsColumns;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.database.MmsSmsColumns;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

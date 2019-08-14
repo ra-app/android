@@ -1,4 +1,4 @@
-package org.raapp.messenger.backup;
+package org.thoughtcrime.securesms.backup;
 
 
 import android.support.annotation.NonNull;

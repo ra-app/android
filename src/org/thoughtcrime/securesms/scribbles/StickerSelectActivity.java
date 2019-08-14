@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.scribbles;
+package org.thoughtcrime.securesms.scribbles;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -32,7 +32,7 @@ import android.text.SpannableString;
 import android.text.style.ImageSpan;
 import android.view.MenuItem;
 
-import org.raapp.messenger.BaseActionBarActivity;
+import org.thoughtcrime.securesms.BaseActionBarActivity;
 import org.raapp.messenger.R;
 
 public class StickerSelectActivity extends FragmentActivity implements StickerSelectFragment.StickerSelectionListener {

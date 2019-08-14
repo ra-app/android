@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.reminder;
+package org.thoughtcrime.securesms.components.reminder;
 
 
 import android.annotation.SuppressLint;
@@ -13,7 +13,7 @@ import android.support.annotation.RequiresApi;
 import android.view.View;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 @SuppressLint("BatteryLife")
 public class DozeReminder extends Reminder {

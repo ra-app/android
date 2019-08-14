@@ -1,4 +1,4 @@
-package org.raapp.messenger.util.dualsim;
+package org.thoughtcrime.securesms.util.dualsim;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

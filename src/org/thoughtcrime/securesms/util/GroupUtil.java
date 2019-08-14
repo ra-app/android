@@ -1,14 +1,14 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
 
 import java.io.IOException;
 import java.util.LinkedList;

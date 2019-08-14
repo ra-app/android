@@ -1,9 +1,9 @@
-package org.raapp.messenger.qr;
+package org.thoughtcrime.securesms.qr;
 
 import android.content.res.Configuration;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
@@ -15,9 +15,9 @@ import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
-import org.raapp.messenger.components.camera.CameraView;
-import org.raapp.messenger.components.camera.CameraView.PreviewFrame;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.components.camera.CameraView;
+import org.thoughtcrime.securesms.components.camera.CameraView.PreviewFrame;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;

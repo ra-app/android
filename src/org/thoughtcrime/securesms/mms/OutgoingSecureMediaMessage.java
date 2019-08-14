@@ -1,11 +1,11 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.List;
 

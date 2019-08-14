@@ -1,4 +1,4 @@
-package org.raapp.messenger.search;
+package org.thoughtcrime.securesms.search;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,18 +11,18 @@ import android.text.TextUtils;
 import com.annimon.stream.Stream;
 
 
-import org.raapp.messenger.contacts.ContactAccessor;
-import org.raapp.messenger.contacts.ContactsDatabase;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.CursorList;
-import org.raapp.messenger.database.MmsSmsColumns;
-import org.raapp.messenger.database.SearchDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.search.model.MessageResult;
-import org.raapp.messenger.search.model.SearchResult;
+import org.thoughtcrime.securesms.contacts.ContactAccessor;
+import org.thoughtcrime.securesms.contacts.ContactsDatabase;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.CursorList;
+import org.thoughtcrime.securesms.database.MmsSmsColumns;
+import org.thoughtcrime.securesms.database.SearchDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.search.model.MessageResult;
+import org.thoughtcrime.securesms.search.model.SearchResult;
 
 import java.util.HashSet;
 import java.util.List;

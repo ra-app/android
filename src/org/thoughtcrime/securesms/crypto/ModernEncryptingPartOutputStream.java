@@ -1,4 +1,4 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 
 import android.support.annotation.NonNull;

@@ -15,9 +15,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
-import org.raapp.messenger.util.Base64;
+import org.thoughtcrime.securesms.util.Base64;
 
 import java.io.IOException;
 

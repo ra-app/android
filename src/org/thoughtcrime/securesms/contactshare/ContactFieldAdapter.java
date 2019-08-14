@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.content.Context;
 import android.net.Uri;
@@ -15,14 +15,14 @@ import android.widget.TextView;
 import com.annimon.stream.Stream;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.contactshare.Contact.Phone;
-import org.raapp.messenger.mms.GlideRequests;
+import org.thoughtcrime.securesms.contactshare.Contact.Phone;
+import org.thoughtcrime.securesms.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.raapp.messenger.contactshare.Contact.*;
+import static org.thoughtcrime.securesms.contactshare.Contact.*;
 
 class ContactFieldAdapter extends RecyclerView.Adapter<ContactFieldAdapter.ContactFieldViewHolder> {
 

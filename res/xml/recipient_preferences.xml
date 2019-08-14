@@ -9,14 +9,14 @@
     <PreferenceCategory android:key="about_divider" android:layout="@layout/preference_divider"/>
 
     <PreferenceCategory android:key="notification_settings" android:title="@string/recipient_preferences__chat_settings">
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
                 android:key="pref_key_recipient_mute"
                 android:title="@string/recipient_preferences__mute_conversation"
                 android:defaultValue="false"
                 android:disableDependentsState="true"
                 android:persistent="false" />
 
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:key="pref_key_recipient_custom_notifications"
             android:title="@string/recipient_preferences__custom_notifications"
             android:defaultValue="false"

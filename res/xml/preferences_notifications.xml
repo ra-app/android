@@ -4,7 +4,7 @@
 
     <PreferenceCategory android:title="@string/preferences_notifications__messages">
 
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
                             android:key="pref_key_enable_notifications"
                             android:title="@string/preferences__notifications"
                             android:defaultValue="true" />
@@ -16,7 +16,7 @@
                 android:persistent="false"
                 android:defaultValue="content://settings/system/notification_sound" />
 
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
                             android:dependency="pref_key_enable_notifications"
                             android:key="pref_key_vibrate"
                             android:defaultValue="true"
@@ -38,7 +38,7 @@
             android:entries="@array/pref_led_blink_pattern_entries"
             android:entryValues="@array/pref_led_blink_pattern_values" />
 
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
                             android:key="pref_key_inthread_notifications"
                             android:title="@string/preferences_notifications__in_chat_sounds"
                             android:dependency="pref_key_enable_notifications"
@@ -73,7 +73,7 @@
 
     <PreferenceCategory android:title="@string/preferences_notifications__calls">
 
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
                 android:key="pref_call_notifications"
                 android:title="@string/preferences__notifications"
                 android:defaultValue="true" />
@@ -85,7 +85,7 @@
                 android:persistent="false"
                 android:defaultValue="content://settings/system/ringtone" />
 
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
                 android:dependency="pref_call_notifications"
                 android:key="pref_call_vibrate"
                 android:defaultValue="true"
@@ -96,7 +96,7 @@
     <PreferenceCategory android:layout="@layout/preference_divider"/>
 
     <PreferenceCategory android:title="@string/preferences_notifications__events">
-        <org.raapp.messenger.components.SwitchPreferenceCompat
+        <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:key="pref_enable_new_contacts_notifications"
             android:title="@string/preferences_events__contact_joined_signal"
             android:defaultValue="true" />

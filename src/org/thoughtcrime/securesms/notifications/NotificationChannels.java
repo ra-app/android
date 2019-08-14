@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.annotation.TargetApi;
 import android.app.NotificationChannel;
@@ -18,12 +18,12 @@ import android.text.TextUtils;
 
 import org.raapp.messenger.BuildConfig;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.RecipientDatabase.VibrateState;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.logging.Log;
 
 import java.util.Arrays;

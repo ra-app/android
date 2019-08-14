@@ -1,4 +1,4 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.view.View;
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -26,20 +26,21 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.raapp.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
-import org.raapp.messenger.components.AvatarImageView;
-import org.raapp.messenger.components.DeliveryStatusView;
-import org.raapp.messenger.components.FromTextView;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.database.documents.NetworkFailure;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.sms.MessageSender;
-import org.raapp.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
+import org.thoughtcrime.securesms.components.AvatarImageView;
+import org.thoughtcrime.securesms.components.DeliveryStatusView;
+import org.thoughtcrime.securesms.components.FromTextView;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.documents.NetworkFailure;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.util.Util;
 
 /**
  * A simple view to show the recipients of a message

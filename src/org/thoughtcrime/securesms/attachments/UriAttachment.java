@@ -1,4 +1,4 @@
-package org.raapp.messenger.attachments;
+package org.thoughtcrime.securesms.attachments;
 
 import android.net.Uri;
 import android.support.annotation.NonNull;

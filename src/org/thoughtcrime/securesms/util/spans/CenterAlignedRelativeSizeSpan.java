@@ -1,4 +1,4 @@
-package org.raapp.messenger.util.spans;
+package org.thoughtcrime.securesms.util.spans;
 
 
 import android.text.TextPaint;

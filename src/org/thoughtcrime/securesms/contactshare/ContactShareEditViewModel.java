@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import android.support.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.contactshare.Contact.Name;
-import org.raapp.messenger.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.contactshare.Contact.Name;
+import org.thoughtcrime.securesms.util.SingleLiveEvent;
 
 import java.util.ArrayList;
 import java.util.List;

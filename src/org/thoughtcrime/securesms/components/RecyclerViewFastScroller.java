@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -36,8 +36,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class RecyclerViewFastScroller extends LinearLayout {
   private static final int BUBBLE_ANIMATION_DURATION = 100;

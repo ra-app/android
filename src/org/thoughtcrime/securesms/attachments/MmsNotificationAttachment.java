@@ -1,11 +1,11 @@
-package org.raapp.messenger.attachments;
+package org.thoughtcrime.securesms.attachments;
 
 
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.MmsDatabase;
 
 public class MmsNotificationAttachment extends Attachment {
 

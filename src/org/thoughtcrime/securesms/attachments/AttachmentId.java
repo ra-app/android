@@ -1,8 +1,8 @@
-package org.raapp.messenger.attachments;
+package org.thoughtcrime.securesms.attachments;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 public class AttachmentId {
 

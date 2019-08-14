@@ -1,12 +1,12 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.content.Context;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.database.model.MessageRecord;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
 
 import java.util.Comparator;
 import java.util.TreeSet;

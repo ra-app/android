@@ -1,13 +1,13 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.preference.ListPreference;
 
-import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.Arrays;
 

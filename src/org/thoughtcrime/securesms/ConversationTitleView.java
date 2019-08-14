@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,11 +14,12 @@ import android.widget.TextView;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.components.AvatarImageView;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.AvatarImageView;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class ConversationTitleView extends RelativeLayout {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff.Mode;
@@ -24,11 +24,11 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.events.PartProgressEvent;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.events.PartProgressEvent;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class TransferControlView extends FrameLayout {
   private static final int TRANSITION_MS = 300;

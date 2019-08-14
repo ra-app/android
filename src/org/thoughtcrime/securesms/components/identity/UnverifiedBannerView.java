@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.identity;
+package org.thoughtcrime.securesms.components.identity;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -15,8 +15,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.util.List;
 

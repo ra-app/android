@@ -1,4 +1,4 @@
-package org.raapp.messenger.color;
+package org.thoughtcrime.securesms.color;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

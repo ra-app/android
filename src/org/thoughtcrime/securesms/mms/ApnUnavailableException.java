@@ -1,4 +1,4 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 public class ApnUnavailableException extends Exception {
 

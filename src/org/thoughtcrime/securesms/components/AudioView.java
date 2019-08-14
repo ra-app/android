@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -25,13 +25,13 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.raapp.messenger.R;
-import org.raapp.messenger.audio.AudioSlidePlayer;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.events.PartProgressEvent;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.AudioSlide;
-import org.raapp.messenger.mms.SlideClickListener;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.audio.AudioSlidePlayer;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.events.PartProgressEvent;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.AudioSlide;
+import org.thoughtcrime.securesms.mms.SlideClickListener;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

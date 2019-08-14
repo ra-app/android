@@ -1,7 +1,7 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.LRUCache;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.LRUCache;
 
 import java.util.HashMap;
 import java.util.Map;

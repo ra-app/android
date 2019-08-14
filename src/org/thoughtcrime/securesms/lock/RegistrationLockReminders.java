@@ -1,10 +1,10 @@
-package org.raapp.messenger.lock;
+package org.thoughtcrime.securesms.lock;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

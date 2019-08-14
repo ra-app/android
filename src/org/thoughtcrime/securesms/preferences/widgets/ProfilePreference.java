@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences.widgets;
+package org.thoughtcrime.securesms.preferences.widgets;
 
 
 import android.content.Context;
@@ -14,11 +14,11 @@ import android.widget.TextView;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
-import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class ProfilePreference extends Preference {
 

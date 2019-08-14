@@ -1,14 +1,14 @@
-package org.raapp.messenger.database.loaders;
+package org.thoughtcrime.securesms.database.loaders;
 
 
 import android.content.Context;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.AbstractCursorLoader;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.AbstractCursorLoader;
 
 public class ThreadMediaLoader extends AbstractCursorLoader {
 

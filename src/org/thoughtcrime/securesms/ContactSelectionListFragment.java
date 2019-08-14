@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 
 import android.Manifest;
@@ -40,19 +40,20 @@ import android.widget.Toast;
 
 import com.pnikosis.materialishprogress.ProgressWheel;
 
-import org.raapp.messenger.components.RecyclerViewFastScroller;
-import org.raapp.messenger.contacts.ContactSelectionListAdapter;
-import org.raapp.messenger.contacts.ContactSelectionListItem;
-import org.raapp.messenger.contacts.ContactsCursorLoader;
-import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.raapp.messenger.database.CursorRecyclerViewAdapter;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.util.DirectoryHelper;
-import org.raapp.messenger.util.StickyHeaderDecoration;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.RecyclerViewFastScroller;
+import org.thoughtcrime.securesms.contacts.ContactSelectionListAdapter;
+import org.thoughtcrime.securesms.contacts.ContactSelectionListItem;
+import org.thoughtcrime.securesms.contacts.ContactsCursorLoader;
+import org.thoughtcrime.securesms.contacts.ContactsCursorLoader.DisplayMode;
+import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.util.DirectoryHelper;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.io.IOException;
 import java.util.LinkedList;

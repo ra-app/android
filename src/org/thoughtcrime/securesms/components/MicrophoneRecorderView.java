@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.Manifest;
 import android.content.Context;
@@ -19,8 +19,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class MicrophoneRecorderView extends FrameLayout implements View.OnTouchListener {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 public class AccountVerificationTimeoutException extends Exception {
   public AccountVerificationTimeoutException() {

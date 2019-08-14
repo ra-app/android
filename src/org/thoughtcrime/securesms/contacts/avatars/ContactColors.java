@@ -1,9 +1,9 @@
-package org.raapp.messenger.contacts.avatars;
+package org.thoughtcrime.securesms.contacts.avatars;
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.color.MaterialColor;
-import org.raapp.messenger.color.MaterialColors;
+import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.color.MaterialColors;
 
 public class ContactColors {
 

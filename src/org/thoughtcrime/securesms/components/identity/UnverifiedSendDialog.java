@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.identity;
+package org.thoughtcrime.securesms.components.identity;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -7,9 +7,9 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.IdentityDatabase;
-import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.IdentityDatabase;
+import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
 
 import java.util.List;
 

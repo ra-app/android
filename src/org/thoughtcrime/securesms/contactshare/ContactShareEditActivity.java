@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.app.Activity;
 import android.arch.lifecycle.ViewModelProviders;
@@ -16,18 +16,18 @@ import android.widget.Toast;
 
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.raapp.messenger.contactshare.Contact.*;
-import static org.raapp.messenger.contactshare.ContactShareEditViewModel.*;
+import static org.thoughtcrime.securesms.contactshare.Contact.*;
+import static org.thoughtcrime.securesms.contactshare.ContactShareEditViewModel.*;
 
 public class ContactShareEditActivity extends PassphraseRequiredActionBarActivity implements ContactShareEditAdapter.EventListener {
 

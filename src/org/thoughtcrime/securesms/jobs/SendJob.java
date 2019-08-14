@@ -1,22 +1,22 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.TextSecureExpiredException;
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.MediaConstraints;
-import org.raapp.messenger.mms.MediaStream;
-import org.raapp.messenger.mms.MmsException;
-import org.raapp.messenger.transport.UndeliverableMessageException;
-import org.raapp.messenger.util.MediaUtil;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.TextSecureExpiredException;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.thoughtcrime.securesms.mms.MediaStream;
+import org.thoughtcrime.securesms.mms.MmsException;
+import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
+import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;
 import java.util.LinkedList;

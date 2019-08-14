@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -9,8 +9,8 @@ import android.text.InputFilter;
 import android.util.AttributeSet;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.EmojiProvider.EmojiDrawable;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.components.emoji.EmojiProvider.EmojiDrawable;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 
 public class EmojiEditText extends AppCompatEditText {

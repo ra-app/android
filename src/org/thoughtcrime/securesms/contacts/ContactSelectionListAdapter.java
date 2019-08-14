@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -33,14 +33,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.RecyclerViewFastScroller.FastScrollAdapter;
-import org.raapp.messenger.contacts.ContactSelectionListAdapter.HeaderViewHolder;
-import org.raapp.messenger.contacts.ContactSelectionListAdapter.ViewHolder;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.CursorRecyclerViewAdapter;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.util.StickyHeaderDecoration.StickyHeaderAdapter;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.components.RecyclerViewFastScroller.FastScrollAdapter;
+import org.thoughtcrime.securesms.contacts.ContactSelectionListAdapter.HeaderViewHolder;
+import org.thoughtcrime.securesms.contacts.ContactSelectionListAdapter.ViewHolder;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration.StickyHeaderAdapter;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.util.HashMap;
 import java.util.HashSet;

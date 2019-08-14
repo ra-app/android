@@ -1,6 +1,6 @@
-package org.raapp.messenger.sms;
+package org.thoughtcrime.securesms.sms;
 
-import org.raapp.messenger.database.Address;
+import org.thoughtcrime.securesms.database.Address;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 

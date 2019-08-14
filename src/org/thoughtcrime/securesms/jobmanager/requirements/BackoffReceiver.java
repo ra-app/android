@@ -1,4 +1,4 @@
-package org.raapp.messenger.jobmanager.requirements;
+package org.thoughtcrime.securesms.jobmanager.requirements;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -7,9 +7,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.ApplicationContext;
+import org.thoughtcrime.securesms.ApplicationContext;
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.UUID;
 

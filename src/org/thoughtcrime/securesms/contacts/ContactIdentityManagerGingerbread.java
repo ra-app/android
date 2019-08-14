@@ -1,4 +1,4 @@
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,8 +11,8 @@ import android.provider.ContactsContract.PhoneLookup;
 import android.provider.ContactsContract.RawContacts;
 import android.telephony.TelephonyManager;
 
-import org.raapp.messenger.ApplicationPreferencesActivity;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.ArrayList;
 import java.util.List;

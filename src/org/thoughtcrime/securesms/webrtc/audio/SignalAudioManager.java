@@ -1,4 +1,4 @@
-package org.raapp.messenger.webrtc.audio;
+package org.thoughtcrime.securesms.webrtc.audio;
 
 
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.ServiceUtil;
 
 public class SignalAudioManager {
 

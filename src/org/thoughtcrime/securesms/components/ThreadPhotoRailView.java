@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 
 import android.content.Context;
@@ -15,12 +15,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.CursorRecyclerViewAdapter;
-import org.raapp.messenger.database.MediaDatabase;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.util.MediaUtil;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
+import org.thoughtcrime.securesms.database.MediaDatabase;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class ThreadPhotoRailView extends FrameLayout {
 

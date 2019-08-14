@@ -1,9 +1,9 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.Hex;
+import org.thoughtcrime.securesms.util.Hex;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 /**
  * <p>Encodes and decodes to and from Base64 notation.</p>

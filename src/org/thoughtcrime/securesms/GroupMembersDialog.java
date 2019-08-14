@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -8,9 +8,10 @@ import android.provider.ContactsContract;
 import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,7 +15,8 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 
-import org.raapp.messenger.database.loaders.CountryListLoader;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.loaders.CountryListLoader;
 
 import java.util.ArrayList;
 import java.util.Map;

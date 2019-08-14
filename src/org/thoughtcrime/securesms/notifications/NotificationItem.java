@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.TaskStackBuilder;
 
-import org.raapp.messenger.ConversationActivity;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.ConversationActivity;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 public class NotificationItem {
 

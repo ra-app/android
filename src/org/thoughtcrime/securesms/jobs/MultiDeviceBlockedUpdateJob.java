@@ -1,16 +1,16 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
 
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.RecipientDatabase.RecipientReader;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirement;
-import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientReader;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirement;
+import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
+import org.thoughtcrime.securesms.recipients.Recipient;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
 import org.whispersystems.signalservice.api.messages.multidevice.BlockedListMessage;

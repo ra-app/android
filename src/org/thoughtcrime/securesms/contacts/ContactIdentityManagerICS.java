@@ -1,4 +1,4 @@
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

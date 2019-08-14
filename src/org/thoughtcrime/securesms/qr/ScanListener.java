@@ -1,4 +1,4 @@
-package org.raapp.messenger.qr;
+package org.thoughtcrime.securesms.qr;
 
 public interface ScanListener {
   public void onQrDataFound(String data);

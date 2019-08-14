@@ -1,14 +1,14 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 
 import android.content.Context;
 import android.content.Intent;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.ApplicationContext;
+import org.thoughtcrime.securesms.ApplicationContext;
 import org.raapp.messenger.BuildConfig;
-import org.raapp.messenger.jobs.UpdateApkJob;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.jobs.UpdateApkJob;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

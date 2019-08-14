@@ -1,4 +1,4 @@
-package org.raapp.messenger.sms;
+package org.thoughtcrime.securesms.sms;
 
 
 public class IncomingIdentityDefaultMessage extends IncomingTextMessage {

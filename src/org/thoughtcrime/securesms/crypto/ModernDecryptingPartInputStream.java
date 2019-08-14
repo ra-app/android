@@ -1,9 +1,9 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.Conversions;
+import org.thoughtcrime.securesms.util.Conversions;
 
 import java.io.File;
 import java.io.FileInputStream;

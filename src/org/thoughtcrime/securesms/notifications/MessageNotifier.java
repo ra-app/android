@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -36,27 +36,27 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.ConversationActivity;
+import org.thoughtcrime.securesms.ConversationActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.contactshare.ContactUtil;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.raapp.messenger.database.MmsSmsDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.database.model.MediaMmsMessageRecord;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.database.model.MmsMessageRecord;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.contactshare.ContactUtil;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
+import org.thoughtcrime.securesms.database.MmsSmsDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.recipients.Recipient;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.service.MessageRetrievalService;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.SpanUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.webrtc.CallNotificationBuilder;
+import org.thoughtcrime.securesms.service.MessageRetrievalService;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.SpanUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.webrtc.CallNotificationBuilder;
 import org.whispersystems.signalservice.internal.util.Util;
 
 import java.util.HashSet;

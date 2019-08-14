@@ -1,16 +1,16 @@
-package org.raapp.messenger.database.model;
+package org.thoughtcrime.securesms.database.model;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.database.documents.NetworkFailure;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.documents.NetworkFailure;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

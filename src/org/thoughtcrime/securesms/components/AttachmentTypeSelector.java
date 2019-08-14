@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -27,8 +27,8 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class AttachmentTypeSelector extends PopupWindow {
 

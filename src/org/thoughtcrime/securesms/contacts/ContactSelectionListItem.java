@@ -1,4 +1,4 @@
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,14 +10,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.AvatarImageView;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.util.GroupUtil;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.components.AvatarImageView;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.util.GroupUtil;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class ContactSelectionListItem extends LinearLayout implements RecipientModifiedListener {
 

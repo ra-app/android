@@ -84,7 +84,7 @@
                   android:orientation="vertical"
                   android:visibility="gone">
 
-        <org.raapp.messenger.components.ContactFilterToolbar
+        <org.thoughtcrime.securesms.components.ContactFilterToolbar
             android:id="@+id/contact_filter"
             android:layout_height="?attr/actionBarSize"
             android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,20 +20,20 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.jobs.DirectoryRefreshJob;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.util.CommunicationActions;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicNoActionBarTheme;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.raapp.messenger.mms.DecryptableStreamUriLoader.*;
+import static org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.*;
 
 public class SharedContactDetailsActivity extends PassphraseRequiredActionBarActivity implements RecipientModifiedListener {
 

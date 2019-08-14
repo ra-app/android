@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 public class MmsCharacterCalculator extends CharacterCalculator {
 

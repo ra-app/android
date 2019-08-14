@@ -1,4 +1,4 @@
-package org.raapp.messenger.permissions;
+package org.thoughtcrime.securesms.permissions;
 
 
 import android.app.AlertDialog;
@@ -15,7 +15,7 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class RationaleDialog {
 

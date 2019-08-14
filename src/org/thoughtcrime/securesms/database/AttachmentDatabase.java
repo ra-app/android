@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -28,32 +28,32 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.crypto.AttachmentSecret;
-import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
-import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.mms.MediaStream;
-import org.raapp.messenger.mms.MmsException;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.util.BitmapDecodingException;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.JsonUtils;
-import org.raapp.messenger.util.MediaUtil;
-import org.raapp.messenger.util.MediaUtil.ThumbnailData;
-import org.raapp.messenger.util.StorageUtil;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.video.EncryptedMediaDataSource;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
+import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
+import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.mms.MediaStream;
+import org.thoughtcrime.securesms.mms.MmsException;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.util.MediaUtil.ThumbnailData;
+import org.thoughtcrime.securesms.util.StorageUtil;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.video.EncryptedMediaDataSource;
 
 import java.io.File;
 import java.io.FileNotFoundException;

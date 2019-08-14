@@ -1,11 +1,11 @@
-package org.raapp.messenger.database.identity;
+package org.thoughtcrime.securesms.database.identity;
 
 
 import android.content.Context;
 
-import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
-import org.raapp.messenger.database.IdentityDatabase.VerifiedStatus;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
+import org.thoughtcrime.securesms.database.IdentityDatabase.VerifiedStatus;
+import org.thoughtcrime.securesms.recipients.Recipient;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.LinkedList;

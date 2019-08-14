@@ -1,4 +1,4 @@
-package org.raapp.messenger.sms;
+package org.thoughtcrime.securesms.sms;
 
 import android.content.Context;
 import android.os.Parcel;
@@ -7,8 +7,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.telephony.SmsMessage;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.util.GroupUtil;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;

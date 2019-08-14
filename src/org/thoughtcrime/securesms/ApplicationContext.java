@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -31,33 +31,34 @@ import android.support.v4.app.NotificationManagerCompat;
 
 import com.google.android.gms.security.ProviderInstaller;
 
-import org.raapp.messenger.crypto.PRNGFixes;
-import org.raapp.messenger.dependencies.AxolotlStorageModule;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.dependencies.SignalCommunicationModule;
-import org.raapp.messenger.jobmanager.JobManager;
-import org.raapp.messenger.jobmanager.dependencies.DependencyInjector;
-import org.raapp.messenger.jobmanager.persistence.JavaJobSerializer;
-import org.raapp.messenger.jobmanager.requirements.NetworkRequirementProvider;
-import org.raapp.messenger.jobs.CreateSignedPreKeyJob;
-import org.raapp.messenger.jobs.GcmRefreshJob;
-import org.raapp.messenger.jobs.MultiDeviceContactUpdateJob;
-import org.raapp.messenger.jobs.requirements.MasterSecretRequirementProvider;
-import org.raapp.messenger.jobs.requirements.ServiceRequirementProvider;
-import org.raapp.messenger.jobs.requirements.SqlCipherMigrationRequirementProvider;
-import org.raapp.messenger.logging.AndroidLogger;
-import org.raapp.messenger.logging.CustomSignalProtocolLogger;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.logging.PersistentLogger;
-import org.raapp.messenger.logging.UncaughtExceptionLogger;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.push.SignalServiceNetworkAccess;
-import org.raapp.messenger.service.DirectoryRefreshListener;
-import org.raapp.messenger.service.ExpiringMessageManager;
-import org.raapp.messenger.service.LocalBackupListener;
-import org.raapp.messenger.service.RotateSignedPreKeyListener;
-import org.raapp.messenger.service.UpdateApkRefreshListener;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.BuildConfig;
+import org.thoughtcrime.securesms.crypto.PRNGFixes;
+import org.thoughtcrime.securesms.dependencies.AxolotlStorageModule;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.dependencies.SignalCommunicationModule;
+import org.thoughtcrime.securesms.jobmanager.JobManager;
+import org.thoughtcrime.securesms.jobmanager.dependencies.DependencyInjector;
+import org.thoughtcrime.securesms.jobmanager.persistence.JavaJobSerializer;
+import org.thoughtcrime.securesms.jobmanager.requirements.NetworkRequirementProvider;
+import org.thoughtcrime.securesms.jobs.CreateSignedPreKeyJob;
+import org.thoughtcrime.securesms.jobs.GcmRefreshJob;
+import org.thoughtcrime.securesms.jobs.MultiDeviceContactUpdateJob;
+import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirementProvider;
+import org.thoughtcrime.securesms.jobs.requirements.ServiceRequirementProvider;
+import org.thoughtcrime.securesms.jobs.requirements.SqlCipherMigrationRequirementProvider;
+import org.thoughtcrime.securesms.logging.AndroidLogger;
+import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.logging.PersistentLogger;
+import org.thoughtcrime.securesms.logging.UncaughtExceptionLogger;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
+import org.thoughtcrime.securesms.service.DirectoryRefreshListener;
+import org.thoughtcrime.securesms.service.ExpiringMessageManager;
+import org.thoughtcrime.securesms.service.LocalBackupListener;
+import org.thoughtcrime.securesms.service.RotateSignedPreKeyListener;
+import org.thoughtcrime.securesms.service.UpdateApkRefreshListener;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.webrtc.PeerConnectionFactory;
 import org.webrtc.PeerConnectionFactory.InitializationOptions;
 import org.webrtc.voiceengine.WebRtcAudioManager;
@@ -153,7 +154,7 @@ public class ApplicationContext extends MultiDexApplication implements Dependenc
 
   private void initializeLogging() {
     persistentLogger = new PersistentLogger(this);
-    org.raapp.messenger.logging.Log.initialize(new AndroidLogger(), persistentLogger);
+    Log.initialize(new AndroidLogger(), persistentLogger);
 
     SignalProtocolLoggerProvider.setProvider(new CustomSignalProtocolLogger());
   }

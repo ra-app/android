@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

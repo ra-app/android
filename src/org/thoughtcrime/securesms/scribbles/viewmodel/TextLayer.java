@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-package org.raapp.messenger.scribbles.viewmodel;
+package org.thoughtcrime.securesms.scribbles.viewmodel;
 
 public class TextLayer extends Layer {
 

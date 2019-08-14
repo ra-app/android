@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -18,13 +18,13 @@ import android.text.SpannableStringBuilder;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.parsing.EmojiDrawInfo;
-import org.raapp.messenger.components.emoji.parsing.EmojiPageBitmap;
-import org.raapp.messenger.components.emoji.parsing.EmojiParser;
-import org.raapp.messenger.components.emoji.parsing.EmojiTree;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.FutureTaskListener;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo;
+import org.thoughtcrime.securesms.components.emoji.parsing.EmojiPageBitmap;
+import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
+import org.thoughtcrime.securesms.components.emoji.parsing.EmojiTree;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.FutureTaskListener;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.util.concurrent.ExecutionException;

@@ -1,10 +1,10 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.CharacterCalculator;
-import org.raapp.messenger.util.CharacterCalculator.CharacterState;
+import org.thoughtcrime.securesms.util.CharacterCalculator;
+import org.thoughtcrime.securesms.util.CharacterCalculator.CharacterState;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class TransportOption {

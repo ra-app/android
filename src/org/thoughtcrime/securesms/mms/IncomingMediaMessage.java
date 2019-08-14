@@ -1,10 +1,10 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.PointerAttachment;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.util.GroupUtil;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.PointerAttachment;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;

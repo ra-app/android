@@ -12,7 +12,7 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-    <org.raapp.messenger.components.AvatarImageView
+    <org.thoughtcrime.securesms.components.AvatarImageView
         android:id="@+id/contact_photo_image"
         android:foreground="@drawable/contact_photo_background"
         android:layout_width="48dp"
@@ -36,7 +36,7 @@
                   android:weightSum="1"
                   android:orientation="horizontal">
 
-        <org.raapp.messenger.components.FromTextView
+        <org.thoughtcrime.securesms.components.FromTextView
                   android:id="@+id/from"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                   android:layout_marginBottom="2dp"
                   android:drawablePadding="5dp"/>
 
-        <org.raapp.messenger.components.AlertView
+        <org.thoughtcrime.securesms.components.AlertView
                 android:id="@+id/indicators_parent"
                 android:layout_width="18dp"
                 android:layout_height="18dp"
@@ -68,7 +68,7 @@
                 android:visibility="gone"
                 tools:visibility="visible"/>
 
-        <org.raapp.messenger.components.emoji.EmojiTextView
+        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
                 android:id="@+id/subject"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                 tools:text="Wheels arrive at 3pm flat. This is a somewhat longer message."
                 android:ellipsize="end" />
 
-        <org.raapp.messenger.components.ThumbnailView
+        <org.thoughtcrime.securesms.components.ThumbnailView
                 android:id="@+id/thumbnail"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -144,7 +144,7 @@
                      android:layout_toStartOf="@id/archived"
                      android:layout_alignWithParentIfMissing="true">
 
-            <org.raapp.messenger.components.DeliveryStatusView
+            <org.thoughtcrime.securesms.components.DeliveryStatusView
                     android:id="@+id/delivery_status"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

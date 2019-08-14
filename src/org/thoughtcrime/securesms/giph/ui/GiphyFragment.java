@@ -1,4 +1,4 @@
-package org.raapp.messenger.giph.ui;
+package org.thoughtcrime.securesms.giph.ui;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -18,11 +18,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.giph.model.GiphyImage;
-import org.raapp.messenger.giph.net.GiphyLoader;
-import org.raapp.messenger.giph.util.InfiniteScrollListener;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.giph.model.GiphyImage;
+import org.thoughtcrime.securesms.giph.net.GiphyLoader;
+import org.thoughtcrime.securesms.giph.util.InfiniteScrollListener;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.util.LinkedList;
 import java.util.List;

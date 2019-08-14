@@ -1,4 +1,4 @@
-package org.raapp.messenger.database.helpers;
+package org.thoughtcrime.securesms.database.helpers;
 
 
 import android.content.ContentValues;
@@ -7,21 +7,21 @@ import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import com.annimon.stream.function.BiFunction;
 
-import org.raapp.messenger.DatabaseUpgradeActivity;
+import org.thoughtcrime.securesms.DatabaseUpgradeActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.crypto.AsymmetricMasterCipher;
-import org.raapp.messenger.crypto.AttachmentSecretProvider;
-import org.raapp.messenger.crypto.MasterCipher;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.crypto.MasterSecretUtil;
-import org.raapp.messenger.service.GenericForegroundService;
-import org.raapp.messenger.util.Base64;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.crypto.AsymmetricMasterCipher;
+import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.crypto.MasterCipher;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.service.GenericForegroundService;
+import org.thoughtcrime.securesms.util.Base64;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidMessageException;
 
 import java.io.IOException;

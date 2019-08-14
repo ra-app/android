@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -6,7 +6,8 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.util.DateUtils;
 import org.whispersystems.signalservice.api.messages.multidevice.DeviceInfo;
 
 import java.util.Locale;

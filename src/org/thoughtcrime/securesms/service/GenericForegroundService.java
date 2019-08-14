@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 
 import android.app.PendingIntent;
@@ -10,9 +10,9 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 
-import org.raapp.messenger.ConversationListActivity;
+import org.thoughtcrime.securesms.ConversationListActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

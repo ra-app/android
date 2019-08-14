@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 public interface MasterSecretListener {
   void onMasterSecretCleared();

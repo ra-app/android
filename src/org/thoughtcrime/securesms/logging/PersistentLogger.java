@@ -1,12 +1,12 @@
-package org.raapp.messenger.logging;
+package org.thoughtcrime.securesms.logging;
 
 import android.content.Context;
 import android.support.annotation.AnyThread;
 import android.support.annotation.WorkerThread;
 
-import org.raapp.messenger.database.NoExternalStorageException;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

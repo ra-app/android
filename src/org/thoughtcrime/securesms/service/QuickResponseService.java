@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -7,12 +7,12 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.MessageSender;
-import org.raapp.messenger.sms.OutgoingTextMessage;
-import org.raapp.messenger.util.Rfc5724Uri;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
+import org.thoughtcrime.securesms.util.Rfc5724Uri;
 
 import java.net.URISyntaxException;
 import java.net.URLDecoder;
@@ -32,7 +32,7 @@ public class QuickResponseService extends IntentService {
       return;
     }
 
-    if (KeyCachingService.isLocked(this)) {
+    if (org.raapp.messenger.service.KeyCachingService.isLocked(this)) {
       Log.w(TAG, "Got quick response request when locked...");
       Toast.makeText(this, R.string.QuickResponseService_quick_response_unavailable_when_Signal_is_locked, Toast.LENGTH_LONG).show();
       return;

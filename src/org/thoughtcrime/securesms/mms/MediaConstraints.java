@@ -1,17 +1,17 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.raapp.messenger.util.BitmapDecodingException;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.MediaUtil;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.MediaUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

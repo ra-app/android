@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -35,7 +35,9 @@ import android.support.v4.util.Pair;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
-import org.raapp.messenger.logging.Log;
+
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -47,23 +49,23 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.components.MediaView;
-import org.raapp.messenger.components.viewpager.ExtendedOnPageChangedListener;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.MediaDatabase.MediaRecord;
-import org.raapp.messenger.database.loaders.PagingMediaLoader;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.util.AttachmentUtil;
-import org.raapp.messenger.util.DateUtils;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.SaveAttachmentTask;
-import org.raapp.messenger.util.SaveAttachmentTask.Attachment;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.components.MediaView;
+import org.thoughtcrime.securesms.components.viewpager.ExtendedOnPageChangedListener;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.MediaDatabase.MediaRecord;
+import org.thoughtcrime.securesms.database.loaders.PagingMediaLoader;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.util.AttachmentUtil;
+import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.SaveAttachmentTask;
+import org.thoughtcrime.securesms.util.SaveAttachmentTask.Attachment;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;
 import java.util.WeakHashMap;

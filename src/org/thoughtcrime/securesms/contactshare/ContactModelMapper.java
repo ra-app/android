@@ -1,11 +1,11 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.attachments.PointerAttachment;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.PointerAttachment;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.shared.SharedContact;
 
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.raapp.messenger.contactshare.Contact.*;
+import static org.thoughtcrime.securesms.contactshare.Contact.*;
 
 public class ContactModelMapper {
 

@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.recipients;
+package org.thoughtcrime.securesms.recipients;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -27,27 +27,27 @@ import android.text.TextUtils;
 import com.annimon.stream.function.Consumer;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.color.MaterialColor;
-import org.raapp.messenger.contacts.avatars.ContactColors;
-import org.raapp.messenger.contacts.avatars.ContactPhoto;
-import org.raapp.messenger.contacts.avatars.FallbackContactPhoto;
-import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.raapp.messenger.contacts.avatars.GroupRecordContactPhoto;
-import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
-import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
-import org.raapp.messenger.contacts.avatars.SystemContactPhoto;
-import org.raapp.messenger.contacts.avatars.TransparentContactPhoto;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.GroupDatabase;
-import org.raapp.messenger.database.RecipientDatabase.RecipientSettings;
-import org.raapp.messenger.database.RecipientDatabase.RegisteredState;
-import org.raapp.messenger.database.RecipientDatabase.VibrateState;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.recipients.RecipientProvider.RecipientDetails;
-import org.raapp.messenger.util.FutureTaskListener;
-import org.raapp.messenger.util.ListenableFutureTask;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
+import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.GroupRecordContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.SystemContactPhoto;
+import org.thoughtcrime.securesms.contacts.avatars.TransparentContactPhoto;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientSettings;
+import org.thoughtcrime.securesms.database.RecipientDatabase.RegisteredState;
+import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.recipients.RecipientProvider.RecipientDetails;
+import org.thoughtcrime.securesms.util.FutureTaskListener;
+import org.thoughtcrime.securesms.util.ListenableFutureTask;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

@@ -1,11 +1,11 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 
 public class PersistentConnectionBootListener extends BroadcastReceiver {

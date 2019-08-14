@@ -14,10 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import org.raapp.messenger.R;
 
 import java.util.ArrayList;
 import java.util.List;

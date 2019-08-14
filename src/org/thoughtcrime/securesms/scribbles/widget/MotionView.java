@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.raapp.messenger.scribbles.widget;
+package org.thoughtcrime.securesms.scribbles.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -50,11 +50,11 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.scribbles.multitouch.MoveGestureDetector;
-import org.raapp.messenger.scribbles.multitouch.RotateGestureDetector;
-import org.raapp.messenger.scribbles.widget.entity.MotionEntity;
-import org.raapp.messenger.scribbles.widget.entity.TextEntity;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.scribbles.multitouch.MoveGestureDetector;
+import org.thoughtcrime.securesms.scribbles.multitouch.RotateGestureDetector;
+import org.thoughtcrime.securesms.scribbles.widget.entity.MotionEntity;
+import org.thoughtcrime.securesms.scribbles.widget.entity.TextEntity;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

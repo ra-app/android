@@ -31,21 +31,21 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.widget.RemoteViews;
 
-import org.raapp.messenger.ConversationListActivity;
-import org.raapp.messenger.DatabaseUpgradeActivity;
-import org.raapp.messenger.DummyActivity;
+import org.thoughtcrime.securesms.ConversationListActivity;
+import org.thoughtcrime.securesms.DatabaseUpgradeActivity;
+import org.thoughtcrime.securesms.DummyActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.crypto.InvalidPassphraseException;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.crypto.MasterSecretUtil;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 
@@ -53,6 +53,9 @@ import java.util.concurrent.TimeUnit;
  * Small service that stays running to keep a key cached in memory.
  *
  * @author Moxie Marlinspike
+ *
+ * This file has to be in a package that shares the name of the app or otherwise the service will have trouble starting
+ * @author Christian Kleineidam
  */
 
 public class KeyCachingService extends Service {
@@ -92,8 +95,18 @@ public class KeyCachingService extends Service {
         MasterSecret masterSecret = MasterSecretUtil.getMasterSecret(context, MasterSecretUtil.UNENCRYPTED_PASSPHRASE);
         Intent       intent       = new Intent(context, KeyCachingService.class);
 
-        context.startService(intent);
-
+        try {
+          context.startService(intent);
+        }
+        catch (IllegalStateException ex) {
+          intent.putExtra("NEED_FOREGROUND_KEY", true);
+          if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            context.startForegroundService(intent);
+          }
+          else {
+            context.startService(intent);
+          }
+        }
         return masterSecret;
       } catch (InvalidPassphraseException e) {
         Log.w("KeyCachingService", e);

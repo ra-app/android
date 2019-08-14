@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.TimeUnit;

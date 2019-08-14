@@ -1,4 +1,4 @@
-package org.raapp.messenger.scribbles.multitouch;
+package org.thoughtcrime.securesms.scribbles.multitouch;
 
 import android.content.Context;
 import android.graphics.PointF;

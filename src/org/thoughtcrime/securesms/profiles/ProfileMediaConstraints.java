@@ -1,9 +1,9 @@
-package org.raapp.messenger.profiles;
+package org.thoughtcrime.securesms.profiles;
 
 
 import android.content.Context;
 
-import org.raapp.messenger.mms.MediaConstraints;
+import org.thoughtcrime.securesms.mms.MediaConstraints;
 
 public class ProfileMediaConstraints extends MediaConstraints {
   @Override

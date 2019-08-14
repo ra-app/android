@@ -20,10 +20,10 @@
  * SOFTWARE.
  */
 
-package org.raapp.messenger.scribbles.viewmodel;
+package org.thoughtcrime.securesms.scribbles.viewmodel;
 
 import android.support.annotation.FloatRange;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 public class Layer {
 

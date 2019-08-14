@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,17 +9,17 @@ import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 
-import org.raapp.messenger.contacts.ContactsDatabase;
-import org.raapp.messenger.contacts.avatars.ContactPhoto;
-import org.raapp.messenger.contactshare.Contact.Email;
-import org.raapp.messenger.contactshare.Contact.Name;
-import org.raapp.messenger.contactshare.Contact.Phone;
-import org.raapp.messenger.contactshare.Contact.PostalAddress;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.providers.PersistentBlobProvider;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.contacts.ContactsDatabase;
+import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.contactshare.Contact.Email;
+import org.thoughtcrime.securesms.contactshare.Contact.Name;
+import org.thoughtcrime.securesms.contactshare.Contact.Phone;
+import org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,7 +33,7 @@ import java.util.concurrent.Executor;
 import ezvcard.Ezvcard;
 import ezvcard.VCard;
 
-import static org.raapp.messenger.contactshare.Contact.*;
+import static org.thoughtcrime.securesms.contactshare.Contact.*;
 
 public class ContactRepository {
 

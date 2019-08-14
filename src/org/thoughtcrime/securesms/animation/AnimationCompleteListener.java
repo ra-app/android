@@ -1,4 +1,4 @@
-package org.raapp.messenger.animation;
+package org.thoughtcrime.securesms.animation;
 
 
 import android.animation.Animator;

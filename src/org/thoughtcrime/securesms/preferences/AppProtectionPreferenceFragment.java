@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
@@ -12,18 +12,18 @@ import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.Preference;
 import android.widget.Toast;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.ApplicationPreferencesActivity;
-import org.raapp.messenger.BlockedContactsActivity;
-import org.raapp.messenger.PassphraseChangeActivity;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.BlockedContactsActivity;
+import org.thoughtcrime.securesms.PassphraseChangeActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.SwitchPreferenceCompat;
-import org.raapp.messenger.crypto.MasterSecretUtil;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.jobs.MultiDeviceReadReceiptUpdateJob;
-import org.raapp.messenger.lock.RegistrationLockDialog;
+import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
+import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.jobs.MultiDeviceReadReceiptUpdateJob;
+import org.thoughtcrime.securesms.lock.RegistrationLockDialog;
 import org.raapp.messenger.service.KeyCachingService;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 import java.util.concurrent.TimeUnit;

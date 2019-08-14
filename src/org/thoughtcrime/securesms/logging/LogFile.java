@@ -1,9 +1,9 @@
-package org.raapp.messenger.logging;
+package org.thoughtcrime.securesms.logging;
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.Conversions;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Conversions;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

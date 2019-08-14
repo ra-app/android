@@ -1,4 +1,4 @@
-package org.raapp.messenger.logging;
+package org.thoughtcrime.securesms.logging;
 
 public class GrowingBuffer {
 

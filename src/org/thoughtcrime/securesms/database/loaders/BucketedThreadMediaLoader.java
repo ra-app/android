@@ -1,4 +1,4 @@
-package org.raapp.messenger.database.loaders;
+package org.thoughtcrime.securesms.database.loaders;
 
 
 import android.content.Context;
@@ -10,11 +10,11 @@ import android.support.v4.content.AsyncTaskLoader;
 import com.annimon.stream.Stream;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.Database;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MediaDatabase;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.Database;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MediaDatabase;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package org.raapp.messenger.video;
+package org.thoughtcrime.securesms.video;
 
 
 import android.annotation.TargetApi;
@@ -7,10 +7,10 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.crypto.AttachmentSecret;
-import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
+import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.File;
 import java.io.IOException;

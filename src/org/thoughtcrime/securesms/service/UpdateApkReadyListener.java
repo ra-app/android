@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 
 import android.app.DownloadManager;
@@ -11,15 +11,15 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.util.FileProviderUtil;
-import org.raapp.messenger.util.FileUtils;
-import org.raapp.messenger.util.Hex;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.util.FileProviderUtil;
+import org.thoughtcrime.securesms.util.FileUtils;
+import org.thoughtcrime.securesms.util.Hex;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.FileInputStream;

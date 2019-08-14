@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,20 +13,21 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.raapp.messenger.crypto.IdentityKeyParcelable;
-import org.raapp.messenger.database.IdentityDatabase;
-import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.util.DateUtils;
-import org.raapp.messenger.util.ExpirationUtil;
-import org.raapp.messenger.util.GroupUtil;
-import org.raapp.messenger.util.IdentityUtil;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
+import org.thoughtcrime.securesms.database.IdentityDatabase;
+import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.util.ExpirationUtil;
+import org.thoughtcrime.securesms.util.GroupUtil;
+import org.thoughtcrime.securesms.util.IdentityUtil;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Locale;

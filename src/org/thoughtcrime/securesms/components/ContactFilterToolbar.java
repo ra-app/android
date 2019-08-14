@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -14,8 +14,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.ServiceUtil;
-import org.raapp.messenger.util.ViewUtil;
+import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class ContactFilterToolbar extends Toolbar {
   private   OnFilterChangedListener listener;

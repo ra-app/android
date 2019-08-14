@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;

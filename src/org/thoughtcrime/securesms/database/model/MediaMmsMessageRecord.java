@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database.model;
+package org.thoughtcrime.securesms.database.model;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -22,13 +22,13 @@ import android.support.annotation.Nullable;
 import android.text.SpannableString;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.contactshare.Contact;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.SmsDatabase.Status;
-import org.raapp.messenger.database.documents.IdentityKeyMismatch;
-import org.raapp.messenger.database.documents.NetworkFailure;
-import org.raapp.messenger.mms.SlideDeck;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.contactshare.Contact;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase.Status;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.documents.NetworkFailure;
+import org.thoughtcrime.securesms.mms.SlideDeck;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.List;
 

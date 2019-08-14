@@ -1,4 +1,4 @@
-package org.raapp.messenger.search;
+package org.thoughtcrime.securesms.search;
 
 import android.annotation.SuppressLint;
 import android.arch.lifecycle.ViewModelProviders;
@@ -17,18 +17,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.raapp.messenger.ConversationActivity;
-import org.raapp.messenger.ConversationListActivity;
+import org.thoughtcrime.securesms.ConversationActivity;
+import org.thoughtcrime.securesms.ConversationListActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.contacts.ContactAccessor;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.search.model.MessageResult;
-import org.raapp.messenger.search.model.SearchResult;
-import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.contacts.ContactAccessor;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.search.model.MessageResult;
+import org.thoughtcrime.securesms.search.model.SearchResult;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
 
 import java.util.Locale;
 import java.util.concurrent.Executors;

@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.jobmanager.persistence;
+package org.thoughtcrime.securesms.jobmanager.persistence;
 
-import org.raapp.messenger.jobmanager.EncryptionKeys;
-import org.raapp.messenger.jobmanager.Job;
-import org.raapp.messenger.jobmanager.util.Base64;
+import org.thoughtcrime.securesms.jobmanager.EncryptionKeys;
+import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.util.Base64;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

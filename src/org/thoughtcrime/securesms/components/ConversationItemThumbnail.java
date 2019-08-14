@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,10 +16,10 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.mms.SlideClickListener;
-import org.raapp.messenger.util.ThemeUtil;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.mms.SlideClickListener;
+import org.thoughtcrime.securesms.util.ThemeUtil;
 
 public class ConversationItemThumbnail extends FrameLayout {
 

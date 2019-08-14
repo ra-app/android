@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.location;
+package org.thoughtcrime.securesms.components.location;
 
 import android.net.Uri;
 import android.support.annotation.NonNull;
@@ -10,8 +10,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.maps.model.LatLng;
 
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.util.JsonUtils;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.util.JsonUtils;
 
 import java.io.IOException;
 

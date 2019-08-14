@@ -1,10 +1,10 @@
-package org.raapp.messenger.webrtc.locks;
+package org.thoughtcrime.securesms.webrtc.locks;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.os.PowerManager;
 import android.provider.Settings;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 /**
  * Maintains wake lock state.

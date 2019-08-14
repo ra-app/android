@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -39,27 +39,28 @@ import android.widget.TextView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.components.AlertView;
-import org.raapp.messenger.components.AvatarImageView;
-import org.raapp.messenger.components.DeliveryStatusView;
-import org.raapp.messenger.components.FromTextView;
-import org.raapp.messenger.components.ThumbnailView;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
-import org.raapp.messenger.search.model.MessageResult;
-import org.raapp.messenger.util.DateUtils;
-import org.raapp.messenger.util.ThemeUtil;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.AlertView;
+import org.thoughtcrime.securesms.components.AvatarImageView;
+import org.thoughtcrime.securesms.components.DeliveryStatusView;
+import org.thoughtcrime.securesms.components.FromTextView;
+import org.thoughtcrime.securesms.components.ThumbnailView;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.search.model.MessageResult;
+import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-import static org.raapp.messenger.util.SpanUtil.color;
+import static org.thoughtcrime.securesms.util.SpanUtil.color;
 
 public class ConversationListItem extends RelativeLayout
                                   implements RecipientModifiedListener,

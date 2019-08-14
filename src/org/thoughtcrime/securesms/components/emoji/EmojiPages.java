@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 import org.raapp.messenger.R;
 import org.whispersystems.libsignal.util.Pair;

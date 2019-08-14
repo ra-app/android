@@ -1,11 +1,11 @@
-package org.raapp.messenger.scribbles.multitouch;
+package org.thoughtcrime.securesms.scribbles.multitouch;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
 /**
  * @author Almer Thie (code.almeros.com)

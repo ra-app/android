@@ -1,4 +1,4 @@
-package org.raapp.messenger.webrtc;
+package org.thoughtcrime.securesms.webrtc;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
 
-import org.raapp.messenger.WebRtcCallActivity;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.service.WebRtcCallService;
+import org.thoughtcrime.securesms.WebRtcCallActivity;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.service.WebRtcCallService;
 
 public class VoiceCallShare extends Activity {
   

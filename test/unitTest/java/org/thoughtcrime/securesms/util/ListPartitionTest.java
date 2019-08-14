@@ -1,7 +1,7 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 import org.junit.Test;
-import org.raapp.messenger.BaseUnitTest;
+import org.thoughtcrime.securesms.BaseUnitTest;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,10 +1,10 @@
-package org.raapp.messenger.components.viewpager;
+package org.thoughtcrime.securesms.components.viewpager;
 
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.MotionEvent;
 
 /**

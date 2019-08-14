@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences;
+package org.thoughtcrime.securesms.preferences;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,12 +14,12 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 
-import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.SwitchPreferenceCompat;
-import org.raapp.messenger.notifications.MessageNotifier;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.components.SwitchPreferenceCompat;
+import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import static android.app.Activity.RESULT_OK;
 

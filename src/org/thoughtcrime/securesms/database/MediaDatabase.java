@@ -1,4 +1,4 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.Context;
 import android.database.ContentObservable;
@@ -9,9 +9,9 @@ import android.support.annotation.Nullable;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.DatabaseAttachment;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
 
 import java.util.List;
 

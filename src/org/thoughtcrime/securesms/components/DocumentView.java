@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 
 import android.content.Context;
@@ -21,11 +21,11 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.events.PartProgressEvent;
-import org.raapp.messenger.mms.DocumentSlide;
-import org.raapp.messenger.mms.SlideClickListener;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.events.PartProgressEvent;
+import org.thoughtcrime.securesms.mms.DocumentSlide;
+import org.thoughtcrime.securesms.mms.SlideClickListener;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class DocumentView extends FrameLayout {

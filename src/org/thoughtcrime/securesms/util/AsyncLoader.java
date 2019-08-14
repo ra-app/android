@@ -1,4 +1,4 @@
-package org.raapp.messenger.util;
+package org.thoughtcrime.securesms.util;
 
 /*
  * Copyright (C) 2011 Alexander Blom

@@ -1,4 +1,4 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,20 +20,20 @@ import com.bumptech.glide.load.resource.gif.GifDrawable;
 import com.bumptech.glide.load.resource.gif.StreamGifDecoder;
 import com.bumptech.glide.module.AppGlideModule;
 
-import org.raapp.messenger.contacts.avatars.ContactPhoto;
-import org.raapp.messenger.crypto.AttachmentSecret;
-import org.raapp.messenger.crypto.AttachmentSecretProvider;
-import org.raapp.messenger.giph.model.GiphyPaddedUrl;
-import org.raapp.messenger.glide.ContactPhotoLoader;
-import org.raapp.messenger.glide.cache.EncryptedBitmapCacheDecoder;
-import org.raapp.messenger.glide.cache.EncryptedCacheEncoder;
-import org.raapp.messenger.glide.cache.EncryptedGifCacheDecoder;
-import org.raapp.messenger.glide.cache.EncryptedBitmapResourceEncoder;
-import org.raapp.messenger.glide.cache.EncryptedGifDrawableResourceEncoder;
-import org.raapp.messenger.glide.GiphyPaddedUrlLoader;
-import org.raapp.messenger.glide.OkHttpUrlLoader;
-import org.raapp.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
-import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.giph.model.GiphyPaddedUrl;
+import org.thoughtcrime.securesms.glide.ContactPhotoLoader;
+import org.thoughtcrime.securesms.glide.cache.EncryptedBitmapCacheDecoder;
+import org.thoughtcrime.securesms.glide.cache.EncryptedCacheEncoder;
+import org.thoughtcrime.securesms.glide.cache.EncryptedGifCacheDecoder;
+import org.thoughtcrime.securesms.glide.cache.EncryptedBitmapResourceEncoder;
+import org.thoughtcrime.securesms.glide.cache.EncryptedGifDrawableResourceEncoder;
+import org.thoughtcrime.securesms.glide.GiphyPaddedUrlLoader;
+import org.thoughtcrime.securesms.glide.OkHttpUrlLoader;
+import org.thoughtcrime.securesms.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
 
 import java.io.File;
 import java.io.InputStream;

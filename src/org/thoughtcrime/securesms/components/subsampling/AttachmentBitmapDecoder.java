@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.subsampling;
+package org.thoughtcrime.securesms.components.subsampling;
 
 
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.net.Uri;
 import com.davemorrissey.labs.subscaleview.decoder.ImageDecoder;
 import com.davemorrissey.labs.subscaleview.decoder.SkiaImageDecoder;
 
-import org.raapp.messenger.mms.PartAuthority;
+import org.thoughtcrime.securesms.mms.PartAuthority;
 
 import java.io.InputStream;
 

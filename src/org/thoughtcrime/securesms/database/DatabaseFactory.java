@@ -14,24 +14,24 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.raapp.messenger.DatabaseUpgradeActivity;
-import org.raapp.messenger.contacts.ContactsDatabase;
-import org.raapp.messenger.crypto.AttachmentSecret;
-import org.raapp.messenger.crypto.AttachmentSecretProvider;
-import org.raapp.messenger.crypto.DatabaseSecret;
-import org.raapp.messenger.crypto.DatabaseSecretProvider;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.helpers.ClassicOpenHelper;
-import org.raapp.messenger.database.helpers.SQLCipherMigrationHelper;
-import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.DatabaseUpgradeActivity;
+import org.thoughtcrime.securesms.contacts.ContactsDatabase;
+import org.thoughtcrime.securesms.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.crypto.DatabaseSecret;
+import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.helpers.ClassicOpenHelper;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherMigrationHelper;
+import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class DatabaseFactory {
 

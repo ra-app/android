@@ -1,12 +1,12 @@
-package org.raapp.messenger.components.reminder;
+package org.thoughtcrime.securesms.components.reminder;
 
 import android.content.Context;
 import android.content.Intent;
 import android.view.View.OnClickListener;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.RegistrationActivity;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.RegistrationActivity;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public class PushRegistrationReminder extends Reminder {
 

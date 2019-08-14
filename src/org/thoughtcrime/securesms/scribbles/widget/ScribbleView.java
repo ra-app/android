@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.scribbles.widget;
+package org.thoughtcrime.securesms.scribbles.widget;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -39,13 +39,13 @@ import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.request.transition.Transition;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.scribbles.widget.entity.MotionEntity;
-import org.raapp.messenger.scribbles.widget.entity.TextEntity;
-import org.raapp.messenger.util.Util;
-import org.raapp.messenger.util.concurrent.ListenableFuture;
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.scribbles.widget.entity.MotionEntity;
+import org.thoughtcrime.securesms.scribbles.widget.entity.TextEntity;
+import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

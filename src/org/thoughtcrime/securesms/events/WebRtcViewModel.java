@@ -1,10 +1,10 @@
-package org.raapp.messenger.events;
+package org.thoughtcrime.securesms.events;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.webrtc.CameraState;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.webrtc.CameraState;
 import org.webrtc.SurfaceViewRenderer;
 import org.whispersystems.libsignal.IdentityKey;
 

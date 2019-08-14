@@ -1,4 +1,4 @@
-package org.raapp.messenger.backup;
+package org.thoughtcrime.securesms.backup;
 
 
 import android.annotation.SuppressLint;
@@ -8,33 +8,33 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.backup.BackupProtos.Attachment;
-import org.raapp.messenger.backup.BackupProtos.BackupFrame;
-import org.raapp.messenger.backup.BackupProtos.DatabaseVersion;
-import org.raapp.messenger.backup.BackupProtos.SharedPreference;
-import org.raapp.messenger.backup.BackupProtos.SqlStatement;
-import org.raapp.messenger.crypto.AttachmentSecret;
-import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.GroupReceiptDatabase;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.SearchDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.notifications.NotificationChannels;
-import org.raapp.messenger.profiles.AvatarHelper;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.Conversions;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.backup.BackupProtos.Attachment;
+import org.thoughtcrime.securesms.backup.BackupProtos.BackupFrame;
+import org.thoughtcrime.securesms.backup.BackupProtos.DatabaseVersion;
+import org.thoughtcrime.securesms.backup.BackupProtos.SharedPreference;
+import org.thoughtcrime.securesms.backup.BackupProtos.SqlStatement;
+import org.thoughtcrime.securesms.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.GroupReceiptDatabase;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.SearchDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.profiles.AvatarHelper;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.Conversions;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.kdf.HKDFv3;
 import org.whispersystems.libsignal.util.ByteUtil;
 

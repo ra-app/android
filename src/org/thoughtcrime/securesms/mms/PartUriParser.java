@@ -1,9 +1,9 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.content.ContentUris;
 import android.net.Uri;
 
-import org.raapp.messenger.attachments.AttachmentId;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
 
 public class PartUriParser {
 

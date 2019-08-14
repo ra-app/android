@@ -1,4 +1,4 @@
-package org.raapp.messenger.profiles;
+package org.thoughtcrime.securesms.profiles;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.raapp.messenger.database.Address;
+import org.thoughtcrime.securesms.database.Address;
 
 import java.io.File;
 import java.io.FileInputStream;

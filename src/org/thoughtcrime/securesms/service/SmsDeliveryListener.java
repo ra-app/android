@@ -1,15 +1,15 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsMessage;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.jobmanager.JobManager;
-import org.raapp.messenger.jobs.SmsSentJob;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.jobmanager.JobManager;
+import org.thoughtcrime.securesms.jobs.SmsSentJob;
 
 public class SmsDeliveryListener extends BroadcastReceiver {
 

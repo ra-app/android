@@ -15,7 +15,7 @@
  *
  */
 
-package org.raapp.messenger.giph.ui;
+package org.thoughtcrime.securesms.giph.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

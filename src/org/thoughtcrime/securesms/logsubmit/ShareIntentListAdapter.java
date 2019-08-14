@@ -17,7 +17,7 @@
  * /
  */
 
-package org.raapp.messenger.logsubmit;
+package org.thoughtcrime.securesms.logsubmit;
 
 import android.content.Context;
 import android.content.Intent;

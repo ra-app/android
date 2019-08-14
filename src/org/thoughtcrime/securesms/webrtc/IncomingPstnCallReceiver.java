@@ -1,4 +1,4 @@
-package org.raapp.messenger.webrtc;
+package org.thoughtcrime.securesms.webrtc;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
 import android.telephony.TelephonyManager;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.service.WebRtcCallService;
+import org.thoughtcrime.securesms.service.WebRtcCallService;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

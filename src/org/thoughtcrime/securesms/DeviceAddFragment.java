@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.animation.Animator;
 import android.annotation.TargetApi;
@@ -14,10 +14,11 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.raapp.messenger.components.camera.CameraView;
-import org.raapp.messenger.qr.ScanListener;
-import org.raapp.messenger.qr.ScanningThread;
-import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.camera.CameraView;
+import org.thoughtcrime.securesms.qr.ScanListener;
+import org.thoughtcrime.securesms.qr.ScanningThread;
+import org.thoughtcrime.securesms.util.ViewUtil;
 
 public class DeviceAddFragment extends Fragment {
 

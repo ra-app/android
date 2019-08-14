@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -49,21 +49,22 @@ import android.widget.TextView;
 
 import com.codewaves.stickyheadergrid.StickyHeaderGridLayoutManager;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.CursorRecyclerViewAdapter;
-import org.raapp.messenger.database.MediaDatabase;
-import org.raapp.messenger.database.loaders.BucketedThreadMediaLoader;
-import org.raapp.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
-import org.raapp.messenger.database.loaders.ThreadMediaLoader;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.AttachmentUtil;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicNoActionBarTheme;
-import org.raapp.messenger.util.DynamicTheme;
-import org.raapp.messenger.util.StickyHeaderDecoration;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
+import org.thoughtcrime.securesms.database.MediaDatabase;
+import org.thoughtcrime.securesms.database.loaders.BucketedThreadMediaLoader;
+import org.thoughtcrime.securesms.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
+import org.thoughtcrime.securesms.database.loaders.ThreadMediaLoader;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.AttachmentUtil;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collection;
 import java.util.Locale;

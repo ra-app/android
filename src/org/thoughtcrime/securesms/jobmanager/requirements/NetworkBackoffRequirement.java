@@ -1,11 +1,11 @@
-package org.raapp.messenger.jobmanager.requirements;
+package org.thoughtcrime.securesms.jobmanager.requirements;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.jobmanager.Job;
-import org.raapp.messenger.jobmanager.dependencies.ContextDependent;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.dependencies.ContextDependent;
+import org.thoughtcrime.securesms.logging.Log;
 
 import java.util.concurrent.TimeUnit;
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -25,12 +25,13 @@ import android.widget.TextView;
 
 import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
-import org.raapp.messenger.components.ThumbnailView;
-import org.raapp.messenger.database.MediaDatabase.MediaRecord;
-import org.raapp.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.mms.Slide;
-import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.ThumbnailView;
+import org.thoughtcrime.securesms.database.MediaDatabase.MediaRecord;
+import org.thoughtcrime.securesms.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.mms.Slide;
+import org.thoughtcrime.securesms.util.MediaUtil;
 
 import java.util.Collection;
 import java.util.HashSet;

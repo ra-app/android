@@ -1,9 +1,9 @@
-package org.raapp.messenger.glide.cache;
+package org.thoughtcrime.securesms.glide.cache;
 
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.File;
 import java.io.FileInputStream;

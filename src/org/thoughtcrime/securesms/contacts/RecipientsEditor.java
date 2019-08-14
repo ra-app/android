@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatMultiAutoCompleteTextView;
@@ -35,8 +35,8 @@ import android.view.MotionEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.MultiAutoCompleteTextView;
 
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientsFormatter;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientsFormatter;
 
 import java.util.ArrayList;
 import java.util.List;

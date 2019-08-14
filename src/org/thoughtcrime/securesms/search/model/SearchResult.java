@@ -1,12 +1,12 @@
-package org.raapp.messenger.search.model;
+package org.thoughtcrime.securesms.search.model;
 
 import android.database.ContentObserver;
 import android.database.DataSetObserver;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.database.CursorList;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.database.CursorList;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 import java.util.List;
 

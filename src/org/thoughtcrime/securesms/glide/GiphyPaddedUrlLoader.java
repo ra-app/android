@@ -1,4 +1,4 @@
-package org.raapp.messenger.glide;
+package org.thoughtcrime.securesms.glide;
 
 import android.support.annotation.Nullable;
 
@@ -7,8 +7,8 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.raapp.messenger.giph.model.GiphyPaddedUrl;
-import org.raapp.messenger.giph.net.GiphyProxySelector;
+import org.thoughtcrime.securesms.giph.model.GiphyPaddedUrl;
+import org.thoughtcrime.securesms.giph.net.GiphyProxySelector;
 
 import java.io.InputStream;
 

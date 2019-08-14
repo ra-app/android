@@ -1,9 +1,11 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
+
+import org.raapp.messenger.R;
 
 public class ClearProfileAvatarActivity extends Activity {
 

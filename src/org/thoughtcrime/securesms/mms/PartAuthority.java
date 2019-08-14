@@ -1,4 +1,4 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -7,13 +7,13 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.attachments.AttachmentId;
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.providers.PersistentBlobProvider;
-import org.raapp.messenger.providers.PartProvider;
-import org.raapp.messenger.providers.SingleUseBlobProvider;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.attachments.AttachmentId;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
+import org.thoughtcrime.securesms.providers.PartProvider;
+import org.thoughtcrime.securesms.providers.SingleUseBlobProvider;
 
 import java.io.IOException;
 import java.io.InputStream;

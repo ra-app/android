@@ -1,4 +1,4 @@
-package org.raapp.messenger.database;
+package org.thoughtcrime.securesms.database;
 
 public class NoSuchMessageException extends Exception {
   public NoSuchMessageException(String s) {super(s);}

@@ -1,8 +1,8 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.content.Context;
 
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.util.Util;
 
 public class PushMediaConstraints extends MediaConstraints {
 

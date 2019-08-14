@@ -1,4 +1,4 @@
-package org.raapp.messenger.database.loaders;
+package org.thoughtcrime.securesms.database.loaders;
 
 
 import android.Manifest;
@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v4.content.CursorLoader;
 
-import org.raapp.messenger.permissions.Permissions;
+import org.thoughtcrime.securesms.permissions.Permissions;
 
 public class RecentPhotosLoader extends CursorLoader {
 

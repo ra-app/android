@@ -1,4 +1,4 @@
-package org.raapp.messenger.scribbles;
+package org.thoughtcrime.securesms.scribbles;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,8 +12,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.scribbles.widget.ColorPaletteAdapter;
-import org.raapp.messenger.scribbles.widget.VerticalSlideColorPicker;
+import org.thoughtcrime.securesms.scribbles.widget.ColorPaletteAdapter;
+import org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker;
 
 import java.util.Set;
 

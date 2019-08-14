@@ -1,13 +1,13 @@
-package org.raapp.messenger.jobs;
+package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.crypto.PreKeyUtil;
-import org.raapp.messenger.dependencies.InjectableType;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.jobs.requirements.MasterSecretRequirement;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.crypto.PreKeyUtil;
+import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.jobs.requirements.MasterSecretRequirement;
 import org.whispersystems.libsignal.InvalidKeyIdException;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyStore;
@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import static org.raapp.messenger.dependencies.AxolotlStorageModule.SignedPreKeyStoreFactory;
+import static org.thoughtcrime.securesms.dependencies.AxolotlStorageModule.SignedPreKeyStoreFactory;
 
 public class CleanPreKeysJob extends MasterSecretJob implements InjectableType {
 

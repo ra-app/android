@@ -1,10 +1,10 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.crypto.MasterSecret;
-import org.raapp.messenger.database.model.ThreadRecord;
-import org.raapp.messenger.mms.GlideRequests;
+import org.thoughtcrime.securesms.crypto.MasterSecret;
+import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

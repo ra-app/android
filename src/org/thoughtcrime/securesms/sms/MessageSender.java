@@ -14,37 +14,37 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.sms;
+package org.thoughtcrime.securesms.sms;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.attachments.Attachment;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.AttachmentDatabase;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.database.MmsDatabase;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.database.SmsDatabase;
-import org.raapp.messenger.database.ThreadDatabase;
-import org.raapp.messenger.database.model.MessageRecord;
-import org.raapp.messenger.database.model.MmsMessageRecord;
-import org.raapp.messenger.jobmanager.JobManager;
-import org.raapp.messenger.jobs.MmsSendJob;
-import org.raapp.messenger.jobs.PushGroupSendJob;
-import org.raapp.messenger.jobs.PushMediaSendJob;
-import org.raapp.messenger.jobs.PushTextSendJob;
-import org.raapp.messenger.jobs.SmsSendJob;
-import org.raapp.messenger.mms.MmsException;
-import org.raapp.messenger.mms.OutgoingMediaMessage;
-import org.raapp.messenger.push.AccountManagerFactory;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.service.ExpiringMessageManager;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.attachments.Attachment;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.AttachmentDatabase;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.jobmanager.JobManager;
+import org.thoughtcrime.securesms.jobs.MmsSendJob;
+import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
+import org.thoughtcrime.securesms.jobs.PushMediaSendJob;
+import org.thoughtcrime.securesms.jobs.PushTextSendJob;
+import org.thoughtcrime.securesms.jobs.SmsSendJob;
+import org.thoughtcrime.securesms.mms.MmsException;
+import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
+import org.thoughtcrime.securesms.push.AccountManagerFactory;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.service.ExpiringMessageManager;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;

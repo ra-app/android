@@ -1,4 +1,4 @@
-package org.raapp.messenger.transport;
+package org.thoughtcrime.securesms.transport;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,14 +17,15 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.loaders.BlockedContactsLoader;
-import org.raapp.messenger.mms.GlideApp;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.preferences.BlockedContactListItem;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.loaders.BlockedContactsLoader;
+import org.thoughtcrime.securesms.mms.GlideApp;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.preferences.BlockedContactListItem;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.DynamicLanguage;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 
 public class BlockedContactsActivity extends PassphraseRequiredActionBarActivity {
 

@@ -13,7 +13,7 @@
  limitations under the License.
  */
 
-package org.raapp.messenger.components.camera;
+package org.thoughtcrime.securesms.components.camera;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -32,17 +32,17 @@ import android.os.Build.VERSION;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 import android.view.OrientationEventListener;
 import android.view.ViewGroup;
 
-import org.raapp.messenger.ApplicationContext;
+import org.thoughtcrime.securesms.ApplicationContext;
 import org.raapp.messenger.R;
-import org.raapp.messenger.jobmanager.Job;
-import org.raapp.messenger.jobmanager.JobParameters;
-import org.raapp.messenger.util.BitmapUtil;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.JobParameters;
+import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

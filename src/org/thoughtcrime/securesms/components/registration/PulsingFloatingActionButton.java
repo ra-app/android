@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.registration;
+package org.thoughtcrime.securesms.components.registration;
 
 
 import android.animation.Animator;
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 
-import org.raapp.messenger.animation.AnimationCompleteListener;
+import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
 
 public class PulsingFloatingActionButton extends FloatingActionButton {
 

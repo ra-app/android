@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.scribbles;
+package org.thoughtcrime.securesms.scribbles;
 
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import org.raapp.messenger.logging.Log;
+import org.thoughtcrime.securesms.logging.Log;
 
-import org.raapp.messenger.util.AsyncLoader;
+import org.thoughtcrime.securesms.util.AsyncLoader;
 
 import java.io.IOException;
 

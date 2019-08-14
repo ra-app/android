@@ -1,9 +1,9 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 import android.content.Context;
 import android.content.Intent;
 
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.Recipient;
 import org.raapp.messenger.service.KeyCachingService;
 
 /**

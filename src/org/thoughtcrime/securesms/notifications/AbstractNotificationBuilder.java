@@ -1,4 +1,4 @@
-package org.raapp.messenger.notifications;
+package org.thoughtcrime.securesms.notifications;
 
 import android.app.Notification;
 import android.content.Context;
@@ -11,11 +11,11 @@ import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.RecipientDatabase;
-import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.TextSecurePreferences;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.database.RecipientDatabase;
+import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.Util;
 
 public abstract class AbstractNotificationBuilder extends NotificationCompat.Builder {
 

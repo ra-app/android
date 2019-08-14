@@ -1,4 +1,4 @@
-package org.raapp.messenger.util.concurrent;
+package org.thoughtcrime.securesms.util.concurrent;
 
 import java.util.LinkedList;
 import java.util.List;

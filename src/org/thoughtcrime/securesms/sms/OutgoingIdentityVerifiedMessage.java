@@ -1,7 +1,7 @@
-package org.raapp.messenger.sms;
+package org.thoughtcrime.securesms.sms;
 
 
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 public class OutgoingIdentityVerifiedMessage extends OutgoingTextMessage {
 

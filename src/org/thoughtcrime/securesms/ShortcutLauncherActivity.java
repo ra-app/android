@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,9 +10,10 @@ import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.CommunicationActions;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.CommunicationActions;
 
 public class ShortcutLauncherActivity extends AppCompatActivity {
 

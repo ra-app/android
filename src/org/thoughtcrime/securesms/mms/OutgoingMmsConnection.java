@@ -1,11 +1,11 @@
-package org.raapp.messenger.mms;
+package org.thoughtcrime.securesms.mms;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.google.android.mms.pdu_alt.SendConf;
 
-import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
 
 
 public interface OutgoingMmsConnection {

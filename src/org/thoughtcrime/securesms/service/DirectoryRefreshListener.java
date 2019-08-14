@@ -1,12 +1,12 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 
 import android.content.Context;
 import android.content.Intent;
 
-import org.raapp.messenger.ApplicationContext;
-import org.raapp.messenger.jobs.DirectoryRefreshJob;
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ApplicationContext;
+import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

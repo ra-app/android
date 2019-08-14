@@ -1,4 +1,4 @@
-package org.raapp.messenger.permissions;
+package org.thoughtcrime.securesms.permissions;
 
 
 import android.app.Activity;
@@ -23,8 +23,8 @@ import com.annimon.stream.Stream;
 import com.annimon.stream.function.Consumer;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.util.LRUCache;
-import org.raapp.messenger.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.LRUCache;
+import org.thoughtcrime.securesms.util.ServiceUtil;
 
 import java.lang.ref.WeakReference;
 import java.security.SecureRandom;

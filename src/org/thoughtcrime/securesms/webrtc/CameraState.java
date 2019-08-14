@@ -1,4 +1,4 @@
-package org.raapp.messenger.webrtc;
+package org.thoughtcrime.securesms.webrtc;
 
 import android.support.annotation.NonNull;
 

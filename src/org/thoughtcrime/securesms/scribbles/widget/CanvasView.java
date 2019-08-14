@@ -5,7 +5,7 @@
  * Released under the MIT license
  */
 
-package org.raapp.messenger.scribbles.widget;
+package org.thoughtcrime.securesms.scribbles.widget;
 
 
 import android.content.Context;

@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.raapp.messenger.contacts;
+package org.thoughtcrime.securesms.contacts;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.recipients.RecipientsFormatter;
+import org.thoughtcrime.securesms.recipients.RecipientsFormatter;
 
 import android.content.ContentResolver;
 import android.content.Context;

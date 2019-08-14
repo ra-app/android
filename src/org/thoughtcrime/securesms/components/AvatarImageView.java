@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,10 +13,10 @@ import android.view.View;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.contacts.avatars.ContactColors;
-import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.raapp.messenger.mms.GlideRequests;
-import org.raapp.messenger.recipients.Recipient;
+import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
+import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto;
+import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.thoughtcrime.securesms.recipients.Recipient;
 
 public class AvatarImageView extends AppCompatImageView {
 

@@ -1,4 +1,4 @@
-package org.raapp.messenger.preferences.widgets;
+package org.thoughtcrime.securesms.preferences.widgets;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

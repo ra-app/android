@@ -1,4 +1,4 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -16,11 +16,11 @@ import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.support.v4.app.NotificationCompat;
 
-import org.raapp.messenger.ConversationListActivity;
+import org.thoughtcrime.securesms.ConversationListActivity;
 import org.raapp.messenger.R;
-import org.raapp.messenger.database.SmsMigrator;
-import org.raapp.messenger.database.SmsMigrator.ProgressDescription;
-import org.raapp.messenger.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.database.SmsMigrator;
+import org.thoughtcrime.securesms.database.SmsMigrator.ProgressDescription;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.Executor;

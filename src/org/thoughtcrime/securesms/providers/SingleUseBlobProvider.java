@@ -1,4 +1,4 @@
-package org.raapp.messenger.providers;
+package org.thoughtcrime.securesms.providers;
 
 import android.content.ContentUris;
 import android.net.Uri;

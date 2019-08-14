@@ -1,11 +1,11 @@
-package org.raapp.messenger.service;
+package org.thoughtcrime.securesms.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import org.raapp.messenger.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 /**
  * Respond to a PanicKit trigger Intent by locking the app.  PanicKit provides a
@@ -21,8 +21,8 @@ public class PanicResponderListener extends BroadcastReceiver {
     if (intent != null  && !TextSecurePreferences.isPasswordDisabled(context) &&
         "info.guardianproject.panic.action.TRIGGER".equals(intent.getAction()))
     {
-      Intent lockIntent = new Intent(context, KeyCachingService.class);
-      lockIntent.setAction(KeyCachingService.CLEAR_KEY_ACTION);
+      Intent lockIntent = new Intent(context, org.raapp.messenger.service.KeyCachingService.class);
+      lockIntent.setAction(org.raapp.messenger.service.KeyCachingService.CLEAR_KEY_ACTION);
       context.startService(lockIntent);
     }
   }

@@ -1,9 +1,9 @@
-package org.raapp.messenger.crypto.storage;
+package org.thoughtcrime.securesms.crypto.storage;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.raapp.messenger.database.DatabaseFactory;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.whispersystems.libsignal.InvalidKeyIdException;
 import org.whispersystems.libsignal.state.PreKeyRecord;
 import org.whispersystems.libsignal.state.PreKeyStore;

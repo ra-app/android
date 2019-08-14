@@ -1,4 +1,4 @@
-package org.raapp.messenger.components.emoji;
+package org.thoughtcrime.securesms.components.emoji;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.widget.ImageButton;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.EmojiDrawer.EmojiDrawerListener;
+import org.thoughtcrime.securesms.components.emoji.EmojiDrawer.EmojiDrawerListener;
 
 public class EmojiToggle extends ImageButton implements EmojiDrawerListener {
 

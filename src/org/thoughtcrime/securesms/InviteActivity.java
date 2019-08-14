@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.thoughtcrime.securesms;
 
 import android.animation.Animator;
 import android.annotation.SuppressLint;
@@ -24,17 +24,18 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.raapp.messenger.components.ContactFilterToolbar;
-import org.raapp.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
-import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.database.DatabaseFactory;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.sms.MessageSender;
-import org.raapp.messenger.sms.OutgoingTextMessage;
-import org.raapp.messenger.util.ViewUtil;
-import org.raapp.messenger.util.concurrent.ListenableFuture.Listener;
-import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.R;
+import org.thoughtcrime.securesms.components.ContactFilterToolbar;
+import org.thoughtcrime.securesms.components.ContactFilterToolbar.OnFilterChangedListener;
+import org.thoughtcrime.securesms.contacts.ContactsCursorLoader.DisplayMode;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
+import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener;
+import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
 
 import java.util.concurrent.ExecutionException;
 

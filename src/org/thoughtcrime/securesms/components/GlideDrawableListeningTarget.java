@@ -1,4 +1,4 @@
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.request.target.DrawableImageViewTarget;
 
-import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
 
 public class GlideDrawableListeningTarget extends DrawableImageViewTarget {
 

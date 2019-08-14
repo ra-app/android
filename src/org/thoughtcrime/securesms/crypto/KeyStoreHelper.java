@@ -1,4 +1,4 @@
-package org.raapp.messenger.crypto;
+package org.thoughtcrime.securesms.crypto;
 
 
 import android.os.Build;
@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import org.raapp.messenger.util.JsonUtils;
+import org.thoughtcrime.securesms.util.JsonUtils;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;

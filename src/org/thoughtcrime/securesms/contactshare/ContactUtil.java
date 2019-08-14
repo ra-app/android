@@ -1,4 +1,4 @@
-package org.raapp.messenger.contactshare;
+package org.thoughtcrime.securesms.contactshare;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -18,16 +18,16 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.components.emoji.EmojiStrings;
-import org.raapp.messenger.contactshare.Contact.Email;
-import org.raapp.messenger.contactshare.Contact.Phone;
-import org.raapp.messenger.contactshare.Contact.PostalAddress;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.logging.Log;
-import org.raapp.messenger.mms.PartAuthority;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.util.SpanUtil;
-import org.raapp.messenger.util.Util;
+import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
+import org.thoughtcrime.securesms.contactshare.Contact.Email;
+import org.thoughtcrime.securesms.contactshare.Contact.Phone;
+import org.thoughtcrime.securesms.contactshare.Contact.PostalAddress;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.logging.Log;
+import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.util.SpanUtil;
+import org.thoughtcrime.securesms.util.Util;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
         android:layout_height="?android:attr/listPreferredItemHeight"
         android:paddingRight="25dip">
 
-    <org.raapp.messenger.components.AvatarImageView
+    <org.thoughtcrime.securesms.components.AvatarImageView
             android:id="@+id/contact_photo_image"
             android:layout_width="@dimen/contact_selection_photo_size"
             android:layout_height="@dimen/contact_selection_photo_size"

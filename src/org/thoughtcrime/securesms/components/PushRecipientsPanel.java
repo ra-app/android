@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.raapp.messenger.components;
+package org.thoughtcrime.securesms.components;
 
 import android.content.Context;
 import android.os.Build;
@@ -27,11 +27,11 @@ import android.widget.AdapterView;
 import android.widget.RelativeLayout;
 
 import org.raapp.messenger.R;
-import org.raapp.messenger.contacts.RecipientsAdapter;
-import org.raapp.messenger.contacts.RecipientsEditor;
-import org.raapp.messenger.database.Address;
-import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.contacts.RecipientsAdapter;
+import org.thoughtcrime.securesms.contacts.RecipientsEditor;
+import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
 
 import java.util.LinkedList;
 import java.util.List;
