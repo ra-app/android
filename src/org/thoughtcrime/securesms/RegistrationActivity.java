@@ -169,13 +169,13 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
     initializeSpinner();
     initializePermissions();
     initializeNumber();
-    // initializeChallengeListener();
+    initializeChallengeListener();
   }
 
   @Override
   public void onDestroy() {
     super.onDestroy();
-    // shutdownChallengeListener();
+    shutdownChallengeListener();
     markAsVerifying(false);
     EventBus.getDefault().unregister(this);
   }
@@ -1002,7 +1002,6 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
     dialog.show();
   }
 
-  /*
   private void initializeChallengeListener() {
     smsRetrieverReceiver = new SmsRetrieverReceiver();
     IntentFilter filter = new IntentFilter(SmsRetriever.SMS_RETRIEVED_ACTION);
@@ -1015,7 +1014,6 @@ public class RegistrationActivity extends org.raapp.messenger.BaseActionBarActiv
       smsRetrieverReceiver = null;
     }
   }
-  */
 
   private void markAsVerifying(boolean verifying) {
     TextSecurePreferences.setVerifying(this, verifying);
