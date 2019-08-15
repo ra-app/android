@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.mms;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.thoughtcrime.securesms.logging.Log;
 
 import com.bumptech.glide.Priority;

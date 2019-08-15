@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.color;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import org.raapp.messenger.R;
 

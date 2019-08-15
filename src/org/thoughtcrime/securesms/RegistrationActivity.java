@@ -11,14 +11,13 @@ import android.content.IntentFilter;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AlertDialog;
 import android.text.Editable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
@@ -36,8 +35,6 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.OvershootInterpolator;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
@@ -173,7 +170,6 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     super.onCreate(icicle);
     setContentView(R.layout.registration_activity);
 
-    changeStatusBarColor();
     initializeResources();
     initializeSpinner();
     initializePermissions();
@@ -181,13 +177,6 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     initializeChallengeListener();
   }
 
-  @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
-  private void changeStatusBarColor() {
-    Window window = getWindow();
-//    window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-//    window.setStatusBarColor(ContextCompat.getColor(this, android.R.color.transparent));
-//    window.setBackgroundDrawableResource(R.drawable.ra_app_background);
-  }
 
   @Override
   public void onDestroy() {

@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.jobs;
 
 import android.Manifest;
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.thoughtcrime.securesms.logging.Log;
 
 import org.raapp.messenger.R;

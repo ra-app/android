@@ -16,7 +16,7 @@
  */
 package org.thoughtcrime.securesms.jobmanager;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.thoughtcrime.securesms.logging.Log;
 
 import org.thoughtcrime.securesms.jobmanager.persistence.PersistentStorage;

@@ -36,9 +36,7 @@
                       android:textColor="@color/white"
                       android:text="@string/registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply"
                       android:gravity="center"/>
-
         </LinearLayout>
-
 
 
         <LinearLayout android:id="@+id/restore_container"
@@ -153,11 +151,9 @@
             </LinearLayout>
 
             <Button
-                android:layout_width="match_parent"
                 android:id="@+id/registerButton"
                 android:text="@string/registration_activity__register"
-                android:background="@drawable/blue_to_green"
-                android:layout_height="42dp" />
+                style="@style/ra_button_style" />
 
             <!--<com.dd.CircularProgressButton-->
                     <!--android:id="@+id/registerButton"-->
@@ -288,14 +284,14 @@
             </LinearLayout>
 
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="100dp"
                     android:paddingRight="100dp">
 
-                <android.support.design.widget.TextInputEditText
+                <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/pin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -303,7 +299,7 @@
                         android:imeOptions="actionDone"
                         android:hint="@string/registration_activity__registration_lock_pin"/>
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <com.dd.CircularProgressButton
                     android:id="@+id/pinButton"

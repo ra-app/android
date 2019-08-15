@@ -10,9 +10,11 @@ import android.graphics.Rect;
 import android.graphics.YuvImage;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.*;
-import android.support.annotation.WorkerThread;
-import android.support.media.ExifInterface;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
+import androidx.exifinterface.media.ExifInterface;
 import org.thoughtcrime.securesms.logging.Log;
 import android.util.Pair;
 

@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.contacts.avatars;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import org.thoughtcrime.securesms.color.MaterialColor;
 import org.thoughtcrime.securesms.color.MaterialColors;

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.jobs;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import org.raapp.messenger.BuildConfig;
 import org.thoughtcrime.securesms.TextSecureExpiredException;

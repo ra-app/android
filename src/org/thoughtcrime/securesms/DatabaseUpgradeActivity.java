@@ -24,7 +24,7 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.preference.PreferenceManager;
+import androidx.preference.PreferenceManager;
 
 import org.raapp.messenger.R;
 import org.thoughtcrime.securesms.logging.Log;

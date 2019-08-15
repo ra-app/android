@@ -77,7 +77,7 @@
             app:pickerBorderColor="@color/white"
             app:pickerColors="@array/scribble_colors"/>
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/scribble_color_palette"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
