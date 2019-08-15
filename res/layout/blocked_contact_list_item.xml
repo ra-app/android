@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<org.raapp.messenger.preferences.BlockedContactListItem
+<org.thoughtcrime.securesms.preferences.BlockedContactListItem
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/listPreferredItemHeight"
@@ -29,4 +29,4 @@
               android:gravity="center_vertical|left"
               android:textAppearance="?android:attr/textAppearanceMedium" />
 
-</org.raapp.messenger.preferences.BlockedContactListItem>
+</org.thoughtcrime.securesms.preferences.BlockedContactListItem>

@@ -6,6 +6,7 @@
                   xmlns:tools="http://schemas.android.com/tools"
                   android:fillViewport="true"
                   android:background="@color/white"
+    
                   tools:context="org.thoughtcrime.securesms.RegistrationActivity">
 
     <RelativeLayout android:layout_width="match_parent"
@@ -40,20 +41,7 @@
 
         </LinearLayout>
 
-        <android.support.design.widget.FloatingActionButton
-                app:fabSize="normal"
-                app:backgroundTint="@color/white"
-                app:elevation="1dp"
-                android:id="@+id/fab"
-                android:transitionName="icon"
-                android:src="@drawable/ic_action_name"
-                android:tint="@color/grey_700"
-                android:rotation="15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/header"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="-32dp"/>
+
 
         <LinearLayout android:id="@+id/restore_container"
                       android:padding="16dp"
@@ -161,21 +149,28 @@
 
             </LinearLayout>
 
-            <com.dd.CircularProgressButton
-                    android:id="@+id/registerButton"
-                    app:cpb_textIdle="@string/registration_activity__register"
-                    app:cpb_selectorIdle="@drawable/progress_button_state"
-                    app:cpb_colorIndicator="@color/white"
-                    app:cpb_colorProgress="@color/textsecure_primary"
-                    app:cpb_cornerRadius="50dp"
-                    android:background="@color/signal_primary"
-                    android:textColor="@color/white"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"/>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/registerButton"
+                android:text="@string/registration_activity__register"
+                android:background="@drawable/blue_to_green"
+                android:layout_height="42dp" />
+
+            <!--<com.dd.CircularProgressButton-->
+                    <!--android:id="@+id/registerButton"-->
+                    <!--app:cpb_textIdle="@string/registration_activity__register"-->
+                    <!--app:cpb_selectorIdle="@color/transparent"-->
+                    <!--app:cpb_colorIndicator="@color/transparent"-->
+                    <!--app:cpb_colorProgress="@color/textsecure_primary"-->
+                    <!--app:cpb_cornerRadius="50dp"-->
+                    <!--android:background="@color/green"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_marginLeft="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:layout_gravity="center_horizontal"/>-->
 
             <TextView android:id="@+id/skip_button"
                       android:layout_gravity="center_horizontal"

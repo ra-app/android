@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.raapp.messenger.ConversationListItem
+<org.thoughtcrime.securesms.ConversationListItem
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -159,4 +159,4 @@
 
     </RelativeLayout>
 
-</org.raapp.messenger.ConversationListItem>
+</org.thoughtcrime.securesms.ConversationListItem>

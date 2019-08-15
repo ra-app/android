@@ -2,7 +2,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
        xmlns:tools="http://schemas.android.com/tools"
        xmlns:app="http://schemas.android.com/apk/res-auto"
-       tools:context="org.raapp.messenger.components.AudioView">
+       tools:context="org.thoughtcrime.securesms.components.AudioView">
 
     <LinearLayout android:id="@+id/audio_widget_container"
                   android:orientation="vertical"

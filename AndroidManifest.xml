@@ -6,7 +6,7 @@
     <uses-sdk tools:overrideLibrary="com.amulyakhare.textdrawable,com.astuetz.pagerslidingtabstrip,pl.tajchert.waitingdots,com.h6ah4i.android.multiselectlistpreferencecompat,android.support.v13,com.davemorrissey.labs.subscaleview,com.tomergoldst.tooltips,com.klinker.android.send_message,com.takisoft.colorpicker,android.support.v14.preference"/>
 
     <permission android:name="org.raapp.messenger.ACCESS_SECRETS"
-                android:label="Access to TextSecure Secrets"
+                android:label="Access to RA-App Secrets"
                 android:protectionLevel="signature" />
 
     <uses-feature android:name="android.hardware.camera" android:required="false" />
@@ -87,9 +87,9 @@
     <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
 
-    <permission android:name="org.raapp.messenger.permission.C2D_MESSAGE"
+    <permission android:name="org.thoughtcrime.securesms.permission.C2D_MESSAGE"
                 android:protectionLevel="signature" />
-    <uses-permission android:name="org.raapp.messenger.permission.C2D_MESSAGE" />
+    <uses-permission android:name="org.thoughtcrime.securesms.permission.C2D_MESSAGE" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
@@ -401,7 +401,7 @@
               android:label="@string/AndroidManifest_remove_photo">
 
         <intent-filter>
-            <action android:name="org.raapp.messenger.action.CLEAR_PROFILE_PHOTO"/>
+            <action android:name="org.thoughtcrime.securesms.action.CLEAR_PROFILE_PHOTO"/>
             <category android:name="android.intent.category.DEFAULT"/>
         </intent-filter>
     </activity>
@@ -425,7 +425,7 @@
 
     <service android:enabled="true" android:name="org.thoughtcrime.securesms.service.WebRtcCallService"/>
     <service android:enabled="true" android:name="org.thoughtcrime.securesms.service.ApplicationMigrationService"/>
-    <service android:enabled="true" android:exported="false" android:name="org.raapp.messenger.service.KeyCachingService"/>
+    <service android:enabled="true" android:exported="false" android:name="org.thoughtcrime.securesms.service.KeyCachingService"/>
     <service android:enabled="true" android:name="org.thoughtcrime.securesms.service.MessageRetrievalService"/>
 
     <service android:name="org.thoughtcrime.securesms.service.QuickResponseService"
@@ -487,7 +487,7 @@
     <receiver android:name="org.thoughtcrime.securesms.service.SmsDeliveryListener"
               android:exported="true">
         <intent-filter>
-            <action android:name="org.raapp.messenger.services.MESSAGE_SENT"/>
+            <action android:name="org.thoughtcrime.securesms.services.MESSAGE_SENT"/>
         </intent-filter>
     </receiver>
 
@@ -509,7 +509,7 @@
               android:enabled="true"
               android:exported="false">
         <intent-filter>
-            <action android:name="org.raapp.messenger.notifications.CLEAR"/>
+            <action android:name="org.thoughtcrime.securesms.notifications.CLEAR"/>
         </intent-filter>
     </receiver>
 
@@ -517,21 +517,21 @@
               android:enabled="true"
               android:exported="false">
         <intent-filter>
-            <action android:name="org.raapp.messenger.notifications.WEAR_REPLY"/>
+            <action android:name="org.thoughtcrime.securesms.notifications.WEAR_REPLY"/>
         </intent-filter>
     </receiver>
 
     <receiver android:name="org.thoughtcrime.securesms.notifications.AndroidAutoHeardReceiver"
               android:exported="false">
         <intent-filter>
-          <action android:name="org.raapp.messenger.notifications.ANDROID_AUTO_HEARD"/>
+          <action android:name="org.thoughtcrime.securesms.notifications.ANDROID_AUTO_HEARD"/>
         </intent-filter>
     </receiver>
 
     <receiver android:name="org.thoughtcrime.securesms.notifications.AndroidAutoReplyReceiver"
               android:exported="false">
         <intent-filter>
-          <action android:name="org.raapp.messenger.notifications.ANDROID_AUTO_REPLY"/>
+          <action android:name="org.thoughtcrime.securesms.notifications.ANDROID_AUTO_REPLY"/>
         </intent-filter>
     </receiver>
 
@@ -573,7 +573,7 @@
     <receiver android:name="org.thoughtcrime.securesms.service.BootReceiver">
         <intent-filter>
             <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            <action android:name="org.raapp.messenger.RESTART"/>
+            <action android:name="org.thoughtcrime.securesms.RESTART"/>
         </intent-filter>
     </receiver>
 
@@ -609,13 +609,13 @@
 
     <receiver android:name="org.thoughtcrime.securesms.notifications.MessageNotifier$ReminderReceiver">
         <intent-filter>
-            <action android:name="org.raapp.messenger.MessageNotifier.REMINDER_ACTION"/>
+            <action android:name="org.thoughtcrime.securesms.MessageNotifier.REMINDER_ACTION"/>
         </intent-filter>
     </receiver>
 
     <receiver android:name="org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver">
         <intent-filter>
-            <action android:name="org.raapp.messenger.DELETE_NOTIFICATION"/>
+            <action android:name="org.thoughtcrime.securesms.DELETE_NOTIFICATION"/>
         </intent-filter>
     </receiver>
 
@@ -626,7 +626,7 @@
         </intent-filter>
 
         <intent-filter>
-            <action android:name="org.raapp.messenger.ExperienceUpgradeActivity.DISMISS_ACTION"/>
+            <action android:name="org.thoughtcrime.securesms.ExperienceUpgradeActivity.DISMISS_ACTION"/>
         </intent-filter>
     </receiver>
 

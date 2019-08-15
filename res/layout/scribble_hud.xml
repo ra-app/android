@@ -67,7 +67,7 @@
             android:padding="12dp"
             android:background="?attr/selectableItemBackgroundBorderless"/>
 
-        <org.raapp.messenger.scribbles.widget.VerticalSlideColorPicker
+        <org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker
             android:id="@+id/scribble_color_picker"
             android:layout_width="26dp"
             android:layout_height="170dp"

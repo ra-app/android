@@ -36,6 +36,7 @@ import android.view.View;
 import android.view.animation.OvershootInterpolator;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -133,7 +134,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   private Spinner                countrySpinner;
   private TextView               countryCode;
   private TextView               number;
-  private CircularProgressButton createButton;
+  private Button createButton;
   private TextView               informationView;
   private TextView               informationToggleText;
   private TextView               title;
@@ -464,8 +465,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   }
 
   private void handleRequestVerification(@NonNull String e164number, boolean gcmSupported) {
-    createButton.setIndeterminateProgressMode(true);
-    createButton.setProgress(50);
+    //createButton.setIndeterminateProgressMode(true);
+    //createButton.setProgress(50);
 
     if (gcmSupported) {
       SmsRetrieverClient client = SmsRetriever.getClient(this);
@@ -517,8 +518,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       protected void onPostExecute(@Nullable Pair<String, Optional<String>> result) {
         if (result == null) {
           Toast.makeText(RegistrationActivity.this, R.string.RegistrationActivity_unable_to_connect_to_service, Toast.LENGTH_LONG).show();
-          createButton.setIndeterminateProgressMode(false);
-          createButton.setProgress(0);
+          //createButton.setIndeterminateProgressMode(false);
+          //createButton.setProgress(0);
           return;
         }
 
@@ -837,8 +838,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
         registrationContainer.setTranslationX(endDirectionMultiplier * registrationContainer.getWidth());
         registrationContainer.setVisibility(View.VISIBLE);
-        createButton.setProgress(0);
-        createButton.setIndeterminateProgressMode(false);
+        //createButton.setProgress(0);
+        //createButton.setIndeterminateProgressMode(false);
         registrationContainer.animate().translationX(0).setDuration(SCENE_TRANSITION_DURATION).setListener(null).setInterpolator(new OvershootInterpolator()).start();
       }
     }).start();
@@ -913,14 +914,14 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       }
     }).start();
 
-    fab.animate().rotationBy(-360f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
-      @Override
-      public void onAnimationEnd(Animator animation) {
-        fab.clearAnimation();
-        fab.setImageResource(R.drawable.ic_textsms_24dp);
-        fab.animate().rotationBy(-375f).setDuration(SCENE_TRANSITION_DURATION).setListener(null).start();
-      }
-    }).start();
+//    fab.animate().rotationBy(-360f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
+//      @Override
+//      public void onAnimationEnd(Animator animation) {
+//        fab.clearAnimation();
+//        fab.setImageResource(R.drawable.ic_textsms_24dp);
+//        fab.animate().rotationBy(-375f).setDuration(SCENE_TRANSITION_DURATION).setListener(null).start();
+//      }
+//    }).start();
 
     this.callMeCountDownView.startCountDown(callCountdown);
   }

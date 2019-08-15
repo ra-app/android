@@ -19,6 +19,6 @@
         <fragment android:id="@+id/contact_selection_list_fragment"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
-                  android:name="org.raapp.messenger.ContactSelectionListFragment" />
+                  android:name="org.thoughtcrime.securesms.ContactSelectionListFragment" />
 
 </LinearLayout>

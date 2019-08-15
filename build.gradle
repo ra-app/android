@@ -290,7 +290,7 @@ android {
         versionCode 109
         versionName "0.0.9"
 
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 28
         multiDexEnabled true
 
