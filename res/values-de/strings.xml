@@ -817,8 +817,8 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <!--registration_activity-->
   <string name="registration_activity__phone_number">RUFNUMMER</string>
   <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP macht Kommunikation einfach, indem es deine bereits bestehende Rufnummer und dein Adressbuch verwendet. Freunde und Kontakte, die bereits deine Rufnummer kennen, können so über RAAPP leicht mit dir Kontakt aufnehmen.\n\nBeim Registrieren werden einige Kontaktinformationen an den Server übermittelt. Diese werden nicht gespeichert.</string>
-  <string name="registration_activity__verify_your_number">Verifiziere deine Rufnummer</string>
-  <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Bitte gib deine Rufnummer ein, um einen Verifikationscode zu erhalten. Dabei können Mobilfunkgebühren anfallen.</string>
+  <string name="registration_activity__verify_your_number">Mobilnummer</string>
+  <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Bitte geben Sie Ihre Mobilnummer ein, um einen Verifikationscode zu erhalten. Dabei können Mobilfunkgebühren anfallen.</string>
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Name/Rufnummer eingeben</small></string>
   <string name="recipients_panel__add_members">Mitglieder hinzufügen</string>

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="TextSecure.RaStandard" parent="@style/TextSecure.LightTheme">
+
+    </style>
 
     <style name="TextSecure.LightNoActionBar" parent="@style/TextSecure.LightTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowBackground">@drawable/ra_app_background</item>
+
 
         <item name="theme_type">light</item>
         <item name="colorPrimary">@color/textsecure_primary</item>
