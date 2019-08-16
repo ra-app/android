@@ -77,16 +77,16 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     contactsFragment  = (ContactSelectionListFragment)getSupportFragmentManager().findFragmentById(R.id.contact_selection_list_fragment);
 
     inviteText.setText(getString(R.string.InviteActivity_lets_switch_to_signal, "https://invite.ra-app.eu"));
-    updateSmsButtonText();
+    // updateSmsButtonText();
 
     if (VERSION.SDK_INT >= VERSION_CODES.LOLLIPOP) {
       heart.getViewTreeObserver().addOnPreDrawListener(new HeartPreDrawListener());
     }
     contactsFragment.setOnContactSelectedListener(this);
     shareButton.setOnClickListener(new ShareClickListener());
-    smsButton.setOnClickListener(new SmsClickListener());
-    smsCancelButton.setOnClickListener(new SmsCancelClickListener());
-    smsSendButton.setOnClickListener(new SmsSendClickListener());
+    // smsButton.setOnClickListener(new SmsClickListener());
+    // smsCancelButton.setOnClickListener(new SmsCancelClickListener());
+    // smsSendButton.setOnClickListener(new SmsSendClickListener());
     contactFilter.setOnFilterChangedListener(new ContactFilterChangedListener());
     contactFilter.setNavigationIcon(R.drawable.ic_search_white_24dp);
   }
@@ -99,14 +99,15 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
 
   @Override
   public void onContactSelected(String number) {
-    updateSmsButtonText();
+    // updateSmsButtonText();
   }
 
   @Override
   public void onContactDeselected(String number) {
-    updateSmsButtonText();
+    // updateSmsButtonText();
   }
 
+  /*
   private void sendSmsInvites() {
     new SendSmsInvitesAsyncTask(this, inviteText.getText().toString())
         .executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,
@@ -120,20 +121,23 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
                                                            contactsFragment.getSelectedContacts().size()));
     smsSendButton.setEnabled(!contactsFragment.getSelectedContacts().isEmpty());
   }
+  */
 
   @Override public void onBackPressed() {
     if (smsSendFrame.getVisibility() == View.VISIBLE) {
-      cancelSmsSelection();
+      // cancelSmsSelection();
     } else {
       super.onBackPressed();
     }
   }
 
+  /*
   private void cancelSmsSelection() {
     contactsFragment.reset();
     updateSmsButtonText();
     ViewUtil.animateOut(smsSendFrame, slideOutAnimation, View.GONE);
   }
+  */
 
   private class ShareClickListener implements OnClickListener {
     @Override
@@ -150,6 +154,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     }
   }
 
+  /*
   private class SmsClickListener implements OnClickListener {
     @Override
     public void onClick(View v) {
@@ -177,6 +182,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
           .show();
     }
   }
+  */
 
   private class ContactFilterChangedListener implements OnFilterChangedListener {
     @Override
@@ -202,6 +208,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     }
   }
 
+  /*
   @SuppressLint("StaticFieldLeak")
   private class SendSmsInvitesAsyncTask extends ProgressDialogAsyncTask<String,Void,Void> {
     private final String message;
@@ -248,4 +255,5 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
       Toast.makeText(context, R.string.InviteActivity_invitations_sent, Toast.LENGTH_LONG).show();
     }
   }
+  */
 }
