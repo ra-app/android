@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAAPP</string>
+  <string name="app_name">OfficeApp</string>
   <string name="yes">Так</string>
   <string name="no">Ні</string>
   <string name="delete">Видалити</string>
@@ -25,17 +25,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Видалити</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Вимкнути фразу-пароль?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Це назавжди розблокує RAAPP та сповіщення повідомлень.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Це назавжди розблокує OfficeApp та сповіщення повідомлень.</string>
   <string name="ApplicationPreferencesActivity_disable">Вимкнути</string>
   <string name="ApplicationPreferencesActivity_unregistering">Скасувати реєстрацію</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Скасування реєстрації на повідомлення та виклики RAAPP...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Вимкнути повідомлення та виклики RAAPP?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Скасування реєстрації на сервері вимкне повідомлення та виклики RAAPP. Вам знадобиться знову зареєструвати ваш номер телефону, щоб користуватися ними в майбутньому.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Скасування реєстрації на повідомлення та виклики OfficeApp...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Вимкнути повідомлення та виклики OfficeApp?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Скасування реєстрації на сервері вимкне повідомлення та виклики OfficeApp. Вам знадобиться знову зареєструвати ваш номер телефону, щоб користуватися ними в майбутньому.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Помилка підключення до сервера!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS увімкнено</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Торкніться, щоб змінити типову програму для SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS вимкнено</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Торкніться, щоб зробити RAAPP типовою програмою для SMS</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Торкніться, щоб зробити OfficeApp типовою програмою для SMS</string>
   <string name="ApplicationPreferencesActivity_on">увімк.</string>
   <string name="ApplicationPreferencesActivity_On">Увімк.</string>
   <string name="ApplicationPreferencesActivity_off">вимк.</string>
@@ -58,10 +58,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(відповісти)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Неможливо знайти програму для обраного медіа.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">RAAPP потребує дозволу \"Зберігання\" для прикріплення фото, відео та аудіо, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">RAAPP потребує дозволу \"Контакти\", щоб прикріпити контакт, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Контакти\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">RAAPP потребує дозволу \"Геодані\", щоб прикріпити дані про розташування, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Геодані\".</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">RAAPP потребує дозволу \"Камера\", щоб фотографувати або знімати відео, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">OfficeApp потребує дозволу \"Зберігання\" для прикріплення фото, відео та аудіо, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">OfficeApp потребує дозволу \"Контакти\", щоб прикріпити контакт, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Контакти\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">OfficeApp потребує дозволу \"Геодані\", щоб прикріпити дані про розташування, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Геодані\".</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">OfficeApp потребує дозволу \"Камера\", щоб фотографувати або знімати відео, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Помилка відтворення аудіо!</string>
   <!--BlockedContactsActivity-->
@@ -77,7 +77,7 @@
   <string name="ClearProfileActivity_remove">Вилучити</string>
   <string name="ClearProfileActivity_remove_profile_photo">Видалити фото профіля?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Ваш номер безпеки із %1$s змінився. Це може означати або те, що хтось намагається перехопити вашу розмову, або те, що %2$s просто перевстановив RAAPP.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Ваш номер безпеки із %1$s змінився. Це може означати або те, що хтось намагається перехопити вашу розмову, або те, що %2$s просто перевстановив OfficeApp.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Можливо, ви хочете перевірити ваш номер безпеки із цим контактом.</string>
   <string name="ConfirmIdentityDialog_accept">Прийняти</string>
   <!--ContactsCursorLoader-->
@@ -86,7 +86,7 @@
   <string name="ContactsCursorLoader_groups">Групи</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Повідомлення %s</string>
-  <string name="ContactsDatabase_signal_call_s">Виклик RAAPP %s</string>
+  <string name="ContactsDatabase_signal_call_s">Виклик OfficeApp %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Призначене ім\'я</string>
   <string name="ContactNameEditActivity_family_name">Сімейне ім\'я</string>
@@ -104,7 +104,7 @@
   <string name="ConversationItem_group_action_left">%1$s покидає групу.</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Скористатися незашифрованим SMS як запасним варіантом?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Скористатися незашифрованим MMS як запасним варіантом?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Це повідомлення <b>не</b> буде зашифровано, оскільки одержувач більше не користується RAAPP.\n\nНадіслати незахищене повідомлення?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Це повідомлення <b>не</b> буде зашифровано, оскільки одержувач більше не користується OfficeApp.\n\nНадіслати незахищене повідомлення?</string>
   <string name="ConversationItem_unable_to_open_media">Неможливо знайти програму для відкриття цього медіа.</string>
   <string name="ConversationItem_copied_text">Скопійовано %s</string>
   <string name="ConversationItem_from_s">від %s</string>
@@ -127,8 +127,8 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ви дійсно хочете покинути цю групу?</string>
   <string name="ConversationActivity_transport_insecure_sms">Незахищене SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Незахищене MMS</string>
-  <string name="ConversationActivity_transport_signal">RAAPP</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Давай перейдемо у RAAPP %1$s</string>
+  <string name="ConversationActivity_transport_signal">OfficeApp</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Давай перейдемо у OfficeApp %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Давай використовувати це для чату: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Помилка при виході з групи</string>
   <string name="ConversationActivity_specify_recipient">Будь ласка, виберіть контакт</string>
@@ -139,13 +139,13 @@
   <string name="ConversationActivity_quick_camera_unavailable">Камера недоступна</string>
   <string name="ConversationActivity_unable_to_record_audio">Не вдалося записати аудіо!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Немає програми на вашому пристрої, що може відкрити це посилання.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Щоб надсилати аудіо повідомлення, дозвольте RAAPP доступ до мікрофона.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP потребує дозволу \"Мікрофон\", щоб надсилати аудіоповідомлення але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Для дзвінка %s, RAAPP потребує доступ до вашого мікрофону та камери.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP потребує дозволів \"Мікрофон\" та \"Камера\", щоб подзвонити до %s, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\" та \"Камера\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Щоб фотографувати або знімати відео дозвольте RAAPP доступ до камери.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">RAAPP потребує дозволу \"Камера\", щоб фотографувати або знімати відео,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">RAAPP потребує дозволу \"Камера\", щоб фотографувати або фільмувати.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Щоб надсилати аудіо повідомлення, дозвольте OfficeApp доступ до мікрофона.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">OfficeApp потребує дозволу \"Мікрофон\", щоб надсилати аудіоповідомлення але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\".</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Для дзвінка %s, OfficeApp потребує доступ до вашого мікрофону та камери.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">OfficeApp потребує дозволів \"Мікрофон\" та \"Камера\", щоб подзвонити до %s, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\" та \"Камера\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Щоб фотографувати або знімати відео дозвольте OfficeApp доступ до камери.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">OfficeApp потребує дозволу \"Камера\", щоб фотографувати або знімати відео,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">OfficeApp потребує дозволу \"Камера\", щоб фотографувати або фільмувати.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -194,7 +194,7 @@
     <item quantity="other">Збереження %1$d вкладень до сховища...</item>
   </plurals>
   <string name="ConversationFragment_pending">Очікування...</string>
-  <string name="ConversationFragment_push">Дані (RAAPP)</string>
+  <string name="ConversationFragment_push">Дані (OfficeApp)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Видалення</string>
@@ -269,25 +269,25 @@
   <string name="DocumentView_unknown_file">Невідомий файл</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Оптимізувати для випадку відсутності служб Google Play</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Цей пристрій не підтримує служби Google Play. Торкніться, щоб вимкнути режим ощадливого споживання енергії RAAPP і отримувати повідомлення коли RAAPP працює у фоні.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Цей пристрій не підтримує служби Google Play. Торкніться, щоб вимкнути режим ощадливого споживання енергії OfficeApp і отримувати повідомлення коли OfficeApp працює у фоні.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Поділитися із</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Вітаємо в RAAPP.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure і RedPhone тепер єдина програма для приватних повідомлень на всі випадки: RAAPP.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Вітаємо в RAAPP!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure тепер RAAPP.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure і RedPhone тепер єдина програма: RAAPP. Торкніться, щоб дізнатися більше.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Вітаємо в OfficeApp.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure і RedPhone тепер єдина програма для приватних повідомлень на всі випадки: OfficeApp.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Вітаємо в OfficeApp!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure тепер OfficeApp.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure і RedPhone тепер єдина програма: OfficeApp. Торкніться, щоб дізнатися більше.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Привійтайте безпечні відеодзвінки.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP тепер підтримує відеодзвінки. Просто зателефонуйте як зазвичай а потім натисніть кнопку відео.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP тепер підтримує безпечні відеодзвінки.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP тепер підтримує безпечні відеодзвінок. Натисніть, щоб дізнатись більше.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">OfficeApp тепер підтримує відеодзвінки. Просто зателефонуйте як зазвичай а потім натисніть кнопку відео.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">OfficeApp тепер підтримує безпечні відеодзвінки.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">OfficeApp тепер підтримує безпечні відеодзвінок. Натисніть, щоб дізнатись більше.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Готові до огляду?</string>
   <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Тепер ви можете встановити власне фото, а також ім\'я (чи нікнейм) для свого профілю який будуть бачити друзі.</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Профілі RAAPP знаходяться тут</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Профілі OfficeApp знаходяться тут</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Постійний збій зв\'язку RAAPP!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">RAAPP не зміг зареєструватись у сервісах Google Play. Виклики та повідомлення RAAPP наразі вимкнено, спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Постійний збій зв\'язку OfficeApp!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">OfficeApp не зміг зареєструватись у сервісах Google Play. Виклики та повідомлення OfficeApp наразі вимкнено, спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Помилка при отриманні GIF у повному розширенні</string>
   <!--GiphyFragmentPageAdapter-->
@@ -298,15 +298,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Редагувати групу</string>
   <string name="GroupCreateActivity_group_name_hint">Назва групи</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Нова MMS група</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Ви обрали контакт, який не підтримує групи RAAPP, тому це буде MMS група.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Ви не зареєстровані для використання повідомлень та викликів RAAPP тому групи RAAPP відключено. Спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Ви обрали контакт, який не підтримує групи OfficeApp, тому це буде MMS група.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Ви не зареєстровані для використання повідомлень та викликів OfficeApp тому групи OfficeApp відключено. Спробуйте перереєструватися у Налаштуваннях &gt; Додатково.</string>
   <string name="GroupCreateActivity_contacts_no_members">Для вашої групи потрібна щонайменше одна особа!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Один із учасників групи має номер, що не може бути прочитаний належним чином. Будь ласка, виправте або вилучіть той контакт і спробуйте ще раз.</string>
   <string name="GroupCreateActivity_avatar_content_description">Зображення групи</string>
   <string name="GroupCreateActivity_menu_apply_button">Застосувати</string>
   <string name="GroupCreateActivity_creating_group">Створення %1$s…</string>
   <string name="GroupCreateActivity_updating_group">Оновлення %1$s...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Не вдалося додати %1$s, тому що вони не є користувачами RAAPP.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Не вдалося додати %1$s, тому що вони не є користувачами OfficeApp.</string>
   <string name="GroupCreateActivity_loading_group_details">Завантаження деталей групи...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Ви вже у групі.</string>
   <!--GroupShareProfileView-->
@@ -324,7 +324,7 @@
   <string name="InviteActivity_sending">Надсилання...</string>
   <string name="InviteActivity_heart_content_description">Серце</string>
   <string name="InviteActivity_invitations_sent">Запрошення надіслано!</string>
-  <string name="InviteActivity_invite_to_signal">Запросити до RAAPP</string>
+  <string name="InviteActivity_invite_to_signal">Запросити до OfficeApp</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">НАДІСЛАТИ SMS ДО %d ДРУГА</item>
     <item quantity="few">НАДІСЛАТИ SMS ДО %d ДРУЗІВ</item>
@@ -337,14 +337,14 @@
     <item quantity="many">Надіслати %d SMS запрошень?</item>
     <item quantity="other">Надіслати %d SMS запрошень?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Давай перейдемо на RAAPP: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Давай перейдемо на OfficeApp: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Схоже, що у вас немає програм, щоб поділитися.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Друзі не мають дозволяти друзям незашифровано спілкуватися!</string>
   <!--MessageDetailsRecipient-->
   <string name="MessageDetailsRecipient_failed_to_send">Не вдалося надіслати</string>
   <string name="MessageDetailsRecipient_new_safety_number">Новий номер безпеки</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">RAAPP</string>
+  <string name="MessageRetrievalService_signal">OfficeApp</string>
   <string name="MessageRetrievalService_background_connection_enabled">Фонове підключення активоване</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Помилка читання налаштувань MMS провайдера</string>
@@ -366,9 +366,9 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Видалення повідомлень...</string>
   <string name="MediaOverviewActivity_Documents">Документи</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Відбувається виклик RAAPP</string>
-  <string name="NotificationBarManager__establishing_signal_call">Встановлення виклику RAAPP</string>
-  <string name="NotificationBarManager__incoming_signal_call">Вхідний виклик RAAPP</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Відбувається виклик OfficeApp</string>
+  <string name="NotificationBarManager__establishing_signal_call">Встановлення виклику OfficeApp</string>
+  <string name="NotificationBarManager__incoming_signal_call">Вхідний виклик OfficeApp</string>
   <string name="NotificationBarManager__deny_call">Відхилити виклик</string>
   <string name="NotificationBarManager__answer_call">Відповісти на виклик</string>
   <string name="NotificationBarManager__end_call">Завершити виклик</string>
@@ -378,7 +378,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Завантаження MMS...</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Виникла помилка при завантаженні MMS, натисніть щоб повторити</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Отримано повідомлення, яке зашифроване старою версією RAAPP, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Отримано повідомлення, яке зашифроване старою версією OfficeApp, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
   <string name="MessageRecord_left_group">Ви покинули групу.</string>
   <string name="MessageRecord_you_updated_group">Ви оновили групу.</string>
   <string name="MessageRecord_you_called">Ви телефонували</string>
@@ -387,7 +387,7 @@
   <string name="MessageRecord_s_called_you">%s вам телефонував/-ла</string>
   <string name="MessageRecord_called_s">Телефонували %s</string>
   <string name="MessageRecord_missed_call_from">Пропущено виклик від %s</string>
-  <string name="MessageRecord_s_joined_signal">%s приєднався до RAAPP!</string>
+  <string name="MessageRecord_s_joined_signal">%s приєднався до OfficeApp!</string>
   <string name="MessageRecord_your_safety_number_with_s_has_changed">Ваш номер безпеки із %s змінився.</string>
   <string name="MessageRecord_you_marked_your_safety_number_with_s_verified">Ви підтвердили ваш номер безпеки із %s</string>
   <string name="MessageRecord_you_marked_your_safety_number_with_s_verified_from_another_device">Ви підтвердили ваш номер безпеки із %sз іншого пристрою</string>
@@ -414,9 +414,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Хибний QR-код.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Вибачте, Ви вже з\'язали забагато пристроїв, спробуйте видалити декілька</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Вибачте, це хибний QR код для з\'язування пристрою.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">З\'язати пристрій RAAPP?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Здається, ви намагаєтеся з\'язати пристрій RAAPP, використовуючи сканер від 3-ї особи. Для вашого захисту, відскануйте код знову, використовуючи RAAPP.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP потребує дозволу \"Камера\", щоб сканувати QR коди,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">З\'язати пристрій OfficeApp?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Здається, ви намагаєтеся з\'язати пристрій OfficeApp, використовуючи сканер від 3-ї особи. Для вашого захисту, відскануйте код знову, використовуючи OfficeApp.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">OfficeApp потребує дозволу \"Камера\", щоб сканувати QR коди,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Для сканування QR коду необхідний доступ до Камери</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Зникнення повідомлень</string>
@@ -424,14 +424,14 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Усі повідомлення у цій розмові зникнуть через %s після прочитання.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Введіть фразу-пароль</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Значок RAAPP</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Значок OfficeApp</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Ввести фразу-пароль</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Хибна фраза-пароль!</string>
   <!--PlayServicesProblemFragment-->
   <string name="PlayServicesProblemFragment_the_version_of_google_play_services_you_have_installed_is_not_functioning">Встановлена версія сервісів Google Play працює некоректно. Перевстановіть сервіси Google Play та спробуйте знову.</string>
   <!--RatingManager-->
-  <string name="RatingManager_rate_this_app">Оцінити RAAPP</string>
-  <string name="RatingManager_if_you_enjoy_using_this_app_please_take_a_moment">Якщо вам сподобався RAAPP, будь-ласка, оцініть його.</string>
+  <string name="RatingManager_rate_this_app">Оцінити OfficeApp</string>
+  <string name="RatingManager_if_you_enjoy_using_this_app_please_take_a_moment">Якщо вам сподобався OfficeApp, будь-ласка, оцініть його.</string>
   <string name="RatingManager_rate_now">Оцінити зараз!</string>
   <string name="RatingManager_no_thanks">Ні, дякую</string>
   <string name="RatingManager_later">Пізніше</string>
@@ -481,7 +481,7 @@
   <string name="RegistrationActivity_no_browser">Неможливо відкрити це посилання.  Браузер не знайдений.</string>
   <string name="RegistrationActivity_more_information">Більше інформації</string>
   <string name="RegistrationActivity_less_information">Менше інформації</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">RAAPP потребує доступу до телефонної книги та файлової системи, щоб підключити друзів, відправляти повідомлення та здійснювати виклики</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">OfficeApp потребує доступу до телефонної книги та файлової системи, щоб підключити друзів, відправляти повідомлення та здійснювати виклики</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Немає з\'єднання із сервером. Перевірте чи наявність доступу до Інтернет та спробуйте знову.</string>
   <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Якщо ви увімкнете дозвіл \"SMS\", перевірку коду буде виконано автоматично</string>
   <!--ScribbleActivity-->
@@ -493,13 +493,13 @@
   <string name="SearchFragment_header_messages">Повідомлення</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Додати до контактів</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Запросити до RAAPP</string>
-  <string name="SharedContactDetailsActivity_signal_message">Повідомлення RAAPP</string>
-  <string name="SharedContactDetailsActivity_signal_call">Виклик RAAPP</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Запросити до OfficeApp</string>
+  <string name="SharedContactDetailsActivity_signal_message">Повідомлення OfficeApp</string>
+  <string name="SharedContactDetailsActivity_signal_call">Виклик OfficeApp</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Додати до контактів</string>
-  <string name="SharedContactView_invite_to_signal">Запросити до RAAPP</string>
-  <string name="SharedContactView_message">Повідомлення RAAPP</string>
+  <string name="SharedContactView_invite_to_signal">Запросити до OfficeApp</string>
+  <string name="SharedContactView_message">Повідомлення OfficeApp</string>
   <!--Slide-->
   <string name="Slide_image">Зображення</string>
   <string name="Slide_audio">Аудіо</string>
@@ -523,15 +523,15 @@
   <string name="ThreadRecord_called_you">Вам телефонували</string>
   <string name="ThreadRecord_missed_call">Пропущений виклик</string>
   <string name="ThreadRecord_media_message">Медіа повідомлення</string>
-  <string name="ThreadRecord_s_is_on_signal">%s приєднався до RAAPP!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s приєднався до OfficeApp!</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Час зникнення повідомлень встановлено на %s</string>
   <string name="ThreadRecord_safety_number_changed">Номер безпеки змінено</string>
   <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш номер безпеки із %s змінився.</string>
   <string name="ThreadRecord_you_marked_verified">Ви перевірили</string>
   <string name="ThreadRecord_you_marked_unverified"> Номер безпеки є НЕперевіреним</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Оновлення RAAPP</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Нова версія RAAPP доступна, натисніть для оновлення</string>
+  <string name="UpdateApkReadyListener_Signal_update">Оновлення OfficeApp</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Нова версія OfficeApp доступна, натисніть для оновлення</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Заблокувати %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Заблоковані контакти не зможуть надсилати повідомлення та дзвонити вам</string>
@@ -546,14 +546,14 @@
   <string name="UnverifiedSendDialog_send_message">Надіслати повідомлення?</string>
   <string name="UnverifiedSendDialog_send">Надіслати</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Ваш контакт працює на давнішій версії RAAPP. Будь ласка, попросіть його/її оновитися перед перевіркою вашого номера безпеки.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Ваш контакт працює на новішій версії RAAPP із несумісним форматом QR-коду. Будь ласка, оновіться, щоб порівняти.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Ваш контакт працює на давнішій версії OfficeApp. Будь ласка, попросіть його/її оновитися перед перевіркою вашого номера безпеки.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Ваш контакт працює на новішій версії OfficeApp із несумісним форматом QR-коду. Будь ласка, оновіться, щоб порівняти.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Сканований QR-код хибно форматований код підтвердження номера безпеки. Будь ласка, спробуйте сканувати знову.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Поділитися номером безпеки через...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Наш номер безпеки RAAPP:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Наш номер безпеки OfficeApp:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Схоже, що у вас немає програм, щоб поділитися.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">У буфері обміну не було знайдено номеру безпеки для порівняння</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">RAAPP потребує доступу \"Камера\", щоб сканувати QR коди, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">OfficeApp потребує доступу \"Камера\", щоб сканувати QR коди, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Для сканування QR коду необхідний доступ до Камери</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Погано зашифроване повідомлення</string>
@@ -573,13 +573,13 @@
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Торкніться, щоб відкрити.</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Торкніться, щоб відкрити, чи торкніться замка, щоб закрити.</string>
-  <string name="KeyCachingService_passphrase_cached">RAAPP розблоковано</string>
-  <string name="KeyCachingService_lock">Заблокувати RAAPP</string>
+  <string name="KeyCachingService_passphrase_cached">OfficeApp розблоковано</string>
+  <string name="KeyCachingService_lock">Заблокувати OfficeApp</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Ви</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Непідтримуваний тип медіа</string>
   <string name="MediaPreviewActivity_draft">Чернетка</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">RAAPP потребує дозволу \"Зберігання\", щоб зберігати файли,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">OfficeApp потребує дозволу \"Зберігання\", щоб зберігати файли,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Без доступу до файлової системи зберегти файли неможливо</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Видалити повідомлення?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Це назавжди видалить це повідомлення.</string>
@@ -607,7 +607,7 @@
   <string name="NotificationChannel_group_messages">Повідомлення</string>
   <string name="NotificationChannel_missing_display_name">Невідомо</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Швидка відповідь неможлива, коли RAAPP заблоковано!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Швидка відповідь неможлива, коли OfficeApp заблоковано!</string>
   <string name="QuickResponseService_problem_sending_message">Проблема під час надсилання повідомлення!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Збережено до %s</string>
@@ -615,7 +615,7 @@
   <string name="SearchToolbar_search">Пошук</string>
   <!--ShortcutLauncherActivity-->
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
+  <string name="SingleRecipientNotificationBuilder_signal">OfficeApp</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Нове повідомлення</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Цей пристрій більше не зареєстровано</string>
@@ -623,10 +623,10 @@
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Помилка відтворення відео</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Щоб відповісти нв дзвінок від %s, RAAPP потребує доступ до вашого мікрофону.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">RAAPP потребує дозволів \"Мікрофон\" та \"Камера\", щоб здійснювати виклики, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\" та \"Камера\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Щоб відповісти нв дзвінок від %s, OfficeApp потребує доступ до вашого мікрофону.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">OfficeApp потребує дозволів \"Мікрофон\" та \"Камера\", щоб здійснювати виклики, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\" та \"Камера\".</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">Ваш номер безпеки для розмови із %1$s змінився. Це може означати або те, що хтось намагається перехопити вашу розмову, або те, що %2$s просто перевстановив RAAPP.</string>
+  <string name="WebRtcCallScreen_new_safety_numbers">Ваш номер безпеки для розмови із %1$s змінився. Це може означати або те, що хтось намагається перехопити вашу розмову, або те, що %2$s просто перевстановив OfficeApp.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Можливо, ви хочете перевірити ваш номер безпеки із цим контактом.</string>
   <string name="WebRtcCallScreen_new_safety_number_title">Новий номер безпеки</string>
   <string name="WebRtcCallScreen_accept">Прийняти</string>
@@ -661,15 +661,15 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Фото контакту</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">RAAPP потребує дозволів \"Контакти\", щоб показати контакти, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Контакти\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">OfficeApp потребує дозволів \"Контакти\", щоб показати контакти, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Контакти\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Не вдалося отримати список контактів, перевірте з\'єднання</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Немає заблокованих контактів</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP потребує дозволів \"Контакти\", щоб показати контакти.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">OfficeApp потребує дозволів \"Контакти\", щоб показати контакти.</string>
   <string name="contact_selection_list_fragment__show_contacts">Показати контакти</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Повідомлення RAAPP</string>
+  <string name="conversation_activity__type_message_push">Повідомлення OfficeApp</string>
   <string name="conversation_activity__type_message_sms_insecure">Незахищене SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Незахищене MMS</string>
   <string name="conversation_activity__from_sim_name">Від %1$s</string>
@@ -679,7 +679,7 @@
   <string name="conversation_activity__attachment_thumbnail">Мініатюра вкладення</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Увімк/вимк скриньку прикріплень камери</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Записати та надіслати аудіо-прикріплення</string>
-  <string name="conversation_activity__enable_signal_for_sms">Увімкнути RAAPP для SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Увімкнути OfficeApp для SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">ПРОВЕДІТЬ, ЩОБ СКАСУВАТИ</string>
   <!--conversation_item-->
@@ -760,7 +760,7 @@
   <string name="IdentityUtil_unverified_banner_one">Ваш номер безпеки із %s змінився і наразі є НЕперевіреним</string>
   <string name="IdentityUtil_unverified_banner_two">Ваші номери безпеки із %1$s та %2$s більше не є перевіреними</string>
   <string name="IdentityUtil_unverified_banner_many">Ваші номери безпеки із %1$s ,%2$s та %3$sбільше не є перевіреними</string>
-  <string name="IdentityUtil_unverified_dialog_one">Ваш номер безпеки із %1$s змінився. Це може означати, що хтось намагається перехопити вашу розмову, або те, що %1$sпросто перевстановив RAAPP.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Ваш номер безпеки із %1$s змінився. Це може означати, що хтось намагається перехопити вашу розмову, або те, що %1$sпросто перевстановив OfficeApp.</string>
   <string name="IdentityUtil_unverified_dialog_two">Ваш номер безпеки із %1$s та %2$sзмінився. Це може означати, що хтось намагається перехопити вашу розмову, або те, що вони просто перевстановили Сигнал.</string>
   <string name="IdentityUtil_unverified_dialog_many">Ваш номер безпеки із %1$s, %2$sта %3$sзмінився. Це може означати, що хтось намагається перехопити вашу розмову, або те, що вони просто перевстановили Сигнал.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Ваш номер безпеки із %s щойно змінився.</string>
@@ -787,7 +787,7 @@
   <string name="log_submit_activity__success">Успішно!</string>
   <string name="log_submit_activity__copied_to_clipboard">Скопійовано до буфера обміну</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Імпорутвати ваші SMS повідомлення у зашифровану базу даних RAAPP?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Імпорутвати ваші SMS повідомлення у зашифровану базу даних OfficeApp?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Системна база даних не буде порушена.</string>
   <string name="database_migration_activity__skip">Пропустити</string>
   <string name="database_migration_activity__import">Імпорт</string>
@@ -821,7 +821,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Розблокувати</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Для надсилання MMS-повідомлень RAAPP\'у необхідно знати налаштування APN вашого оператора. Однак ваш пристрій не надає цієї інформації - перевірте налаштування доступу до цих опцій.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Для надсилання MMS-повідомлень OfficeApp\'у необхідно знати налаштування APN вашого оператора. Однак ваш пристрій не надає цієї інформації - перевірте налаштування доступу до цих опцій.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Щоб мати можливість відправляти MMS-повідомлення, введіть інформацію про APN нижче. Потрібні значення для вашого оператора можна знайти в інтернеті за запитом \'оператор APN\' або в його службі підтримки. Це потрібно зробити тільки один раз.</string>
   <!--profile_create_activity-->
   <string name="profile_create_activity__set_later">Встановити пізніше</string>
@@ -842,12 +842,12 @@
   <string name="recipient_preferences__call_settings">Налаштування дзвінків</string>
   <string name="recipient_preferences__ringtone">Мелодія дзвінка</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Виклик RAAPP</string>
+  <string name="redphone_call_card__signal_call">Виклик OfficeApp</string>
   <string name="redphone_call_controls__mute">Без звуку</string>
   <string name="redphone_call_controls__flip_camera_rear">Перемикання камер</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">НОМЕР ТЕЛЕФОНУ</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">З RAAPP дуже легко спілкуватися маючи лише телефонну книги. Друзі та контакти з якими ви вже спілкуєтесь телефоном зможуть легко початки користуватись RAAPP.\n\nПід час реєстрації передається деяка інформація на сервер але вона не зберігається.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">З OfficeApp дуже легко спілкуватися маючи лише телефонну книги. Друзі та контакти з якими ви вже спілкуєтесь телефоном зможуть легко початки користуватись OfficeApp.\n\nПід час реєстрації передається деяка інформація на сервер але вона не зберігається.</string>
   <string name="registration_activity__verify_your_number">Перевірити ваш номер</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Вкажіть ваш мобільний номер, щоб отримати перевірочний код. Вашим оператором може стягуватися плата.</string>
   <!--recipients_panel-->
@@ -926,8 +926,8 @@
   <string name="preferences__sms_mms">SMS та MMS</string>
   <string name="preferences__pref_all_sms_title">Отримати усі SMS</string>
   <string name="preferences__pref_all_mms_title">Отримати усі MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Використовувати RAAPP для усіх вхідних текстових повідомлень</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Використовувати RAAPP для усіх вхідних мультимедійних повідомлень</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Використовувати OfficeApp для усіх вхідних текстових повідомлень</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Використовувати OfficeApp для усіх вхідних мультимедійних повідомлень</string>
   <string name="preferences__pref_enter_sends_title">Enter надсилає повідомлення</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Натиснення кнопки Enter відправить повідомлення</string>
   <string name="preferences__choose_identity">Обрати особистість</string>
@@ -938,7 +938,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Захистити Сигнал та сповіщення повідомлень фразою-паролем</string>
   <string name="preferences__screen_security">Безпека екрану</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Блокувати знімки екрану в списку недавніх та в програмі</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Автоблокувати RAAPP після певного часу неактивності</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Автоблокувати OfficeApp після певного часу неактивності</string>
   <string name="preferences__inactivity_timeout_passphrase">Фраза-пароль після спливання часу неактивності</string>
   <string name="preferences__inactivity_timeout_interval">Інтервал часу неактивності</string>
   <string name="preferences__notifications">Сповіщення</string>
@@ -990,8 +990,8 @@
   <string name="preferences__theme">Тема</string>
   <string name="preferences__default">Типово</string>
   <string name="preferences__language">Мова</string>
-  <string name="preferences__signal_messages_and_calls">Повідомлення та виклики RAAPP</string>
-  <string name="preferences__free_private_messages_and_calls">Безкоштовні приватні повідомлення та виклики для користувачів RAAPP</string>
+  <string name="preferences__signal_messages_and_calls">Повідомлення та виклики OfficeApp</string>
+  <string name="preferences__free_private_messages_and_calls">Безкоштовні приватні повідомлення та виклики для користувачів OfficeApp</string>
   <string name="preferences__submit_debug_log">Надіслати журнал відлагодження</string>
   <string name="preferences__support_wifi_calling">Режим сумісності \'WiFi Calling\'</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Увімкніть, якщо ваш пристрій використовує доставку SMS/MMS через WiFi (вмикайте лише якщо «Виклики по WiFi» увімкнені на вашому пристрої)</string>
@@ -1006,8 +1006,8 @@
   <string name="preferences_chats__media_auto_download">Автозавантаження медіа</string>
   <string name="preferences_chats__message_trimming">Обрізка повідомлень</string>
   <string name="preferences_advanced__use_system_emoji">Використовувати системні emoji</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Вимкнути вбудовану в RAAPP підтримку emoji</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ретранслювати всі дзвінки через сервер RAAPP щоб уникнути розкриття вашого IP-адреси контакту. Включення знизить якість дзвінка.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Вимкнути вбудовану в OfficeApp підтримку emoji</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ретранслювати всі дзвінки через сервер OfficeApp щоб уникнути розкриття вашого IP-адреси контакту. Включення знизить якість дзвінка.</string>
   <string name="preferences_advanced__always_relay_calls">Завжди ретранслювати дзвінки</string>
   <string name="preferences_app_protection__app_access">Доступ до додатка</string>
   <string name="preferences_app_protection__communication">Спілкування</string>
@@ -1019,9 +1019,9 @@
   <string name="preferences_notifications__calls">Виклики</string>
   <string name="preferences_notifications__ringtone">Мелодія дзвінка</string>
   <string name="preferences_chats__show_invitation_prompts">Відображати пропозиції запрошення</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Відображати пропозиції запрошення для контактів, що не мають RAAPP</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Відображати пропозиції запрошення для контактів, що не мають OfficeApp</string>
   <string name="preferences_chats__message_text_size">Розмір шрифту повідомлень</string>
-  <string name="preferences_events__contact_joined_signal">Контакт приєднався до RAAPP</string>
+  <string name="preferences_events__contact_joined_signal">Контакт приєднався до OfficeApp</string>
   <string name="preferences_notifications__priority">Пріорітет</string>
   <!--****************************************-->
   <!--menus-->
@@ -1031,7 +1031,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Виклик</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Виклик через RAAPP</string>
+  <string name="conversation_callable_secure__menu_call">Виклик через OfficeApp</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Деталі повідомлення</string>
   <string name="conversation_context__menu_copy_text">Скопіювати текст</string>
@@ -1094,27 +1094,27 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Скопіювати до буфера обміну</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Порівняти із буфером обміну</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Ваша версія RAAPP застаріла</string>
+  <string name="reminder_header_outdated_build">Ваша версія OfficeApp застаріла</string>
   <plurals name="reminder_header_outdated_build_details">
     <item quantity="one">Вашу версію Сигналу перестануть підтримувати за %d день. Торкніться, щоб оновити до останньої версії.</item>
     <item quantity="few">Вашу версію Сигналу перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
     <item quantity="many">Вашу версію Сигналу перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
-    <item quantity="other">Вашу версію RAAPP перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
+    <item quantity="other">Вашу версію OfficeApp перестануть підтримувати за %d днів. Торкніться, щоб оновити до останньої версії.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">Вашу версію RAAPP перестануть підтримувати сьогодні. Торкніться, щоб оновити до останньої версії.</string>
-  <string name="reminder_header_expired_build">Ваша версія RAAPP застаріла!</string>
+  <string name="reminder_header_outdated_build_details_today">Вашу версію OfficeApp перестануть підтримувати сьогодні. Торкніться, щоб оновити до останньої версії.</string>
+  <string name="reminder_header_expired_build">Ваша версія OfficeApp застаріла!</string>
   <string name="reminder_header_expired_build_details">Повідомлення більше не будуть відправлятися. Торкніться, щоб оновитися до останньої версії.</string>
   <string name="reminder_header_sms_default_title">Використовувати як типову програму для SMS</string>
-  <string name="reminder_header_sms_default_text">Торкніться, щоб зробити RAAPP типовою програмою для SMS.</string>
+  <string name="reminder_header_sms_default_text">Торкніться, щоб зробити OfficeApp типовою програмою для SMS.</string>
   <string name="reminder_header_sms_import_title">Імпортувати системну базу SMS?</string>
-  <string name="reminder_header_sms_import_text">Торкніться, щоб імпортувати ваші SMS повідомлення у зашифровану базу даних RAAPP.</string>
-  <string name="reminder_header_push_title">Увімкнути повідомлення та виклики RAAPP</string>
+  <string name="reminder_header_sms_import_text">Торкніться, щоб імпортувати ваші SMS повідомлення у зашифровану базу даних OfficeApp.</string>
+  <string name="reminder_header_push_title">Увімкнути повідомлення та виклики OfficeApp</string>
   <string name="reminder_header_push_text">Оновіть досвід вашого спілкування.</string>
-  <string name="reminder_header_invite_title">Запросити до RAAPP</string>
+  <string name="reminder_header_invite_title">Запросити до OfficeApp</string>
   <string name="reminder_header_invite_text">Спілкуйтеся із %1$s на якісно новому рівні.</string>
   <string name="reminder_header_share_title">Запросити друзів</string>
-  <string name="reminder_header_share_text">Що більше друзів використовують RAAPP, то кращим він стає.</string>
-  <string name="reminder_header_service_outage_text">RAAPP зазнав технічних труднощів. Ми тяжко працюємо щоб відновити сервіс якомога швидше.</string>
+  <string name="reminder_header_share_text">Що більше друзів використовують OfficeApp, то кращим він стає.</string>
+  <string name="reminder_header_service_outage_text">OfficeApp зазнав технічних труднощів. Ми тяжко працюємо щоб відновити сервіс якомога швидше.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Зберегти</string>
   <string name="media_preview__forward_title">Переслати</string>
@@ -1136,16 +1136,16 @@
   <string name="ConversationListFragment_loading">Завантаження...</string>
   <string name="CallNotificationBuilder_connecting">Підключення...</string>
   <string name="Permissions_permission_required">Необхідний дозвіл</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">RAAPP потребує дозволу \"SMS\", але наразі дозволу немає. Будь-ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\" та увімкніть \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">OfficeApp потребує дозволу \"SMS\", але наразі дозволу немає. Будь-ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\" та увімкніть \"SMS\".</string>
   <string name="Permissions_continue">Продовжити</string>
   <string name="Permissions_not_now">Не зараз</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP потребує дозволу \"Контакти\", але наразі дозволу немає. Будь-ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\" та дозвольте \"Контакти\".</string>
-  <string name="conversation_activity__enable_signal_messages">Дозволити повідомлення RAAPP</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Міграція бази даних RAAPP</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">OfficeApp потребує дозволу \"Контакти\", але наразі дозволу немає. Будь-ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\" та дозвольте \"Контакти\".</string>
+  <string name="conversation_activity__enable_signal_messages">Дозволити повідомлення OfficeApp</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Міграція бази даних OfficeApp</string>
   <string name="PushDecryptJob_new_locked_message">Нове заблоковане повідомлення</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Розблокуйте, щоб побачити нові повідомлення</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Розблокуйте, щоб завершити оновлення</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Будь-ласка, розблокуйте RAAPP щоб завершити оновлення</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">Будь-ласка, розблокуйте OfficeApp щоб завершити оновлення</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Фраза-пароль резервної копії</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
@@ -1171,7 +1171,7 @@
   <string name="BackupDialog_disable_and_delete_all_local_backups">Вимкнути та видалити усі локальні резервні копії?</string>
   <string name="BackupDialog_delete_backups_statement">Видалити резервні копії</string>
   <string name="BackupDialog_copied_to_clipboard">Скопійовано до буфера обміну</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP потребує дозволу \"Зберігання\", щоб створювати резервні копії, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">OfficeApp потребує дозволу \"Зберігання\", щоб створювати резервні копії, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Остання резервна копія: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">В процесі</string>
   <string name="LocalBackupJob_creating_backup">Створення резервної копії...</string>
@@ -1184,7 +1184,7 @@
   <string name="BackupUtil_never">Ніколи</string>
   <string name="BackupUtil_unknown">Невідомо</string>
   <string name="preferences_app_protection__screen_lock">Блокування екрану</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Заблокувати доступ до RAAPP через налаштування Андроїд</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Заблокувати доступ до OfficeApp через налаштування Андроїд</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Затримка блокування екрану при бездіяльності</string>
   <string name="AppProtectionPreferenceFragment_none">Жодного</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">ПІН блокування доступу це не теж саме що й щойно отриманий СМС-код перевірки. Будь ласка, введіть ПІН, який Ви встановили у налаштуваннях додатку.</string>
@@ -1204,13 +1204,13 @@
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Ви зробили забагато невдалих спроб введення ПІН блокування доступу. Будь ласка, спробуйте ще через день.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Помилка підключення до сервісу</string>
   <string name="RegistrationActivity_oh_no">О ні!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Реєстрація цього телефонного номеру без ПІН блокування доступу буде можлива впродовж 7 днів з моменту останньої активності цього номеру у RAAPP. У Вас залишилося %d днів.</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Реєстрація цього телефонного номеру без ПІН блокування доступу буде можлива впродовж 7 днів з моменту останньої активності цього номеру у OfficeApp. У Вас залишилося %d днів.</string>
   <string name="RegistrationActivity_registration_lock_pin">ПІН блокування доступу</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Цей номер телефону має дозволення блокування доступу. Будь ласка, введіть ПІН блокування доступу.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Для Вашого номера телефону дозволено блокування доступу. Щоб допомогти Вам запам\'ятати ПІН блокування доступу RAAPP буде періодично вимагати підтвердити його.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Для Вашого номера телефону дозволено блокування доступу. Щоб допомогти Вам запам\'ятати ПІН блокування доступу OfficeApp буде періодично вимагати підтвердити його.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Я забув свій PIN.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Забули PIN?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Блокування доступу допомагає захистити Ваш телефонний номер від спроб несанкціонованого доступу. Ця функція може бути заборонена в будь-який час у налаштуваннях приватності Вашого RAAPP.</string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Блокування доступу допомагає захистити Ваш телефонний номер від спроб несанкціонованого доступу. Ця функція може бути заборонена в будь-який час у налаштуваннях приватності Вашого OfficeApp.</string>
   <string name="RegistrationLockDialog_registration_lock">Блокування доступу</string>
   <string name="RegistrationLockDialog_enable">Увімкнути</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">ПІН блокування доступу повинен мати щонайменше 4 цифри.</string>
@@ -1220,7 +1220,7 @@
   <string name="RegistrationLockDialog_disable">Вимкнути</string>
   <string name="RegistrationActivity_continue">Продовжити</string>
   <string name="preferences_chats__backups">Резервні копії</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP заблоковано</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">OfficeApp заблоковано</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">НАТИСНІТЬ ДЛЯ РОЗБЛОКУВАННЯ</string>
   <string name="RegistrationLockDialog_reminder">Нагадування:</string>
   <string name="recipient_preferences__about">Про додаток</string>

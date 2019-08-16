@@ -248,15 +248,15 @@ android {
     }
 
     defaultConfig {
-        versionCode 109
-        versionName "0.0.9"
+        versionCode 111
+        versionName "0.0.11"
 
         minSdkVersion 21
         targetSdkVersion 28
         multiDexEnabled true
 
         vectorDrawables.useSupportLibrary = true
-        project.ext.set("archivesBaseName", "raApp")
+        project.ext.set("archivesBaseName", "OfficeApp")
 
         buildConfigField "long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L"
         buildConfigField "String", "SIGNAL_URL", "\"https://signal.ra-app.eu\""

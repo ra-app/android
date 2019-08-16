@@ -17,29 +17,20 @@ import static org.mockito.Mockito.when;
 
 public class VerificationCodeParserTest extends BaseUnitTest {
   private static Map<String, String> CHALLENGES = new HashMap<String,String>() {{
-      put("Your RA-APP verification code: 337-337",        "337337");
-      put("XXX\nYour RA-APP verification code: 1337-1337", "13371337");
-      put("Your RA-APP verification code: 337-1337",       "3371337");
-      put("Your RA-APP verification code: 1337-337",       "1337337");
-      put("Your RA-APP verification code: 1337-1337",      "13371337");
-      put("XXXYour RA-APP verification code: 1337-1337",   "13371337");
-      put("Your RA-APP verification code: 1337-1337XXX",   "13371337");
-      put("Your RA-APP verification code 1337-1337",       "13371337");
+      put("Your OfficeApp verification code: 337-337",        "337337");
+      put("XXX\nYour OfficeApp verification code: 1337-1337", "13371337");
+      put("Your OfficeApp verification code: 337-1337",       "3371337");
+      put("Your OfficeApp verification code: 1337-337",       "1337337");
+      put("Your OfficeApp verification code: 1337-1337",      "13371337");
+      put("XXXYour OfficeApp verification code: 1337-1337",   "13371337");
+      put("Your OfficeApp verification code: 1337-1337XXX",   "13371337");
+      put("Your OfficeApp verification code 1337-1337",       "13371337");
 
-      put("Your RAAPP verification code: 337-337",        "337337");
-      put("XXX\nYour RAAPP verification code: 1337-1337", "13371337");
-      put("Your RAAPP verification code: 337-1337",       "3371337");
-      put("Your RAAPP verification code: 1337-337",       "1337337");
-      put("Your RAAPP verification code: 1337-1337",      "13371337");
-      put("XXXYour RAAPP verification code: 1337-1337",   "13371337");
-      put("Your RAAPP verification code: 1337-1337XXX",   "13371337");
-      put("Your RAAPP verification code 1337-1337",       "13371337");
-
-      put("<#>Your RAAPP verification code: 1337-1337 aAbBcCdDeEf",     "13371337");
-      put("<#> Your RAAPP verification code: 1337-1337 aAbBcCdDeEf",    "13371337");
-      put("<#>Your RAAPP verification code: 1337-1337\naAbBcCdDeEf",    "13371337");
-      put("<#> Your RAAPP verification code: 1337-1337\naAbBcCdDeEf",   "13371337");
-      put("<#> Your RAAPP verification code: 1337-1337\n\naAbBcCdDeEf", "13371337");
+      put("<#>Your OfficeApp verification code: 1337-1337 aAbBcCdDeEf",     "13371337");
+      put("<#> Your OfficeApp verification code: 1337-1337 aAbBcCdDeEf",    "13371337");
+      put("<#>Your OfficeApp verification code: 1337-1337\naAbBcCdDeEf",    "13371337");
+      put("<#> Your OfficeApp verification code: 1337-1337\naAbBcCdDeEf",   "13371337");
+      put("<#> Your OfficeApp verification code: 1337-1337\n\naAbBcCdDeEf", "13371337");
   }};
 
   @Before
