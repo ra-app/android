@@ -143,7 +143,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   private TextView               subtitle;
   private View                   registrationContainer;
   private View                   verificationContainer;
-  private FloatingActionButton   fab;
+  // private FloatingActionButton   fab;
 
   private View                   restoreContainer;
   private TextView               restoreBackupTime;
@@ -215,7 +215,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     this.subtitle              = findViewById(R.id.verify_subheader);
     this.registrationContainer = findViewById(R.id.registration_container);
     this.verificationContainer = findViewById(R.id.verification_container);
-    this.fab                   = findViewById(R.id.fab);
+    // this.fab                   = findViewById(R.id.fab);
 
     this.verificationCodeView = findViewById(R.id.code);
     this.keyboard             = findViewById(R.id.keyboard);
@@ -792,14 +792,14 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       }
     }).start();
 
-    fab.animate().rotationBy(375f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
+    /*fab.animate().rotationBy(375f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
       @Override
       public void onAnimationEnd(Animator animation) {
         fab.clearAnimation();
         fab.setImageResource(R.drawable.ic_restore_white_24dp);
         fab.animate().rotationBy(360f).setDuration(SCENE_TRANSITION_DURATION).setListener(null).start();
       }
-    }).start();
+    }).start();*/
 
   }
 
@@ -847,14 +847,14 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       }
     }).start();
 
-    fab.animate().rotationBy(startDirectionMultiplier * 360f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
+    /*fab.animate().rotationBy(startDirectionMultiplier * 360f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
       @Override
       public void onAnimationEnd(Animator animation) {
         fab.clearAnimation();
         fab.setImageResource(R.drawable.ic_action_name);
         fab.animate().rotationBy(startDirectionMultiplier * 375f).setDuration(SCENE_TRANSITION_DURATION).setListener(null).start();
       }
-    }).start();
+    }).start();*/
   }
 
   private void displayVerificationView(@NonNull String e164number, int callCountdown) {
@@ -963,14 +963,14 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       }
     }).start();
 
-    fab.animate().rotationBy(-360f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
+    /*fab.animate().rotationBy(-360f).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
       @Override
       public void onAnimationEnd(Animator animation) {
         fab.clearAnimation();
         fab.setImageResource(R.drawable.ic_lock_white_24dp);
         fab.animate().rotationBy(-360f).setDuration(SCENE_TRANSITION_DURATION).setListener(null).start();
       }
-    }).start();
+    }).start();*/
 
     pinButton.setOnClickListener(v -> handleVerifyWithPinClicked(code, pin.getText().toString()));
     pinForgotButton.setOnClickListener(v -> handleForgottenPin(lockedUntil));
