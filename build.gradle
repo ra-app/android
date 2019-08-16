@@ -287,8 +287,8 @@ android {
     }
 
     defaultConfig {
-        versionCode 109
-        versionName "0.0.9"
+        versionCode 110
+        versionName "0.0.10"
 
         minSdkVersion 14
         targetSdkVersion 28
