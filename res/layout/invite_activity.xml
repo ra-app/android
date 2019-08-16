@@ -64,6 +64,7 @@
                         android:layout_height="wrap_content"
                         tools:ignore="ButtonStyle" />
 
+                <!--
                 <Button android:id="@+id/sms_button"
                         android:drawableLeft="@drawable/ic_message_black_18dp"
                         android:drawableStart="@drawable/ic_message_black_18dp"
@@ -72,11 +73,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         tools:ignore="ButtonStyle" />
+                -->
 
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
+    <!--
     <LinearLayout android:id="@+id/sms_send_frame"
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
@@ -122,4 +125,5 @@
 
         </LinearLayout>
     </LinearLayout>
+    -->
 </FrameLayout>
