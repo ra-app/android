@@ -1774,7 +1774,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         throw new RecipientFormattingException("Badly formatted");
       }
 
-      boolean    forceSms       = sendButton.isManualSelection() && sendButton.getSelectedTransport().isSms();
+      boolean    forceSms       = false; // sendButton.isManualSelection() && sendButton.getSelectedTransport().isSms();
       int        subscriptionId = sendButton.getSelectedTransport().getSimSubscriptionId().or(-1);
       long       expiresIn      = recipient.getExpireMessages() * 1000L;
       boolean    initiating     = threadId == -1;
@@ -1826,11 +1826,13 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       outgoingMessage = outgoingMessageCandidate;
     }
 
+    /*
     Permissions.with(this)
                .request(Manifest.permission.SEND_SMS, Manifest.permission.READ_SMS)
                .ifNecessary(!isSecureText || forceSms)
                .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms))
                .onAllGranted(() -> {
+    */
                  inputPanel.clearQuote();
                  attachmentManager.clear(glideRequests, false);
                  composeText.setText("");
@@ -1852,9 +1854,11 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                      future.set(null);
                    }
                  }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+    /*
                })
                .onAnyDenied(() -> future.set(null))
                .execute();
+    */
 
     return future;
   }
@@ -1873,11 +1877,13 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       message = new OutgoingTextMessage(recipient, messageBody, expiresIn, subscriptionId);
     }
 
+    /*
     Permissions.with(this)
                .request(Manifest.permission.SEND_SMS)
                .ifNecessary(forceSms || !isSecureText)
                .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms))
                .onAllGranted(() -> {
+    */
                  this.composeText.setText("");
                  final long id = fragment.stageOutgoingMessage(message);
 
@@ -1896,9 +1902,10 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                      sendComplete(result);
                    }
                  }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, message);
-
+    /*
                })
                .execute();
+    */
   }
 
   private void updateToggleButtonState() {

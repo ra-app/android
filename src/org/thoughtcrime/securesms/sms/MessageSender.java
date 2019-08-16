@@ -118,7 +118,7 @@ public class MessageSender {
   public static void resend(Context context, MessageRecord messageRecord) {
     try {
       long       messageId   = messageRecord.getId();
-      boolean    forceSms    = messageRecord.isForcedSms();
+      boolean    forceSms    = false; // messageRecord.isForcedSms();
       boolean    keyExchange = messageRecord.isKeyExchange();
       long       expiresIn   = messageRecord.getExpiresIn();
       Recipient  recipient   = messageRecord.getRecipient();
@@ -143,7 +143,7 @@ public class MessageSender {
     } else if (!forceSms && isPushMediaSend(context, recipient)) {
       sendMediaPush(context, recipient, messageId);
     } else {
-      sendMms(context, messageId);
+      // sendMms(context, messageId);
     }
   }
 
@@ -156,7 +156,7 @@ public class MessageSender {
     } else if (!forceSms && isPushTextSend(context, recipient, keyExchange)) {
       sendTextPush(context, recipient, messageId);
     } else {
-      sendSms(context, recipient, messageId);
+      // sendSms(context, recipient, messageId);
     }
   }
 
@@ -207,6 +207,7 @@ public class MessageSender {
     jobManager.add(new PushGroupSendJob(context, messageId, recipient.getAddress(), filterAddress));
   }
 
+  /*
   private static void sendSms(Context context, Recipient recipient, long messageId) {
     JobManager jobManager = ApplicationContext.getInstance(context).getJobManager();
     jobManager.add(new SmsSendJob(context, messageId, recipient.getName()));
@@ -216,6 +217,7 @@ public class MessageSender {
     JobManager jobManager = ApplicationContext.getInstance(context).getJobManager();
     jobManager.add(new MmsSendJob(context, messageId));
   }
+  */
 
   private static boolean isPushTextSend(Context context, Recipient recipient, boolean keyExchange) {
     if (!TextSecurePreferences.isPushRegistered(context)) {
