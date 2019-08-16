@@ -1042,11 +1042,13 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
     sendButton.resetAvailableTransports(isMediaMessage);
 
-    if (!isSecureText && !isPushGroupConversation()) sendButton.disableTransport(Type.TEXTSECURE);
-    if (recipient.isPushGroupRecipient())            sendButton.disableTransport(Type.SMS);
+    // if (!isSecureText && !isPushGroupConversation()) sendButton.disableTransport(Type.TEXTSECURE);
+    // if (recipient.isPushGroupRecipient())            sendButton.disableTransport(Type.SMS);
 
-    if (isSecureText || isPushGroupConversation()) sendButton.setDefaultTransport(Type.TEXTSECURE);
-    else                                           sendButton.setDefaultTransport(Type.SMS);
+    // if (isSecureText || isPushGroupConversation()) sendButton.setDefaultTransport(Type.TEXTSECURE);
+    // else                                           sendButton.setDefaultTransport(Type.SMS);
+
+    sendButton.setDefaultTransport(Type.TEXTSECURE);
 
     calculateCharactersRemaining();
     supportInvalidateOptionsMenu();
