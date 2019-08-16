@@ -59,7 +59,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import org.raapp.messenger.ConversationListAdapter.ItemClickListener;
 import org.raapp.messenger.components.recyclerview.DeleteItemAnimator;
 import org.raapp.messenger.components.registration.PulsingFloatingActionButton;
-import org.raapp.messenger.components.reminder.DefaultSmsReminder;
+// import org.raapp.messenger.components.reminder.DefaultSmsReminder;
 import org.raapp.messenger.components.reminder.DozeReminder;
 import org.raapp.messenger.components.reminder.ExpiredBuildReminder;
 import org.raapp.messenger.components.reminder.OutdatedBuildReminder;
@@ -68,7 +68,7 @@ import org.raapp.messenger.components.reminder.Reminder;
 import org.raapp.messenger.components.reminder.ReminderView;
 import org.raapp.messenger.components.reminder.ServiceOutageReminder;
 import org.raapp.messenger.components.reminder.ShareReminder;
-import org.raapp.messenger.components.reminder.SystemSmsImportReminder;
+// import org.raapp.messenger.components.reminder.SystemSmsImportReminder;
 import org.raapp.messenger.components.reminder.UnauthorizedReminder;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
@@ -195,10 +195,10 @@ public class ConversationListFragment extends Fragment
           return Optional.of(new ServiceOutageReminder(context));
         } else if (OutdatedBuildReminder.isEligible()) {
           return Optional.of(new OutdatedBuildReminder(context));
-        } else if (DefaultSmsReminder.isEligible(context)) {
-          return Optional.of(new DefaultSmsReminder(context));
-        } else if (Util.isDefaultSmsProvider(context) && SystemSmsImportReminder.isEligible(context)) {
-          return Optional.of((new SystemSmsImportReminder(context)));
+        // } else if (DefaultSmsReminder.isEligible(context)) {
+          // return Optional.of(new DefaultSmsReminder(context));
+        // } else if (Util.isDefaultSmsProvider(context) && SystemSmsImportReminder.isEligible(context)) {
+          // return Optional.of((new SystemSmsImportReminder(context)));
         } else if (PushRegistrationReminder.isEligible(context)) {
           return Optional.of((new PushRegistrationReminder(context)));
         } else if (ShareReminder.isEligible(context)) {
