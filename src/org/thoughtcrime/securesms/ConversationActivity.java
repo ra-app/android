@@ -1042,11 +1042,13 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
     sendButton.resetAvailableTransports(isMediaMessage);
 
-    if (!isSecureText && !isPushGroupConversation()) sendButton.disableTransport(Type.TEXTSECURE);
-    if (recipient.isPushGroupRecipient())            sendButton.disableTransport(Type.SMS);
+    // if (!isSecureText && !isPushGroupConversation()) sendButton.disableTransport(Type.TEXTSECURE);
+    // if (recipient.isPushGroupRecipient())            sendButton.disableTransport(Type.SMS);
 
-    if (isSecureText || isPushGroupConversation()) sendButton.setDefaultTransport(Type.TEXTSECURE);
-    else                                           sendButton.setDefaultTransport(Type.SMS);
+    // if (isSecureText || isPushGroupConversation()) sendButton.setDefaultTransport(Type.TEXTSECURE);
+    // else                                           sendButton.setDefaultTransport(Type.SMS);
+
+    sendButton.setDefaultTransport(Type.TEXTSECURE);
 
     calculateCharactersRemaining();
     supportInvalidateOptionsMenu();
@@ -1373,7 +1375,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     titleView.setOnLongClickListener(v -> handleDisplayQuickContact());
     titleView.setOnBackClickedListener(view -> super.onBackPressed());
     unblockButton.setOnClickListener(v -> handleUnblock());
-    makeDefaultSmsButton.setOnClickListener(v -> handleMakeDefaultSms());
+    // makeDefaultSmsButton.setOnClickListener(v -> handleMakeDefaultSms());
     registerButton.setOnClickListener(v -> handleRegisterForSignal());
 
     composeText.setOnKeyListener(composeKeyPressedListener);
@@ -1622,22 +1624,22 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     if (recipient.isBlocked()) {
       unblockButton.setVisibility(View.VISIBLE);
       composePanel.setVisibility(View.GONE);
-      makeDefaultSmsButton.setVisibility(View.GONE);
+      // makeDefaultSmsButton.setVisibility(View.GONE);
       registerButton.setVisibility(View.GONE);
     } else if (!isSecureText && isPushGroupConversation()) {
       unblockButton.setVisibility(View.GONE);
       composePanel.setVisibility(View.GONE);
-      makeDefaultSmsButton.setVisibility(View.GONE);
+      // makeDefaultSmsButton.setVisibility(View.GONE);
       registerButton.setVisibility(View.VISIBLE);
     } else if (!isSecureText && !isDefaultSms) {
       unblockButton.setVisibility(View.GONE);
       composePanel.setVisibility(View.GONE);
-      makeDefaultSmsButton.setVisibility(View.VISIBLE);
+      // makeDefaultSmsButton.setVisibility(View.VISIBLE);
       registerButton.setVisibility(View.GONE);
     } else {
       composePanel.setVisibility(View.VISIBLE);
       unblockButton.setVisibility(View.GONE);
-      makeDefaultSmsButton.setVisibility(View.GONE);
+      // makeDefaultSmsButton.setVisibility(View.GONE);
       registerButton.setVisibility(View.GONE);
     }
   }
