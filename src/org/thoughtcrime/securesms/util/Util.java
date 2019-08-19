@@ -252,7 +252,7 @@ public class Util {
 
   @RequiresPermission(anyOf = {
       android.Manifest.permission.READ_PHONE_STATE,
-      android.Manifest.permission.READ_SMS,
+      // android.Manifest.permission.READ_SMS,
       android.Manifest.permission.READ_PHONE_NUMBERS
   })
   @SuppressLint("MissingPermission")
