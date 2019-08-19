@@ -425,6 +425,13 @@
               android:exported="true"
               android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
         <activity android:name=".ui.Login" />
+        <activity android:name=".ui.WelcomeActivity"
+            android:theme="@style/TextSecure.LightNoActionBar"
+            />
+        <activity android:name=".ui.PermissonRequestActivity"
+            android:theme="@style/TextSecure.LightNoActionBar"/>
+        <activity android:name=".ui.TermsActivity"
+            android:theme="@style/TextSecure.LightNoActionBar" />
 
         <service android:enabled="true" android:name="org.thoughtcrime.securesms.service.WebRtcCallService"/>
     <service android:enabled="true" android:name="org.thoughtcrime.securesms.service.ApplicationMigrationService"/>

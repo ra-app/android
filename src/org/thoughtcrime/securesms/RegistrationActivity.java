@@ -172,7 +172,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
     initializeResources();
     initializeSpinner();
-    initializePermissions();
+//    initializePermissions();
     initializeNumber();
     initializeChallengeListener();
   }
@@ -452,6 +452,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
                               String.format(getString(R.string.RegistrationActivity_the_number_you_specified_s_is_invalid), e164number));
       return;
     }
+    createButton.setClickable(false);
 
     PlayServicesStatus gcmStatus = PlayServicesUtil.getPlayServicesStatus(this);
 

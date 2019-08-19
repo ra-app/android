@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import org.raapp.messenger.ui.WelcomeActivity;
 import org.thoughtcrime.securesms.logging.Log;
 
 import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
@@ -183,8 +184,8 @@ public abstract class PassphraseRequiredActionBarActivity extends BaseActionBarA
   }
 
   private Intent getPushRegistrationIntent() {
-//    return getRoutedIntent(Login.class, getCreateProfileIntent());
-    return getRoutedIntent(RegistrationActivity.class, getCreateProfileIntent());
+    return getRoutedIntent(WelcomeActivity.class, getCreateProfileIntent());
+//    return getRoutedIntent(RegistrationActivity.class, getCreateProfileIntent());
 
   }
 
