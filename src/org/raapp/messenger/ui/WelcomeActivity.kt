@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 import org.raapp.messenger.R
-import org.thoughtcrime.securesms.RegistrationActivity
 
 
 class WelcomeActivity : AppCompatActivity() {
@@ -22,7 +21,7 @@ class WelcomeActivity : AppCompatActivity() {
                 padding = dip(20)
 
                 imageView {
-                    setImageResource(R.drawable.ra_icon_1024)
+                    setImageResource(R.drawable.icon_transparent)
 
                 }.lparams(width = dip(200), height = dip(200))
 
@@ -37,7 +36,7 @@ class WelcomeActivity : AppCompatActivity() {
                     background = resources.getDrawable(R.drawable.blue_to_green)
 
                     onClick {
-                        startActivity<PermissonRequestActivity>()
+                        startActivity<TermsActivity>()
                     }
                 }.lparams(width= matchParent, height = dip(42))
             }.lparams(width = matchParent, height = matchParent) {

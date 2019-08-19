@@ -12,8 +12,6 @@ import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 import org.raapp.messenger.R
 import org.thoughtcrime.securesms.RegistrationActivity
-import org.thoughtcrime.securesms.logging.Log
-import org.thoughtcrime.securesms.permissions.Permissions
 
 
 class PermissonRequestActivity : AppCompatActivity() {
@@ -28,7 +26,7 @@ class PermissonRequestActivity : AppCompatActivity() {
                 padding = dip(20)
 
                 imageView {
-                    setImageResource(R.drawable.ra_icon_1024)
+                    setImageResource(R.drawable.icon_transparent)
                 }.lparams(width = dip(200), height = dip(200))
 
 
@@ -51,10 +49,7 @@ class PermissonRequestActivity : AppCompatActivity() {
                     onClick {
                         startActivity<RegistrationActivity>()
                     }
-
                 }
-
-
 
             }.lparams(width = matchParent, height = matchParent) {
                 topMargin = dip(100)
@@ -85,8 +80,6 @@ class PermissonRequestActivity : AppCompatActivity() {
         val MY_PERMISSIONS_REQUEST_READ_CONTACTS = 1
         val MY_PERMISSIONS_REQUEST_WRITE_CONTACTS = 2
         val MY_PERMISSIONS_REQUEST_PHONE_STATE = 3
-
-
     }
 
     fun requestReadContactPermissios(){
