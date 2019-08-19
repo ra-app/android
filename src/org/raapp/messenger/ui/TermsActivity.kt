@@ -78,7 +78,6 @@ class TermsActivity : AppCompatActivity() {
                     id = R.id.checkbox
                     val box = this
 
-
                     onClick {
                         continueButton.isEnabled = box.isChecked
 
@@ -89,7 +88,7 @@ class TermsActivity : AppCompatActivity() {
                             background.alpha = 127
                         }
                     }
-                }
+                }.lparams(height = dip(40), width = dip(40))
 
                 applyConstraintSet {
                     termsHeadline{

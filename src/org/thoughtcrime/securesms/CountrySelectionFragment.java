@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -24,6 +25,7 @@ import java.util.Map;
 public class CountrySelectionFragment extends ListFragment implements LoaderManager.LoaderCallbacks<ArrayList<Map<String, String>>> {
 
   private EditText countryFilter;
+  private ImageButton cancelButton;
   private CountrySelectedListener listener;
 
   @Override
@@ -36,6 +38,9 @@ public class CountrySelectionFragment extends ListFragment implements LoaderMana
     super.onActivityCreated(bundle);
     this.countryFilter = (EditText)getView().findViewById(R.id.country_search);
     this.countryFilter.addTextChangedListener(new FilterWatcher());
+    this.cancelButton = getView().findViewById(R.id.cancel_button);
+    this.cancelButton.setOnClickListener(v -> countryFilter.setText(""));
+
     getLoaderManager().initLoader(0, null, this).forceLoad();
   }
 
