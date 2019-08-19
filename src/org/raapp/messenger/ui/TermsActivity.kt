@@ -1,8 +1,8 @@
 package org.raapp.messenger.ui
 
 
+import android.os.Binder
 import android.os.Bundle
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintSet
 import org.jetbrains.anko.*
@@ -14,8 +14,10 @@ import org.raapp.messenger.R
 
 
 class TermsActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
         verticalLayout{
             verticalLayout {
@@ -49,9 +51,7 @@ class TermsActivity : AppCompatActivity() {
 
                 }.lparams(height = 0)
 
-                val toggle = checkBox {
-                    id = R.id.checkbox
-                }
+
 
                 val acceptanceText = textView("Ich akzeptiere die AGB."){
                     id = R.id.confirmation_text
@@ -64,11 +64,32 @@ class TermsActivity : AppCompatActivity() {
                     id = R.id.continue_button
 
                     background = resources.getDrawable(R.drawable.blue_to_green)
+                    background.alpha = 127
+                    isEnabled = false
+
+
 
                     onClick {
                         startActivity<PermissonRequestActivity>()
                     }
                 }.lparams(width= matchParent, height = dip(42))
+
+                val checkBox = checkBox {
+                    id = R.id.checkbox
+                    val box = this
+
+
+                    onClick {
+                        continueButton.isEnabled = box.isChecked
+
+                        if (box.isChecked){
+                            continueButton.background.alpha = 255
+                        }
+                        else{
+                            background.alpha = 127
+                        }
+                    }
+                }
 
                 applyConstraintSet {
                     termsHeadline{
@@ -81,7 +102,7 @@ class TermsActivity : AppCompatActivity() {
                                 TOP to BOTTOM of termsHeadline,
                                 BOTTOM to TOP of acceptanceText)
                     }
-                    toggle{
+                    checkBox{
                         connect(BOTTOM to TOP of continueButton,
                                 START to START of ConstraintSet.PARENT_ID)
                     }
@@ -89,7 +110,7 @@ class TermsActivity : AppCompatActivity() {
 
                     acceptanceText{
                         connect(BOTTOM to TOP of continueButton,
-                                START to END of toggle)
+                                START to END of checkBox)
                     }
                     continueButton{
                         connect(
@@ -102,5 +123,13 @@ class TermsActivity : AppCompatActivity() {
             }.lparams(width = matchParent, height = matchParent) {
             }
         }
+
+        fun termsAccepted(){
+
+        }
     }
+}
+
+private fun TermsActivity.termsAccepted() {
+
 }

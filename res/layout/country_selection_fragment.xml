@@ -3,25 +3,51 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:orientation="vertical"
-              android:background="#ffffff">
+              >
 
-    <EditText android:id="@+id/country_search"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:drawableLeft="@drawable/ic_menu_search_holo_light"
-              android:hint="@string/country_selection_fragment__search" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/search_box">
+        <!--<ImageButton-->
+            <!--android:id="@+id/cancel_button"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"/>-->
 
-    <ListView android:id="@android:id/list"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:divider="#ffdddddd"
-              android:dividerHeight="1.0px"
-              android:choiceMode="singleChoice" />
+        <EditText android:id="@+id/country_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center"
 
-    <TextView android:id="@android:id/empty"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:gravity="center"
-              android:textAppearance="?android:attr/textAppearanceLarge"
-              android:text="@string/country_selection_fragment__loading_countries" />
+            android:hint="@string/country_selection_fragment__search"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="20dp">
+        <ListView android:id="@android:id/list"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:divider="#ffdddddd"
+                  android:dividerHeight="1.0dp"
+                  android:choiceMode="singleChoice"/>
+
+        <TextView android:id="@android:id/empty"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:gravity="center"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="@string/country_selection_fragment__loading_countries"/>
+    </LinearLayout>
 </LinearLayout>
