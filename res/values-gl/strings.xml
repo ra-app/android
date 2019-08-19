@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">RAAPP</string>
+  <string name="app_name">OfficeApp</string>
   <string name="yes">Si</string>
   <string name="no">Non</string>
   <string name="delete">Borrar</string>
@@ -21,17 +21,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">Borrar</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Desactivar frase de acceso?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Isto desbloqueará de xeito permanente RAAPP e as notificacións de mensaxes.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Isto desbloqueará de xeito permanente OfficeApp e as notificacións de mensaxes.</string>
   <string name="ApplicationPreferencesActivity_disable">Desactivar</string>
   <string name="ApplicationPreferencesActivity_unregistering">Anulando o rexistro</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Anulando o rexistro de mensaxes e chamadas de RAAPP...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Desactivar as mensaxes e chamadas en RAAPP?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Desactiva as mensaxes e chamadas vía RAAPP anulando o rexistro no servidor. Necesitarás volver rexistrar o teu número en caso de querer volver usalo.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Anulando o rexistro de mensaxes e chamadas de OfficeApp...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Desactivar as mensaxes e chamadas en OfficeApp?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Desactiva as mensaxes e chamadas vía OfficeApp anulando o rexistro no servidor. Necesitarás volver rexistrar o teu número en caso de querer volver usalo.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Erro ao se conectar ao servidor!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS activadas</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Toca para cambiar a túa app predefinida de SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS desactivadas</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Toca para facer de RAAPP a túa app predefinida de MMS</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Toca para facer de OfficeApp a túa app predefinida de MMS</string>
   <string name="ApplicationPreferencesActivity_on">activada</string>
   <string name="ApplicationPreferencesActivity_On">On</string>
   <string name="ApplicationPreferencesActivity_off">desactivada</string>
@@ -52,10 +52,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(resposta)</string>
   <!--AttchmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Non se atopa unha app para seleccionar contido multimedia.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">RAAPP require permiso de almacenamento para poder anexar fotografías, vídeos ou ficheiros de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">RAAPP require permiso para poder anexar información dos contactos, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Contactos\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">RAAPP require permiso para poder anexar a localización, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Localización\".</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">RAAPP require permiso para poder tirar fotografías, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">OfficeApp require permiso de almacenamento para poder anexar fotografías, vídeos ou ficheiros de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">OfficeApp require permiso para poder anexar información dos contactos, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Contactos\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">OfficeApp require permiso para poder anexar a localización, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Localización\".</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">OfficeApp require permiso para poder tirar fotografías, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">Erro ao reproducir o audio!</string>
   <!--BlockedContactsActivity-->
@@ -71,7 +71,7 @@
   <string name="ClearProfileActivity_remove">Eliminar</string>
   <string name="ClearProfileActivity_remove_profile_photo">Eliminar a foto do perfil?</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">O teu número de seguranza con %1$s foi modificado. Isto pode significar que alguén está a tentar interceptar a vosa comunicación ou simplemente que %2$s reinstalou RAAPP.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">O teu número de seguranza con %1$s foi modificado. Isto pode significar que alguén está a tentar interceptar a vosa comunicación ou simplemente que %2$s reinstalou OfficeApp.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Convén verificar o teu número de seguranza con este contacto.</string>
   <string name="ConfirmIdentityDialog_accept">Aceptar</string>
   <!--ContactsCursorLoader-->
@@ -80,7 +80,7 @@
   <string name="ContactsCursorLoader_groups">Grupos</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Mensaxe %s</string>
-  <string name="ContactsDatabase_signal_call_s">Chamada RAAPP %s</string>
+  <string name="ContactsDatabase_signal_call_s">Chamada OfficeApp %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Nome facilitado</string>
   <string name="ContactNameEditActivity_family_name">Nome familiar</string>
@@ -100,7 +100,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Erro ao enviar, toca para volver a un modo non seguro</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Volver a SMS sen cifrar?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Volver a MMS sen cifrar?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Esta mensaxe <b>non</b> será cifrada porque o seu destinatario xa non é usuario de RAAPP.\n\nEnviar mensaxe insegura?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Esta mensaxe <b>non</b> será cifrada porque o seu destinatario xa non é usuario de OfficeApp.\n\nEnviar mensaxe insegura?</string>
   <string name="ConversationItem_unable_to_open_media">Non se atopa unha aplicación con que abrir este contido multimedia.</string>
   <string name="ConversationItem_copied_text">Copiouse %s</string>
   <string name="ConversationItem_from_s">de %s</string>
@@ -124,8 +124,8 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Tes a certeza de querer abandonar este grupo?</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS insegura</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS insegura</string>
-  <string name="ConversationActivity_transport_signal">RAAPP</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Imos cambiar a RAAPP %1$s</string>
+  <string name="ConversationActivity_transport_signal">OfficeApp</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Imos cambiar a OfficeApp %1$s</string>
   <string name="ConversationActivity_lets_use_this_to_chat">Imos usar isto para charlar: %1$s</string>
   <string name="ConversationActivity_error_leaving_group">Erro ao abandonar o grupo</string>
   <string name="ConversationActivity_specify_recipient">Por favor, elixe un contacto</string>
@@ -136,13 +136,13 @@
   <string name="ConversationActivity_quick_camera_unavailable">Cámara non dispoñible</string>
   <string name="ConversationActivity_unable_to_record_audio">Non é posible gravar audio!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Non hai ningunha app dispoñible para tratar esta ligazón no teu dispositivo.</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Para enviar mensaxes de audio, RAAPP necesita acceder ao teu micrófono.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">RAAPP require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Para chamar a %s, RAAPP necesita acceder ao teu micrófono e cámara.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">RAAPP necesita permisos para acceder ao micrófono e á cámara para poder chamar a %s, pero foron denegados de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\" e \"Cámara\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotografías e facer vídeos, RAAPP necesita acceder á cámara.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">RAAPP necesita permiso para acceder á cámara e poder tirar fotografías, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">RAAPP necesita permiso para acceder á cámara e tirar fotografías ou facer vídeos.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Para enviar mensaxes de audio, OfficeApp necesita acceder ao teu micrófono.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">OfficeApp require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">Para chamar a %s, OfficeApp necesita acceder ao teu micrófono e cámara.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">OfficeApp necesita permisos para acceder ao micrófono e á cámara para poder chamar a %s, pero foron denegados de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\" e \"Cámara\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotografías e facer vídeos, OfficeApp necesita acceder á cámara.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">OfficeApp necesita permiso para acceder á cámara e poder tirar fotografías, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">OfficeApp necesita permiso para acceder á cámara e tirar fotografías ou facer vídeos.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
@@ -177,7 +177,7 @@
     <item quantity="other">Gardando %1$d anexos no almacenamento...</item>
   </plurals>
   <string name="ConversationFragment_pending">Pendente...</string>
-  <string name="ConversationFragment_push">Datos (RAAPP)</string>
+  <string name="ConversationFragment_push">Datos (OfficeApp)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Borrando</string>
@@ -248,25 +248,25 @@
   <string name="DocumentView_unknown_file">Ficheiro descoñecido</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimizar cando falte Servizos Play.</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Este dispositivo non é compatible con Servizos Play. Toca para desactivar as optimizacións da batería do sistema que evitan que RAAPP recupere mensaxes mentres está inactivo.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Este dispositivo non é compatible con Servizos Play. Toca para desactivar as optimizacións da batería do sistema que evitan que OfficeApp recupere mensaxes mentres está inactivo.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Compartir con</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Benvido/a a RAAPP.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure e RedPhone son agora unha aplicación de mensaxaría privada para calquera situación: RAAPP.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Benvido/a a RAAPP!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure é agora RAAPP.</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure e RedPhone son agora unha aplicación: RAAPP. Toca para explorar.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Benvido/a a OfficeApp.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure e RedPhone son agora unha aplicación de mensaxaría privada para calquera situación: OfficeApp.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Benvido/a a OfficeApp!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure é agora OfficeApp.</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure e RedPhone son agora unha aplicación: OfficeApp. Toca para explorar.</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">Dilles ola ás videochamadas seguras.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">RAAPP agora admite videochamadas seguras. Ao comezares unha chamada normal en RAAPP, toca o botón de vídeo e manda un saúdo.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">RAAPP agora admite videochamadas seguras.</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">RAAPP agora admite videochamadas seguras. Toca para saber máis.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">OfficeApp agora admite videochamadas seguras. Ao comezares unha chamada normal en OfficeApp, toca o botón de vídeo e manda un saúdo.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">OfficeApp agora admite videochamadas seguras.</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">OfficeApp agora admite videochamadas seguras. Toca para saber máis.</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">Disposto/a a un primeiro plano?</string>
-  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Agora podes compartir un nome e fotografía de perfil coas túas amizades en RAAPP</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Os perfís de RAAPP xa están aquí</string>
+  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Agora podes compartir un nome e fotografía de perfil coas túas amizades en OfficeApp</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Os perfís de OfficeApp xa están aquí</string>
   <!--GcmRefreshJob-->
   <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Erro de comunicación permanente!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Non foi posible rexistrar RAAPP con Servizos de Google Play. As mensaxes e chamadas de RAAPP foron desactivadas; tenta volver facer o rexistro en Axustes&gt;Avanzado.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Non foi posible rexistrar OfficeApp con Servizos de Google Play. As mensaxes e chamadas de OfficeApp foron desactivadas; tenta volver facer o rexistro en Axustes&gt;Avanzado.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Erro ao recuperar o GIF coa resolución completa</string>
   <!--GiphyFragmentPageAdapter-->
@@ -277,15 +277,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">Editar grupo</string>
   <string name="GroupCreateActivity_group_name_hint">Nome do grupo</string>
   <string name="GroupCreateActivity_actionbar_mms_title">Novo grupo MMS</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Seleccionaches un contacto que non admite grupos en RAAPP, polo que este grupo será de MMS.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Non estás rexistrado/a para facer chamadas nin mensaxes en RAAPP, de aí que os grupos estean desactivados. Volve rexistrarte en Axustes&gt;Avanzado.</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">Seleccionaches un contacto que non admite grupos en OfficeApp, polo que este grupo será de MMS.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">Non estás rexistrado/a para facer chamadas nin mensaxes en OfficeApp, de aí que os grupos estean desactivados. Volve rexistrarte en Axustes&gt;Avanzado.</string>
   <string name="GroupCreateActivity_contacts_no_members">Necesitas cando menos dunha persoa no teu grupo!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">Un dos membros do grupo ten un número que non pode ser lido correctamente. Por favor, soluciónao ou elimina este contacto para volver tentalo.</string>
   <string name="GroupCreateActivity_avatar_content_description">Avatar do grupo</string>
   <string name="GroupCreateActivity_menu_apply_button">Aplicar</string>
   <string name="GroupCreateActivity_creating_group">Creando %1$s…</string>
   <string name="GroupCreateActivity_updating_group">Actualizando %1$s...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Non se puido engadir a %1$s porque non é usuario de RAAPP.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Non se puido engadir a %1$s porque non é usuario de OfficeApp.</string>
   <string name="GroupCreateActivity_loading_group_details">Cargando detalles do grupo...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">Xa estás no grupo.</string>
   <!--GroupShareProfileView-->
@@ -303,7 +303,7 @@
   <string name="InviteActivity_sending">A enviar...</string>
   <string name="InviteActivity_heart_content_description">Corazón</string>
   <string name="InviteActivity_invitations_sent">Convites enviados!</string>
-  <string name="InviteActivity_invite_to_signal">Convidar a RAAPP</string>
+  <string name="InviteActivity_invite_to_signal">Convidar a OfficeApp</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">ENVIAR SMS A %d AMIZADE</item>
     <item quantity="other">ENVIAR SMS A %d AMIZADES</item>
@@ -312,14 +312,14 @@
     <item quantity="one">Enviar %d SMS de convite?</item>
     <item quantity="other">Enviar %d SMS de convite?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Imos cambiar a RAAPP: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Imos cambiar a OfficeApp: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Semella que non hai ningunha que permita compartir.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Non manteñas coas túas amizades conversas sen cifrar.</string>
   <!--MessageDetailsRecipient-->
   <string name="MessageDetailsRecipient_failed_to_send">Erro ao enviar</string>
   <string name="MessageDetailsRecipient_new_safety_number">Novo número de seguranza</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">RAAPP</string>
+  <string name="MessageRetrievalService_signal">OfficeApp</string>
   <string name="MessageRetrievalService_background_connection_enabled">Activada conexión en segundo plano</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Erro ao ler os axustes do provedor sen fíos de MMS</string>
@@ -337,9 +337,9 @@
   <string name="MediaOverviewActivity_Media_delete_progress_message">Borrando mensaxes...</string>
   <string name="MediaOverviewActivity_Documents">Documentos</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Chamada RAAPP en progreso</string>
-  <string name="NotificationBarManager__establishing_signal_call">Establecendo chamada RAAPP</string>
-  <string name="NotificationBarManager__incoming_signal_call">Chamada recibida RAAPP</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Chamada OfficeApp en progreso</string>
+  <string name="NotificationBarManager__establishing_signal_call">Establecendo chamada OfficeApp</string>
+  <string name="NotificationBarManager__incoming_signal_call">Chamada recibida OfficeApp</string>
   <string name="NotificationBarManager__deny_call">Rexeitar chamada</string>
   <string name="NotificationBarManager__answer_call">Responder chamada</string>
   <string name="NotificationBarManager__end_call">Finalizar chamada</string>
@@ -349,7 +349,7 @@
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Descargando mensaxe MMS</string>
   <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Erro ao descargar a mensaxe MMS, toca para volver tentar</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recibiuse unha mensaxe cifrada a través dunha versión antiga de RAAPP que xa non ten soporte. Por favor, pídelle ao remitente que actualice a súa versión e volva enviar a mensaxe.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recibiuse unha mensaxe cifrada a través dunha versión antiga de OfficeApp que xa non ten soporte. Por favor, pídelle ao remitente que actualice a súa versión e volva enviar a mensaxe.</string>
   <string name="MessageRecord_left_group">Abandonaches o grupo.</string>
   <string name="MessageRecord_you_updated_group">Actualizaches o grupo.</string>
   <string name="MessageRecord_you_called">Chamaches a</string>
@@ -359,7 +359,7 @@
   <string name="MessageRecord_s_called_you">%s chamoute</string>
   <string name="MessageRecord_called_s">Chamaches a %s</string>
   <string name="MessageRecord_missed_call_from">Chamada perdida de %s</string>
-  <string name="MessageRecord_s_joined_signal">%s está en RAAPP!</string>
+  <string name="MessageRecord_s_joined_signal">%s está en OfficeApp!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Desactivaches a desaparición das mensaxes.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s desactivou a desaparición das mensaxes.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Estableciches a desaparición das mensaxes en %1$s.</string>
@@ -390,9 +390,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Código QR non válido.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sentímolo, mais xa tes moitos dispositivos vinculados. Proba a eliminar algún</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Desculpa, este non é un código QR válido para vincular o dispositivo.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Vincular un dispositivo a RAAPP?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Semella que estás tentando vincular un dispositivo a RAAPP usando un escáner de terceiros. Para a túa protección, escanea o código de novo desde RAAPP.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">RAAPP necesita permiso para acceder á cámara e poder escanear un código QR, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Vincular un dispositivo a OfficeApp?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Semella que estás tentando vincular un dispositivo a OfficeApp usando un escáner de terceiros. Para a túa protección, escanea o código de novo desde OfficeApp.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">OfficeApp necesita permiso para acceder á cámara e poder escanear un código QR, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Non é posible escanear o código QR sen permiso para acceder á cámara</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Desaparición das mensaxes</string>
@@ -400,7 +400,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">As mensaxes que se envíen e reciban nesta conversa desaparecerán %s despois de seren vistas.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Inserir frase de acceso</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Icona de RAAPP</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Icona de OfficeApp</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Enviar frase de acceso</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Frase de acceso non válida!</string>
   <!--PlayServicesProblemFragment-->
@@ -449,7 +449,7 @@
         especifcado (%s) non é válido.
     </string>
   <string name="RegistrationActivity_missing_google_play_services">Falta Servizos de Google Play</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Este dispositivo non dispón de Servizos de Google Play. Podes continuar a usar RAAPP, mais é posible que o seu rendemento ou fiabilidade se vexan reducidos.\n\nSe non es un usuario avanzado, se non estás a executar unha ROM de Android modificada ou pensas que isto é un erro, contacta con support@raapp.com para che axudar a solucionalo.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Este dispositivo non dispón de Servizos de Google Play. Podes continuar a usar OfficeApp, mais é posible que o seu rendemento ou fiabilidade se vexan reducidos.\n\nSe non es un usuario avanzado, se non estás a executar unha ROM de Android modificada ou pensas que isto é un erro, contacta con support@raapp.com para che axudar a solucionalo.</string>
   <string name="RegistrationActivity_i_understand">Entendo</string>
   <string name="RegistrationActivity_play_services_error">Erro de Servizos Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Servizos de Google Play está actualizándose ou non está temporalmente dispoñible. Volve tentalo.</string>
@@ -457,9 +457,9 @@
   <string name="RegistrationActivity_no_browser">Non é posible abrir esta ligazón. Non se atopou navegador ningún.</string>
   <string name="RegistrationActivity_more_information">Máis información</string>
   <string name="RegistrationActivity_less_information">Menos información</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">RAAPP necesita acceder aos teus contacto e ficheiros multimedia para contactar coas túas amizades, intercambiar mensaxes e facer chamadas seguras</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">OfficeApp necesita acceder aos teus contacto e ficheiros multimedia para contactar coas túas amizades, intercambiar mensaxes e facer chamadas seguras</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Non é posible contactar co servizo. Comproba a túa conexión de rede e téntao de novo.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Para verificar dun xeito sinxelo o teu número, RAAPP pode detectar automaticamente o teu código de verificación se permites que acceda ás SMS.</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Para verificar dun xeito sinxelo o teu número, OfficeApp pode detectar automaticamente o teu código de verificación se permites que acceda ás SMS.</string>
   <!--ScribbleActivity-->
   <string name="ScribbleActivity_save_failure">Erro ao gardar os cambios na imaxe</string>
   <!--Search-->
@@ -469,13 +469,13 @@
   <string name="SearchFragment_header_messages">Mensaxes</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Engadir a contactos</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Convidar a RAAPP</string>
-  <string name="SharedContactDetailsActivity_signal_message">Mensaxe de RAAPP</string>
-  <string name="SharedContactDetailsActivity_signal_call">Chamada RAAPP</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Convidar a OfficeApp</string>
+  <string name="SharedContactDetailsActivity_signal_message">Mensaxe de OfficeApp</string>
+  <string name="SharedContactDetailsActivity_signal_call">Chamada OfficeApp</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Engadir a contactos</string>
-  <string name="SharedContactView_invite_to_signal">Convidar a RAAPP</string>
-  <string name="SharedContactView_message">Mensaxe de RAAPP</string>
+  <string name="SharedContactView_invite_to_signal">Convidar a OfficeApp</string>
+  <string name="SharedContactView_message">Mensaxe de OfficeApp</string>
   <!--Slide-->
   <string name="Slide_image">Imaxe</string>
   <string name="Slide_audio">Audio</string>
@@ -500,7 +500,7 @@
   <string name="ThreadRecord_called_you">Chamoute</string>
   <string name="ThreadRecord_missed_call">Chamada perdida</string>
   <string name="ThreadRecord_media_message">Mensaxe multimedia</string>
-  <string name="ThreadRecord_s_is_on_signal">%s está en RAAPP!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s está en OfficeApp!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Desaparición das mensaxes desactivada</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Desaparición das mensaxes establecida en%s</string>
   <string name="ThreadRecord_safety_number_changed">O número de seguranza cambiou</string>
@@ -508,8 +508,8 @@
   <string name="ThreadRecord_you_marked_verified">Marcaches como verificado</string>
   <string name="ThreadRecord_you_marked_unverified">Marcaches como sen verificar</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Actualizar RAAPP</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Hai dispoñible unha nova versión de RAAPP; toca para actualizar</string>
+  <string name="UpdateApkReadyListener_Signal_update">Actualizar OfficeApp</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Hai dispoñible unha nova versión de OfficeApp; toca para actualizar</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">Bloquear a %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Os contactos  bloqueados non poderán volver chamarte nin enviarche mensaxes.</string>
@@ -524,14 +524,14 @@
   <string name="UnverifiedSendDialog_send_message">Enviar mensaxe?</string>
   <string name="UnverifiedSendDialog_send">Enviar</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">O teu contacto ten unha versión antiga de RAAPP. Pídelle que a actualice antes de verificar o número de seguranza.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">O teu contacto ten unha versión recente de RAAPP cun formato de código QR incompatible. Actualízate para poder comparalo.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">O teu contacto ten unha versión antiga de OfficeApp. Pídelle que a actualice antes de verificar o número de seguranza.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">O teu contacto ten unha versión recente de OfficeApp cun formato de código QR incompatible. Actualízate para poder comparalo.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">O código QR escaneado non ten un código de verificación correctamente formatado. Volve escanealo de novo.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Compartir número de seguranza vía...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">O noso número de seguranza en RAAPP:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">O noso número de seguranza en OfficeApp:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Semella que non hai ningunha que permita compartir.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Non se atopou no portapapeis número de seguranza ningún para comparar</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">RAAPP necesita permiso para acceder á cámara e poder escanear un código QR, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">OfficeApp necesita permiso para acceder á cámara e poder escanear un código QR, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Non é posible escanear o código QR sen permiso para acceder á cámara</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">Mensaxe mal cifrada</string>
@@ -551,13 +551,13 @@
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Toca para abrir</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">Toca para abrir ou toca o cadeado para pechar.</string>
-  <string name="KeyCachingService_passphrase_cached">RAAPP está desbloqueado</string>
-  <string name="KeyCachingService_lock">Bloquear RAAPP</string>
+  <string name="KeyCachingService_passphrase_cached">OfficeApp está desbloqueado</string>
+  <string name="KeyCachingService_lock">Bloquear OfficeApp</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Ti</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Tipo multimedia non compatible</string>
   <string name="MediaPreviewActivity_draft">Borrador</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">RAAPP necesita permiso para acceder ao almacenamento externo e poder gardar nel, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">OfficeApp necesita permiso para acceder ao almacenamento externo e poder gardar nel, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Non é posible gardar no almacenamento externo sen permiso</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Borrar mensaxe?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto borrará de xeito permanente esta mensaxe.</string>
@@ -573,8 +573,8 @@
   <string name="MessageNotifier_mark_read">Marcar como lida</string>
   <string name="MessageNotifier_media_message">Mensaxe multimedia</string>
   <string name="MessageNotifier_reply">Responder</string>
-  <string name="MessageNotifier_pending_signal_messages">Mensaxes de RAAPP pendentes</string>
-  <string name="MessageNotifier_you_have_pending_signal_messages">Tes mensaxes de RAAPP pendentes, toca para abrir e recuperalas</string>
+  <string name="MessageNotifier_pending_signal_messages">Mensaxes de OfficeApp pendentes</string>
+  <string name="MessageNotifier_you_have_pending_signal_messages">Tes mensaxes de OfficeApp pendentes, toca para abrir e recuperalas</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Contacto</string>
   <!--Notification Channels-->
@@ -588,7 +588,7 @@
   <string name="NotificationChannel_group_messages">Mensaxes</string>
   <string name="NotificationChannel_missing_display_name">Descoñecido</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A resposta rápida non está dispoñible cando RAAPP está bloqueado!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A resposta rápida non está dispoñible cando OfficeApp está bloqueado!</string>
   <string name="QuickResponseService_problem_sending_message">Problema ao enviar a mensaxe!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Gardado en %s</string>
@@ -598,18 +598,18 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Atallo non válido</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">RAAPP</string>
+  <string name="SingleRecipientNotificationBuilder_signal">OfficeApp</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Nova mensaxe</string>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Dispositivo xa non rexistrado</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Probablemente isto é así porque rexistraches o teu número de teléfono en RAAPP nun dispositivo diferente. Toca para volver facer o rexistro.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Probablemente isto é así porque rexistraches o teu número de teléfono en OfficeApp nun dispositivo diferente. Toca para volver facer o rexistro.</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">Erro ao reproducir o vídeo</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Para responder a chamada de %s, dálle permiso a RAAPP ao teu micrófono.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">RAAPP require permiso para poder facer e recibir chamadas, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\" e \"Cámara\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Para responder a chamada de %s, dálle permiso a OfficeApp ao teu micrófono.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">OfficeApp require permiso para poder facer e recibir chamadas, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\" e \"Cámara\".</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">O número de seguranza para conversar con %1$s cambiou. Isto pode significar que alguén está tentando interceptar a comunicación ou simplemente que %2$s reinstalou RAAPP.</string>
+  <string name="WebRtcCallScreen_new_safety_numbers">O número de seguranza para conversar con %1$s cambiou. Isto pode significar que alguén está tentando interceptar a comunicación ou simplemente que %2$s reinstalou OfficeApp.</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Convén verificar o teu número de seguranza con este contacto.</string>
   <string name="WebRtcCallScreen_new_safety_number_title">Novo número de seguranza</string>
   <string name="WebRtcCallScreen_accept">Aceptar</string>
@@ -644,15 +644,15 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Foto do contacto</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">RAAPP require permiso para poder mostrar os teus contactos, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Contactos\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">OfficeApp require permiso para poder mostrar os teus contactos, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Contactos\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Erro ao recuperar os contactos; comproba a túa conexión á rede</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">Ningún contacto bloqueado</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">RAAPP necesita acceder aos teus contactos para poder mostralos.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">OfficeApp necesita acceder aos teus contactos para poder mostralos.</string>
   <string name="contact_selection_list_fragment__show_contacts">Mostrar contactos</string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Mensaxe de RAAPP</string>
+  <string name="conversation_activity__type_message_push">Mensaxe de OfficeApp</string>
   <string name="conversation_activity__type_message_sms_insecure">SMS insegura</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS insegura</string>
   <string name="conversation_activity__from_sim_name">De %1$s</string>
@@ -662,7 +662,7 @@
   <string name="conversation_activity__attachment_thumbnail">Miniatura do anexo</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Activar panel rápido de ficheiros da cámara</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Gravar e enviar un anexo de audio</string>
-  <string name="conversation_activity__enable_signal_for_sms">Activar RAAPP para SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Activar OfficeApp para SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">PASAR O DEDO PARA CANCELAR</string>
   <!--conversation_item-->
@@ -734,9 +734,9 @@
   <string name="IdentityUtil_unverified_banner_one">O teu número de seguranza con %s cambiou e xa non está verificado</string>
   <string name="IdentityUtil_unverified_banner_two">Os teus números de seguranza con %1$s e %2$s xa non están verificados</string>
   <string name="IdentityUtil_unverified_banner_many">Os teus números de seguranza con %1$s, %2$s e %3$s xa non están verificados</string>
-  <string name="IdentityUtil_unverified_dialog_one">O teu número de seguranza con %1$s cambiou e xa non está verificado. Isto pode significar que alguén está tentando interceptar as túas comunicacións ou simplemente que  %1$s reinstalou RAAPP.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Os teus números de seguranza con%1$s e%2$s xa non están verificados. Isto pode significar que alguén está tentando interceptar as túas comunicacións ou simplemente que reinstalaron RAAPP.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Os teus números de seguranza con %1$s, %2$s e %3$s xa non están verificados. Isto pode significar que alguén está tentando interceptar as túas comunicacións ou simplemente que reinstalaron RAAPP.</string>
+  <string name="IdentityUtil_unverified_dialog_one">O teu número de seguranza con %1$s cambiou e xa non está verificado. Isto pode significar que alguén está tentando interceptar as túas comunicacións ou simplemente que  %1$s reinstalou OfficeApp.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Os teus números de seguranza con%1$s e%2$s xa non están verificados. Isto pode significar que alguén está tentando interceptar as túas comunicacións ou simplemente que reinstalaron OfficeApp.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Os teus números de seguranza con %1$s, %2$s e %3$s xa non están verificados. Isto pode significar que alguén está tentando interceptar as túas comunicacións ou simplemente que reinstalaron OfficeApp.</string>
   <string name="IdentityUtil_untrusted_dialog_one">O teu número de seguranza con %s acaba de cambiar.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Os teus números de seguranza con %1$s e %2$s acaban de cambiar.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Os teus números de seguranza con %1$s, %2$s e %3$s acaban de cambiar.</string>
@@ -767,7 +767,7 @@
   <string name="log_submit_activity__please_review_this_log_from_my_app">Revisa este rexistro desde a miña aplicación: %1$s</string>
   <string name="log_submit_activity__network_failure">Erro de rede. Téntao de novo.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Gustaríache importar ás túas mensaxes de texto á base de datos cifrada de RAAPP?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Gustaríache importar ás túas mensaxes de texto á base de datos cifrada de OfficeApp?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">A base de datos predefinida do sistema non se modificará nin alterará de modo ningún.</string>
   <string name="database_migration_activity__skip">Omitir</string>
   <string name="database_migration_activity__import">Importar</string>
@@ -799,7 +799,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Desbloquear</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">RAAPP require configurar as MMS para enviar mensaxes a grupos e multimedia a través dos datos do teu provedor. O teu dispositivo non proporciona esta información, o cal en ocasións acontece con dispositivos bloqueados ou con configuracións moi restritivas.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">OfficeApp require configurar as MMS para enviar mensaxes a grupos e multimedia a través dos datos do teu provedor. O teu dispositivo non proporciona esta información, o cal en ocasións acontece con dispositivos bloqueados ou con configuracións moi restritivas.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Para enviar ficheiros multimedia e mensaxes a grupos, toca Aceptar e completa a configuración solicitada. Os axustes das MMS do teu provedor xeralmente pódense atopar buscando polo seu APN. Só necesitas facelo unha vez.</string>
   <!--profile_create_activity-->
   <string name="profile_create_activity__set_later">Establecer máis tarde</string>
@@ -822,12 +822,12 @@
   <string name="recipient_preferences__call_settings">Axustes de chamada</string>
   <string name="recipient_preferences__ringtone">Ton de chamada</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Chamada RAAPP</string>
+  <string name="redphone_call_card__signal_call">Chamada OfficeApp</string>
   <string name="redphone_call_controls__mute">Silenciar</string>
   <string name="redphone_call_controls__flip_camera_rear">Alternar cámaras</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">NÚMERO DE TELÉFONO</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">RAAPP facilita a comunicación utilizando o teu número de teléfono e axenda de contactos. As amizades e os contactos que xa saben como contactar contigo polo número de teléfono agora atoparante facilmente con RAAPP.\n\nO rexistro transmite algunha información ao servidor, que non se almacena.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">OfficeApp facilita a comunicación utilizando o teu número de teléfono e axenda de contactos. As amizades e os contactos que xa saben como contactar contigo polo número de teléfono agora atoparante facilmente con OfficeApp.\n\nO rexistro transmite algunha información ao servidor, que non se almacena.</string>
   <string name="registration_activity__verify_your_number">Verificar o teu número</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Insire o teu número de teléfono para recibir un código de verificación. Pode supor a aplicación dalgunha tarifa por parte do operador.</string>
   <!--recipients_panel-->
@@ -904,8 +904,8 @@
   <string name="preferences__sms_mms">SMS e MMS</string>
   <string name="preferences__pref_all_sms_title">Recibir todas as SMS</string>
   <string name="preferences__pref_all_mms_title">Recibir todas as MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Utilizar RAAPP para todas as mensaxes de texto recibidas</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Utilizar RAAPP para todas as mensaxes multimedia recibidas</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Utilizar OfficeApp para todas as mensaxes de texto recibidas</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Utilizar OfficeApp para todas as mensaxes multimedia recibidas</string>
   <string name="preferences__pref_enter_sends_title">Tecla Intro para enviar</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Ao tocar na tecla Intro enviaranse as mensaxes</string>
   <string name="preferences__choose_identity">Elixir identidade</string>
@@ -916,7 +916,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Bloquea a pantalla e as notificacións cunha frase de acceso</string>
   <string name="preferences__screen_security">Seguranza da pantalla</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Bloquea as capturas na listaxe de recentes e no interior da aplicación.</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Bloqueo automático de RAAPP após un período especificado de inactividade</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Bloqueo automático de OfficeApp após un período especificado de inactividade</string>
   <string name="preferences__inactivity_timeout_passphrase">Tempo de espera da frase de acceso</string>
   <string name="preferences__inactivity_timeout_interval">Intervalo de inactividade</string>
   <string name="preferences__notifications">Notificacións</string>
@@ -969,8 +969,8 @@
   <string name="preferences__theme">Tema</string>
   <string name="preferences__default">Por defecto</string>
   <string name="preferences__language">Idioma</string>
-  <string name="preferences__signal_messages_and_calls">Mensaxes e chamadas RAAPP</string>
-  <string name="preferences__free_private_messages_and_calls">Mensaxes e chamadas privadas e de balde para usuarios de RAAPP</string>
+  <string name="preferences__signal_messages_and_calls">Mensaxes e chamadas OfficeApp</string>
+  <string name="preferences__free_private_messages_and_calls">Mensaxes e chamadas privadas e de balde para usuarios de OfficeApp</string>
   <string name="preferences__submit_debug_log">Enviar rexistro de depuración</string>
   <string name="preferences__support_wifi_calling">Modo de compatibilidade \'Chamadas por wifi\'</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Actívao se o teu dispositivo envía SMS/MMS vía wifi (só cando as chamadas por wifi estean tamén activadas)</string>
@@ -985,8 +985,8 @@
   <string name="preferences_chats__media_auto_download">Descarga automática multimedia</string>
   <string name="preferences_chats__message_trimming">Recorte das mensaxes</string>
   <string name="preferences_advanced__use_system_emoji">Utilizar sistema emoji</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactiva o soporte emoji integrado en RAAPP</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Redirecciona todas as chamadas a través do servidor de RAAPP para evitar revelar o teu enderezo IP aos teus contactos. Ao activar esta opción, reducirase a calidade da chamada.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactiva o soporte emoji integrado en OfficeApp</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Redirecciona todas as chamadas a través do servidor de OfficeApp para evitar revelar o teu enderezo IP aos teus contactos. Ao activar esta opción, reducirase a calidade da chamada.</string>
   <string name="preferences_advanced__always_relay_calls">Redireccionar chamadas sempre</string>
   <string name="preferences_app_protection__app_access">Acceso á aplicación</string>
   <string name="preferences_app_protection__communication">Comunicacións</string>
@@ -998,9 +998,9 @@
   <string name="preferences_notifications__calls">Chamadas</string>
   <string name="preferences_notifications__ringtone">Ton de chamada</string>
   <string name="preferences_chats__show_invitation_prompts">Mostrar avisos de invitacións</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Mostra os avisos das invitacións para os contactos sen RAAPP</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Mostra os avisos das invitacións para os contactos sen OfficeApp</string>
   <string name="preferences_chats__message_text_size">Tamaño da fonte</string>
-  <string name="preferences_events__contact_joined_signal">Un contacto únese a RAAPP</string>
+  <string name="preferences_events__contact_joined_signal">Un contacto únese a OfficeApp</string>
   <string name="preferences_notifications__priority">Prioridade</string>
   <!--****************************************-->
   <!--menus-->
@@ -1010,7 +1010,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Chamar</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Chamada de RAAPP</string>
+  <string name="conversation_callable_secure__menu_call">Chamada de OfficeApp</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Detalles da mensaxe</string>
   <string name="conversation_context__menu_copy_text">Copiar texto</string>
@@ -1073,25 +1073,25 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Copiar ao portapapeis</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Comparar co portapapeis</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">A túa versión de RAAPP está desactualizada</string>
+  <string name="reminder_header_outdated_build">A túa versión de OfficeApp está desactualizada</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">A túa versión de RAAPP caduca en %d día. Toca para actualizar á versión máis recente.</item>
-    <item quantity="other">A túa versión de RAAPP caduca en %d días. Toca para actualizar á versión máis recente.</item>
+    <item quantity="one">A túa versión de OfficeApp caduca en %d día. Toca para actualizar á versión máis recente.</item>
+    <item quantity="other">A túa versión de OfficeApp caduca en %d días. Toca para actualizar á versión máis recente.</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">A túa versión de RAAPP caduca hoxe. Toca para actualizar á versión máis recente.</string>
-  <string name="reminder_header_expired_build">A túa versión de RAAPP caducou!</string>
+  <string name="reminder_header_outdated_build_details_today">A túa versión de OfficeApp caduca hoxe. Toca para actualizar á versión máis recente.</string>
+  <string name="reminder_header_expired_build">A túa versión de OfficeApp caducou!</string>
   <string name="reminder_header_expired_build_details">As mensaxes non se enviarán satisfactoriamente. Toca para actualizar á versión máis recente.</string>
   <string name="reminder_header_sms_default_title">Aplicación predefinida das SMS</string>
-  <string name="reminder_header_sms_default_text">Toca para facer de RAAPP a túa aplicación predefinida de SMS</string>
+  <string name="reminder_header_sms_default_text">Toca para facer de OfficeApp a túa aplicación predefinida de SMS</string>
   <string name="reminder_header_sms_import_title">Importar SMS do sistema</string>
-  <string name="reminder_header_sms_import_text">Toca para copiar as mensaxes SMS do teu teléfono na base de datos cifrada de RAAPP.</string>
-  <string name="reminder_header_push_title">Activar as mensaxes e chamadas de RAAPP</string>
+  <string name="reminder_header_sms_import_text">Toca para copiar as mensaxes SMS do teu teléfono na base de datos cifrada de OfficeApp.</string>
+  <string name="reminder_header_push_title">Activar as mensaxes e chamadas de OfficeApp</string>
   <string name="reminder_header_push_text">Mellora a túa experiencia comunicativa.</string>
-  <string name="reminder_header_invite_title">Convidar a RAAPP</string>
+  <string name="reminder_header_invite_title">Convidar a OfficeApp</string>
   <string name="reminder_header_invite_text">Leva a conversa con %1$s ao seguinte nivel.</string>
   <string name="reminder_header_share_title">Convida as túas amizades!</string>
-  <string name="reminder_header_share_text">Cantas máis amizades usen RAAPP, mellor vai ser a cousa.</string>
-  <string name="reminder_header_service_outage_text">RAAPP está experimentando problemas técnicos. Estamos a traballar arreo para restaurar o servizo o máis axiña posible.</string>
+  <string name="reminder_header_share_text">Cantas máis amizades usen OfficeApp, mellor vai ser a cousa.</string>
+  <string name="reminder_header_service_outage_text">OfficeApp está experimentando problemas técnicos. Estamos a traballar arreo para restaurar o servizo o máis axiña posible.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Gardar</string>
   <string name="media_preview__forward_title">Reenviar</string>
@@ -1112,12 +1112,12 @@
   <string name="ConversationListFragment_loading">Cargando...</string>
   <string name="CallNotificationBuilder_connecting">Conectando...</string>
   <string name="Permissions_permission_required">Permiso obrigatorio</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">RAAPP necesita permiso para acceder ás mensaxes SMS e poder enviar unha, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">OfficeApp necesita permiso para acceder ás mensaxes SMS e poder enviar unha, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"SMS\".</string>
   <string name="Permissions_continue">Continuar</string>
   <string name="Permissions_not_now">Agora non</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">RAAPP necesita permiso para acceder aos contactos e facer buscas neles, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Contactos\".</string>
-  <string name="conversation_activity__enable_signal_messages">ACTIVAR MENSAXES DE RAAPP</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrando a base de datos de RAAPP</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">OfficeApp necesita permiso para acceder aos contactos e facer buscas neles, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Contactos\".</string>
+  <string name="conversation_activity__enable_signal_messages">ACTIVAR MENSAXES DE OfficeApp</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrando a base de datos de OfficeApp</string>
   <string name="PushDecryptJob_new_locked_message">Nova mensaxe bloqueada</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Desbloquear para ver as mensaxes pendentes</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">Desbloquear para completar a actualización</string>
@@ -1147,7 +1147,7 @@
   <string name="BackupDialog_disable_and_delete_all_local_backups">Desactivar e borrar todas as copias de seguranza locais?</string>
   <string name="BackupDialog_delete_backups_statement">Borrar copias de seguranza</string>
   <string name="BackupDialog_copied_to_clipboard">Copiado ao portapapeis</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">RAAPP require permiso de almacenamento para poder crear copias de seguranza, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">OfficeApp require permiso de almacenamento para poder crear copias de seguranza, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
   <string name="ChatsPreferenceFragment_last_backup_s">Última copia de seguranza: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">En curso</string>
   <string name="LocalBackupJob_creating_backup">Creando copia de seguranza...</string>
@@ -1160,7 +1160,7 @@
   <string name="BackupUtil_never">Nunca</string>
   <string name="BackupUtil_unknown">Descoñecido</string>
   <string name="preferences_app_protection__screen_lock">Bloqueo da pantalla</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Bloquea o acceso a RAAPP co bloqueo de pantalla de Android ou coa impresión dixital</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Bloquea o acceso a OfficeApp co bloqueo de pantalla de Android ou coa impresión dixital</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tempo de inactividade para o bloqueo de pantalla</string>
   <string name="AppProtectionPreferenceFragment_none">Ningunha</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">O PIN do bloqueo de rexistro non é o mesmo que o código de verificación que recibiches por SMS. Insire o PIN con que configuraches a aplicación.</string>
@@ -1171,7 +1171,7 @@
   <string name="registration_lock_dialog_view__confirm_pin">Confirmar PIN</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Insire o PIN de bloqueo do rexistro</string>
   <string name="registration_lock_reminder_view__enter_pin">Inserir PIN</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Activa un PIN de bloqueo do rexistro que se requirirá para volver rexistrar este número de teléfono en RAAPP.</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Activa un PIN de bloqueo do rexistro que se requirirá para volver rexistrar este número de teléfono en OfficeApp.</string>
   <string name="preferences_app_protection__registration_lock_pin">PIN de bloqueo do rexistro</string>
   <string name="preferences_app_protection__registration_lock">Bloqueo do rexistro</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Debes inserir o PIN de bloqueo do rexistro</string>
@@ -1180,10 +1180,10 @@
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Inseriches incorrectamente o PIN de bloqueo do rexistro demasiadas veces. Téntao outra vez así que pase un día.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Erro ao conectarse ao servizo</string>
   <string name="RegistrationActivity_oh_no">Vaites!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">O rexistro deste número de teléfono será posible sen o PIN de bloqueo do rexistro após 7 días desde que o número estivo activo en RAAPP. Quedan %d días.</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">O rexistro deste número de teléfono será posible sen o PIN de bloqueo do rexistro após 7 días desde que o número estivo activo en OfficeApp. Quedan %d días.</string>
   <string name="RegistrationActivity_registration_lock_pin">PIN de bloqueo do rexistro</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Este número de teléfono ten o bloqueo de rexistro activado. Insire o PIN de bloqueo do rexistro.</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">O teu número de teléfono ten activado o bloqueo de rexistro. Para axudarche a lembralo, RAAPP solicitarache que o confirmes periodicamente.</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">O teu número de teléfono ten activado o bloqueo de rexistro. Para axudarche a lembralo, OfficeApp solicitarache que o confirmes periodicamente.</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">Esquecín o meu PIN.</string>
   <string name="RegistrationLockDialog_forgotten_pin">Esqueciches o PIN?</string>
   <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">O bloqueo de rexistro protexe o teu número de teléfono de tentativas non autorizadas de rexistro. Esta funcionalidade pode ser desactivada en calquera momento nos axustes de privacidade.</string>
@@ -1196,7 +1196,7 @@
   <string name="RegistrationLockDialog_disable">Desactivar</string>
   <string name="RegistrationActivity_continue">Continuar</string>
   <string name="preferences_chats__backups">Copias de seguranza</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">RAAPP está bloqueado</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">OfficeApp está bloqueado</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TOCA PARA DESBLOQUEAR</string>
   <string name="RegistrationLockDialog_reminder">Recordatorio:</string>
   <string name="recipient_preferences__about">Acerca de</string>
