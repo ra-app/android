@@ -22,18 +22,17 @@ class WelcomeActivity : AppCompatActivity() {
 
                 imageView {
                     setImageResource(R.drawable.icon_transparent)
-
                 }.lparams(width = dip(200), height = dip(200))
 
                 textView("Einfach Recht"){
                     textSize = 35f
                 }
-                textView("Die Kommunikations-App für Anwälte&Mandanten"){
+                textView("Die Kommunikations - App für Anwälte & Mandanten"){
                     textSize = 20f
                 }.lparams{bottomMargin = dip(30)}
 
                 themedButton("Weiter", R.style.ra_button_style){
-                    background = resources.getDrawable(R.drawable.blue_to_green)
+                    background = resources.getDrawable(R.drawable.blue_green_button)
 
                     onClick {
                         startActivity<TermsActivity>()

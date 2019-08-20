@@ -1,7 +1,5 @@
 package org.raapp.messenger.ui
 
-
-import android.os.Binder
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintSet
@@ -14,10 +12,8 @@ import org.raapp.messenger.R
 
 
 class TermsActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
 
         verticalLayout{
             verticalLayout {
@@ -52,21 +48,18 @@ class TermsActivity : AppCompatActivity() {
                 }.lparams(height = 0)
 
 
-
                 val acceptanceText = textView("Ich akzeptiere die AGB."){
                     id = R.id.confirmation_text
                     padding = dip(10)
                     textSize = 14f
-
                 }
 
                 val continueButton = themedButton("Weiter", R.style.ra_button_style){
                     id = R.id.continue_button
 
-                    background = resources.getDrawable(R.drawable.blue_to_green)
-                    background.alpha = 127
+                    background = resources.getDrawable(R.drawable.blue_green_button)
+                    //background.alpha = 127
                     isEnabled = false
-
 
 
                     onClick {
@@ -82,10 +75,10 @@ class TermsActivity : AppCompatActivity() {
                         continueButton.isEnabled = box.isChecked
 
                         if (box.isChecked){
-                            continueButton.background.alpha = 255
+                            //continueButton.background.alpha = 255
                         }
                         else{
-                            background.alpha = 127
+                            //background.alpha = 127
                         }
                     }
                 }.lparams(height = dip(40), width = dip(40))

@@ -452,7 +452,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
                               String.format(getString(R.string.RegistrationActivity_the_number_you_specified_s_is_invalid), e164number));
       return;
     }
-    createButton.setClickable(false);
+    //createButton.setClickable(false);
 
     PlayServicesStatus gcmStatus = PlayServicesUtil.getPlayServicesStatus(this);
 
@@ -469,6 +469,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   }
 
   private void handleRequestVerification(@NonNull String e164number, boolean gcmSupported) {
+    createButton.setSelected(true);
+    createButton.setClickable(false);
     //createButton.setIndeterminateProgressMode(true);
     //createButton.setProgress(50);
 
