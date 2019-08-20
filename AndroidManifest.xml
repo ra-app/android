@@ -127,8 +127,8 @@
               android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
 
     <activity android:name="org.thoughtcrime.securesms.InviteActivity"
-              android:theme="@style/TextSecure.HighlightTheme"
               android:windowSoftInputMode="stateHidden"
+              android:theme="@style/TextSecure.LightNoActionBar"
               android:parentActivityName="org.thoughtcrime.securesms.ConversationListActivity"
               android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize">
         <meta-data

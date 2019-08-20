@@ -190,7 +190,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == PICK_COUNTRY && resultCode == RESULT_OK && data != null) {
       this.countryCode.setText(String.valueOf(data.getIntExtra("country_code", 1)));
-      setCountryDisplay(data.getStringExtra("country_name"));
+      //setCountryDisplay(data.getStringExtra("country_name"));
       setCountryFormatter(data.getIntExtra("country_code", 1));
     }
   }
@@ -263,8 +263,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
   @SuppressLint("ClickableViewAccessibility")
   private void initializeSpinner() {
-    this.countrySpinnerAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item);
-    this.countrySpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    this.countrySpinnerAdapter = new ArrayAdapter<>(this, R.layout.spinner_item);
+    this.countrySpinnerAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
 
     setCountryDisplay(getString(R.string.RegistrationActivity_select_your_country));
 
@@ -365,8 +365,11 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     PhoneNumberUtil util = PhoneNumberUtil.getInstance();
     String regionCode    = util.getRegionCodeForCountryCode(countryCode);
 
-    if (regionCode == null) this.countryFormatter = null;
-    else                    this.countryFormatter = util.getAsYouTypeFormatter(regionCode);
+    if (regionCode == null) {
+      this.countryFormatter = null;}
+    else                    {
+      setCountryDisplay(regionCode);
+      this.countryFormatter = util.getAsYouTypeFormatter(regionCode);}
   }
 
   private String getConfiguredE164Number() {
@@ -1100,7 +1103,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       String regionCode = PhoneNumberUtil.getInstance().getRegionCodeForCountryCode(countryCode);
 
       setCountryFormatter(countryCode);
-      setCountryDisplay(PhoneNumberFormatter.getRegionDisplayName(regionCode));
+      setCountryDisplay(regionCode);
 
       if (!TextUtils.isEmpty(regionCode) && !regionCode.equals("ZZ")) {
         number.requestFocus();

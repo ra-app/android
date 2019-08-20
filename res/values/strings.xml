@@ -1404,6 +1404,8 @@
     <string name="RegistrationLockDialog_reminder">Reminder:</string>
     <string name="recipient_preferences__about">About</string>
     <string name="text_secure_normal__menu_new_message">New Message</string>
+    <string name="ihre_mobilfunknummer">Ihre Mobilfunknummer</string>
+    <string name="chat">Chat</string>
 
     <!-- EOF -->
 

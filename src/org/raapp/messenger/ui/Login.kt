@@ -33,8 +33,6 @@ class Login : AppCompatActivity() {
                 id = R.id.camera_button
             }
 
-//            textView("Headline")
-
             applyConstraintSet {
                 searchAttorney{
                     connect(
