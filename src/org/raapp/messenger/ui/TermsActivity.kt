@@ -47,7 +47,6 @@ class TermsActivity : AppCompatActivity() {
 
                 }.lparams(height = 0)
 
-
                 val acceptanceText = textView("Ich akzeptiere die AGB."){
                     id = R.id.confirmation_text
                     padding = dip(10)
@@ -58,9 +57,7 @@ class TermsActivity : AppCompatActivity() {
                     id = R.id.continue_button
 
                     background = resources.getDrawable(R.drawable.blue_green_button)
-                    //background.alpha = 127
                     isEnabled = false
-
 
                     onClick {
                         startActivity<PermissonRequestActivity>()
@@ -74,12 +71,6 @@ class TermsActivity : AppCompatActivity() {
                     onClick {
                         continueButton.isEnabled = box.isChecked
 
-                        if (box.isChecked){
-                            //continueButton.background.alpha = 255
-                        }
-                        else{
-                            //background.alpha = 127
-                        }
                     }
                 }.lparams(height = dip(40), width = dip(40))
 
@@ -115,13 +106,5 @@ class TermsActivity : AppCompatActivity() {
             }.lparams(width = matchParent, height = matchParent) {
             }
         }
-
-        fun termsAccepted(){
-
-        }
     }
-}
-
-private fun TermsActivity.termsAccepted() {
-
 }

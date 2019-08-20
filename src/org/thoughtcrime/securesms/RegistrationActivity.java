@@ -238,6 +238,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     this.countryCode.addTextChangedListener(new CountryCodeChangedListener());
     this.number.addTextChangedListener(new NumberChangedListener());
     this.createButton.setOnClickListener(v -> handleRegister());
+    this.createButton.setEnabled(false);
     this.callMeCountDownView.setOnClickListener(v -> handlePhoneCallRequest());
 
     skipButton.setOnClickListener(v -> handleCancel());
@@ -283,6 +284,13 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       }
       return false;
     });
+  }
+
+  @Override
+  protected void onResume() {
+    super.onResume();
+
+    createButton.setClickable(true);
   }
 
   @SuppressLint("MissingPermission")
@@ -887,6 +895,9 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
           @Override
           public void onClick(View widget) {
             displayInitialView(false);
+            createButton.setClickable(true);
+            createButton.setSelected(false);
+
             registrationState = new RegistrationState(RegistrationState.State.INITIAL, null, null, null);
           }
 
@@ -1127,6 +1138,15 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       if (formattedNumber != null && !s.toString().equals(formattedNumber)) {
         s.replace(0, s.length(), formattedNumber);
       }
+
+      final String e164number = getConfiguredE164Number();
+
+      if (PhoneNumberFormatter.isValidNumber(e164number)) {
+        createButton.setEnabled(true);
+      } else {
+        createButton.setEnabled(false);
+      }
+
     }
 
     @Override

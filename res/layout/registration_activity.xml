@@ -144,7 +144,6 @@
                           android:layout_height="wrap_content"
                           android:layout_weight="1"
                           android:inputType="phone"
-                          android:hint="@string/registration_activity__phone_number"
                           android:gravity="center"
                           android:singleLine="true"/>
 
