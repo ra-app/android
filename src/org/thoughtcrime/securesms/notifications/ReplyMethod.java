@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.notifications;
+package org.bittube.messenger.notifications;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public enum ReplyMethod {
 

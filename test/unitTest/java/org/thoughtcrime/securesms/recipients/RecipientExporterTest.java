@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.bittube.messenger.recipients;
 
 import android.app.Application;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.database.Address;
+import org.bittube.messenger.database.Address;
 
 import static org.assertj.core.api.Assertions.*;
 

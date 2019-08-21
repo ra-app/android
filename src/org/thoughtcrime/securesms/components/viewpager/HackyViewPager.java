@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.viewpager;
+package org.bittube.messenger.components.viewpager;
 
 
 import android.content.Context;
 import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.MotionEvent;
 
 /**

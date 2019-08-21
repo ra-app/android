@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.bittube.messenger.profiles;
 
 
 import android.accounts.Account;
@@ -12,13 +12,13 @@ import android.provider.ContactsContract;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.mms.MediaConstraints;
+import org.bittube.messenger.util.BitmapDecodingException;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 public class SystemProfileUtil {
 

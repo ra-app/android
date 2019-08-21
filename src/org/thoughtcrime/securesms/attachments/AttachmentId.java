@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 import androidx.annotation.NonNull;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 
 public class AttachmentId {
 

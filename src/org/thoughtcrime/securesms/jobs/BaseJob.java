@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobLogger;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.JobLogger;
+import org.bittube.messenger.logging.Log;
 
 public abstract class BaseJob extends Job {
 

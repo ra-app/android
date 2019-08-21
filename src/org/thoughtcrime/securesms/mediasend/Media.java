@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -12,7 +12,7 @@ import org.whispersystems.libsignal.util.guava.Optional;
  */
 public class Media implements Parcelable {
 
-  public static final String ALL_MEDIA_BUCKET_ID = "org.thoughtcrime.securesms.ALL_MEDIA";
+  public static final String ALL_MEDIA_BUCKET_ID = "org.bittube.messenger.ALL_MEDIA";
 
   private final Uri    uri;
   private final String mimeType;

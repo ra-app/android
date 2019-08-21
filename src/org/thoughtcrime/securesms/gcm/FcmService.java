@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package org.bittube.messenger.gcm;
 
 import android.content.Context;
 import android.os.Build;
@@ -7,16 +7,16 @@ import android.os.PowerManager;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobs.FcmRefreshJob;
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.PowerManagerCompat;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.jobs.FcmRefreshJob;
+import org.bittube.messenger.jobs.PushNotificationReceiveJob;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.PowerManagerCompat;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.WakeLockUtil;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 
 import java.io.IOException;

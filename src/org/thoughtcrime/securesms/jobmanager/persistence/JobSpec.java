@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.persistence;
+package org.bittube.messenger.jobmanager.persistence;
 
 import android.annotation.SuppressLint;
 import androidx.annotation.NonNull;

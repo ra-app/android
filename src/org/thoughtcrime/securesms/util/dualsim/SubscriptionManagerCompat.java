@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dualsim;
+package org.bittube.messenger.util.dualsim;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,9 +8,9 @@ import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.ServiceUtil;
 import org.whispersystems.libsignal.util.guava.Function;
 import org.whispersystems.libsignal.util.guava.Optional;
 

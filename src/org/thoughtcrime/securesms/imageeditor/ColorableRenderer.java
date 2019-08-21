@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor;
+package org.bittube.messenger.imageeditor;
 
 import androidx.annotation.ColorInt;
 

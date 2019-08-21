@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.annotation.SuppressLint;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MessagingDatabase.SyncMessageId;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
 import org.whispersystems.signalservice.api.messages.SignalServiceEnvelope;
 
 public abstract class PushReceivedJob extends BaseJob {

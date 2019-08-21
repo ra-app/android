@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import org.bittube.messenger.attachments.Attachment;
 
 public class MmsSlide extends ImageSlide {
 

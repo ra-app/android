@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.bittube.messenger.database.helpers;
 
 
 import android.content.ContentValues;
@@ -13,31 +13,31 @@ import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteDatabaseHook;
 import net.sqlcipher.database.SQLiteOpenHelper;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.crypto.DatabaseSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DraftDatabase;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.database.GroupReceiptDatabase;
-import org.thoughtcrime.securesms.database.IdentityDatabase;
-import org.thoughtcrime.securesms.database.JobDatabase;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.OneTimePreKeyDatabase;
-import org.thoughtcrime.securesms.database.PushDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.SearchDatabase;
-import org.thoughtcrime.securesms.database.SessionDatabase;
-import org.thoughtcrime.securesms.database.SignedPreKeyDatabase;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.StickerDatabase;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.jobs.RefreshPreKeysJob;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.crypto.DatabaseSecret;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DraftDatabase;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.database.GroupReceiptDatabase;
+import org.bittube.messenger.database.IdentityDatabase;
+import org.bittube.messenger.database.JobDatabase;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.OneTimePreKeyDatabase;
+import org.bittube.messenger.database.PushDatabase;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.SearchDatabase;
+import org.bittube.messenger.database.SessionDatabase;
+import org.bittube.messenger.database.SignedPreKeyDatabase;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.StickerDatabase;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.jobs.RefreshPreKeysJob;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.service.KeyCachingService;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.io.File;
 

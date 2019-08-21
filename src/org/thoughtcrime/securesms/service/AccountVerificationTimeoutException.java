@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 public class AccountVerificationTimeoutException extends Exception {
   public AccountVerificationTimeoutException() {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
 import android.graphics.Matrix;
 import android.graphics.Point;
@@ -7,10 +7,10 @@ import android.graphics.RectF;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.renderers.CropAreaRenderer;
-import org.thoughtcrime.securesms.imageeditor.renderers.InverseFillRenderer;
+import org.bittube.messenger.R;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.renderers.CropAreaRenderer;
+import org.bittube.messenger.imageeditor.renderers.InverseFillRenderer;
 
 /**
  * Creates and handles a strict EditorElement Hierarchy.

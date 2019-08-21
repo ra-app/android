@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.search.model;
+package org.bittube.messenger.search.model;
 
 import android.database.ContentObserver;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.CursorList;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.database.CursorList;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.List;
 

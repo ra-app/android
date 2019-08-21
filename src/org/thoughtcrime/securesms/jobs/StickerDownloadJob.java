@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.StickerDatabase;
-import org.thoughtcrime.securesms.database.model.IncomingSticker;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Hex;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.StickerDatabase;
+import org.bittube.messenger.database.model.IncomingSticker;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Hex;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 

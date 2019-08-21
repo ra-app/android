@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.bittube.messenger.linkpreview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,10 +6,10 @@ import androidx.annotation.Nullable;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.util.JsonUtils;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

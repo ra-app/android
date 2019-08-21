@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import androidx.annotation.NonNull;
 

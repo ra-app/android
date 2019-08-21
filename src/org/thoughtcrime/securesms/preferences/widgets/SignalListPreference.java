@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package org.bittube.messenger.preferences.widgets;
 
 
 import android.content.Context;
@@ -10,7 +10,7 @@ import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class SignalListPreference extends ListPreference {
 

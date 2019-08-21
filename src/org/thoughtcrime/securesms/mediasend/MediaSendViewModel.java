@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -12,13 +12,13 @@ import android.text.TextUtils;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.TransportOption;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.TransportOption;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.MediaConstraints;
+import org.bittube.messenger.providers.BlobProvider;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.SingleLiveEvent;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

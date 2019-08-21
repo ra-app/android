@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.glide.cache;
+package org.bittube.messenger.glide.cache;
 
 
 import android.graphics.Bitmap;
 import androidx.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.bumptech.glide.load.EncodeStrategy;
 import com.bumptech.glide.load.Options;

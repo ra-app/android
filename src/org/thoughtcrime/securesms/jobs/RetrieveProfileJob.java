@@ -1,26 +1,26 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase.UnidentifiedAccessMode;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.IncomingMessageObserver;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.IdentityUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.service.IncomingMessageObserver;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.IdentityUtil;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.util.guava.Optional;

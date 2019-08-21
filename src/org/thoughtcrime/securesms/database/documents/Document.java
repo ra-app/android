@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.bittube.messenger.database.documents;
 
 import java.util.List;
 

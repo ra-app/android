@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.registration;
+package org.bittube.messenger.registration;
 
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.BaseActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.BaseActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.util.CommunicationActions;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class WelcomeActivity extends BaseActionBarActivity {
 

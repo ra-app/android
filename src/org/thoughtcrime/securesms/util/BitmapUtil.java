@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,9 +18,9 @@ import android.util.Pair;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.MediaConstraints;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

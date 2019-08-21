@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.os.AsyncTask;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -19,15 +19,15 @@ import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
 import com.davemorrissey.labs.subscaleview.decoder.DecoderFactory;
 import com.github.chrisbanes.photoview.PhotoView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentBitmapDecoder;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentRegionDecoder;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.subsampling.AttachmentBitmapDecoder;
+import org.bittube.messenger.components.subsampling.AttachmentRegionDecoder;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.util.BitmapDecodingException;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.MediaUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

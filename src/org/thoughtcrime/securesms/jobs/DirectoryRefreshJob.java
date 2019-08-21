@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DirectoryHelper;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.DirectoryHelper;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;

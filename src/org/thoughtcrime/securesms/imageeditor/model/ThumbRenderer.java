@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.Renderer;
 
 import java.util.UUID;
 

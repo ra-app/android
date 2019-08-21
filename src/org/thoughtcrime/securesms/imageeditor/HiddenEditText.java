@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor;
+package org.bittube.messenger.imageeditor;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.imageeditor.model.EditorElement;
-import org.thoughtcrime.securesms.imageeditor.renderers.MultiLineTextRenderer;
+import org.bittube.messenger.imageeditor.model.EditorElement;
+import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
 
 /**
  * Invisible {@link android.widget.EditText} that is used during in-image text editing.

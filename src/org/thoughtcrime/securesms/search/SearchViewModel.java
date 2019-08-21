@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search;
+package org.bittube.messenger.search;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -11,9 +11,9 @@ import android.text.TextUtils;
 
 import androidx.fragment.app.Fragment;
 
-import org.thoughtcrime.securesms.search.model.SearchResult;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.search.model.SearchResult;
+import org.bittube.messenger.util.Debouncer;
+import org.bittube.messenger.util.Util;
 
 /**
  * A {@link ViewModel} for handling all the business logic and interactions that take place inside

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor;
+package org.bittube.messenger.imageeditor;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -16,11 +16,11 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.imageeditor.model.EditorElement;
-import org.thoughtcrime.securesms.imageeditor.model.EditorModel;
-import org.thoughtcrime.securesms.imageeditor.model.ThumbRenderer;
-import org.thoughtcrime.securesms.imageeditor.renderers.BezierDrawingRenderer;
-import org.thoughtcrime.securesms.imageeditor.renderers.MultiLineTextRenderer;
+import org.bittube.messenger.imageeditor.model.EditorElement;
+import org.bittube.messenger.imageeditor.model.EditorModel;
+import org.bittube.messenger.imageeditor.model.ThumbRenderer;
+import org.bittube.messenger.imageeditor.renderers.BezierDrawingRenderer;
+import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
 
 /**
  * ImageEditorView

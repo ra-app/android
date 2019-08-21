@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.jobs.MultiDeviceConfigurationUpdateJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.jobs.MultiDeviceConfigurationUpdateJob;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class LinkPreviewsIntroFragment extends Fragment {
 

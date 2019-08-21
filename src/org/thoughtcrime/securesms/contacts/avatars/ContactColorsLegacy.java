@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
+import org.bittube.messenger.color.MaterialColor;
 
 /**
  * Used for migrating legacy colors to modern colors. For normal color generation, use

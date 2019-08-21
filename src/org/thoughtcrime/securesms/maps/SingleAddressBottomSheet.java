@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.bittube.messenger.maps;
 
 import android.content.Context;
 import android.location.Location;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.util.Locale;
 

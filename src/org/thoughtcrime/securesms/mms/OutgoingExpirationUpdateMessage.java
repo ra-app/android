@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.LinkedList;

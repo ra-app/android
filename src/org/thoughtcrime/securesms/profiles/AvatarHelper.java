@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.bittube.messenger.profiles;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.Address;
+import org.bittube.messenger.database.Address;
 
 import java.io.File;
 import java.io.FileInputStream;

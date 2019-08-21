@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package org.bittube.messenger.util.dynamiclanguage;
 
 import android.app.Activity;
 
 import androidx.annotation.MainThread;
 import androidx.core.os.ConfigurationCompat;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.Locale;
 

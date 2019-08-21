@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.bittube.messenger.conversation;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -10,12 +10,12 @@ import android.os.Handler;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.database.CursorList;
-import org.thoughtcrime.securesms.database.DatabaseContentProviders;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.stickers.StickerSearchRepository;
-import org.thoughtcrime.securesms.util.CloseableLiveData;
-import org.thoughtcrime.securesms.util.Throttler;
+import org.bittube.messenger.database.CursorList;
+import org.bittube.messenger.database.DatabaseContentProviders;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.stickers.StickerSearchRepository;
+import org.bittube.messenger.util.CloseableLiveData;
+import org.bittube.messenger.util.Throttler;
 
 class ConversationStickerViewModel extends ViewModel {
 

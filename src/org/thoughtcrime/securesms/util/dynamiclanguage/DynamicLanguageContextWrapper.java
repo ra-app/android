@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package org.bittube.messenger.util.dynamiclanguage;
 
 import android.content.Context;
 import android.content.res.Configuration;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.bittube.messenger.webrtc;
 
 
 import org.webrtc.PeerConnectionFactory;

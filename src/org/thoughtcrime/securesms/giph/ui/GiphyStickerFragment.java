@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.loader.content.Loader;
 
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.giph.net.GiphyStickerLoader;
+import org.bittube.messenger.giph.model.GiphyImage;
+import org.bittube.messenger.giph.net.GiphyStickerLoader;
 
 import java.util.List;
 

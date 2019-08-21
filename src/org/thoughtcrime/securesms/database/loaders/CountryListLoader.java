@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 import android.content.Context;
 

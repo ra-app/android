@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 import android.util.AttributeSet;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -20,18 +20,18 @@ import com.bumptech.glide.load.resource.bitmap.FitCenter;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequest;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.GlideRequest;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.mms.SlideClickListener;
+import org.bittube.messenger.mms.SlidesClickedListener;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

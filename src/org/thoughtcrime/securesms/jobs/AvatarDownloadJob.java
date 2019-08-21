@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.graphics.Bitmap;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.AttachmentStreamUriLoader.AttachmentModel;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.GroupUtil;
-import org.thoughtcrime.securesms.util.Hex;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.database.GroupDatabase.GroupRecord;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.bittube.messenger.util.BitmapDecodingException;
+import org.bittube.messenger.util.BitmapUtil;
+import org.bittube.messenger.util.GroupUtil;
+import org.bittube.messenger.util.Hex;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

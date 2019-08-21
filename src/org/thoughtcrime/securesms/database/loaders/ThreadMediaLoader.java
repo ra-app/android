@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 
 import android.content.Context;
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.AbstractCursorLoader;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.AbstractCursorLoader;
 
 public class ThreadMediaLoader extends AbstractCursorLoader {
 

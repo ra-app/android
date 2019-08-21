@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

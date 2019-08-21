@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.bittube.messenger.glide;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.net.ContentProxySelector;
+import org.bittube.messenger.net.ContentProxySelector;
 
 import java.io.InputStream;
 

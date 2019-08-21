@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.bittube.messenger.conversation;
 
 import android.content.Intent;
 import android.os.Build.VERSION;
@@ -6,8 +6,8 @@ import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import androidx.core.app.ActivityOptionsCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.Menu;
@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
 
 import java.util.concurrent.ExecutionException;
 

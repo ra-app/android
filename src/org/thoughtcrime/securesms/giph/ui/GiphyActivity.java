@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 
 import android.annotation.SuppressLint;
@@ -14,18 +14,18 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.providers.BlobProvider;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicNoActionBarTheme;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;

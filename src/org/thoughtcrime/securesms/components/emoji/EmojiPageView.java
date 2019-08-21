@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
+import org.bittube.messenger.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
 
 public class EmojiPageView extends FrameLayout implements VariationSelectorListener {
   private static final String TAG = EmojiPageView.class.getSimpleName();

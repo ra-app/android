@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.backup;
+package org.bittube.messenger.backup;
 
 import android.content.Context;
 import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.crypto.KeyStoreHelper;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 /**
  * Allows the getting and setting of the backup passphrase, which is stored encrypted on API >= 23.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 public class MmsRadioException extends Throwable {
   public MmsRadioException(String s) {

@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.thoughtcrime.securesms.scribbles.widget;
+package org.bittube.messenger.scribbles.widget;
 
 
 import android.annotation.TargetApi;
@@ -39,7 +39,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class VerticalSlideColorPicker extends View {
 

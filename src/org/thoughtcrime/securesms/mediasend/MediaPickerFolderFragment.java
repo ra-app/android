@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -17,9 +17,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.recipients.Recipient;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 /**

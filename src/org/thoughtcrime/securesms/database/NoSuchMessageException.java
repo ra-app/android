@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 public class NoSuchMessageException extends Exception {
   public NoSuchMessageException(String s) {super(s);}

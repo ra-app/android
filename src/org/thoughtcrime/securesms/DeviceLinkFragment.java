@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.res.Configuration;
 import android.net.Uri;

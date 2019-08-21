@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.bittube.messenger.webrtc;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
 import android.telephony.TelephonyManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.service.WebRtcCallService;
+import org.bittube.messenger.service.WebRtcCallService;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

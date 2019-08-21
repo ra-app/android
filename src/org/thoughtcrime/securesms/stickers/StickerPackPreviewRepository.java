@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,14 +8,14 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Stream;
 import com.google.android.gms.common.util.Hex;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.StickerDatabase;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.StickerDatabase;
+import org.bittube.messenger.database.model.StickerPackRecord;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

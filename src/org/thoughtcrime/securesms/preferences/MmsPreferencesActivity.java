@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -22,9 +22,9 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import android.view.MenuItem;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
 
 public class MmsPreferencesActivity extends PassphraseRequiredActionBarActivity {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
 
 import java.util.ArrayList;
 import java.util.List;

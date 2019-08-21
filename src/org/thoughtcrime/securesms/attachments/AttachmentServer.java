@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.Hex;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.util.Hex;
+import org.bittube.messenger.util.Util;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

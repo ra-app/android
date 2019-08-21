@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.bittube.messenger.database.documents;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.database.Address;
+import org.bittube.messenger.database.Address;
 
 public class NetworkFailure {
 

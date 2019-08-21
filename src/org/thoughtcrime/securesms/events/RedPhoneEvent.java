@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events;
+package org.bittube.messenger.events;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.recipients.Recipient;
 
 public class RedPhoneEvent {
 

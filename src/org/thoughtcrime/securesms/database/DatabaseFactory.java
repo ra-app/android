@@ -14,24 +14,24 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.thoughtcrime.securesms.DatabaseUpgradeActivity;
-import org.thoughtcrime.securesms.contacts.ContactsDatabase;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.DatabaseSecret;
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.database.helpers.ClassicOpenHelper;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherMigrationHelper;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.DatabaseUpgradeActivity;
+import org.bittube.messenger.contacts.ContactsDatabase;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.crypto.DatabaseSecret;
+import org.bittube.messenger.crypto.DatabaseSecretProvider;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.database.helpers.ClassicOpenHelper;
+import org.bittube.messenger.database.helpers.SQLCipherMigrationHelper;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class DatabaseFactory {
 

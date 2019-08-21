@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -6,8 +6,8 @@ import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout.OnKeyboardShownListener;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.bittube.messenger.components.KeyboardAwareLinearLayout.OnKeyboardShownListener;
+import org.bittube.messenger.util.ServiceUtil;
 
 public class InputAwareLayout extends KeyboardAwareLinearLayout implements OnKeyboardShownListener {
   private InputView current;

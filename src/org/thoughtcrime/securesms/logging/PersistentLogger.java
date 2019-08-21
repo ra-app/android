@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.logging;
+package org.bittube.messenger.logging;
 
 import android.content.Context;
 import androidx.annotation.AnyThread;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.database.NoExternalStorageException;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

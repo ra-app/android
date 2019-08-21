@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import org.thoughtcrime.securesms.conversation.ConversationActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.bittube.messenger.conversation.ConversationActivity;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
 
 public class ConversationListArchiveActivity extends PassphraseRequiredActionBarActivity
     implements ConversationListFragment.ConversationSelectedListener

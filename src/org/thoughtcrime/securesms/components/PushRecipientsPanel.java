@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 
@@ -26,12 +26,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.RelativeLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.RecipientsAdapter;
-import org.thoughtcrime.securesms.contacts.RecipientsEditor;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.bittube.messenger.R;
+import org.bittube.messenger.contacts.RecipientsAdapter;
+import org.bittube.messenger.contacts.RecipientsEditor;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
 
 import java.util.LinkedList;
 import java.util.List;

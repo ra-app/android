@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import androidx.lifecycle.MutableLiveData;
 import android.database.ContentObserver;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.ObservableContent;
+import org.bittube.messenger.database.ObservableContent;
 
 import java.io.Closeable;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.bittube.messenger.scribbles;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,12 +15,12 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequest;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequest;
 
 import java.util.concurrent.ExecutionException;
 

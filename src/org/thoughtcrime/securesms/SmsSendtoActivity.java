@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,14 +8,14 @@ import android.provider.ContactsContract;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.conversation.ConversationActivity;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.conversation.ConversationActivity;
+import org.bittube.messenger.logging.Log;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Rfc5724Uri;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.Rfc5724Uri;
 
 import java.net.URISyntaxException;
 

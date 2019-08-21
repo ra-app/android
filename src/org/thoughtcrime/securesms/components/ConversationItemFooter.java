@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,15 +13,15 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.service.ExpiringMessageManager;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionInfoCompat;
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionManagerCompat;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.service.ExpiringMessageManager;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.dualsim.SubscriptionInfoCompat;
+import org.bittube.messenger.util.dualsim.SubscriptionManagerCompat;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Locale;

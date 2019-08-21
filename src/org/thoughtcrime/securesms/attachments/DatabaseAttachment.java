@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.stickers.StickerLocator;
 
 public class DatabaseAttachment extends Attachment {
 

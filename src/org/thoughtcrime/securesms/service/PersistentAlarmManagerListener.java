@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 
 import android.app.AlarmManager;
@@ -6,7 +6,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 public abstract class PersistentAlarmManagerListener extends BroadcastReceiver {
 

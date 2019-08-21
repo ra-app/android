@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 import androidx.viewpager.widget.PagerAdapter;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.bittube.messenger.mms.GlideRequests;
 
 public interface MediaKeyboardProvider {
   @LayoutRes int getProviderIconView(boolean selected);

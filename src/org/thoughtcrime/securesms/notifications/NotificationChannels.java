@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.bittube.messenger.notifications;
 
 import android.annotation.TargetApi;
 import android.app.NotificationChannel;
@@ -20,15 +20,15 @@ import android.text.TextUtils;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.RecipientDatabase.VibrateState;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.logging.Log;
 
 import java.util.ArrayList;

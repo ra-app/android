@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import androidx.annotation.NonNull;
 import android.view.Surface;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.Collections;
 import java.util.Comparator;

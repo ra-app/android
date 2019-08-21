@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;
@@ -30,8 +30,8 @@ import androidx.annotation.Nullable;
 import androidx.loader.app.LoaderManager.LoaderCallbacks;
 import androidx.loader.content.Loader;
 
-import org.thoughtcrime.securesms.conversation.ConversationItem;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.conversation.ConversationItem;
+import org.bittube.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,27 +39,27 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupReceiptDatabase;
-import org.thoughtcrime.securesms.database.GroupReceiptDatabase.GroupReceiptInfo;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.MmsSmsDatabase;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.loaders.MessageDetailsLoader;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupReceiptDatabase;
+import org.bittube.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.MmsSmsDatabase;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.loaders.MessageDetailsLoader;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.sms.MessageSender;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.ExpirationUtil;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.lang.ref.WeakReference;

@@ -15,13 +15,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 import androidx.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.Hex;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.Hex;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECPrivateKey;

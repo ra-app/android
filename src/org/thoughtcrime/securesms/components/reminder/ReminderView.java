@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ViewUtil;
 
 /**
  * View to display actionable reminders to the user

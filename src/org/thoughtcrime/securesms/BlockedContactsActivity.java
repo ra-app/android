@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,14 +17,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.loaders.BlockedContactsLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.preferences.BlockedContactListItem;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.loaders.BlockedContactsLoader;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.preferences.BlockedContactListItem;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
 
 public class BlockedContactsActivity extends PassphraseRequiredActionBarActivity {
 

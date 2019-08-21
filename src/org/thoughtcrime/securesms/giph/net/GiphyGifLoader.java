@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.net;
+package org.bittube.messenger.giph.net;
 
 
 import android.content.Context;

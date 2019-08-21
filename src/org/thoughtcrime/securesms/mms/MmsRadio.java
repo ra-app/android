@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.PowerManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

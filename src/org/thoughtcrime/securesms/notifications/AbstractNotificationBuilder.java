@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.bittube.messenger.notifications;
 
 import android.app.Notification;
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.core.app.NotificationCompat;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 public abstract class AbstractNotificationBuilder extends NotificationCompat.Builder {
 

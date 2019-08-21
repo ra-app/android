@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -6,8 +6,8 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.devicelist.Device;
-import org.thoughtcrime.securesms.util.DateUtils;
+import org.bittube.messenger.devicelist.Device;
+import org.bittube.messenger.util.DateUtils;
 
 import java.util.Locale;
 

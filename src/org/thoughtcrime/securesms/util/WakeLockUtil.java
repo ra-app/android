@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 public class WakeLockUtil {
 

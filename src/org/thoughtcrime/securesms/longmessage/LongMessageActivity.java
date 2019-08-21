@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.bittube.messenger.longmessage;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -21,20 +21,20 @@ import android.widget.Toast;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.components.ConversationItemFooter;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.components.ConversationItemFooter;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.linkpreview.LinkPreviewUtil;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.ThemeUtil;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.views.Stub;
 
 public class LongMessageActivity extends PassphraseRequiredActionBarActivity implements RecipientModifiedListener {
 

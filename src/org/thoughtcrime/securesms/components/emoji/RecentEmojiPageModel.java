@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,9 +10,9 @@ import com.annimon.stream.Stream;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.CellServiceConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.CellServiceConstraintObserver;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraintObserver;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkOrCellServiceConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.SqlCipherMigrationConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.SqlCipherMigrationConstraintObserver;
+import org.bittube.messenger.jobmanager.Constraint;
+import org.bittube.messenger.jobmanager.ConstraintObserver;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.CellServiceConstraint;
+import org.bittube.messenger.jobmanager.impl.CellServiceConstraintObserver;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraintObserver;
+import org.bittube.messenger.jobmanager.impl.NetworkOrCellServiceConstraint;
+import org.bittube.messenger.jobmanager.impl.SqlCipherMigrationConstraint;
+import org.bittube.messenger.jobmanager.impl.SqlCipherMigrationConstraintObserver;
 
 import java.util.Arrays;
 import java.util.HashMap;

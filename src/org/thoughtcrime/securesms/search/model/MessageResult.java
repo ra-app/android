@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.search.model;
+package org.bittube.messenger.search.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.recipients.Recipient;
 
 /**
  * Represents a search result for a message.

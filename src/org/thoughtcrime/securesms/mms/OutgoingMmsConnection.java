@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.android.mms.pdu_alt.SendConf;
 
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
+import org.bittube.messenger.transport.UndeliverableMessageException;
 
 
 public interface OutgoingMmsConnection {

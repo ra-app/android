@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.bittube.messenger.contactshare;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -11,12 +11,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.attachments.UriAttachment;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.util.JsonUtils;
+import org.bittube.messenger.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.Collections;

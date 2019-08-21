@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
+import org.bittube.messenger.jobmanager.ConstraintObserver;
 
 public class SqlCipherMigrationConstraintObserver implements ConstraintObserver {
 

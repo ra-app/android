@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
@@ -9,8 +9,8 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.scribbles.ImageEditorFragment;
+import org.bittube.messenger.util.MediaUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

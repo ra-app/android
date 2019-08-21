@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,8 +6,8 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.util.CharacterCalculator;
-import org.thoughtcrime.securesms.util.CharacterCalculator.CharacterState;
+import org.bittube.messenger.util.CharacterCalculator;
+import org.bittube.messenger.util.CharacterCalculator.CharacterState;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class TransportOption implements Parcelable {

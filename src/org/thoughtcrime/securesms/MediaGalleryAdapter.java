@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -25,12 +25,12 @@ import android.widget.TextView;
 
 import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.database.MediaDatabase.MediaRecord;
-import org.thoughtcrime.securesms.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.components.ThumbnailView;
+import org.bittube.messenger.database.MediaDatabase.MediaRecord;
+import org.bittube.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.util.MediaUtil;
 
 import java.util.Collection;
 import java.util.HashSet;

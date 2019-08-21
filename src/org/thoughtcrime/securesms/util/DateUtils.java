@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import android.text.format.DateFormat;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

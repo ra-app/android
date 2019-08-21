@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.util.AbstractCursorLoader;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.util.AbstractCursorLoader;
 import org.whispersystems.libsignal.util.Pair;
 
 public class ConversationLoader extends AbstractCursorLoader {

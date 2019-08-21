@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.Manifest;
 
@@ -21,19 +21,19 @@ import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.TransportOption;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.scribbles.ImageEditorFragment;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.TransportOption;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.providers.BlobProvider;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.scribbles.ImageEditorFragment;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

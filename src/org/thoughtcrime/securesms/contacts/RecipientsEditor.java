@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.thoughtcrime.securesms.contacts;
+package org.bittube.messenger.contacts;
 
 import android.content.Context;
 import androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView;
@@ -35,8 +35,8 @@ import android.view.MotionEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.MultiAutoCompleteTextView;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientsFormatter;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientsFormatter;
 
 import java.util.ArrayList;
 import java.util.List;

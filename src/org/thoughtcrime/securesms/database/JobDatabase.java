@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,11 +7,11 @@ import androidx.annotation.NonNull;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
+import org.bittube.messenger.jobmanager.persistence.DependencySpec;
+import org.bittube.messenger.jobmanager.persistence.FullSpec;
+import org.bittube.messenger.jobmanager.persistence.JobSpec;
 
 import java.util.LinkedList;
 import java.util.List;

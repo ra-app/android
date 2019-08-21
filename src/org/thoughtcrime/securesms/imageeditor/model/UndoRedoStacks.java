@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

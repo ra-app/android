@@ -15,17 +15,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.database.model;
+package org.bittube.messenger.database.model;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import android.text.SpannableString;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MmsSmsColumns;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.MmsSmsColumns;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.documents.IdentityKeyMismatch;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;

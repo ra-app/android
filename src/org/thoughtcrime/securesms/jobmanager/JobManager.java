@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.bittube.messenger.jobmanager;
 
 import android.app.Application;
 import android.content.Intent;
 import android.os.Build;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.impl.DefaultExecutorFactory;
-import org.thoughtcrime.securesms.jobmanager.impl.JsonDataSerializer;
-import org.thoughtcrime.securesms.jobmanager.migration.WorkManagerMigrator;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Debouncer;
+import org.bittube.messenger.jobmanager.impl.DefaultExecutorFactory;
+import org.bittube.messenger.jobmanager.impl.JsonDataSerializer;
+import org.bittube.messenger.jobmanager.migration.WorkManagerMigrator;
+import org.bittube.messenger.jobmanager.persistence.JobStorage;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Debouncer;
 
 import java.util.ArrayList;
 import java.util.Collections;

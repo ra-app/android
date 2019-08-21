@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.bittube.messenger.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.TaskStackBuilder;
 
-import org.thoughtcrime.securesms.conversation.ConversationActivity;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.conversation.ConversationActivity;
+import org.bittube.messenger.mms.SlideDeck;
+import org.bittube.messenger.recipients.Recipient;
 
 public class NotificationItem {
 

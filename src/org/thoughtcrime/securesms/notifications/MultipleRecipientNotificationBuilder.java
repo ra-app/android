@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.bittube.messenger.notifications;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -8,12 +8,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 import java.util.LinkedList;
 import java.util.List;

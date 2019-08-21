@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -20,9 +20,9 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;

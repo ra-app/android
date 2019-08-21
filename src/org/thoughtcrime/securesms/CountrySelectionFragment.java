@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 
-import org.thoughtcrime.securesms.database.loaders.CountryListLoader;
+import org.bittube.messenger.database.loaders.CountryListLoader;
 
 import java.util.ArrayList;
 import java.util.Map;

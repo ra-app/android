@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.renderers;
+package org.bittube.messenger.imageeditor.renderers;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -10,10 +10,10 @@ import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 import androidx.core.content.res.ResourcesCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 /**
  * Renders a box outside of the current crop area using {@link R.color#crop_area_renderer_outer_color}

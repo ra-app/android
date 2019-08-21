@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.bittube.messenger.providers;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,13 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
+import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -36,8 +36,8 @@ public class BlobProvider {
   private static final String MULTI_SESSION_DIRECTORY  = "multi_session_blobs";
   private static final String SINGLE_SESSION_DIRECTORY = "single_session_blobs";
 
-  public static final Uri        CONTENT_URI = Uri.parse("content://org.thoughtcrime.securesms/blob");
-  public static final String     AUTHORITY   = "org.thoughtcrime.securesms";
+  public static final Uri        CONTENT_URI = Uri.parse("content://org.bittube.messenger/blob");
+  public static final String     AUTHORITY   = "org.bittube.messenger";
   public static final String     PATH        = "blob/*/*/*/*/*";
 
   private static final int STORAGE_TYPE_PATH_SEGMENT = 1;

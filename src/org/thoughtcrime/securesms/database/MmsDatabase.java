@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -35,37 +35,37 @@ import net.sqlcipher.database.SQLiteDatabase;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.attachments.MmsNotificationAttachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchList;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.documents.NetworkFailureList;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.NotificationMmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.Quote;
-import org.thoughtcrime.securesms.jobs.TrimThreadJob;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.IncomingMediaMessage;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.OutgoingExpirationUpdateMessage;
-import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
-import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
-import org.thoughtcrime.securesms.mms.OutgoingSecureMediaMessage;
-import org.thoughtcrime.securesms.mms.QuoteModel;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientFormattingException;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.attachments.MmsNotificationAttachment;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.database.documents.IdentityKeyMismatch;
+import org.bittube.messenger.database.documents.IdentityKeyMismatchList;
+import org.bittube.messenger.database.documents.NetworkFailure;
+import org.bittube.messenger.database.documents.NetworkFailureList;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.database.model.MediaMmsMessageRecord;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.NotificationMmsMessageRecord;
+import org.bittube.messenger.database.model.Quote;
+import org.bittube.messenger.jobs.TrimThreadJob;
+import org.bittube.messenger.linkpreview.LinkPreview;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.IncomingMediaMessage;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.mms.OutgoingExpirationUpdateMessage;
+import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
+import org.bittube.messenger.mms.OutgoingMediaMessage;
+import org.bittube.messenger.mms.OutgoingSecureMediaMessage;
+import org.bittube.messenger.mms.QuoteModel;
+import org.bittube.messenger.mms.SlideDeck;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientFormattingException;
+import org.bittube.messenger.util.JsonUtils;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.Closeable;
@@ -79,7 +79,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Avatar;
+import static org.bittube.messenger.contactshare.Contact.Avatar;
 
 public class MmsDatabase extends MessagingDatabase {
 
@@ -939,7 +939,7 @@ public class MmsDatabase extends MessagingDatabase {
     notifyConversationListeners(threadId);
     DatabaseFactory.getThreadDatabase(context).update(threadId, true);
 
-    if (org.thoughtcrime.securesms.util.Util.isDefaultSmsProvider(context)) {
+    if (org.bittube.messenger.util.Util.isDefaultSmsProvider(context)) {
       DatabaseFactory.getThreadDatabase(context).incrementUnread(threadId, 1);
     }
 
@@ -1406,10 +1406,10 @@ public class MmsDatabase extends MessagingDatabase {
       byte[]transactionIdBytes   = null;
 
       if (!TextUtils.isEmpty(contentLocation))
-        contentLocationBytes = org.thoughtcrime.securesms.util.Util.toIsoBytes(contentLocation);
+        contentLocationBytes = org.bittube.messenger.util.Util.toIsoBytes(contentLocation);
 
       if (!TextUtils.isEmpty(transactionId))
-        transactionIdBytes = org.thoughtcrime.securesms.util.Util.toIsoBytes(transactionId);
+        transactionIdBytes = org.bittube.messenger.util.Util.toIsoBytes(transactionId);
 
       SlideDeck slideDeck = new SlideDeck(context, new MmsNotificationAttachment(status, messageSize));
 

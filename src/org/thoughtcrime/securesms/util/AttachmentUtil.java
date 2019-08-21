@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 
 import android.content.Context;
@@ -10,11 +10,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.logging.Log;
 
 import java.util.Collections;
 import java.util.Set;

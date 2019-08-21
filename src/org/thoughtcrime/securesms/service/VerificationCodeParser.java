@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.regex.Matcher;

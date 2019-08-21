@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.bittube.messenger.database.helpers;
 
 
 import android.content.ContentValues;
@@ -7,21 +7,21 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.util.Pair;
 
 import com.annimon.stream.function.BiFunction;
 
-import org.thoughtcrime.securesms.DatabaseUpgradeActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.AsymmetricMasterCipher;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.MasterCipher;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.DatabaseUpgradeActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.crypto.AsymmetricMasterCipher;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.crypto.MasterCipher;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.crypto.MasterSecretUtil;
+import org.bittube.messenger.service.GenericForegroundService;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidMessageException;
 
 import java.io.IOException;

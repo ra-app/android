@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,15 +16,15 @@ import androidx.appcompat.widget.AppCompatImageView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientExporter;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.contacts.avatars.ContactColors;
+import org.bittube.messenger.contacts.avatars.ContactPhoto;
+import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientExporter;
+import org.bittube.messenger.util.ThemeUtil;
 
 import java.util.Objects;
 

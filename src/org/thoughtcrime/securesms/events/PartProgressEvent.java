@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events;
+package org.bittube.messenger.events;
 
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
+import org.bittube.messenger.attachments.Attachment;
 
 public class PartProgressEvent {
 

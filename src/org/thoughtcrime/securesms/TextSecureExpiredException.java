@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 public class TextSecureExpiredException extends Exception {
   public TextSecureExpiredException(String message) {

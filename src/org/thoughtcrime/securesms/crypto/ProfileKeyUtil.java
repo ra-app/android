@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 

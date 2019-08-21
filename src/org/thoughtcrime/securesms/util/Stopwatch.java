@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.LinkedList;
 import java.util.List;

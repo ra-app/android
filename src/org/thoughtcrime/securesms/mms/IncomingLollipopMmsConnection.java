@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.os.Build.VERSION_CODES;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.telephony.SmsManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.google.android.mms.InvalidHeaderValueException;
 import com.google.android.mms.pdu_alt.NotifyRespInd;
@@ -33,9 +33,9 @@ import com.google.android.mms.pdu_alt.PduHeaders;
 import com.google.android.mms.pdu_alt.PduParser;
 import com.google.android.mms.pdu_alt.RetrieveConf;
 
-import org.thoughtcrime.securesms.providers.MmsBodyProvider;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.providers.MmsBodyProvider;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.Util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

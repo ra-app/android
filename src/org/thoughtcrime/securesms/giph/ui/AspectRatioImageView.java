@@ -15,7 +15,7 @@
  *
  */
 
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 import android.content.Context;
 import androidx.appcompat.widget.AppCompatImageView;

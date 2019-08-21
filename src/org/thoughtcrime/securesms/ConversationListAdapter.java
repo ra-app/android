@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -25,12 +25,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.database.CursorRecyclerViewAdapter;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.Conversions;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

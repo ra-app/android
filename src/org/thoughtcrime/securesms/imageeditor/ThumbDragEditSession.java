@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.imageeditor;
+package org.bittube.messenger.imageeditor;
 
 import android.graphics.Matrix;
 import android.graphics.PointF;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.imageeditor.model.EditorElement;
-import org.thoughtcrime.securesms.imageeditor.model.ThumbRenderer;
+import org.bittube.messenger.imageeditor.model.EditorElement;
+import org.bittube.messenger.imageeditor.model.ThumbRenderer;
 
 class ThumbDragEditSession extends ElementEditSession {
 

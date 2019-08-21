@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.StickerDatabase;
-import org.thoughtcrime.securesms.database.StickerDatabase.StickerPackRecordReader;
-import org.thoughtcrime.securesms.database.StickerDatabase.StickerRecordReader;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.database.StickerDatabase;
+import org.bittube.messenger.database.StickerDatabase.StickerPackRecordReader;
+import org.bittube.messenger.database.StickerDatabase.StickerRecordReader;
+import org.bittube.messenger.database.model.StickerPackRecord;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 
 import java.util.ArrayList;
 import java.util.List;

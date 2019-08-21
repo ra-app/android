@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.Manifest;
 import android.accounts.Account;
@@ -14,30 +14,30 @@ import android.provider.ContactsContract;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.ContactAccessor;
-import org.thoughtcrime.securesms.crypto.SessionUtil;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MessagingDatabase.InsertResult;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.database.RecipientDatabase.RegisteredState;
-import org.thoughtcrime.securesms.jobs.MultiDeviceContactUpdateJob;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.push.AccountManagerFactory;
-import org.thoughtcrime.securesms.push.IasTrustStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.IncomingJoinedMessage;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.R;
+import org.bittube.messenger.contacts.ContactAccessor;
+import org.bittube.messenger.crypto.SessionUtil;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MessagingDatabase.InsertResult;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.database.RecipientDatabase.RegisteredState;
+import org.bittube.messenger.jobs.MultiDeviceContactUpdateJob;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.push.AccountManagerFactory;
+import org.bittube.messenger.push.IasTrustStore;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.IncomingJoinedMessage;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;
@@ -250,7 +250,7 @@ public class DirectoryHelper {
 
   private static Optional<AccountHolder> getOrCreateAccount(Context context) {
     AccountManager accountManager = AccountManager.get(context);
-    Account[]      accounts       = accountManager.getAccountsByType("org.thoughtcrime.securesms");
+    Account[]      accounts       = accountManager.getAccountsByType("org.bittube.messenger");
 
     Optional<AccountHolder> account;
 
@@ -266,7 +266,7 @@ public class DirectoryHelper {
 
   private static Optional<AccountHolder> createAccount(Context context) {
     AccountManager accountManager = AccountManager.get(context);
-    Account        account        = new Account(context.getString(R.string.app_name), "org.thoughtcrime.securesms");
+    Account        account        = new Account(context.getString(R.string.app_name), "org.bittube.messenger");
 
     if (accountManager.addAccountExplicitly(account, null, null)) {
       Log.i(TAG, "Created new account...");

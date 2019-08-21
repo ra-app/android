@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration;
+package org.bittube.messenger.registration;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,8 +12,8 @@ import androidx.annotation.Nullable;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import org.thoughtcrime.securesms.BaseActionBarActivity;
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.BaseActionBarActivity;
+import org.bittube.messenger.R;
 
 public class CaptchaActivity extends BaseActionBarActivity {
 

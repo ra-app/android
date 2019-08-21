@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.identity;
+package org.bittube.messenger.database.identity;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
-import org.thoughtcrime.securesms.database.IdentityDatabase.VerifiedStatus;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
+import org.bittube.messenger.database.IdentityDatabase.VerifiedStatus;
+import org.bittube.messenger.recipients.Recipient;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package org.bittube.messenger.mediasend.camerax;
 
 import androidx.annotation.NonNull;
 

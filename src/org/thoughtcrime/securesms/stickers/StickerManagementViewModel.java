@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -9,8 +9,8 @@ import android.database.ContentObserver;
 import android.os.Handler;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.DatabaseContentProviders;
-import org.thoughtcrime.securesms.stickers.StickerManagementRepository.PackResult;
+import org.bittube.messenger.database.DatabaseContentProviders;
+import org.bittube.messenger.stickers.StickerManagementRepository.PackResult;
 
 final class StickerManagementViewModel extends ViewModel {
 

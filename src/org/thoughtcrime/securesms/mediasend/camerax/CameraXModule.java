@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package org.bittube.messenger.mediasend.camerax;
 
 /*
  * Copyright (C) 2019 The Android Open Source Project
@@ -54,7 +54,7 @@ import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.OnLifecycleEvent;
 
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXView.CaptureMode;
+import org.bittube.messenger.mediasend.camerax.CameraXView.CaptureMode;
 
 import java.io.File;
 import java.util.Arrays;

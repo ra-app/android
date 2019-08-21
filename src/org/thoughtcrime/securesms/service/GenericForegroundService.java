@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -13,10 +13,10 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.notifications.NotificationChannels;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;

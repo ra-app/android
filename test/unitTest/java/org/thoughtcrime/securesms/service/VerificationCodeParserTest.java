@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
+import org.bittube.messenger.BaseUnitTest;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

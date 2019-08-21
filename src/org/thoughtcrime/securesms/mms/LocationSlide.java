@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.components.location.SignalPlace;
+import org.bittube.messenger.components.location.SignalPlace;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 public class LocationSlide extends ImageSlide {

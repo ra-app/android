@@ -17,7 +17,7 @@
  * /
  */
 
-package org.thoughtcrime.securesms.logsubmit;
+package org.bittube.messenger.logsubmit;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,7 +31,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.bittube.messenger.conversation;
 
 import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
@@ -6,15 +6,15 @@ import androidx.lifecycle.LiveData;
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.contacts.ContactAccessor;
-import org.thoughtcrime.securesms.database.CursorList;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.search.SearchRepository;
-import org.thoughtcrime.securesms.search.model.MessageResult;
-import org.thoughtcrime.securesms.util.CloseableLiveData;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.contacts.ContactAccessor;
+import org.bittube.messenger.database.CursorList;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.search.SearchRepository;
+import org.bittube.messenger.search.model.MessageResult;
+import org.bittube.messenger.util.CloseableLiveData;
+import org.bittube.messenger.util.Debouncer;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 
 import java.io.Closeable;
 import java.util.List;

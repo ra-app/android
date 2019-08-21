@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.provider.Telephony;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 public class DefaultSmsReminder extends Reminder {
 

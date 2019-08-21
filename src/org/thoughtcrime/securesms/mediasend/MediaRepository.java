@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -16,10 +16,10 @@ import android.util.Pair;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.File;

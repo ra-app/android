@@ -1,23 +1,23 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsMessage;
 
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.JobManager;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.jobs.SmsSentJob;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.jobs.SmsSentJob;
 
 public class SmsDeliveryListener extends BroadcastReceiver {
 
   private static final String TAG = SmsDeliveryListener.class.getSimpleName();
 
-  public static final String SENT_SMS_ACTION      = "org.thoughtcrime.securesms.SendReceiveService.SENT_SMS_ACTION";
-  public static final String DELIVERED_SMS_ACTION = "org.thoughtcrime.securesms.SendReceiveService.DELIVERED_SMS_ACTION";
+  public static final String SENT_SMS_ACTION      = "org.bittube.messenger.SendReceiveService.SENT_SMS_ACTION";
+  public static final String DELIVERED_SMS_ACTION = "org.bittube.messenger.SendReceiveService.DELIVERED_SMS_ACTION";
 
   @Override
   public void onReceive(Context context, Intent intent) {

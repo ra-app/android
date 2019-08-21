@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class BubbleDrawableBuilder {
   private int color;

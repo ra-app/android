@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import org.thoughtcrime.securesms.preferences.MmsPreferencesActivity;
+import org.bittube.messenger.preferences.MmsPreferencesActivity;
 
 public class PromptMmsActivity extends PassphraseRequiredActionBarActivity {
 

@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.GroupUtil;
+import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.database.GroupDatabase.GroupRecord;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
@@ -136,7 +136,7 @@ public class PushGroupUpdateJob extends BaseJob implements InjectableType {
 
   public static final class Factory implements Job.Factory<PushGroupUpdateJob> {
     @Override
-    public @NonNull PushGroupUpdateJob create(@NonNull Parameters parameters, @NonNull org.thoughtcrime.securesms.jobmanager.Data data) {
+    public @NonNull PushGroupUpdateJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
       try {
         return new PushGroupUpdateJob(parameters,
                                       data.getString(KEY_SOURCE),

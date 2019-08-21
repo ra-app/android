@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -36,25 +36,25 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.components.SearchToolbar;
-import org.thoughtcrime.securesms.contacts.ContactsCursorLoader.DisplayMode;
-import org.thoughtcrime.securesms.conversation.ConversationActivity;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.FileUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.components.SearchToolbar;
+import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.bittube.messenger.conversation.ConversationActivity;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mediasend.Media;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.providers.BlobProvider;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.stickers.StickerLocator;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicNoActionBarTheme;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.FileUtils;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.bittube.messenger.linkpreview;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -8,9 +8,9 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.net.RequestController;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.net.RequestController;
+import org.bittube.messenger.util.Debouncer;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

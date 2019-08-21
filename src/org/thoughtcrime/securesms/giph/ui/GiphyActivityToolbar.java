@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 
 import android.content.Context;
@@ -20,8 +20,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AnimatingToggle;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.AnimatingToggle;
 
 public class GiphyActivityToolbar extends Toolbar {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.bittube.messenger.maps;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -24,8 +24,8 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package org.bittube.messenger.net;
 
 public interface RequestController {
 

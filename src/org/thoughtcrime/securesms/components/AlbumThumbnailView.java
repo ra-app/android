@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.ColorInt;
@@ -10,12 +10,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.mms.SlideClickListener;
+import org.bittube.messenger.mms.SlidesClickedListener;
+import org.bittube.messenger.util.views.Stub;
 
 import java.util.List;
 

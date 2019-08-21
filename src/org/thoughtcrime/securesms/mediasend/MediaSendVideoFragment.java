@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.VideoSlide;
+import org.bittube.messenger.video.VideoPlayer;
 
 import java.io.IOException;
 

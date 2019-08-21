@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.linkpreview.LinkPreview;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.ImageSlide;
+import org.bittube.messenger.mms.SlidesClickedListener;
+import org.bittube.messenger.util.ThemeUtil;
 
 import okhttp3.HttpUrl;
 

@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.StickerDatabase;
-import org.thoughtcrime.securesms.database.StickerDatabase.StickerPackRecordReader;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceStickerPackOperationJob;
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.StickerDatabase;
+import org.bittube.messenger.database.StickerDatabase.StickerPackRecordReader;
+import org.bittube.messenger.database.model.StickerPackRecord;
+import org.bittube.messenger.jobmanager.JobManager;
+import org.bittube.messenger.jobs.MultiDeviceStickerPackOperationJob;
+import org.bittube.messenger.jobs.StickerPackDownloadJob;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 
 import java.util.ArrayList;
 import java.util.List;

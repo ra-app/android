@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.DatabaseMigrationActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.service.ApplicationMigrationService;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.DatabaseMigrationActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.service.ApplicationMigrationService;
 
 public class SystemSmsImportReminder extends Reminder {
 

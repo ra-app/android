@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
 import android.graphics.Matrix;
 import androidx.annotation.NonNull;

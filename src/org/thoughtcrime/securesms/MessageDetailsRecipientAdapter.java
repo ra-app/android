@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.Conversions;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

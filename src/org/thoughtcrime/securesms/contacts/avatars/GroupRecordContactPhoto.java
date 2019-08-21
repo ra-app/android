@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 
 import android.content.Context;
@@ -6,10 +6,10 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.util.Conversions;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.util.Conversions;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.ByteArrayInputStream;

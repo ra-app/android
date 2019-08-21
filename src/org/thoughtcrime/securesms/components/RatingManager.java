@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import androidx.appcompat.app.AlertDialog;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

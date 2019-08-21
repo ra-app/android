@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 import android.content.Context;
 import android.content.Intent;
 import android.view.View.OnClickListener;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.RegistrationActivity;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.RegistrationActivity;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class PushRegistrationReminder extends Reminder {
 

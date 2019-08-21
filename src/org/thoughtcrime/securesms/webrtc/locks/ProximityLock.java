@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package org.bittube.messenger.webrtc.locks;
 
 import android.os.Build;
 import android.os.PowerManager;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import org.whispersystems.libsignal.util.guava.Optional;
 

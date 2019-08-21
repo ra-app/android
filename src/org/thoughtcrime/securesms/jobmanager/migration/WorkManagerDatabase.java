@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migration;
+package org.bittube.messenger.jobmanager.migration;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,13 +7,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
+import org.bittube.messenger.jobmanager.persistence.FullSpec;
+import org.bittube.messenger.jobmanager.persistence.JobSpec;
+import org.bittube.messenger.logging.Log;
 
 import java.util.Collections;
 import java.util.LinkedList;

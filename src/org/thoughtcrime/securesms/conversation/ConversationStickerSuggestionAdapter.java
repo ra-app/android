@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.bittube.messenger.conversation;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,10 +9,10 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;

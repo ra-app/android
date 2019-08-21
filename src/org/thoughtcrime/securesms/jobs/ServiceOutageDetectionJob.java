@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.events.ReminderUpdateEvent;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.events.ReminderUpdateEvent;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.transport.RetryLaterException;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -52,26 +52,26 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.components.MediaView;
-import org.thoughtcrime.securesms.components.viewpager.ExtendedOnPageChangedListener;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.MediaDatabase.MediaRecord;
-import org.thoughtcrime.securesms.database.loaders.PagingMediaLoader;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewViewModel;
-import org.thoughtcrime.securesms.mediapreview.MediaRailAdapter;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.util.AttachmentUtil;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.SaveAttachmentTask;
-import org.thoughtcrime.securesms.util.SaveAttachmentTask.Attachment;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.components.MediaView;
+import org.bittube.messenger.components.viewpager.ExtendedOnPageChangedListener;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.MediaDatabase.MediaRecord;
+import org.bittube.messenger.database.loaders.PagingMediaLoader;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mediapreview.MediaPreviewViewModel;
+import org.bittube.messenger.mediapreview.MediaRailAdapter;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.util.AttachmentUtil;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.SaveAttachmentTask;
+import org.bittube.messenger.util.SaveAttachmentTask.Attachment;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.WeakHashMap;

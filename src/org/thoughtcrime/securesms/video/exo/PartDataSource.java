@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.bittube.messenger.video.exo;
 
 
 import android.content.Context;
@@ -10,10 +10,10 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.upstream.TransferListener;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.mms.PartUriParser;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.mms.PartUriParser;
 
 import java.io.EOFException;
 import java.io.IOException;

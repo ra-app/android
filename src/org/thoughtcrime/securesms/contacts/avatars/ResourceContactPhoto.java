@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,8 +12,8 @@ import android.widget.ImageView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.makeramen.roundedimageview.RoundedDrawable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ThemeUtil;
 
 public class ResourceContactPhoto implements FallbackContactPhoto {
 

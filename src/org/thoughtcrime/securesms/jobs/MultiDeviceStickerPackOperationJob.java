@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Hex;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Hex;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.messages.multidevice.SignalServiceSyncMessage;
 import org.whispersystems.signalservice.api.messages.multidevice.StickerPackOperationMessage;

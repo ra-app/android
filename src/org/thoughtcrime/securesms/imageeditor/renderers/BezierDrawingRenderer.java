@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.renderers;
+package org.bittube.messenger.imageeditor.renderers;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -8,8 +8,8 @@ import android.os.Parcel;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.imageeditor.ColorableRenderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.imageeditor.ColorableRenderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 /**
  * Renders a {@link AutomaticControlPointBezierLine} with {@link #thickness}, {@link #color} and {@link #cap} end type.

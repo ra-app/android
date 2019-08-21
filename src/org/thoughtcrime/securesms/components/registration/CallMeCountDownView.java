@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.bittube.messenger.components.registration;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import android.util.AttributeSet;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class CallMeCountDownView extends androidx.appcompat.widget.AppCompatButton {
 

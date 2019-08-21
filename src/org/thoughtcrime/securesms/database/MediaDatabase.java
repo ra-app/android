@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.Context;
 import android.database.ContentObserver;
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
 
 import java.util.List;
 

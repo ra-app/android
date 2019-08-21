@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.jobs.TypingSendJob;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.jobs.TypingSendJob;
+import org.bittube.messenger.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;

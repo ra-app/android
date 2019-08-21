@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.bittube.messenger.audio;
 
 import android.annotation.TargetApi;
 import android.media.AudioFormat;
@@ -8,9 +8,9 @@ import android.media.MediaCodecInfo;
 import android.media.MediaFormat;
 import android.media.MediaRecorder;
 import android.os.Build;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 import java.io.OutputStream;

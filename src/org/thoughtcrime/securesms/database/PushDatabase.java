@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import androidx.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.util.Base64;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.util.Base64;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceEnvelope;
 import org.whispersystems.signalservice.internal.util.Util;

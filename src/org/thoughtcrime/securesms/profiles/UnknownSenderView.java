@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.bittube.messenger.profiles;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -7,11 +7,11 @@ import androidx.appcompat.app.AlertDialog;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientExporter;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientExporter;
+import org.bittube.messenger.util.ViewUtil;
 
 public class UnknownSenderView extends FrameLayout {
 

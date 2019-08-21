@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.renderers;
+package org.bittube.messenger.imageeditor.renderers;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

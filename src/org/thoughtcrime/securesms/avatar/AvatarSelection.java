@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar;
+package org.bittube.messenger.avatar;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,11 +13,11 @@ import androidx.core.content.ContextCompat;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.FileProviderUtil;
-import org.thoughtcrime.securesms.util.IntentUtils;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.util.FileProviderUtil;
+import org.bittube.messenger.util.IntentUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -101,7 +101,7 @@ public final class AvatarSelection {
     }
 
     if (includeClear) {
-      extraIntents.add(new Intent("org.thoughtcrime.securesms.action.CLEAR_PROFILE_PHOTO"));
+      extraIntents.add(new Intent("org.bittube.messenger.action.CLEAR_PROFILE_PHOTO"));
     }
 
     Intent chooserIntent = Intent.createChooser(galleryIntent, context.getString(R.string.CreateProfileActivity_profile_photo));

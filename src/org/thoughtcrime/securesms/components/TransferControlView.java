@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.animation.LayoutTransition;
 import android.content.Context;
@@ -16,12 +16,12 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.events.PartProgressEvent;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.util.Collections;
 import java.util.HashMap;

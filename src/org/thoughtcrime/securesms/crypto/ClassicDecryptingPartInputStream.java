@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.LimitedInputStream;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.LimitedInputStream;
+import org.bittube.messenger.util.Util;
 
 import java.io.File;
 import java.io.FileInputStream;

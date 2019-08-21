@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.TextSecureExpiredException;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobLogger;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.mms.MediaStream;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.TextSecureExpiredException;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.JobLogger;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.MediaConstraints;
+import org.bittube.messenger.mms.MediaStream;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.LinkedList;

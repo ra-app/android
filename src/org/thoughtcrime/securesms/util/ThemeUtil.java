@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,7 +10,7 @@ import androidx.appcompat.view.ContextThemeWrapper;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class ThemeUtil {
 

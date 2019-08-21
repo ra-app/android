@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -12,18 +12,18 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboardProvider;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.stickers.StickerKeyboardPageFragment.EventListener;
-import org.thoughtcrime.securesms.stickers.StickerKeyboardRepository.PackListResult;
-import org.thoughtcrime.securesms.util.ResUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.Throttler;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.emoji.MediaKeyboardProvider;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.model.StickerPackRecord;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.stickers.StickerKeyboardPageFragment.EventListener;
+import org.bittube.messenger.stickers.StickerKeyboardRepository.PackListResult;
+import org.bittube.messenger.util.ResUtil;
+import org.bittube.messenger.util.ThemeUtil;
+import org.bittube.messenger.util.Throttler;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * A provider to select stickers in the {@link org.thoughtcrime.securesms.components.emoji.MediaKeyboard}.
+ * A provider to select stickers in the {@link org.bittube.messenger.components.emoji.MediaKeyboard}.
  */
 public final class StickerKeyboardProvider implements MediaKeyboardProvider,
                                                 MediaKeyboardProvider.AddObserver,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader;
+import org.bittube.messenger.mms.GlideApp;
 
 public class MediaSendGifFragment extends Fragment implements MediaSendPageFragment {
 

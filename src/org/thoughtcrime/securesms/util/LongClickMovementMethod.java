@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class LongClickMovementMethod extends LinkMovementMethod {
   @SuppressLint("StaticFieldLeak")

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -17,13 +17,13 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.giph.net.GiphyLoader;
-import org.thoughtcrime.securesms.giph.util.InfiniteScrollListener;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.giph.model.GiphyImage;
+import org.bittube.messenger.giph.net.GiphyLoader;
+import org.bittube.messenger.giph.util.InfiniteScrollListener;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.util.LinkedList;
 import java.util.List;

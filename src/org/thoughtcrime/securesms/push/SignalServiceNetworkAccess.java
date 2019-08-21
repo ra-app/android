@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.push;
+package org.bittube.messenger.push;
 
 
 import android.content.Context;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.push.TrustStore;
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl;
 import org.whispersystems.signalservice.internal.configuration.SignalContactDiscoveryUrl;

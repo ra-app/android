@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.bittube.messenger.database.model;
 
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
@@ -8,7 +8,7 @@ import org.whispersystems.libsignal.util.guava.Optional;
 import java.util.Objects;
 
 /**
- * Represents a record for a sticker pack in the {@link org.thoughtcrime.securesms.database.StickerDatabase}.
+ * Represents a record for a sticker pack in the {@link org.bittube.messenger.database.StickerDatabase}.
  */
 public final class StickerPackRecord {
 

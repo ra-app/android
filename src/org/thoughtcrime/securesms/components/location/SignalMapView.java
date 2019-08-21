@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.location;
+package org.bittube.messenger.components.location;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,10 +17,10 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
-import org.thoughtcrime.securesms.util.concurrent.SettableFuture;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.concurrent.ListenableFuture;
+import org.bittube.messenger.util.concurrent.SettableFuture;
 
 public class SignalMapView extends LinearLayout {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package org.bittube.messenger.gcm;
 
 import android.app.job.JobInfo;
 import android.app.job.JobParameters;
@@ -9,14 +9,14 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobs.PushNotificationReceiveJob;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 
 import java.io.IOException;

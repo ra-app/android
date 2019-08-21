@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 
 import android.annotation.SuppressLint;
@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import android.view.View;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 @SuppressLint("BatteryLife")
 public class DozeReminder extends Reminder {

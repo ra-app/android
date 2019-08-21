@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -15,9 +15,9 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.ThemeUtil;
 
 /**
  * Class for creating simple tooltips to show throughout the app. Utilizes a popup window so you

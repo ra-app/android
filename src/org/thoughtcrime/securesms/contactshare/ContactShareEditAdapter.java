@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.bittube.messenger.contactshare;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -10,14 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.*;
+import static org.bittube.messenger.contactshare.Contact.*;
 
 public class ContactShareEditAdapter extends RecyclerView.Adapter<ContactShareEditAdapter.ContactEditViewHolder> {
 

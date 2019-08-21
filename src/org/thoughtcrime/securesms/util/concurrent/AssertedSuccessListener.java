@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.util.concurrent;
+package org.bittube.messenger.util.concurrent;
 
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener;
+import org.bittube.messenger.util.concurrent.ListenableFuture.Listener;
 
 import java.util.concurrent.ExecutionException;
 

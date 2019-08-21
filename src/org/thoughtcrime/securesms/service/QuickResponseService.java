@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -6,13 +6,13 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
-import org.thoughtcrime.securesms.util.Rfc5724Uri;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.MessageSender;
+import org.bittube.messenger.sms.OutgoingTextMessage;
+import org.bittube.messenger.util.Rfc5724Uri;
 
 import java.net.URISyntaxException;
 import java.net.URLDecoder;

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
 import android.graphics.Matrix;
 import android.os.Parcel;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 import java.util.UUID;
 

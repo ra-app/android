@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -8,9 +8,9 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.List;
 

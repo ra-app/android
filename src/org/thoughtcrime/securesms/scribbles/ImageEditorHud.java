@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.bittube.messenger.scribbles;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.scribbles.widget.ColorPaletteAdapter;
-import org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker;
+import org.bittube.messenger.R;
+import org.bittube.messenger.scribbles.widget.ColorPaletteAdapter;
+import org.bittube.messenger.scribbles.widget.VerticalSlideColorPicker;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -23,7 +23,7 @@ import java.util.Set;
 
 /**
  * The HUD (heads-up display) that contains all of the tools for interacting with
- * {@link org.thoughtcrime.securesms.imageeditor.ImageEditorView}
+ * {@link org.bittube.messenger.imageeditor.ImageEditorView}
  */
 public final class ImageEditorHud extends LinearLayout {
 

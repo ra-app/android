@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.telephony.SmsMessage;
 
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.SqlCipherMigrationConstraint;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.SqlCipherMigrationConstraint;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MessagingDatabase.InsertResult;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.IncomingTextMessage;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MessagingDatabase.InsertResult;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.IncomingTextMessage;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

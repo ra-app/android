@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,14 +23,14 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.util.ByteBufferUtil;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.giph.model.GiphyImage;
+import org.bittube.messenger.giph.model.ChunkedImageUrl;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;

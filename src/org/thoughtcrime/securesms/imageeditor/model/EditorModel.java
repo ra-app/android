@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,12 +13,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.ColorableRenderer;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
-import org.thoughtcrime.securesms.imageeditor.UndoRedoStackListener;
-import org.thoughtcrime.securesms.imageeditor.renderers.MultiLineTextRenderer;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.ColorableRenderer;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
+import org.bittube.messenger.imageeditor.UndoRedoStackListener;
+import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;

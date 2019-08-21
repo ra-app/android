@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -8,7 +8,7 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
+import org.bittube.messenger.jobmanager.ConstraintObserver;
 
 public class NetworkConstraintObserver implements ConstraintObserver {
 

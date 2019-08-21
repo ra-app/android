@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicelist;
+package org.bittube.messenger.devicelist;
 
 public class Device {
 

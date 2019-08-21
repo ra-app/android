@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 
 import android.annotation.SuppressLint;
@@ -15,10 +15,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CustomDefaultPreference;
-import org.thoughtcrime.securesms.preferences.widgets.ColorPickerPreference;
-import org.thoughtcrime.securesms.preferences.widgets.ColorPickerPreferenceDialogFragmentCompat;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.CustomDefaultPreference;
+import org.bittube.messenger.preferences.widgets.ColorPickerPreference;
+import org.bittube.messenger.preferences.widgets.ColorPickerPreferenceDialogFragmentCompat;
 
 public abstract class CorrectedPreferenceFragment extends PreferenceFragmentCompat {
 

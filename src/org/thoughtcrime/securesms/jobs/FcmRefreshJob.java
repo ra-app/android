@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -27,18 +27,18 @@ import androidx.core.app.NotificationCompat;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
-import org.thoughtcrime.securesms.gcm.FcmUtil;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.gcm.FcmUtil;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.PlayServicesProblemActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.PlayServicesProblemActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.transport.RetryLaterException;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;

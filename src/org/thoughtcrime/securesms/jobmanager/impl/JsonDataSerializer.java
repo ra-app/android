@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.JsonUtils;
 
 import java.io.IOException;
 

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
 import android.webkit.MimeTypeMap;
 
 import com.android.mms.dom.smil.parser.SmilXmlSerializer;
@@ -24,26 +24,26 @@ import com.google.android.mms.pdu_alt.SendReq;
 import com.google.android.mms.smil.SmilHelper;
 import com.klinker.android.send_message.Utils;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.ThreadDatabase;
-import org.thoughtcrime.securesms.mms.CompatMmsConnection;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.MmsSendResult;
-import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.transport.InsecureFallbackApprovalException;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.Hex;
-import org.thoughtcrime.securesms.util.NumberUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.NoSuchMessageException;
+import org.bittube.messenger.database.ThreadDatabase;
+import org.bittube.messenger.mms.CompatMmsConnection;
+import org.bittube.messenger.mms.MediaConstraints;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.mms.MmsSendResult;
+import org.bittube.messenger.mms.OutgoingMediaMessage;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.transport.InsecureFallbackApprovalException;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.Hex;
+import org.bittube.messenger.util.NumberUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

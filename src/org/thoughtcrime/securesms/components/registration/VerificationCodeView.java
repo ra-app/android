@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration;
+package org.bittube.messenger.components.registration;
 
 
 import android.content.Context;
@@ -23,7 +23,7 @@ import android.widget.TextView;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 import java.util.ArrayList;
 import java.util.List;

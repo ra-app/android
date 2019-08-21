@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,14 +13,14 @@ import androidx.core.app.TaskStackBuilder;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.conversation.ConversationActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.WebRtcCallActivity;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.WebRtcCallService;
+import org.bittube.messenger.conversation.ConversationActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.WebRtcCallActivity;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.service.WebRtcCallService;
 
 public class CommunicationActions {
 

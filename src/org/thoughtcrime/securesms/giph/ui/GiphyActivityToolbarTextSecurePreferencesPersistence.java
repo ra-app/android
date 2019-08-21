@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.bittube.messenger.giph.ui;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 class GiphyActivityToolbarTextSecurePreferencesPersistence implements GiphyActivityToolbar.Persistence {
 

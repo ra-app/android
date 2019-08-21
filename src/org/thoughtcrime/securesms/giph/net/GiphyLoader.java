@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.net;
+package org.bittube.messenger.giph.net;
 
 
 import android.content.Context;
@@ -6,14 +6,14 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.giph.model.GiphyResponse;
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.util.AsyncLoader;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.bittube.messenger.giph.model.GiphyImage;
+import org.bittube.messenger.giph.model.GiphyResponse;
+import org.bittube.messenger.net.ContentProxySelector;
+import org.bittube.messenger.util.AsyncLoader;
+import org.bittube.messenger.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.bittube.messenger.glide;
 
 
 import androidx.annotation.NonNull;
@@ -7,10 +7,10 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.net.ChunkedDataFetcher;
-import org.thoughtcrime.securesms.net.RequestController;
+import org.bittube.messenger.giph.model.ChunkedImageUrl;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.net.ChunkedDataFetcher;
+import org.bittube.messenger.net.RequestController;
 
 import java.io.InputStream;
 

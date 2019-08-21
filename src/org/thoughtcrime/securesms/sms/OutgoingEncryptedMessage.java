@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.sms;
+package org.bittube.messenger.sms;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.recipients.Recipient;
 
 public class OutgoingEncryptedMessage extends OutgoingTextMessage {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package org.bittube.messenger.webrtc.audio;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ServiceUtil;
 
 public class SignalAudioManager {
 

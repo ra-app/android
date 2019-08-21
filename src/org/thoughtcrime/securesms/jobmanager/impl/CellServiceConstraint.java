@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.sms.TelephonyServiceState;
+import org.bittube.messenger.jobmanager.Constraint;
+import org.bittube.messenger.sms.TelephonyServiceState;
 
 public class CellServiceConstraint implements Constraint {
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -23,12 +23,12 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ResUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.UriAttachment;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.ResUtil;
 
 
 public class AudioSlide extends Slide {

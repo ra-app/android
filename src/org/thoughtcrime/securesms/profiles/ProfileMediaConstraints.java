@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.profiles;
+package org.bittube.messenger.profiles;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.bittube.messenger.mms.MediaConstraints;
 
 public class ProfileMediaConstraints extends MediaConstraints {
   @Override

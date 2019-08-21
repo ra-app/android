@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.qr;
+package org.bittube.messenger.qr;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import androidx.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;

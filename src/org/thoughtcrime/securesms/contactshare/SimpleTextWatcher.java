@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.bittube.messenger.contactshare;
 
 import android.text.Editable;
 import android.text.TextWatcher;

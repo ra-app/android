@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.PointerAttachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.util.GroupUtil;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.PointerAttachment;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.linkpreview.LinkPreview;
+import org.bittube.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup;

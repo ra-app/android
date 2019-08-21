@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.camera;
+package org.bittube.messenger.components.camera;
 
 import android.app.Activity;
 import android.hardware.Camera;
@@ -8,7 +8,7 @@ import android.hardware.Camera.Size;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.DisplayMetrics;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.Surface;
 
 import java.util.Collections;

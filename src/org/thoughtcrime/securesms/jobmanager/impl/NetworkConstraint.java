@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
@@ -8,7 +8,7 @@ import android.net.NetworkInfo;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
+import org.bittube.messenger.jobmanager.Constraint;
 
 public class NetworkConstraint implements Constraint {
 

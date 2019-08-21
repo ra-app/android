@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.content.ComponentName;
 import android.content.Context;

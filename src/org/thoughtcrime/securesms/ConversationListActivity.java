@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -38,29 +38,29 @@ import android.widget.Toast;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.components.RatingManager;
-import org.thoughtcrime.securesms.components.SearchToolbar;
-import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
-import org.thoughtcrime.securesms.contacts.avatars.GeneratedContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.conversation.ConversationActivity;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
-import org.thoughtcrime.securesms.lock.RegistrationLockDialog;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.search.SearchFragment;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.components.RatingManager;
+import org.bittube.messenger.components.SearchToolbar;
+import org.bittube.messenger.contacts.avatars.ContactColors;
+import org.bittube.messenger.contacts.avatars.GeneratedContactPhoto;
+import org.bittube.messenger.contacts.avatars.ProfileContactPhoto;
+import org.bittube.messenger.conversation.ConversationActivity;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.bittube.messenger.lock.RegistrationLockDialog;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.notifications.MarkReadReceiver;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.search.SearchFragment;
+import org.bittube.messenger.service.KeyCachingService;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicNoActionBarTheme;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.bittube.messenger.contactshare;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,20 +20,20 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.RecipientDatabase;
+import org.bittube.messenger.jobs.DirectoryRefreshJob;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.util.CommunicationActions;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicNoActionBarTheme;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.*;
+import static org.bittube.messenger.mms.DecryptableStreamUriLoader.*;
 
 public class SharedContactDetailsActivity extends PassphraseRequiredActionBarActivity implements RecipientModifiedListener {
 

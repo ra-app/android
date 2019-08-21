@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -11,18 +11,18 @@ import android.util.Pair;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.database.model.IncomingSticker;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.stickers.BlessedPacks;
-import org.thoughtcrime.securesms.stickers.StickerPackInstallEvent;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
+import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.database.model.IncomingSticker;
+import org.bittube.messenger.database.model.StickerPackRecord;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.stickers.BlessedPacks;
+import org.bittube.messenger.stickers.StickerPackInstallEvent;
+import org.bittube.messenger.util.Util;
 
 import java.io.Closeable;
 import java.io.File;

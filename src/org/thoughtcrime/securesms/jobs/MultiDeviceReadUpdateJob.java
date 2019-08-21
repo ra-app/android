@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
-import org.thoughtcrime.securesms.database.MessagingDatabase.SyncMessageId;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.util.JsonUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
+import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.util.JsonUtils;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
 import org.whispersystems.signalservice.api.messages.multidevice.ReadMessage;

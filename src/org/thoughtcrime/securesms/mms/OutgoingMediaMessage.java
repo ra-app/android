@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.database.documents.IdentityKeyMismatch;
+import org.bittube.messenger.database.documents.NetworkFailure;
+import org.bittube.messenger.linkpreview.LinkPreview;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package org.bittube.messenger.mediasend.camerax;
 
 /*
  * Copyright (C) 2019 The Android Open Source Project
@@ -57,7 +57,7 @@ import androidx.camera.core.ImageProxy;
 import androidx.camera.core.VideoCapture.OnVideoSavedListener;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.io.File;
 

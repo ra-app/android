@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,9 +13,9 @@ import android.text.TextUtils;
 
 import com.amulyakhare.textdrawable.TextDrawable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ThemeUtil;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.util.regex.Pattern;
 

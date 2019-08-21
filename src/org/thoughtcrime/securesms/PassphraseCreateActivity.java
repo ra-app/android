@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
 
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.VersionTracker;
+import org.bittube.messenger.crypto.IdentityKeyUtil;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.crypto.MasterSecretUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.VersionTracker;
 
 /**
  * Activity for creating a user's local encryption passphrase.

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -24,10 +24,10 @@ import androidx.annotation.Nullable;
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteQueryBuilder;
 
-import org.thoughtcrime.securesms.database.MessagingDatabase.SyncMessageId;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

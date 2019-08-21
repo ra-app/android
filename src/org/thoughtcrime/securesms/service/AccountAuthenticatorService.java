@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;

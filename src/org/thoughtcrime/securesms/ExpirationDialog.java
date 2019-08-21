@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.util.ExpirationUtil;
+import org.bittube.messenger.util.ExpirationUtil;
 
 import cn.carbswang.android.numberpickerview.library.NumberPickerView;
 

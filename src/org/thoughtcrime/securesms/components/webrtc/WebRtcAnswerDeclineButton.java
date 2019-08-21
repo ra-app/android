@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.bittube.messenger.components.webrtc;
 
 
 import android.animation.Animator;
@@ -20,8 +20,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.util.ViewUtil;
 
 public class WebRtcAnswerDeclineButton extends LinearLayout implements View.OnTouchListener {
 

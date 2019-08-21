@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.bittube.messenger.scribbles;
 
 import android.content.Intent;
 import android.graphics.Paint;
@@ -11,20 +11,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.imageeditor.ColorableRenderer;
-import org.thoughtcrime.securesms.imageeditor.ImageEditorView;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.model.EditorElement;
-import org.thoughtcrime.securesms.imageeditor.model.EditorModel;
-import org.thoughtcrime.securesms.imageeditor.renderers.MultiLineTextRenderer;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mediasend.MediaSendPageFragment;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.mms.PushMediaConstraints;
-import org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker;
-import org.thoughtcrime.securesms.util.ParcelUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.imageeditor.ColorableRenderer;
+import org.bittube.messenger.imageeditor.ImageEditorView;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.model.EditorElement;
+import org.bittube.messenger.imageeditor.model.EditorModel;
+import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mediasend.MediaSendPageFragment;
+import org.bittube.messenger.mms.MediaConstraints;
+import org.bittube.messenger.mms.PushMediaConstraints;
+import org.bittube.messenger.scribbles.widget.VerticalSlideColorPicker;
+import org.bittube.messenger.util.ParcelUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import static android.app.Activity.RESULT_OK;
 

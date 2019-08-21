@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package org.bittube.messenger.webrtc.audio;
 
 
 import android.annotation.TargetApi;
@@ -10,9 +10,9 @@ import android.os.Build;
 import android.os.Vibrator;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.bittube.messenger.util.ServiceUtil;
 
 import java.io.IOException;
 

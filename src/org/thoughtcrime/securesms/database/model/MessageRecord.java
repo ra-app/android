@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database.model;
+package org.bittube.messenger.database.model;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -23,14 +23,14 @@ import android.text.SpannableString;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MmsSmsColumns;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.GroupUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.MmsSmsColumns;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.documents.IdentityKeyMismatch;
+import org.bittube.messenger.database.documents.NetworkFailure;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.ExpirationUtil;
+import org.bittube.messenger.util.GroupUtil;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package org.bittube.messenger.mediasend.camerax;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,8 +16,8 @@ import androidx.camera.core.CameraX;
 import androidx.camera.core.ImageCapture;
 import androidx.camera.core.ImageProxy;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Stopwatch;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Stopwatch;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

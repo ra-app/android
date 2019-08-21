@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation;
+package org.bittube.messenger.conversation;
 
 import android.database.Cursor;
 
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
-import org.thoughtcrime.securesms.conversation.ConversationAdapter;
+import org.bittube.messenger.BaseUnitTest;
+import org.bittube.messenger.conversation.ConversationAdapter;
 
 import static org.junit.Assert.*;
 import static org.mockito.Matchers.anyInt;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import androidx.annotation.NonNull;
 
@@ -6,7 +6,7 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherInputStream;

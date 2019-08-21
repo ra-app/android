@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,8 +9,8 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.dependencies.InjectableType;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 
 import java.io.InputStream;

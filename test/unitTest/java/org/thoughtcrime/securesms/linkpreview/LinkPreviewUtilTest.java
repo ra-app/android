@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.bittube.messenger.linkpreview;
 
 import org.junit.Test;
 

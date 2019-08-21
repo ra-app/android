@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.gcm;
+package org.bittube.messenger.gcm;
 
 import androidx.annotation.WorkerThread;
 import android.text.TextUtils;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.concurrent.CountDownLatch;

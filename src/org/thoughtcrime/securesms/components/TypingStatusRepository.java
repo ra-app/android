@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.annotation.SuppressLint;
 import androidx.lifecycle.LiveData;
@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;

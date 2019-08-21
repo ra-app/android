@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.bittube.messenger.jobmanager;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.LinkedList;
 import java.util.List;

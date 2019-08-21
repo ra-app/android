@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences.widgets;
+package org.bittube.messenger.preferences.widgets;
 
 
 import android.content.Context;
@@ -13,12 +13,12 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ResourceContactPhoto;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.contacts.avatars.ProfileContactPhoto;
+import org.bittube.messenger.contacts.avatars.ResourceContactPhoto;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class ProfilePreference extends Preference {
 

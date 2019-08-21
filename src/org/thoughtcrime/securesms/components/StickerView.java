@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,11 +7,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.mms.SlideClickListener;
+import org.bittube.messenger.mms.SlidesClickedListener;
 
 public class StickerView extends FrameLayout {
 

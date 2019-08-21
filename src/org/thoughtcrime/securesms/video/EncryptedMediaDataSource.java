@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.bittube.messenger.video;
 
 
 import android.annotation.TargetApi;
@@ -7,10 +7,10 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
+import org.bittube.messenger.util.Util;
 
 import java.io.File;
 import java.io.IOException;

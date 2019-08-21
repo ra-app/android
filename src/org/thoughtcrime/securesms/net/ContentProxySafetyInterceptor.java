@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.net;
+package org.bittube.messenger.net;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.linkpreview.LinkPreviewUtil;
+import org.bittube.messenger.logging.Log;
 
 import java.io.IOException;
 

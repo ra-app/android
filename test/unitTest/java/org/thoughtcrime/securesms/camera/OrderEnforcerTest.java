@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.camera;
+package org.bittube.messenger.camera;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.mediasend.OrderEnforcer;
+import org.bittube.messenger.mediasend.OrderEnforcer;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

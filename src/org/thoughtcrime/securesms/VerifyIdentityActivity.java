@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.Manifest;
 import android.animation.TypeEvaluator;
@@ -43,7 +43,7 @@ import androidx.appcompat.widget.SwitchCompat;
 import android.text.Html;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
@@ -61,26 +61,26 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
-import org.thoughtcrime.securesms.components.camera.CameraView;
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.IdentityDatabase.VerifiedStatus;
-import org.thoughtcrime.securesms.jobs.MultiDeviceVerifiedUpdateJob;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.qr.QrCode;
-import org.thoughtcrime.securesms.qr.ScanListener;
-import org.thoughtcrime.securesms.qr.ScanningThread;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.IdentityUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.color.MaterialColor;
+import org.bittube.messenger.components.camera.CameraView;
+import org.bittube.messenger.crypto.IdentityKeyParcelable;
+import org.bittube.messenger.crypto.IdentityKeyUtil;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.IdentityDatabase.VerifiedStatus;
+import org.bittube.messenger.jobs.MultiDeviceVerifiedUpdateJob;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.qr.QrCode;
+import org.bittube.messenger.qr.ScanListener;
+import org.bittube.messenger.qr.ScanningThread;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.IdentityUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.fingerprint.Fingerprint;
 import org.whispersystems.libsignal.fingerprint.FingerprintParsingException;

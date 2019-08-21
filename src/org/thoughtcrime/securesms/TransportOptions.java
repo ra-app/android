@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.Manifest;
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.CharacterCalculator;
-import org.thoughtcrime.securesms.util.MmsCharacterCalculator;
-import org.thoughtcrime.securesms.util.PushCharacterCalculator;
-import org.thoughtcrime.securesms.util.SmsCharacterCalculator;
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionInfoCompat;
-import org.thoughtcrime.securesms.util.dualsim.SubscriptionManagerCompat;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.util.CharacterCalculator;
+import org.bittube.messenger.util.MmsCharacterCalculator;
+import org.bittube.messenger.util.PushCharacterCalculator;
+import org.bittube.messenger.util.SmsCharacterCalculator;
+import org.bittube.messenger.util.dualsim.SubscriptionInfoCompat;
+import org.bittube.messenger.util.dualsim.SubscriptionManagerCompat;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collection;
@@ -20,7 +20,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.thoughtcrime.securesms.TransportOption.Type;
+import static org.bittube.messenger.TransportOption.Type;
 
 public class TransportOptions {
 

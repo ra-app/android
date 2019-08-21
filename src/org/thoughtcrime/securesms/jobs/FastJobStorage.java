@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.JobDatabase;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.database.JobDatabase;
+import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
+import org.bittube.messenger.jobmanager.persistence.DependencySpec;
+import org.bittube.messenger.jobmanager.persistence.FullSpec;
+import org.bittube.messenger.jobmanager.persistence.JobSpec;
+import org.bittube.messenger.jobmanager.persistence.JobStorage;
+import org.bittube.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;

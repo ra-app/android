@@ -27,7 +27,7 @@
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <org.thoughtcrime.securesms.components.InputAwareLayout
+    <org.bittube.messenger.components.InputAwareLayout
         android:id="@+id/layout_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -131,6 +131,6 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.components.InputAwareLayout>
+    </org.bittube.messenger.components.InputAwareLayout>
 
 </FrameLayout>

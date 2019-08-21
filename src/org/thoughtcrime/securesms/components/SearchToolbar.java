@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 
 import android.animation.Animator;
@@ -17,8 +17,8 @@ import android.view.ViewAnimationUtils;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
+import org.bittube.messenger.R;
+import org.bittube.messenger.animation.AnimationCompleteListener;
 
 public class SearchToolbar extends LinearLayout {
 

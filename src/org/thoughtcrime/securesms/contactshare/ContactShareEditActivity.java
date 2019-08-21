@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.bittube.messenger.contactshare;
 
 import android.app.Activity;
 import androidx.lifecycle.ViewModelProviders;
@@ -14,18 +14,18 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicTheme;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.*;
-import static org.thoughtcrime.securesms.contactshare.ContactShareEditViewModel.*;
+import static org.bittube.messenger.contactshare.Contact.*;
+import static org.bittube.messenger.contactshare.ContactShareEditViewModel.*;
 
 public class ContactShareEditActivity extends PassphraseRequiredActionBarActivity implements ContactShareEditAdapter.EventListener {
 

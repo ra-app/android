@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.bittube.messenger.audio;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -32,13 +32,13 @@ import com.google.android.exoplayer2.source.MediaSource;
 import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.AttachmentServer;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.AttachmentServer;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.AudioSlide;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

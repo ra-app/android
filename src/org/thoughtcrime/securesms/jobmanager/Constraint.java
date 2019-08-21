@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.bittube.messenger.jobmanager;
 
 import android.app.job.JobInfo;
 import androidx.annotation.NonNull;

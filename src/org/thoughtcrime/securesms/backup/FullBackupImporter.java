@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.bittube.messenger.backup;
 
 
 import android.annotation.SuppressLint;
@@ -12,22 +12,22 @@ import android.util.Pair;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.backup.BackupProtos.Attachment;
-import org.thoughtcrime.securesms.backup.BackupProtos.BackupFrame;
-import org.thoughtcrime.securesms.backup.BackupProtos.DatabaseVersion;
-import org.thoughtcrime.securesms.backup.BackupProtos.SharedPreference;
-import org.thoughtcrime.securesms.backup.BackupProtos.SqlStatement;
-import org.thoughtcrime.securesms.backup.BackupProtos.Sticker;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.SearchDatabase;
-import org.thoughtcrime.securesms.database.StickerDatabase;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.util.Conversions;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.backup.BackupProtos.Attachment;
+import org.bittube.messenger.backup.BackupProtos.BackupFrame;
+import org.bittube.messenger.backup.BackupProtos.DatabaseVersion;
+import org.bittube.messenger.backup.BackupProtos.SharedPreference;
+import org.bittube.messenger.backup.BackupProtos.SqlStatement;
+import org.bittube.messenger.backup.BackupProtos.Sticker;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.SearchDatabase;
+import org.bittube.messenger.database.StickerDatabase;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.profiles.AvatarHelper;
+import org.bittube.messenger.util.Conversions;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.kdf.HKDFv3;
 import org.whispersystems.libsignal.util.ByteUtil;
 

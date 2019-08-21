@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -26,9 +26,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.util.ViewUtil;
 
 public class AttachmentTypeSelector extends PopupWindow {
 

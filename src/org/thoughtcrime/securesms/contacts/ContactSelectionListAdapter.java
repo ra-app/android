@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.contacts;
+package org.bittube.messenger.contacts;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,14 +32,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.RecyclerViewFastScroller.FastScrollAdapter;
-import org.thoughtcrime.securesms.contacts.ContactSelectionListAdapter.HeaderViewHolder;
-import org.thoughtcrime.securesms.contacts.ContactSelectionListAdapter.ViewHolder;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration.StickyHeaderAdapter;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.RecyclerViewFastScroller.FastScrollAdapter;
+import org.bittube.messenger.contacts.ContactSelectionListAdapter.HeaderViewHolder;
+import org.bittube.messenger.contacts.ContactSelectionListAdapter.ViewHolder;
+import org.bittube.messenger.database.CursorRecyclerViewAdapter;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.StickyHeaderDecoration.StickyHeaderAdapter;
+import org.bittube.messenger.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

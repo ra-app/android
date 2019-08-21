@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,14 +9,14 @@ import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.jobs.PushNotificationReceiveJob;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
-import org.thoughtcrime.securesms.registration.WelcomeActivity;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.crypto.MasterSecretUtil;
+import org.bittube.messenger.jobs.PushNotificationReceiveJob;
+import org.bittube.messenger.push.SignalServiceNetworkAccess;
+import org.bittube.messenger.registration.WelcomeActivity;
+import org.bittube.messenger.service.KeyCachingService;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.Locale;
 

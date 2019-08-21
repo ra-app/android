@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -10,17 +10,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.ResUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.ResUtil;
+import org.bittube.messenger.util.ThemeUtil;
 
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * A provider to select emoji in the {@link org.thoughtcrime.securesms.components.emoji.MediaKeyboard}.
+ * A provider to select emoji in the {@link org.bittube.messenger.components.emoji.MediaKeyboard}.
  */
 public class EmojiKeyboardProvider implements MediaKeyboardProvider,
                                               MediaKeyboardProvider.TabIconProvider,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -23,13 +23,13 @@ import androidx.camera.core.ImageProxy;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXView;
-import org.thoughtcrime.securesms.util.Stopwatch;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
+import org.bittube.messenger.R;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mediasend.camerax.CameraXUtil;
+import org.bittube.messenger.mediasend.camerax.CameraXView;
+import org.bittube.messenger.util.Stopwatch;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.concurrent.SimpleTask;
 
 import java.io.IOException;
 

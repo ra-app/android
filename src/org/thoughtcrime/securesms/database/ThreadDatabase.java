@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -29,23 +29,23 @@ import com.annimon.stream.Stream;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.contactshare.ContactUtil;
-import org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
-import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientSettings;
-import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DelimiterUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.contactshare.ContactUtil;
+import org.bittube.messenger.database.GroupDatabase.GroupRecord;
+import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.bittube.messenger.database.RecipientDatabase.RecipientSettings;
+import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.bittube.messenger.database.model.MediaMmsMessageRecord;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MmsMessageRecord;
+import org.bittube.messenger.database.model.ThreadRecord;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.mms.SlideDeck;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.DelimiterUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
 

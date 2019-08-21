@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.app.Activity;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class DynamicNoActionBarTheme extends DynamicTheme {
   @Override

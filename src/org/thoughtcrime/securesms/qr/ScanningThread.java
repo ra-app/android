@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.qr;
+package org.bittube.messenger.qr;
 
 import android.content.res.Configuration;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
@@ -15,9 +15,9 @@ import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
-import org.thoughtcrime.securesms.components.camera.CameraView;
-import org.thoughtcrime.securesms.components.camera.CameraView.PreviewFrame;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.components.camera.CameraView;
+import org.bittube.messenger.components.camera.CameraView.PreviewFrame;
+import org.bittube.messenger.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;

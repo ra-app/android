@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.model;
+package org.bittube.messenger.imageeditor.model;
 
 import android.graphics.Matrix;
 import android.os.Parcel;
@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 import java.util.Iterator;
 import java.util.LinkedList;

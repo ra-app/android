@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testutil;
+package org.bittube.messenger.testutil;
 
 import androidx.annotation.NonNull;
 

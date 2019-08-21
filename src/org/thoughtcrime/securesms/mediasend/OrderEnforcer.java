@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

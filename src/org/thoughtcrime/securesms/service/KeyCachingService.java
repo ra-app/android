@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -31,21 +31,21 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.ConversationListActivity;
-import org.thoughtcrime.securesms.DatabaseUpgradeActivity;
-import org.thoughtcrime.securesms.DummyActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ConversationListActivity;
+import org.bittube.messenger.DatabaseUpgradeActivity;
+import org.bittube.messenger.DummyActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.crypto.InvalidPassphraseException;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.crypto.MasterSecretUtil;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.ServiceUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 
@@ -61,14 +61,14 @@ public class KeyCachingService extends Service {
 
   public static final int SERVICE_RUNNING_ID = 4141;
 
-  public  static final String KEY_PERMISSION           = "org.thoughtcrime.securesms.ACCESS_SECRETS";
-  public  static final String NEW_KEY_EVENT            = "org.thoughtcrime.securesms.service.action.NEW_KEY_EVENT";
-  public  static final String CLEAR_KEY_EVENT          = "org.thoughtcrime.securesms.service.action.CLEAR_KEY_EVENT";
-  public  static final String LOCK_TOGGLED_EVENT       = "org.thoughtcrime.securesms.service.action.LOCK_ENABLED_EVENT";
-  private static final String PASSPHRASE_EXPIRED_EVENT = "org.thoughtcrime.securesms.service.action.PASSPHRASE_EXPIRED_EVENT";
-  public  static final String CLEAR_KEY_ACTION         = "org.thoughtcrime.securesms.service.action.CLEAR_KEY";
-  public  static final String DISABLE_ACTION           = "org.thoughtcrime.securesms.service.action.DISABLE";
-  public  static final String LOCALE_CHANGE_EVENT      = "org.thoughtcrime.securesms.service.action.LOCALE_CHANGE_EVENT";
+  public  static final String KEY_PERMISSION           = "org.bittube.messenger.ACCESS_SECRETS";
+  public  static final String NEW_KEY_EVENT            = "org.bittube.messenger.service.action.NEW_KEY_EVENT";
+  public  static final String CLEAR_KEY_EVENT          = "org.bittube.messenger.service.action.CLEAR_KEY_EVENT";
+  public  static final String LOCK_TOGGLED_EVENT       = "org.bittube.messenger.service.action.LOCK_ENABLED_EVENT";
+  private static final String PASSPHRASE_EXPIRED_EVENT = "org.bittube.messenger.service.action.PASSPHRASE_EXPIRED_EVENT";
+  public  static final String CLEAR_KEY_ACTION         = "org.bittube.messenger.service.action.CLEAR_KEY";
+  public  static final String DISABLE_ACTION           = "org.bittube.messenger.service.action.DISABLE";
+  public  static final String LOCALE_CHANGE_EVENT      = "org.bittube.messenger.service.action.LOCALE_CHANGE_EVENT";
 
   private DynamicLanguage dynamicLanguage = new DynamicLanguage();
 

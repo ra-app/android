@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.os.Environment;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
+import org.bittube.messenger.database.NoExternalStorageException;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 import android.util.AttributeSet;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequest;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.ThemeUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequest;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.ThemeUtil;
 
 import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 

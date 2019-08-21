@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.recyclerview;
+package org.bittube.messenger.components.recyclerview;
 
 
 import androidx.recyclerview.widget.DefaultItemAnimator;

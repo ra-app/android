@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.jobmanager.Constraint;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class SqlCipherMigrationConstraint implements Constraint {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.spans;
+package org.bittube.messenger.util.spans;
 
 
 import androidx.annotation.NonNull;

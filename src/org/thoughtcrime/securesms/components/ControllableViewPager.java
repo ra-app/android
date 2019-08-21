@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,7 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import org.thoughtcrime.securesms.components.viewpager.HackyViewPager;
+import org.bittube.messenger.components.viewpager.HackyViewPager;
 
 /**
  * An implementation of {@link ViewPager} that disables swiping when the view is disabled.

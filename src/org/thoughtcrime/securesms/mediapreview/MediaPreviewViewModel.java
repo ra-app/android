@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package org.bittube.messenger.mediapreview;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.MediaDatabase.MediaRecord;
-import org.thoughtcrime.securesms.mediasend.Media;
+import org.bittube.messenger.database.MediaDatabase.MediaRecord;
+import org.bittube.messenger.mediasend.Media;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

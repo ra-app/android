@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -13,11 +13,11 @@ import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.util.AttributeSet;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ResUtil;
-import org.thoughtcrime.securesms.util.spans.CenterAlignedRelativeSizeSpan;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.emoji.EmojiTextView;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.ResUtil;
+import org.bittube.messenger.util.spans.CenterAlignedRelativeSizeSpan;
 
 public class FromTextView extends EmojiTextView {
 

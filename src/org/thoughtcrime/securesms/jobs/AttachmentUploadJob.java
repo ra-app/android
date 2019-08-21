@@ -1,30 +1,30 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.attachments.PointerAttachment;
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.mms.MediaStream;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.service.NotificationController;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.attachments.PointerAttachment;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.events.PartProgressEvent;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.MediaConstraints;
+import org.bittube.messenger.mms.MediaStream;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.service.GenericForegroundService;
+import org.bittube.messenger.service.NotificationController;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.MediaUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
@@ -168,7 +168,7 @@ public class AttachmentUploadJob extends BaseJob implements InjectableType {
 
   public static final class Factory implements Job.Factory<AttachmentUploadJob> {
     @Override
-    public @NonNull AttachmentUploadJob create(@NonNull Parameters parameters, @NonNull org.thoughtcrime.securesms.jobmanager.Data data) {
+    public @NonNull AttachmentUploadJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
       return new AttachmentUploadJob(parameters, new AttachmentId(data.getLong(KEY_ROW_ID), data.getLong(KEY_UNIQUE_ID)));
     }
   }

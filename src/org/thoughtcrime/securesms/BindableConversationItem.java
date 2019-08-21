@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
+import org.bittube.messenger.contactshare.Contact;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MmsMessageRecord;
+import org.bittube.messenger.linkpreview.LinkPreview;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.stickers.StickerLocator;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.List;

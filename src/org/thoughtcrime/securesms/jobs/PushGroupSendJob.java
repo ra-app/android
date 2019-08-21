@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -8,30 +8,30 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupReceiptDatabase.GroupReceiptInfo;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
-import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.GroupUtil;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.attachments.Attachment;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.NoSuchMessageException;
+import org.bittube.messenger.database.documents.IdentityKeyMismatch;
+import org.bittube.messenger.database.documents.NetworkFailure;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.JobManager;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
+import org.bittube.messenger.mms.OutgoingMediaMessage;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.transport.RetryLaterException;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccessPair;
@@ -287,7 +287,7 @@ public class PushGroupSendJob extends PushSendJob implements InjectableType {
 
   public static class Factory implements Job.Factory<PushGroupSendJob> {
     @Override
-    public @NonNull PushGroupSendJob create(@NonNull Parameters parameters, @NonNull org.thoughtcrime.securesms.jobmanager.Data data) {
+    public @NonNull PushGroupSendJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
       String  address = data.getString(KEY_FILTER_ADDRESS);
       Address filter  = address != null ? Address.fromSerialized(data.getString(KEY_FILTER_ADDRESS)) : null;
 

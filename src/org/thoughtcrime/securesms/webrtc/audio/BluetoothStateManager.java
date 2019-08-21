@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package org.bittube.messenger.webrtc.audio;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothClass;
@@ -14,9 +14,9 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.bittube.messenger.util.ServiceUtil;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;

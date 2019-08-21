@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobmanager.migration;
+package org.bittube.messenger.jobmanager.migration;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.logging.Log;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
@@ -12,11 +12,11 @@ import android.widget.TextView;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.StickerPackRecord;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.StableIdGenerator;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.model.StickerPackRecord;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.List;

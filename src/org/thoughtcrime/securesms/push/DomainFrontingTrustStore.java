@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.push;
+package org.bittube.messenger.push;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 import org.whispersystems.signalservice.api.push.TrustStore;
 
 import java.io.InputStream;

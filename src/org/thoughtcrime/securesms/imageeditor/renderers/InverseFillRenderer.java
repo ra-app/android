@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.imageeditor.renderers;
+package org.bittube.messenger.imageeditor.renderers;
 
 import android.graphics.Path;
 import android.os.Parcel;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 /**
  * Renders the {@link color} outside of the {@link Bounds}.

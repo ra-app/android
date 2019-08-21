@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 /**
  * Respond to a PanicKit trigger Intent by locking the app.  PanicKit provides a

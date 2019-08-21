@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,14 +7,14 @@ import androidx.annotation.WorkerThread;
 
 import com.google.protobuf.ByteString;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.recipients.RecipientModifiedListener;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

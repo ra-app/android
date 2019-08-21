@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.bittube.messenger.jobmanager;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 public class BootReceiver extends BroadcastReceiver {
 

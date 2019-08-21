@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.bittube.messenger.longmessage;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,16 +6,16 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.TextSlide;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MmsMessageRecord;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.mms.TextSlide;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

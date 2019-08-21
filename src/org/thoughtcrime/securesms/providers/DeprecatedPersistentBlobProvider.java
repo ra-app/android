@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.bittube.messenger.providers;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -6,15 +6,15 @@ import android.content.UriMatcher;
 import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import android.webkit.MimeTypeMap;
 
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ClassicDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.util.FileProviderUtil;
+import org.bittube.messenger.crypto.AttachmentSecret;
+import org.bittube.messenger.crypto.AttachmentSecretProvider;
+import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
+import org.bittube.messenger.util.FileProviderUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,9 +31,9 @@ public class DeprecatedPersistentBlobProvider {
 
   private static final String TAG = DeprecatedPersistentBlobProvider.class.getSimpleName();
 
-  private static final String     URI_STRING            = "content://org.thoughtcrime.securesms/capture-new";
+  private static final String     URI_STRING            = "content://org.bittube.messenger/capture-new";
   public  static final Uri        CONTENT_URI           = Uri.parse(URI_STRING);
-  public  static final String     AUTHORITY             = "org.thoughtcrime.securesms";
+  public  static final String     AUTHORITY             = "org.bittube.messenger";
   public  static final String     EXPECTED_PATH_OLD     = "capture/*/*/#";
   public  static final String     EXPECTED_PATH_NEW     = "capture-new/*/*/*/*/#";
 

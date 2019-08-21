@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.bittube.messenger.jobmanager.impl;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.util.Util;
 
 import java.io.IOException;
 

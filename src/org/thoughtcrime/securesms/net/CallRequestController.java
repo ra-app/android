@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.net;
+package org.bittube.messenger.net;
 
 import android.os.AsyncTask;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.InputStream;

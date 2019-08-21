@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class TypingIndicatorView extends LinearLayout {
 

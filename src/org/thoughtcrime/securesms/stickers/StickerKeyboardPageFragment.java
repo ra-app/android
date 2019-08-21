@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -17,14 +17,14 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.stickers.StickerKeyboardPageAdapter.StickerKeyboardPageViewHolder;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.stickers.StickerKeyboardPageAdapter.StickerKeyboardPageViewHolder;
+import org.bittube.messenger.util.ViewUtil;
 
 /**
  * An individual page of stickers in the {@link StickerKeyboardProvider}.

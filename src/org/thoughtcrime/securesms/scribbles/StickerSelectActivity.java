@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.scribbles;
+package org.bittube.messenger.scribbles;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,7 +27,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import android.view.MenuItem;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class StickerSelectActivity extends FragmentActivity implements StickerSelectFragment.StickerSelectionListener {
 

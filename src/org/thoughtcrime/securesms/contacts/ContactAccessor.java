@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.contacts;
+package org.bittube.messenger.contacts;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -29,11 +29,11 @@ import android.provider.ContactsContract.PhoneLookup;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -42,7 +42,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import static org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
+import static org.bittube.messenger.database.GroupDatabase.GroupRecord;
 
 /**
  * This class was originally a layer of indirection between

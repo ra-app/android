@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.bittube.messenger.profiles;
 
 
 import android.content.Context;
@@ -13,10 +13,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.ViewUtil;
 
 public class GroupShareProfileView extends FrameLayout {
 

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import com.google.android.mms.ContentType;
 import com.google.android.mms.pdu_alt.CharacterSets;
 import com.google.android.mms.pdu_alt.PduBody;
 import com.google.android.mms.pdu_alt.PduPart;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Util;
 
 import java.io.UnsupportedEncodingException;
 

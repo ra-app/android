@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.bittube.messenger.longmessage;
 
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.bittube.messenger.database.model.MessageRecord;
 
 /**
  * A wrapper around a {@link MessageRecord} and its extra text attachment expanded into a string

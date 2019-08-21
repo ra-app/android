@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util.concurrent;
+package org.bittube.messenger.util.concurrent;
 
 import androidx.lifecycle.Lifecycle;
 import android.os.AsyncTask;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.util.Util;
 
 public class SimpleTask {
 

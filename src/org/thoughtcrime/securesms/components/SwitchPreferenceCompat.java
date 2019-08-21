@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -7,7 +7,7 @@ import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
 import android.util.AttributeSet;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class SwitchPreferenceCompat extends CheckBoxPreference {
 

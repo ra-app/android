@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package org.bittube.messenger.crypto.storage;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
+import org.bittube.messenger.database.DatabaseFactory;
 import org.whispersystems.libsignal.InvalidKeyIdException;
 import org.whispersystems.libsignal.state.PreKeyRecord;
 import org.whispersystems.libsignal.state.PreKeyStore;

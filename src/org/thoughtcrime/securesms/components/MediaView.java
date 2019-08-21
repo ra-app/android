@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.bittube.messenger.components;
 
 
 import android.content.Context;
@@ -12,11 +12,11 @@ import android.view.View;
 import android.view.Window;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.util.views.Stub;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.mms.VideoSlide;
+import org.bittube.messenger.util.views.Stub;
+import org.bittube.messenger.video.VideoPlayer;
 
 import java.io.IOException;
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.animation.Animator;
 import android.app.KeyguardManager;
@@ -32,7 +32,7 @@ import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.TypefaceSpan;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -49,14 +49,14 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.AnimatingToggle;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.util.DynamicIntroTheme;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.animation.AnimationCompleteListener;
+import org.bittube.messenger.components.AnimatingToggle;
+import org.bittube.messenger.crypto.InvalidPassphraseException;
+import org.bittube.messenger.crypto.MasterSecret;
+import org.bittube.messenger.crypto.MasterSecretUtil;
+import org.bittube.messenger.util.DynamicIntroTheme;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 /**
  * Activity that prompts for a user's passphrase.

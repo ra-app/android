@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.reminder;
+package org.bittube.messenger.components.reminder;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.recipients.Recipient;
 
 public class InviteReminder extends Reminder {
 

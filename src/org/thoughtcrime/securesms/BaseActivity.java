@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
 import android.view.KeyEvent;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageActivityHelper;
-import org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageContextWrapper;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.dynamiclanguage.DynamicLanguageActivityHelper;
+import org.bittube.messenger.util.dynamiclanguage.DynamicLanguageContextWrapper;
 
 public abstract class BaseActivity extends FragmentActivity {
   @Override

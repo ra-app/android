@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
@@ -17,19 +17,19 @@ import android.widget.Toast;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.ShareActivity;
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.stickers.StickerManifest.Sticker;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.ShareActivity;
+import org.bittube.messenger.jobs.StickerPackDownloadJob;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.stickers.StickerManifest.Sticker;
+import org.bittube.messenger.util.DynamicNoActionBarTheme;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.ThemeUtil;
+import org.bittube.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
 

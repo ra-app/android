@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.bittube.messenger.mms;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -22,8 +22,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Util;
 
 import java.util.concurrent.TimeoutException;
 

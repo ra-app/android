@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.bittube.messenger.linkpreview;
 
 import java.util.Arrays;
 import java.util.HashSet;

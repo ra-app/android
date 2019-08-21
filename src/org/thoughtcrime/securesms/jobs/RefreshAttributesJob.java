@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.dependencies.InjectableType;
+import org.bittube.messenger.dependencies.InjectableType;
 
-import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.NetworkFailureException;
 
@@ -76,7 +76,7 @@ public class RefreshAttributesJob extends BaseJob implements InjectableType {
 
   public static class Factory implements Job.Factory<RefreshAttributesJob> {
     @Override
-    public @NonNull RefreshAttributesJob create(@NonNull Parameters parameters, @NonNull org.thoughtcrime.securesms.jobmanager.Data data) {
+    public @NonNull RefreshAttributesJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
       return new RefreshAttributesJob(parameters);
     }
   }

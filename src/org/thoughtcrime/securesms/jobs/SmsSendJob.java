@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.bittube.messenger.jobs;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -9,21 +9,21 @@ import androidx.annotation.NonNull;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
 
-import org.thoughtcrime.securesms.jobmanager.Data;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkOrCellServiceConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.CellServiceConstraint;
+import org.bittube.messenger.jobmanager.Data;
+import org.bittube.messenger.jobmanager.Job;
+import org.bittube.messenger.jobmanager.impl.NetworkOrCellServiceConstraint;
+import org.bittube.messenger.jobmanager.impl.CellServiceConstraint;
 
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.database.model.SmsMessageRecord;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.SmsDeliveryListener;
-import org.thoughtcrime.securesms.transport.UndeliverableMessageException;
-import org.thoughtcrime.securesms.util.NumberUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.NoSuchMessageException;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.database.model.SmsMessageRecord;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.service.SmsDeliveryListener;
+import org.bittube.messenger.transport.UndeliverableMessageException;
+import org.bittube.messenger.util.NumberUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.util.ArrayList;
 
@@ -240,7 +240,7 @@ public class SmsSendJob extends SendJob {
 
   public static class Factory implements Job.Factory<SmsSendJob> {
     @Override
-    public @NonNull SmsSendJob create(@NonNull Parameters parameters, @NonNull org.thoughtcrime.securesms.jobmanager.Data data) {
+    public @NonNull SmsSendJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
       return new SmsSendJob(parameters, data.getLong(KEY_MESSAGE_ID), data.getInt(KEY_RUN_ATTEMPT));
     }
   }

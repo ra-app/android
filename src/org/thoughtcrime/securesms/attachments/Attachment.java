@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.attachments;
+package org.bittube.messenger.attachments;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.AttachmentDatabase;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
+import org.bittube.messenger.database.AttachmentDatabase;
+import org.bittube.messenger.stickers.StickerLocator;
 
 public abstract class Attachment {
 

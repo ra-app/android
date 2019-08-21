@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji.parsing;
+package org.bittube.messenger.components.emoji.parsing;
 
 
 public enum Fitzpatrick {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package org.bittube.messenger.crypto.storage;
 
 import android.content.Context;
 

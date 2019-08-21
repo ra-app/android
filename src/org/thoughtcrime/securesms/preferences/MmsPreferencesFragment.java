@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.preferences;
+package org.bittube.messenger.preferences;
 
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CustomDefaultPreference;
-import org.thoughtcrime.securesms.database.ApnDatabase;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.LegacyMmsConnection;
-import org.thoughtcrime.securesms.util.TelephonyUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.CustomDefaultPreference;
+import org.bittube.messenger.database.ApnDatabase;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.LegacyMmsConnection;
+import org.bittube.messenger.util.TelephonyUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 import java.io.IOException;
 

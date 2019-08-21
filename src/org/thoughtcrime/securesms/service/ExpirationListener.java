@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -6,7 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.thoughtcrime.securesms.ApplicationContext;
+import org.bittube.messenger.ApplicationContext;
 
 public class ExpirationListener extends BroadcastReceiver {
 

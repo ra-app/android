@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms;
+package org.bittube.messenger.sms;
 
 public class IncomingEncryptedMessage extends IncomingTextMessage {
 

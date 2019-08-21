@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.push;
+package org.bittube.messenger.push;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import com.google.android.gms.security.ProviderInstaller;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 public class AccountManagerFactory {

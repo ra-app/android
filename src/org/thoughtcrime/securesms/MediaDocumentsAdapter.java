@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 
 import android.content.ActivityNotFoundException;
@@ -13,19 +13,19 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.MediaDocumentsAdapter.HeaderViewHolder;
-import org.thoughtcrime.securesms.MediaDocumentsAdapter.ViewHolder;
-import org.thoughtcrime.securesms.components.DocumentView;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.MediaDatabase;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.DocumentSlide;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.MediaDocumentsAdapter.HeaderViewHolder;
+import org.bittube.messenger.MediaDocumentsAdapter.ViewHolder;
+import org.bittube.messenger.components.DocumentView;
+import org.bittube.messenger.database.CursorRecyclerViewAdapter;
+import org.bittube.messenger.database.MediaDatabase;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.DocumentSlide;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.mms.Slide;
+import org.bittube.messenger.util.DateUtils;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.StickyHeaderDecoration;
+import org.bittube.messenger.util.Util;
 
 import java.util.Calendar;
 import java.util.Date;

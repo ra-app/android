@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dualsim;
+package org.bittube.messenger.util.dualsim;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

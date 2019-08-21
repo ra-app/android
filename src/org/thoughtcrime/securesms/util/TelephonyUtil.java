@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -6,7 +6,7 @@ import android.net.ConnectivityManager;
 import androidx.annotation.NonNull;
 import android.telephony.TelephonyManager;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.Locale;
 

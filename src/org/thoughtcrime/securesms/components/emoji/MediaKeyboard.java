@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -13,11 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.InputAwareLayout.InputView;
-import org.thoughtcrime.securesms.components.RepeatableImageKey;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.GlideApp;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.InputAwareLayout.InputView;
+import org.bittube.messenger.components.RepeatableImageKey;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.GlideApp;
 
 import java.util.Arrays;
 

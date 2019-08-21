@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.bittube.messenger.longmessage;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.os.Handler;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.DatabaseContentProviders;
+import org.bittube.messenger.database.DatabaseContentProviders;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 class LongMessageViewModel extends ViewModel {

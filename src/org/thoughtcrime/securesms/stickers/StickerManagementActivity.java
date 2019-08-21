@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -9,11 +9,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.MenuItem;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.ShareActivity;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.bittube.messenger.PassphraseRequiredActionBarActivity;
+import org.bittube.messenger.R;
+import org.bittube.messenger.ShareActivity;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.util.DynamicTheme;
 
 /**
  * Allows the user to view and manage (install, uninstall, etc) their stickers.

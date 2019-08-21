@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.bittube.messenger.database.loaders;
 
 
 import android.content.Context;
@@ -9,11 +9,11 @@ import androidx.loader.content.AsyncTaskLoader;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MediaDatabase;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MediaDatabase;
+import org.bittube.messenger.recipients.Recipient;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

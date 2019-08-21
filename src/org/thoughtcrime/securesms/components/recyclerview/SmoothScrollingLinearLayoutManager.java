@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.recyclerview;
+package org.bittube.messenger.components.recyclerview;
 
 import android.content.Context;
 import androidx.annotation.NonNull;

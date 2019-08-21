@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.imageeditor.renderers;
+package org.bittube.messenger.imageeditor.renderers;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.imageeditor.Renderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.imageeditor.Renderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 import java.lang.ref.WeakReference;
 

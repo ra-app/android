@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 
 import android.content.Context;
@@ -8,12 +8,12 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.libsignal.metadata.certificate.CertificateValidator;
 import org.signal.libsignal.metadata.certificate.InvalidCertificateException;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.BuildConfig;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECPublicKey;

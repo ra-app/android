@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.database.model;
+package org.bittube.messenger.database.model;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
+import org.bittube.messenger.mms.PartAuthority;
 
 import java.util.Objects;
 
 /**
- * Represents a record for a sticker pack in the {@link org.thoughtcrime.securesms.database.StickerDatabase}.
+ * Represents a record for a sticker pack in the {@link org.bittube.messenger.database.StickerDatabase}.
  */
 public final class StickerRecord {
 

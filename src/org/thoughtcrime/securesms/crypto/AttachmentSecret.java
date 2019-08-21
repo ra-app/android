@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.bittube.messenger.crypto;
 
 
 import androidx.annotation.NonNull;
@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.bittube.messenger.util.JsonUtils;
 
 import java.io.IOException;
 

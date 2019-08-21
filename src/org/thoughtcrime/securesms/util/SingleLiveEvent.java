@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.MutableLiveData;
@@ -23,7 +23,7 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

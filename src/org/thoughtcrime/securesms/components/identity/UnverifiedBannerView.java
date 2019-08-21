@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.identity;
+package org.bittube.messenger.components.identity;
 
 
 import android.content.Context;
@@ -7,16 +7,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import android.util.AttributeSet;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
+import org.bittube.messenger.util.ViewUtil;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.bittube.messenger.webrtc;
 
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 import java.util.ArrayList;
 import java.util.List;

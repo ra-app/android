@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
+import org.bittube.messenger.BaseUnitTest;
 
 import java.util.LinkedList;
 import java.util.List;

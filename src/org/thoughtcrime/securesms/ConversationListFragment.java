@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -55,32 +55,32 @@ import android.widget.TextView;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.thoughtcrime.securesms.ConversationListAdapter.ItemClickListener;
-import org.thoughtcrime.securesms.components.recyclerview.DeleteItemAnimator;
-import org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton;
-import org.thoughtcrime.securesms.components.reminder.DefaultSmsReminder;
-import org.thoughtcrime.securesms.components.reminder.DozeReminder;
-import org.thoughtcrime.securesms.components.reminder.ExpiredBuildReminder;
-import org.thoughtcrime.securesms.components.reminder.OutdatedBuildReminder;
-import org.thoughtcrime.securesms.components.reminder.PushRegistrationReminder;
-import org.thoughtcrime.securesms.components.reminder.Reminder;
-import org.thoughtcrime.securesms.components.reminder.ReminderView;
-import org.thoughtcrime.securesms.components.reminder.ServiceOutageReminder;
-import org.thoughtcrime.securesms.components.reminder.ShareReminder;
-import org.thoughtcrime.securesms.components.reminder.SystemSmsImportReminder;
-import org.thoughtcrime.securesms.components.reminder.UnauthorizedReminder;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.loaders.ConversationListLoader;
-import org.thoughtcrime.securesms.events.ReminderUpdateEvent;
-import org.thoughtcrime.securesms.jobs.ServiceOutageDetectionJob;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.task.SnackbarAsyncTask;
+import org.bittube.messenger.ConversationListAdapter.ItemClickListener;
+import org.bittube.messenger.components.recyclerview.DeleteItemAnimator;
+import org.bittube.messenger.components.registration.PulsingFloatingActionButton;
+import org.bittube.messenger.components.reminder.DefaultSmsReminder;
+import org.bittube.messenger.components.reminder.DozeReminder;
+import org.bittube.messenger.components.reminder.ExpiredBuildReminder;
+import org.bittube.messenger.components.reminder.OutdatedBuildReminder;
+import org.bittube.messenger.components.reminder.PushRegistrationReminder;
+import org.bittube.messenger.components.reminder.Reminder;
+import org.bittube.messenger.components.reminder.ReminderView;
+import org.bittube.messenger.components.reminder.ServiceOutageReminder;
+import org.bittube.messenger.components.reminder.ShareReminder;
+import org.bittube.messenger.components.reminder.SystemSmsImportReminder;
+import org.bittube.messenger.components.reminder.UnauthorizedReminder;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.bittube.messenger.database.loaders.ConversationListLoader;
+import org.bittube.messenger.events.ReminderUpdateEvent;
+import org.bittube.messenger.jobs.ServiceOutageDetectionJob;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.notifications.MarkReadReceiver;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.task.SnackbarAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

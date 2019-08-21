@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.imageeditor.renderers;
+package org.bittube.messenger.imageeditor.renderers;
 
 import android.animation.ValueAnimator;
 import android.graphics.Matrix;
@@ -13,9 +13,9 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.imageeditor.Bounds;
-import org.thoughtcrime.securesms.imageeditor.ColorableRenderer;
-import org.thoughtcrime.securesms.imageeditor.RendererContext;
+import org.bittube.messenger.imageeditor.Bounds;
+import org.bittube.messenger.imageeditor.ColorableRenderer;
+import org.bittube.messenger.imageeditor.RendererContext;
 
 import java.util.ArrayList;
 import java.util.List;

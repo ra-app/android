@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.bittube.messenger.jobmanager;
 
 import android.app.Application;
 import android.os.PowerManager;
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.WakeLockUtil;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

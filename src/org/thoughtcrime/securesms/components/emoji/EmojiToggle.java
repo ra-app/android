@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.stickers.StickerKeyboardProvider;
-import org.thoughtcrime.securesms.util.ResUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.R;
+import org.bittube.messenger.stickers.StickerKeyboardProvider;
+import org.bittube.messenger.util.ResUtil;
+import org.bittube.messenger.util.TextSecurePreferences;
 
 public class EmojiToggle extends AppCompatImageButton implements MediaKeyboard.MediaKeyboardListener {
 

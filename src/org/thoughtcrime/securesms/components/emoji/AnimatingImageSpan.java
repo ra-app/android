@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.Drawable.Callback;

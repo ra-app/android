@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,9 +11,9 @@ import androidx.loader.app.LoaderManager;
 import androidx.loader.content.Loader;
 import androidx.appcompat.app.AlertDialog;
 
-import org.thoughtcrime.securesms.devicelist.Device;
-import org.thoughtcrime.securesms.jobs.RefreshUnidentifiedDeliveryAbilityJob;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.devicelist.Device;
+import org.bittube.messenger.jobs.RefreshUnidentifiedDeliveryAbilityJob;
+import org.bittube.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,11 +25,11 @@ import android.widget.Toast;
 
 import com.melnykov.fab.FloatingActionButton;
 
-import org.thoughtcrime.securesms.database.loaders.DeviceListLoader;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.bittube.messenger.database.loaders.DeviceListLoader;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.util.TextSecurePreferences;
+import org.bittube.messenger.util.ViewUtil;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 
 import java.io.IOException;

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.video;
+package org.bittube.messenger.video;
 
 import android.content.Context;
 import android.os.Build;
@@ -48,13 +48,13 @@ import com.google.android.exoplayer2.upstream.BandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.AttachmentServer;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.video.exo.AttachmentDataSourceFactory;
+import org.bittube.messenger.R;
+import org.bittube.messenger.attachments.AttachmentServer;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.PartAuthority;
+import org.bittube.messenger.mms.VideoSlide;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.video.exo.AttachmentDataSourceFactory;
 
 import java.io.IOException;
 

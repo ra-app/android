@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -9,9 +9,9 @@ import android.database.ContentObserver;
 import android.os.Handler;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.DatabaseContentProviders;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.util.Throttler;
+import org.bittube.messenger.database.DatabaseContentProviders;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.util.Throttler;
 
 import java.util.List;
 

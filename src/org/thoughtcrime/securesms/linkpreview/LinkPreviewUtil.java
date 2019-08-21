@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.bittube.messenger.linkpreview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import android.text.util.Linkify;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.stickers.StickerUrl;
+import org.bittube.messenger.stickers.StickerUrl;
 
 import java.util.Collections;
 import java.util.List;

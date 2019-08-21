@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.bittube.messenger.components.emoji;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,14 +17,14 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.widget.TextView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiPageBitmap;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiTree;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.FutureTaskListener;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.emoji.parsing.EmojiDrawInfo;
+import org.bittube.messenger.components.emoji.parsing.EmojiPageBitmap;
+import org.bittube.messenger.components.emoji.parsing.EmojiParser;
+import org.bittube.messenger.components.emoji.parsing.EmojiTree;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.FutureTaskListener;
+import org.bittube.messenger.util.Util;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.bittube.messenger.mediasend;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,10 +11,10 @@ import android.widget.TextView;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.StableIdGenerator;
+import org.bittube.messenger.R;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.MediaUtil;
+import org.bittube.messenger.util.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.bittube.messenger.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,7 +6,7 @@ import androidx.core.content.ContextCompat;
 
 import com.makeramen.roundedimageview.RoundedDrawable;
 
-import org.thoughtcrime.securesms.R;
+import org.bittube.messenger.R;
 
 public class TransparentContactPhoto implements FallbackContactPhoto {
 

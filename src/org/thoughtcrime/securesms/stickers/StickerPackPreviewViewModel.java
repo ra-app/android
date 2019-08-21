@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -10,8 +10,8 @@ import android.os.Handler;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.thoughtcrime.securesms.database.DatabaseContentProviders;
-import org.thoughtcrime.securesms.stickers.StickerPackPreviewRepository.StickerManifestResult;
+import org.bittube.messenger.database.DatabaseContentProviders;
+import org.bittube.messenger.stickers.StickerPackPreviewRepository.StickerManifestResult;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 final class StickerPackPreviewViewModel extends ViewModel {

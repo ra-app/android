@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.bittube.messenger.maps;
 
 import android.os.Parcel;
 import android.os.Parcelable;

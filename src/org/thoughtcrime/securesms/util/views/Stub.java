@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package org.bittube.messenger.util.views;
 
 
 import androidx.annotation.NonNull;

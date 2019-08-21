@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package org.bittube.messenger.mediapreview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,11 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mms.GlideRequests;
-import org.thoughtcrime.securesms.util.StableIdGenerator;
+import org.bittube.messenger.R;
+import org.bittube.messenger.components.ThumbnailView;
+import org.bittube.messenger.mediasend.Media;
+import org.bittube.messenger.mms.GlideRequests;
+import org.bittube.messenger.util.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.animation.Animator;
 import android.annotation.SuppressLint;
@@ -24,17 +24,17 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.thoughtcrime.securesms.components.ContactFilterToolbar;
-import org.thoughtcrime.securesms.components.ContactFilterToolbar.OnFilterChangedListener;
-import org.thoughtcrime.securesms.contacts.ContactsCursorLoader.DisplayMode;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
-import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.concurrent.ListenableFuture.Listener;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.components.ContactFilterToolbar;
+import org.bittube.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
+import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.MessageSender;
+import org.bittube.messenger.sms.OutgoingTextMessage;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.concurrent.ListenableFuture.Listener;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.util.concurrent.ExecutionException;
 

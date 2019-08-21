@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.providers;
+package org.bittube.messenger.providers;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -27,15 +27,15 @@ import android.os.MemoryFile;
 import android.os.ParcelFileDescriptor;
 import android.provider.OpenableColumns;
 import androidx.annotation.NonNull;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.mms.PartUriParser;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.MemoryFileUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.bittube.messenger.attachments.AttachmentId;
+import org.bittube.messenger.attachments.DatabaseAttachment;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.mms.PartUriParser;
+import org.bittube.messenger.service.KeyCachingService;
+import org.bittube.messenger.util.MemoryFileUtil;
+import org.bittube.messenger.util.Util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -46,7 +46,7 @@ public class PartProvider extends ContentProvider {
 
   private static final String TAG = PartProvider.class.getSimpleName();
 
-  private static final String CONTENT_URI_STRING = "content://org.thoughtcrime.provider.securesms/part";
+  private static final String CONTENT_URI_STRING = "content://org.bittube.provider.securesms/part";
   private static final Uri    CONTENT_URI        = Uri.parse(CONTENT_URI_STRING);
   private static final int    SINGLE_ROW         = 1;
 
@@ -54,7 +54,7 @@ public class PartProvider extends ContentProvider {
 
   static {
     uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
-    uriMatcher.addURI("org.thoughtcrime.provider.securesms", "part/*/#", SINGLE_ROW);
+    uriMatcher.addURI("org.bittube.provider.securesms", "part/*/#", SINGLE_ROW);
   }
 
   @Override

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.bittube.messenger.groups;
 
 
 import android.content.Context;
@@ -7,24 +7,24 @@ import androidx.annotation.Nullable;
 
 import com.google.protobuf.ByteString;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.database.GroupDatabase;
-import org.thoughtcrime.securesms.database.MessagingDatabase.InsertResult;
-import org.thoughtcrime.securesms.database.MmsDatabase;
-import org.thoughtcrime.securesms.database.SmsDatabase;
-import org.thoughtcrime.securesms.jobs.AvatarDownloadJob;
-import org.thoughtcrime.securesms.jobs.PushGroupUpdateJob;
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.mms.MmsException;
-import org.thoughtcrime.securesms.mms.OutgoingGroupMediaMessage;
-import org.thoughtcrime.securesms.notifications.MessageNotifier;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.IncomingGroupMessage;
-import org.thoughtcrime.securesms.sms.IncomingTextMessage;
-import org.thoughtcrime.securesms.util.Base64;
-import org.thoughtcrime.securesms.util.GroupUtil;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.DatabaseFactory;
+import org.bittube.messenger.database.GroupDatabase;
+import org.bittube.messenger.database.MessagingDatabase.InsertResult;
+import org.bittube.messenger.database.MmsDatabase;
+import org.bittube.messenger.database.SmsDatabase;
+import org.bittube.messenger.jobs.AvatarDownloadJob;
+import org.bittube.messenger.jobs.PushGroupUpdateJob;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.mms.MmsException;
+import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
+import org.bittube.messenger.notifications.MessageNotifier;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.sms.IncomingGroupMessage;
+import org.bittube.messenger.sms.IncomingTextMessage;
+import org.bittube.messenger.util.Base64;
+import org.bittube.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
 import org.whispersystems.signalservice.api.messages.SignalServiceContent;
@@ -38,7 +38,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import static org.thoughtcrime.securesms.database.GroupDatabase.GroupRecord;
+import static org.bittube.messenger.database.GroupDatabase.GroupRecord;
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.AttachmentPointer;
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

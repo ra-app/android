@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.bittube.messenger.service;
 
 import android.app.Service;
 import androidx.lifecycle.DefaultLifecycleObserver;
@@ -12,18 +12,18 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraintObserver;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.jobmanager.ConstraintObserver;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
+import org.bittube.messenger.jobmanager.impl.NetworkConstraintObserver;
+import org.bittube.messenger.logging.Log;
 
-import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.InjectableType;
-import org.thoughtcrime.securesms.jobs.PushContentReceiveJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.bittube.messenger.ApplicationContext;
+import org.bittube.messenger.R;
+import org.bittube.messenger.dependencies.InjectableType;
+import org.bittube.messenger.jobs.PushContentReceiveJob;
+import org.bittube.messenger.notifications.NotificationChannels;
+import org.bittube.messenger.push.SignalServiceNetworkAccess;
+import org.bittube.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidVersionException;
 import org.whispersystems.signalservice.api.SignalServiceMessagePipe;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

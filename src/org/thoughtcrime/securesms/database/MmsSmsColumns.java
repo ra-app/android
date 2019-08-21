@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.bittube.messenger.database;
 
 @SuppressWarnings("UnnecessaryInterfaceModifier")
 public interface MmsSmsColumns {

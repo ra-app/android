@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package org.bittube.messenger.webrtc.locks;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.os.PowerManager;
 import android.provider.Settings;
-import org.thoughtcrime.securesms.logging.Log;
+import org.bittube.messenger.logging.Log;
 
 /**
  * Maintains wake lock state.

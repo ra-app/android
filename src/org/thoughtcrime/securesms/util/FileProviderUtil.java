@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.bittube.messenger.util;
 
 
 import android.content.Context;
@@ -11,7 +11,7 @@ import java.io.File;
 
 public class FileProviderUtil {
 
-  private static final String AUTHORITY = "org.thoughtcrime.securesms.fileprovider";
+  private static final String AUTHORITY = "org.bittube.messenger.fileprovider";
 
   public static Uri getUriFor(@NonNull Context context, @NonNull File file) {
     if (Build.VERSION.SDK_INT >= 24) return FileProvider.getUriForFile(context, AUTHORITY, file);

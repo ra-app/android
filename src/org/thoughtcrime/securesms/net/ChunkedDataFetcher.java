@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package org.bittube.messenger.net;
 
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
@@ -6,9 +6,9 @@ import android.text.TextUtils;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.util.ContentLengthInputStream;
 
-import org.thoughtcrime.securesms.logging.Log;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SignalExecutors;
+import org.bittube.messenger.logging.Log;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
 

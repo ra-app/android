@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.bittube.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -51,24 +51,24 @@ import android.widget.Toast;
 
 import com.codewaves.stickyheadergrid.StickyHeaderGridLayoutManager;
 
-import org.thoughtcrime.securesms.database.Address;
-import org.thoughtcrime.securesms.database.CursorRecyclerViewAdapter;
-import org.thoughtcrime.securesms.database.MediaDatabase;
-import org.thoughtcrime.securesms.database.loaders.BucketedThreadMediaLoader;
-import org.thoughtcrime.securesms.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
-import org.thoughtcrime.securesms.database.loaders.ThreadMediaLoader;
-import org.thoughtcrime.securesms.mms.GlideApp;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.AttachmentUtil;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.SaveAttachmentTask;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.bittube.messenger.database.Address;
+import org.bittube.messenger.database.CursorRecyclerViewAdapter;
+import org.bittube.messenger.database.MediaDatabase;
+import org.bittube.messenger.database.loaders.BucketedThreadMediaLoader;
+import org.bittube.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
+import org.bittube.messenger.database.loaders.ThreadMediaLoader;
+import org.bittube.messenger.mms.GlideApp;
+import org.bittube.messenger.permissions.Permissions;
+import org.bittube.messenger.recipients.Recipient;
+import org.bittube.messenger.util.AttachmentUtil;
+import org.bittube.messenger.util.DynamicLanguage;
+import org.bittube.messenger.util.DynamicNoActionBarTheme;
+import org.bittube.messenger.util.DynamicTheme;
+import org.bittube.messenger.util.SaveAttachmentTask;
+import org.bittube.messenger.util.StickyHeaderDecoration;
+import org.bittube.messenger.util.Util;
+import org.bittube.messenger.util.ViewUtil;
+import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collection;
 import java.util.LinkedList;

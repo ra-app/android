@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.bittube.messenger.stickers;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.GlideRequests;
+import org.bittube.messenger.R;
+import org.bittube.messenger.database.model.StickerRecord;
+import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.bittube.messenger.mms.GlideRequests;
 
 
 /**
