@@ -27,10 +27,10 @@ class PermissonRequestActivity : AppCompatActivity() {
 
                 imageView {
                     setImageResource(R.drawable.icon_transparent)
-                }.lparams(width = dip(200), height = dip(200))
+                }.lparams(width = dip(100), height = dip(100))
 
 
-                textView("RA-App benötigt einen Zugriff zu Ihren Kontakten, Kamera und Fotos, um zu kommunizieren, Benachrichtigung zu erhalten und sichere Anrufe zu tätigen."){
+                textView("OfficeApp benötigt einen Zugriff zu Ihren Kontakten, Kamera und Fotos, um zu kommunizieren, Benachrichtigung zu erhalten und sichere Anrufe zu tätigen."){
                     textSize = 20f
                 }.lparams{bottomMargin = dip(30)}
 
