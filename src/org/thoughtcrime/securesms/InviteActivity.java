@@ -56,8 +56,12 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     getIntent().putExtra(ContactSelectionListFragment.REFRESHABLE, false);
 
     setContentView(R.layout.invite_activity);
+
     assert getSupportActionBar() != null;
-    getSupportActionBar().setTitle(R.string.AndroidManifest__invite_friends);
+    // FIXME: Something doesn't seem right here.
+    if (getSupportActionBar() != null) {
+      getSupportActionBar().setTitle(R.string.AndroidManifest__invite_friends);
+    }
 
     initializeResources();
   }
