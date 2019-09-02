@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
 import android.telephony.TelephonyManager;
 
-import org.bittube.messenger.jobmanager.ConstraintObserver;
+import org.raapp.messenger.jobmanager.ConstraintObserver;
 
 public class CellServiceConstraintObserver implements ConstraintObserver {
 

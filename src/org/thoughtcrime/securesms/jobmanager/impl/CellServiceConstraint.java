@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Constraint;
-import org.bittube.messenger.sms.TelephonyServiceState;
+import org.raapp.messenger.jobmanager.Constraint;
+import org.raapp.messenger.sms.TelephonyServiceState;
 
 public class CellServiceConstraint implements Constraint {
 

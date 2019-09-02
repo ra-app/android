@@ -10,7 +10,7 @@
     android:visibility="gone"
     tools:visibility="visible">
 
-    <org.bittube.messenger.components.emoji.EmojiTextView
+    <org.raapp.messenger.components.emoji.EmojiTextView
         android:id="@+id/longmessage_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         app:scaleEmojis="true"
         tools:text="With great power comes great responsibility."/>
 
-    <org.bittube.messenger.components.ConversationItemFooter
+    <org.raapp.messenger.components.ConversationItemFooter
         android:id="@+id/longmessage_footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

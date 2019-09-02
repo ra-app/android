@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -6,12 +6,12 @@ import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.AvatarImageView;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.AvatarImageView;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.Util;
 
 public class BlockedContactListItem extends RelativeLayout implements RecipientModifiedListener {
 

@@ -1,8 +1,8 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.bittube.messenger.BaseUnitTest;
+import org.raapp.messenger.BaseUnitTest;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

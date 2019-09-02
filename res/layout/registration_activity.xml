@@ -142,7 +142,7 @@
                 android:layoutDirection="ltr"
                 android:orientation="horizontal">
 
-                <org.bittube.messenger.components.LabeledEditText
+                <org.raapp.messenger.components.LabeledEditText
                     android:id="@+id/country_code"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
                     app:labeledEditText_background="@color/white"
                     app:labeledEditText_textLayout="@layout/country_code_text" />
 
-                <org.bittube.messenger.components.LabeledEditText
+                <org.raapp.messenger.components.LabeledEditText
                     android:id="@+id/number"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -195,7 +195,7 @@
             android:visibility="invisible"
             tools:visibility="visible">
 
-            <org.bittube.messenger.components.registration.VerificationCodeView
+            <org.raapp.messenger.components.registration.VerificationCodeView
                 android:id="@+id/code"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -212,7 +212,7 @@
                 app:vcv_spacing="10dp"
                 app:vcv_textColor="@color/core_black" />
 
-            <org.bittube.messenger.components.registration.CallMeCountDownView
+            <org.raapp.messenger.components.registration.CallMeCountDownView
                 android:id="@+id/call_me_count_down"
                 style="@style/Button.Borderless.Registration"
                 android:layout_width="wrap_content"
@@ -232,7 +232,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/code"
                 app:layout_constraintTop_toBottomOf="@+id/code" />
 
-            <org.bittube.messenger.components.registration.VerificationPinKeyboard
+            <org.raapp.messenger.components.registration.VerificationPinKeyboard
                 android:id="@+id/keyboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

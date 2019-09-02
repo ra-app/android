@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -17,13 +17,13 @@ import android.view.View;
 import com.melnykov.fab.FloatingActionButton;
 import com.nineoldandroids.animation.ArgbEvaluator;
 
-import org.bittube.messenger.IntroPagerAdapter.IntroPage;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.IntroPagerAdapter.IntroPage;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;
@@ -31,7 +31,7 @@ import java.util.List;
 
 public class ExperienceUpgradeActivity extends BaseActionBarActivity implements TypingIndicatorIntroFragment.Controller, LinkPreviewsIntroFragment.Controller {
   private static final String TAG             = ExperienceUpgradeActivity.class.getSimpleName();
-  private static final String DISMISS_ACTION  = "org.bittube.messenger.ExperienceUpgradeActivity.DISMISS_ACTION";
+  private static final String DISMISS_ACTION  = "org.raapp.messenger.ExperienceUpgradeActivity.DISMISS_ACTION";
   private static final int    NOTIFICATION_ID = 1339;
 
   private enum ExperienceUpgrade {

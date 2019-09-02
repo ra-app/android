@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 public class TextSecureExpiredException extends Exception {
   public TextSecureExpiredException(String message) {

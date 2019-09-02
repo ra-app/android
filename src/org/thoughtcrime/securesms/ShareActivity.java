@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -36,25 +36,25 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
-import org.bittube.messenger.components.SearchToolbar;
-import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.bittube.messenger.conversation.ConversationActivity;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mediasend.Media;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.providers.BlobProvider;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.stickers.StickerLocator;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.FileUtils;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.components.SearchToolbar;
+import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mediasend.Media;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.providers.BlobProvider;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.stickers.StickerLocator;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.FileUtils;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.io.FileInputStream;
 import java.io.IOException;

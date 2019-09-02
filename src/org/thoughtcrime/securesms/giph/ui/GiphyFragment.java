@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -17,13 +17,13 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.giph.model.GiphyImage;
-import org.bittube.messenger.giph.net.GiphyLoader;
-import org.bittube.messenger.giph.util.InfiniteScrollListener;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.giph.model.GiphyImage;
+import org.raapp.messenger.giph.net.GiphyLoader;
+import org.raapp.messenger.giph.util.InfiniteScrollListener;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.LinkedList;
 import java.util.List;

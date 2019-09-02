@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.SuppressLint;
 import androidx.lifecycle.LiveData;
@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;

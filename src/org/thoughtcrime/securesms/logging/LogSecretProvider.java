@@ -1,12 +1,12 @@
-package org.bittube.messenger.logging;
+package org.raapp.messenger.logging;
 
 import android.content.Context;
 import android.os.Build;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.crypto.KeyStoreHelper;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.KeyStoreHelper;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.security.SecureRandom;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 
 import android.content.Context;
@@ -14,13 +14,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.database.MediaDatabase;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.database.MediaDatabase;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.ViewUtil;
 
 public class ThreadPhotoRailView extends FrameLayout {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.stickers.StickerKeyboardProvider;
-import org.bittube.messenger.util.ResUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.stickers.StickerKeyboardProvider;
+import org.raapp.messenger.util.ResUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class EmojiToggle extends AppCompatImageButton implements MediaKeyboard.MediaKeyboardListener {
 

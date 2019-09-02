@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;

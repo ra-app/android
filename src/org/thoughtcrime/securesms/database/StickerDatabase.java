@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -11,18 +11,18 @@ import android.util.Pair;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.database.model.IncomingSticker;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.stickers.BlessedPacks;
-import org.bittube.messenger.stickers.StickerPackInstallEvent;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.database.model.IncomingSticker;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.stickers.BlessedPacks;
+import org.raapp.messenger.stickers.StickerPackInstallEvent;
+import org.raapp.messenger.util.Util;
 
 import java.io.Closeable;
 import java.io.File;

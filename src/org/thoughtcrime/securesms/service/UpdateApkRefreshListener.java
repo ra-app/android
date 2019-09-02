@@ -1,14 +1,14 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 
 import android.content.Context;
 import android.content.Intent;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.jobs.UpdateApkJob;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.jobs.UpdateApkJob;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,8 +9,8 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.dependencies.InjectableType;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.dependencies.InjectableType;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 
 import java.io.InputStream;

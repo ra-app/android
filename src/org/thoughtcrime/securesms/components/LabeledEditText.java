@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class LabeledEditText extends FrameLayout implements View.OnFocusChangeListener {
 

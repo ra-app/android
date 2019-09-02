@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

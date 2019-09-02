@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,30 +27,30 @@ import androidx.preference.PreferenceManager;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.contacts.avatars.ContactColorsLegacy;
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.MmsDatabase.Reader;
-import org.bittube.messenger.database.PushDatabase;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.jobs.AttachmentDownloadJob;
-import org.bittube.messenger.jobs.CreateSignedPreKeyJob;
-import org.bittube.messenger.jobs.DirectoryRefreshJob;
-import org.bittube.messenger.jobs.PushDecryptJob;
-import org.bittube.messenger.jobs.RefreshAttributesJob;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.FileUtils;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.VersionTracker;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.contacts.avatars.ContactColorsLegacy;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.MmsDatabase.Reader;
+import org.raapp.messenger.database.PushDatabase;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.jobs.AttachmentDownloadJob;
+import org.raapp.messenger.jobs.CreateSignedPreKeyJob;
+import org.raapp.messenger.jobs.DirectoryRefreshJob;
+import org.raapp.messenger.jobs.PushDecryptJob;
+import org.raapp.messenger.jobs.RefreshAttributesJob;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.FileUtils;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.VersionTracker;
 
 import java.io.File;
 import java.io.IOException;

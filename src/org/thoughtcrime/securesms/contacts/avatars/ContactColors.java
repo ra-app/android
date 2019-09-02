@@ -1,8 +1,8 @@
-package org.bittube.messenger.contacts.avatars;
+package org.raapp.messenger.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.color.MaterialColor;
+import org.raapp.messenger.color.MaterialColor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

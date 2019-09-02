@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class TypingIndicatorView extends LinearLayout {
 

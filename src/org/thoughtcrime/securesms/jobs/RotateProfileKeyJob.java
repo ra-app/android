@@ -1,17 +1,17 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.crypto.ProfileKeyUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.crypto.ProfileKeyUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 import org.whispersystems.signalservice.api.util.StreamDetails;

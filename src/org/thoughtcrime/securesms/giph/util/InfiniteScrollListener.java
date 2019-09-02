@@ -1,6 +1,6 @@
 // From https://gist.github.com/mipreamble/b6d4b3d65b0b4775a22e#file-recyclerviewpositionhelper-java
 
-package org.bittube.messenger.giph.util;
+package org.raapp.messenger.giph.util;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;

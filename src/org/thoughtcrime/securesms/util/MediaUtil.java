@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -15,20 +15,20 @@ import android.webkit.MimeTypeMap;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.gif.GifDrawable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.AudioSlide;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.mms.DocumentSlide;
-import org.bittube.messenger.mms.GifSlide;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.ImageSlide;
-import org.bittube.messenger.mms.MmsSlide;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.mms.StickerSlide;
-import org.bittube.messenger.mms.TextSlide;
-import org.bittube.messenger.mms.VideoSlide;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.AudioSlide;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.mms.DocumentSlide;
+import org.raapp.messenger.mms.GifSlide;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.ImageSlide;
+import org.raapp.messenger.mms.MmsSlide;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.mms.StickerSlide;
+import org.raapp.messenger.mms.TextSlide;
+import org.raapp.messenger.mms.VideoSlide;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

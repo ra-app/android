@@ -1,23 +1,23 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsMessage;
 
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.jobs.SmsSentJob;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.jobs.SmsSentJob;
 
 public class SmsDeliveryListener extends BroadcastReceiver {
 
   private static final String TAG = SmsDeliveryListener.class.getSimpleName();
 
-  public static final String SENT_SMS_ACTION      = "org.bittube.messenger.SendReceiveService.SENT_SMS_ACTION";
-  public static final String DELIVERED_SMS_ACTION = "org.bittube.messenger.SendReceiveService.DELIVERED_SMS_ACTION";
+  public static final String SENT_SMS_ACTION      = "org.raapp.messenger.SendReceiveService.SENT_SMS_ACTION";
+  public static final String DELIVERED_SMS_ACTION = "org.raapp.messenger.SendReceiveService.DELIVERED_SMS_ACTION";
 
   @Override
   public void onReceive(Context context, Intent intent) {

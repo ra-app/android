@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.net;
+package org.raapp.messenger.giph.net;
 
 
 import android.content.Context;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.model;
+package org.raapp.messenger.imageeditor.model;
 
 import android.animation.ValueAnimator;
 import androidx.annotation.Nullable;

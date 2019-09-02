@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -13,10 +13,10 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import org.bittube.messenger.ConversationListActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.notifications.NotificationChannels;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;

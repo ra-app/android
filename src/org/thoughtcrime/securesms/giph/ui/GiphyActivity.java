@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 
 import android.annotation.SuppressLint;
@@ -14,18 +14,18 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.providers.BlobProvider;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.providers.BlobProvider;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;

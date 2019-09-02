@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

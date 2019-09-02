@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import androidx.appcompat.app.AlertDialog;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

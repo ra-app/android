@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts.avatars;
+package org.raapp.messenger.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,8 +12,8 @@ import android.widget.ImageView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.makeramen.roundedimageview.RoundedDrawable;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ThemeUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ThemeUtil;
 
 public class ResourceContactPhoto implements FallbackContactPhoto {
 

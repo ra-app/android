@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.database.ContentObserver;
 import android.database.Cursor;

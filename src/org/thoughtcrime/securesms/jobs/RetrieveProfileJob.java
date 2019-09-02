@@ -1,26 +1,26 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.IncomingMessageObserver;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.IdentityUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.crypto.UnidentifiedAccessUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.IncomingMessageObserver;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.IdentityUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.util.guava.Optional;

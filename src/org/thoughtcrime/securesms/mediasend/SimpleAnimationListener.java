@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.view.animation.Animation;
 

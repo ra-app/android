@@ -1,4 +1,4 @@
-package org.bittube.messenger.lock;
+package org.raapp.messenger.lock;
 
 
 import android.annotation.SuppressLint;
@@ -17,7 +17,7 @@ import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.StyleSpan;
 import android.util.DisplayMetrics;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.Display;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,10 +28,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.SwitchPreferenceCompat;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.SwitchPreferenceCompat;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 

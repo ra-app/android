@@ -1,10 +1,10 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.JsonUtils;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.JsonUtils;
 
 import java.io.IOException;
 

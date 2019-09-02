@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.model;
+package org.raapp.messenger.imageeditor.model;
 
 import android.animation.ValueAnimator;
 import android.graphics.Matrix;
@@ -8,7 +8,7 @@ import android.view.animation.CycleInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import org.bittube.messenger.imageeditor.CanvasMatrix;
+import org.raapp.messenger.imageeditor.CanvasMatrix;
 
 /**
  * Animation Matrix provides a matrix that animates over time down to the identity matrix.

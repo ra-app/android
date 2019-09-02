@@ -1,4 +1,4 @@
-package org.bittube.messenger.longmessage;
+package org.raapp.messenger.longmessage;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -21,20 +21,20 @@ import android.widget.Toast;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.components.ConversationItemFooter;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.linkpreview.LinkPreviewUtil;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ThemeUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.views.Stub;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.components.ConversationItemFooter;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.linkpreview.LinkPreviewUtil;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ThemeUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.views.Stub;
 
 public class LongMessageActivity extends PassphraseRequiredActionBarActivity implements RecipientModifiedListener {
 

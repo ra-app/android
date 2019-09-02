@@ -1,7 +1,7 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.LRUCache;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.LRUCache;
 
 import java.util.HashMap;
 import java.util.Map;

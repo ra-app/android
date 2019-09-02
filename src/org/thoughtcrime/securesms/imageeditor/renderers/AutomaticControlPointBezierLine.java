@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.renderers;
+package org.raapp.messenger.imageeditor.renderers;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

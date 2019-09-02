@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.model;
+package org.raapp.messenger.imageeditor.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

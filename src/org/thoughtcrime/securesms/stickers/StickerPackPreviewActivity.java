@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
@@ -17,19 +17,19 @@ import android.widget.Toast;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.ShareActivity;
-import org.bittube.messenger.jobs.StickerPackDownloadJob;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.stickers.StickerManifest.Sticker;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.ThemeUtil;
-import org.bittube.messenger.util.concurrent.SimpleTask;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.ShareActivity;
+import org.raapp.messenger.jobs.StickerPackDownloadJob;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.stickers.StickerManifest.Sticker;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.ThemeUtil;
+import org.raapp.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
 

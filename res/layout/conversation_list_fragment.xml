@@ -50,7 +50,7 @@
                   android:orientation="vertical"
                   tools:visibility="gone">
 
-        <org.bittube.messenger.components.reminder.ReminderView
+        <org.raapp.messenger.components.reminder.ReminderView
                 android:id="@+id/reminder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -67,7 +67,7 @@
     </LinearLayout>
 
 
-    <org.bittube.messenger.components.registration.PulsingFloatingActionButton
+    <org.raapp.messenger.components.registration.PulsingFloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

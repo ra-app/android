@@ -1,4 +1,4 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,22 +20,22 @@ import com.bumptech.glide.load.resource.gif.GifDrawable;
 import com.bumptech.glide.load.resource.gif.StreamGifDecoder;
 import com.bumptech.glide.module.AppGlideModule;
 
-import org.bittube.messenger.contacts.avatars.ContactPhoto;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.AttachmentSecretProvider;
-import org.bittube.messenger.giph.model.ChunkedImageUrl;
-import org.bittube.messenger.glide.ChunkedImageUrlLoader;
-import org.bittube.messenger.glide.ContactPhotoLoader;
-import org.bittube.messenger.glide.OkHttpUrlLoader;
-import org.bittube.messenger.glide.cache.EncryptedBitmapCacheDecoder;
-import org.bittube.messenger.glide.cache.EncryptedBitmapResourceEncoder;
-import org.bittube.messenger.glide.cache.EncryptedCacheEncoder;
-import org.bittube.messenger.glide.cache.EncryptedGifCacheDecoder;
-import org.bittube.messenger.glide.cache.EncryptedGifDrawableResourceEncoder;
-import org.bittube.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.stickers.StickerRemoteUri;
-import org.bittube.messenger.stickers.StickerRemoteUriLoader;
+import org.raapp.messenger.contacts.avatars.ContactPhoto;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.AttachmentSecretProvider;
+import org.raapp.messenger.giph.model.ChunkedImageUrl;
+import org.raapp.messenger.glide.ChunkedImageUrlLoader;
+import org.raapp.messenger.glide.ContactPhotoLoader;
+import org.raapp.messenger.glide.OkHttpUrlLoader;
+import org.raapp.messenger.glide.cache.EncryptedBitmapCacheDecoder;
+import org.raapp.messenger.glide.cache.EncryptedBitmapResourceEncoder;
+import org.raapp.messenger.glide.cache.EncryptedCacheEncoder;
+import org.raapp.messenger.glide.cache.EncryptedGifCacheDecoder;
+import org.raapp.messenger.glide.cache.EncryptedGifDrawableResourceEncoder;
+import org.raapp.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.stickers.StickerRemoteUri;
+import org.raapp.messenger.stickers.StickerRemoteUriLoader;
 
 import java.io.File;
 import java.io.InputStream;

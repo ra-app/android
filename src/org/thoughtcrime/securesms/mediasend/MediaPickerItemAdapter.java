@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,10 +11,10 @@ import android.widget.TextView;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.StableIdGenerator;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.Collection;

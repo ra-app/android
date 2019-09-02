@@ -1,9 +1,9 @@
-package org.bittube.messenger.imageeditor.renderers;
+package org.raapp.messenger.imageeditor.renderers;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.RendererContext;
 
 import java.lang.ref.WeakReference;
 

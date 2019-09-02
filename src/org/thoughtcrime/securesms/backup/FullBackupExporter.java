@@ -1,4 +1,4 @@
-package org.bittube.messenger.backup;
+package org.raapp.messenger.backup;
 
 
 import android.content.Context;
@@ -14,25 +14,25 @@ import com.google.protobuf.ByteString;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.ClassicDecryptingPartInputStream;
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.GroupReceiptDatabase;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.MmsSmsColumns;
-import org.bittube.messenger.database.OneTimePreKeyDatabase;
-import org.bittube.messenger.database.SearchDatabase;
-import org.bittube.messenger.database.SessionDatabase;
-import org.bittube.messenger.database.SignedPreKeyDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.util.Conversions;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.ClassicDecryptingPartInputStream;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.GroupReceiptDatabase;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.MmsSmsColumns;
+import org.raapp.messenger.database.OneTimePreKeyDatabase;
+import org.raapp.messenger.database.SearchDatabase;
+import org.raapp.messenger.database.SessionDatabase;
+import org.raapp.messenger.database.SignedPreKeyDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.kdf.HKDFv3;
 import org.whispersystems.libsignal.util.ByteUtil;
 

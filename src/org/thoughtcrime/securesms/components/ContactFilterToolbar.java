@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -13,9 +13,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.ViewUtil;
 
 public class ContactFilterToolbar extends Toolbar {
   private   OnFilterChangedListener listener;

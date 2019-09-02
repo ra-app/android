@@ -1,13 +1,13 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.logging.Log;
 
 /**
  * Represents the information required to find the {@link MessageRecord} pointed to by a quote.

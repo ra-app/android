@@ -1,4 +1,4 @@
-package org.bittube.messenger.linkpreview;
+package org.raapp.messenger.linkpreview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import android.text.util.Linkify;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.stickers.StickerUrl;
+import org.raapp.messenger.stickers.StickerUrl;
 
 import java.util.Collections;
 import java.util.List;

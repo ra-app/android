@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;
@@ -30,8 +30,8 @@ import androidx.annotation.Nullable;
 import androidx.loader.app.LoaderManager.LoaderCallbacks;
 import androidx.loader.content.Loader;
 
-import org.bittube.messenger.conversation.ConversationItem;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.conversation.ConversationItem;
+import org.raapp.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,27 +39,27 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.bittube.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupReceiptDatabase;
-import org.bittube.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.MmsSmsDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.loaders.MessageDetailsLoader;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.sms.MessageSender;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.ExpirationUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupReceiptDatabase;
+import org.raapp.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.MmsSmsDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.loaders.MessageDetailsLoader;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.sms.MessageSender;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.ExpirationUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.lang.ref.WeakReference;

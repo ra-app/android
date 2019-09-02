@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,9 +35,9 @@ import android.view.ViewTreeObserver;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 
 public class RecyclerViewFastScroller extends LinearLayout {
   private static final int BUBBLE_ANIMATION_DURATION = 100;

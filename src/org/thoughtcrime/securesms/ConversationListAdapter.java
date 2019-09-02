@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -25,12 +25,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.Conversions;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.Conversions;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager.persistence;
+package org.raapp.messenger.jobmanager.persistence;
 
 import androidx.annotation.NonNull;
 

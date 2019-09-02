@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.app.Notification;
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.core.app.NotificationCompat;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 public abstract class AbstractNotificationBuilder extends NotificationCompat.Builder {
 

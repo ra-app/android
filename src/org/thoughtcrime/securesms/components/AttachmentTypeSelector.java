@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -26,9 +26,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.util.ViewUtil;
 
 public class AttachmentTypeSelector extends PopupWindow {
 

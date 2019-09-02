@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.app.DownloadManager;
@@ -11,19 +11,19 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.service.UpdateApkReadyListener;
-import org.bittube.messenger.util.FileUtils;
-import org.bittube.messenger.util.Hex;
-import org.bittube.messenger.util.JsonUtils;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.service.UpdateApkReadyListener;
+import org.raapp.messenger.util.FileUtils;
+import org.raapp.messenger.util.Hex;
+import org.raapp.messenger.util.JsonUtils;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.FileInputStream;
 import java.io.IOException;

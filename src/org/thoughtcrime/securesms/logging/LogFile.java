@@ -1,9 +1,9 @@
-package org.bittube.messenger.logging;
+package org.raapp.messenger.logging;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.util.Conversions;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.util.Util;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

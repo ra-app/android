@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -8,30 +8,30 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.NoSuchMessageException;
-import org.bittube.messenger.database.documents.IdentityKeyMismatch;
-import org.bittube.messenger.database.documents.NetworkFailure;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
-import org.bittube.messenger.mms.OutgoingMediaMessage;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.transport.RetryLaterException;
-import org.bittube.messenger.transport.UndeliverableMessageException;
-import org.bittube.messenger.util.GroupUtil;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.crypto.UnidentifiedAccessUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupReceiptDatabase.GroupReceiptInfo;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.NoSuchMessageException;
+import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.raapp.messenger.database.documents.NetworkFailure;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
+import org.raapp.messenger.mms.OutgoingMediaMessage;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.transport.RetryLaterException;
+import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccessPair;
@@ -287,7 +287,7 @@ public class PushGroupSendJob extends PushSendJob implements InjectableType {
 
   public static class Factory implements Job.Factory<PushGroupSendJob> {
     @Override
-    public @NonNull PushGroupSendJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
+    public @NonNull PushGroupSendJob create(@NonNull Parameters parameters, @NonNull org.raapp.messenger.jobmanager.Data data) {
       String  address = data.getString(KEY_FILTER_ADDRESS);
       Address filter  = address != null ? Address.fromSerialized(data.getString(KEY_FILTER_ADDRESS)) : null;
 

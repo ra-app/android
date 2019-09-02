@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.renderers;
+package org.raapp.messenger.imageeditor.renderers;
 
 import android.animation.ValueAnimator;
 import android.graphics.Matrix;
@@ -13,9 +13,9 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.imageeditor.Bounds;
-import org.bittube.messenger.imageeditor.ColorableRenderer;
-import org.bittube.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.imageeditor.Bounds;
+import org.raapp.messenger.imageeditor.ColorableRenderer;
+import org.raapp.messenger.imageeditor.RendererContext;
 
 import java.util.ArrayList;
 import java.util.List;

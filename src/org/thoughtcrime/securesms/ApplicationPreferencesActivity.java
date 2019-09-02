@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -34,18 +34,18 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.preference.Preference;
 
-import org.bittube.messenger.preferences.AdvancedPreferenceFragment;
-import org.bittube.messenger.preferences.AppProtectionPreferenceFragment;
-import org.bittube.messenger.preferences.AppearancePreferenceFragment;
-import org.bittube.messenger.preferences.ChatsPreferenceFragment;
-import org.bittube.messenger.preferences.CorrectedPreferenceFragment;
-import org.bittube.messenger.preferences.NotificationsPreferenceFragment;
-import org.bittube.messenger.preferences.SmsMmsPreferenceFragment;
-import org.bittube.messenger.preferences.widgets.ProfilePreference;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.preferences.AdvancedPreferenceFragment;
+import org.raapp.messenger.preferences.AppProtectionPreferenceFragment;
+import org.raapp.messenger.preferences.AppearancePreferenceFragment;
+import org.raapp.messenger.preferences.ChatsPreferenceFragment;
+import org.raapp.messenger.preferences.CorrectedPreferenceFragment;
+import org.raapp.messenger.preferences.NotificationsPreferenceFragment;
+import org.raapp.messenger.preferences.SmsMmsPreferenceFragment;
+import org.raapp.messenger.preferences.widgets.ProfilePreference;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 /**
  * The Activity for application preference display and management.

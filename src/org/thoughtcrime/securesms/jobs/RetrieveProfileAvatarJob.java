@@ -1,21 +1,21 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;

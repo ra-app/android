@@ -1,4 +1,4 @@
-package org.bittube.messenger.groups;
+package org.raapp.messenger.groups;
 
 
 import android.content.Context;
@@ -7,24 +7,24 @@ import androidx.annotation.Nullable;
 
 import com.google.protobuf.ByteString;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.MessagingDatabase.InsertResult;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.jobs.AvatarDownloadJob;
-import org.bittube.messenger.jobs.PushGroupUpdateJob;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.IncomingGroupMessage;
-import org.bittube.messenger.sms.IncomingTextMessage;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.GroupUtil;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.MessagingDatabase.InsertResult;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.jobs.AvatarDownloadJob;
+import org.raapp.messenger.jobs.PushGroupUpdateJob;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.IncomingGroupMessage;
+import org.raapp.messenger.sms.IncomingTextMessage;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.GroupUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
 import org.whispersystems.signalservice.api.messages.SignalServiceContent;
@@ -38,7 +38,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import static org.bittube.messenger.database.GroupDatabase.GroupRecord;
+import static org.raapp.messenger.database.GroupDatabase.GroupRecord;
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.AttachmentPointer;
 import static org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 

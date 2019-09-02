@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -9,11 +9,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.MenuItem;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.ShareActivity;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.DynamicTheme;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.ShareActivity;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.DynamicTheme;
 
 /**
  * Allows the user to view and manage (install, uninstall, etc) their stickers.

@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
 import android.app.Service;
 import android.content.Intent;

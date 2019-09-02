@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.recipients;
+package org.raapp.messenger.recipients;
 
 import android.content.Context;
 import android.net.Uri;
@@ -22,19 +22,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.color.MaterialColor;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase.GroupRecord;
-import org.bittube.messenger.database.RecipientDatabase.RecipientSettings;
-import org.bittube.messenger.database.RecipientDatabase.RegisteredState;
-import org.bittube.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
-import org.bittube.messenger.database.RecipientDatabase.VibrateState;
-import org.bittube.messenger.util.ListenableFutureTask;
-import org.bittube.messenger.util.SoftHashMap;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.color.MaterialColor;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase.GroupRecord;
+import org.raapp.messenger.database.RecipientDatabase.RecipientSettings;
+import org.raapp.messenger.database.RecipientDatabase.RegisteredState;
+import org.raapp.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
+import org.raapp.messenger.database.RecipientDatabase.VibrateState;
+import org.raapp.messenger.util.ListenableFutureTask;
+import org.raapp.messenger.util.SoftHashMap;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

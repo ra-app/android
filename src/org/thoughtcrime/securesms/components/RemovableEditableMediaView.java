@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class RemovableEditableMediaView extends FrameLayout {
 

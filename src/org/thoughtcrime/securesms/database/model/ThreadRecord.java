@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database.model;
+package org.raapp.messenger.database.model;
 
 import android.content.Context;
 import android.net.Uri;
@@ -26,11 +26,11 @@ import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.style.StyleSpan;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.MmsSmsColumns;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.ExpirationUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.MmsSmsColumns;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.ExpirationUtil;
 
 /**
  * The message record model which represents thread heading messages.
@@ -88,11 +88,11 @@ public class ThreadRecord extends DisplayRecord {
       String draftText = context.getString(R.string.ThreadRecord_draft);
       return emphasisAdded(draftText + " " + getBody(), 0, draftText.length());
     } else if (SmsDatabase.Types.isOutgoingCall(type)) {
-      return emphasisAdded(context.getString(org.bittube.messenger.R.string.ThreadRecord_called));
+      return emphasisAdded(context.getString(org.raapp.messenger.R.string.ThreadRecord_called));
     } else if (SmsDatabase.Types.isIncomingCall(type)) {
-      return emphasisAdded(context.getString(org.bittube.messenger.R.string.ThreadRecord_called_you));
+      return emphasisAdded(context.getString(org.raapp.messenger.R.string.ThreadRecord_called_you));
     } else if (SmsDatabase.Types.isMissedCall(type)) {
-      return emphasisAdded(context.getString(org.bittube.messenger.R.string.ThreadRecord_missed_call));
+      return emphasisAdded(context.getString(org.raapp.messenger.R.string.ThreadRecord_missed_call));
     } else if (SmsDatabase.Types.isJoinedType(type)) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_s_is_on_signal, getRecipient().toShortString()));
     } else if (SmsDatabase.Types.isExpirationTimerUpdate(type)) {

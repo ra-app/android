@@ -1,4 +1,4 @@
-package org.bittube.messenger.glide;
+package org.raapp.messenger.glide;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,7 +9,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.bittube.messenger.contacts.avatars.ContactPhoto;
+import org.raapp.messenger.contacts.avatars.ContactPhoto;
 
 import java.io.InputStream;
 

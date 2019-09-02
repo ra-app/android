@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,20 +14,20 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.widget.Toast;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 
-import org.bittube.messenger.ApplicationPreferencesActivity;
-import org.bittube.messenger.LogSubmitActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.RegistrationActivity;
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.contacts.ContactIdentityManager;
-import org.bittube.messenger.push.AccountManagerFactory;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.raapp.messenger.LogSubmitActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.RegistrationActivity;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.contacts.ContactIdentityManager;
+import org.raapp.messenger.push.AccountManagerFactory;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.AuthorizationFailedException;

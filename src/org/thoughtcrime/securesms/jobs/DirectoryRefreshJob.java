@@ -1,17 +1,17 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.DirectoryHelper;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.DirectoryHelper;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 
 import java.io.IOException;

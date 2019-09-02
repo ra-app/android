@@ -1,14 +1,14 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.database.StickerDatabase.StickerPackRecordReader;
-import org.bittube.messenger.database.StickerDatabase.StickerRecordReader;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.database.StickerDatabase.StickerPackRecordReader;
+import org.raapp.messenger.database.StickerDatabase.StickerRecordReader;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 
 import java.util.ArrayList;
 import java.util.List;

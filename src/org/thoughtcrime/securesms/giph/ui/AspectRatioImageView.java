@@ -15,7 +15,7 @@
  *
  */
 
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 import android.content.Context;
 import androidx.appcompat.widget.AppCompatImageView;

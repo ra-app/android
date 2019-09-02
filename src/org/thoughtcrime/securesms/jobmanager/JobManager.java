@@ -1,16 +1,16 @@
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
 import android.app.Application;
 import android.content.Intent;
 import android.os.Build;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.impl.DefaultExecutorFactory;
-import org.bittube.messenger.jobmanager.impl.JsonDataSerializer;
-import org.bittube.messenger.jobmanager.migration.WorkManagerMigrator;
-import org.bittube.messenger.jobmanager.persistence.JobStorage;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Debouncer;
+import org.raapp.messenger.jobmanager.impl.DefaultExecutorFactory;
+import org.raapp.messenger.jobmanager.impl.JsonDataSerializer;
+import org.raapp.messenger.jobmanager.migration.WorkManagerMigrator;
+import org.raapp.messenger.jobmanager.persistence.JobStorage;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Debouncer;
 
 import java.util.ArrayList;
 import java.util.Collections;

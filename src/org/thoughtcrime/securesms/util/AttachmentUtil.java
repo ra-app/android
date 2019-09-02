@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 
 import android.content.Context;
@@ -10,11 +10,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 import android.text.TextUtils;
 
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.logging.Log;
 
 import java.util.Collections;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -13,11 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.InputAwareLayout.InputView;
-import org.bittube.messenger.components.RepeatableImageKey;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.InputAwareLayout.InputView;
+import org.raapp.messenger.components.RepeatableImageKey;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
 
 import java.util.Arrays;
 

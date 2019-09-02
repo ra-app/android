@@ -1,4 +1,4 @@
-package org.bittube.messenger.conversation;
+package org.raapp.messenger.conversation;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -10,12 +10,12 @@ import android.os.Handler;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.database.CursorList;
-import org.bittube.messenger.database.DatabaseContentProviders;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.stickers.StickerSearchRepository;
-import org.bittube.messenger.util.CloseableLiveData;
-import org.bittube.messenger.util.Throttler;
+import org.raapp.messenger.database.CursorList;
+import org.raapp.messenger.database.DatabaseContentProviders;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.stickers.StickerSearchRepository;
+import org.raapp.messenger.util.CloseableLiveData;
+import org.raapp.messenger.util.Throttler;
 
 class ConversationStickerViewModel extends ViewModel {
 

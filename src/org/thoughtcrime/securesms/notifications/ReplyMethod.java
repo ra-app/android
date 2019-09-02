@@ -1,11 +1,11 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public enum ReplyMethod {
 

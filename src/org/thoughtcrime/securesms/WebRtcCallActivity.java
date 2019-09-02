@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.Manifest;
 import android.app.Activity;
@@ -28,7 +28,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -36,18 +36,18 @@ import android.view.WindowManager;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.bittube.messenger.components.webrtc.WebRtcAnswerDeclineButton;
-import org.bittube.messenger.components.webrtc.WebRtcCallControls;
-import org.bittube.messenger.components.webrtc.WebRtcCallScreen;
-import org.bittube.messenger.crypto.storage.TextSecureIdentityKeyStore;
-import org.bittube.messenger.events.WebRtcViewModel;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.WebRtcCallService;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.webrtc.CallNotificationBuilder;
+import org.raapp.messenger.components.webrtc.WebRtcAnswerDeclineButton;
+import org.raapp.messenger.components.webrtc.WebRtcCallControls;
+import org.raapp.messenger.components.webrtc.WebRtcCallScreen;
+import org.raapp.messenger.crypto.storage.TextSecureIdentityKeyStore;
+import org.raapp.messenger.events.WebRtcViewModel;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.WebRtcCallService;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.webrtc.CallNotificationBuilder;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 

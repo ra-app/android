@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.identity;
+package org.raapp.messenger.components.identity;
 
 
 import android.content.Context;
@@ -7,10 +7,10 @@ import android.os.AsyncTask;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.IdentityDatabase;
-import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.IdentityDatabase;
+import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
 
 import java.util.List;
 

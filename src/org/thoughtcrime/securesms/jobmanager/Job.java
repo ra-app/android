@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.util.LinkedList;
 import java.util.List;

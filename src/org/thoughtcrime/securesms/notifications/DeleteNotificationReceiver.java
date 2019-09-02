@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 
 import android.content.BroadcastReceiver;
@@ -6,11 +6,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 
-import org.bittube.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.DatabaseFactory;
 
 public class DeleteNotificationReceiver extends BroadcastReceiver {
 
-  public static String DELETE_NOTIFICATION_ACTION = "org.bittube.messenger.DELETE_NOTIFICATION";
+  public static String DELETE_NOTIFICATION_ACTION = "org.raapp.messenger.DELETE_NOTIFICATION";
 
   public static String EXTRA_IDS = "message_ids";
   public static String EXTRA_MMS = "is_mms";

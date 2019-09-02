@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.Manifest;
 
@@ -21,19 +21,19 @@ import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.TransportOption;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.providers.BlobProvider;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.scribbles.ImageEditorFragment;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.SimpleTask;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.TransportOption;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.providers.BlobProvider;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.scribbles.ImageEditorFragment;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

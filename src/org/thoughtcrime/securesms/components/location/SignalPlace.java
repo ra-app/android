@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.location;
+package org.raapp.messenger.components.location;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
@@ -10,9 +10,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.android.gms.maps.model.LatLng;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.maps.AddressData;
-import org.bittube.messenger.util.JsonUtils;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.maps.AddressData;
+import org.raapp.messenger.util.JsonUtils;
 
 import java.io.IOException;
 

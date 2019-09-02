@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -11,12 +11,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.UriAttachment;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.util.JsonUtils;
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.UriAttachment;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.util.JsonUtils;
+import org.raapp.messenger.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.Collections;

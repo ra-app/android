@@ -1,6 +1,6 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.util.Arrays;

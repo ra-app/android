@@ -1,4 +1,4 @@
-package org.bittube.messenger.conversation;
+package org.raapp.messenger.conversation;
 
 import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
@@ -6,15 +6,15 @@ import androidx.lifecycle.LiveData;
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.database.CursorList;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.search.SearchRepository;
-import org.bittube.messenger.search.model.MessageResult;
-import org.bittube.messenger.util.CloseableLiveData;
-import org.bittube.messenger.util.Debouncer;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.database.CursorList;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.search.SearchRepository;
+import org.raapp.messenger.search.model.MessageResult;
+import org.raapp.messenger.util.CloseableLiveData;
+import org.raapp.messenger.util.Debouncer;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 
 import java.io.Closeable;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.linkpreview.LinkPreview;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.ImageSlide;
-import org.bittube.messenger.mms.SlidesClickedListener;
-import org.bittube.messenger.util.ThemeUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.linkpreview.LinkPreview;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.ImageSlide;
+import org.raapp.messenger.mms.SlidesClickedListener;
+import org.raapp.messenger.util.ThemeUtil;
 
 import okhttp3.HttpUrl;
 

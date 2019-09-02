@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 
 import android.app.DownloadManager;
@@ -12,15 +12,15 @@ import android.net.Uri;
 
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.util.FileProviderUtil;
-import org.bittube.messenger.util.FileUtils;
-import org.bittube.messenger.util.Hex;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.util.FileProviderUtil;
+import org.raapp.messenger.util.FileUtils;
+import org.raapp.messenger.util.Hex;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,13 +1,13 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
 import android.webkit.MimeTypeMap;
 
 import com.android.mms.dom.smil.parser.SmilXmlSerializer;
@@ -24,26 +24,26 @@ import com.google.android.mms.pdu_alt.SendReq;
 import com.google.android.mms.smil.SmilHelper;
 import com.klinker.android.send_message.Utils;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.NoSuchMessageException;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.mms.CompatMmsConnection;
-import org.bittube.messenger.mms.MediaConstraints;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.mms.MmsSendResult;
-import org.bittube.messenger.mms.OutgoingMediaMessage;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.transport.InsecureFallbackApprovalException;
-import org.bittube.messenger.transport.UndeliverableMessageException;
-import org.bittube.messenger.util.Hex;
-import org.bittube.messenger.util.NumberUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.NoSuchMessageException;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.mms.CompatMmsConnection;
+import org.raapp.messenger.mms.MediaConstraints;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.mms.MmsSendResult;
+import org.raapp.messenger.mms.OutgoingMediaMessage;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.transport.InsecureFallbackApprovalException;
+import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.util.Hex;
+import org.raapp.messenger.util.NumberUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

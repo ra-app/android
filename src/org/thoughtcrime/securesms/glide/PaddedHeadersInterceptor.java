@@ -1,4 +1,4 @@
-package org.bittube.messenger.glide;
+package org.raapp.messenger.glide;
 
 import androidx.annotation.NonNull;
 

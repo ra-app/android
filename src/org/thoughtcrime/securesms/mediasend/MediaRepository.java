@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -16,10 +16,10 @@ import android.util.Pair;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.File;

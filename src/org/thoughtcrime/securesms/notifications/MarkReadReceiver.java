@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -11,16 +11,16 @@ import androidx.core.app.NotificationManagerCompat;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.ExpirationInfo;
-import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
-import org.bittube.messenger.jobs.MultiDeviceReadUpdateJob;
-import org.bittube.messenger.jobs.SendReadReceiptJob;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.service.ExpiringMessageManager;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.ExpirationInfo;
+import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
+import org.raapp.messenger.jobs.MultiDeviceReadUpdateJob;
+import org.raapp.messenger.jobs.SendReadReceiptJob;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.service.ExpiringMessageManager;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -29,7 +29,7 @@ import java.util.Map;
 public class MarkReadReceiver extends BroadcastReceiver {
 
   private static final String TAG                   = MarkReadReceiver.class.getSimpleName();
-  public static final  String CLEAR_ACTION          = "org.bittube.messenger.notifications.CLEAR";
+  public static final  String CLEAR_ACTION          = "org.raapp.messenger.notifications.CLEAR";
   public static final  String THREAD_IDS_EXTRA      = "thread_ids";
   public static final  String NOTIFICATION_ID_EXTRA = "notification_id";
 

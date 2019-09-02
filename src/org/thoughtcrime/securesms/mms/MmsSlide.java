@@ -1,10 +1,10 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.Attachment;
 
 public class MmsSlide extends ImageSlide {
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -27,18 +27,18 @@ import androidx.core.app.NotificationCompat;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
-import org.bittube.messenger.gcm.FcmUtil;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.gcm.FcmUtil;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.PlayServicesProblemActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.transport.RetryLaterException;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.PlayServicesProblemActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.transport.RetryLaterException;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,11 +7,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.mms.SlideClickListener;
-import org.bittube.messenger.mms.SlidesClickedListener;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.mms.SlideClickListener;
+import org.raapp.messenger.mms.SlidesClickedListener;
 
 public class StickerView extends FrameLayout {
 

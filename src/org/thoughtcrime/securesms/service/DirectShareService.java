@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 
 import android.content.ComponentName;
@@ -14,14 +14,14 @@ import android.service.chooser.ChooserTargetService;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.bittube.messenger.ShareActivity;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.BitmapUtil;
+import org.raapp.messenger.ShareActivity;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.BitmapUtil;
 
 import java.util.LinkedList;
 import java.util.List;

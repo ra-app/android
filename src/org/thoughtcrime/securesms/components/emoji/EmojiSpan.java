@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class EmojiSpan extends AnimatingImageSpan {
 

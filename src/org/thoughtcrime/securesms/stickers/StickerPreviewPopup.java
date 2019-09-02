@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.mms.GlideRequests;
 
 
 /**

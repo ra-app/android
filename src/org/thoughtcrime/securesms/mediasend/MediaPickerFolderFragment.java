@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -17,9 +17,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.recipients.Recipient;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 /**

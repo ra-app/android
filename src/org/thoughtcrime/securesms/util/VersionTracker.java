@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import androidx.annotation.NonNull;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 
 import android.content.Context;
@@ -8,12 +8,12 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.libsignal.metadata.certificate.CertificateValidator;
 import org.signal.libsignal.metadata.certificate.InvalidCertificateException;
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECPublicKey;

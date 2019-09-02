@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -38,34 +38,34 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.MediaPreviewActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.TransportOption;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.components.AudioView;
-import org.bittube.messenger.components.DocumentView;
-import org.bittube.messenger.components.RemovableEditableMediaView;
-import org.bittube.messenger.components.ThumbnailView;
-import org.bittube.messenger.components.location.SignalMapView;
-import org.bittube.messenger.components.location.SignalPlace;
-import org.bittube.messenger.giph.ui.GiphyActivity;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.maps.PlacePickerActivity;
-import org.bittube.messenger.mediasend.MediaSendActivity;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.providers.BlobProvider;
-import org.bittube.messenger.providers.DeprecatedPersistentBlobProvider;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.ThemeUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.AssertedSuccessListener;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.ListenableFuture.Listener;
-import org.bittube.messenger.util.concurrent.SettableFuture;
-import org.bittube.messenger.util.views.Stub;
+import org.raapp.messenger.MediaPreviewActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.TransportOption;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.components.AudioView;
+import org.raapp.messenger.components.DocumentView;
+import org.raapp.messenger.components.RemovableEditableMediaView;
+import org.raapp.messenger.components.ThumbnailView;
+import org.raapp.messenger.components.location.SignalMapView;
+import org.raapp.messenger.components.location.SignalPlace;
+import org.raapp.messenger.giph.ui.GiphyActivity;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.maps.PlacePickerActivity;
+import org.raapp.messenger.mediasend.MediaSendActivity;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.providers.BlobProvider;
+import org.raapp.messenger.providers.DeprecatedPersistentBlobProvider;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.ThemeUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.AssertedSuccessListener;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.ListenableFuture.Listener;
+import org.raapp.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.util.views.Stub;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

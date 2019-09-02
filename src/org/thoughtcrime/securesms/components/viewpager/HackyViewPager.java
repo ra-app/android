@@ -1,10 +1,10 @@
-package org.bittube.messenger.components.viewpager;
+package org.raapp.messenger.components.viewpager;
 
 
 import android.content.Context;
 import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.MotionEvent;
 
 /**

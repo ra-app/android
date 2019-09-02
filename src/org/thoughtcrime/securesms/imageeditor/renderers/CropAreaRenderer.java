@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.renderers;
+package org.raapp.messenger.imageeditor.renderers;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -10,10 +10,10 @@ import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 import androidx.core.content.res.ResourcesCompat;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.imageeditor.Bounds;
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.R;
+import org.raapp.messenger.imageeditor.Bounds;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.RendererContext;
 
 /**
  * Renders a box outside of the current crop area using {@link R.color#crop_area_renderer_outer_color}

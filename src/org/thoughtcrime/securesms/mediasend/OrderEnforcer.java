@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

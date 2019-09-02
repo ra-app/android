@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,9 +10,9 @@ import com.annimon.stream.Stream;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.JsonUtils;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

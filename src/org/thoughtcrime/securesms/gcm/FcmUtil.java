@@ -1,11 +1,11 @@
-package org.bittube.messenger.gcm;
+package org.raapp.messenger.gcm;
 
 import androidx.annotation.WorkerThread;
 import android.text.TextUtils;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.concurrent.CountDownLatch;

@@ -1,9 +1,9 @@
-package org.bittube.messenger.jobmanager.migration;
+package org.raapp.messenger.jobmanager.migration;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.logging.Log;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

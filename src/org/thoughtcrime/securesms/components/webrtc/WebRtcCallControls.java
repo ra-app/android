@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.webrtc;
+package org.raapp.messenger.components.webrtc;
 
 
 import android.annotation.TargetApi;
@@ -16,10 +16,10 @@ import android.widget.LinearLayout;
 import com.tomergoldst.tooltips.ToolTip;
 import com.tomergoldst.tooltips.ToolTipsManager;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.AccessibleToggleButton;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.AccessibleToggleButton;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.ViewUtil;
 
 public class WebRtcCallControls extends LinearLayout {
 

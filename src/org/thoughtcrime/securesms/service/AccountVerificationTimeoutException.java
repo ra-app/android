@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 public class AccountVerificationTimeoutException extends Exception {
   public AccountVerificationTimeoutException() {

@@ -1,11 +1,11 @@
-package org.bittube.messenger.database.model;
+package org.raapp.messenger.database.model;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.mms.SlideDeck;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.mms.SlideDeck;
 
 public class Quote {
 

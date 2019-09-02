@@ -1,10 +1,10 @@
-package org.bittube.messenger.recipients;
+package org.raapp.messenger.recipients;
 
 import android.content.Intent;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
 
-import org.bittube.messenger.database.Address;
+import org.raapp.messenger.database.Address;
 
 import static android.content.Intent.ACTION_INSERT_OR_EDIT;
 

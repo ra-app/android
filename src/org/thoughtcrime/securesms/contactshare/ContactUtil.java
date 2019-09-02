@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -17,17 +17,17 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiStrings;
-import org.bittube.messenger.contactshare.Contact.Email;
-import org.bittube.messenger.contactshare.Contact.Phone;
-import org.bittube.messenger.contactshare.Contact.PostalAddress;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.SpanUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiStrings;
+import org.raapp.messenger.contactshare.Contact.Email;
+import org.raapp.messenger.contactshare.Contact.Phone;
+import org.raapp.messenger.contactshare.Contact.PostalAddress;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.SpanUtil;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 import java.util.ArrayList;

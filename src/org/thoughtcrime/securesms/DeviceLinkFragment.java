@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.res.Configuration;
 import android.net.Uri;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.Context;
 import android.database.ContentObserver;
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 
 import android.content.Context;
@@ -8,8 +8,8 @@ import androidx.annotation.WorkerThread;
 
 import com.android.mms.service_alt.MmsConfig;
 
-import org.bittube.messenger.util.dualsim.SubscriptionInfoCompat;
-import org.bittube.messenger.util.dualsim.SubscriptionManagerCompat;
+import org.raapp.messenger.util.dualsim.SubscriptionInfoCompat;
+import org.raapp.messenger.util.dualsim.SubscriptionManagerCompat;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.HashMap;

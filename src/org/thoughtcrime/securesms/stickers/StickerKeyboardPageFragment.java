@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -17,14 +17,14 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.stickers.StickerKeyboardPageAdapter.StickerKeyboardPageViewHolder;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.stickers.StickerKeyboardPageAdapter.StickerKeyboardPageViewHolder;
+import org.raapp.messenger.util.ViewUtil;
 
 /**
  * An individual page of stickers in the {@link StickerKeyboardProvider}.

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -51,24 +51,24 @@ import android.widget.Toast;
 
 import com.codewaves.stickyheadergrid.StickyHeaderGridLayoutManager;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.database.MediaDatabase;
-import org.bittube.messenger.database.loaders.BucketedThreadMediaLoader;
-import org.bittube.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
-import org.bittube.messenger.database.loaders.ThreadMediaLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.AttachmentUtil;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.SaveAttachmentTask;
-import org.bittube.messenger.util.StickyHeaderDecoration;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.database.MediaDatabase;
+import org.raapp.messenger.database.loaders.BucketedThreadMediaLoader;
+import org.raapp.messenger.database.loaders.BucketedThreadMediaLoader.BucketedThreadMedia;
+import org.raapp.messenger.database.loaders.ThreadMediaLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.AttachmentUtil;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.SaveAttachmentTask;
+import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collection;
 import java.util.LinkedList;

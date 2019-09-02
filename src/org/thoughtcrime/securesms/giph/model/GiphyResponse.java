@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.model;
+package org.raapp.messenger.giph.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

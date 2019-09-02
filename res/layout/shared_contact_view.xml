@@ -29,7 +29,7 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <org.bittube.messenger.components.emoji.EmojiTextView
+                <org.raapp.messenger.components.emoji.EmojiTextView
                     android:id="@+id/contact_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
 
         </LinearLayout>
 
-        <org.bittube.messenger.components.ConversationItemFooter
+        <org.raapp.messenger.components.ConversationItemFooter
             android:id="@+id/contact_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

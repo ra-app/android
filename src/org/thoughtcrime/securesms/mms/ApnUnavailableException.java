@@ -1,4 +1,4 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 public class ApnUnavailableException extends Exception {
 

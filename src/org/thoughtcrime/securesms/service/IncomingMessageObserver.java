@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.app.Service;
 import androidx.lifecycle.DefaultLifecycleObserver;
@@ -12,18 +12,18 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import org.bittube.messenger.jobmanager.ConstraintObserver;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraintObserver;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.ConstraintObserver;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraintObserver;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.R;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobs.PushContentReceiveJob;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.push.SignalServiceNetworkAccess;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.R;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobs.PushContentReceiveJob;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.push.SignalServiceNetworkAccess;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidVersionException;
 import org.whispersystems.signalservice.api.SignalServiceMessagePipe;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,12 +7,12 @@ import android.text.TextUtils;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.database.documents.Document;
-import org.bittube.messenger.database.documents.IdentityKeyMismatch;
-import org.bittube.messenger.database.documents.IdentityKeyMismatchList;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.JsonUtils;
+import org.raapp.messenger.database.documents.Document;
+import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.raapp.messenger.database.documents.IdentityKeyMismatchList;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.JsonUtils;
 import org.whispersystems.libsignal.IdentityKey;
 
 import java.io.IOException;

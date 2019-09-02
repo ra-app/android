@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.graphics.PorterDuff.Mode;
@@ -10,7 +10,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.List;
 

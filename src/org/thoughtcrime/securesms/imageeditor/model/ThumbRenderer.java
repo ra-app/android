@@ -1,7 +1,7 @@
-package org.bittube.messenger.imageeditor.model;
+package org.raapp.messenger.imageeditor.model;
 
-import org.bittube.messenger.imageeditor.Bounds;
-import org.bittube.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.Bounds;
+import org.raapp.messenger.imageeditor.Renderer;
 
 import java.util.UUID;
 

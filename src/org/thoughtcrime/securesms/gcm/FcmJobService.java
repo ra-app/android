@@ -1,4 +1,4 @@
-package org.bittube.messenger.gcm;
+package org.raapp.messenger.gcm;
 
 import android.app.job.JobInfo;
 import android.app.job.JobParameters;
@@ -9,14 +9,14 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobs.PushNotificationReceiveJob;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobs.PushNotificationReceiveJob;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 
 import java.io.IOException;

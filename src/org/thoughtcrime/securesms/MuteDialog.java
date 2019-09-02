@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.content.DialogInterface;

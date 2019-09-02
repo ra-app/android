@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,20 +20,20 @@ import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.jobs.DirectoryRefreshJob;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.CommunicationActions;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.jobs.DirectoryRefreshJob;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.CommunicationActions;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.bittube.messenger.mms.DecryptableStreamUriLoader.*;
+import static org.raapp.messenger.mms.DecryptableStreamUriLoader.*;
 
 public class SharedContactDetailsActivity extends PassphraseRequiredActionBarActivity implements RecipientModifiedListener {
 

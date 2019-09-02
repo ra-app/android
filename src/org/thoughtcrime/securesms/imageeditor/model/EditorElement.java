@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.model;
+package org.raapp.messenger.imageeditor.model;
 
 import android.graphics.Matrix;
 import android.os.Parcel;
@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.RendererContext;
 
 import java.util.Iterator;
 import java.util.LinkedList;

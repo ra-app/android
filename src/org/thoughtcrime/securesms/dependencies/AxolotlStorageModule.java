@@ -1,9 +1,9 @@
-package org.bittube.messenger.dependencies;
+package org.raapp.messenger.dependencies;
 
 import android.content.Context;
 
-import org.bittube.messenger.crypto.storage.SignalProtocolStoreImpl;
-import org.bittube.messenger.jobs.CleanPreKeysJob;
+import org.raapp.messenger.crypto.storage.SignalProtocolStoreImpl;
+import org.raapp.messenger.jobs.CleanPreKeysJob;
 import org.whispersystems.libsignal.state.SignedPreKeyStore;
 
 import dagger.Module;

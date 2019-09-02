@@ -1,10 +1,10 @@
-package org.bittube.messenger.imageeditor;
+package org.raapp.messenger.imageeditor;
 
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.imageeditor.model.EditorElement;
+import org.raapp.messenger.imageeditor.model.EditorElement;
 
 final class ElementScaleEditSession extends ElementEditSession {
 

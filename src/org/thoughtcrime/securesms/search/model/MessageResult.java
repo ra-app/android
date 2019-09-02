@@ -1,8 +1,8 @@
-package org.bittube.messenger.search.model;
+package org.raapp.messenger.search.model;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.Recipient;
 
 /**
  * Represents a search result for a message.

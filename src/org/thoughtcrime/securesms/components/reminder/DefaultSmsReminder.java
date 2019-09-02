@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.provider.Telephony;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 public class DefaultSmsReminder extends Reminder {
 

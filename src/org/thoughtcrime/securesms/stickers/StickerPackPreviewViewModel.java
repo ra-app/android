@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -10,8 +10,8 @@ import android.os.Handler;
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
-import org.bittube.messenger.database.DatabaseContentProviders;
-import org.bittube.messenger.stickers.StickerPackPreviewRepository.StickerManifestResult;
+import org.raapp.messenger.database.DatabaseContentProviders;
+import org.raapp.messenger.stickers.StickerPackPreviewRepository.StickerManifestResult;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 final class StickerPackPreviewViewModel extends ViewModel {

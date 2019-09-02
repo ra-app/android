@@ -1,8 +1,8 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.util.LinkedList;
 import java.util.List;

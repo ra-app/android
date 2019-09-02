@@ -15,7 +15,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.logsubmit;
+package org.raapp.messenger.logsubmit;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -53,14 +53,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.R;
-import org.bittube.messenger.contactshare.SimpleTextWatcher;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.logsubmit.util.Scrubber;
-import org.bittube.messenger.util.BucketInfo;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contactshare.SimpleTextWatcher;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.logsubmit.util.Scrubber;
+import org.raapp.messenger.util.BucketInfo;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.io.BufferedReader;
 import java.io.IOException;

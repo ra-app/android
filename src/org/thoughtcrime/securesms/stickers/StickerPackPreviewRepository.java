@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,14 +8,14 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Stream;
 import com.google.android.gms.common.util.Hex;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

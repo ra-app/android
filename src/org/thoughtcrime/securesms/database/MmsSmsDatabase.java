@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -24,10 +24,10 @@ import androidx.annotation.Nullable;
 import net.sqlcipher.database.SQLiteDatabase;
 import net.sqlcipher.database.SQLiteQueryBuilder;
 
-import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

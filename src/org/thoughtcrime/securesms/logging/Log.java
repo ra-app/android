@@ -1,4 +1,4 @@
-package org.bittube.messenger.logging;
+package org.raapp.messenger.logging;
 
 import androidx.annotation.MainThread;
 

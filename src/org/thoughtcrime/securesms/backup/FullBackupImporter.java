@@ -1,4 +1,4 @@
-package org.bittube.messenger.backup;
+package org.raapp.messenger.backup;
 
 
 import android.annotation.SuppressLint;
@@ -12,22 +12,22 @@ import android.util.Pair;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.backup.BackupProtos.Attachment;
-import org.bittube.messenger.backup.BackupProtos.BackupFrame;
-import org.bittube.messenger.backup.BackupProtos.DatabaseVersion;
-import org.bittube.messenger.backup.BackupProtos.SharedPreference;
-import org.bittube.messenger.backup.BackupProtos.SqlStatement;
-import org.bittube.messenger.backup.BackupProtos.Sticker;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.SearchDatabase;
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.profiles.AvatarHelper;
-import org.bittube.messenger.util.Conversions;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.backup.BackupProtos.Attachment;
+import org.raapp.messenger.backup.BackupProtos.BackupFrame;
+import org.raapp.messenger.backup.BackupProtos.DatabaseVersion;
+import org.raapp.messenger.backup.BackupProtos.SharedPreference;
+import org.raapp.messenger.backup.BackupProtos.SqlStatement;
+import org.raapp.messenger.backup.BackupProtos.Sticker;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.SearchDatabase;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.profiles.AvatarHelper;
+import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.kdf.HKDFv3;
 import org.whispersystems.libsignal.util.ByteUtil;
 

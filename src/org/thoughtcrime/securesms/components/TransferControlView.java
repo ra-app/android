@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.animation.LayoutTransition;
 import android.content.Context;
@@ -16,12 +16,12 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.bittube.messenger.R;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.events.PartProgressEvent;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.events.PartProgressEvent;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.Collections;
 import java.util.HashMap;

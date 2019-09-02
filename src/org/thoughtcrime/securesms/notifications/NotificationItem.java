@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.TaskStackBuilder;
 
-import org.bittube.messenger.conversation.ConversationActivity;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.recipients.Recipient;
 
 public class NotificationItem {
 

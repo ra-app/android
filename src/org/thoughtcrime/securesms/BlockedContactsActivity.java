@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,14 +17,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.loaders.BlockedContactsLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.preferences.BlockedContactListItem;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.loaders.BlockedContactsLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.preferences.BlockedContactListItem;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
 
 public class BlockedContactsActivity extends PassphraseRequiredActionBarActivity {
 

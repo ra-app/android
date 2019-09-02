@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 
 import android.Manifest;
@@ -25,40 +25,40 @@ import android.util.Pair;
 import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.WebRtcCallActivity;
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.RecipientDatabase.VibrateState;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.events.WebRtcViewModel;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.FutureTaskListener;
-import org.bittube.messenger.util.ListenableFutureTask;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.TelephonyUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.webrtc.CallNotificationBuilder;
-import org.bittube.messenger.webrtc.CameraState;
-import org.bittube.messenger.webrtc.IncomingPstnCallReceiver;
-import org.bittube.messenger.webrtc.PeerConnectionFactoryOptions;
-import org.bittube.messenger.webrtc.PeerConnectionWrapper;
-import org.bittube.messenger.webrtc.PeerConnectionWrapper.PeerConnectionException;
-import org.bittube.messenger.webrtc.UncaughtExceptionHandlerManager;
-import org.bittube.messenger.webrtc.WebRtcDataProtos;
-import org.bittube.messenger.webrtc.WebRtcDataProtos.Connected;
-import org.bittube.messenger.webrtc.WebRtcDataProtos.Data;
-import org.bittube.messenger.webrtc.WebRtcDataProtos.Hangup;
-import org.bittube.messenger.webrtc.audio.BluetoothStateManager;
-import org.bittube.messenger.webrtc.audio.OutgoingRinger;
-import org.bittube.messenger.webrtc.audio.SignalAudioManager;
-import org.bittube.messenger.webrtc.locks.LockManager;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.WebRtcCallActivity;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.crypto.UnidentifiedAccessUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase.VibrateState;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.events.WebRtcViewModel;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.FutureTaskListener;
+import org.raapp.messenger.util.ListenableFutureTask;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.TelephonyUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.webrtc.CallNotificationBuilder;
+import org.raapp.messenger.webrtc.CameraState;
+import org.raapp.messenger.webrtc.IncomingPstnCallReceiver;
+import org.raapp.messenger.webrtc.PeerConnectionFactoryOptions;
+import org.raapp.messenger.webrtc.PeerConnectionWrapper;
+import org.raapp.messenger.webrtc.PeerConnectionWrapper.PeerConnectionException;
+import org.raapp.messenger.webrtc.UncaughtExceptionHandlerManager;
+import org.raapp.messenger.webrtc.WebRtcDataProtos;
+import org.raapp.messenger.webrtc.WebRtcDataProtos.Connected;
+import org.raapp.messenger.webrtc.WebRtcDataProtos.Data;
+import org.raapp.messenger.webrtc.WebRtcDataProtos.Hangup;
+import org.raapp.messenger.webrtc.audio.BluetoothStateManager;
+import org.raapp.messenger.webrtc.audio.OutgoingRinger;
+import org.raapp.messenger.webrtc.audio.SignalAudioManager;
+import org.raapp.messenger.webrtc.locks.LockManager;
 import org.webrtc.AudioTrack;
 import org.webrtc.DataChannel;
 import org.webrtc.DefaultVideoDecoderFactory;
@@ -104,10 +104,10 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
-import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
-import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
-import static org.bittube.messenger.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
+import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static org.raapp.messenger.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 public class WebRtcCallService extends Service implements InjectableType,
                                                           PeerConnection.Observer,

@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.dynamiclanguage;
+package org.raapp.messenger.util.dynamiclanguage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

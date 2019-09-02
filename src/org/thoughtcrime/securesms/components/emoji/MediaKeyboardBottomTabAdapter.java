@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.MediaKeyboardProvider.TabIconProvider;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.MediaKeyboardProvider.TabIconProvider;
+import org.raapp.messenger.mms.GlideRequests;
 
 public class MediaKeyboardBottomTabAdapter extends RecyclerView.Adapter<MediaKeyboardBottomTabAdapter.MediaKeyboardBottomTabViewHolder>  {
 

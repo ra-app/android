@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import androidx.annotation.NonNull;
 
@@ -7,7 +7,7 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 import com.google.i18n.phonenumbers.ShortNumberInfo;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.util.HashSet;
 import java.util.Set;

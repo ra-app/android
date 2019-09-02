@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 
 import android.annotation.SuppressLint;
@@ -14,11 +14,11 @@ import com.annimon.stream.Stream;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer;
 

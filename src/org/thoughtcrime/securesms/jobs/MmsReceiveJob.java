@@ -1,8 +1,8 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.logging.Log;
 
 import androidx.annotation.NonNull;
 import android.util.Pair;
@@ -12,13 +12,13 @@ import com.google.android.mms.pdu_alt.NotificationInd;
 import com.google.android.mms.pdu_alt.PduHeaders;
 import com.google.android.mms.pdu_alt.PduParser;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 

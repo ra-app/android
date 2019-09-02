@@ -1,12 +1,12 @@
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.loader.content.Loader;
 
-import org.bittube.messenger.giph.model.GiphyImage;
-import org.bittube.messenger.giph.net.GiphyGifLoader;
+import org.raapp.messenger.giph.model.GiphyImage;
+import org.raapp.messenger.giph.net.GiphyGifLoader;
 
 import java.util.List;
 

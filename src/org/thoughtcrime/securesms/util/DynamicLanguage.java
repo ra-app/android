@@ -1,16 +1,16 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
 import android.content.res.Configuration;
 
-import org.bittube.messenger.util.dynamiclanguage.LanguageString;
+import org.raapp.messenger.util.dynamiclanguage.LanguageString;
 
 import java.util.Locale;
 
 /**
- * @deprecated Use a base activity that uses the {@link org.bittube.messenger.util.dynamiclanguage.DynamicLanguageContextWrapper}
+ * @deprecated Use a base activity that uses the {@link org.raapp.messenger.util.dynamiclanguage.DynamicLanguageContextWrapper}
  */
 @Deprecated
 public class DynamicLanguage {

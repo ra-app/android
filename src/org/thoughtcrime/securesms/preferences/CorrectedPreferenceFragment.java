@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 
 import android.annotation.SuppressLint;
@@ -15,10 +15,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.CustomDefaultPreference;
-import org.bittube.messenger.preferences.widgets.ColorPickerPreference;
-import org.bittube.messenger.preferences.widgets.ColorPickerPreferenceDialogFragmentCompat;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.CustomDefaultPreference;
+import org.raapp.messenger.preferences.widgets.ColorPickerPreference;
+import org.raapp.messenger.preferences.widgets.ColorPickerPreferenceDialogFragmentCompat;
 
 public abstract class CorrectedPreferenceFragment extends PreferenceFragmentCompat {
 

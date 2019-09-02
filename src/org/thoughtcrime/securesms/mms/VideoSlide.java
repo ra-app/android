@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -23,10 +23,10 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.ResUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.ResUtil;
 
 public class VideoSlide extends Slide {
 

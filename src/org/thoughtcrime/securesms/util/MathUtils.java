@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.graphics.PointF;
 import androidx.annotation.NonNull;

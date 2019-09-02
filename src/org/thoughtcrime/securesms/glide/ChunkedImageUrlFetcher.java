@@ -1,4 +1,4 @@
-package org.bittube.messenger.glide;
+package org.raapp.messenger.glide;
 
 
 import androidx.annotation.NonNull;
@@ -7,10 +7,10 @@ import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 
-import org.bittube.messenger.giph.model.ChunkedImageUrl;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.net.ChunkedDataFetcher;
-import org.bittube.messenger.net.RequestController;
+import org.raapp.messenger.giph.model.ChunkedImageUrl;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.net.ChunkedDataFetcher;
+import org.raapp.messenger.net.RequestController;
 
 import java.io.InputStream;
 

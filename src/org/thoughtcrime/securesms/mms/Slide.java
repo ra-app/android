@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -23,12 +23,12 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.UriAttachment;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.stickers.StickerLocator;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.UriAttachment;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.stickers.StickerLocator;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.security.SecureRandom;

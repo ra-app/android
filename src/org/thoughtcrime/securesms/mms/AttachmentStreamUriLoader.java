@@ -1,4 +1,4 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.bittube.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.raapp.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.File;

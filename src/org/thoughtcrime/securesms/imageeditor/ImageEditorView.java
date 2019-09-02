@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor;
+package org.raapp.messenger.imageeditor;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -16,11 +16,11 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.imageeditor.model.EditorElement;
-import org.bittube.messenger.imageeditor.model.EditorModel;
-import org.bittube.messenger.imageeditor.model.ThumbRenderer;
-import org.bittube.messenger.imageeditor.renderers.BezierDrawingRenderer;
-import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
+import org.raapp.messenger.imageeditor.model.EditorElement;
+import org.raapp.messenger.imageeditor.model.EditorModel;
+import org.raapp.messenger.imageeditor.model.ThumbRenderer;
+import org.raapp.messenger.imageeditor.renderers.BezierDrawingRenderer;
+import org.raapp.messenger.imageeditor.renderers.MultiLineTextRenderer;
 
 /**
  * ImageEditorView

@@ -1,4 +1,4 @@
-package org.bittube.messenger.maps;
+package org.raapp.messenger.maps;
 
 import android.content.Context;
 import android.location.Location;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 import java.util.Locale;
 

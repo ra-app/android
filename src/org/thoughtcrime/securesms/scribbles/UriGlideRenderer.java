@@ -1,4 +1,4 @@
-package org.bittube.messenger.scribbles;
+package org.raapp.messenger.scribbles;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,12 +15,12 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 
-import org.bittube.messenger.imageeditor.Bounds;
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.RendererContext;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.GlideRequest;
+import org.raapp.messenger.imageeditor.Bounds;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.GlideRequest;
 
 import java.util.concurrent.ExecutionException;
 

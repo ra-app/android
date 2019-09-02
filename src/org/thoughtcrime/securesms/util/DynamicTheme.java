@@ -1,9 +1,9 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.app.Activity;
 import android.content.Intent;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class DynamicTheme {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

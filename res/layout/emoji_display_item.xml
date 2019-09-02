@@ -18,7 +18,7 @@
         android:adjustViewBounds="true"
         android:scaleType="fitCenter" />
 
-    <org.bittube.messenger.components.emoji.AsciiEmojiView
+    <org.raapp.messenger.components.emoji.AsciiEmojiView
         android:id="@+id/emoji_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

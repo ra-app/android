@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,14 +7,14 @@ import androidx.annotation.WorkerThread;
 
 import com.google.protobuf.ByteString;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.OutgoingGroupMediaMessage;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.OutgoingGroupMediaMessage;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

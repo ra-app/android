@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 
 import android.content.Context;
@@ -12,11 +12,11 @@ import android.view.View;
 import android.view.Window;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.VideoSlide;
-import org.bittube.messenger.util.views.Stub;
-import org.bittube.messenger.video.VideoPlayer;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.VideoSlide;
+import org.raapp.messenger.util.views.Stub;
+import org.raapp.messenger.video.VideoPlayer;
 
 import java.io.IOException;
 

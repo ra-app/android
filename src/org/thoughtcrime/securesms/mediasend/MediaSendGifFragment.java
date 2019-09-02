@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader;
-import org.bittube.messenger.mms.GlideApp;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader;
+import org.raapp.messenger.mms.GlideApp;
 
 public class MediaSendGifFragment extends Fragment implements MediaSendPageFragment {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
@@ -11,11 +11,11 @@ import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.NoExternalStorageException;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.NoExternalStorageException;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.io.File;

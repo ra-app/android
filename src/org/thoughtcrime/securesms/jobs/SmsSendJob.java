@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -9,21 +9,21 @@ import androidx.annotation.NonNull;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkOrCellServiceConstraint;
-import org.bittube.messenger.jobmanager.impl.CellServiceConstraint;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkOrCellServiceConstraint;
+import org.raapp.messenger.jobmanager.impl.CellServiceConstraint;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.NoSuchMessageException;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.model.SmsMessageRecord;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.SmsDeliveryListener;
-import org.bittube.messenger.transport.UndeliverableMessageException;
-import org.bittube.messenger.util.NumberUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.NoSuchMessageException;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.model.SmsMessageRecord;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.SmsDeliveryListener;
+import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.util.NumberUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.util.ArrayList;
 
@@ -240,7 +240,7 @@ public class SmsSendJob extends SendJob {
 
   public static class Factory implements Job.Factory<SmsSendJob> {
     @Override
-    public @NonNull SmsSendJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
+    public @NonNull SmsSendJob create(@NonNull Parameters parameters, @NonNull org.raapp.messenger.jobmanager.Data data) {
       return new SmsSendJob(parameters, data.getLong(KEY_MESSAGE_ID), data.getInt(KEY_RUN_ATTEMPT));
     }
   }

@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.dualsim;
+package org.raapp.messenger.util.dualsim;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,9 +8,9 @@ import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.ServiceUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.ServiceUtil;
 import org.whispersystems.libsignal.util.guava.Function;
 import org.whispersystems.libsignal.util.guava.Optional;
 

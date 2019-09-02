@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.model;
+package org.raapp.messenger.imageeditor.model;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,12 +13,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.bittube.messenger.imageeditor.Bounds;
-import org.bittube.messenger.imageeditor.ColorableRenderer;
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.RendererContext;
-import org.bittube.messenger.imageeditor.UndoRedoStackListener;
-import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
+import org.raapp.messenger.imageeditor.Bounds;
+import org.raapp.messenger.imageeditor.ColorableRenderer;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.imageeditor.UndoRedoStackListener;
+import org.raapp.messenger.imageeditor.renderers.MultiLineTextRenderer;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;

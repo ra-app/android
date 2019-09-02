@@ -1,4 +1,4 @@
-package org.bittube.messenger.recipients;
+package org.raapp.messenger.recipients;
 
 import android.app.Application;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.bittube.messenger.database.Address;
+import org.raapp.messenger.database.Address;
 
 import static org.assertj.core.api.Assertions.*;
 

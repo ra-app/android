@@ -1,4 +1,4 @@
-package org.bittube.messenger.search;
+package org.raapp.messenger.search;
 
 import android.annotation.SuppressLint;
 import androidx.lifecycle.ViewModelProviders;
@@ -16,19 +16,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.bittube.messenger.conversation.ConversationActivity;
-import org.bittube.messenger.ConversationListActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.search.model.MessageResult;
-import org.bittube.messenger.search.model.SearchResult;
-import org.bittube.messenger.util.StickyHeaderDecoration;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.search.model.MessageResult;
+import org.raapp.messenger.search.model.SearchResult;
+import org.raapp.messenger.util.StickyHeaderDecoration;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 
 import java.util.Locale;
 

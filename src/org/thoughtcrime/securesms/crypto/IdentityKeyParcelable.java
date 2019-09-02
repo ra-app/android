@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 import android.os.Parcel;
 import android.os.Parcelable;

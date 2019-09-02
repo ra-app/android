@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -9,9 +9,9 @@ import android.database.ContentObserver;
 import android.os.Handler;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.DatabaseContentProviders;
-import org.bittube.messenger.stickers.StickerKeyboardRepository.PackListResult;
-import org.bittube.messenger.util.Throttler;
+import org.raapp.messenger.database.DatabaseContentProviders;
+import org.raapp.messenger.stickers.StickerKeyboardRepository.PackListResult;
+import org.raapp.messenger.util.Throttler;
 
 final class StickerKeyboardViewModel extends ViewModel {
 

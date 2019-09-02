@@ -1,13 +1,13 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import org.bittube.messenger.conversation.ConversationActivity;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
 
 public class ConversationListArchiveActivity extends PassphraseRequiredActionBarActivity
     implements ConversationListFragment.ConversationSelectedListener

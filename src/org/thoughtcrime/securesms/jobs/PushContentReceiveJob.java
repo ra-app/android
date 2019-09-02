@@ -1,10 +1,10 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
 
 public class PushContentReceiveJob extends PushReceivedJob {
 

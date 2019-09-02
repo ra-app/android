@@ -1,12 +1,12 @@
-package org.bittube.messenger.crypto.storage;
+package org.raapp.messenger.crypto.storage;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.SessionDatabase;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.SessionDatabase;
+import org.raapp.messenger.logging.Log;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 import org.whispersystems.libsignal.protocol.CiphertextMessage;
 import org.whispersystems.libsignal.state.SessionRecord;

@@ -1,10 +1,10 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import android.os.Environment;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.database.NoExternalStorageException;
+import org.raapp.messenger.database.NoExternalStorageException;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.Manifest;
 import android.accounts.Account;
@@ -14,30 +14,30 @@ import android.provider.ContactsContract;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.R;
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.crypto.SessionUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.InsertResult;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.RecipientDatabase.RegisteredState;
-import org.bittube.messenger.jobs.MultiDeviceContactUpdateJob;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.notifications.NotificationChannels;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.push.AccountManagerFactory;
-import org.bittube.messenger.push.IasTrustStore;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.IncomingJoinedMessage;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.crypto.SessionUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.InsertResult;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.RecipientDatabase.RegisteredState;
+import org.raapp.messenger.jobs.MultiDeviceContactUpdateJob;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.push.AccountManagerFactory;
+import org.raapp.messenger.push.IasTrustStore;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.IncomingJoinedMessage;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;
@@ -250,7 +250,7 @@ public class DirectoryHelper {
 
   private static Optional<AccountHolder> getOrCreateAccount(Context context) {
     AccountManager accountManager = AccountManager.get(context);
-    Account[]      accounts       = accountManager.getAccountsByType("org.bittube.messenger");
+    Account[]      accounts       = accountManager.getAccountsByType("org.raapp.messenger");
 
     Optional<AccountHolder> account;
 
@@ -266,7 +266,7 @@ public class DirectoryHelper {
 
   private static Optional<AccountHolder> createAccount(Context context) {
     AccountManager accountManager = AccountManager.get(context);
-    Account        account        = new Account(context.getString(R.string.app_name), "org.bittube.messenger");
+    Account        account        = new Account(context.getString(R.string.app_name), "org.raapp.messenger");
 
     if (accountManager.addAccountExplicitly(account, null, null)) {
       Log.i(TAG, "Created new account...");

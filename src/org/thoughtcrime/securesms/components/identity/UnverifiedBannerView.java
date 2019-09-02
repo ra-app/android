@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.identity;
+package org.raapp.messenger.components.identity;
 
 
 import android.content.Context;
@@ -7,16 +7,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import android.util.AttributeSet;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.List;
 

@@ -1,21 +1,21 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.graphics.Bitmap;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.GroupDatabase;
-import org.bittube.messenger.database.GroupDatabase.GroupRecord;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
-import org.bittube.messenger.util.BitmapDecodingException;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.util.Hex;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.GroupDatabase;
+import org.raapp.messenger.database.GroupDatabase.GroupRecord;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.AttachmentStreamUriLoader.AttachmentModel;
+import org.raapp.messenger.util.BitmapDecodingException;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.util.Hex;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;

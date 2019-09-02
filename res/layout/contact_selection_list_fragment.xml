@@ -27,7 +27,7 @@
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-    <org.bittube.messenger.components.RecyclerViewFastScroller
+    <org.raapp.messenger.components.RecyclerViewFastScroller
         android:id="@+id/fast_scroller"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

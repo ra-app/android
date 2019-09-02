@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import androidx.annotation.AttrRes;
 import androidx.annotation.NonNull;

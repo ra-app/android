@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 
 import android.content.Context;
@@ -15,12 +15,12 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 import com.google.i18n.phonenumbers.ShortNumberInfo;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.DelimiterUtil;
-import org.bittube.messenger.util.GroupUtil;
-import org.bittube.messenger.util.NumberUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.DelimiterUtil;
+import org.raapp.messenger.util.GroupUtil;
+import org.raapp.messenger.util.NumberUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

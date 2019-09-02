@@ -1,10 +1,10 @@
-package org.bittube.messenger.events;
+package org.raapp.messenger.events;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.webrtc.CameraState;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.webrtc.CameraState;
 import org.webrtc.SurfaceViewRenderer;
 import org.whispersystems.libsignal.IdentityKey;
 

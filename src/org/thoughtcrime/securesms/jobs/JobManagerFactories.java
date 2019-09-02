@@ -1,18 +1,18 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Constraint;
-import org.bittube.messenger.jobmanager.ConstraintObserver;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.CellServiceConstraint;
-import org.bittube.messenger.jobmanager.impl.CellServiceConstraintObserver;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraintObserver;
-import org.bittube.messenger.jobmanager.impl.NetworkOrCellServiceConstraint;
-import org.bittube.messenger.jobmanager.impl.SqlCipherMigrationConstraint;
-import org.bittube.messenger.jobmanager.impl.SqlCipherMigrationConstraintObserver;
+import org.raapp.messenger.jobmanager.Constraint;
+import org.raapp.messenger.jobmanager.ConstraintObserver;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.CellServiceConstraint;
+import org.raapp.messenger.jobmanager.impl.CellServiceConstraintObserver;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraintObserver;
+import org.raapp.messenger.jobmanager.impl.NetworkOrCellServiceConstraint;
+import org.raapp.messenger.jobmanager.impl.SqlCipherMigrationConstraint;
+import org.raapp.messenger.jobmanager.impl.SqlCipherMigrationConstraintObserver;
 
 import java.util.Arrays;
 import java.util.HashMap;

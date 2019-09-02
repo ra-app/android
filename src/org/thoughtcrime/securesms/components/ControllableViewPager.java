@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -7,7 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import org.bittube.messenger.components.viewpager.HackyViewPager;
+import org.raapp.messenger.components.viewpager.HackyViewPager;
 
 /**
  * An implementation of {@link ViewPager} that disables swiping when the view is disabled.

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 import android.util.AttributeSet;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideRequest;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.ThemeUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideRequest;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.ThemeUtil;
 
 import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 

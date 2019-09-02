@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -15,9 +15,9 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.ThemeUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.ThemeUtil;
 
 /**
  * Class for creating simple tooltips to show throughout the app. Utilizes a popup window so you

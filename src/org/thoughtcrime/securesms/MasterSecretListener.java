@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 public interface MasterSecretListener {
   void onMasterSecretCleared();

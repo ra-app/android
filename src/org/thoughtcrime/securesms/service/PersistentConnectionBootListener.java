@@ -1,10 +1,10 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 
 public class PersistentConnectionBootListener extends BroadcastReceiver {

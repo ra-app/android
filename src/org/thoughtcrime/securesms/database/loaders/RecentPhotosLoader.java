@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 
 import android.Manifest;
@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import androidx.loader.content.CursorLoader;
 
-import org.bittube.messenger.permissions.Permissions;
+import org.raapp.messenger.permissions.Permissions;
 
 public class RecentPhotosLoader extends CursorLoader {
 

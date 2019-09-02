@@ -1,13 +1,13 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
 
 public class Trimmer {
 

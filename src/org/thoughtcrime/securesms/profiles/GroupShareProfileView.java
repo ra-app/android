@@ -1,4 +1,4 @@
-package org.bittube.messenger.profiles;
+package org.raapp.messenger.profiles;
 
 
 import android.content.Context;
@@ -13,10 +13,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.ViewUtil;
 
 public class GroupShareProfileView extends FrameLayout {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,11 +7,11 @@ import androidx.annotation.NonNull;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
-import org.bittube.messenger.jobmanager.persistence.DependencySpec;
-import org.bittube.messenger.jobmanager.persistence.FullSpec;
-import org.bittube.messenger.jobmanager.persistence.JobSpec;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.jobmanager.persistence.ConstraintSpec;
+import org.raapp.messenger.jobmanager.persistence.DependencySpec;
+import org.raapp.messenger.jobmanager.persistence.FullSpec;
+import org.raapp.messenger.jobmanager.persistence.JobSpec;
 
 import java.util.LinkedList;
 import java.util.List;

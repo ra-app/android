@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.request.target.DrawableImageViewTarget;
 
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 
 public class GlideDrawableListeningTarget extends DrawableImageViewTarget {
 

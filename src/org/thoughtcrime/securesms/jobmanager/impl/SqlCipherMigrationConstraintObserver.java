@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.bittube.messenger.jobmanager.ConstraintObserver;
+import org.raapp.messenger.jobmanager.ConstraintObserver;
 
 public class SqlCipherMigrationConstraintObserver implements ConstraintObserver {
 

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,11 +23,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import org.bittube.messenger.conversation.ConversationActivity;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.recipients.Recipient;
 
 /**
  * Activity container for starting a new conversation.

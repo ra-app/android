@@ -1,8 +1,8 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.app.Activity;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class DynamicIntroTheme extends DynamicTheme {
   @Override

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.registration;
+package org.raapp.messenger.components.registration;
 
 
 import android.animation.Animator;
@@ -6,7 +6,7 @@ import android.content.Context;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.util.AttributeSet;
 
-import org.bittube.messenger.animation.AnimationCompleteListener;
+import org.raapp.messenger.animation.AnimationCompleteListener;
 
 public class PulsingFloatingActionButton extends FloatingActionButton {
 

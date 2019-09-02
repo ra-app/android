@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 
 import android.animation.Animator;
@@ -17,8 +17,8 @@ import android.view.ViewAnimationUtils;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.animation.AnimationCompleteListener;
+import org.raapp.messenger.R;
+import org.raapp.messenger.animation.AnimationCompleteListener;
 
 public class SearchToolbar extends LinearLayout {
 

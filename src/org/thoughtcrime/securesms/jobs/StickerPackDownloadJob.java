@@ -1,18 +1,18 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.database.model.IncomingSticker;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Hex;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.database.model.IncomingSticker;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Hex;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 import org.whispersystems.signalservice.api.messages.SignalServiceStickerManifest;

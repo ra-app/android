@@ -23,7 +23,7 @@
                       android:textCursorDrawable="@null"
                       android:fontFamily="sans-serif"/>
 
-            <org.bittube.messenger.components.AnimatingToggle
+            <org.raapp.messenger.components.AnimatingToggle
                 android:id="@+id/button_toggle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                            android:background="@drawable/circle_touch_highlight_background"
                            android:src="@drawable/ic_clear_white_24dp" />
 
-            </org.bittube.messenger.components.AnimatingToggle>
+            </org.raapp.messenger.components.AnimatingToggle>
 
         </LinearLayout>
 

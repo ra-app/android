@@ -1,10 +1,10 @@
-package org.bittube.messenger.net;
+package org.raapp.messenger.net;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.linkpreview.LinkPreviewUtil;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.linkpreview.LinkPreviewUtil;
+import org.raapp.messenger.logging.Log;
 
 import java.io.IOException;
 

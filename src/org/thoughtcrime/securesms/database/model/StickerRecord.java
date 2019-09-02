@@ -1,14 +1,14 @@
-package org.bittube.messenger.database.model;
+package org.raapp.messenger.database.model;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.PartAuthority;
 
 import java.util.Objects;
 
 /**
- * Represents a record for a sticker pack in the {@link org.bittube.messenger.database.StickerDatabase}.
+ * Represents a record for a sticker pack in the {@link org.raapp.messenger.database.StickerDatabase}.
  */
 public final class StickerRecord {
 

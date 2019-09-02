@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -38,27 +38,27 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import android.text.TextUtils;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.R;
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.contactshare.ContactUtil;
-import org.bittube.messenger.conversation.ConversationActivity;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.MarkedMessageInfo;
-import org.bittube.messenger.database.MmsSmsDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.MediaMmsMessageRecord;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.database.model.MmsMessageRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.IncomingMessageObserver;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.SpanUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.webrtc.CallNotificationBuilder;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.contactshare.ContactUtil;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
+import org.raapp.messenger.database.MmsSmsDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.MediaMmsMessageRecord;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.MmsMessageRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.IncomingMessageObserver;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.SpanUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.webrtc.CallNotificationBuilder;
 import org.whispersystems.signalservice.internal.util.Util;
 
 import java.util.HashSet;
@@ -519,7 +519,7 @@ public class MessageNotifier {
 
   public static class ReminderReceiver extends BroadcastReceiver {
 
-    public static final String REMINDER_ACTION = "org.bittube.messenger.MessageNotifier.REMINDER_ACTION";
+    public static final String REMINDER_ACTION = "org.raapp.messenger.MessageNotifier.REMINDER_ACTION";
 
     @SuppressLint("StaticFieldLeak")
     @Override

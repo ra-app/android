@@ -13,7 +13,7 @@
  limitations under the License.
  */
 
-package org.bittube.messenger.components.camera;
+package org.raapp.messenger.components.camera;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -32,14 +32,14 @@ import android.os.Build.VERSION;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.OrientationEventListener;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

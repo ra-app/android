@@ -1,8 +1,8 @@
-package org.bittube.messenger.longmessage;
+package org.raapp.messenger.longmessage;
 
 import android.text.TextUtils;
 
-import org.bittube.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.MessageRecord;
 
 /**
  * A wrapper around a {@link MessageRecord} and its extra text attachment expanded into a string

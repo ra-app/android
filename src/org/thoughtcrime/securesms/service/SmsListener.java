@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -22,11 +22,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Telephony;
 import android.telephony.SmsMessage;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.jobs.SmsReceiveJob;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.jobs.SmsReceiveJob;
+import org.raapp.messenger.util.Util;
 
 public class SmsListener extends BroadcastReceiver {
 

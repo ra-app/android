@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.VideoSlide;
-import org.bittube.messenger.video.VideoPlayer;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.VideoSlide;
+import org.raapp.messenger.video.VideoPlayer;
 
 import java.io.IOException;
 

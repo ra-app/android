@@ -1,4 +1,4 @@
-package org.bittube.messenger.permissions;
+package org.raapp.messenger.permissions;
 
 
 import android.app.Activity;
@@ -22,9 +22,9 @@ import android.view.WindowManager;
 import com.annimon.stream.Stream;
 import com.annimon.stream.function.Consumer;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.LRUCache;
-import org.bittube.messenger.util.ServiceUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.LRUCache;
+import org.raapp.messenger.util.ServiceUtil;
 
 import java.lang.ref.WeakReference;
 import java.security.SecureRandom;

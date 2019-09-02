@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 import android.util.AttributeSet;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -20,18 +20,18 @@ import com.bumptech.glide.load.resource.bitmap.FitCenter;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.mms.GlideRequest;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.mms.SlideClickListener;
-import org.bittube.messenger.mms.SlidesClickedListener;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.mms.GlideRequest;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.mms.SlideClickListener;
+import org.raapp.messenger.mms.SlidesClickedListener;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

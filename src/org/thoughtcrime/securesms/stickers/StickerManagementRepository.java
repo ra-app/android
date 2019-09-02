@@ -1,20 +1,20 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.database.StickerDatabase.StickerPackRecordReader;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.jobs.MultiDeviceStickerPackOperationJob;
-import org.bittube.messenger.jobs.StickerPackDownloadJob;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.database.StickerDatabase.StickerPackRecordReader;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.jobs.MultiDeviceStickerPackOperationJob;
+import org.raapp.messenger.jobs.StickerPackDownloadJob;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 
 import java.util.ArrayList;
 import java.util.List;

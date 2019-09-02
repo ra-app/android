@@ -1,18 +1,18 @@
-package org.bittube.messenger.crypto.storage;
+package org.raapp.messenger.crypto.storage;
 
 import android.content.Context;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.crypto.SessionUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.IdentityDatabase;
-import org.bittube.messenger.database.IdentityDatabase.IdentityRecord;
-import org.bittube.messenger.database.IdentityDatabase.VerifiedStatus;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.IdentityUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.crypto.SessionUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.IdentityDatabase;
+import org.raapp.messenger.database.IdentityDatabase.IdentityRecord;
+import org.raapp.messenger.database.IdentityDatabase.VerifiedStatus;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.IdentityUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.IdentityKeyPair;
 import org.whispersystems.libsignal.SignalProtocolAddress;

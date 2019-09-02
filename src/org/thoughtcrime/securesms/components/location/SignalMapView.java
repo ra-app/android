@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.location;
+package org.raapp.messenger.components.location;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,10 +17,10 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 
 public class SignalMapView extends LinearLayout {
 

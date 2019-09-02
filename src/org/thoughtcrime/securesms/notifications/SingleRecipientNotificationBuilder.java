@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -17,21 +17,21 @@ import android.text.SpannableStringBuilder;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.contacts.avatars.ContactColors;
-import org.bittube.messenger.contacts.avatars.ContactPhoto;
-import org.bittube.messenger.contacts.avatars.FallbackContactPhoto;
-import org.bittube.messenger.contacts.avatars.GeneratedContactPhoto;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.Slide;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.BitmapUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contacts.avatars.ContactColors;
+import org.raapp.messenger.contacts.avatars.ContactPhoto;
+import org.raapp.messenger.contacts.avatars.FallbackContactPhoto;
+import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.Slide;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.BitmapUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 import java.util.LinkedList;
 import java.util.List;

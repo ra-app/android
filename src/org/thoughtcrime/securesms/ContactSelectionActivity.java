@@ -14,22 +14,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.components.ContactFilterToolbar;
-import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.bittube.messenger.util.DirectoryHelper;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicNoActionBarTheme;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.components.ContactFilterToolbar;
+import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.raapp.messenger.util.DirectoryHelper;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;

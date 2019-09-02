@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts.avatars;
+package org.raapp.messenger.contacts.avatars;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,9 +13,9 @@ import android.text.TextUtils;
 
 import com.amulyakhare.textdrawable.TextDrawable;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.ThemeUtil;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.ThemeUtil;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.regex.Pattern;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.util.List;
 

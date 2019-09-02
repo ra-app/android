@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.Context;
 import android.database.ContentObserver;
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
 
 import java.util.Set;
 

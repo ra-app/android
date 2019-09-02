@@ -15,7 +15,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.bittube.messenger.logsubmit.util;
+package org.raapp.messenger.logsubmit.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

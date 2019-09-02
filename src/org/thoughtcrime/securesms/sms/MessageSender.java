@@ -14,39 +14,39 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.sms;
+package org.raapp.messenger.sms;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
-import org.bittube.messenger.database.MmsSmsDatabase;
-import org.bittube.messenger.database.NoSuchMessageException;
-import org.bittube.messenger.database.model.SmsMessageRecord;
-import org.bittube.messenger.jobmanager.JobManager;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
+import org.raapp.messenger.database.MmsSmsDatabase;
+import org.raapp.messenger.database.NoSuchMessageException;
+import org.raapp.messenger.database.model.SmsMessageRecord;
+import org.raapp.messenger.jobmanager.JobManager;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.jobs.MmsSendJob;
-import org.bittube.messenger.jobs.PushGroupSendJob;
-import org.bittube.messenger.jobs.PushMediaSendJob;
-import org.bittube.messenger.jobs.PushTextSendJob;
-import org.bittube.messenger.jobs.SmsSendJob;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.mms.OutgoingMediaMessage;
-import org.bittube.messenger.push.AccountManagerFactory;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.ExpiringMessageManager;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.jobs.MmsSendJob;
+import org.raapp.messenger.jobs.PushGroupSendJob;
+import org.raapp.messenger.jobs.PushMediaSendJob;
+import org.raapp.messenger.jobs.PushTextSendJob;
+import org.raapp.messenger.jobs.SmsSendJob;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.mms.OutgoingMediaMessage;
+import org.raapp.messenger.push.AccountManagerFactory;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.ExpiringMessageManager;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;

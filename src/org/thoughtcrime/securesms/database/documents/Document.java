@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.documents;
+package org.raapp.messenger.database.documents;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.database.Address;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.database.Address;
 
 import java.util.List;
 

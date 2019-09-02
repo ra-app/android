@@ -1,9 +1,9 @@
-package org.bittube.messenger.qr;
+package org.raapp.messenger.qr;
 
 import android.content.res.Configuration;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
@@ -15,9 +15,9 @@ import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
-import org.bittube.messenger.components.camera.CameraView;
-import org.bittube.messenger.components.camera.CameraView.PreviewFrame;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.components.camera.CameraView;
+import org.raapp.messenger.components.camera.CameraView.PreviewFrame;
+import org.raapp.messenger.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.helpers;
+package org.raapp.messenger.database.helpers;
 
 
 import android.content.ContentValues;
@@ -9,13 +9,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.database.OneTimePreKeyDatabase;
-import org.bittube.messenger.database.SignedPreKeyDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.Conversions;
-import org.bittube.messenger.util.JsonUtils;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.database.OneTimePreKeyDatabase;
+import org.raapp.messenger.database.SignedPreKeyDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.Conversions;
+import org.raapp.messenger.util.JsonUtils;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.libsignal.state.PreKeyRecord;
 import org.whispersystems.libsignal.state.SignedPreKeyRecord;

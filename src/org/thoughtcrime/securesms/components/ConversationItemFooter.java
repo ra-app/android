@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,15 +13,15 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.service.ExpiringMessageManager;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.dualsim.SubscriptionInfoCompat;
-import org.bittube.messenger.util.dualsim.SubscriptionManagerCompat;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.service.ExpiringMessageManager;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.dualsim.SubscriptionInfoCompat;
+import org.raapp.messenger.util.dualsim.SubscriptionManagerCompat;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Locale;

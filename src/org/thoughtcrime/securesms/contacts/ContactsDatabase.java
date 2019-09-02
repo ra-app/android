@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.accounts.Account;
 import android.annotation.SuppressLint;
@@ -37,11 +37,11 @@ import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.ArrayList;
@@ -59,8 +59,8 @@ import java.util.Set;
 public class ContactsDatabase {
 
   private static final String TAG              = ContactsDatabase.class.getSimpleName();
-  private static final String CONTACT_MIMETYPE = "vnd.android.cursor.item/vnd.org.bittube.messenger.contact";
-  private static final String CALL_MIMETYPE    = "vnd.android.cursor.item/vnd.org.bittube.messenger.call";
+  private static final String CONTACT_MIMETYPE = "vnd.android.cursor.item/vnd.org.raapp.messenger.contact";
+  private static final String CALL_MIMETYPE    = "vnd.android.cursor.item/vnd.org.raapp.messenger.call";
   private static final String SYNC             = "__TS";
 
   static final String NAME_COLUMN         = "name";

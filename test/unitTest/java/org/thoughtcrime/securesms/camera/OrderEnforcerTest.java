@@ -1,7 +1,7 @@
-package org.bittube.messenger.camera;
+package org.raapp.messenger.camera;
 
 import org.junit.Test;
-import org.bittube.messenger.mediasend.OrderEnforcer;
+import org.raapp.messenger.mediasend.OrderEnforcer;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

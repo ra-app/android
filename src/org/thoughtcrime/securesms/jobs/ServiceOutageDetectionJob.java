@@ -1,16 +1,16 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.events.ReminderUpdateEvent;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.transport.RetryLaterException;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.events.ReminderUpdateEvent;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.transport.RetryLaterException;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

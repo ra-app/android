@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -16,11 +16,11 @@ import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import androidx.core.app.NotificationCompat;
 
-import org.bittube.messenger.ConversationListActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.SmsMigrator;
-import org.bittube.messenger.database.SmsMigrator.ProgressDescription;
-import org.bittube.messenger.notifications.NotificationChannels;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.SmsMigrator;
+import org.raapp.messenger.database.SmsMigrator.ProgressDescription;
+import org.raapp.messenger.notifications.NotificationChannels;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.Executor;
@@ -31,8 +31,8 @@ public class ApplicationMigrationService extends Service
     implements SmsMigrator.SmsMigrationProgressListener
 {
   private static final String TAG               = ApplicationMigrationService.class.getSimpleName();
-  public  static final String MIGRATE_DATABASE  = "org.bittube.messenger.ApplicationMigration.MIGRATE_DATABSE";
-  public  static final String COMPLETED_ACTION  = "org.bittube.messenger.ApplicationMigrationService.COMPLETED";
+  public  static final String MIGRATE_DATABASE  = "org.raapp.messenger.ApplicationMigration.MIGRATE_DATABSE";
+  public  static final String COMPLETED_ACTION  = "org.raapp.messenger.ApplicationMigrationService.COMPLETED";
   private static final String PREFERENCES_NAME  = "SecureSMS";
   private static final String DATABASE_MIGRATED = "migrated";
 

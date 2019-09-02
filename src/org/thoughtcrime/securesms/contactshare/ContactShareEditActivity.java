@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.app.Activity;
 import androidx.lifecycle.ViewModelProviders;
@@ -14,18 +14,18 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.bittube.messenger.contactshare.Contact.*;
-import static org.bittube.messenger.contactshare.ContactShareEditViewModel.*;
+import static org.raapp.messenger.contactshare.Contact.*;
+import static org.raapp.messenger.contactshare.ContactShareEditViewModel.*;
 
 public class ContactShareEditActivity extends PassphraseRequiredActionBarActivity implements ContactShareEditAdapter.EventListener {
 

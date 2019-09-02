@@ -1,11 +1,11 @@
-package org.bittube.messenger.util.dynamiclanguage;
+package org.raapp.messenger.util.dynamiclanguage;
 
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import androidx.annotation.Nullable;
 import androidx.core.os.ConfigurationCompat;
 
-import org.bittube.messenger.BuildConfig;
+import org.raapp.messenger.BuildConfig;
 
 import java.util.Arrays;
 import java.util.Locale;

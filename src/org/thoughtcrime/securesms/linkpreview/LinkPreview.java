@@ -1,4 +1,4 @@
-package org.bittube.messenger.linkpreview;
+package org.raapp.messenger.linkpreview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,10 +6,10 @@ import androidx.annotation.Nullable;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.util.JsonUtils;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.util.JsonUtils;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

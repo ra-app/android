@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -23,13 +23,13 @@ import androidx.camera.core.ImageProxy;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mediasend.camerax.CameraXUtil;
-import org.bittube.messenger.mediasend.camerax.CameraXView;
-import org.bittube.messenger.util.Stopwatch;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.concurrent.SimpleTask;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mediasend.camerax.CameraXUtil;
+import org.raapp.messenger.mediasend.camerax.CameraXView;
+import org.raapp.messenger.util.Stopwatch;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.concurrent.SimpleTask;
 
 import java.io.IOException;
 

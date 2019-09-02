@@ -1,4 +1,4 @@
-package org.bittube.messenger.conversation;
+package org.raapp.messenger.conversation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,12 +14,12 @@ import android.widget.TextView;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.AvatarImageView;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.AvatarImageView;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.ViewUtil;
 
 public class ConversationTitleView extends RelativeLayout {
 

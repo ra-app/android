@@ -1,4 +1,4 @@
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 
 import android.content.Context;
@@ -20,8 +20,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.AnimatingToggle;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.AnimatingToggle;
 
 public class GiphyActivityToolbar extends Toolbar {
 

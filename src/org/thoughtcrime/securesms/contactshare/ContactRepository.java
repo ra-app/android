@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,17 +9,17 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 import android.text.TextUtils;
 
-import org.bittube.messenger.contacts.ContactsDatabase;
-import org.bittube.messenger.contacts.avatars.ContactPhoto;
-import org.bittube.messenger.contactshare.Contact.Email;
-import org.bittube.messenger.contactshare.Contact.Name;
-import org.bittube.messenger.contactshare.Contact.Phone;
-import org.bittube.messenger.contactshare.Contact.PostalAddress;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.providers.BlobProvider;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.contacts.ContactsDatabase;
+import org.raapp.messenger.contacts.avatars.ContactPhoto;
+import org.raapp.messenger.contactshare.Contact.Email;
+import org.raapp.messenger.contactshare.Contact.Name;
+import org.raapp.messenger.contactshare.Contact.Phone;
+import org.raapp.messenger.contactshare.Contact.PostalAddress;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.providers.BlobProvider;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,7 +33,7 @@ import java.util.concurrent.Executor;
 import ezvcard.Ezvcard;
 import ezvcard.VCard;
 
-import static org.bittube.messenger.contactshare.Contact.*;
+import static org.raapp.messenger.contactshare.Contact.*;
 
 public class ContactRepository {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.dynamiclanguage;
+package org.raapp.messenger.util.dynamiclanguage;
 
 import android.app.Application;
 
@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.bittube.messenger.BuildConfig;
+import org.raapp.messenger.BuildConfig;
 
 import java.util.Arrays;
 import java.util.List;

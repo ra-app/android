@@ -1,8 +1,8 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.Context;
 
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.util.Util;
 
 public class PushMediaConstraints extends MediaConstraints {
 

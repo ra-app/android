@@ -1,8 +1,8 @@
-package org.bittube.messenger.webrtc.locks;
+package org.raapp.messenger.webrtc.locks;
 
 import android.os.Build;
 import android.os.PowerManager;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import org.whispersystems.libsignal.util.guava.Optional;
 

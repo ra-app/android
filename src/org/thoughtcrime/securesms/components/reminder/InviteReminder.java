@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -6,9 +6,9 @@ import androidx.annotation.NonNull;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.recipients.Recipient;
 
 public class InviteReminder extends Reminder {
 

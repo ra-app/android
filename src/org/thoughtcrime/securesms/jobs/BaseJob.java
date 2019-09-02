@@ -1,10 +1,10 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.JobLogger;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.JobLogger;
+import org.raapp.messenger.logging.Log;
 
 public abstract class BaseJob extends Job {
 

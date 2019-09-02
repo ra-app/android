@@ -1,12 +1,12 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.content.Context;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.model.MessageRecord;
 
 import java.util.Comparator;
 import java.util.TreeSet;

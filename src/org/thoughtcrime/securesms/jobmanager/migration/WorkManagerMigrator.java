@@ -1,14 +1,14 @@
-package org.bittube.messenger.jobmanager.migration;
+package org.raapp.messenger.jobmanager.migration;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.persistence.FullSpec;
-import org.bittube.messenger.jobmanager.persistence.JobStorage;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.persistence.FullSpec;
+import org.raapp.messenger.jobmanager.persistence.JobStorage;
+import org.raapp.messenger.logging.Log;
 
 import java.util.List;
 

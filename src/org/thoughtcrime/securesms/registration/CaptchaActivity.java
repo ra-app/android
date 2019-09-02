@@ -1,4 +1,4 @@
-package org.bittube.messenger.registration;
+package org.raapp.messenger.registration;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,8 +12,8 @@ import androidx.annotation.Nullable;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import org.bittube.messenger.BaseActionBarActivity;
-import org.bittube.messenger.R;
+import org.raapp.messenger.BaseActionBarActivity;
+import org.raapp.messenger.R;
 
 public class CaptchaActivity extends BaseActionBarActivity {
 

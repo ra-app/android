@@ -1,4 +1,4 @@
-package org.bittube.messenger.devicelist;
+package org.raapp.messenger.devicelist;
 
 public class Device {
 

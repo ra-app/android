@@ -1,11 +1,11 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.Constraint;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.jobmanager.Constraint;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class SqlCipherMigrationConstraint implements Constraint {
 

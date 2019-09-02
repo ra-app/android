@@ -1,4 +1,4 @@
-package org.bittube.messenger.recipients;
+package org.raapp.messenger.recipients;
 
 
 public interface RecipientModifiedListener {

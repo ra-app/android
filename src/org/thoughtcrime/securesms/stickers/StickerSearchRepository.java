@@ -1,16 +1,16 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import android.content.Context;
 import android.database.Cursor;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.CursorList;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.StickerDatabase;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.CursorList;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.StickerDatabase;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 
 public final class StickerSearchRepository {
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import androidx.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

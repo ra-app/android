@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.app.Application;
 import androidx.lifecycle.LiveData;
@@ -12,13 +12,13 @@ import android.text.TextUtils;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.TransportOption;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.MediaConstraints;
-import org.bittube.messenger.providers.BlobProvider;
-import org.bittube.messenger.util.MediaUtil;
-import org.bittube.messenger.util.SingleLiveEvent;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.TransportOption;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.MediaConstraints;
+import org.raapp.messenger.providers.BlobProvider;
+import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.SingleLiveEvent;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

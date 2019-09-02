@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -12,18 +12,18 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.MediaKeyboardProvider;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.stickers.StickerKeyboardPageFragment.EventListener;
-import org.bittube.messenger.stickers.StickerKeyboardRepository.PackListResult;
-import org.bittube.messenger.util.ResUtil;
-import org.bittube.messenger.util.ThemeUtil;
-import org.bittube.messenger.util.Throttler;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.MediaKeyboardProvider;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.stickers.StickerKeyboardPageFragment.EventListener;
+import org.raapp.messenger.stickers.StickerKeyboardRepository.PackListResult;
+import org.raapp.messenger.util.ResUtil;
+import org.raapp.messenger.util.ThemeUtil;
+import org.raapp.messenger.util.Throttler;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * A provider to select stickers in the {@link org.bittube.messenger.components.emoji.MediaKeyboard}.
+ * A provider to select stickers in the {@link org.raapp.messenger.components.emoji.MediaKeyboard}.
  */
 public final class StickerKeyboardProvider implements MediaKeyboardProvider,
                                                 MediaKeyboardProvider.AddObserver,

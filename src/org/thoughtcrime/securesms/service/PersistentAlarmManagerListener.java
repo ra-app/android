@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 
 import android.app.AlarmManager;
@@ -6,7 +6,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 public abstract class PersistentAlarmManagerListener extends BroadcastReceiver {
 

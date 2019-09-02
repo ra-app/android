@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.dynamiclanguage;
+package org.raapp.messenger.util.dynamiclanguage;
 
 import android.content.Context;
 import android.content.res.Configuration;

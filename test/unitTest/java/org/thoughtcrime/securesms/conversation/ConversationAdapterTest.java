@@ -1,12 +1,12 @@
-package org.bittube.messenger.conversation;
+package org.raapp.messenger.conversation;
 
 import android.database.Cursor;
 
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.bittube.messenger.BaseUnitTest;
-import org.bittube.messenger.conversation.ConversationAdapter;
+import org.raapp.messenger.BaseUnitTest;
+import org.raapp.messenger.conversation.ConversationAdapter;
 
 import static org.junit.Assert.*;
 import static org.mockito.Matchers.anyInt;

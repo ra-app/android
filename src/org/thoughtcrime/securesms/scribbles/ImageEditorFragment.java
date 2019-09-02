@@ -1,4 +1,4 @@
-package org.bittube.messenger.scribbles;
+package org.raapp.messenger.scribbles;
 
 import android.content.Intent;
 import android.graphics.Paint;
@@ -11,20 +11,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.imageeditor.ColorableRenderer;
-import org.bittube.messenger.imageeditor.ImageEditorView;
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.model.EditorElement;
-import org.bittube.messenger.imageeditor.model.EditorModel;
-import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mediasend.MediaSendPageFragment;
-import org.bittube.messenger.mms.MediaConstraints;
-import org.bittube.messenger.mms.PushMediaConstraints;
-import org.bittube.messenger.scribbles.widget.VerticalSlideColorPicker;
-import org.bittube.messenger.util.ParcelUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.imageeditor.ColorableRenderer;
+import org.raapp.messenger.imageeditor.ImageEditorView;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.model.EditorElement;
+import org.raapp.messenger.imageeditor.model.EditorModel;
+import org.raapp.messenger.imageeditor.renderers.MultiLineTextRenderer;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mediasend.MediaSendPageFragment;
+import org.raapp.messenger.mms.MediaConstraints;
+import org.raapp.messenger.mms.PushMediaConstraints;
+import org.raapp.messenger.scribbles.widget.VerticalSlideColorPicker;
+import org.raapp.messenger.util.ParcelUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import static android.app.Activity.RESULT_OK;
 

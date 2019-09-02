@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.content.Context;
 import android.net.Uri;
@@ -15,15 +15,15 @@ import android.widget.TextView;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.contactshare.Contact.Phone;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.R;
+import org.raapp.messenger.contactshare.Contact.Phone;
+import org.raapp.messenger.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.bittube.messenger.contactshare.Contact.*;
+import static org.raapp.messenger.contactshare.Contact.*;
 
 class ContactFieldAdapter extends RecyclerView.Adapter<ContactFieldAdapter.ContactFieldViewHolder> {
 

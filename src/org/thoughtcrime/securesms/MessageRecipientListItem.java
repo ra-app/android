@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -25,18 +25,18 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.bittube.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
-import org.bittube.messenger.components.AvatarImageView;
-import org.bittube.messenger.components.DeliveryStatusView;
-import org.bittube.messenger.components.FromTextView;
-import org.bittube.messenger.database.documents.IdentityKeyMismatch;
-import org.bittube.messenger.database.documents.NetworkFailure;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.MessageDetailsRecipientAdapter.RecipientDeliveryStatus;
+import org.raapp.messenger.components.AvatarImageView;
+import org.raapp.messenger.components.DeliveryStatusView;
+import org.raapp.messenger.components.FromTextView;
+import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.raapp.messenger.database.documents.NetworkFailure;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
 
 /**
  * A simple view to show the recipients of a message

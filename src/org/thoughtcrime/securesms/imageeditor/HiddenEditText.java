@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor;
+package org.raapp.messenger.imageeditor;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.imageeditor.model.EditorElement;
-import org.bittube.messenger.imageeditor.renderers.MultiLineTextRenderer;
+import org.raapp.messenger.imageeditor.model.EditorElement;
+import org.raapp.messenger.imageeditor.renderers.MultiLineTextRenderer;
 
 /**
  * Invisible {@link android.widget.EditText} that is used during in-image text editing.

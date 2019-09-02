@@ -1,11 +1,11 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class BubbleDrawableBuilder {
   private int color;

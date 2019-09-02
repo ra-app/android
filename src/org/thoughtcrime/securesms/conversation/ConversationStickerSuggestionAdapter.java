@@ -1,4 +1,4 @@
-package org.bittube.messenger.conversation;
+package org.raapp.messenger.conversation;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,10 +9,10 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.model.StickerRecord;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.model.StickerRecord;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;

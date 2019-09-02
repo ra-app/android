@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -12,23 +12,23 @@ import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.transition.TransitionInflater;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.crypto.ProfileKeyUtil;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.push.AccountManagerFactory;
-import org.bittube.messenger.qr.ScanListener;
-import org.bittube.messenger.util.Base64;
-import org.bittube.messenger.util.DynamicLanguage;
-import org.bittube.messenger.util.DynamicTheme;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.crypto.ProfileKeyUtil;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.push.AccountManagerFactory;
+import org.raapp.messenger.qr.ScanListener;
+import org.raapp.messenger.util.Base64;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 import org.whispersystems.libsignal.IdentityKeyPair;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.ecc.Curve;

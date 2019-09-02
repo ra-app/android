@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
@@ -9,8 +9,8 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.scribbles.ImageEditorFragment;
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.scribbles.ImageEditorFragment;
+import org.raapp.messenger.util.MediaUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;

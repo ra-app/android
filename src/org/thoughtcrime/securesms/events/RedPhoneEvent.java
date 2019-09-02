@@ -1,9 +1,9 @@
-package org.bittube.messenger.events;
+package org.raapp.messenger.events;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.Recipient;
 
 public class RedPhoneEvent {
 

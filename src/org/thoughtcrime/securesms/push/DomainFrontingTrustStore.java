@@ -1,9 +1,9 @@
-package org.bittube.messenger.push;
+package org.raapp.messenger.push;
 
 
 import android.content.Context;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 import org.whispersystems.signalservice.api.push.TrustStore;
 
 import java.io.InputStream;

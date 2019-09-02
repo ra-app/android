@@ -1,17 +1,17 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.database.JobDatabase;
-import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
-import org.bittube.messenger.jobmanager.persistence.DependencySpec;
-import org.bittube.messenger.jobmanager.persistence.FullSpec;
-import org.bittube.messenger.jobmanager.persistence.JobSpec;
-import org.bittube.messenger.jobmanager.persistence.JobStorage;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.database.JobDatabase;
+import org.raapp.messenger.jobmanager.persistence.ConstraintSpec;
+import org.raapp.messenger.jobmanager.persistence.DependencySpec;
+import org.raapp.messenger.jobmanager.persistence.FullSpec;
+import org.raapp.messenger.jobmanager.persistence.JobSpec;
+import org.raapp.messenger.jobmanager.persistence.JobStorage;
+import org.raapp.messenger.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;

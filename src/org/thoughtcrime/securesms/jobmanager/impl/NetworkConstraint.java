@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
@@ -8,7 +8,7 @@ import android.net.NetworkInfo;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.bittube.messenger.jobmanager.Constraint;
+import org.raapp.messenger.jobmanager.Constraint;
 
 public class NetworkConstraint implements Constraint {
 

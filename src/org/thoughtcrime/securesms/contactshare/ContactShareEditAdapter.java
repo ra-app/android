@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -10,14 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.R;
+import org.raapp.messenger.mms.GlideRequests;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static org.bittube.messenger.contactshare.Contact.*;
+import static org.raapp.messenger.contactshare.Contact.*;
 
 public class ContactShareEditAdapter extends RecyclerView.Adapter<ContactShareEditAdapter.ContactEditViewHolder> {
 

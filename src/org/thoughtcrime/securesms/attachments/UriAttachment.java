@@ -1,10 +1,10 @@
-package org.bittube.messenger.attachments;
+package org.raapp.messenger.attachments;
 
 import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.stickers.StickerLocator;
+import org.raapp.messenger.stickers.StickerLocator;
 
 public class UriAttachment extends Attachment {
 

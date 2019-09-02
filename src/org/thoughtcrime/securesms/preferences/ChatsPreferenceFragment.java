@@ -1,4 +1,4 @@
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -16,19 +16,19 @@ import android.text.TextUtils;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.ApplicationPreferencesActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.backup.BackupDialog;
-import org.bittube.messenger.backup.FullBackupBase.BackupEvent;
-import org.bittube.messenger.components.SwitchPreferenceCompat;
-import org.bittube.messenger.jobs.LocalBackupJob;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.preferences.widgets.ProgressPreference;
-import org.bittube.messenger.util.BackupUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
-import org.bittube.messenger.util.Trimmer;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.ApplicationPreferencesActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.backup.BackupDialog;
+import org.raapp.messenger.backup.FullBackupBase.BackupEvent;
+import org.raapp.messenger.components.SwitchPreferenceCompat;
+import org.raapp.messenger.jobs.LocalBackupJob;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.preferences.widgets.ProgressPreference;
+import org.raapp.messenger.util.BackupUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.Trimmer;
 
 import java.util.ArrayList;
 import java.util.List;

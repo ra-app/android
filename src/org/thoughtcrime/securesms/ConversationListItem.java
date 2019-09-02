@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -31,22 +31,22 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.components.AlertView;
-import org.bittube.messenger.components.AvatarImageView;
-import org.bittube.messenger.components.DeliveryStatusView;
-import org.bittube.messenger.components.FromTextView;
-import org.bittube.messenger.components.ThumbnailView;
-import org.bittube.messenger.components.TypingIndicatorView;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.recipients.RecipientModifiedListener;
-import org.bittube.messenger.search.model.MessageResult;
-import org.bittube.messenger.util.DateUtils;
-import org.bittube.messenger.util.SearchUtil;
-import org.bittube.messenger.util.ThemeUtil;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.ViewUtil;
+import org.raapp.messenger.components.AlertView;
+import org.raapp.messenger.components.AvatarImageView;
+import org.raapp.messenger.components.DeliveryStatusView;
+import org.raapp.messenger.components.FromTextView;
+import org.raapp.messenger.components.ThumbnailView;
+import org.raapp.messenger.components.TypingIndicatorView;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientModifiedListener;
+import org.raapp.messenger.search.model.MessageResult;
+import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.SearchUtil;
+import org.raapp.messenger.util.ThemeUtil;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.Collections;
 import java.util.Locale;

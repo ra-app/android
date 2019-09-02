@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 /**
  * A generic exception that is thrown by the Mms client.

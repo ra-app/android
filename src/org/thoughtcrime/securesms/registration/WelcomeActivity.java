@@ -1,15 +1,15 @@
-package org.bittube.messenger.registration;
+package org.raapp.messenger.registration;
 
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.BaseActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.util.CommunicationActions;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.BaseActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.util.CommunicationActions;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class WelcomeActivity extends BaseActionBarActivity {
 

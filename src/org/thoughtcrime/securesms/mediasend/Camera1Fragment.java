@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend;
+package org.raapp.messenger.mediasend;
 
 import android.annotation.SuppressLint;
 import androidx.lifecycle.ViewModelProviders;
@@ -34,12 +34,12 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.util.ServiceUtil;
-import org.bittube.messenger.util.Stopwatch;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.util.ServiceUtil;
+import org.raapp.messenger.util.Stopwatch;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.ByteArrayOutputStream;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -10,17 +10,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.ResUtil;
-import org.bittube.messenger.util.ThemeUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.ResUtil;
+import org.raapp.messenger.util.ThemeUtil;
 
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * A provider to select emoji in the {@link org.bittube.messenger.components.emoji.MediaKeyboard}.
+ * A provider to select emoji in the {@link org.raapp.messenger.components.emoji.MediaKeyboard}.
  */
 public class EmojiKeyboardProvider implements MediaKeyboardProvider,
                                               MediaKeyboardProvider.TabIconProvider,

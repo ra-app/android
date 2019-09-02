@@ -1,12 +1,12 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.jobs.TypingSendJob;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.jobs.TypingSendJob;
+import org.raapp.messenger.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;

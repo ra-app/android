@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.providers;
+package org.raapp.messenger.providers;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -27,15 +27,15 @@ import android.os.MemoryFile;
 import android.os.ParcelFileDescriptor;
 import android.provider.OpenableColumns;
 import androidx.annotation.NonNull;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.mms.PartUriParser;
-import org.bittube.messenger.service.KeyCachingService;
-import org.bittube.messenger.util.MemoryFileUtil;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.mms.PartUriParser;
+import org.raapp.messenger.service.KeyCachingService;
+import org.raapp.messenger.util.MemoryFileUtil;
+import org.raapp.messenger.util.Util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

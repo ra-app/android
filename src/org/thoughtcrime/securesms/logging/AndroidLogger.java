@@ -1,4 +1,4 @@
-package org.bittube.messenger.logging;
+package org.raapp.messenger.logging;
 
 public class AndroidLogger extends Log.Logger {
 

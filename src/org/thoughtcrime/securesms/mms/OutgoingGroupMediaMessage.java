@@ -1,14 +1,14 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.contactshare.Contact;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.linkpreview.LinkPreview;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.Base64;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.contactshare.Contact;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.linkpreview.LinkPreview;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.Base64;
 import org.whispersystems.signalservice.internal.push.SignalServiceProtos.GroupContext;
 
 import java.io.IOException;

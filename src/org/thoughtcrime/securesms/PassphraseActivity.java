@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.service.KeyCachingService;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.service.KeyCachingService;
 
 
 /**

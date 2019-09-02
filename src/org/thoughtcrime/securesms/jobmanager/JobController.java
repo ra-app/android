@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager;
+package org.raapp.messenger.jobmanager;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -7,13 +7,13 @@ import androidx.annotation.WorkerThread;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
-import org.bittube.messenger.jobmanager.persistence.DependencySpec;
-import org.bittube.messenger.jobmanager.persistence.FullSpec;
-import org.bittube.messenger.jobmanager.persistence.JobSpec;
-import org.bittube.messenger.jobmanager.persistence.JobStorage;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Debouncer;
+import org.raapp.messenger.jobmanager.persistence.ConstraintSpec;
+import org.raapp.messenger.jobmanager.persistence.DependencySpec;
+import org.raapp.messenger.jobmanager.persistence.FullSpec;
+import org.raapp.messenger.jobmanager.persistence.JobSpec;
+import org.raapp.messenger.jobmanager.persistence.JobStorage;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Debouncer;
 
 import java.util.ArrayList;
 import java.util.Collections;

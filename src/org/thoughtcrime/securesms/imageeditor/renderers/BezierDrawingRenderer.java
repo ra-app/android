@@ -1,4 +1,4 @@
-package org.bittube.messenger.imageeditor.renderers;
+package org.raapp.messenger.imageeditor.renderers;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -8,8 +8,8 @@ import android.os.Parcel;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.imageeditor.ColorableRenderer;
-import org.bittube.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.imageeditor.ColorableRenderer;
+import org.raapp.messenger.imageeditor.RendererContext;
 
 /**
  * Renders a {@link AutomaticControlPointBezierLine} with {@link #thickness}, {@link #color} and {@link #cap} end type.

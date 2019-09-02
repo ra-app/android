@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
 
 import java.util.List;
 

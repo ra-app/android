@@ -1,30 +1,30 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.greenrobot.eventbus.EventBus;
-import org.bittube.messenger.R;
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.attachments.DatabaseAttachment;
-import org.bittube.messenger.attachments.PointerAttachment;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.events.PartProgressEvent;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.MediaConstraints;
-import org.bittube.messenger.mms.MediaStream;
-import org.bittube.messenger.mms.MmsException;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.service.GenericForegroundService;
-import org.bittube.messenger.service.NotificationController;
-import org.bittube.messenger.transport.UndeliverableMessageException;
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.R;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.attachments.DatabaseAttachment;
+import org.raapp.messenger.attachments.PointerAttachment;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.events.PartProgressEvent;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.MediaConstraints;
+import org.raapp.messenger.mms.MediaStream;
+import org.raapp.messenger.mms.MmsException;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.service.GenericForegroundService;
+import org.raapp.messenger.service.NotificationController;
+import org.raapp.messenger.transport.UndeliverableMessageException;
+import org.raapp.messenger.util.MediaUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment;
@@ -168,7 +168,7 @@ public class AttachmentUploadJob extends BaseJob implements InjectableType {
 
   public static final class Factory implements Job.Factory<AttachmentUploadJob> {
     @Override
-    public @NonNull AttachmentUploadJob create(@NonNull Parameters parameters, @NonNull org.bittube.messenger.jobmanager.Data data) {
+    public @NonNull AttachmentUploadJob create(@NonNull Parameters parameters, @NonNull org.raapp.messenger.jobmanager.Data data) {
       return new AttachmentUploadJob(parameters, new AttachmentId(data.getLong(KEY_ROW_ID), data.getLong(KEY_UNIQUE_ID)));
     }
   }

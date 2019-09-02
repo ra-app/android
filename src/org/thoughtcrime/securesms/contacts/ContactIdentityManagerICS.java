@@ -1,4 +1,4 @@
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.content.Context;
 import android.database.Cursor;

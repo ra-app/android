@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.contacts;
+package org.raapp.messenger.contacts;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,14 +32,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.RecyclerViewFastScroller.FastScrollAdapter;
-import org.bittube.messenger.contacts.ContactSelectionListAdapter.HeaderViewHolder;
-import org.bittube.messenger.contacts.ContactSelectionListAdapter.ViewHolder;
-import org.bittube.messenger.database.CursorRecyclerViewAdapter;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.StickyHeaderDecoration.StickyHeaderAdapter;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.RecyclerViewFastScroller.FastScrollAdapter;
+import org.raapp.messenger.contacts.ContactSelectionListAdapter.HeaderViewHolder;
+import org.raapp.messenger.contacts.ContactSelectionListAdapter.ViewHolder;
+import org.raapp.messenger.database.CursorRecyclerViewAdapter;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.StickyHeaderDecoration.StickyHeaderAdapter;
+import org.raapp.messenger.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

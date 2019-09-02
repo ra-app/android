@@ -14,19 +14,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database.model;
+package org.raapp.messenger.database.model;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import android.text.SpannableString;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.SmsDatabase.Status;
-import org.bittube.messenger.database.documents.IdentityKeyMismatch;
-import org.bittube.messenger.database.documents.NetworkFailure;
-import org.bittube.messenger.mms.SlideDeck;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.SmsDatabase.Status;
+import org.raapp.messenger.database.documents.IdentityKeyMismatch;
+import org.raapp.messenger.database.documents.NetworkFailure;
+import org.raapp.messenger.mms.SlideDeck;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.LinkedList;

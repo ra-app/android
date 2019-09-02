@@ -1,4 +1,4 @@
-package org.bittube.messenger.net;
+package org.raapp.messenger.net;
 
 import androidx.annotation.NonNull;
 import android.text.TextUtils;
@@ -6,9 +6,9 @@ import android.text.TextUtils;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.util.ContentLengthInputStream;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
 

@@ -1,13 +1,13 @@
-package org.bittube.messenger.imageeditor.renderers;
+package org.raapp.messenger.imageeditor.renderers;
 
 import android.graphics.Path;
 import android.os.Parcel;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.imageeditor.Bounds;
-import org.bittube.messenger.imageeditor.Renderer;
-import org.bittube.messenger.imageeditor.RendererContext;
+import org.raapp.messenger.imageeditor.Bounds;
+import org.raapp.messenger.imageeditor.Renderer;
+import org.raapp.messenger.imageeditor.RendererContext;
 
 /**
  * Renders the {@link color} outside of the {@link Bounds}.

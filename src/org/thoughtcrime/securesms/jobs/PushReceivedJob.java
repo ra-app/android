@@ -1,16 +1,16 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import android.annotation.SuppressLint;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
 import org.whispersystems.signalservice.api.messages.SignalServiceEnvelope;
 
 public abstract class PushReceivedJob extends BaseJob {

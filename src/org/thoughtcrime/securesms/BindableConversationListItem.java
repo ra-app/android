@@ -1,9 +1,9 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.mms.GlideRequests;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.mms.GlideRequests;
 
 import java.util.Locale;
 import java.util.Set;

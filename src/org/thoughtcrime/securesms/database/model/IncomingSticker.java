@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.model;
+package org.raapp.messenger.database.model;
 
 import androidx.annotation.NonNull;
 

@@ -1,8 +1,8 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
-import org.bittube.messenger.attachments.Attachment;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.recipients.Recipient;
+import org.raapp.messenger.attachments.Attachment;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.LinkedList;

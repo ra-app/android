@@ -1,8 +1,8 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import org.junit.Test;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.util.Util;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.bittube.messenger.jobmanager.migration;
+package org.raapp.messenger.jobmanager.migration;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,13 +7,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.jobmanager.impl.NetworkConstraint;
-import org.bittube.messenger.jobmanager.persistence.ConstraintSpec;
-import org.bittube.messenger.jobmanager.persistence.FullSpec;
-import org.bittube.messenger.jobmanager.persistence.JobSpec;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.jobmanager.impl.NetworkConstraint;
+import org.raapp.messenger.jobmanager.persistence.ConstraintSpec;
+import org.raapp.messenger.jobmanager.persistence.FullSpec;
+import org.raapp.messenger.jobmanager.persistence.JobSpec;
+import org.raapp.messenger.logging.Log;
 
 import java.util.Collections;
 import java.util.LinkedList;

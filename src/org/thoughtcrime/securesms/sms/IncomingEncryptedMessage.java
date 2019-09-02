@@ -1,4 +1,4 @@
-package org.bittube.messenger.sms;
+package org.raapp.messenger.sms;
 
 public class IncomingEncryptedMessage extends IncomingTextMessage {
 

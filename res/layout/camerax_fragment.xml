@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.bittube.messenger.mediasend.camerax.CameraXView
+    <org.raapp.messenger.mediasend.camerax.CameraXView
         android:id="@+id/camerax_camera"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

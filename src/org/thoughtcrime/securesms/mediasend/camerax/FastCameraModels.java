@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend.camerax;
+package org.raapp.messenger.mediasend.camerax;
 
 import androidx.annotation.NonNull;
 

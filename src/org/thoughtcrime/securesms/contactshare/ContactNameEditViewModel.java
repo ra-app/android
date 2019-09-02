@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
-import static org.bittube.messenger.contactshare.Contact.*;
+import static org.raapp.messenger.contactshare.Contact.*;
 
 public class ContactNameEditViewModel extends ViewModel {
 

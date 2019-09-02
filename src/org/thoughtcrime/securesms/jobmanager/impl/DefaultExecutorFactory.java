@@ -1,8 +1,8 @@
-package org.bittube.messenger.jobmanager.impl;
+package org.raapp.messenger.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.jobmanager.ExecutorFactory;
+import org.raapp.messenger.jobmanager.ExecutorFactory;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

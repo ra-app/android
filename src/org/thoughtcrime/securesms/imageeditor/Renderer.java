@@ -1,10 +1,10 @@
-package org.bittube.messenger.imageeditor;
+package org.raapp.messenger.imageeditor;
 
 import android.os.Parcelable;
 import androidx.annotation.NonNull;
 
 /**
- * Responsible for rendering a single {@link org.bittube.messenger.imageeditor.model.EditorElement} to the canvas.
+ * Responsible for rendering a single {@link org.raapp.messenger.imageeditor.model.EditorElement} to the canvas.
  * <p>
  * Because it knows the most about the whereabouts of the image it is also responsible for hit detection.
  */

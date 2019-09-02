@@ -1,12 +1,12 @@
-package org.bittube.messenger.logging;
+package org.raapp.messenger.logging;
 
 import android.content.Context;
 import androidx.annotation.AnyThread;
 import androidx.annotation.WorkerThread;
 
-import org.bittube.messenger.database.NoExternalStorageException;
-import org.bittube.messenger.util.concurrent.ListenableFuture;
-import org.bittube.messenger.util.concurrent.SettableFuture;
+import org.raapp.messenger.database.NoExternalStorageException;
+import org.raapp.messenger.util.concurrent.ListenableFuture;
+import org.raapp.messenger.util.concurrent.SettableFuture;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

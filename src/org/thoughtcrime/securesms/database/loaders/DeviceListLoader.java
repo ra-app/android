@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -6,11 +6,11 @@ import android.text.TextUtils;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.crypto.IdentityKeyUtil;
-import org.bittube.messenger.devicelist.Device;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.AsyncLoader;
-import org.bittube.messenger.util.Base64;
+import org.raapp.messenger.crypto.IdentityKeyUtil;
+import org.raapp.messenger.devicelist.Device;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.AsyncLoader;
+import org.raapp.messenger.util.Base64;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECPrivateKey;
@@ -32,7 +32,7 @@ import javax.crypto.Mac;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import static org.bittube.messenger.devicelist.DeviceNameProtos.*;
+import static org.raapp.messenger.devicelist.DeviceNameProtos.*;
 
 public class DeviceListLoader extends AsyncLoader<List<Device>> {
 

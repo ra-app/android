@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,14 +17,14 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.parsing.EmojiDrawInfo;
-import org.bittube.messenger.components.emoji.parsing.EmojiPageBitmap;
-import org.bittube.messenger.components.emoji.parsing.EmojiParser;
-import org.bittube.messenger.components.emoji.parsing.EmojiTree;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.FutureTaskListener;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.parsing.EmojiDrawInfo;
+import org.raapp.messenger.components.emoji.parsing.EmojiPageBitmap;
+import org.raapp.messenger.components.emoji.parsing.EmojiParser;
+import org.raapp.messenger.components.emoji.parsing.EmojiTree;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.FutureTaskListener;
+import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.Pair;
 
 import java.util.List;

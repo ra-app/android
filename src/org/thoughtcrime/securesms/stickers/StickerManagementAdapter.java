@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
@@ -12,11 +12,11 @@ import android.widget.TextView;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.model.StickerPackRecord;
-import org.bittube.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.StableIdGenerator;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.model.StickerPackRecord;
+import org.raapp.messenger.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.List;

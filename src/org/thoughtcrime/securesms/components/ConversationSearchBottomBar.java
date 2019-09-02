@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -8,10 +8,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 /**
- * Bottom navigation bar shown in the {@link org.bittube.messenger.conversation.ConversationActivity}
+ * Bottom navigation bar shown in the {@link org.raapp.messenger.conversation.ConversationActivity}
  * when the user is searching within a conversation. Shows details about the results and allows the
  * user to move between them.
  */

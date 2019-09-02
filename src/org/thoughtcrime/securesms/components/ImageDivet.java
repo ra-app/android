@@ -1,4 +1,4 @@
-package org.bittube.messenger.components;
+package org.raapp.messenger.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import androidx.appcompat.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class ImageDivet extends AppCompatImageView {
   private static final float CORNER_OFFSET = 12F;

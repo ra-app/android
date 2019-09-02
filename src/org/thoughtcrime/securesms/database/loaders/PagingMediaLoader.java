@@ -1,4 +1,4 @@
-package org.bittube.messenger.database.loaders;
+package org.raapp.messenger.database.loaders;
 
 
 import android.content.Context;
@@ -8,12 +8,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Pair;
 
-import org.bittube.messenger.attachments.AttachmentId;
-import org.bittube.messenger.database.AttachmentDatabase;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.util.AsyncLoader;
+import org.raapp.messenger.attachments.AttachmentId;
+import org.raapp.messenger.database.AttachmentDatabase;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.AsyncLoader;
 
 public class PagingMediaLoader extends AsyncLoader<Pair<Cursor, Integer>> {
 

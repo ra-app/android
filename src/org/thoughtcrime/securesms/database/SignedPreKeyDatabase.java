@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 
 import android.content.ContentValues;
@@ -9,9 +9,9 @@ import androidx.annotation.Nullable;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Base64;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Base64;
 import org.whispersystems.libsignal.InvalidKeyException;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECKeyPair;

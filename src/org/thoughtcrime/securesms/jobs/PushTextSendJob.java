@@ -1,26 +1,26 @@
-package org.bittube.messenger.jobs;
+package org.raapp.messenger.jobs;
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.database.MessagingDatabase.SyncMessageId;
-import org.bittube.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
+import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
+import org.raapp.messenger.database.RecipientDatabase.UnidentifiedAccessMode;
 
-import org.bittube.messenger.ApplicationContext;
-import org.bittube.messenger.crypto.UnidentifiedAccessUtil;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.NoSuchMessageException;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.model.SmsMessageRecord;
-import org.bittube.messenger.dependencies.InjectableType;
-import org.bittube.messenger.jobmanager.Data;
-import org.bittube.messenger.jobmanager.Job;
-import org.bittube.messenger.notifications.MessageNotifier;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.service.ExpiringMessageManager;
-import org.bittube.messenger.transport.InsecureFallbackApprovalException;
-import org.bittube.messenger.transport.RetryLaterException;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ApplicationContext;
+import org.raapp.messenger.crypto.UnidentifiedAccessUtil;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.NoSuchMessageException;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.model.SmsMessageRecord;
+import org.raapp.messenger.dependencies.InjectableType;
+import org.raapp.messenger.jobmanager.Data;
+import org.raapp.messenger.jobmanager.Job;
+import org.raapp.messenger.notifications.MessageNotifier;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.service.ExpiringMessageManager;
+import org.raapp.messenger.transport.InsecureFallbackApprovalException;
+import org.raapp.messenger.transport.RetryLaterException;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccessPair;

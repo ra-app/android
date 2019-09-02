@@ -1,4 +1,4 @@
-package org.bittube.messenger.providers;
+package org.raapp.messenger.providers;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,13 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.AttachmentSecretProvider;
-import org.bittube.messenger.crypto.ModernDecryptingPartInputStream;
-import org.bittube.messenger.crypto.ModernEncryptingPartOutputStream;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.AttachmentSecretProvider;
+import org.raapp.messenger.crypto.ModernDecryptingPartInputStream;
+import org.raapp.messenger.crypto.ModernEncryptingPartOutputStream;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -36,8 +36,8 @@ public class BlobProvider {
   private static final String MULTI_SESSION_DIRECTORY  = "multi_session_blobs";
   private static final String SINGLE_SESSION_DIRECTORY = "single_session_blobs";
 
-  public static final Uri        CONTENT_URI = Uri.parse("content://org.bittube.messenger/blob");
-  public static final String     AUTHORITY   = "org.bittube.messenger";
+  public static final Uri        CONTENT_URI = Uri.parse("content://org.raapp.messenger/blob");
+  public static final String     AUTHORITY   = "org.raapp.messenger";
   public static final String     PATH        = "blob/*/*/*/*/*";
 
   private static final int STORAGE_TYPE_PATH_SEGMENT = 1;

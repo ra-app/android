@@ -46,9 +46,9 @@
               android:layout_below="@id/toolbar"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:name="org.bittube.messenger.ContactSelectionListFragment" />
+              android:name="org.raapp.messenger.ContactSelectionListFragment" />
 
-    <org.bittube.messenger.components.SearchToolbar
+    <org.raapp.messenger.components.SearchToolbar
             android:id="@+id/search_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

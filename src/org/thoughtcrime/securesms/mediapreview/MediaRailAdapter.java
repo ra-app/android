@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediapreview;
+package org.raapp.messenger.mediapreview;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,11 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.ThumbnailView;
-import org.bittube.messenger.mediasend.Media;
-import org.bittube.messenger.mms.GlideRequests;
-import org.bittube.messenger.util.StableIdGenerator;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.ThumbnailView;
+import org.raapp.messenger.mediasend.Media;
+import org.raapp.messenger.mms.GlideRequests;
+import org.raapp.messenger.util.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.service;
+package org.raapp.messenger.service;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -6,13 +6,13 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.MessageSender;
-import org.bittube.messenger.sms.OutgoingTextMessage;
-import org.bittube.messenger.util.Rfc5724Uri;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.MessageSender;
+import org.raapp.messenger.sms.OutgoingTextMessage;
+import org.raapp.messenger.util.Rfc5724Uri;
 
 import java.net.URISyntaxException;
 import java.net.URLDecoder;

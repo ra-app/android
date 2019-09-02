@@ -1,4 +1,4 @@
-package org.bittube.messenger.util.spans;
+package org.raapp.messenger.util.spans;
 
 
 import androidx.annotation.NonNull;

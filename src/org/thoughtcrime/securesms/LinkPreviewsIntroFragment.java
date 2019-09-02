@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.bittube.messenger.jobs.MultiDeviceConfigurationUpdateJob;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.jobs.MultiDeviceConfigurationUpdateJob;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class LinkPreviewsIntroFragment extends Fragment {
 

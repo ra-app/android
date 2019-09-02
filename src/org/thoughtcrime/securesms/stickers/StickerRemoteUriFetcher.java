@@ -1,4 +1,4 @@
-package org.bittube.messenger.stickers;
+package org.raapp.messenger.stickers;
 
 import androidx.annotation.NonNull;
 
@@ -7,7 +7,7 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.google.android.gms.common.util.Hex;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 import org.whispersystems.libsignal.InvalidMessageException;
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver;
 

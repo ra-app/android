@@ -1,4 +1,4 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 
 import android.app.PendingIntent;
@@ -6,11 +6,11 @@ import android.content.Context;
 import android.content.Intent;
 import androidx.core.app.NotificationCompat;
 
-import org.bittube.messenger.ConversationListActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class PendingMessageNotificationBuilder extends AbstractNotificationBuilder {
 

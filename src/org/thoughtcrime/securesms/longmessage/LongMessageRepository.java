@@ -1,4 +1,4 @@
-package org.bittube.messenger.longmessage;
+package org.raapp.messenger.longmessage;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,16 +6,16 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.database.MmsDatabase;
-import org.bittube.messenger.database.SmsDatabase;
-import org.bittube.messenger.database.model.MessageRecord;
-import org.bittube.messenger.database.model.MmsMessageRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.PartAuthority;
-import org.bittube.messenger.mms.TextSlide;
-import org.bittube.messenger.util.Util;
-import org.bittube.messenger.util.concurrent.SignalExecutors;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MmsDatabase;
+import org.raapp.messenger.database.SmsDatabase;
+import org.raapp.messenger.database.model.MessageRecord;
+import org.raapp.messenger.database.model.MmsMessageRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.PartAuthority;
+import org.raapp.messenger.mms.TextSlide;
+import org.raapp.messenger.util.Util;
+import org.raapp.messenger.util.concurrent.SignalExecutors;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.IOException;

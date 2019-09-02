@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.preferences;
+package org.raapp.messenger.preferences;
 
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.PassphraseRequiredActionBarActivity;
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.CustomDefaultPreference;
-import org.bittube.messenger.database.ApnDatabase;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.LegacyMmsConnection;
-import org.bittube.messenger.util.TelephonyUtil;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.PassphraseRequiredActionBarActivity;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.CustomDefaultPreference;
+import org.raapp.messenger.database.ApnDatabase;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.LegacyMmsConnection;
+import org.raapp.messenger.util.TelephonyUtil;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 import java.io.IOException;
 

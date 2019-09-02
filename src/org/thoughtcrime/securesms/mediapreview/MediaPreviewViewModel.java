@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediapreview;
+package org.raapp.messenger.mediapreview;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.database.MediaDatabase.MediaRecord;
-import org.bittube.messenger.mediasend.Media;
+import org.raapp.messenger.database.MediaDatabase.MediaRecord;
+import org.raapp.messenger.mediasend.Media;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.Collections;

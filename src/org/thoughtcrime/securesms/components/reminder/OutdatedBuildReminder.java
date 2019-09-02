@@ -1,15 +1,15 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import android.widget.Toast;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.Util;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.Util;
 
 public class OutdatedBuildReminder extends Reminder {
 

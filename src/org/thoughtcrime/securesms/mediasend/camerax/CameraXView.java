@@ -1,4 +1,4 @@
-package org.bittube.messenger.mediasend.camerax;
+package org.raapp.messenger.mediasend.camerax;
 
 /*
  * Copyright (C) 2019 The Android Open Source Project
@@ -57,7 +57,7 @@ import androidx.camera.core.ImageProxy;
 import androidx.camera.core.VideoCapture.OnVideoSavedListener;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.io.File;
 

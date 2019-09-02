@@ -1,13 +1,13 @@
-package org.bittube.messenger.backup;
+package org.raapp.messenger.backup;
 
 import android.content.Context;
 import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.bittube.messenger.crypto.KeyStoreHelper;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.crypto.KeyStoreHelper;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 /**
  * Allows the getting and setting of the backup passphrase, which is stored encrypted on API >= 23.

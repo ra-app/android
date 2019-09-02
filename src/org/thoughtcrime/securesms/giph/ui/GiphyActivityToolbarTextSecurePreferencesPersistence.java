@@ -1,8 +1,8 @@
-package org.bittube.messenger.giph.ui;
+package org.raapp.messenger.giph.ui;
 
 import android.content.Context;
 
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 class GiphyActivityToolbarTextSecurePreferencesPersistence implements GiphyActivityToolbar.Persistence {
 

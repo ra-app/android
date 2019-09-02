@@ -1,4 +1,4 @@
-package org.bittube.messenger.linkpreview;
+package org.raapp.messenger.linkpreview;
 
 public class Link {
 

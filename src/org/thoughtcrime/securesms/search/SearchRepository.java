@@ -1,4 +1,4 @@
-package org.bittube.messenger.search;
+package org.raapp.messenger.search;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,20 +11,20 @@ import android.text.TextUtils;
 import com.annimon.stream.Stream;
 
 
-import org.bittube.messenger.contacts.ContactAccessor;
-import org.bittube.messenger.contacts.ContactsDatabase;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.CursorList;
-import org.bittube.messenger.database.MmsSmsColumns;
-import org.bittube.messenger.database.SearchDatabase;
-import org.bittube.messenger.database.ThreadDatabase;
-import org.bittube.messenger.database.model.ThreadRecord;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.permissions.Permissions;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.search.model.MessageResult;
-import org.bittube.messenger.search.model.SearchResult;
-import org.bittube.messenger.util.Stopwatch;
+import org.raapp.messenger.contacts.ContactAccessor;
+import org.raapp.messenger.contacts.ContactsDatabase;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.CursorList;
+import org.raapp.messenger.database.MmsSmsColumns;
+import org.raapp.messenger.database.SearchDatabase;
+import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.database.model.ThreadRecord;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.permissions.Permissions;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.search.model.MessageResult;
+import org.raapp.messenger.search.model.SearchResult;
+import org.raapp.messenger.util.Stopwatch;
 
 import java.util.HashSet;
 import java.util.List;

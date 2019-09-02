@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.recyclerview;
+package org.raapp.messenger.components.recyclerview;
 
 import android.content.Context;
 import androidx.annotation.NonNull;

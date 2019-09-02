@@ -1,13 +1,13 @@
-package org.bittube.messenger.notifications;
+package org.raapp.messenger.notifications;
 
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.database.RecipientDatabase;
-import org.bittube.messenger.preferences.widgets.NotificationPrivacyPreference;
+import org.raapp.messenger.R;
+import org.raapp.messenger.database.RecipientDatabase;
+import org.raapp.messenger.preferences.widgets.NotificationPrivacyPreference;
 
 public class FailedNotificationBuilder extends AbstractNotificationBuilder {
 

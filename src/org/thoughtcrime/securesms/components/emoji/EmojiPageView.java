@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.emoji;
+package org.raapp.messenger.components.emoji;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
-import org.bittube.messenger.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
+import org.raapp.messenger.R;
+import org.raapp.messenger.components.emoji.EmojiKeyboardProvider.EmojiEventListener;
+import org.raapp.messenger.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
 
 public class EmojiPageView extends FrameLayout implements VariationSelectorListener {
   private static final String TAG = EmojiPageView.class.getSimpleName();

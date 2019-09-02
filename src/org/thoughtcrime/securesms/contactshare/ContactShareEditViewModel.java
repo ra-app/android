@@ -1,4 +1,4 @@
-package org.bittube.messenger.contactshare;
+package org.raapp.messenger.contactshare;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.bittube.messenger.contactshare.Contact.Name;
-import org.bittube.messenger.util.SingleLiveEvent;
+import org.raapp.messenger.contactshare.Contact.Name;
+import org.raapp.messenger.util.SingleLiveEvent;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 public class NoSuchMessageException extends Exception {
   public NoSuchMessageException(String s) {super(s);}

@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -45,11 +45,11 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
-import org.bittube.messenger.BuildConfig;
-import org.bittube.messenger.components.ComposeText;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.OutgoingLegacyMmsConnection;
+import org.raapp.messenger.BuildConfig;
+import org.raapp.messenger.components.ComposeText;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.OutgoingLegacyMmsConnection;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.io.ByteArrayOutputStream;

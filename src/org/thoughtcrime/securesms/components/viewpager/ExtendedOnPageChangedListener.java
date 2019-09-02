@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.viewpager;
+package org.raapp.messenger.components.viewpager;
 
 
 import androidx.viewpager.widget.ViewPager;

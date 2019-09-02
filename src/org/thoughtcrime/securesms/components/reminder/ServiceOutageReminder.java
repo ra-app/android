@@ -1,10 +1,10 @@
-package org.bittube.messenger.components.reminder;
+package org.raapp.messenger.components.reminder;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.R;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.R;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class ServiceOutageReminder extends Reminder {
 

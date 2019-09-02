@@ -1,4 +1,4 @@
-package org.bittube.messenger.util;
+package org.raapp.messenger.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,9 +18,9 @@ import android.util.Pair;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.bittube.messenger.logging.Log;
-import org.bittube.messenger.mms.GlideApp;
-import org.bittube.messenger.mms.MediaConstraints;
+import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.mms.GlideApp;
+import org.raapp.messenger.mms.MediaConstraints;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

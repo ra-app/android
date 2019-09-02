@@ -1,14 +1,14 @@
-package org.bittube.messenger.mms;
+package org.raapp.messenger.mms;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import com.bumptech.glide.load.data.StreamLocalUriFetcher;
 
-import org.bittube.messenger.util.MediaUtil;
+import org.raapp.messenger.util.MediaUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -1,4 +1,4 @@
-package org.bittube.messenger.components.registration;
+package org.raapp.messenger.components.registration;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import android.util.AttributeSet;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 public class CallMeCountDownView extends androidx.appcompat.widget.AppCompatButton {
 

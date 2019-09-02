@@ -14,24 +14,24 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.bittube.messenger.database;
+package org.raapp.messenger.database;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
-import org.bittube.messenger.DatabaseUpgradeActivity;
-import org.bittube.messenger.contacts.ContactsDatabase;
-import org.bittube.messenger.crypto.AttachmentSecret;
-import org.bittube.messenger.crypto.AttachmentSecretProvider;
-import org.bittube.messenger.crypto.DatabaseSecret;
-import org.bittube.messenger.crypto.DatabaseSecretProvider;
-import org.bittube.messenger.crypto.MasterSecret;
-import org.bittube.messenger.database.helpers.ClassicOpenHelper;
-import org.bittube.messenger.database.helpers.SQLCipherMigrationHelper;
-import org.bittube.messenger.database.helpers.SQLCipherOpenHelper;
-import org.bittube.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.DatabaseUpgradeActivity;
+import org.raapp.messenger.contacts.ContactsDatabase;
+import org.raapp.messenger.crypto.AttachmentSecret;
+import org.raapp.messenger.crypto.AttachmentSecretProvider;
+import org.raapp.messenger.crypto.DatabaseSecret;
+import org.raapp.messenger.crypto.DatabaseSecretProvider;
+import org.raapp.messenger.crypto.MasterSecret;
+import org.raapp.messenger.database.helpers.ClassicOpenHelper;
+import org.raapp.messenger.database.helpers.SQLCipherMigrationHelper;
+import org.raapp.messenger.database.helpers.SQLCipherOpenHelper;
+import org.raapp.messenger.util.TextSecurePreferences;
 
 public class DatabaseFactory {
 

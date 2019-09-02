@@ -1,4 +1,4 @@
-package org.bittube.messenger.glide.cache;
+package org.raapp.messenger.glide.cache;
 
 
 import androidx.annotation.NonNull;
@@ -7,7 +7,7 @@ import com.bumptech.glide.load.Encoder;
 import com.bumptech.glide.load.Options;
 import com.bumptech.glide.load.engine.bitmap_recycle.ArrayPool;
 
-import org.bittube.messenger.logging.Log;
+import org.raapp.messenger.logging.Log;
 
 import java.io.File;
 import java.io.IOException;

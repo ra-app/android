@@ -1,9 +1,9 @@
-package org.bittube.messenger.crypto;
+package org.raapp.messenger.crypto;
 
 
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.util.Hex;
+import org.raapp.messenger.util.Hex;
 
 import java.io.IOException;
 

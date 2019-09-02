@@ -1,4 +1,4 @@
-package org.bittube.messenger;
+package org.raapp.messenger;
 
 import android.animation.Animator;
 import android.annotation.SuppressLint;
@@ -24,17 +24,17 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.bittube.messenger.components.ContactFilterToolbar;
-import org.bittube.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
-import org.bittube.messenger.contacts.ContactsCursorLoader.DisplayMode;
-import org.bittube.messenger.database.Address;
-import org.bittube.messenger.database.DatabaseFactory;
-import org.bittube.messenger.recipients.Recipient;
-import org.bittube.messenger.sms.MessageSender;
-import org.bittube.messenger.sms.OutgoingTextMessage;
-import org.bittube.messenger.util.ViewUtil;
-import org.bittube.messenger.util.concurrent.ListenableFuture.Listener;
-import org.bittube.messenger.util.task.ProgressDialogAsyncTask;
+import org.raapp.messenger.components.ContactFilterToolbar;
+import org.raapp.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
+import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.MessageSender;
+import org.raapp.messenger.sms.OutgoingTextMessage;
+import org.raapp.messenger.util.ViewUtil;
+import org.raapp.messenger.util.concurrent.ListenableFuture.Listener;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
 
 import java.util.concurrent.ExecutionException;
 

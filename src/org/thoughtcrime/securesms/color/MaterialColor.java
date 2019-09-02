@@ -1,4 +1,4 @@
-package org.bittube.messenger.color;
+package org.raapp.messenger.color;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -6,12 +6,12 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 
-import org.bittube.messenger.R;
+import org.raapp.messenger.R;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.bittube.messenger.util.ThemeUtil.isDarkTheme;
+import static org.raapp.messenger.util.ThemeUtil.isDarkTheme;
 
 public enum MaterialColor {
   CRIMSON    (R.color.conversation_crimson,     R.color.conversation_crimson_tint,     R.color.conversation_crimson_shade,     "red"),
