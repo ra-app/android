@@ -322,11 +322,11 @@ android {
         multiDexEnabled true
 
         vectorDrawables.useSupportLibrary = true
-        project.ext.set("archivesBaseName", "Bittube Messenger");
+        project.ext.set("archivesBaseName", "OfficeApp");
 
         buildConfigField "long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L"
-        buildConfigField "String", "SIGNAL_URL", "\"https://signal.mach.48b.it\""
-        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.mach.48b.it\""
+        buildConfigField "String", "SIGNAL_URL", "\"https://signal.officeapp.eu\""
+        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.officeapp.eu\""
         buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://localhost\""
         buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.org\""
         buildConfigField "String", "CONTENT_PROXY_HOST", "\"contentproxy.signal.org\""
@@ -504,11 +504,11 @@ def signProductionRelease = { variant ->
     }
 }
 
-task signProductionPlayRelease {
+/*task signProductionPlayRelease {
     doLast {
         signProductionRelease(android.applicationVariants.find { (it.name == 'playRelease') })
     }
-}
+}*/
 
 task signProductionWebsiteRelease {
     doLast {
@@ -519,9 +519,9 @@ task signProductionWebsiteRelease {
 }
 
 tasks.whenTaskAdded { task ->
-    if (task.name.equals("assemblePlayRelease")) {
+    /*if (task.name.equals("assemblePlayRelease")) {
         task.finalizedBy signProductionPlayRelease
-    }
+    }*/
 
     if (task.name.equals("assembleWebsiteRelease")) {
         task.finalizedBy signProductionWebsiteRelease
