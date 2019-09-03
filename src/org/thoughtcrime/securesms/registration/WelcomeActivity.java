@@ -27,7 +27,7 @@ public class WelcomeActivity extends BaseActionBarActivity {
   }
 
   private void onTermsClicked() {
-    CommunicationActions.openBrowserLink(this, "https://signal.org/legal");
+    CommunicationActions.openBrowserLink(this, "https://raapp.com/legal");
   }
 
   private void onContinueClicked() {

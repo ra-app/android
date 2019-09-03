@@ -328,7 +328,7 @@ android {
         buildConfigField "String", "SIGNAL_URL", "\"https://signal.officeapp.eu\""
         buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.officeapp.eu\""
         buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://localhost\""
-        buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.org\""
+        buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.officeapp.eu\""
         buildConfigField "String", "CONTENT_PROXY_HOST", "\"contentproxy.signal.org\""
         buildConfigField "int", "CONTENT_PROXY_PORT", "443"
         buildConfigField "String", "USER_AGENT", "\"OWA\""
@@ -411,7 +411,7 @@ android {
 
         website {
             dimension "none"
-            ext.websiteUpdateUrl = "https://updates.signal.org/android"
+            ext.websiteUpdateUrl = "https://signal.officeapp.eu/updates/android"
             buildConfigField "boolean", "PLAY_STORE_DISABLED", "true"
             buildConfigField "String", "NOPLAY_UPDATE_URL", "\"$ext.websiteUpdateUrl\""
         }

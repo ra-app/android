@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Signal</string>
+  <string name="app_name">OfficeApp</string>
   <string name="yes">ਹਾਂ</string>
   <string name="no">ਨਹੀਂ </string>
   <string name="delete">ਮਿਟਾਓ </string>
@@ -25,17 +25,17 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">ਕੱਟ</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">ਪਾਸਫਰੇਜ ਨੂੰ ਅਸਮਰੱਥ ਕਰੋ ?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">ਇਹ ਹਮੇਸ਼ਾ ਲਈ Signal ਅਤੇ ਸੂਚਨਾਵਾਂ ਨੂੰ ਖੋਲ ਦਏਗਾ </string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">ਇਹ ਹਮੇਸ਼ਾ ਲਈ OfficeApp ਅਤੇ ਸੂਚਨਾਵਾਂ ਨੂੰ ਖੋਲ ਦਏਗਾ </string>
   <string name="ApplicationPreferencesActivity_disable">ਅਸਮਰੱਥ ਕਰੋ</string>
   <string name="ApplicationPreferencesActivity_unregistering">ਅਨਰਜਿਸਰ ਹੋ ਰਿਹਾ ਹੈ </string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਤੋਂ ਅਨਰਜਿਸਰ ਹੋ ਰਿਹਾ ਹੈ </string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal ਦੇ ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਬੰਦ ਕਰੋ </string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Signal ਦੇ ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਬੰਦ ਕਰਨ ਲਈ ਸਰਵਰ ਤੋਂ ਅਨਰਜਿਸਰ  ਕਰੋ | ਭਵਿੱਖ ਵਿਚ ਦੋਬਾਰਾ ਵਰਤਣ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੇ ਫੋਨ ਨੰਬਰ ਨਾਲ ਪੰਜੀਕਰਨ ਕਰਨਾ ਪੈਣਾ ਹੈ </string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">OfficeApp ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਤੋਂ ਅਨਰਜਿਸਰ ਹੋ ਰਿਹਾ ਹੈ </string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">OfficeApp ਦੇ ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਬੰਦ ਕਰੋ </string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">OfficeApp ਦੇ ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਬੰਦ ਕਰਨ ਲਈ ਸਰਵਰ ਤੋਂ ਅਨਰਜਿਸਰ  ਕਰੋ | ਭਵਿੱਖ ਵਿਚ ਦੋਬਾਰਾ ਵਰਤਣ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੇ ਫੋਨ ਨੰਬਰ ਨਾਲ ਪੰਜੀਕਰਨ ਕਰਨਾ ਪੈਣਾ ਹੈ </string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">ਸਰਵਰ ਨਾਲ ਜੁੜਣ ਵਿਚ ਦਿੱਕਤ ਹੋ ਰਹੀ ਹੈ </string>
   <string name="ApplicationPreferencesActivity_sms_enabled">ਸਮਸ ਚੱਲ ਰਹੇ ਹਨ  </string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">ਆਪਣੀ ਮੁੱਖ SMS ਐੱਪ ਨੂੰ ਬਦਲਣ ਲਈ ਛੂਹੋ</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">ਸਮਸ ਬੰਦ ਹਨ </string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Signal ਨੂੰ ਮੁੱਖ ਐੱਪ ਬਣੌਨ ਲਈ ਛੂਹੋ</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">OfficeApp ਨੂੰ ਮੁੱਖ ਐੱਪ ਬਣੌਨ ਲਈ ਛੂਹੋ</string>
   <string name="ApplicationPreferencesActivity_on">ਚਲਾਓ </string>
   <string name="ApplicationPreferencesActivity_On">ਚਲਾਓ </string>
   <string name="ApplicationPreferencesActivity_off">ਬੰਦ </string>
@@ -56,10 +56,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(ਜਵਾਬ )</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">ਇਸ ਮੀਡੀਆ ਨੂੰ ਚੁਣਨ ਲਈ ਕੋਈ ਐਪ ਨਹੀਂ ਹੈ</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal ਨੂੰ ਫੋਟੋਜ਼, ਵਿਡੀਓ ਜਾਂ ਆਡੀਓ ਜੋੜਨ ਲਈ ਸਟੋਰੇਜ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਟੋਰੇਜ\" ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal ਨੂੰ ਸੰਪਰਕ ਜਾਣਕਾਰੀ  ਜੋੜਨ ਲਈ ਸੰਪਰਕਾਂ  ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸੰਪਰਕ\" ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal ਨੂੰ ਸਥਾਨ ਜੋੜਨ ਲਈ ਸਥਾਨ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਥਾਨ\" ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">ਫੋਟੋਆਂ ਖਿੱਚਣ ਲਈ Signal ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">OfficeApp ਨੂੰ ਫੋਟੋਜ਼, ਵਿਡੀਓ ਜਾਂ ਆਡੀਓ ਜੋੜਨ ਲਈ ਸਟੋਰੇਜ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਟੋਰੇਜ\" ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">OfficeApp ਨੂੰ ਸੰਪਰਕ ਜਾਣਕਾਰੀ  ਜੋੜਨ ਲਈ ਸੰਪਰਕਾਂ  ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸੰਪਰਕ\" ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">OfficeApp ਨੂੰ ਸਥਾਨ ਜੋੜਨ ਲਈ ਸਥਾਨ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਥਾਨ\" ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">ਫੋਟੋਆਂ ਖਿੱਚਣ ਲਈ OfficeApp ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
   <!--AttachmentUploadJob-->
   <!--AudioSlidePlayer-->
   <string name="AudioSlidePlayer_error_playing_audio">ਔਡੀਓ ਚਲੌਣ ਵਿੱਚ ਗਲਤੀ</string>
@@ -81,7 +81,7 @@
   <string name="CommunicationActions_no_browser_found">ਕੋਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ ਨਹੀਂ ਲੱਭਿਆ </string>
   <string name="CommunicationActions_a_cellular_call_is_already_in_progress">ਸੈਲਿਊਲਰ ਕਾਲ ਪਹਿਲਾਂ ਹੀ ਪ੍ਰਗਤੀ ਵਿੱਚ ਹੈ</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਬਦਲ ਗਿਆ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਤੁਸੀਂ %2$s Signal ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਬਦਲ ਗਿਆ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਤੁਸੀਂ %2$s OfficeApp ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">ਤੁਸੀਂ ਇਸ ਸੰਪਰਕ ਨਾਲ ਆਪਣਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਪ੍ਰਮਾਣਿਤ ਕਰ ਸਕਦੇ ਹੋ</string>
   <string name="ConfirmIdentityDialog_accept">ਸਵੀਕਾਰ ਕਰੋ</string>
   <!--ContactsCursorLoader-->
@@ -90,7 +90,7 @@
   <string name="ContactsCursorLoader_groups">ਗਰੁੱਪ</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">ਸੁਨੇਹਾ  %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal ਕਾਲ %s</string>
+  <string name="ContactsDatabase_signal_call_s">OfficeApp ਕਾਲ %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">ਨਾਮ</string>
   <string name="ContactNameEditActivity_family_name">ਗੋਤ </string>
@@ -110,7 +110,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">ਭੇਜਣਾ ਅਸਫਲ, ਅਸੁਰੱਖਿਅਤ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">ਅਨਐਨਕ੍ਰਿਪਟਡ ਐਸਐਮਐਸ ਤੇ ਵਾਪਿਸ ਜਾਓ ?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">ਅਨਐਨਕ੍ਰਿਪਟਡ ਐਮਐਮਐਸ ਤੇ ਵਾਪਿਸ ਜਾਓ ?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">ਇਹ ਸੁਨੇਹਾ ਏਨਕ੍ਰਿਪਟ <b>ਨਹੀਂ </b> ਕੀਤਾ ਜਾਵੇਗਾ ਕਿਉਂਕਿ ਪ੍ਰਾਪਤਕਰਤਾ ਹੁਣ Signal ਉਪਭੋਗਤਾ ਨਹੀਂ ਹੈ. \n\n ਅਸੁਰੱਖਿਅਤ ਸੁਨੇਹਾ ਭੇਜੋ?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">ਇਹ ਸੁਨੇਹਾ ਏਨਕ੍ਰਿਪਟ <b>ਨਹੀਂ </b> ਕੀਤਾ ਜਾਵੇਗਾ ਕਿਉਂਕਿ ਪ੍ਰਾਪਤਕਰਤਾ ਹੁਣ OfficeApp ਉਪਭੋਗਤਾ ਨਹੀਂ ਹੈ. \n\n ਅਸੁਰੱਖਿਅਤ ਸੁਨੇਹਾ ਭੇਜੋ?</string>
   <string name="ConversationItem_unable_to_open_media">ਇਸ ਮੀਡੀਆ ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ  ਕੋਈ ਐਪ ਨਹੀਂ ਹੈ </string>
   <string name="ConversationItem_copied_text">ਕਾਪੀ ਕੀਤਾ %s</string>
   <string name="ConversationItem_from_s">%s ਵੱਲੋ  </string>
@@ -137,8 +137,8 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">ਕੀ ਤੁਸੀਂ ਨਿਸ਼ਚਤ ਰੂਪ ਤੋਂ ਇਸ ਗਰੁੱਪ ਨੂੰ ਛੱਡਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
   <string name="ConversationActivity_transport_insecure_sms">ਅਸੁਰੱਖਿਅਤ ਐਸਐਮਐਸ</string>
   <string name="ConversationActivity_transport_insecure_mms">ਅਸੁਰੱਖਿਅਤ ਐਮਐਮਐਸ</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">ਆਓ Signal ਤੇ ਸਵਿਚ ਕਰੀਏ %1$s</string>
+  <string name="ConversationActivity_transport_signal">OfficeApp</string>
+  <string name="ConversationActivity_lets_switch_to_signal">ਆਓ OfficeApp ਤੇ ਸਵਿਚ ਕਰੀਏ %1$s</string>
   <string name="ConversationActivity_error_leaving_group">ਗਰੁੱਪ ਛੱਡਣ ਵਿੱਚ ਗਲਤੀ</string>
   <string name="ConversationActivity_specify_recipient">ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਸੰਪਰਕ ਚੁਣੋ</string>
   <string name="ConversationActivity_unblock_this_contact_question">ਇਸ ਸੰਪਰਕ ਨੂੰ ਅਨਬਲੌਕ ਕਰੋ ?</string>
@@ -150,15 +150,15 @@
   <string name="ConversationActivity_quick_camera_unavailable">ਕੈਮਰਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ </string>
   <string name="ConversationActivity_unable_to_record_audio">ਆਡੀਓ ਰਿਕਾਰਡ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ਇਸ ਲਿੰਕ ਨੂੰ ਚਲੌਨ ਲਈ ਕੋਈ ਐੱਪ ਨਹੀਂ ਹੈ ਤੁਹਾਡੇ ਫੋਨ ਤੇ </string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ਆਡੀਓ ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ, Signal ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਆਗਿਆ ਦਿਓ </string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ਆਡੀਓ ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਲਈ Signal ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ,ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਮਾਈਕ੍ਰੋਫੋਨ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">%sਨੂੰ ਕਾਲ ਕਰਨ ਲਈ , Signal ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਆਗਿਆ ਦੀ ਲੋੜ ਹੈ </string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">%s ਨੂੰ ਕਾਲ ਕਰਨ ਲਈ Signal ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਅਤੇ ਕੈਮਰਾ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੈ,ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਮਾਈਕ੍ਰੋਫੋਨ\" ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ਵੀਡੀਓ ਅਤੇ ਫੋਟੋਆਂ ਖਿੱਚਣ ਲਈ Signal ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦਿਓ </string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ਵੀਡੀਓ ਅਤੇ ਫੋਟੋਆਂ ਖਿੱਚਣ ਲਈ Signal ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal ਨੂੰ ਫੋਟੋਆਂ ਜਾਂ ਵੀਡੀਓ ਲੈਣ ਲਈ ਕੈਮਰਾ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੈ</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ਆਡੀਓ ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ, OfficeApp ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਆਗਿਆ ਦਿਓ </string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ਆਡੀਓ ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਲਈ OfficeApp ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ,ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਮਾਈਕ੍ਰੋਫੋਨ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">%sਨੂੰ ਕਾਲ ਕਰਨ ਲਈ , OfficeApp ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਆਗਿਆ ਦੀ ਲੋੜ ਹੈ </string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">%s ਨੂੰ ਕਾਲ ਕਰਨ ਲਈ OfficeApp ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਅਤੇ ਕੈਮਰਾ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੈ,ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਮਾਈਕ੍ਰੋਫੋਨ\" ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ਵੀਡੀਓ ਅਤੇ ਫੋਟੋਆਂ ਖਿੱਚਣ ਲਈ OfficeApp ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦਿਓ </string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ਵੀਡੀਓ ਅਤੇ ਫੋਟੋਆਂ ਖਿੱਚਣ ਲਈ OfficeApp ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">OfficeApp ਨੂੰ ਫੋਟੋਆਂ ਜਾਂ ਵੀਡੀਓ ਲੈਣ ਲਈ ਕੈਮਰਾ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੈ</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal ਐਸਐਮਐਸ / ਐਮਐਮਐਸ ਸੰਦੇਸ਼ ਨਹੀਂ ਭੇਜ ਸਕਦਾ ਕਿਉਂਕਿ ਇਹ ਤੁਹਾਡਾ ਡਿਫੌਲਟ ਐਸਐਮਐਸ ਐਪ ਨਹੀਂ ਹੈ | ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਆਪਣੀ Android ਸੈਟਿੰਗ ਵਿੱਚ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">OfficeApp ਐਸਐਮਐਸ / ਐਮਐਮਐਸ ਸੰਦੇਸ਼ ਨਹੀਂ ਭੇਜ ਸਕਦਾ ਕਿਉਂਕਿ ਇਹ ਤੁਹਾਡਾ ਡਿਫੌਲਟ ਐਸਐਮਐਸ ਐਪ ਨਹੀਂ ਹੈ | ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਆਪਣੀ Android ਸੈਟਿੰਗ ਵਿੱਚ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
   <string name="ConversationActivity_yes">ਹਾਂ</string>
   <string name="ConversationActivity_no">ਨਹੀਂ </string>
   <string name="ConversationActivity_search_position">%1$dਦੇ %2$d </string>
@@ -198,7 +198,7 @@
     <item quantity="other">%1$d ਅਟੈਚਮੈਂਟਸ ਦਰਜ ਕਰ ਰਿਹਾ ਹੈ </item>
   </plurals>
   <string name="ConversationFragment_pending">ਬਕਾਇਆ ...</string>
-  <string name="ConversationFragment_push">ਡੇਟਾ(Signal)</string>
+  <string name="ConversationFragment_push">ਡੇਟਾ(OfficeApp)</string>
   <string name="ConversationFragment_mms">ਐਮਐਮਐੱਸ </string>
   <string name="ConversationFragment_sms">ਐਸਐਮਐਸ</string>
   <string name="ConversationFragment_deleting">ਮਿਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ</string>
@@ -242,7 +242,7 @@
   <string name="CreateProfileActivity_too_long">ਬਹੁਤ ਲੰਮਾ</string>
   <string name="CreateProfileActivity_profile_name">ਪਰੋਫਾਇਲ ਨਾਮ </string>
   <string name="CreateProfileActivity_set_up_your_profile">ਆਪਣੀ ਪ੍ਰੋਫਾਈਲ ਸੈਟਅਪ ਕਰੋ</string>
-  <string name="CreateProfileActivity_signal_profiles_are_end_to_end_encrypted">Signal ਪ੍ਰੋਫਾਈਲਾਂ ਨੂੰ ਅੰਤ ਤੋਂ ਅੰਤ ਨਾਲ ਐਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਅਤੇ Signal ਕੋਲ ਇਸ ਦੀ ਜਾਣਕਾਰੀ ਨਹੀਂ ਪਹੁੰਚਦੀ ਹੈ.</string>
+  <string name="CreateProfileActivity_signal_profiles_are_end_to_end_encrypted">OfficeApp ਪ੍ਰੋਫਾਈਲਾਂ ਨੂੰ ਅੰਤ ਤੋਂ ਅੰਤ ਨਾਲ ਐਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਅਤੇ OfficeApp ਕੋਲ ਇਸ ਦੀ ਜਾਣਕਾਰੀ ਨਹੀਂ ਪਹੁੰਚਦੀ ਹੈ.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">ਕਸਟਮ ਦੀ ਵਰਤੋਂ: %s</string>
   <string name="CustomDefaultPreference_using_default">ਮੂਲ ਦੀ ਵਰਤੋਂ: %s</string>
@@ -274,22 +274,22 @@
   <string name="DocumentView_unknown_file">ਅਗਿਆਤ ਫਾਈਲ</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">ਗੁਮੀਆਂ ਪਲੇ ਸਰਵਿਸਜ਼ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉ </string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ਇਹ ਡਿਵਾਈਸ ਪਲੇ ਸੇਵਾਵਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ. ਸਿਸਟਮ ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਉਣ ਲਈ ਟੈਪ ਕਰੋ ਜੋ ਕਿ Signal ਨੂੰ ਨਾ-ਸਰਗਰਮ ਹੋਣ ਵੇਲੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਤੋਂ ਰੋਕਦੇ ਹਨ.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ਇਹ ਡਿਵਾਈਸ ਪਲੇ ਸੇਵਾਵਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ. ਸਿਸਟਮ ਬੈਟਰੀ ਅਨੁਕੂਲਤਾ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਉਣ ਲਈ ਟੈਪ ਕਰੋ ਜੋ ਕਿ OfficeApp ਨੂੰ ਨਾ-ਸਰਗਰਮ ਹੋਣ ਵੇਲੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਤੋਂ ਰੋਕਦੇ ਹਨ.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">ਨਾਲ ਸ਼ੇਅਰ ਕਰੋ</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Signal ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure ਅਤੇ RedPhone ਹੁਣ ਇਕ ਪ੍ਰਾਈਵੇਟ ਸੰਦੇਸ਼ਵਾਹਕ ਹਨ, ਹਰੇਕ ਸਥਿਤੀ ਲਈ: Signal</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Signal ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ !</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure ਹੁਣ Signal ਹੈ </string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ਅਤੇ RedPhone  ਹੁਣ ਇਕੋ ਐੱਪ ਹਨ : Signal | ਐਕਸਪਲੋਰ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">OfficeApp ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecure ਅਤੇ RedPhone ਹੁਣ ਇਕ ਪ੍ਰਾਈਵੇਟ ਸੰਦੇਸ਼ਵਾਹਕ ਹਨ, ਹਰੇਕ ਸਥਿਤੀ ਲਈ: OfficeApp</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">OfficeApp ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ !</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure ਹੁਣ OfficeApp ਹੈ </string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecure ਅਤੇ RedPhone  ਹੁਣ ਇਕੋ ਐੱਪ ਹਨ : OfficeApp | ਐਕਸਪਲੋਰ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਾਂ ਨੂੰ ਹੈਲੋ ਕਹੋ</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">Signal ਹੁਣ ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਿੰਗ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ. ਬਸ ਸਧਾਰਨ ਤੌਰ \'ਤੇ ਇੱਕ Signal ਕਾਲ ਸ਼ੁਰੂ ਕਰੋ, ਵੀਡੀਓ ਬਟਨ ਨੂੰ ਟੈਪ ਕਰੋ, ਅਤੇ ਹੈਲੋ ਕਹੋ .</string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">Signal ਤੇ ਹੁਣ ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਿੰਗ ਕਰ ਸਕਦੇ ਹੋ </string>
-  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">Signal ਤੇ ਹੁਣ ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਿੰਗ ਕਰ ਸਕਦੇ ਹੋ | ਐਕਸਪਲੋਰ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calls">OfficeApp ਹੁਣ ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਿੰਗ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ. ਬਸ ਸਧਾਰਨ ਤੌਰ \'ਤੇ ਇੱਕ OfficeApp ਕਾਲ ਸ਼ੁਰੂ ਕਰੋ, ਵੀਡੀਓ ਬਟਨ ਨੂੰ ਟੈਪ ਕਰੋ, ਅਤੇ ਹੈਲੋ ਕਹੋ .</string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">OfficeApp ਤੇ ਹੁਣ ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਿੰਗ ਕਰ ਸਕਦੇ ਹੋ </string>
+  <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">OfficeApp ਤੇ ਹੁਣ ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਵੀਡੀਓ ਕਾਲਿੰਗ ਕਰ ਸਕਦੇ ਹੋ | ਐਕਸਪਲੋਰ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">ਆਪਣੇ ਨਜ਼ਦੀਕੀ ਲਈ ਤਿਆਰ?</string>
-  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">ਹੁਣ ਤੁਸੀਂ Signal \'ਤੇ ਦੋਸਤਾਂ ਦੇ ਨਾਲ ਪ੍ਰੋਫਾਇਲ ਫੋਟੋ ਅਤੇ ਨਾਮ ਸਾਂਝਾ ਕਰ ਸਕਦੇ ਹੋ</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal ਪ੍ਰੋਫਾਈਲਾਂ ਇੱਥੇ ਹਨ</string>
+  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">ਹੁਣ ਤੁਸੀਂ OfficeApp \'ਤੇ ਦੋਸਤਾਂ ਦੇ ਨਾਲ ਪ੍ਰੋਫਾਇਲ ਫੋਟੋ ਅਤੇ ਨਾਮ ਸਾਂਝਾ ਕਰ ਸਕਦੇ ਹੋ</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">OfficeApp ਪ੍ਰੋਫਾਈਲਾਂ ਇੱਥੇ ਹਨ</string>
   <string name="ExperienceUpgradeActivity_introducing_typing_indicators">ਟਾਈਪਿੰਗ ਸੂਚਕਾਂ ਨੂੰ ਪੇਸ਼ ਕਰ ਰਹੇ ਹਨ </string>
   <string name="ExperienceUpgradeActivity_now_you_can_optionally_see_and_share_when_messages_are_being_typed">ਹੁਣ ਤੁਸੀਂ ਚੋਣਵੇਂ ਰੂਪ ਵਿੱਚ ਦੇਖ ਸਕਦੇ ਹੋ ਅਤੇ ਸ਼ੇਅਰ ਕਰ ਸਕਦੇ ਹੋ ਜਦੋਂ ਸੁਨੇਹੇ ਟਾਈਪ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ.</string>
   <string name="ExperienceUpgradeActivity_would_you_like_to_enable_them_now">ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹੁਣੇ ਸਮਰੱਥ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
@@ -299,13 +299,13 @@
   <string name="ExperienceUpgradeActivity_no_thanks">ਨਹੀਂ ਧੰਨਵਾਦ</string>
   <string name="ExperienceUpgradeActivity_introducing_link_previews">ਲਿੰਕ ਪੂਰਵਦਰਸ਼ਨ ਪੇਸ਼ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ </string>
   <string name="ExperienceUpgradeActivity_optional_link_previews_are_now_supported">ਅਖ਼ਤਿਆਰੀ ਲਿੰਕ ਪ੍ਰੀਵਿਊ ਹੁਣ ਇੰਟਰਨੈਟ ਤੇ ਬਹੁਤ ਸਾਰੀਆਂ ਪ੍ਰਸਿੱਧ ਸਾਈਟਾਂ ਲਈ ਸਮਰਥਿਤ ਹੈ.</string>
-  <string name="ExperienceUpgradeActivity_you_can_disable_or_enable_this_feature_link_previews">ਤੁਸੀਂ ਆਪਣੀ Signal ਸੈਟਿੰਗਜ਼ ਵਿੱਚ ਕਿਸੇ ਵੀ ਸਮੇਂ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਅਸਮਰੱਥ ਜਾਂ ਸਮਰੱਥ ਬਣਾ ਸਕਦੇ ਹੋ | (Privacy &gt; Send link previews).</string>
+  <string name="ExperienceUpgradeActivity_you_can_disable_or_enable_this_feature_link_previews">ਤੁਸੀਂ ਆਪਣੀ OfficeApp ਸੈਟਿੰਗਜ਼ ਵਿੱਚ ਕਿਸੇ ਵੀ ਸਮੇਂ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਅਸਮਰੱਥ ਜਾਂ ਸਮਰੱਥ ਬਣਾ ਸਕਦੇ ਹੋ | (Privacy &gt; Send link previews).</string>
   <string name="ExperienceUpgradeActivity_got_it">ਮਿਲ ਗਿਆ</string>
   <!--GcmBroadcastReceiver-->
   <string name="GcmBroadcastReceiver_retrieving_a_message">ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਕਰ ਰਿਹਾ ਹੈ ..</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">ਸਥਾਈ Signal ਸੰਚਾਰ ਅਸਫਲ!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਰਜਿਸਟਰ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਸੀ. Signal ਸੁਨੇਹਿਆਂ ਅਤੇ ਕਾਲਾਂ ਅਸਮਰੱਥ ਕੀਤੀਆਂ ਗਈਆਂ ਹਨ, ਕਿਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗਾਂ ਵਿਚ ਦੋਬਾਰਾ ਰਜਿਸਟਰ ਕਰੋ </string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">ਸਥਾਈ OfficeApp ਸੰਚਾਰ ਅਸਫਲ!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">OfficeApp Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਰਜਿਸਟਰ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਸੀ. OfficeApp ਸੁਨੇਹਿਆਂ ਅਤੇ ਕਾਲਾਂ ਅਸਮਰੱਥ ਕੀਤੀਆਂ ਗਈਆਂ ਹਨ, ਕਿਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗਾਂ ਵਿਚ ਦੋਬਾਰਾ ਰਜਿਸਟਰ ਕਰੋ </string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">ਪੂਰੇ ਰਿਜ਼ੋਲੂਸ਼ਨ GIF ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਵੇਲੇ ਸਮੱਸਿਆ</string>
   <!--GiphyFragmentPageAdapter-->
@@ -316,15 +316,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">ਸਮੂਹ ਸੰਪਾਦਿਤ ਕਰੋ</string>
   <string name="GroupCreateActivity_group_name_hint">ਸਮੂਹ ਦਾ ਨਾਂ</string>
   <string name="GroupCreateActivity_actionbar_mms_title">ਨਵਾਂ ਐਮਐਮਐਸ ਸਮੂਹ </string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">ਤੁਸੀਂ ਇੱਕ ਅਜਿਹਾ ਸੰਪਰਕ ਚੁਣਿਆ ਹੈ ਜੋ Signal ਸਮੂਹਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ, ਇਸ ਲਈ ਇਹ ਸਮੂਹ ਐਮ ਐਮ ਐਸ ਹੋਵੇਗਾ.</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">ਤੁਸੀਂ Signal ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਲਈ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੋ, ਇਸ ਲਈ Signal ਸਮੂਹ ਅਸਮਰਥਿਤ ਹਨ ਕਿਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗਾਂ  ਵਿਚ ਦੋਬਾਰਾ ਰਜਿਸਟਰ ਕਰੋ </string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">ਤੁਸੀਂ ਇੱਕ ਅਜਿਹਾ ਸੰਪਰਕ ਚੁਣਿਆ ਹੈ ਜੋ OfficeApp ਸਮੂਹਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ, ਇਸ ਲਈ ਇਹ ਸਮੂਹ ਐਮ ਐਮ ਐਸ ਹੋਵੇਗਾ.</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">ਤੁਸੀਂ OfficeApp ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ ਲਈ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੋ, ਇਸ ਲਈ OfficeApp ਸਮੂਹ ਅਸਮਰਥਿਤ ਹਨ ਕਿਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗਾਂ  ਵਿਚ ਦੋਬਾਰਾ ਰਜਿਸਟਰ ਕਰੋ </string>
   <string name="GroupCreateActivity_contacts_no_members">ਤੁਹਾਡੇ ਸਮੂਹ ਵਿੱਚ ਘੱਟੋ ਘੱਟ ਇੱਕ ਵਿਅਕਤੀ ਦੀ ਜ਼ਰੂਰਤ ਹੈ!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">ਤੁਹਾਡੇ ਸਮੂਹ ਦੇ ਮੈਂਬਰਾਂ ਵਿੱਚੋਂ ਇਕ ਅਜਿਹਾ ਨੰਬਰ ਹੈ ਜੋ ਸਹੀ ਢੰਗ ਨਾਲ ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ |  ਕਿਰਪਾ ਕਰਕੇ ਉਸ ਸੰਪਰਕ ਨੂੰ ਠੀਕ ਕਰੋ ਜਾਂ ਹਟਾਓ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ.</string>
   <string name="GroupCreateActivity_avatar_content_description">ਗਰੁੱਪ ਦਾ ਅਵਤਾਰ</string>
   <string name="GroupCreateActivity_menu_apply_button">ਲਾਗੂ ਕਰੋ</string>
   <string name="GroupCreateActivity_creating_group">%1$sਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ ...</string>
   <string name="GroupCreateActivity_updating_group">%1$sਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ ...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">%1$s ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ ਕਿਉਂਕਿ ਉਹ ਇੱਕ Signal ਉਪਭੋਗਤਾ ਨਹੀਂ ਹਨ.</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">%1$s ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ ਕਿਉਂਕਿ ਉਹ ਇੱਕ OfficeApp ਉਪਭੋਗਤਾ ਨਹੀਂ ਹਨ.</string>
   <string name="GroupCreateActivity_loading_group_details">ਗਰੁੱਪ ਵੇਰਵੇ ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ ..</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">ਤੁਸੀਂ ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਗਰੁੱਪ ਵਿੱਚ ਹੋ.</string>
   <!--GroupShareProfileView-->
@@ -345,7 +345,7 @@
   <string name="InviteActivity_sending">ਭੇਜ ਰਿਹਾ ਹੈ .. </string>
   <string name="InviteActivity_heart_content_description">ਦਿਲ</string>
   <string name="InviteActivity_invitations_sent">ਸੱਦੇ ਭੇਜੇ ਗਏ !</string>
-  <string name="InviteActivity_invite_to_signal">Signal ਲਈ ਸੱਦੋ</string>
+  <string name="InviteActivity_invite_to_signal">OfficeApp ਲਈ ਸੱਦੋ</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">%d ਦੋਸਤਾਂ ਨੂੰ ਐਸਐਮਐਸ ਭੇਜੋ</item>
     <item quantity="other">%d ਦੋਸਤਾਂ ਨੂੰ ਐਸਐਮਐਸ ਭੇਜੋ</item>
@@ -354,7 +354,7 @@
     <item quantity="one">ਕੀ %d ਨੂੰ ਐਸ.ਐਮ.ਐਸ. ਸੱਦੇ ਭੇਜਣੇ ਹਨ ?</item>
     <item quantity="other">ਕੀ %d ਨੂੰ ਐਸ.ਐਮ.ਐਸ. ਸੱਦੇ ਭੇਜਣੇ ਹਨ ?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">ਆਓ Signal ਤੇ ਗੱਲ ਕਰੀਏ : %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">ਆਓ OfficeApp ਤੇ ਗੱਲ ਕਰੀਏ : %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">ਇੰਜ ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਕੋਈ ਐਪਸ ਨਹੀਂ ਹਨ |</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">ਦੋਸਤ ਦੋਸਤਾਂ ਨੂੰ ਬਿਨਾਂ ਏਨਕ੍ਰਿਪਟਡ ਚੈਟ ਕਰਨ ਨਹੀਂ  ਦਿੰਦੇ ਹਨ.</string>
   <!--Job-->
@@ -367,7 +367,7 @@
   <string name="LongMessageActivity_message_from_s">%1$s ਵਲੋਂ ਸੁਨੇਹਾ</string>
   <string name="LongMessageActivity_your_message">ਤੁਹਾਡਾ ਸੁਨੇਹਾ</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">OfficeApp</string>
   <string name="MessageRetrievalService_background_connection_enabled">ਪਿਛੋਕੜ ਕਨੈਕਸ਼ਨ ਸਮਰਥਿਤ</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">ਵਾਇਰਲੈਸ ਪ੍ਰਦਾਤਾ ਐੱਮ ਐੱਮ ਐੱਸ ਸੈਟਿੰਗਜ਼ ਨੂੰ ਪੜ੍ਹਨ ਵਿੱਚ ਗਲਤੀ</string>
@@ -387,9 +387,9 @@
   <string name="MediaOverviewActivity_Select_all">ਸਾਰਿਆ ਨੂੰ ਚੁਣੋ</string>
   <string name="MediaOverviewActivity_collecting_attachments">ਅਟੈਚਮੈਂਟ ਇਕੱਠੇ ਕਰਨੇ ...</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal ਕਾਲ ਪ੍ਰਗਤੀ ਵਿੱਚ ਹੈ</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal ਕਾਲ ਸਥਾਪਤ ਕਰ ਰਿਹਾ ਹੈ</string>
-  <string name="NotificationBarManager__incoming_signal_call">ਆਗਾਮੀ Signal ਕਾਲ</string>
+  <string name="NotificationBarManager_signal_call_in_progress">OfficeApp ਕਾਲ ਪ੍ਰਗਤੀ ਵਿੱਚ ਹੈ</string>
+  <string name="NotificationBarManager__establishing_signal_call">OfficeApp ਕਾਲ ਸਥਾਪਤ ਕਰ ਰਿਹਾ ਹੈ</string>
+  <string name="NotificationBarManager__incoming_signal_call">ਆਗਾਮੀ OfficeApp ਕਾਲ</string>
   <string name="NotificationBarManager__deny_call">ਕਾਲ ਰੱਦ ਕਰੋ</string>
   <string name="NotificationBarManager__answer_call">ਕਾਲ ਦਾ ਜਵਾਬ ਦਿਓ</string>
   <string name="NotificationBarManager__end_call">ਕਾਲ ਦਾ ਅੰਤ</string>
@@ -414,7 +414,7 @@
   <!--MediaRepository-->
   <string name="MediaRepository_all_media">ਸਾਰੇ ਮੀਡੀਆ</string>
   <!--MessageRecord-->
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Signal ਦੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਦੀ ਵਰਤੋਂ ਨਾਲ ਇਕ੍ਰਿਪਟਡ ਸੰਦੇਸ਼ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਿਹੜਾ ਹੁਣ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ ਕਿਰਪਾ ਕਰਕੇ ਭੇਜਣ ਵਾਲੇ ਨੂੰ ਤਾਜ਼ਾ ਹਾਲੀਆ ਵਰਜ਼ਨ ਤੇ ਅਪਡੇਟ ਕਰਨ ਅਤੇ ਸੁਨੇਹਾ ਦੁਬਾਰਾ ਭੇਜਣ ਲਈ ਕਹੋ.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">OfficeApp ਦੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਦੀ ਵਰਤੋਂ ਨਾਲ ਇਕ੍ਰਿਪਟਡ ਸੰਦੇਸ਼ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਿਹੜਾ ਹੁਣ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ ਕਿਰਪਾ ਕਰਕੇ ਭੇਜਣ ਵਾਲੇ ਨੂੰ ਤਾਜ਼ਾ ਹਾਲੀਆ ਵਰਜ਼ਨ ਤੇ ਅਪਡੇਟ ਕਰਨ ਅਤੇ ਸੁਨੇਹਾ ਦੁਬਾਰਾ ਭੇਜਣ ਲਈ ਕਹੋ.</string>
   <string name="MessageRecord_left_group">ਤੁਸੀਂ ਗਰੁੱਪ ਨੂੰ ਛੱਡ ਦਿੱਤਾ ਹੈ</string>
   <string name="MessageRecord_you_updated_group">ਤੁਸੀਂ ਗਰੁੱਪ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ.</string>
   <string name="MessageRecord_you_called">ਤੁਸੀਂ ਕਾਲ ਕੀਤੀ </string>
@@ -424,7 +424,7 @@
   <string name="MessageRecord_s_called_you">%s ਨੇ ਤੁਹਾਨੂੰ ਕਾਲ ਕੀਤੀ ਸੀ  </string>
   <string name="MessageRecord_called_s">%s ਨੂੰ ਕਾਲ ਕੀਤੀ  </string>
   <string name="MessageRecord_missed_call_from">%s ਵਲੋਂ  ਮਿਸਡ ਕਾਲ </string>
-  <string name="MessageRecord_s_joined_signal">%s Signal ਤੇ ਹੈ! </string>
+  <string name="MessageRecord_s_joined_signal">%s OfficeApp ਤੇ ਹੈ! </string>
   <string name="MessageRecord_you_disabled_disappearing_messages">ਤੁਸੀਂ ਅਲੋਪ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਅਸਮਰੱਥ ਕੀਤਾ</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$sਨੇ ਅਲੋਪ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਅਸਮਰੱਥ ਕੀਤਾ</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">ਤੁਸੀਂ ਅਲੋਪਿੰਗ ਸੁਨੇਹਾ ਟਾਈਮਰ ਨੂੰ %1$s ਤੇ ਸੈਟ ਕਰ ਦਿੱਤਾ ਹੈ </string>
@@ -454,9 +454,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">ਅਪ੍ਰਮਾਣਿਕ ​​QR ਕੋਡ</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲਾਂ ਹੀ ਬਹੁਤ ਜ਼ਿਆਦਾ ਡਿਵਾਈਸ ਜੁੜੇ ਹੋਏ ਹਨ, ਕੁਝ ਨੂੰ ਹਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">ਮੁਆਫ ਕਰਨਾ, ਇਹ ਇੱਕ ਪ੍ਰਮਾਣਿਕ ​​ਡਿਵਾਈਸ ਲਿੰਕ QR ਕੋਡ ਨਹੀਂ ਹੈ.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Signal ਡਿਵਾਈਸ ਨੂੰ ਲਿੰਕ ਕਰੋ?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">ਇੰਜ ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਸੀਂ ਕਿਸੇ 3rd ਪਾਰਟੀ ਸਕੈਨਰ ਦਾ ਉਪਯੋਗ ਕਰਕੇ Signal ਡਿਵਾਈਸ ਨੂੰ ਲਿੰਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ. ਤੁਹਾਡੀ ਸੁਰੱਖਿਆ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ Signal ਦੇ ਅੰਦਰੋਂ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">ਕਯੂ.ਆਰ ਕੋਡ ਸਕੈਨ ਕਰਨ ਲਈ Signal ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">OfficeApp ਡਿਵਾਈਸ ਨੂੰ ਲਿੰਕ ਕਰੋ?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">ਇੰਜ ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਸੀਂ ਕਿਸੇ 3rd ਪਾਰਟੀ ਸਕੈਨਰ ਦਾ ਉਪਯੋਗ ਕਰਕੇ OfficeApp ਡਿਵਾਈਸ ਨੂੰ ਲਿੰਕ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ. ਤੁਹਾਡੀ ਸੁਰੱਖਿਆ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ OfficeApp ਦੇ ਅੰਦਰੋਂ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">ਕਯੂ.ਆਰ ਕੋਡ ਸਕੈਨ ਕਰਨ ਲਈ OfficeApp ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">ਕੈਮਰਾ ਦੀ ਇਜਾਜ਼ਤ ਦੇ ਬਿਨਾਂ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">ਗੁੰਮ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹੇ</string>
@@ -464,7 +464,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">ਇਸ ਗੱਲਬਾਤ ਵਿਚ ਭੇਜੇ ਗਏ ਅਤੇ ਪ੍ਰਾਪਤ ਕੀਤੇ ਗਏ ਸੁਨੇਹੇ ਦੇਖਣ ਤੋਂ ਬਾਅਦ ਅਲੋਪ ਹੋ ਜਾਣਗੇ %s.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">ਪਾਸਫਰੇਜ ਦਰਜ ਕਰੋ</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal ਆਈਕਨ</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">OfficeApp ਆਈਕਨ</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">ਪਾਸਫਰੇਜ ਦਰਜ ਕਰੋ</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">ਗਲਤ ਪਾਸਫਰੇਜ!</string>
   <!--PlacePickerActivity-->
@@ -517,7 +517,7 @@
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤਾ ਗਿਆ ਨੰਬਰ 
 (%s) ਅਵੈਧ ਹੈ </string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play ਸਰਵਿਸਿਜ਼ ਗੁੰਮ ਹੈ</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">ਇਸ ਡਿਵਾਈਸ ਤੇ Google Play ਸੇਵਾਵਾਂ ਲੁਪਤ ਹੈ ਤੁਸੀਂ ਅਜੇ ਵੀ Signal ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਇਸ ਸੰਰਚਨਾ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਘਟੀ ਹੋਈ ਭਰੋਸੇਯੋਗਤਾ ਜਾਂ ਕਾਰਗੁਜ਼ਾਰੀ ਵੀ ਹੋ ਸਕਦੀ ਹੈ. \ N \ n ਜੇਕਰ ਤੁਸੀਂ ਇੱਕ ਉੱਨਤ ਉਪਭੋਗਤਾ ਨਹੀਂ ਹੋ, ਅਤੇ ਠੀਕ ਕੀਤਾ ਗਿਆ ਹੋਇਆ  ਐਂਟਰੌਇਡ ROM ਨਹੀਂ ਚਲਾ ਰਹੇ ਹੋ, ਜਾਂ ਮੰਨ ਲਓ ਕਿ ਤੁਸੀਂ ਇਸ ਨੂੰ ਗਲਤੀ ਨਾਲ ਵੇਖ ਰਹੇ ਹੋ, ਮਦਦ ਲਈ support@signal.org ਨੂੰ ਸੰਪਰਕ ਕਰੋ .</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">ਇਸ ਡਿਵਾਈਸ ਤੇ Google Play ਸੇਵਾਵਾਂ ਲੁਪਤ ਹੈ ਤੁਸੀਂ ਅਜੇ ਵੀ OfficeApp ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਇਸ ਸੰਰਚਨਾ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਘਟੀ ਹੋਈ ਭਰੋਸੇਯੋਗਤਾ ਜਾਂ ਕਾਰਗੁਜ਼ਾਰੀ ਵੀ ਹੋ ਸਕਦੀ ਹੈ. \ N \ n ਜੇਕਰ ਤੁਸੀਂ ਇੱਕ ਉੱਨਤ ਉਪਭੋਗਤਾ ਨਹੀਂ ਹੋ, ਅਤੇ ਠੀਕ ਕੀਤਾ ਗਿਆ ਹੋਇਆ  ਐਂਟਰੌਇਡ ROM ਨਹੀਂ ਚਲਾ ਰਹੇ ਹੋ, ਜਾਂ ਮੰਨ ਲਓ ਕਿ ਤੁਸੀਂ ਇਸ ਨੂੰ ਗਲਤੀ ਨਾਲ ਵੇਖ ਰਹੇ ਹੋ, ਮਦਦ ਲਈ support@raapp.com ਨੂੰ ਸੰਪਰਕ ਕਰੋ .</string>
   <string name="RegistrationActivity_i_understand">ਮੈਂ ਸੱਮਝਦਾ ਹਾਂ</string>
   <string name="RegistrationActivity_play_services_error">Play ਸੇਵਾਵਾਂ ਚ ਗਲਤੀ</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play ਸੇਵਾਵਾਂ ਅਪਡੇਟ ਕਰ ਰਹੀਆਂ ਹਨ ਜਾਂ ਅਸਥਾਈ ਤੌਰ ਤੇ ਅਣਉਪਲਬਧ ਹਨ ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ</string>
@@ -525,9 +525,9 @@
   <string name="RegistrationActivity_no_browser">ਇਹ ਲਿੰਕ ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਮਰੱਥ | ਕੋਈ ਵੈੱਬ ਬਰਾਊਜ਼ਰ ਨਹੀਂ ਲੱਭਿਆ </string>
   <string name="RegistrationActivity_more_information">ਹੋਰ ਜਾਣਕਾਰੀ</string>
   <string name="RegistrationActivity_less_information">ਘੱਟ ਜਾਣਕਾਰੀ</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal ਨੂੰ ਦੋਸਤਾਂ ਨਾਲ ਜੁੜਨ, ਸੁਨੇਹਿਆਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਾਲ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਸੰਪਰਕਾਂ ਅਤੇ ਮੀਡੀਆ ਦੀ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">OfficeApp ਨੂੰ ਦੋਸਤਾਂ ਨਾਲ ਜੁੜਨ, ਸੁਨੇਹਿਆਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਾਲ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਸੰਪਰਕਾਂ ਅਤੇ ਮੀਡੀਆ ਦੀ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">ਸੇਵਾ ਨਾਲ ਜੁੜਨ ਵਿੱਚ ਅਸਮਰੱਥ ਕਿਰਪਾ ਕਰਕੇ ਨੈਟਵਰਕ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ.</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">ਆਪਣੇ ਫੋਨ ਨੰਬਰ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਤਸਦੀਕ ਕਰਨ ਲਈ, ਜੇਕਰ ਤੁਸੀਂ Signal ਨੂੰ ਐਸਐਮਐਸ ਸੁਨੇਹੇ ਵੇਖਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹੋ ਤਾਂ Signal ਆਟੋਮੈਟਿਕਲੀ ਤੁਹਾਡੇ ਤਸਦੀਕੀ ਕੋਡ ਨੂੰ ਪਛਾਣ ਸਕਦਾ  ਹੈ </string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">ਆਪਣੇ ਫੋਨ ਨੰਬਰ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਤਸਦੀਕ ਕਰਨ ਲਈ, ਜੇਕਰ ਤੁਸੀਂ OfficeApp ਨੂੰ ਐਸਐਮਐਸ ਸੁਨੇਹੇ ਵੇਖਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹੋ ਤਾਂ OfficeApp ਆਟੋਮੈਟਿਕਲੀ ਤੁਹਾਡੇ ਤਸਦੀਕੀ ਕੋਡ ਨੂੰ ਪਛਾਣ ਸਕਦਾ  ਹੈ </string>
   <plurals name="RegistrationActivity_debug_log_hint">
     <item quantity="one">ਹੁਣ ਤੁਸੀਂ ਡੀਬੱਗ ਲਾਗ ਨੂੰ ਸਬਮਿਟ ਕਰਨ ਤੋਂ %d ਕਦਮ ਦੂਰ ਹੋ.</item>
     <item quantity="other">ਹੁਣ ਤੁਸੀਂ ਡੀਬੱਗ ਲਾਗ ਨੂੰ ਸਬਮਿਟ ਕਰਨ ਤੋਂ %d ਕਦਮ ਦੂਰ ਹੋ.</item>
@@ -550,13 +550,13 @@
   <string name="SearchFragment_header_messages">ਸੁਨੇਹੇ </string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">ਸੰਪਰਕਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal ਲਈ ਸੱਦੋ</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal ਸੁਨੇਹਾ</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal ਕਾਲ </string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">OfficeApp ਲਈ ਸੱਦੋ</string>
+  <string name="SharedContactDetailsActivity_signal_message">OfficeApp ਸੁਨੇਹਾ</string>
+  <string name="SharedContactDetailsActivity_signal_call">OfficeApp ਕਾਲ </string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">ਸੰਪਰਕਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
-  <string name="SharedContactView_invite_to_signal">Signal ਲਈ ਸੱਦੋ</string>
-  <string name="SharedContactView_message">Signal ਸੁਨੇਹਾ</string>
+  <string name="SharedContactView_invite_to_signal">OfficeApp ਲਈ ਸੱਦੋ</string>
+  <string name="SharedContactView_message">OfficeApp ਸੁਨੇਹਾ</string>
   <!--Slide-->
   <string name="Slide_image">ਤਸਵੀਰ</string>
   <string name="Slide_sticker">ਸਟਿੱਕਰ</string>
@@ -571,13 +571,13 @@
   <string name="SmsMessageRecord_secure_session_reset">ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਸੈਸ਼ਨ ਰੀਸੈਟ ਕੀਤਾ </string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s ਨੇ ਸੁਰੱਖਿਅਤ ਸੈਸ਼ਨ ਰੀਸੈਟ ਕੀਤਾ </string>
   <string name="SmsMessageRecord_duplicate_message">ਡੁਪਲੀਕੇਟ ਸੁਨੇਹਾ</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">ਇਹ ਸੁਨੇਹਾ ਪ੍ਰਕਿਰਿਆ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ ਕਿਉਂਕਿ ਇਹ Signal ਦੇ ਨਵੇਂ ਸੰਸਕਰਣ ਤੋਂ ਭੇਜਿਆ ਗਿਆ ਸੀ. ਤੁਸੀਂ ਆਪਣੇ ਸੰਪਰਕ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਦੁਬਾਰਾ ਭੇਜਣ ਲਈ ਕਹਿ ਸਕਦੇ ਹੋ</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">ਇਹ ਸੁਨੇਹਾ ਪ੍ਰਕਿਰਿਆ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ ਕਿਉਂਕਿ ਇਹ OfficeApp ਦੇ ਨਵੇਂ ਸੰਸਕਰਣ ਤੋਂ ਭੇਜਿਆ ਗਿਆ ਸੀ. ਤੁਸੀਂ ਆਪਣੇ ਸੰਪਰਕ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਦੁਬਾਰਾ ਭੇਜਣ ਲਈ ਕਹਿ ਸਕਦੇ ਹੋ</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">ਸਟਿੱਕਰ</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">ਇੰਸਟੌਲ ਕੀਤੇ ਸਟਿੱਕਰ</string>
   <string name="StickerManagementAdapter_stickers_you_received">ਤੁਹਾਨੂੰ ਪ੍ਰਾਪਤ ਹੋਏ ਸਟਿੱਕਰ</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal ਕਲਾਕਾਰ ਸੀਰੀਜ਼</string>
+  <string name="StickerManagementAdapter_signal_artist_series">OfficeApp ਕਲਾਕਾਰ ਸੀਰੀਜ਼</string>
   <string name="StickerManagementAdapter_no_stickers_installed">ਕੋਈ ਸਟਿੱਕਰ ਇੰਸਟੌਲ ਨਹੀਂ ਕੀਤੇ ਗਏ</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">ਆ ਰਹੇ ਸੁਨੇਹਿਆਂ ਤੋਂ ਸਟਿੱਕਰ ਇੱਥੇ ਦਿਖਾਈ ਦੇਣਗੇ</string>
   <string name="StickerManagementAdapter_untitled">ਬਿਨਾਂ ਸਿਰਲੇਖ</string>
@@ -598,7 +598,7 @@
   <string name="ThreadRecord_called_you">ਤੁਹਾਨੂੰ ਕਾਲ ਕੀਤੀ</string>
   <string name="ThreadRecord_missed_call">ਮਿਸਡ ਕਾਲ</string>
   <string name="ThreadRecord_media_message">ਮੀਡੀਆ ਸੁਨੇਹਾ</string>
-  <string name="ThreadRecord_s_is_on_signal">%s Signal ਤੇ ਹੈ! </string>
+  <string name="ThreadRecord_s_is_on_signal">%s OfficeApp ਤੇ ਹੈ! </string>
   <string name="ThreadRecord_disappearing_messages_disabled">ਅਲੋਪ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹੇ ਅਸਮਰੱਥ</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">ਗੁੰਮ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹਿਆਂ ਦਾ ਸਮਾਂ %s ਤੇ ਸੈੱਟ ਕੀਤਾ ਗਿਆ</string>
   <string name="ThreadRecord_safety_number_changed">ਸੁਰੱਖਿਆ ਨੰਬਰ ਬਦਲ ਗਿਆ</string>
@@ -607,8 +607,8 @@
   <string name="ThreadRecord_you_marked_unverified">ਤੁਸੀਂ ਅਸਪਸ਼ਟ ਕੀਤਾ</string>
   <string name="ThreadRecord_message_could_not_be_processed">ਸੁਨੇਹਾ ਪ੍ਰਕਿਰਿਆ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal ਅਪਡੇਟ</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal ਦਾ ਇੱਕ ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ, ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+  <string name="UpdateApkReadyListener_Signal_update">OfficeApp ਅਪਡੇਟ</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">OfficeApp ਦਾ ਇੱਕ ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ, ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">ਬਲਾਕ %s?</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">ਬਲਾਕ ਕੀਤੇ ਹੋਏ ਸੰਪਰਕ ਤੁਹਾਨੂੰ ਸੁਨੇਹੇ ਆ ਕਾਲ ਨਹੀਂ ਕਰ ਸਕਣਗੇ </string>
@@ -623,14 +623,14 @@
   <string name="UnverifiedSendDialog_send_message">ਸੁਨੇਹਾ ਭੇਜੋ?</string>
   <string name="UnverifiedSendDialog_send">ਭੇਜੋ</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ਤੁਹਾਡਾ ਸੰਪਰਕ Signal ਦੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ ਆਪਣੇ ਸੁਰੱਖਿਆ ਨੰਬਰ ਦੀ ਜਾਂਚ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਕਹੋ</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">ਤੁਹਾਡਾ ਸੰਪਰਕ ਇੱਕ ਅਸੰਗਤ QR ਕੋਡ ਫਾਰਮੇਟ ਦੇ ਨਾਲ Signal ਦੇ ਨਵੇਂ ਵਰਜਨ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਤੁਲਨਾ ਕਰਨ ਲਈ ਅਪਡੇਟ ਕਰੋ.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ਤੁਹਾਡਾ ਸੰਪਰਕ OfficeApp ਦੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ ਆਪਣੇ ਸੁਰੱਖਿਆ ਨੰਬਰ ਦੀ ਜਾਂਚ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਕਹੋ</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">ਤੁਹਾਡਾ ਸੰਪਰਕ ਇੱਕ ਅਸੰਗਤ QR ਕੋਡ ਫਾਰਮੇਟ ਦੇ ਨਾਲ OfficeApp ਦੇ ਨਵੇਂ ਵਰਜਨ ਨੂੰ ਚਲਾ ਰਿਹਾ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਤੁਲਨਾ ਕਰਨ ਲਈ ਅਪਡੇਟ ਕਰੋ.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">ਸਕੈਨ ਕੀਤੇ ਕਯੂ.ਆਰ ਕੋਡ ਇੱਕ ਸਹੀ ਰੂਪ ਵਿੱਚ ਫਾਰਮੈਟਡ ਸੁਰੱਖਿਆ ਨੰਬਰ ਪ੍ਰਮਾਣਿਕਤਾ ਕੋਡ ਨਹੀਂ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਸਕੈਨਿੰਗ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">ਇਸ ਰਾਹੀਂ ਸੁਰੱਖਿਆ ਨੰਬਰ ਸਾਂਝਾ ਕਰੋ ...</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">ਸਾਡਾ Signal ਸੁਰੱਖਿਆ ਨੰਬਰ:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">ਸਾਡਾ OfficeApp ਸੁਰੱਖਿਆ ਨੰਬਰ:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">ਇੰਜ ਜਾਪਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਕੋਈ ਐਪਸ ਨਹੀਂ ਹਨ.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">ਕਲਿਪਬੋਰਡ ਵਿੱਚ ਤੁਲਨਾ ਕਰਨ ਲਈ ਕੋਈ ਸੁਰੱਖਿਆ ਨੰਬਰ ਨਹੀਂ ਮਿਲਿਆ</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">ਕਯੂ.ਆਰ ਕੋਡ ਸਕੈਨ ਕਰਨ ਲਈ Signal ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">ਕਯੂ.ਆਰ ਕੋਡ ਸਕੈਨ ਕਰਨ ਲਈ OfficeApp ਨੂੰ ਕੈਮਰੇ ਦੀ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">ਕੈਮਰਾ ਦੀ ਅਨੁਮਤੀ ਤੋਂ ਬਿਨਾਂ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">ਗਲਤ ਏਨਕ੍ਰਿਪਟ ਸੁਨੇਹਾ</string>
@@ -650,13 +650,13 @@
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">ਖੋਲ੍ਹਣ ਲਈ ਛੋਹਵੋ</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">ਖੋਲ੍ਹਣ ਲਈ, ਜਾਂ ਬੰਦ ਕਰਨ ਲਈ ਲਾਕ ਨੂੰ ਛੋਹਵੋ.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal ਅਨਲੌਕ ਹੈ</string>
-  <string name="KeyCachingService_lock">ਲੌਕ  Signal</string>
+  <string name="KeyCachingService_passphrase_cached">OfficeApp ਅਨਲੌਕ ਹੈ</string>
+  <string name="KeyCachingService_lock">ਲੌਕ  OfficeApp</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">ਤੁਸੀਂ</string>
   <string name="MediaPreviewActivity_unssuported_media_type">ਗ਼ੈਰਸਮਰਥਿਤ ਮੀਡੀਆ ਕਿਸਮ</string>
   <string name="MediaPreviewActivity_draft">ਡਰਾਫਟ</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ਬਾਹਰੀ ਸਟੋਰੇਜ ਤੇ ਦਰਜ ਕਰਨ ਲਈ Signal ਨੂੰ ਸਟੋਰੇਜ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਪਰ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਨਾਮਨਜ਼ੂਰ ਕਰ ਦਿੱਤਾ ਗਿਆ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਟੋਰੇਜ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ਬਾਹਰੀ ਸਟੋਰੇਜ ਤੇ ਦਰਜ ਕਰਨ ਲਈ OfficeApp ਨੂੰ ਸਟੋਰੇਜ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਪਰ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਨਾਮਨਜ਼ੂਰ ਕਰ ਦਿੱਤਾ ਗਿਆ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ , \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਟੋਰੇਜ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ਅਨੁਮਤੀਆਂ ਦੇ ਬਿਨਾਂ ਬਾਹਰੀ ਸਟੋਰੇਜ ਵਿੱਚ ਦਰਜ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">ਸੰਦੇਸ਼ ਮਿਟਾਓ ?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">ਇਹ ਇਸ ਸੁਨੇਹੇ ਨੂੰ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਮਿਟਾ ਦੇਵੇਗਾ.</string>
@@ -673,7 +673,7 @@
   <string name="MessageNotifier_media_message">ਮੀਡੀਆ ਸੁਨੇਹਾ</string>
   <string name="MessageNotifier_sticker">ਸਟਿੱਕਰ</string>
   <string name="MessageNotifier_reply">ਜਵਾਬ </string>
-  <string name="MessageNotifier_signal_message">Signal ਸੁਨੇਹਾ</string>
+  <string name="MessageNotifier_signal_message">OfficeApp ਸੁਨੇਹਾ</string>
   <string name="MessageNotifier_unsecured_sms">ਅਸੁਰੱਖਿਅਤ ਐਸਐਮਐਸ</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">ਸੰਪਰਕ </string>
@@ -688,7 +688,7 @@
   <string name="NotificationChannel_group_messages">ਸੁਨੇਹੇ </string>
   <string name="NotificationChannel_missing_display_name">ਅਣਜਾਣ</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal ਲਾਕ ਹੋਣ ਕਰਕੇ ਤੇਜ਼ ਜਵਾਬ ਅਣਉਪਲਬਧ!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">OfficeApp ਲਾਕ ਹੋਣ ਕਰਕੇ ਤੇਜ਼ ਜਵਾਬ ਅਣਉਪਲਬਧ!</string>
   <string name="QuickResponseService_problem_sending_message">ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਸਮੱਸਿਆ!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%s ਵਿਚ ਦਰਜ ਕੀਤਾ </string>
@@ -699,7 +699,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">ਗਲਤ ਸ਼ਾਰਟਕੱਟ</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">OfficeApp</string>
   <string name="SingleRecipientNotificationBuilder_new_message">ਨਵਾਂ ਸੰਦੇਸ਼ </string>
   <!--TransferControlView-->
   <plurals name="TransferControlView_n_items">
@@ -708,14 +708,14 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ਜੰਤਰ ਰਜਿਸਟਰ ਨਹੀਂ ਹੈ </string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ਇਹ ਸੰਭਾਵਿਤ ਹੈ ਕਿਉਂਕਿ ਤੁਸੀਂ ਇੱਕ ਵੱਖਰੇ ਡਿਵਾਈਸ ਤੇ Signal ਨਾਲ ਆਪਣਾ ਫੋਨ ਨੰਬਰ ਰਜਿਸਟਰ ਕੀਤਾ ਸੀ. ਦੁਬਾਰਾ ਰਜਿਸਟਰ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ਇਹ ਸੰਭਾਵਿਤ ਹੈ ਕਿਉਂਕਿ ਤੁਸੀਂ ਇੱਕ ਵੱਖਰੇ ਡਿਵਾਈਸ ਤੇ OfficeApp ਨਾਲ ਆਪਣਾ ਫੋਨ ਨੰਬਰ ਰਜਿਸਟਰ ਕੀਤਾ ਸੀ. ਦੁਬਾਰਾ ਰਜਿਸਟਰ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <!--VideoPlayer-->
   <string name="VideoPlayer_error_playing_video">ਵੀਡੀਓ ਨੂੰ ਚਲਾਉਣ ਸਮੇਂ ਤਰੁੱਟੀ ਆਈ</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s ਵੱਲੋਂ ਕਾਲ ਦਾ ਜਵਾਬ ਦੇਣ ਲਈ, Signal ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਆਗਿਆ ਦਿਓ</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal ਨੂੰ ਕਾਲ ਕਰਨ ਲਈ ਮਾਈਕ੍ਰੋਫੋਨ ਅਤੇ ਕੈਮਰਾ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੈ,ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਮਾਈਕ੍ਰੋਫੋਨ\" ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s ਵੱਲੋਂ ਕਾਲ ਦਾ ਜਵਾਬ ਦੇਣ ਲਈ, OfficeApp ਨੂੰ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਆਗਿਆ ਦਿਓ</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">OfficeApp ਨੂੰ ਕਾਲ ਕਰਨ ਲਈ ਮਾਈਕ੍ਰੋਫੋਨ ਅਤੇ ਕੈਮਰਾ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੈ,ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਚ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਮਾਈਕ੍ਰੋਫੋਨ\" ਅਤੇ \"ਕੈਮਰਾ\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ.</string>
   <!--WebRtcCallScreen-->
-  <string name="WebRtcCallScreen_new_safety_numbers">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਦੇ ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਤੁਸੀਂ %2$s Signal ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
+  <string name="WebRtcCallScreen_new_safety_numbers">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਦੇ ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਤੁਸੀਂ %2$s OfficeApp ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">ਤੁਸੀਂ ਇਸ ਸੰਪਰਕ ਨਾਲ ਆਪਣਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਪ੍ਰਮਾਣਿਤ ਕਰ ਸਕਦੇ ਹੋ</string>
   <string name="WebRtcCallScreen_new_safety_number_title">ਨਵਾਂ ਸੁਰੱਖਿਆ ਨੰਬਰ</string>
   <string name="WebRtcCallScreen_accept">ਸਵੀਕਾਰ ਕਰੋ</string>
@@ -750,15 +750,15 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">ਸੰਪਰਕ ਫੋਟੋ</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal ਨੂੰ ਸੰਪਰਕ ਜਾਣਕਾਰੀ  ਦਿਖਾਉਣ ਲਈ ਸੰਪਰਕਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸੰਪਰਕ\" ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">OfficeApp ਨੂੰ ਸੰਪਰਕ ਜਾਣਕਾਰੀ  ਦਿਖਾਉਣ ਲਈ ਸੰਪਰਕਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸੰਪਰਕ\" ਸਮਰੱਥ ਕਰੋ.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">ਸੰਪਰਕਾਂ ਨੂੰ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ, ਆਪਣੇ ਨੈਟਵਰਕ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">ਕੋਈ ਬਲੌਕ ਕੀਤੇ ਸੰਪਰਕ ਨਹੀਂ</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal ਨੂੰ ਉਹਨਾਂ ਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਸੰਪਰਕਾਂ ਤੱਕ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">OfficeApp ਨੂੰ ਉਹਨਾਂ ਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਸੰਪਰਕਾਂ ਤੱਕ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ</string>
   <string name="contact_selection_list_fragment__show_contacts">ਸੰਪਰਕ ਦਿਖਾਓ </string>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal ਸੁਨੇਹਾ</string>
+  <string name="conversation_activity__type_message_push">OfficeApp ਸੁਨੇਹਾ</string>
   <string name="conversation_activity__type_message_sms_insecure">ਅਸੁਰੱਖਿਅਤ ਐਸਐਮਐਸ</string>
   <string name="conversation_activity__type_message_mms_insecure">ਅਸੁਰੱਖਿਅਤ ਐਮਐਮਐਸ</string>
   <string name="conversation_activity__from_sim_name">%1$s ਵਲੋਂ</string>
@@ -770,7 +770,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">ਤੁਰੰਤ ਕੈਮਰਾ ਅਟੈਚਮੈਂਟ ਦਰਾਜ਼ ਨੂੰ ਟੌਗਲ ਕਰੋ</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">ਰਿਕਾਰਡ ਅਤੇ ਆਡੀਓ ਅਟੈਚਮੈਂਟ ਭੇਜੋ</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">ਆਡੀਓ ਅਟੈਚਮੈਂਟ ਦੀ ਰਿਕਾਰਡਿੰਗ ਲਾਕ ਕਰੋ</string>
-  <string name="conversation_activity__enable_signal_for_sms">SMS ਲਈ Signal ਯੋਗ ਕਰੋ</string>
+  <string name="conversation_activity__enable_signal_for_sms">SMS ਲਈ OfficeApp ਯੋਗ ਕਰੋ</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">ਰੱਦ ਕਰਨ ਲਈ ਸਲਾਈਡ ਕਰੋ</string>
   <string name="conversation_input_panel__cancel">ਰੱਦ ਕਰੋ</string>
@@ -844,9 +844,9 @@
   <string name="IdentityUtil_unverified_banner_one">%s ਨਾਲ ਤੁਹਾਡਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ</string>
   <string name="IdentityUtil_unverified_banner_two">%1$s ਅਤੇ %2$s ਦੇ ਨਾਲ ਤੁਹਾਡਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ</string>
   <string name="IdentityUtil_unverified_banner_many">%1$s, %2$s ਅਤੇ %3$s ਦੇ ਨਾਲ ਤੁਹਾਡਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ</string>
-  <string name="IdentityUtil_unverified_dialog_one">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ %1$s ਨੇ Signal ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
-  <string name="IdentityUtil_unverified_dialog_two">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਅਤੇ %2$s ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਓਹਨਾ ਨੇ Signal ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
-  <string name="IdentityUtil_unverified_dialog_many">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s,%2$s ਅਤੇ %3$s ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਓਹਨਾ ਨੇ Signal ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
+  <string name="IdentityUtil_unverified_dialog_one">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ %1$s ਨੇ OfficeApp ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
+  <string name="IdentityUtil_unverified_dialog_two">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s ਅਤੇ %2$s ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਓਹਨਾ ਨੇ OfficeApp ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
+  <string name="IdentityUtil_unverified_dialog_many">ਤੁਹਾਡਾ ਹਿਫ਼ਾਜ਼ਤੀ ਨੰਬਰ  %1$s,%2$s ਅਤੇ %3$s ਨਾਲ ਬਦਲ ਗਿਆ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ | ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕੇ ਜਾ ਤਾਂ ਤੁਹਾਡੀ ਗੱਲਬਾਤ ਨੂੰ ਕੋਈ ਸੁਨ ਰਿਹਾ ਹੈ ਜਾ ਫੇਰ ਓਹਨਾ ਨੇ OfficeApp ਨੂੰ ਦੋਬਾਰਾ ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ </string>
   <string name="IdentityUtil_untrusted_dialog_one">%s ਨਾਲ ਤੁਹਾਡਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਬਦਲ ਗਿਆ ਹੈ</string>
   <string name="IdentityUtil_untrusted_dialog_two">%1$s ਅਤੇ %2$s ਨਾਲ ਤੁਹਾਡਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਬਦਲ ਗਿਆ ਹੈ</string>
   <string name="IdentityUtil_untrusted_dialog_many">%1$s, %2$s ਅਤੇ %3$s ਨਾਲ ਤੁਹਾਡਾ ਸੁਰੱਖਿਆ ਨੰਬਰ ਬਦਲ ਗਿਆ ਹੈ</string>
@@ -877,7 +877,7 @@
   <string name="log_submit_activity__please_review_this_log_from_my_app">ਕਿਰਪਾ ਕਰਕੇ ਮੇਰੇ ਐਪ ਤੋਂ ਇਸ ਲਾਗ ਦੀ ਸਮੀਖਿਆ ਕਰੋ: %1$s</string>
   <string name="log_submit_activity__network_failure">ਨੈਟਵਰਕ ਅਸਫਲਤਾ. ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਮੌਜੂਦਾ ਟੈਕਸਟ ਸੁਨੇਹੇ Signal ਦੇ ਏਨਕ੍ਰਿਪਟ ਕੀਤੇ ਡਾਟਾਬੇਸ ਵਿੱਚ ਆਯਾਤ ਕਰਨਾ ਪਸੰਦ ਕਰੋਗੇ?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਮੌਜੂਦਾ ਟੈਕਸਟ ਸੁਨੇਹੇ OfficeApp ਦੇ ਏਨਕ੍ਰਿਪਟ ਕੀਤੇ ਡਾਟਾਬੇਸ ਵਿੱਚ ਆਯਾਤ ਕਰਨਾ ਪਸੰਦ ਕਰੋਗੇ?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">ਡਿਫਾਲਟ ਸਿਸਟਮ ਡੇਟਾਬੇਸ ਨੂੰ ਕਿਸੇ ਵੀ ਤਰੀਕੇ ਨਾਲ ਸੋਧਿਆ ਜਾਂ ਬਦਲਿਆ ਨਹੀਂ ਜਾਵੇਗਾ.</string>
   <string name="database_migration_activity__skip">ਛੱਡੋ</string>
   <string name="database_migration_activity__import">ਆਯਾਤ ਕਰੋ</string>
@@ -909,7 +909,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">ਅਨਲੌਕ</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal ਲਈ ਤੁਹਾਡੇ ਵਾਇਰਲੈੱਸ ਕੈਰੀਅਰ ਦੁਆਰਾ ਮੀਡੀਆ ਅਤੇ ਸਮੂਹ ਸੁਨੇਹਿਆਂ ਨੂੰ ਭੇਜਣ ਲਈ MMS ਸੈਟਿੰਗਾਂ ਦੀ ਲੋੜ ਹੈ | ਤੁਹਾਡਾ ਡਿਵਾਈਸ ਇਹ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਕਰਵਾਉਂਦਾ , ਜੋ ਕਦੇ-ਕਦਾਈਂ ਬੰਦ ਕੀਤੀਆਂ ਡਿਵਾਈਸਾਂ ਅਤੇ ਹੋਰ ਪ੍ਰਤਿਬੰਧਿਤ ਕੌਨਫਿਗ੍ਰੇਸ਼ਨਾਂ ਲਈ ਸਹੀ ਹੈ.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">OfficeApp ਲਈ ਤੁਹਾਡੇ ਵਾਇਰਲੈੱਸ ਕੈਰੀਅਰ ਦੁਆਰਾ ਮੀਡੀਆ ਅਤੇ ਸਮੂਹ ਸੁਨੇਹਿਆਂ ਨੂੰ ਭੇਜਣ ਲਈ MMS ਸੈਟਿੰਗਾਂ ਦੀ ਲੋੜ ਹੈ | ਤੁਹਾਡਾ ਡਿਵਾਈਸ ਇਹ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਕਰਵਾਉਂਦਾ , ਜੋ ਕਦੇ-ਕਦਾਈਂ ਬੰਦ ਕੀਤੀਆਂ ਡਿਵਾਈਸਾਂ ਅਤੇ ਹੋਰ ਪ੍ਰਤਿਬੰਧਿਤ ਕੌਨਫਿਗ੍ਰੇਸ਼ਨਾਂ ਲਈ ਸਹੀ ਹੈ.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">ਮੀਡੀਆ ਅਤੇ ਸਮੂਹ ਸੁਨੇਹਿਆਂ ਨੂੰ ਭੇਜਣ ਲਈ, \'ਠੀਕ ਹੈ\' ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਬੇਨਤੀ ਕੀਤੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਪੂਰਾ ਕਰੋ. ਤੁਹਾਡੇ ਕੈਰੀਅਰ ਲਈ ਐਮਐਮਐਸ ਸੈਟਿੰਗਾਂ ਆਮ ਤੌਰ ਤੇ \'ਤੁਹਾਡਾ ਕੈਰੀਅਰ ਏਪੀਐਨ\' ਦੀ ਭਾਲ ਕਰਕੇ ਲੱਭੀਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ. ਤੁਹਾਨੂੰ ਕੇਵਲ ਇੱਕ ਵਾਰ ਇਸਦੀ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੋਏਗੀ.</string>
   <!--profile_create_activity-->
   <string name="profile_create_activity__set_later">ਬਾਅਦ ਵਿੱਚ ਸੈਟ ਕਰੋ</string>
@@ -932,12 +932,12 @@
   <string name="recipient_preferences__call_settings">ਕਾਲ ਸੈਟਿੰਗਾਂ</string>
   <string name="recipient_preferences__ringtone">ਰਿੰਗਟੋਨ</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal ਕਾਲ </string>
+  <string name="redphone_call_card__signal_call">OfficeApp ਕਾਲ </string>
   <string name="redphone_call_controls__mute">ਚੁੱਪ</string>
   <string name="redphone_call_controls__flip_camera_rear">ਸਵਿੱਚ ਕੈਮਰੇ</string>
   <!--registration_activity-->
   <string name="registration_activity__phone_number">ਫੋਨ ਨੰਬਰ</string>
-  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਫੋਨ ਨੰਬਰ ਅਤੇ ਐਡਰੈੱਸ ਬੁੱਕ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸੰਚਾਰ ਕਰਨਾ ਸੌਖਾ ਬਣਾਉਂਦਾ ਹੈ. ਦੋਸਤ ਅਤੇ ਸੰਪਰਕ ਜੋ ਪਹਿਲਾਂ ਹੀ ਜਾਣਦੇ ਹਨ ਕਿ ਤੁਸੀਂ ਫੋਨ ਦੁਆਰਾ ਕਿਸ ਤਰ੍ਹਾਂ ਸੰਪਰਕ ਕਰਨਾ ਹੈ, Signal ਦੁਆਰਾ ਆਸਾਨੀ ਨਾਲ ਸੰਪਰਕ ਵਿੱਚ ਆਉਣ ਦੇ ਯੋਗ ਹੋਵੇਗਾ. \n\n ਰਜਿਸਟਰਡ ਕੁਝ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਨੂੰ ਸਰਵਰ ਤੇ ਸੰਚਾਰਿਤ ਕਰਦਾ ਹੈ. ਇਹ ਸਟੋਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ.</string>
+  <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">OfficeApp ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਫੋਨ ਨੰਬਰ ਅਤੇ ਐਡਰੈੱਸ ਬੁੱਕ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸੰਚਾਰ ਕਰਨਾ ਸੌਖਾ ਬਣਾਉਂਦਾ ਹੈ. ਦੋਸਤ ਅਤੇ ਸੰਪਰਕ ਜੋ ਪਹਿਲਾਂ ਹੀ ਜਾਣਦੇ ਹਨ ਕਿ ਤੁਸੀਂ ਫੋਨ ਦੁਆਰਾ ਕਿਸ ਤਰ੍ਹਾਂ ਸੰਪਰਕ ਕਰਨਾ ਹੈ, OfficeApp ਦੁਆਰਾ ਆਸਾਨੀ ਨਾਲ ਸੰਪਰਕ ਵਿੱਚ ਆਉਣ ਦੇ ਯੋਗ ਹੋਵੇਗਾ. \n\n ਰਜਿਸਟਰਡ ਕੁਝ ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਨੂੰ ਸਰਵਰ ਤੇ ਸੰਚਾਰਿਤ ਕਰਦਾ ਹੈ. ਇਹ ਸਟੋਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ.</string>
   <string name="registration_activity__verify_your_number">ਆਪਣਾ ਨੰਬਰ ਪ੍ਰਮਾਣਿਤ ਕਰੋ</string>
   <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਪੁਸ਼ਟੀਕਰਣ ਕੋਡ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ. ਕੈਰੀਅਰ ਦਰ ਲਾਗੂ ਹੋ ਸਕਦੀ ਹੈ</string>
   <!--recipients_panel-->
@@ -949,7 +949,7 @@
   <string name="unknown_sender_view__add_to_contacts">ਸੰਪਰਕਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">ਸ਼ਾਮਿਲ ਨਾ ਕਰੋ, ਪਰ ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ ਨੂੰ ਦੇਖਣ ਦਿਓ</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ਜੇ ਤੁਸੀਂ %s ਨਾਲ ਆਪਣੇ ਏਨਕ੍ਰਿਪਸ਼ਨ ਦੀ ਸੁਰੱਖਿਆ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਉਪਰੋਕਤ ਨੰਬਰ ਦੀ ਤੁਲਨਾ ਉਨ੍ਹਾਂ ਦੀ ਡਿਵਾਈਸ \'ਤੇ ਕਰੋ. ਵਿਕਲਪਕ ਤੌਰ ਤੇ, ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਦੇ ਫੋਨ ਤੇ ਕੋਡ ਸਕੈਨ ਕਰ ਸਕਦੇ ਹੋ, ਜਾਂ ਆਪਣੇ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰਨ ਲਈ ਕਹਿ ਸਕਦੇ ਹੋ. <a href="https://signal.org/redirect/safety-numbers">ਜਿਆਦਾ ਜਾਣੋ.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ਜੇ ਤੁਸੀਂ %s ਨਾਲ ਆਪਣੇ ਏਨਕ੍ਰਿਪਸ਼ਨ ਦੀ ਸੁਰੱਖਿਆ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਉਪਰੋਕਤ ਨੰਬਰ ਦੀ ਤੁਲਨਾ ਉਨ੍ਹਾਂ ਦੀ ਡਿਵਾਈਸ \'ਤੇ ਕਰੋ. ਵਿਕਲਪਕ ਤੌਰ ਤੇ, ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਦੇ ਫੋਨ ਤੇ ਕੋਡ ਸਕੈਨ ਕਰ ਸਕਦੇ ਹੋ, ਜਾਂ ਆਪਣੇ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰਨ ਲਈ ਕਹਿ ਸਕਦੇ ਹੋ. <a href="https://raapp.com/redirect/safety-numbers">ਜਿਆਦਾ ਜਾਣੋ.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">ਸਕੈਨ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="verify_display_fragment__loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ ...</string>
   <string name="verify_display_fragment__verified">ਪ੍ਰਮਾਣਿਤ</string>
@@ -1014,8 +1014,8 @@
   <string name="preferences__sms_mms">SMS ਅਤੇ ਐਮਐਮਐਸ</string>
   <string name="preferences__pref_all_sms_title">ਸਾਰੇ SMS ਪ੍ਰਾਪਤ ਕਰੋ</string>
   <string name="preferences__pref_all_mms_title">ਸਾਰੇ ਐਮਐਮਐਸ ਪ੍ਰਾਪਤ ਕਰੋ</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ਆਉਣ ਵਾਲੇ ਸਾਰੇ ਸੁਨੇਹਿਆਂ ਲਈ Signal ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ਸਾਰੇ ਆਉਣ ਵਾਲੇ ਮਲਟੀਮੀਡੀਆ ਸੁਨੇਹਿਆਂ ਲਈ Signal ਵਰਤੋ</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ਆਉਣ ਵਾਲੇ ਸਾਰੇ ਸੁਨੇਹਿਆਂ ਲਈ OfficeApp ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ਸਾਰੇ ਆਉਣ ਵਾਲੇ ਮਲਟੀਮੀਡੀਆ ਸੁਨੇਹਿਆਂ ਲਈ OfficeApp ਵਰਤੋ</string>
   <string name="preferences__pref_enter_sends_title">ਕੁੰਜੀ ਭੇਜੋ ਦਰਜ ਕਰੋ</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Enter ਕੁੰਜੀ ਦਬਾਉਣ ਨਾਲ ਟੈਕਸਟ ਸੁਨੇਹੇ ਭੇਜੇ ਜਾਣਗੇ</string>
   <string name="preferences__send_link_previews">ਲਿੰਕ ਪੂਰਵਦਰਸ਼ਨ ਭੇਜੋ</string>
@@ -1028,7 +1028,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">ਪਾਸਫਰੇਜ ਦੇ ਨਾਲ ਸਕ੍ਰੀਨ ਅਤੇ ਸੂਚਨਾਵਾਂ ਨੂੰ ਲੌਕ ਕਰੋ</string>
   <string name="preferences__screen_security">ਸਕ੍ਰੀਨ ਸੁਰੱਖਿਆ</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Recents ਸੂਚੀ ਵਿੱਚ ਅਤੇ ਐਪ ਦੇ ਅੰਦਰ ਸਕ੍ਰੀਨਸ਼ਾਟ ਨੂੰ ਬਲੌਕ ਕਰੋ</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ਨਿਸ਼ਕਿਰਿਆ ਦੇ ਇੱਕ ਨਿਸ਼ਚਿਤ ਸਮੇਂ ਅੰਤਰਾਲ ਤੋਂ ਬਾਅਦ Signal ਨੂੰ ਆਟੋ-ਲੌਕ ਕਰੋ </string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ਨਿਸ਼ਕਿਰਿਆ ਦੇ ਇੱਕ ਨਿਸ਼ਚਿਤ ਸਮੇਂ ਅੰਤਰਾਲ ਤੋਂ ਬਾਅਦ OfficeApp ਨੂੰ ਆਟੋ-ਲੌਕ ਕਰੋ </string>
   <string name="preferences__inactivity_timeout_passphrase">ਇਨ-ਐਕਟੀਵਿਟੀ ਟਾਈਮਆਉਟ ਪਾਸਫਰੇਜ</string>
   <string name="preferences__inactivity_timeout_interval">ਅਕਿਰਿਆਸ਼ੀਲਤਾ ਸਮਾਂ ਅੰਤਰਾਲ</string>
   <string name="preferences__notifications">ਸੂਚਨਾਵਾਂ </string>
@@ -1081,8 +1081,8 @@
   <string name="preferences__theme">ਥੀਮ</string>
   <string name="preferences__default">ਡਿਫੌਲਟ</string>
   <string name="preferences__language">ਭਾਸ਼ਾ</string>
-  <string name="preferences__signal_messages_and_calls">Signal ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ</string>
-  <string name="preferences__free_private_messages_and_calls">Signal ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਮੁਫਤ ਗੁਪਤ ਸੰਦੇਸ਼ ਅਤੇ ਕਾਲਾਂ</string>
+  <string name="preferences__signal_messages_and_calls">OfficeApp ਸੰਦੇਸ਼ਾਂ ਅਤੇ ਕਾਲਾਂ</string>
+  <string name="preferences__free_private_messages_and_calls">OfficeApp ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਮੁਫਤ ਗੁਪਤ ਸੰਦੇਸ਼ ਅਤੇ ਕਾਲਾਂ</string>
   <string name="preferences__submit_debug_log">ਡੀਬੱਗ ਲਾਗ ਜਮ੍ਹਾਂ ਕਰੋ</string>
   <string name="preferences__support_wifi_calling">\'ਵਾਈਫਾਈ ਕਾਲਿੰਗ\' ਅਨੁਕੂਲਤਾ ਮੋਡ</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">ਜੇਕਰ ਤੁਹਾਡੀ ਡਿਵਾਈਸ WiFi ਦੀ ਜਗਾਹ SMS / MMS ਡਿਲਵਰੀ ਵਰਤਦੀ ਹੈ ਤਾਂ ਸਮਰੱਥ ਬਣਾਓ (ਕੇਵਲ ਉਦੋਂ ਸਮਰੱਥ ਕਰੋ ਜਦੋਂ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੇ\' WiFi Calling \'ਸਮਰਥਿਤ ਹੋਵੇ)</string>
@@ -1099,8 +1099,8 @@
   <string name="preferences_chats__media_auto_download">ਮੀਡੀਆ ਆਟੋ-ਡਾਊਨਲੋਡ</string>
   <string name="preferences_chats__message_trimming">ਸੁਨੇਹਾ ਟ੍ਰਰੀਮਿੰਗ </string>
   <string name="preferences_advanced__use_system_emoji">ਸਿਸਟਮ ਇਮੋਜੀ ਵਰਤੋ</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal ਦੇ ਬਿਲਟ-ਇਨ ਇਮੋਜੀ ਸਹਾਇਤਾ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਓ</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">ਆਪਣੇ ਸੰਪਰਕ ਨੂੰ ਤੁਹਾਡੇ IP ਦਾ ਪਤਾ ਲੱਗਣ ਤੋਂ ਬਚਾਉਣ ਲਈ Signal ਸਰਵਰ ਰਾਹੀਂ ਸਾਰੀਆਂ ਕਾਲਾਂ ਨੂੰ ਰੀਲੇਅ ਕਰੋ. ਯੋਗ ਕਰਨ ਨਾਲ ਕਾਲ ਦੀ ਗੁਣਵੱਤਾ ਘਟੇਗੀ</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">OfficeApp ਦੇ ਬਿਲਟ-ਇਨ ਇਮੋਜੀ ਸਹਾਇਤਾ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਓ</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">ਆਪਣੇ ਸੰਪਰਕ ਨੂੰ ਤੁਹਾਡੇ IP ਦਾ ਪਤਾ ਲੱਗਣ ਤੋਂ ਬਚਾਉਣ ਲਈ OfficeApp ਸਰਵਰ ਰਾਹੀਂ ਸਾਰੀਆਂ ਕਾਲਾਂ ਨੂੰ ਰੀਲੇਅ ਕਰੋ. ਯੋਗ ਕਰਨ ਨਾਲ ਕਾਲ ਦੀ ਗੁਣਵੱਤਾ ਘਟੇਗੀ</string>
   <string name="preferences_advanced__always_relay_calls">ਹਮੇਸ਼ਾ ਕਾਲਾਂ ਨੂੰ ਰੀਲੇਅ ਕਰੋ</string>
   <string name="preferences_app_protection__app_access">ਐਪ ਐਕਸੈਸ</string>
   <string name="preferences_app_protection__communication">ਸੰਚਾਰ</string>
@@ -1112,9 +1112,9 @@
   <string name="preferences_notifications__calls">ਕਾਲਾਂ </string>
   <string name="preferences_notifications__ringtone">ਰਿੰਗਟੋਨ</string>
   <string name="preferences_chats__show_invitation_prompts">ਸੱਦਾ ਪ੍ਰੋਂਪਟ ਦਿਖਾਓ</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">ਸੱਦਾ ਪ੍ਰੋਂਪਟ ਦਿਖਾਓ ਜੋ ਸੰਪਰਕ Signal ਤੇ ਨਹੀਂ ਹਨ </string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">ਸੱਦਾ ਪ੍ਰੋਂਪਟ ਦਿਖਾਓ ਜੋ ਸੰਪਰਕ OfficeApp ਤੇ ਨਹੀਂ ਹਨ </string>
   <string name="preferences_chats__message_text_size">ਸੁਨੇਹਾ ਫ਼ੌਂਟ ਦਾ ਆਕਾਰ</string>
-  <string name="preferences_events__contact_joined_signal">ਸੰਪਰਕ Signal ਨਾਲ ਜੁੜਿਆ</string>
+  <string name="preferences_events__contact_joined_signal">ਸੰਪਰਕ OfficeApp ਨਾਲ ਜੁੜਿਆ</string>
   <string name="preferences_notifications__priority">ਤਰਜੀਹ</string>
   <string name="preferences_communication__category_sealed_sender">ਸੀਲਡ ਪ੍ਰੇਸ਼ਕ</string>
   <string name="preferences_communication__sealed_sender_display_indicators">ਡਿਸਪਲੇ ਸੰਕੇਤ</string>
@@ -1130,7 +1130,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">ਕਾਲ</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal ਕਾਲ </string>
+  <string name="conversation_callable_secure__menu_call">OfficeApp ਕਾਲ </string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">ਸੁਨੇਹਾ ਵੇਰਵੇ</string>
   <string name="conversation_context__menu_copy_text">ਟੈਕਸਟ ਕਾਪੀ ਕਰੋ</string>
@@ -1193,26 +1193,26 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">ਕਲਿਪਬੋਰਡ ਤੇ ਕਾਪੀ ਕਰੋ </string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">ਕਲਿਪਬੋਰਡ ਨਾਲ ਤੁਲਨਾ ਕਰੋ</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">ਤੁਹਾਡੇ Signal ਦਾ ਵਰਜਨ ਪੁਰਾਣਾ ਹੈ</string>
+  <string name="reminder_header_outdated_build">ਤੁਹਾਡੇ OfficeApp ਦਾ ਵਰਜਨ ਪੁਰਾਣਾ ਹੈ</string>
   <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Signal ਦਾ ਤੁਹਾਡਾ ਵਰਜਨ %d ਦਿਨਾਂ ਵਿੱਚ ਖ਼ਤਮ ਹੋ ਜਾਵੇਗਾ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</item>
-    <item quantity="other">ਤੁਹਾਡੇ Signal ਦਾ ਵਰਜਨ %d ਦਿਨਾਂ ਵਿੱਚ ਖ਼ਤਮ ਹੋ ਜਾਵੇਗਾ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</item>
+    <item quantity="one">OfficeApp ਦਾ ਤੁਹਾਡਾ ਵਰਜਨ %d ਦਿਨਾਂ ਵਿੱਚ ਖ਼ਤਮ ਹੋ ਜਾਵੇਗਾ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</item>
+    <item quantity="other">ਤੁਹਾਡੇ OfficeApp ਦਾ ਵਰਜਨ %d ਦਿਨਾਂ ਵਿੱਚ ਖ਼ਤਮ ਹੋ ਜਾਵੇਗਾ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</item>
   </plurals>
-  <string name="reminder_header_outdated_build_details_today">ਤੁਹਾਡੇ Signal ਦਾ ਵਰਜਨ ਅੱਜ ਖਤਮ ਹੋ ਜਾਵੇਗਾ. ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
-  <string name="reminder_header_expired_build">ਤੁਹਾਡੇ Signal ਦਾ ਵਰਜਨ ਖਤਮ ਹੋ ਗਿਆ ਹੈ!</string>
+  <string name="reminder_header_outdated_build_details_today">ਤੁਹਾਡੇ OfficeApp ਦਾ ਵਰਜਨ ਅੱਜ ਖਤਮ ਹੋ ਜਾਵੇਗਾ. ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+  <string name="reminder_header_expired_build">ਤੁਹਾਡੇ OfficeApp ਦਾ ਵਰਜਨ ਖਤਮ ਹੋ ਗਿਆ ਹੈ!</string>
   <string name="reminder_header_expired_build_details">ਸੁਨੇਹੇ ਹੁਣ ਸਫਲਤਾਪੂਰਵਕ ਭੇਜੇ ਨਹੀਂ ਜਾਣਗੇ. ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਵਰਜਨ ਨੂੰ ਅਪਡੇਟ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="reminder_header_sms_default_title">ਡਿਫੌਲਟ SMS ਐਪ ਦੇ ਤੌਰ ਤੇ ਉਪਯੋਗ ਕਰੋ</string>
-  <string name="reminder_header_sms_default_text">Signal ਨੂੰ ਆਪਣੀ ਡਿਫੌਲਟ SMS ਐਪ ਬਣਾਉਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+  <string name="reminder_header_sms_default_text">OfficeApp ਨੂੰ ਆਪਣੀ ਡਿਫੌਲਟ SMS ਐਪ ਬਣਾਉਣ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="reminder_header_sms_import_title">ਸਿਸਟਮ ਐਸਐਮਐਸ ਇੰਪੋਰਟ ਕਰੋ</string>
-  <string name="reminder_header_sms_import_text">ਆਪਣੇ ਫੋਨ ਦੇ SMS ਸੁਨੇਹਿਆਂ ਨੂੰ Signal ਦੇ ਏਨਕ੍ਰਿਪਟ ਕੀਤੇ ਡੇਟਾਬੇਸ ਵਿੱਚ ਕਾਪੀ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ.</string>
-  <string name="reminder_header_push_title">Signal ਸੁਨੇਹਿਆਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
+  <string name="reminder_header_sms_import_text">ਆਪਣੇ ਫੋਨ ਦੇ SMS ਸੁਨੇਹਿਆਂ ਨੂੰ OfficeApp ਦੇ ਏਨਕ੍ਰਿਪਟ ਕੀਤੇ ਡੇਟਾਬੇਸ ਵਿੱਚ ਕਾਪੀ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ.</string>
+  <string name="reminder_header_push_title">OfficeApp ਸੁਨੇਹਿਆਂ ਅਤੇ ਕਾਲਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
   <string name="reminder_header_push_text">ਆਪਣੇ ਸੰਚਾਰ ਅਨੁਭਵ ਨੂੰ ਅਪਗ੍ਰੇਡ ਕਰੋ</string>
-  <string name="reminder_header_invite_title">Signal ਲਈ ਸੱਦੋ</string>
+  <string name="reminder_header_invite_title">OfficeApp ਲਈ ਸੱਦੋ</string>
   <string name="reminder_header_invite_text">ਅਗਲੇ ਪੱਧਰ ਤੱਕ %1$s ਨਾਲ ਆਪਣੀ ਗੱਲ ਕਰੋ.</string>
   <string name="reminder_header_share_title">ਦੋਸਤਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ</string>
-  <string name="reminder_header_share_text">ਜਿਹਨੇ ਜ਼ਿਆਦਾ ਦੋਸਤ Signal ਵਰਤਣਗੇ ਓਹਨਾ ਬੇਹਤਰ ਬਣੇਗੀ </string>
-  <string name="reminder_header_service_outage_text">Signal ਤਕਨੀਕੀ ਮੁਸ਼ਕਲਾਂ ਦਾ ਸਾਹਮਣਾ ਕਰ ਰਿਹਾ ਹੈ ਅਸੀਂ ਜਿੰਨੀ ਛੇਤੀ ਸੰਭਵ ਹੋ ਸਕੇ ਸੇਵਾ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਸਖ਼ਤ ਮਿਹਨਤ ਕਰ ਰਹੇ ਹਾਂ</string>
-  <string name="reminder_header_the_latest_signal_features_wont_work">ਨਵੀਨਤਮ Signal ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਐਂਡਰੌਇਡ ਦੇ ਇਸ ਸੰਸਕਰਣ ਤੇ ਕੰਮ ਨਹੀਂ ਕਰਨਗੀਆਂ. ਕਿਰਪਾ ਕਰਕੇ ਭਵਿੱਖੀ Signal ਅਪਡੇਟਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਇਸ ਡਿਵਾਈਸ ਨੂੰ ਅਪਗ੍ਰੇਡ ਕਰੋ.</string>
+  <string name="reminder_header_share_text">ਜਿਹਨੇ ਜ਼ਿਆਦਾ ਦੋਸਤ OfficeApp ਵਰਤਣਗੇ ਓਹਨਾ ਬੇਹਤਰ ਬਣੇਗੀ </string>
+  <string name="reminder_header_service_outage_text">OfficeApp ਤਕਨੀਕੀ ਮੁਸ਼ਕਲਾਂ ਦਾ ਸਾਹਮਣਾ ਕਰ ਰਿਹਾ ਹੈ ਅਸੀਂ ਜਿੰਨੀ ਛੇਤੀ ਸੰਭਵ ਹੋ ਸਕੇ ਸੇਵਾ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਸਖ਼ਤ ਮਿਹਨਤ ਕਰ ਰਹੇ ਹਾਂ</string>
+  <string name="reminder_header_the_latest_signal_features_wont_work">ਨਵੀਨਤਮ OfficeApp ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਐਂਡਰੌਇਡ ਦੇ ਇਸ ਸੰਸਕਰਣ ਤੇ ਕੰਮ ਨਹੀਂ ਕਰਨਗੀਆਂ. ਕਿਰਪਾ ਕਰਕੇ ਭਵਿੱਖੀ OfficeApp ਅਪਡੇਟਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਇਸ ਡਿਵਾਈਸ ਨੂੰ ਅਪਗ੍ਰੇਡ ਕਰੋ.</string>
   <!--media_preview-->
   <string name="media_preview__save_title">ਰੱਖੋ </string>
   <string name="media_preview__forward_title">ਅੱਗੇ ਭੇਜੋ </string>
@@ -1233,16 +1233,16 @@
   <string name="ConversationListFragment_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ ...</string>
   <string name="CallNotificationBuilder_connecting">ਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ ...</string>
   <string name="Permissions_permission_required">ਅਧਿਕਾਰ ਦੀ ਲੋੜ ਹੈ</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">SMS ਭੇਜਣ ਲਈ Signal ਨੂੰ SMS ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਪਰ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਨਾਮਨਜ਼ੂਰ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਨੂੰ ਜਾਰੀ ਰੱਖੋ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"SMS\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">SMS ਭੇਜਣ ਲਈ OfficeApp ਨੂੰ SMS ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਪਰ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਨਾਮਨਜ਼ੂਰ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਨੂੰ ਜਾਰੀ ਰੱਖੋ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"SMS\" ਨੂੰ ਸਮਰੱਥ ਕਰੋ</string>
   <string name="Permissions_continue">ਜਾਰੀ ਰੱਖੋ</string>
   <string name="Permissions_not_now">ਹਾਲੇ ਨਹੀਂ</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal ਨੂੰ ਸੰਪਰਕ ਲੱਭਣ ਲਈ ਸੰਪਰਕਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸੰਪਰਕ\" ਸਮਰੱਥ ਕਰੋ.</string>
-  <string name="conversation_activity__enable_signal_messages">Signal ਸੁਨੇਹੇ ਯੋਗ ਕਰੋ</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal ਡਾਟਾਬੇਸ ਮਾਈਗ੍ਰੇਟ ਹੋ ਰਿਹਾ ਹੈ</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">OfficeApp ਨੂੰ ਸੰਪਰਕ ਲੱਭਣ ਲਈ ਸੰਪਰਕਾਂ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਕੋਲ ਨਹੀਂ ਹਨ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗ ਮੇਨੂ  ਤੇ ਜਾਓ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸੰਪਰਕ\" ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="conversation_activity__enable_signal_messages">OfficeApp ਸੁਨੇਹੇ ਯੋਗ ਕਰੋ</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">OfficeApp ਡਾਟਾਬੇਸ ਮਾਈਗ੍ਰੇਟ ਹੋ ਰਿਹਾ ਹੈ</string>
   <string name="PushDecryptJob_new_locked_message">ਨਵਾਂ ਲੌਕ ਕੀਤਾ ਸੁਨੇਹਾ</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">ਬਕਾਇਆ ਸੁਨੇਹੇ ਵੇਖਣ ਲਈ ਅਨਲੌਕ ਕਰੋ</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">ਅਪਡੇਟ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਅਨਲੌਕ ਕਰੋ</string>
-  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">ਕਿਰਪਾ ਕਰਕੇ ਅਪਡੇਟ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ Signal ਅਨਲੌਕ ਕਰੋ</string>
+  <string name="ExperienceUpgradeActivity_please_unlock_signal_to_complete_update">ਕਿਰਪਾ ਕਰਕੇ ਅਪਡੇਟ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ OfficeApp ਅਨਲੌਕ ਕਰੋ</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">ਬੈਕਅਪ ਪਾਸਫਰੇਜ</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">ਬੈਕਅਪ ਬਾਹਰੀ ਸਟੋਰੇਜ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕੀਤੇ ਜਾਣਗੇ ਅਤੇ ਹੇਠਾਂ ਪਾਸਫਰੇਜ ਨਾਲ ਏਨਕ੍ਰਿਪਟ ਕੀਤੇ ਜਾਣਗੇ. ਬੈਕਅੱਪ ਨੂੰ ਰੀਸਟੋਰ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਪਾਸਫਰੇਜ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ.</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ਮੈਂ ਇਹ ਪਾਸਫਰੇਜ ਲਿੱਖ ਲਿਆ ਹੈ. ਇਸ ਤੋਂ ਬਿਨਾਂ, ਮੈਂ ਬੈਕਅੱਪ ਨੂੰ ਰੀਸਟੋਰ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਹੋਵਾਂਗਾ.</string>
@@ -1254,7 +1254,7 @@
   <string name="preferences_chats__create_backup">ਬੈਕਅਪ ਬਣਾਓ</string>
   <string name="RegistrationActivity_enter_backup_passphrase">ਬੈਕਅਪ ਪਾਸਫਰੇਜ ਦਰਜ ਕਰੋ</string>
   <string name="RegistrationActivity_restore">ਰੀਸਟੋਰ ਕਰੋ</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal ਦੇ ਨਵੇਂ ਵਰਜਨਾਂ ਤੋਂ ਬੈਕਅੱਪ ਆਯਾਤ ਨਹੀਂ ਕਰ ਸਕਦਾ</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">OfficeApp ਦੇ ਨਵੇਂ ਵਰਜਨਾਂ ਤੋਂ ਬੈਕਅੱਪ ਆਯਾਤ ਨਹੀਂ ਕਰ ਸਕਦਾ</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">ਗਲਤ ਬੈਕਅਪ ਪਾਸਫਰੇਜ</string>
   <string name="RegistrationActivity_checking">ਜਾਂਚ ਕਰ ਰਿਹਾ ਹੈ ...</string>
   <string name="RegistrationActivity_d_messages_so_far">ਅਜੇ ਤੱਕ %d ਸੁਨੇਹੇ ...</string>
@@ -1269,7 +1269,7 @@
   <string name="BackupDialog_disable_and_delete_all_local_backups">ਕੀ ਸਾਰੇ ਸਥਾਨਕ ਬੈਕਅਪਸ ਨੂੰ ਅਯੋਗ ਅਤੇ ਮਿਟਾਉਣਾ ਹੈ?</string>
   <string name="BackupDialog_delete_backups_statement">ਬੈਕਅਪ ਮਿਟਾਓ</string>
   <string name="BackupDialog_copied_to_clipboard">ਕਲਿਪਬੋਰਡ ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">ਬੈਕਅਪ ਬਣਾਉਣ ਲਈ Signal ਨੂੰ ਬਾਹਰੀ ਸਟੋਰੇਜ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਪਰ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਨਾਮਨਜ਼ੂਰ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਨੂੰ ਜਾਰੀ ਰੱਖੋ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਟੋਰੇਜ\" ਸਮਰੱਥ ਕਰੋ.</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">ਬੈਕਅਪ ਬਣਾਉਣ ਲਈ OfficeApp ਨੂੰ ਬਾਹਰੀ ਸਟੋਰੇਜ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਪਰ ਇਸਨੂੰ ਪੱਕੇ ਤੌਰ ਤੇ ਨਾਮਨਜ਼ੂਰ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ | ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਸੈਟਿੰਗਾਂ ਨੂੰ ਜਾਰੀ ਰੱਖੋ, \"ਅਨੁਮਤੀਆਂ\" ਚੁਣੋ ਅਤੇ \"ਸਟੋਰੇਜ\" ਸਮਰੱਥ ਕਰੋ.</string>
   <string name="ChatsPreferenceFragment_last_backup_s">ਆਖਰੀ ਬੈਕਅਪ: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">ਤਰੱਕੀ ਹੋ ਰਹੀ ਹੈ</string>
   <string name="LocalBackupJob_creating_backup">ਬੈਕਅਪ ਬਣਾ ਰਿਹਾ ਹੈ ...</string>
@@ -1280,7 +1280,7 @@
   <string name="BackupUtil_never">ਕਦੇ ਨਹੀਂ</string>
   <string name="BackupUtil_unknown">ਅਣਜਾਣ</string>
   <string name="preferences_app_protection__screen_lock">ਸਕ੍ਰੀਨ ਲੌਕ</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ਐਂਡਰਾਇਡ ਸਕ੍ਰੀਨ ਲੌਕ ਜਾਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦੇ ਨਾਲ Signal ਨੂੰ ਲਾਕ ਕਰੋ </string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ਐਂਡਰਾਇਡ ਸਕ੍ਰੀਨ ਲੌਕ ਜਾਂ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦੇ ਨਾਲ OfficeApp ਨੂੰ ਲਾਕ ਕਰੋ </string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">ਸਕ੍ਰੀਨ ਲੌਕ ਅਕਿਰਿਆਟੀਟੀ ਟਾਈਮਆਉਟ</string>
   <string name="AppProtectionPreferenceFragment_none">ਕੋਈ ਨਹੀਂ</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਉਹ ਨਹੀਂ ਹੈ ਜੋ ਤੁਸੀਂ ਪ੍ਰਾਪਤ ਕੀਤਾ ਸੀ. ਕਿਰਪਾ ਕਰਕੇ ਉਹ ਪਿੰਨ ਦਾਖ਼ਲ ਕਰੋ ਜੋ ਤੁਸੀਂ ਪਹਿਲਾਂ ਐਪਲੀਕੇਸ਼ਨ ਵਿੱਚ ਕੌਂਫਿਗਰ ਕੀਤਾ ਸੀ.</string>
@@ -1291,7 +1291,7 @@
   <string name="registration_lock_dialog_view__confirm_pin">ਪਿੰਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
   <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">ਆਪਣਾ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਦਾਖ਼ਲ ਕਰੋ</string>
   <string name="registration_lock_reminder_view__enter_pin">ਪਿੰਨ ਦਾਖ਼ਲ ਕਰੋ</string>
-  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਨੂੰ ਸਮਰੱਥ ਕਰੋ ਜੋ ਇਸ ਫੋਨ ਨੰਬਰ ਨੂੰ Signal ਨਾਲ ਦੁਬਾਰਾ ਰਜਿਸਟਰ ਕਰਨ ਵਿਚ ਲੋੜ ਹੋਵੇਗੀ.</string>
+  <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਨੂੰ ਸਮਰੱਥ ਕਰੋ ਜੋ ਇਸ ਫੋਨ ਨੰਬਰ ਨੂੰ OfficeApp ਨਾਲ ਦੁਬਾਰਾ ਰਜਿਸਟਰ ਕਰਨ ਵਿਚ ਲੋੜ ਹੋਵੇਗੀ.</string>
   <string name="preferences_app_protection__registration_lock_pin">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ</string>
   <string name="preferences_app_protection__registration_lock">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ </string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">ਤੁਹਾਨੂੰ ਆਪਣਾ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਦਾਖ਼ਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ</string>
@@ -1300,13 +1300,13 @@
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">ਤੁਸੀਂ ਬਹੁਤ ਜ਼ਿਆਦਾ ਗਲਤ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਕੋਸ਼ਿਸ਼ਾਂ ਕੀਤੀਆਂ ਹਨ ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਦਿਨ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ.</string>
   <string name="RegistrationActivity_error_connecting_to_service">ਸੇਵਾ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਵਿੱਚ ਤਰੁੱਟੀ</string>
   <string name="RegistrationActivity_oh_no">ਓਹ ਨਹੀਂ!</string>
-  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">ਇਸ ਫੋਨ ਨੰਬਰ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ 7 ਦਿਨਾਂ ਦੇ ਬੀਤਣ ਤੋਂ ਬਾਅਦ ਤੁਹਾਡੇ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਤੋਂ ਬਿਨਾਂ ਹੋ ਸਕਦੀ ਹੈ ਕਿਉਂਕਿ ਇਹ ਫੋਨ ਨੰਬਰ Signal \'ਤੇ ਆਖਰੀ ਸਰਗਰਮ ਸੀ. ਤੁਹਾਡੇ ਕੋਲ %d ਦਿਨ ਬਚੇ ਹਨ</string>
+  <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">ਇਸ ਫੋਨ ਨੰਬਰ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ 7 ਦਿਨਾਂ ਦੇ ਬੀਤਣ ਤੋਂ ਬਾਅਦ ਤੁਹਾਡੇ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਤੋਂ ਬਿਨਾਂ ਹੋ ਸਕਦੀ ਹੈ ਕਿਉਂਕਿ ਇਹ ਫੋਨ ਨੰਬਰ OfficeApp \'ਤੇ ਆਖਰੀ ਸਰਗਰਮ ਸੀ. ਤੁਹਾਡੇ ਕੋਲ %d ਦਿਨ ਬਚੇ ਹਨ</string>
   <string name="RegistrationActivity_registration_lock_pin">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ</string>
   <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">ਇਸ ਫੋਨ ਨੰਬਰ ਵਿੱਚ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਲਾਕ ਸਮਰਥਿਤ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਦਾਖ਼ਲ ਕਰੋ</string>
-  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੰਬਰ ਲਈ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਲੌਕ ਸਮਰੱਥ ਹੈ ਆਪਣੇ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਨੂੰ ਯਾਦ ਕਰਨ ਲਈ, Signal ਨਿਰੰਤਰ ਤੌਰ ਤੇ ਤੁਹਾਨੂੰ ਇਹ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਕਹੇਗਾ .</string>
+  <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੰਬਰ ਲਈ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਲੌਕ ਸਮਰੱਥ ਹੈ ਆਪਣੇ ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਨੂੰ ਯਾਦ ਕਰਨ ਲਈ, OfficeApp ਨਿਰੰਤਰ ਤੌਰ ਤੇ ਤੁਹਾਨੂੰ ਇਹ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਕਹੇਗਾ .</string>
   <string name="RegistrationLockDialog_i_forgot_my_pin">ਮੈਂ ਆਪਣਾ ਪਿੰਨ ਭੁੱਲ ਗਿਆ ਹਾਂ</string>
   <string name="RegistrationLockDialog_forgotten_pin">ਕੀ ਪਿੰਨ ਭੁੱਲ ਗਏ?</string>
-  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਅਣਅਧਿਕਾਰਤ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੰਬਰ ਦੀ ਰੱਖਿਆ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ. ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਤੁਹਾਡੇ Signal ਗੁਪਤਤਾ ਸੈਟਿੰਗਜ਼ ਵਿੱਚ ਕਿਸੇ ਵੀ ਸਮੇਂ ਅਸਮਰੱਥ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ </string>
+  <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਅਣਅਧਿਕਾਰਤ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੰਬਰ ਦੀ ਰੱਖਿਆ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ. ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਤੁਹਾਡੇ OfficeApp ਗੁਪਤਤਾ ਸੈਟਿੰਗਜ਼ ਵਿੱਚ ਕਿਸੇ ਵੀ ਸਮੇਂ ਅਸਮਰੱਥ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ </string>
   <string name="RegistrationLockDialog_registration_lock">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ </string>
   <string name="RegistrationLockDialog_enable">ਯੋਗ ਕਰੋ</string>
   <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_four_digits">ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਘੱਟੋ ਘੱਟ 4 ਅੰਕ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ.</string>
@@ -1315,7 +1315,7 @@
   <string name="RegistrationLockDialog_disable_registration_lock_pin">ਰਜਿਸਟਰੇਸ਼ਨ ਲੌਕ ਪਿੰਨ ਨੂੰ ਅਸਮਰੱਥ ਕਰੋ?</string>
   <string name="RegistrationLockDialog_disable">ਅਸਮਰੱਥ ਕਰੋ</string>
   <string name="preferences_chats__backups">ਬੈਕਅੱਪ</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal ਲਾਕ ਹੈ</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">OfficeApp ਲਾਕ ਹੈ</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">ਅਨਲੌਕ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
   <string name="RegistrationLockDialog_reminder">ਰੀਮਾਈਂਡਰ:</string>
   <string name="recipient_preferences__about">ਇਸ ਬਾਰੇ</string>

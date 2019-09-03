@@ -8,7 +8,7 @@ https://community.signalusers.org
 
 If you are looking for support, please visit our support center:
 https://support.signal.org/
-or email support@signal.org
+or email support@raapp.com
 
 Let's begin with a checklist: Replace the empty checkboxes [ ] below with checked ones [x] accordingly. -->
 

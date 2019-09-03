@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Signal</string>
+  <string name="app_name">OfficeApp</string>
   <string name="yes">はい</string>
   <string name="no">いいえ</string>
   <string name="delete">削除</string>
@@ -23,11 +23,11 @@
   </plurals>
   <string name="ApplicationPreferencesActivity_delete">削除</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">パスワードを無効にしますか？</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Signalとメッセージ通知のロックを無効にします</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">OfficeAppとメッセージ通知のロックを無効にします</string>
   <string name="ApplicationPreferencesActivity_disable">無効</string>
   <string name="ApplicationPreferencesActivity_unregistering">登録取り消し</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signalの登録を解除します...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signalでのメッセージ・通話を無効にしますか？</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">OfficeAppの登録を解除します...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">OfficeAppでのメッセージ・通話を無効にしますか？</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">サーバーから登録を取消します。Signalを使ったメッセージのやり取りや通話はできなくなります。 再びSignalを使うためには、あなたの電話番号を再登録をする必要があります。</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">サーバー接続中にエラーが発生しました！</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS 有効</string>
@@ -53,10 +53,10 @@
   <string name="DraftDatabase_Draft_quote_snippet">(返信)</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">ファイルを開くアプリが見つかりません。</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signalに写真や動画、音声データを添付するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定から、アプリの権限を選び、ストレージへのアクセス許可を有効にしてください。</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signalで連絡先を添付するには、連絡先へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、アプリの権限を選び、連絡先へのアクセス許可を有効にしてください。</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signalで位置情報を添付するには、位置情報へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『位置情報』へのアクセス許可を有効にしてください。</string>
-  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signalで写真を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">OfficeAppに写真や動画、音声データを添付するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定から、アプリの権限を選び、ストレージへのアクセス許可を有効にしてください。</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">OfficeAppで連絡先を添付するには、連絡先へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、アプリの権限を選び、連絡先へのアクセス許可を有効にしてください。</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">OfficeAppで位置情報を添付するには、位置情報へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『位置情報』へのアクセス許可を有効にしてください。</string>
+  <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">OfficeAppで写真を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">アップロード中...</string>
   <!--AudioSlidePlayer-->
@@ -88,7 +88,7 @@
   <string name="ContactsCursorLoader_groups">グループ</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">%sにメッセージを送る</string>
-  <string name="ContactsDatabase_signal_call_s">Signal通話%s</string>
+  <string name="ContactsDatabase_signal_call_s">OfficeApp通話%s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">名</string>
   <string name="ContactNameEditActivity_family_name">姓</string>
@@ -135,7 +135,7 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">このグループを本当に抜けますか？</string>
   <string name="ConversationActivity_transport_insecure_sms">暗号化されていないSMS</string>
   <string name="ConversationActivity_transport_insecure_mms">暗号化されていないMMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
+  <string name="ConversationActivity_transport_signal">OfficeApp</string>
   <string name="ConversationActivity_lets_switch_to_signal">チャットアプリをSignalに変えましょう。%1$s</string>
   <string name="ConversationActivity_error_leaving_group">グループ脱退でエラー</string>
   <string name="ConversationActivity_specify_recipient">連絡先を選択してください</string>
@@ -149,14 +149,14 @@
   <string name="ConversationActivity_unable_to_record_audio">録音できません！</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">このリンクを扱えるアプリがインストールされていません</string>
   <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">音声メッセージを送るには、Signalのマイクへのアクセスを許可してください。</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signalで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">OfficeAppで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
   <string name="ConversationActivity_to_call_s_signal_needs_access_to_your_microphone_and_camera">%sと通話するには、Signalにマイクとカメラへのアクセスを許可してください。</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signalで%sと通話するには、マイクとカメラへのアクセス許可が必要ですが、現在無効になっています。アプリ設定メニューから、\"アプリの権限\" を選び、\"マイク\" と \"カメラ\" へのアクセス許可を有効にしてください。</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">OfficeAppで%sと通話するには、マイクとカメラへのアクセス許可が必要ですが、現在無効になっています。アプリ設定メニューから、\"アプリの権限\" を選び、\"マイク\" と \"カメラ\" へのアクセス許可を有効にしてください。</string>
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">写真や動画を撮るには、Signalのカメラへのアクセスを許可してください。</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signalで写真や動画を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signalで写真や動画を撮るには、カメラへのアクセス許可が必要です。</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">OfficeAppで写真や動画を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">OfficeAppで写真や動画を撮るには、カメラへのアクセス許可が必要です。</string>
   <string name="ConversationActivity_quoted_contact_message">%2$s%1$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signalは現在、デフォルトのショートメッセージアプリになっていないため、メッセージが送信できません。設定を変更しますか？</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">OfficeAppは現在、デフォルトのショートメッセージアプリになっていないため、メッセージが送信できません。設定を変更しますか？</string>
   <string name="ConversationActivity_yes">はい</string>
   <string name="ConversationActivity_no">いいえ</string>
   <string name="ConversationActivity_search_position">%1$d / %2$d</string>
@@ -189,7 +189,7 @@
     <item quantity="other">%1$d個の添付ファイルを外部メモリに保存...</item>
   </plurals>
   <string name="ConversationFragment_pending">保留中...</string>
-  <string name="ConversationFragment_push">データ (Signal)</string>
+  <string name="ConversationFragment_push">データ (OfficeApp)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">削除中</string>
@@ -265,9 +265,9 @@
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">共有</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Signalにようこそ</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">OfficeAppにようこそ</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_called_signal">TextSecureとRedPhoneは統合されて「Signal」になりました。</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Signalにようこそ！</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">OfficeAppにようこそ！</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecureはSignalに生まれ変わりました</string>
   <string name="ExperienceUpgradeActivity_textsecure_is_now_signal_long">TextSecureとRedPhoneは１つのアプリ「Signal」になりました。タップすると詳細が分かります。</string>
   <string name="ExperienceUpgradeActivity_say_hello_to_video_calls">安全なビデオ通話へようこそ！</string>
@@ -275,8 +275,8 @@
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling">安全なビデオ通話が可能になりました</string>
   <string name="ExperienceUpgradeActivity_signal_now_supports_secure_video_calling_long">安全なビデオ通話が可能になりました。試すにはタップしてください。</string>
   <string name="ExperienceUpgradeActivity_ready_for_your_closeup">写真を撮りますが，準備はいいですか？</string>
-  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">Signalでプロフィール名と画像が設定できるようになりました。</string>
-  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">Signal のプロフィールは以下の通りです。</string>
+  <string name="ExperienceUpgradeActivity_now_you_can_share_a_profile_photo_and_name_with_friends_on_signal">OfficeAppでプロフィール名と画像が設定できるようになりました。</string>
+  <string name="ExperienceUpgradeActivity_signal_profiles_are_here">OfficeApp のプロフィールは以下の通りです。</string>
   <string name="ExperienceUpgradeActivity_introducing_typing_indicators">入力中アイコンのご紹介</string>
   <string name="ExperienceUpgradeActivity_now_you_can_optionally_see_and_share_when_messages_are_being_typed">メッセージが入力中であることを表示します。</string>
   <string name="ExperienceUpgradeActivity_would_you_like_to_enable_them_now">いま有効化しますか？</string>
@@ -303,15 +303,15 @@
   <string name="GroupCreateActivity_actionbar_edit_title">グループを編集する</string>
   <string name="GroupCreateActivity_group_name_hint">グループ名</string>
   <string name="GroupCreateActivity_actionbar_mms_title">新規MMSグループ</string>
-  <string name="GroupCreateActivity_contacts_dont_support_push">Signalユーザーでない人がいるため、このグループはMMSとなります。</string>
-  <string name="GroupCreateActivity_youre_not_registered_for_signal">Signalに未登録のためSignalグループを利用できません。設定 &gt; 詳細設定で再登録を試してください。</string>
+  <string name="GroupCreateActivity_contacts_dont_support_push">OfficeAppユーザーでない人がいるため、このグループはMMSとなります。</string>
+  <string name="GroupCreateActivity_youre_not_registered_for_signal">OfficeAppに未登録のためSignalグループを利用できません。設定 &gt; 詳細設定で再登録を試してください。</string>
   <string name="GroupCreateActivity_contacts_no_members">グループには最低でも１人は必要です！</string>
   <string name="GroupCreateActivity_contacts_invalid_number">グループのメンバーで電話番号が正しくない人がいます。番号を修正するか、そのメンバーを削除してからやり直してください。</string>
   <string name="GroupCreateActivity_avatar_content_description">グループアバター</string>
   <string name="GroupCreateActivity_menu_apply_button">適用する</string>
   <string name="GroupCreateActivity_creating_group">%1$sを作成中...</string>
   <string name="GroupCreateActivity_updating_group">%1$sをアップデート中...</string>
-  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">Signalユーザーでないので%1$sを加えることはできません</string>
+  <string name="GroupCreateActivity_cannot_add_non_push_to_existing_group">OfficeAppユーザーでないので%1$sを加えることはできません</string>
   <string name="GroupCreateActivity_loading_group_details">グループ詳細を読み込み...</string>
   <string name="GroupCreateActivity_youre_already_in_the_group">グループに加入済みです</string>
   <!--GroupShareProfileView-->
@@ -332,7 +332,7 @@
   <string name="InviteActivity_sending">送信中…</string>
   <string name="InviteActivity_heart_content_description">ハート</string>
   <string name="InviteActivity_invitations_sent">招待状を送りました</string>
-  <string name="InviteActivity_invite_to_signal">Signalに招待する</string>
+  <string name="InviteActivity_invite_to_signal">OfficeAppに招待する</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="other">SMSを友達%d人に送ります。</item>
   </plurals>
@@ -352,7 +352,7 @@
   <string name="LongMessageActivity_message_from_s">%1$sからのメッセージ</string>
   <string name="LongMessageActivity_your_message">あなたのメッセージ</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">OfficeApp</string>
   <string name="MessageRetrievalService_background_connection_enabled">バックグラウンド通信が有効されました</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">無線プロバイダのMMS設定の読み込みでエラー</string>
@@ -370,9 +370,9 @@
   <string name="MediaOverviewActivity_Select_all">すべて選択</string>
   <string name="MediaOverviewActivity_collecting_attachments">添付ファイルを集めています...</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal通話中</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal通話を準備しています</string>
-  <string name="NotificationBarManager__incoming_signal_call">Signal通話の着信</string>
+  <string name="NotificationBarManager_signal_call_in_progress">OfficeApp通話中</string>
+  <string name="NotificationBarManager__establishing_signal_call">OfficeApp通話を準備しています</string>
+  <string name="NotificationBarManager__incoming_signal_call">OfficeApp通話の着信</string>
   <string name="NotificationBarManager__deny_call">拒否</string>
   <string name="NotificationBarManager__answer_call">電話に出る</string>
   <string name="NotificationBarManager__end_call">通話を切る</string>
@@ -438,7 +438,7 @@
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">端末の追加には、このQRコードは不正です</string>
   <string name="DeviceProvisioningActivity_link_a_signal_device">端末を追加しますか？</string>
   <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">アプリ外のスキャナーを使って端末を追加しようとしていますが、安全のためSignal内からコードをスキャンしてください。</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">SignalでQRコードをスキャンするには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">OfficeAppでQRコードをスキャンするには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QRコードがスキャンできません。カメラへのアクセス許可が無効になっています。</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">消えるメッセージ</string>
@@ -446,7 +446,7 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">この会話内で送受信されるメッセージは閲覧後%sで消えます</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">パスフレーズを入力してください</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signalアイコン</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">OfficeAppアイコン</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">パスフレーズを設定</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">無効なパスフレーズです！</string>
   <!--PlacePickerActivity-->
@@ -500,7 +500,7 @@
   <string name="RegistrationActivity_invalid_number">無効な番号</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">指定された番号(%s)はお使いできません。</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play開発者サービスがありません</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">この端末にはGoogle Play開発者サービスがありません。Signalは使用できますが、信頼性や性能は下がる可能性があります。\n\n上級者でない方や、メーカー公式のAndroidをご利用の方、何かの間違いだと思う方などは support@signal.org まで連絡してください。</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">この端末にはGoogle Play開発者サービスがありません。Signalは使用できますが、信頼性や性能は下がる可能性があります。\n\n上級者でない方や、メーカー公式のAndroidをご利用の方、何かの間違いだと思う方などは support@raapp.com まで連絡してください。</string>
   <string name="RegistrationActivity_i_understand">分かりました</string>
   <string name="RegistrationActivity_play_services_error">Google Play開発者サービスのエラー</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play開発者サービスは更新中か一時的に使用不能です。再度試してください。</string>
@@ -510,7 +510,7 @@
   <string name="RegistrationActivity_less_information">詳細を隠す</string>
   <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">友達とつながったり、メッセージを交換したり、安全な通話をするには、Signalに連絡先やメディアへのアクセス許可が必要です。</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">サービスに接続できませんでした。ネットワークの接続を確認してから、再度試してください。</string>
-  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">SignalでSMSメッセージを表示できるようにすると、あなたの認証コードが自動的に検出され、電話場号が簡単に認証できます。</string>
+  <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">OfficeAppでSMSメッセージを表示できるようにすると、あなたの認証コードが自動的に検出され、電話場号が簡単に認証できます。</string>
   <plurals name="RegistrationActivity_debug_log_hint">
     <item quantity="other">デバッグログの提出まで、あと%dステップです。</item>
   </plurals>
@@ -532,13 +532,13 @@
   <string name="SearchFragment_header_messages">メッセージ</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">連絡先に追加</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signalに招待する</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signalメッセージ</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal通話</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">OfficeAppに招待する</string>
+  <string name="SharedContactDetailsActivity_signal_message">OfficeAppメッセージ</string>
+  <string name="SharedContactDetailsActivity_signal_call">OfficeApp通話</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">連絡先に追加</string>
-  <string name="SharedContactView_invite_to_signal">Signalに招待する</string>
-  <string name="SharedContactView_message">Signalメッセージ</string>
+  <string name="SharedContactView_invite_to_signal">OfficeAppに招待する</string>
+  <string name="SharedContactView_message">OfficeAppメッセージ</string>
   <!--Slide-->
   <string name="Slide_image">画像</string>
   <string name="Slide_sticker">ステッカー</string>
@@ -557,7 +557,7 @@
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">インストール済みステッカー</string>
   <string name="StickerManagementAdapter_stickers_you_received">受信済みステッカー</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signalアーティストシリーズ</string>
+  <string name="StickerManagementAdapter_signal_artist_series">OfficeAppアーティストシリーズ</string>
   <string name="StickerManagementAdapter_no_stickers_installed">ステッカーはインストールされていません</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">受信メッセージのステッカーはここに表示されます</string>
   <string name="StickerManagementAdapter_untitled">無題</string>
@@ -587,8 +587,8 @@
   <string name="ThreadRecord_you_marked_unverified">未検証にしました</string>
   <string name="ThreadRecord_message_could_not_be_processed">メッセージが処理できませんでした</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signalをアップデートする</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signalの最新版が出ました。タップしてアップデートしてください。</string>
+  <string name="UpdateApkReadyListener_Signal_update">OfficeAppをアップデートする</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">OfficeAppの最新版が出ました。タップしてアップデートしてください。</string>
   <!--UnknownSenderView-->
   <string name="UnknownSenderView_block_s">%sをブロックしますか？</string>
   <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">ブロックされた相手はあなたにメッセージを送ることも電話を掛けることもできなくなります。</string>
@@ -610,7 +610,7 @@
   <string name="VerifyIdentityActivity_our_signal_safety_number">私たちの安全番号:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">シェアするためのアプリがないようです。</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">クリップボードで安全番号が見つかりませんでした</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">SignalでQRコードをスキャンするには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">OfficeAppでQRコードをスキャンするには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">QRコードがスキャンできません。カメラへのアクセス許可が無効になっています。</string>
   <!--MessageDisplayHelper-->
   <string name="MessageDisplayHelper_bad_encrypted_message">メッセージの暗号化が正しくありません</string>
@@ -630,13 +630,13 @@
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">タッチして開く</string>
   <string name="KeyCachingService_signal_passphrase_cached_with_lock">タッチして開くか、鍵をタッチして閉じる</string>
-  <string name="KeyCachingService_passphrase_cached">Signalのロック解除</string>
-  <string name="KeyCachingService_lock">Signalをロック</string>
+  <string name="KeyCachingService_passphrase_cached">OfficeAppのロック解除</string>
+  <string name="KeyCachingService_lock">OfficeAppをロック</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">あなた</string>
   <string name="MediaPreviewActivity_unssuported_media_type">サポートされないメディア種別</string>
   <string name="MediaPreviewActivity_draft">下書き</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signalが外部ストレージにデータを保存するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『ストレージ』へのアクセス許可を有効にしてください。</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">OfficeAppが外部ストレージにデータを保存するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『ストレージ』へのアクセス許可を有効にしてください。</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">外部ストレージに保存できません。ストレージへのアクセス許可が無効になっています。</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">メッセージを削除しますか？</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">このメッセージを完全に削除します。</string>
@@ -653,7 +653,7 @@
   <string name="MessageNotifier_media_message">メディアメッセージ</string>
   <string name="MessageNotifier_sticker">ステッカー</string>
   <string name="MessageNotifier_reply">返信</string>
-  <string name="MessageNotifier_signal_message">Signalメッセージ</string>
+  <string name="MessageNotifier_signal_message">OfficeAppメッセージ</string>
   <string name="MessageNotifier_unsecured_sms">安全でないSMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">新しいメッセージがあるかも</string>
   <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">通知を確認するため、Signalを開いてください</string>
@@ -670,7 +670,7 @@
   <string name="NotificationChannel_group_messages">メッセージ</string>
   <string name="NotificationChannel_missing_display_name">不明</string>
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signalのロック中はクイック・レスポンスは使えません</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">OfficeAppのロック中はクイック・レスポンスは使えません</string>
   <string name="QuickResponseService_problem_sending_message">メッセージ送信で問題発生</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%sに保存しました</string>
@@ -681,7 +681,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">不正なショートカット</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">OfficeApp</string>
   <string name="SingleRecipientNotificationBuilder_new_message">新着メッセージ</string>
   <!--TransferControlView-->
   <plurals name="TransferControlView_n_items">
@@ -694,7 +694,7 @@
   <string name="VideoPlayer_error_playing_video">動画再生にエラー</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%sからの電話に出るには、Signalにマイクへのアクセスを許可してください。</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signalで通話受信するには、マイクとカメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』と『カメラ』へのアクセス許可を有効にしてください。</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">OfficeAppで通話受信するには、マイクとカメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』と『カメラ』へのアクセス許可を有効にしてください。</string>
   <!--WebRtcCallScreen-->
   <string name="WebRtcCallScreen_new_safety_numbers">%1$sとの会話の安全番号が変更されました。だれかが通信を傍受しようとしているかも知れませんし、%2$sがSignalを再インストールしただけかも知れません。</string>
   <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">この連絡先との安全番号を確認しておいた方がいいかも知れません。</string>
@@ -731,7 +731,7 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">連絡先の写真</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signalで連絡先を表示するには、連絡先へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、アプリの権限を選び、連絡先へのアクセス許可を有効にしてください。</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">OfficeAppで連絡先を表示するには、連絡先へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、アプリの権限を選び、連絡先へのアクセス許可を有効にしてください。</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">連絡先の取得でエラーが起きました。インターネットにつながっているかを確かめてください。</string>
   <!--blocked_contacts_fragment-->
   <string name="blocked_contacts_fragment__no_blocked_contacts">ブロックしている連絡先はありません</string>
@@ -751,7 +751,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">迅速カメラ添付用引き出しの切替</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">音声を録音して送信する</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">添付音声の録音をロック</string>
-  <string name="conversation_activity__enable_signal_for_sms">SignalのSMS機能を有効にする</string>
+  <string name="conversation_activity__enable_signal_for_sms">OfficeAppのSMS機能を有効にする</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">スライドしてキャンセル</string>
   <string name="conversation_input_panel__cancel">キャンセル</string>
@@ -852,7 +852,7 @@
   <string name="log_submit_activity__please_review_this_log_from_my_app">私のアプリのログを確認して下さい: %1$s</string>
   <string name="log_submit_activity__network_failure">ネットワークエラー。再度試してください。</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Signalの暗号化されたデータベースにメッセージをインポートしますか？</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">OfficeAppの暗号化されたデータベースにメッセージをインポートしますか？</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">携帯端末にある既定データベースは変更されません。</string>
   <string name="database_migration_activity__skip">スキップする</string>
   <string name="database_migration_activity__import">インポート</string>
@@ -906,7 +906,7 @@
   <string name="recipient_preferences__call_settings">通話設定</string>
   <string name="recipient_preferences__ringtone">着信音</string>
   <!--- redphone_call_controls-->
-  <string name="redphone_call_card__signal_call">Signal通話</string>
+  <string name="redphone_call_card__signal_call">OfficeApp通話</string>
   <string name="redphone_call_controls__mute">ミュート</string>
   <string name="redphone_call_controls__flip_camera_rear">カメラを切り替える</string>
   <!--registration_activity-->
@@ -923,7 +923,7 @@
   <string name="unknown_sender_view__add_to_contacts">連絡先に登録</string>
   <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">登録せずにプロフィール情報を公開</string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%sに対する暗号化を検証したい場合は、上記の番号が相手端末上の番号と一致するか確認してください。あるいは相手の端末上のQRコードを読み取るか、こちらのQRコードを相手に読み取ってもらうこともできます。<a href="https://signal.org/redirect/safety-numbers">詳細</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%sに対する暗号化を検証したい場合は、上記の番号が相手端末上の番号と一致するか確認してください。あるいは相手の端末上のQRコードを読み取るか、こちらのQRコードを相手に読み取ってもらうこともできます。<a href="https://raapp.com/redirect/safety-numbers">詳細</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">タップしてスキャンする</string>
   <string name="verify_display_fragment__loading">取得中...</string>
   <string name="verify_display_fragment__verified">検証済み</string>
@@ -1054,8 +1054,8 @@
   <string name="preferences__theme">テーマ</string>
   <string name="preferences__default">初期設定の言語</string>
   <string name="preferences__language">言語</string>
-  <string name="preferences__signal_messages_and_calls">Signalのメッセージと通話</string>
-  <string name="preferences__free_private_messages_and_calls">Signalユーザーに無料で安全なメッセージと通話</string>
+  <string name="preferences__signal_messages_and_calls">OfficeAppのメッセージと通話</string>
+  <string name="preferences__free_private_messages_and_calls">OfficeAppユーザーに無料で安全なメッセージと通話</string>
   <string name="preferences__submit_debug_log">デバッグログを提出</string>
   <string name="preferences__support_wifi_calling">Wi-Fi通話互換モード</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Wi-FiでのSMS/MMS送受信を有効にする (Wi-Fi通話の有効時のみ)</string>
@@ -1072,7 +1072,7 @@
   <string name="preferences_chats__media_auto_download">メディアの自動ダウンロード</string>
   <string name="preferences_chats__message_trimming">メッセージの削減</string>
   <string name="preferences_advanced__use_system_emoji">システムの絵文字を使う</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal独自の絵文字機能を無効にする</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">OfficeApp独自の絵文字機能を無効にする</string>
   <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">すべての通話をSignalサーバに中継して、相手にIP アドレスを知られることを防ぎます。ただし、通話の品質は下がります。</string>
   <string name="preferences_advanced__always_relay_calls">通話を常に中継する</string>
   <string name="preferences_app_protection__app_access">アプリのアクセス</string>
@@ -1085,7 +1085,7 @@
   <string name="preferences_notifications__calls">通話</string>
   <string name="preferences_notifications__ringtone">着信音</string>
   <string name="preferences_chats__show_invitation_prompts">招待状を表示</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signalを使っていない連絡先に招待状を表示する</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">OfficeAppを使っていない連絡先に招待状を表示する</string>
   <string name="preferences_chats__message_text_size">メッセージのフォントサイズ</string>
   <string name="preferences_events__contact_joined_signal">連絡先がSignalに参加しました</string>
   <string name="preferences_notifications__priority">優先度</string>
@@ -1103,7 +1103,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">通話</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal通話</string>
+  <string name="conversation_callable_secure__menu_call">OfficeApp通話</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">メッセージの詳細</string>
   <string name="conversation_context__menu_copy_text">テキストをコピー</string>
@@ -1166,7 +1166,7 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">クリップボードにコピーする</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">クリップボードと比較する</string>
   <!--reminder_header-->
-  <string name="reminder_header_outdated_build">Signalのバージョンが古すぎます</string>
+  <string name="reminder_header_outdated_build">OfficeAppのバージョンが古すぎます</string>
   <plurals name="reminder_header_outdated_build_details">
     <item quantity="other">このバージョンのSignalは%d日後に期限が切れます。タップしてSignalをアプデートしてお願いします。</item>
   </plurals>
@@ -1177,14 +1177,14 @@
   <string name="reminder_header_sms_default_text">タップしてSignalを既定のSMSアプリに設定する</string>
   <string name="reminder_header_sms_import_title">システムのSMSをインポート</string>
   <string name="reminder_header_sms_import_text">タップすると、この電話のSMSメッセージをSignalの暗号化されたデータベースにコピーします。</string>
-  <string name="reminder_header_push_title">Signalによるメッセージと通話を有効にする</string>
+  <string name="reminder_header_push_title">OfficeAppによるメッセージと通話を有効にする</string>
   <string name="reminder_header_push_text">コミュニケーション体験をアップグレードしてください。</string>
-  <string name="reminder_header_invite_title">Signalに招待する</string>
+  <string name="reminder_header_invite_title">OfficeAppに招待する</string>
   <string name="reminder_header_invite_text">%1$sさんとの通信を、進化させよう！</string>
   <string name="reminder_header_share_title">友達にオススメしよう！</string>
   <string name="reminder_header_share_text">ユーザが増やせば増やすほど、Signalはより便利になります</string>
-  <string name="reminder_header_service_outage_text">Signalは技術的な問題を抱えています。私たちは、これをできるだけ早く解決するよう対応しています。</string>
-  <string name="reminder_header_the_latest_signal_features_wont_work">Signalの最新機能は、このバージョンのAndroidでは対応しなくなります。OSのアップデートをしてください。</string>
+  <string name="reminder_header_service_outage_text">OfficeAppは技術的な問題を抱えています。私たちは、これをできるだけ早く解決するよう対応しています。</string>
+  <string name="reminder_header_the_latest_signal_features_wont_work">OfficeAppの最新機能は、このバージョンのAndroidでは対応しなくなります。OSのアップデートをしてください。</string>
   <!--media_preview-->
   <string name="media_preview__save_title">保存</string>
   <string name="media_preview__forward_title">転送</string>
@@ -1205,12 +1205,12 @@
   <string name="ConversationListFragment_loading">読込中...</string>
   <string name="CallNotificationBuilder_connecting">接続中...</string>
   <string name="Permissions_permission_required">アクセス許可が必要です</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">SignalでSMSを送信するには、SMSへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『SMS』へのアクセス許可を有効にしてください。</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">OfficeAppでSMSを送信するには、SMSへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『SMS』へのアクセス許可を有効にしてください。</string>
   <string name="Permissions_continue">続行</string>
   <string name="Permissions_not_now">後にする</string>
-  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signalで連絡先を検索するには、連絡先へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、アプリの権限を選び、連絡先へのアクセス許可を有効にしてください。</string>
-  <string name="conversation_activity__enable_signal_messages">Signalメッセージを有効にする</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signalのデータを移行する</string>
+  <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">OfficeAppで連絡先を検索するには、連絡先へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、アプリの権限を選び、連絡先へのアクセス許可を有効にしてください。</string>
+  <string name="conversation_activity__enable_signal_messages">OfficeAppメッセージを有効にする</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">OfficeAppのデータを移行する</string>
   <string name="PushDecryptJob_new_locked_message">ロックされた新着メッセージ</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">ロックを外し、メッセージを見る</string>
   <string name="ExperienceUpgradeActivity_unlock_to_complete_update">ロックを外し、更新を完了する</string>
@@ -1241,7 +1241,7 @@
   <string name="BackupDialog_disable_and_delete_all_local_backups">すべてのローカルバックアップを削除して無効にしますか？</string>
   <string name="BackupDialog_delete_backups_statement">バックアップを削除</string>
   <string name="BackupDialog_copied_to_clipboard">クリップボードにコピーしました</string>
-  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signalはバックアップの作成のために外部ストレージへの許可が必要です。アプリの設定から「権限」を選択し、「ストレージ」を有効にしてください。</string>
+  <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">OfficeAppはバックアップの作成のために外部ストレージへの許可が必要です。アプリの設定から「権限」を選択し、「ストレージ」を有効にしてください。</string>
   <string name="ChatsPreferenceFragment_last_backup_s">最終バックアップ: %s</string>
   <string name="ChatsPreferenceFragment_in_progress">実施中</string>
   <string name="LocalBackupJob_creating_backup">バックアップを作成しています...</string>
@@ -1252,7 +1252,7 @@
   <string name="BackupUtil_never">なし</string>
   <string name="BackupUtil_unknown">不明</string>
   <string name="preferences_app_protection__screen_lock">画面ロック</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signalを画面ロックや指紋認証でロックする</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">OfficeAppを画面ロックや指紋認証でロックする</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">画面ロックのタイムアウト</string>
   <string name="AppProtectionPreferenceFragment_none">なし</string>
   <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">「登録ロックPIN」は先程送信された「検証コード」とは異なります。以前Signalで設定した「登録ロックPIN」を入力してください。</string>
@@ -1287,9 +1287,9 @@
   <string name="RegistrationLockDialog_disable_registration_lock_pin">登録ロックPINを無効にしますか？</string>
   <string name="RegistrationLockDialog_disable">無効</string>
   <string name="preferences_chats__backups">バックアップ</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signalはロックされました</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">OfficeAppはロックされました</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">タップしてロック解除</string>
   <string name="RegistrationLockDialog_reminder">備忘:</string>
-  <string name="recipient_preferences__about">Signalについて</string>
+  <string name="recipient_preferences__about">OfficeAppについて</string>
   <!--EOF-->
 </resources>
