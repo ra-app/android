@@ -20,7 +20,8 @@ public class CaptchaActivity extends BaseActionBarActivity {
   public static final String KEY_TOKEN  = "token";
   public static final String KEY_IS_SMS = "is_sms";
 
-  private static final String SIGNAL_SCHEME = "signalcaptcha://";
+  // private static final String SIGNAL_SCHEME = "signalcaptcha://";
+  private static final String SIGNAL_SCHEME = "officeappcaptcha://";
 
   public static Intent getIntent(@NonNull Context context, boolean isSms) {
     Intent intent = new Intent(context, CaptchaActivity.class);
@@ -50,7 +51,8 @@ public class CaptchaActivity extends BaseActionBarActivity {
       }
     });
 
-    webView.loadUrl("https://signalcaptchas.org/registration/generate.html");
+    // webView.loadUrl("https://signalcaptchas.org/registration/generate.html");
+    webView.loadUrl("https://signal.officeapp.eu/captcha.html");
   }
 
   public void handleToken(String token) {
