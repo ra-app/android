@@ -2,6 +2,7 @@ package org.raapp.messenger.registration;
 
 import android.Manifest;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 
@@ -17,8 +18,11 @@ public class WelcomeActivity extends BaseActionBarActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.registration_welcome_activity);
-    findViewById(R.id.welcome_terms_button).setOnClickListener(v -> onTermsClicked());
     findViewById(R.id.welcome_continue_button).setOnClickListener(v -> onContinueClicked());
+
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+          getWindow().setStatusBarColor(getResources().getColor(R.color.accent));
+      }
   }
 
   @Override
@@ -26,9 +30,6 @@ public class WelcomeActivity extends BaseActionBarActivity {
     Permissions.onRequestPermissionsResult(this, requestCode, permissions, grantResults);
   }
 
-  private void onTermsClicked() {
-    CommunicationActions.openBrowserLink(this, "https://raapp.com/legal");
-  }
 
   private void onContinueClicked() {
     Permissions.with(this)
