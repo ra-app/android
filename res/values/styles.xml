@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    NEW RA-APP STYLES  -->
+
+    <style name="ra_button_gradient">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_gradient</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="ra_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/ra_text_dark</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="ra_text_big" parent="@style/ra_text">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ra_label" parent="@style/ra_text">
+        <item name="android:textColor">@color/ra_text_label</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+
+<!--    LEGACY SIGNAL STYLES-->
+
     <style name="NoAnimation.Theme.BlackScreen" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowBackground">@android:color/black</item>
@@ -39,10 +71,10 @@
     </style>
 
     <!-- ActionBar styles -->
-    <style name="TextSecure.DarkActionBar"
-           parent="@style/Widget.AppCompat.ActionBar">
+    <style name="TextSecure.DarkActionBar" parent="@style/Widget.AppCompat.ActionBar">
         <item name="background">@color/core_grey_90</item>
-        <item name="android:popupTheme" tools:ignore="NewApi">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:popupTheme" tools:ignore="NewApi">@style/ThemeOverlay.AppCompat.Dark
+        </item>
         <item name="elevation">4dp</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
         <item name="titleTextStyle">@style/TextSecure.TitleTextStyle</item>
@@ -50,8 +82,7 @@
         <item name="android:textColorSecondary">@color/white</item>
     </style>
 
-    <style name="TextSecure.LightActionBar"
-           parent="@style/Widget.AppCompat.ActionBar">
+    <style name="TextSecure.LightActionBar" parent="@style/Widget.AppCompat.ActionBar">
         <item name="background">@color/textsecure_primary</item>
         <item name="elevation">4dp</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
@@ -61,26 +92,22 @@
         <item name="android:textColorSecondary">@color/white</item>
     </style>
 
-    <style name="TextSecure.LightActionBar.DarkText"
-           parent="TextSecure.LightActionBar">
+    <style name="TextSecure.LightActionBar.DarkText" parent="TextSecure.LightActionBar">
         <item name="android:textColorPrimary">@color/black</item>
         <item name="android:textColorSecondary">@color/black</item>
     </style>
 
-    <style name="TextSecure.FlatLightActionBar"
-           parent="@style/TextSecure.LightActionBar">
+    <style name="TextSecure.FlatLightActionBar" parent="@style/TextSecure.LightActionBar">
         <item name="elevation">0dp</item>
     </style>
 
-    <style name="TextSecure.DarkActionBar.TabBar"
-        parent="@style/Widget.AppCompat.ActionBar.TabBar">
+    <style name="TextSecure.DarkActionBar.TabBar" parent="@style/Widget.AppCompat.ActionBar.TabBar">
         <item name="background">@color/gray95</item>
         <item name="android:background">@color/gray95</item>
         <item name="elevation">4dp</item>
     </style>
 
-    <style name="TextSecure.LightActionBar.TabBar"
-        parent="@style/Widget.AppCompat.ActionBar.TabBar">
+    <style name="TextSecure.LightActionBar.TabBar" parent="@style/Widget.AppCompat.ActionBar.TabBar">
         <item name="android:background">@color/textsecure_primary</item>
         <item name="background">@color/textsecure_primary</item>
         <item name="android:textColorPrimary">@color/white</item>
@@ -111,7 +138,7 @@
         <item name="android:shadowRadius">0.0</item>
         <item name="android:lineSpacingMultiplier">1.25</item>
     </style>
-    
+
     <style name="Registration.Label" parent="@android:style/TextAppearance">
         <item name="android:textSize">12.0sp</item>
         <item name="android:typeface">sans</item>
@@ -126,11 +153,11 @@
         <item name="android:shadowRadius">0.0</item>
         <item name="android:lineSpacingMultiplier">1.25</item>
     </style>
-    
+
     <style name="Registration.BigLabel" parent="@style/Registration.Label">
         <item name="android:textSize">20sp</item>
     </style>
-    
+
     <style name="Registration.Constant" parent="@android:style/TextAppearance">
         <item name="android:typeface">sans</item>
         <item name="android:textStyle">normal</item>
@@ -139,13 +166,12 @@
         <item name="android:shadowDx">1.0</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">0.0</item>
-        <item name="android:lineSpacingMultiplier">1.25</item>        
+        <item name="android:lineSpacingMultiplier">1.25</item>
     </style>
 
     <!-- For Holo Light Dialog Activity Styling Emulation -->
 
-    <style name="Widget.ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
-    </style>
+    <style name="Widget.ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal"></style>
 
     <style name="MaterialButton">
         <item name="android:elevation" tools:ignore="NewApi">1dp</item>
@@ -173,7 +199,8 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:imeOptions">flagNoEnterAction</item>
         <item name="android:inputType">textAutoCorrect|textCapSentences|textMultiLine</item>
-        <item name="android:contentDescription">@string/conversation_activity__compose_description</item>
+        <item name="android:contentDescription">@string/conversation_activity__compose_description
+        </item>
     </style>
 
     <style name="AttachmentTypeLabel">
@@ -228,11 +255,11 @@
     </style>
 
 
-    <style name="PreferenceThemeOverlay.Fix" parent="PreferenceThemeOverlay.v14.Material">
-    </style>
+    <style name="PreferenceThemeOverlay.Fix" parent="PreferenceThemeOverlay.v14.Material"></style>
 
     <style name="Color1SwitchStyle">
         <item name="colorControlActivated">@color/white</item>
     </style>
+
 
 </resources>

@@ -41,12 +41,8 @@
             <Button
                 android:id="@+id/welcome_continue_button"
                 android:text="@string/RegistrationActivity_continue"
-                android:layout_width="match_parent"
-                android:elevation="4dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_gradient_horizontal_round"
                 android:layout_marginTop="40dp"
-                android:layout_height="50dp"></Button>
+                style="@style/ra_button_gradient"></Button>
 
 
         </LinearLayout>

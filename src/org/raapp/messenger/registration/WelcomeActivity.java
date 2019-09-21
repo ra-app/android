@@ -2,14 +2,12 @@ package org.raapp.messenger.registration;
 
 import android.Manifest;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 
 import org.raapp.messenger.BaseActionBarActivity;
 import org.raapp.messenger.R;
 import org.raapp.messenger.permissions.Permissions;
-import org.raapp.messenger.util.CommunicationActions;
 import org.raapp.messenger.util.TextSecurePreferences;
 
 public class WelcomeActivity extends BaseActionBarActivity {
@@ -19,10 +17,6 @@ public class WelcomeActivity extends BaseActionBarActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.registration_welcome_activity);
     findViewById(R.id.welcome_continue_button).setOnClickListener(v -> onContinueClicked());
-
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-          getWindow().setStatusBarColor(getResources().getColor(R.color.accent));
-      }
   }
 
   @Override

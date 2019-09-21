@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_simpleTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_gradient_vertical"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/icon_logo" />
+
+            <TextView
+                android:id="@+id/tv_welcome"
+                android:text="@string/invitation_activity_welcome"
+                style="@style/ra_text_big" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/ra_text_dark"></View>
+
+            <LinearLayout
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:id="@+id/ll_code_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/invitation_activity_code_desc"
+                    android:textSize="17sp"
+                    style="@style/ra_text" />
+
+                <TextView
+                    android:text="@string/invitation_activity_code_label"
+                    android:textColor="@color/ra_text_label"
+                    style="@style/ra_label" />
+
+
+                <EditText
+                    android:id="@+id/et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:lines="1"
+                    android:layout_marginBottom="20dp"></EditText>
+
+                <Button
+                    android:id="@+id/btn_continue"
+                    style="@style/ra_button_gradient"
+                    android:layout_marginBottom="20dp"
+                    android:enabled="false"
+                    android:text="@string/RegistrationActivity_continue"></Button>
+
+                <TextView
+                    android:id="@+id/tv_info_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Falls Sie keinen Code haben, können Sie sich als Firma auf OfficeApp Desktop registrieren. OfficeApp Desktop auf www.officeapp.eu herunterladen."
+                    android:textColor="@color/primary"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:id="@+id/ll_invite_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    tools:text="Sie wurden eingeladen von Anwalt &amp; CO (Firmenname)"
+                    android:textSize="17sp"
+                    style="@style/ra_text" />
+
+
+                <Button
+                    android:id="@+id/btn_accept_invite"
+                    style="@style/ra_button_gradient"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/accept_invite"></Button>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

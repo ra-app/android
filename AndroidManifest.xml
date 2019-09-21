@@ -13,8 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/RaApp.MainTheme.NoActionBar"
         tools:replace="android:allowBackup">
-
-        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".InvitationActivity"></activity>
+        <activity android:name=".SplashActivity" />
 
         <activity
             android:name=".WebRtcCallActivity"
@@ -22,6 +22,7 @@
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".CountrySelectionActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
@@ -55,7 +56,6 @@
         <activity
             android:name=".preferences.MmsPreferencesActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
-
         <activity
             android:name=".ShareActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
@@ -147,13 +147,11 @@
             android:name=".GroupCreateActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
             android:windowSoftInputMode="stateVisible" />
-
         <activity
             android:name=".DatabaseMigrationActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
             android:launchMode="singleTask"
             android:theme="@style/NoAnimation.Theme.AppCompat.Light.DarkActionBar" />
-
         <activity
             android:name=".DatabaseUpgradeActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
@@ -359,7 +357,6 @@
             android:name=".maps.PlacePickerActivity"
             android:label="@string/PlacePickerActivity_title"
             android:theme="@style/TextSecure.LightNoActionBar" />
-
         <activity-alias
             android:name=".RoutingActivity"
             android:exported="true"
@@ -397,7 +394,6 @@
         <meta-data
             android:name="firebase_messaging_auto_init_enabled"
             android:value="false" />
-
         <meta-data
             android:name="com.sec.android.support.multiwindow"
             android:value="true" />
@@ -413,6 +409,7 @@
         <meta-data
             android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
             android:value="598.0dip" />
+
         <provider
             android:name=".providers.PartProvider"
             android:authorities="org.bittube.provider.securesms"
@@ -440,7 +437,6 @@
             android:name=".database.DatabaseContentProviders$ConversationList"
             android:authorities="org.raapp.messenger.database.conversationlist"
             android:exported="false" />
-
         <provider
             android:name=".database.DatabaseContentProviders$Attachment"
             android:authorities="org.raapp.messenger.database.attachment"
@@ -458,6 +454,7 @@
             android:authorities="${applicationId}.camerax-init"
             android:enabled="false"
             android:exported="false" />
+
         <receiver
             android:name=".service.SmsListener"
             android:enabled="true"
@@ -501,7 +498,6 @@
                 <action android:name="org.raapp.messenger.notifications.CLEAR" />
             </intent-filter>
         </receiver>
-
         <receiver
             android:name=".notifications.RemoteReplyReceiver"
             android:enabled="true"
@@ -551,7 +547,6 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
         <receiver android:name=".service.PersistentConnectionBootListener">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -599,6 +594,7 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+
         <service
             android:name=".service.WebRtcCallService"
             android:enabled="true" />
@@ -609,7 +605,6 @@
             android:name=".service.KeyCachingService"
             android:enabled="true"
             android:exported="false" />
-
         <service
             android:name=".service.IncomingMessageObserver$ForegroundService"
             android:enabled="true" />
@@ -639,7 +634,6 @@
                 android:name="android.accounts.AccountAuthenticator"
                 android:resource="@xml/authenticator" />
         </service>
-
         <service
             android:name=".service.ContactsSyncAdapterService"
             android:exported="true">
@@ -661,14 +655,12 @@
                 <action android:name="android.service.chooser.ChooserTargetService" />
             </intent-filter>
         </service>
-
         <service android:name=".service.GenericForegroundService" />
         <service android:name=".gcm.FcmService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
         <service
             android:name=".gcm.FcmJobService"
             android:enabled="@bool/enable_job_service"
@@ -682,6 +674,7 @@
         <service
             android:name=".jobmanager.KeepAliveService"
             android:enabled="@bool/enable_alarm_manager" />
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
