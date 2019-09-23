@@ -1,4 +1,4 @@
-package org.raapp.messenger;
+package org.raapp.messenger.registration;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import org.raapp.messenger.database.DatabaseContentProviders;
-import org.raapp.messenger.registration.WelcomeActivity;
+import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -93,7 +93,7 @@ public class InvitationActivity extends AppCompatActivity {
     }
 
     private void goToEULA() {
-        Intent i = new Intent(this, ConversationListActivity.class);
+        Intent i = new Intent(this, TermOfServiceActivity.class);
         startActivity(i);
         finish();
     }
