@@ -7,8 +7,8 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
-import org.raapp.messenger.ConversationListActivity;
 import org.raapp.messenger.R;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,9 +22,10 @@ public class InvitationActivity extends AppCompatActivity {
     private View mInviteLL, mCodeLL;
     private Button mContinueBtn, mAcceptBtn;
     private EditText mCodeET;
+    private TextView mSimpleTopbarTV;
 
     // Vars
-    private int mAccessMode = REGISTER_MODE_CODE;
+    private int mAccessMode = REGISTER_MODE_INVITE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,8 @@ public class InvitationActivity extends AppCompatActivity {
         mAcceptBtn = findViewById(R.id.btn_accept_invite);
         mContinueBtn = findViewById(R.id.btn_continue);
         mCodeET = findViewById(R.id.et_code);
+        mSimpleTopbarTV = findViewById(R.id.tv_simpleTopbar);
+
 
         switch (mAccessMode) {
             case REGISTER_MODE_CODE:
@@ -73,7 +76,7 @@ public class InvitationActivity extends AppCompatActivity {
                         mContinueBtn.setEnabled(!editable.toString().matches(""));
                     }
                 });
-
+                mSimpleTopbarTV.setText(R.string.app_name);
                 break;
             case REGISTER_MODE_INVITE:
                 mInviteLL.setVisibility(View.VISIBLE);
@@ -87,6 +90,7 @@ public class InvitationActivity extends AppCompatActivity {
                         goToEULA();
                     }
                 });
+                mSimpleTopbarTV.setText(R.string.office_app_welcome);
                 break;
         }
 
