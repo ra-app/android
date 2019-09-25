@@ -5,11 +5,45 @@
               android:orientation="vertical"
               android:background="#ffffff">
 
-    <EditText android:id="@+id/country_search"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:drawableStart="@drawable/ic_menu_search_holo_light"
-              android:hint="@string/country_selection_fragment__search" />
+    <LinearLayout
+        android:id="@+id/ll_simpleTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_gradient_vertical"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_rectangle_white"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <Button
+                android:id="@+id/btn_clear_search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/ic_clear_white_24dp"
+                android:backgroundTint="@color/primary"/>
+
+            <EditText
+                android:id="@+id/country_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/primary"
+                android:hint="@string/search_name_or_number"
+                android:textColorHint="@color/signal_primary_alpha33"
+                android:background="@color/transparent"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <ListView android:id="@android:id/list"
               android:layout_width="fill_parent"

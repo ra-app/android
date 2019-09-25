@@ -219,7 +219,7 @@
             android:name=".RegistrationActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
             android:launchMode="singleTask"
-            android:theme="@style/TextSecure.LightRegistrationTheme"
+            android:theme="@style/RaApp.MainTheme.NoActionBar"
             android:windowSoftInputMode="stateUnchanged" />
         <activity
             android:name=".registration.CaptchaActivity"

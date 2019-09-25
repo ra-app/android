@@ -11,6 +11,7 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -24,6 +25,7 @@ import java.util.Map;
 public class CountrySelectionFragment extends ListFragment implements LoaderManager.LoaderCallbacks<ArrayList<Map<String, String>>> {
 
   private EditText countryFilter;
+  private Button clearSearchBTN;
   private CountrySelectedListener listener;
 
   @Override
@@ -34,7 +36,14 @@ public class CountrySelectionFragment extends ListFragment implements LoaderMana
   @Override
   public void onActivityCreated(Bundle bundle) {
     super.onActivityCreated(bundle);
+    this.clearSearchBTN = getView().findViewById(R.id.btn_clear_search);
     this.countryFilter = (EditText)getView().findViewById(R.id.country_search);
+    clearSearchBTN.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        countryFilter.setText("");
+      }
+    });
     this.countryFilter.addTextChangedListener(new FilterWatcher());
     getLoaderManager().initLoader(0, null, this).forceLoad();
   }
@@ -49,7 +58,7 @@ public class CountrySelectionFragment extends ListFragment implements LoaderMana
   public void onListItemClick(ListView listView, View view, int position, long id) {
     Map<String, String> item = (Map<String, String>)this.getListAdapter().getItem(position);
     if (this.listener != null) {
-      this.listener.countrySelected(item.get("country_name"),
+      this.listener.countrySelected(item.get("country_region"), item.get("country_name"),
                                     Integer.parseInt(item.get("country_code").substring(1)));
     }
   }
@@ -78,7 +87,7 @@ public class CountrySelectionFragment extends ListFragment implements LoaderMana
   }
 
   public interface CountrySelectedListener {
-    public void countrySelected(String countryName, int countryCode);
+    public void countrySelected(String countryRegion, String countryName, int countryCode);
   }
 
   private class FilterWatcher implements TextWatcher {

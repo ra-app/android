@@ -4,9 +4,9 @@
 
     <android.inputmethodservice.KeyboardView
             android:id="@+id/keyboard_view"
-            android:keyBackground="@color/grey_300"
-            android:background="@color/grey_300"
-            android:keyTextColor="@color/black"
+            android:keyBackground="@color/blue_300"
+            android:background="@color/blue_300"
+            android:keyTextColor="@color/white"
             android:shadowColor="@color/transparent"
             android:keyTextSize="30sp"
             android:elevation="3dp"

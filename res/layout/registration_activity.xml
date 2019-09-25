@@ -14,33 +14,48 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:id="@+id/header"
+            android:id="@+id/ll_simpleTopbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="32dp"
-            android:layout_alignParentTop="true"
-            android:orientation="vertical">
+            android:layout_height="160dp"
+            android:background="@drawable/bg_gradient_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true">
 
             <TextView
                 android:id="@+id/verify_header"
-                style="@style/Signal.Text.Headline.Registration"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:gravity="center"
-                android:paddingBottom="16dp"
-                android:text="@string/RegistrationActivity_enter_your_phone_number_to_get_started" />
+                android:text="@string/registration_activity_phone_number"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
 
             <TextView
                 android:id="@+id/verify_subheader"
                 style="@style/Signal.Text.Body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
                 android:gravity="center"
-                android:paddingBottom="25dp"
-                android:text="@string/RegistrationActivity_you_will_receive_a_verification_code" />
+                android:textColor="@color/white"
+                android:text="@string/bitte_geben_Sie"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/resend_header"
+                style="@style/Signal.Text.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/wrong_phonenumber"
+                android:visibility="gone"/>
 
         </LinearLayout>
 
@@ -48,7 +63,7 @@
             android:id="@+id/restore_container"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/header"
+            android:layout_below="@id/ll_simpleTopbar"
             android:layout_marginTop="30dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -110,71 +125,111 @@
         <LinearLayout
             android:id="@+id/registration_container"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/header"
-            android:layout_marginStart="32dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ll_simpleTopbar"
             android:layout_marginTop="30dp"
-            android:layout_marginEnd="32dp"
             android:animateLayoutChanges="true"
             android:orientation="vertical"
             android:paddingBottom="0dp"
             android:clipToPadding="false"
             android:clipChildren="false"
-            tools:visibility="gone">
+            tools:visibility="visible">
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/labeled_edit_text_background_inactive">
+                android:background="@drawable/labeled_edit_text_background_inactive"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp">
 
-                <Spinner
-                    android:id="@+id/country_spinner"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp" />
 
             </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="@string/your_mobile_number"
+                android:textStyle="bold"
+                android:textColor="@color/gray13"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layoutDirection="ltr"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp">
 
-                <org.raapp.messenger.components.LabeledEditText
-                    android:id="@+id/country_code"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginEnd="12dp"
-                    app:labeledEditText_background="@color/white"
-                    app:labeledEditText_textLayout="@layout/country_code_text" />
+                <Spinner
+                    android:id="@+id/country_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/primary"/>
 
-                <org.raapp.messenger.components.LabeledEditText
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_add_white_original_24dp"
+                        android:tint="@color/core_grey_60"/>
+
+                    <EditText
+                        android:id="@+id/country_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/gray78"
+                        android:singleLine="true"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:hint="49"
+                        android:digits="1234567890"
+                        android:layout_marginEnd="10dp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/gray13" />
+
+                </LinearLayout>
+
+                <EditText
                     android:id="@+id/number"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    app:labeledEditText_background="@color/white"
-                    app:labeledEditText_label="Phone Number"
-                    app:labeledEditText_textLayout="@layout/phone_text"/>
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Beispel : 621 34 56 78"
+                    android:background="@color/transparent"
+                    android:layout_marginStart="10dp"/>
 
             </LinearLayout>
 
-            <com.dd.CircularProgressButton
-                android:id="@+id/registerButton"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:background="@color/signal_primary"
-                android:textColor="@color/white"
-                app:cpb_colorIndicator="@color/white"
-                app:cpb_colorProgress="@color/textsecure_primary"
-                app:cpb_cornerRadius="4dp"
-                app:cpb_selectorIdle="@drawable/progress_button_state"
-                app:cpb_textIdle="@string/RegistrationActivity_next" />
+                android:layout_height="1dp"
+                android:background="@color/gray13"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp" />
+
+
+            <Button
+                android:id="@+id/registerButton"
+                android:text="@string/RegistrationActivity_next"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                style="@style/ra_button_gradient" />
 
             <TextView
                 android:id="@+id/skip_button"
@@ -191,9 +246,9 @@
             android:id="@+id/verification_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/header"
+            android:layout_below="@id/ll_simpleTopbar"
             android:visibility="invisible"
-            tools:visibility="visible">
+            tools:visibility="gone">
 
             <org.raapp.messenger.components.registration.VerificationCodeView
                 android:id="@+id/code"
@@ -215,11 +270,16 @@
             <org.raapp.messenger.components.registration.CallMeCountDownView
                 android:id="@+id/call_me_count_down"
                 style="@style/Button.Borderless.Registration"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/code"
+                android:layout_marginTop="24dp"
                 app:layout_constraintTop_toTopOf="@+id/wrong_number"
-                app:layout_constraintStart_toStartOf="@+id/code" />
+                app:layout_constraintEnd_toEndOf="@+id/code"
+                app:layout_constraintStart_toStartOf="@+id/code"
+                android:textColor="@color/primary"
+                android:textAllCaps="false"
+                tools:text="Call"/>
 
             <Button
                 android:id="@+id/wrong_number"
@@ -230,7 +290,8 @@
                 android:layout_toEndOf="@id/call_me_count_down"
                 android:text="@string/RegistrationActivity_wrong_number"
                 app:layout_constraintEnd_toEndOf="@+id/code"
-                app:layout_constraintTop_toBottomOf="@+id/code" />
+                app:layout_constraintTop_toBottomOf="@+id/code"
+                android:visibility="gone"/>
 
             <org.raapp.messenger.components.registration.VerificationPinKeyboard
                 android:id="@+id/keyboard"
@@ -246,7 +307,7 @@
             android:id="@+id/pin_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/header"
+            android:layout_below="@id/ll_simpleTopbar"
             android:animateLayoutChanges="true"
             android:orientation="vertical"
             android:paddingStart="16dp"

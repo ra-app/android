@@ -32,6 +32,7 @@ public class VerificationCodeView extends FrameLayout {
 
   private final List<TextView> codes      = new ArrayList<>(6);
   private final List<View>     containers = new ArrayList<>(6);
+  private final List<View>     views = new ArrayList<>(6);
 
   private OnCodeEnteredListener listener;
   private int index = 0;
@@ -79,6 +80,13 @@ public class VerificationCodeView extends FrameLayout {
       this.containers.add(findViewById(R.id.container_four));
       this.containers.add(findViewById(R.id.container_five));
 
+      this.views.add(findViewById(R.id.view_zero));
+      this.views.add(findViewById(R.id.view_one));
+      this.views.add(findViewById(R.id.view_two));
+      this.views.add(findViewById(R.id.view_three));
+      this.views.add(findViewById(R.id.view_four));
+      this.views.add(findViewById(R.id.view_five));
+
       Stream.of(codes).forEach(textView -> textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, typedArray.getDimension(R.styleable.VerificationCodeView_vcv_textSize, 30)));
       Stream.of(codes).forEach(textView -> textView.setTextColor(typedArray.getColor(R.styleable.VerificationCodeView_vcv_textColor, Color.GRAY)));
 
@@ -99,8 +107,8 @@ public class VerificationCodeView extends FrameLayout {
   public void append(int value) {
     if (index >= codes.size()) return;
 
-    setInactive(containers);
-    setActive(containers.get(index));
+    setInactive(views);
+    setActive(views.get(index));
 
     TextView codeView = codes.get(index++);
 
@@ -130,8 +138,8 @@ public class VerificationCodeView extends FrameLayout {
   public void delete() {
     if (index <= 0) return;
     codes.get(--index).setText("");
-    setInactive(containers);
-    setActive(containers.get(index));
+    setInactive(views);
+    setActive(views.get(index));
   }
 
   @MainThread
@@ -140,15 +148,16 @@ public class VerificationCodeView extends FrameLayout {
       Stream.of(codes).forEach(code -> code.setText(""));
       index = 0;
     }
-    setInactive(containers);
+    setInactive(views);
   }
 
   private void setInactive(List<View> views) {
-    Stream.of(views).forEach(c -> c.setBackgroundResource(R.drawable.labeled_edit_text_background_inactive));
+    Stream.of(views).forEach(c -> c.setBackgroundColor(getResources().getColor(R.color.accent)));
   }
 
   private void setActive(@NonNull View container) {
-    container.setBackgroundResource(R.drawable.labeled_edit_text_background_active);
+    //container.setBackgroundResource(R.drawable.labeled_edit_text_background_active);
+    container.setBackgroundColor(getResources().getColor(R.color.primary));
   }
 
   public interface OnCodeEnteredListener {

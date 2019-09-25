@@ -16,8 +16,9 @@ public class CountrySelectionActivity extends BaseActivity
   }
 
   @Override
-  public void countrySelected(String countryName, int countryCode) {
+  public void countrySelected(String countryRegion, String countryName, int countryCode) {
     Intent result = getIntent();
+    result.putExtra("country_region", countryRegion);
     result.putExtra("country_name", countryName);
     result.putExtra("country_code", countryCode);
 

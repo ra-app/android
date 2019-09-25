@@ -1325,5 +1325,11 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
     <string name="invitation_activity_code_desc">Bitte fügen Sie hier Ihren Code ein.</string>
     <string name="invitation_activity_code_label">CODE</string>
     <string name="accept_invite">Einladung annehmen</string>
+    <string name="bitte_geben_Sie">Bitte geben Sie ihre bereits registrierte Telefonnummer ein. Sie werden angerufen und erhalten einen Verifikationscode. Dabei können</string>
+    <string name="your_mobile_number">Ihre mobilnummer:</string>
+    <string name="registration_activity_phone_number">Telefonnummer</string>
+    <string name="wrong_phonenumber">Falsche Telefonnummer?</string>
+    <string name="send_sms_again">Mir Stattdessen  eine SMS senden</string>
+    <string name="search_name_or_number">Name oder Nummer suchen</string>
     <!--EOF-->
 </resources>

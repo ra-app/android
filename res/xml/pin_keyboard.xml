@@ -22,6 +22,6 @@
     </Row>
     <Row>
         <Key android:codes="0"    android:keyLabel="0" android:horizontalGap="33.3%p"/>
-        <Key android:codes="-1"    android:keyIcon="@drawable/ic_backspace_grey600_24dp" android:isRepeatable="true"/>
+        <Key android:codes="-1"    android:keyIcon="@drawable/ic_backspace_white" android:isRepeatable="true"/>
     </Row>
 </Keyboard>

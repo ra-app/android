@@ -13,8 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import android.text.Editable;
+import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.text.style.UnderlineSpan;
 import android.util.Pair;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -23,6 +25,7 @@ import android.view.View;
 import android.view.animation.OvershootInterpolator;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -122,9 +125,9 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   private AsYouTypeFormatter     countryFormatter;
   private ArrayAdapter<String>   countrySpinnerAdapter;
   private Spinner                countrySpinner;
-  private LabeledEditText        countryCode;
-  private LabeledEditText        number;
-  private CircularProgressButton createButton;
+  private EditText        countryCode;
+  private EditText        number;
+  private Button createButton;
   private TextView               title;
   private TextView               subtitle;
   private View                   registrationContainer;
@@ -150,6 +153,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   private SmsRetrieverReceiver        smsRetrieverReceiver;
   private SignalServiceAccountManager accountManager;
   private int                         debugTapCounter;
+  private TextView verifyHeaderTV, verifySubheaderTV, resendHeaderTV;
 
 
   @Override
@@ -176,7 +180,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == PICK_COUNTRY && resultCode == RESULT_OK && data != null) {
       this.countryCode.setText(String.valueOf(data.getIntExtra("country_code", 1)));
-      setCountryDisplay(data.getStringExtra("country_name"));
+      setCountryDisplay(data.getStringExtra("country_region"));
       setCountryFormatter(data.getIntExtra("country_code", 1));
     } else if (requestCode == CAPTCHA && resultCode == RESULT_OK && data != null) {
       registrationState = new RegistrationState(Optional.fromNullable(data.getStringExtra(CaptchaActivity.KEY_TOKEN)), registrationState);
@@ -188,8 +192,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       }
     } else if (requestCode == CAPTCHA) {
       Toast.makeText(this, R.string.RegistrationActivity_failed_to_verify_the_captcha, Toast.LENGTH_LONG).show();
-      createButton.setIndeterminateProgressMode(false);
-      createButton.setProgress(0);
+      /*createButton.setIndeterminateProgressMode(false);
+      createButton.setProgress(0);*/
     }
   }
 
@@ -223,14 +227,27 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     this.pinForgotButton           = findViewById(R.id.forgot_button);
     this.pinClarificationContainer = findViewById(R.id.pin_clarification_container);
 
+    this.verifyHeaderTV = findViewById(R.id.verify_header);
+    this.verifySubheaderTV = findViewById(R.id.verify_subheader);
+    this.resendHeaderTV = findViewById(R.id.resend_header);
+
+    SpannableString content = new SpannableString(getResources().getString(R.string.wrong_phonenumber));
+    content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
+    resendHeaderTV.setText(content);
+
+    resendHeaderTV.setOnClickListener(v -> {
+      onWrongNumberClicked();
+      resendHeaderTV.setVisibility(View.GONE);
+    });
+
     this.registrationState    = new RegistrationState(RegistrationState.State.INITIAL, null, null, Optional.absent(), Optional.absent());
 
-    this.countryCode.getInput().addTextChangedListener(new CountryCodeChangedListener());
-    this.number.getInput().addTextChangedListener(new NumberChangedListener());
+    this.countryCode.addTextChangedListener(new CountryCodeChangedListener());
+    this.number.addTextChangedListener(new NumberChangedListener());
     this.createButton.setOnClickListener(v -> handleRegister());
     this.callMeCountDownView.setOnClickListener(v -> handlePhoneCallRequest());
 
-    skipButton.setOnClickListener(v -> handleCancel());
+    //skipButton.setOnClickListener(v -> handleCancel());
     restoreSkipButton.setOnClickListener(v -> displayInitialView(true));
 
     if (getIntent().getBooleanExtra(RE_REGISTRATION_EXTRA, false)) {
@@ -261,7 +278,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
   @SuppressLint("ClickableViewAccessibility")
   private void initializeSpinner() {
-    this.countrySpinnerAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item);
+    this.countrySpinnerAdapter = new ArrayAdapter<>(this, R.layout.spinner_item);
     this.countrySpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
     setCountryDisplay(getString(R.string.RegistrationActivity_select_your_country));
@@ -452,8 +469,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   }
 
   private void handleRequestVerification(@NonNull String e164number, boolean gcmSupported) {
-    createButton.setIndeterminateProgressMode(true);
-    createButton.setProgress(50);
+    /*createButton.setIndeterminateProgressMode(true);
+    createButton.setProgress(50);*/
 
     if (gcmSupported) {
       SmsRetrieverClient client = SmsRetriever.getClient(this);
@@ -506,8 +523,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
           requestCaptcha(true);
         } else if (result.exception.isPresent()) {
           Toast.makeText(RegistrationActivity.this, R.string.RegistrationActivity_unable_to_connect_to_service, Toast.LENGTH_LONG).show();
-          createButton.setIndeterminateProgressMode(false);
-          createButton.setProgress(0);
+          /*createButton.setIndeterminateProgressMode(false);
+          createButton.setProgress(0);*/
         } else {
           registrationState = new RegistrationState(RegistrationState.State.VERIFYING, e164number, result.password, result.fcmToken, Optional.absent());
           displayVerificationView(e164number, 64);
@@ -792,7 +809,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     title.animate().translationX(startDirectionMultiplier * title.getWidth()).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
       @Override
       public void onAnimationEnd(Animator animation) {
-        title.setText(R.string.registration_activity__verify_your_number);
+        title.setText(R.string.registration_activity_phone_number);
         title.clearAnimation();
         title.setTranslationX(endDirectionMultiplier * title.getWidth());
         title.animate().translationX(0).setListener(null).setInterpolator(new OvershootInterpolator()).setDuration(SCENE_TRANSITION_DURATION).start();
@@ -802,7 +819,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
     subtitle.animate().translationX(startDirectionMultiplier * subtitle.getWidth()).setDuration(SCENE_TRANSITION_DURATION).setListener(new AnimationCompleteListener() {
       @Override
       public void onAnimationEnd(Animator animation) {
-        subtitle.setText(R.string.registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply);
+        subtitle.setText(R.string.bitte_geben_Sie);
         subtitle.clearAnimation();
         subtitle.setTranslationX(endDirectionMultiplier * subtitle.getWidth());
         subtitle.animate().translationX(0).setListener(null).setInterpolator(new OvershootInterpolator()).setDuration(SCENE_TRANSITION_DURATION).start();
@@ -823,8 +840,8 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
         registrationContainer.setTranslationX(endDirectionMultiplier * registrationContainer.getWidth());
         registrationContainer.setVisibility(View.VISIBLE);
-        createButton.setProgress(0);
-        createButton.setIndeterminateProgressMode(false);
+        /*createButton.setProgress(0);
+        createButton.setIndeterminateProgressMode(false);*/
         registrationContainer.animate().translationX(0).setDuration(SCENE_TRANSITION_DURATION).setListener(null).setInterpolator(new OvershootInterpolator()).start();
       }
     }).start();
@@ -859,6 +876,9 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
         verificationContainer.setTranslationX(verificationContainer.getWidth());
         verificationContainer.setVisibility(View.VISIBLE);
         verificationContainer.animate().translationX(0).setListener(null).setInterpolator(new OvershootInterpolator()).setDuration(SCENE_TRANSITION_DURATION).start();
+        verifyHeaderTV.setText("+" + countryCode.getText() + " " + number.getText() + " verifizieren");
+        verifySubheaderTV.setText("Bitte geben Sie den angegebenen\nVerifikationscode ein.");
+        resendHeaderTV.setVisibility(View.VISIBLE);
       }
     }).start();
 
@@ -1020,7 +1040,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       String regionCode = PhoneNumberUtil.getInstance().getRegionCodeForCountryCode(countryCode);
 
       setCountryFormatter(countryCode);
-      setCountryDisplay(PhoneNumberFormatter.getRegionDisplayName(regionCode));
+      setCountryDisplay(regionCode);
 
       if (!TextUtils.isEmpty(regionCode) && !regionCode.equals("ZZ")) {
         number.requestFocus();

@@ -10,8 +10,7 @@
         android:layout_width="48dp"
         android:layout_height="54dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/labeled_edit_text_background_inactive">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/code_zero"
@@ -19,6 +18,12 @@
             android:layout_height="wrap_content"
             android:textSize="28dp"
             tools:text="1" />
+
+        <View
+            android:id="@+id/view_zero"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/accent" />
 
     </LinearLayout>
 
@@ -28,8 +33,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="5dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/labeled_edit_text_background_inactive">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/code_one"
@@ -37,6 +41,12 @@
             android:layout_height="wrap_content"
             android:textSize="28dp"
             tools:text="2" />
+
+        <View
+            android:id="@+id/view_one"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/accent" />
 
     </LinearLayout>
 
@@ -46,8 +56,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="5dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/labeled_edit_text_background_inactive">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/code_two"
@@ -55,6 +64,12 @@
             android:layout_height="wrap_content"
             android:textSize="28dp"
             tools:text="2" />
+
+        <View
+            android:id="@+id/view_two"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/accent" />
 
     </LinearLayout>
 
@@ -82,8 +97,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="5dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/labeled_edit_text_background_inactive">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/code_three"
@@ -91,6 +105,12 @@
             android:layout_height="wrap_content"
             android:textSize="28dp"
             tools:text="2" />
+
+        <View
+            android:id="@+id/view_three"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/accent" />
 
     </LinearLayout>
 
@@ -101,8 +121,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="5dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/labeled_edit_text_background_inactive">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/code_four"
@@ -110,6 +129,12 @@
             android:layout_height="wrap_content"
             android:textSize="28dp"
             tools:text="2" />
+
+        <View
+            android:id="@+id/view_four"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/accent" />
 
     </LinearLayout>
 
@@ -119,8 +144,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="5dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/labeled_edit_text_background_inactive">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/code_five"
@@ -129,6 +153,12 @@
             android:textSize="28dp"
             android:gravity="center"
             tools:text="2" />
+
+        <View
+            android:id="@+id/view_five"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/accent" />
 
     </LinearLayout>
 
