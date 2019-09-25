@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/RaApp.MainTheme.NoActionBar"
         tools:replace="android:allowBackup">
-        <activity android:name=".InvitationActivity"></activity>
+        <activity android:name=".registration.TermOfServiceActivity"></activity>
+        <activity android:name=".registration.InvitationActivity" />
         <activity android:name=".SplashActivity" />
 
         <activity

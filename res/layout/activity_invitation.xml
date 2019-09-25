@@ -16,13 +16,12 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tv_simpleTopbar"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"></TextView>
+            style="@style/toolbarTitle"
+            tools:text="@string/app_name">
+        </TextView>
 
     </LinearLayout>
 
@@ -110,8 +109,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    tools:text="Sie wurden eingeladen von Anwalt &amp; CO (Firmenname)"
-                    android:textSize="17sp"
+                    android:text="@string/office_app_invite_by"
                     style="@style/ra_text" />
 
 

@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import org.raapp.messenger.registration.InvitationActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
