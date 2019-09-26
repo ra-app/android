@@ -21,6 +21,8 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,7 +32,6 @@ import com.dd.CircularProgressButton;
 
 import org.raapp.messenger.avatar.AvatarSelection;
 import org.raapp.messenger.components.InputAwareLayout;
-import org.raapp.messenger.components.LabeledEditText;
 import org.raapp.messenger.components.emoji.EmojiKeyboardProvider;
 import org.raapp.messenger.components.emoji.EmojiToggle;
 import org.raapp.messenger.components.emoji.MediaKeyboard;
@@ -82,8 +83,10 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
   private InputAwareLayout       container;
   private ImageView              avatar;
   private CircularProgressButton finishButton;
-  private LabeledEditText        name;
-  private EmojiToggle            emojiToggle;
+  private Button readyButton;
+  private EditText name;
+  //private LabeledEditText        name;
+  private EmojiToggle emojiToggle;
   private MediaKeyboard          mediaKeyboard;
   private View                   reveal;
 
@@ -103,7 +106,7 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
     getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
 
     initializeResources();
-    initializeEmojiInput();
+    //initializeEmojiInput();
     initializeProfileName(getIntent().getBooleanExtra(EXCLUDE_SYSTEM, false));
     initializeProfileAvatar(getIntent().getBooleanExtra(EXCLUDE_SYSTEM, false));
 
@@ -119,7 +122,7 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
 
   @Override
   public void onBackPressed() {
-    if (container.isInputOpen()) container.hideCurrentInput(name.getInput());
+    if (container.isInputOpen()) container.hideCurrentInput(name);
     else                         super.onBackPressed();
   }
 
@@ -199,10 +202,11 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
 
     this.avatar       = ViewUtil.findById(this, R.id.avatar);
     this.name         = ViewUtil.findById(this, R.id.name);
-    this.emojiToggle  = ViewUtil.findById(this, R.id.emoji_toggle);
+    //this.emojiToggle  = ViewUtil.findById(this, R.id.emoji_toggle);
     this.mediaKeyboard = ViewUtil.findById(this, R.id.emoji_drawer);
     this.container    = ViewUtil.findById(this, R.id.container);
     this.finishButton = ViewUtil.findById(this, R.id.finish_button);
+    this.readyButton = ViewUtil.findById(this, R.id.btn_ready);
     this.reveal       = ViewUtil.findById(this, R.id.reveal);
     this.nextIntent   = getIntent().getParcelableExtra(NEXT_INTENT);
 
@@ -212,7 +216,7 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
                                                       .onAnyResult(this::startAvatarSelection)
                                                       .execute());
 
-    this.name.getInput().addTextChangedListener(new TextWatcher() {
+    this.name.addTextChangedListener(new TextWatcher() {
       @Override
       public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
       @Override
@@ -220,11 +224,13 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
       @Override
       public void afterTextChanged(Editable s) {
         if (s.toString().getBytes().length > ProfileCipher.NAME_PADDED_LENGTH) {
-          name.getInput().setError(getString(R.string.CreateProfileActivity_too_long));
+          name.setError(getString(R.string.CreateProfileActivity_too_long));
           finishButton.setEnabled(false);
-        } else if (name.getInput().getError() != null || !finishButton.isEnabled()) {
-          name.getInput().setError(null);
+          readyButton.setEnabled(false);
+        } else if (name.getError() != null || !finishButton.isEnabled()) {
+          name.setError(null);
           finishButton.setEnabled(true);
+          readyButton.setEnabled(true);
         }
       }
     });
@@ -232,6 +238,10 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
     this.finishButton.setOnClickListener(view -> {
       this.finishButton.setIndeterminateProgressMode(true);
       this.finishButton.setProgress(50);
+      handleUpload();
+    });
+
+    this.readyButton.setOnClickListener(v -> {
       handleUpload();
     });
 
@@ -246,14 +256,14 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
       String profileName = TextSecurePreferences.getProfileName(this);
 
       name.setText(profileName);
-      name.getInput().setSelection(profileName.length(), profileName.length());
+      name.setSelection(profileName.length(), profileName.length());
     } else if (!excludeSystem) {
       SystemProfileUtil.getSystemProfileName(this).addListener(new ListenableFuture.Listener<String>() {
         @Override
         public void onSuccess(String result) {
           if (!TextUtils.isEmpty(result)) {
             name.setText(result);
-            name.getInput().setSelection(result.length(), result.length());
+            name.setSelection(result.length(), result.length());
           }
         }
 
@@ -317,9 +327,9 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
 
     this.emojiToggle.setOnClickListener(v -> {
       if (container.getCurrentInput() == mediaKeyboard) {
-        container.showSoftkey(name.getInput());
+        container.showSoftkey(name);
       } else {
-        container.show(name.getInput(), mediaKeyboard);
+        container.show(name, mediaKeyboard);
       }
     });
 
@@ -331,16 +341,16 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
 
       @Override
       public void onEmojiSelected(String emoji) {
-        final int start = name.getInput().getSelectionStart();
-        final int end   = name.getInput().getSelectionEnd();
+        final int start = name.getSelectionStart();
+        final int end   = name.getSelectionEnd();
 
         name.getText().replace(Math.min(start, end), Math.max(start, end), emoji);
-        name.getInput().setSelection(start + emoji.length());
+        name.setSelection(start + emoji.length());
       }
     }));
 
     this.container.addOnKeyboardShownListener(() -> emojiToggle.setToMedia());
-    this.name.setOnClickListener(v -> container.showSoftkey(name.getInput()));
+    this.name.setOnClickListener(v -> container.showSoftkey(name));
   }
 
   private void startAvatarSelection() {

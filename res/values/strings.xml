@@ -1576,6 +1576,9 @@
     <string name="wrong_phonenumber">Falsche Telefonnummer?</string>
     <string name="send_sms_again">Mir Stattdessen  eine SMS senden</string>
     <string name="search_name_or_number">Name oder Nummer suchen</string>
+    <string name="office_app_profile_create_title">Name</string>
+    <string name="office_app_profile_create_ready">Fertig</string>
+    <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
     <!-- EOF -->
 
 </resources>

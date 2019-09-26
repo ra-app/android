@@ -1339,5 +1339,8 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="office_app_permissions_request">OfficeApp benötigt einen Zugriff zu Ihren Kontakten, Kamera und Fotos, um zu kommunizieren, Benachrichtigung zu erhalten und sichere Anrufe zu tätigen.</string>
   <string name="office_app_welcome">Wir begrüssen Sie\nin der Office App</string>
   <string name="office_app_invite_by"><![CDATA[Sie wurden eingeladen von Anwalt & CO (Firmenname)]]></string>
+  <string name="office_app_profile_create_title">Name</string>
+  <string name="office_app_profile_create_ready">Fertig</string>
+  <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
   <!--EOF-->
 </resources>

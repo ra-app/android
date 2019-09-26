@@ -12,6 +12,24 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:id="@+id/ll_simpleTopbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_gradient_vertical"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_simpleTopbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/toolbarTitle"
+                android:text="@string/office_app_profile_create_title">
+            </TextView>
+
+        </LinearLayout>
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -19,9 +37,37 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
 
                 <TextView
+                    android:id="@+id/tv_create_profile_title"
+                    android:text="@string/office_app_profile_create_title"
+                    android:textAllCaps="true"
+                    android:textColor="@color/ra_text_label"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintVertical_chainStyle="spread_inside"
+                    style="@style/ra_label"/>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:lines="1"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_create_profile_title"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintVertical_chainStyle="spread_inside"/>
+
+                <!--<TextView
                     android:id="@+id/title"
                     style="@style/Signal.Text.Headline.Registration"
                     android:layout_width="wrap_content"
@@ -37,19 +83,17 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
-                    app:layout_constraintVertical_chainStyle="spread_inside" />
+                    app:layout_constraintVertical_chainStyle="spread_inside" />-->
 
                 <ImageView
                     android:id="@+id/avatar_background"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="24dp"
                     android:src="@drawable/circle_tintable"
                     android:tint="@color/core_grey_05"
-                    app:layout_constraintBottom_toBottomOf="@+id/name"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/name" />
+                    app:layout_constraintTop_toBottomOf="@+id/name" />
 
                 <ImageView
                     android:id="@+id/avatar_placeholder"
@@ -85,8 +129,7 @@
                     app:layout_constraintStart_toStartOf="@+id/avatar_background"
                     app:layout_constraintTop_toTopOf="@+id/avatar_background" />
 
-                <org.raapp.messenger.components.LabeledEditText
-                    android:id="@+id/name"
+                <!--<org.raapp.messenger.components.LabeledEditText
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -102,9 +145,9 @@
                     app:layout_constraintEnd_toStartOf="@+id/emoji_toggle"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/avatar_background"
-                    app:layout_constraintTop_toBottomOf="@+id/title" />
+                    app:layout_constraintTop_toBottomOf="@+id/title" />-->
 
-                <org.raapp.messenger.components.emoji.EmojiToggle
+                <!--<org.raapp.messenger.components.emoji.EmojiToggle
                     android:id="@+id/emoji_toggle"
                     android:layout_width="37dp"
                     android:layout_height="37dp"
@@ -115,30 +158,37 @@
                     android:contentDescription="@string/conversation_activity__emoji_toggle_description"
                     app:layout_constraintBottom_toBottomOf="@+id/name"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/name" />
+                    app:layout_constraintTop_toTopOf="@+id/name" />-->
 
                 <TextView
                     android:id="@+id/description_text"
                     style="@style/Signal.Text.Preview"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="24dp"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginBottom="16dp"
-                    android:gravity="center"
-                    android:text="@string/CreateProfileActivity_signal_profiles_are_end_to_end_encrypted"
-                    android:textColor="@color/core_grey_60"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/name"
-                    app:layout_constraintVertical_bias="1.0" />
+                    android:gravity="start"
+                    android:text="@string/office_app_profile_add_image"
+                    android:textColor="@color/ra_text_label"
+                    android:layout_marginStart="35dp"
+                    app:layout_constraintStart_toEndOf="@+id/avatar_background"
+                    app:layout_constraintTop_toTopOf="@+id/avatar_background"
+                    app:layout_constraintBottom_toBottomOf="@+id/avatar_background"
+                    />
+
+                <Button
+                    android:id="@+id/btn_ready"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    style="@style/ra_button_gradient"
+                    android:text="@string/office_app_profile_create_ready"
+                    app:layout_constraintStart_toEndOf="@+id/avatar_background"
+                    app:layout_constraintTop_toBottomOf="@+id/avatar_background"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </ScrollView>
 
         <com.dd.CircularProgressButton
+            android:visibility="gone"
             android:id="@+id/finish_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -152,9 +202,10 @@
             app:cpb_colorProgress="@color/textsecure_primary"
             app:cpb_cornerRadius="4dp"
             app:cpb_selectorIdle="@drawable/progress_button_state"
-            app:cpb_textIdle="@string/profile_create_activity__finish" />
+            app:cpb_textIdle="@string/office_app_profile_create_ready" />
 
         <Button
+            android:visibility="gone"
             android:id="@+id/skip_button"
             style="@style/Button.Borderless.Registration"
             android:layout_width="wrap_content"
