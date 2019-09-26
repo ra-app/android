@@ -75,7 +75,6 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
   public static final String NEXT_INTENT    = "next_intent";
   public static final String EXCLUDE_SYSTEM = "exclude_system";
 
-  private final DynamicTheme    dynamicTheme    = new DynamicRegistrationTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
 
   @Inject SignalServiceAccountManager accountManager;
@@ -98,7 +97,6 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
   public void onCreate(Bundle bundle) {
     super.onCreate(bundle);
 
-    dynamicTheme.onCreate(this);
     dynamicLanguage.onCreate(this);
 
     setContentView(R.layout.profile_create_activity);
@@ -116,7 +114,6 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
   @Override
   public void onResume() {
     super.onResume();
-    dynamicTheme.onResume(this);
     dynamicLanguage.onResume(this);
   }
 
