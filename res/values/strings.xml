@@ -1570,7 +1570,7 @@
     <string name="office_app_permissions_request">OfficeApp benötigt einen Zugriff zu Ihren Kontakten, Kamera und Fotos, um zu kommunizieren, Benachrichtigung zu erhalten und sichere Anrufe zu tätigen.</string>
     <string name="office_app_welcome">Wir begrüssen Sie\nin der Office App</string>
     <string name="office_app_invite_by"><![CDATA[Sie wurden eingeladen von Anwalt & CO (Firmenname)]]></string>
-    <string name="bitte_geben_Sie">Bitte geben Sie ihre bereits registrierte Telefonnummer ein. Sie werden angerufen und erhalten einen Verifikationscode. Dabei können</string>
+    <string name="bitte_geben_Sie">Bitte geben Sie Ihre bereits registrierte Telefonnummer ein. Sie werden angerufen und erhalten einen Verifikationscode. Dabei können Gebühren anfallen.</string>
     <string name="your_mobile_number">Ihre mobilnummer:</string>
     <string name="registration_activity_phone_number">Telefonnummer</string>
     <string name="wrong_phonenumber">Falsche Telefonnummer?</string>
@@ -1579,6 +1579,7 @@
     <string name="office_app_profile_create_title">Name</string>
     <string name="office_app_profile_create_ready">Fertig</string>
     <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
+    <string name="accept_permissions">Berechtigungen gewähren</string>
     <!-- EOF -->
 
 </resources>

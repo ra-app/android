@@ -40,7 +40,7 @@
 
             <Button
                 android:id="@+id/welcome_continue_button"
-                android:text="@string/RegistrationActivity_continue"
+                android:text="@string/accept_permissions"
                 android:layout_marginTop="40dp"
                 style="@style/ra_button_gradient"></Button>
 

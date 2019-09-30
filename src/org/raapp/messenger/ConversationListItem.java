@@ -169,8 +169,7 @@ public class ConversationListItem extends RelativeLayout
       CharSequence date = DateUtils.getBriefRelativeTimeSpanString(getContext(), locale, thread.getDate());
       dateView.setText(date);
       dateView.setTypeface(unreadCount == 0 ? LIGHT_TYPEFACE : BOLD_TYPEFACE);
-      dateView.setTextColor(unreadCount == 0 ? ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_date_color)
-                                             : ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_unread_color));
+      //dateView.setTextColor(unreadCount == 0 ? ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_date_color) : ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_unread_color));
     }
 
     if (thread.isArchived()) {
@@ -323,8 +322,11 @@ public class ConversationListItem extends RelativeLayout
 
   private void setRippleColor(Recipient recipient) {
     if (VERSION.SDK_INT >= VERSION_CODES.LOLLIPOP) {
-      ((RippleDrawable)(getBackground()).mutate())
-          .setColor(ColorStateList.valueOf(recipient.getColor().toConversationColor(getContext())));
+      try{
+        ((RippleDrawable)(getBackground()).mutate()).setColor(ColorStateList.valueOf(recipient.getColor().toConversationColor(getContext())));
+      }catch (Exception e){
+        // Invalid cast
+      }
     }
   }
 

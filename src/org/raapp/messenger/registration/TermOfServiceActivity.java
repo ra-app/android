@@ -1,11 +1,10 @@
 package org.raapp.messenger.registration;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
@@ -15,6 +14,8 @@ import org.raapp.messenger.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class TermOfServiceActivity extends AppCompatActivity {
+
+    public static final String PREFERENCE_EULA_ACCEPTATION = "PREFERENCE_KEY_EULA_ACCEPTATION";
 
     private Button mContinueButton;
     private CheckBox mAcceptCheck;
@@ -28,6 +29,7 @@ public class TermOfServiceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_term_of_service);
 
         initComponents();
+        checkScroll(true);
     }
 
     private void initComponents() {
@@ -36,15 +38,7 @@ public class TermOfServiceActivity extends AppCompatActivity {
         mAcceptCheck = findViewById(R.id.cb_accept);
         mAcceptCheck.setEnabled(false);
 
-        mTermsSV.getViewTreeObserver().addOnScrollChangedListener(() -> {
-            int maxScroll = mTermsSV.getChildAt(0).getBottom();
-            int currentScroll = (mTermsSV.getHeight() + mTermsSV.getScrollY());
-            if (maxScroll - currentScroll == 0) {
-                mIsScrollFinished = true;
-                mAcceptCheck.setEnabled(true);
-                mAcceptCheck.setChecked(true);
-            }
-        });
+        mTermsSV.getViewTreeObserver().addOnScrollChangedListener(() -> checkScroll(false));
 
         mAcceptCheck.setOnCheckedChangeListener((compoundButton, b) -> {
                 mContinueButton.setEnabled(b);
@@ -52,11 +46,31 @@ public class TermOfServiceActivity extends AppCompatActivity {
 
         mContinueButton.setOnClickListener(view -> {
             if(mIsScrollFinished && mAcceptCheck.isChecked()){
+                saveUserAcceptation();
                 goToWelcomeScreen();
             }else{
                 Toast.makeText(this, "Accept Terms of Service to continue", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private void checkScroll(boolean isFirstTime){
+        int maxScroll = mTermsSV.getChildAt(0).getBottom();
+        int currentScroll = (mTermsSV.getHeight() + mTermsSV.getScrollY());
+        if (maxScroll - currentScroll == 0) {
+            mIsScrollFinished = true;
+            mAcceptCheck.setEnabled(true);
+            if(!isFirstTime){
+                mAcceptCheck.setChecked(true);
+            }
+        }
+    }
+
+    private void saveUserAcceptation(){
+        SharedPreferences pref = getApplicationContext().getSharedPreferences("ra-preferences", 0); // 0 - for private mode
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putBoolean(PREFERENCE_EULA_ACCEPTATION, true);
+        editor.commit();
     }
 
     private void goToWelcomeScreen(){

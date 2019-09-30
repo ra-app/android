@@ -57,8 +57,6 @@ import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.search.SearchFragment;
 import org.raapp.messenger.service.KeyCachingService;
 import org.raapp.messenger.util.DynamicLanguage;
-import org.raapp.messenger.util.DynamicNoActionBarTheme;
-import org.raapp.messenger.util.DynamicTheme;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.guava.Optional;
@@ -71,7 +69,6 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
   @SuppressWarnings("unused")
   private static final String TAG = ConversationListActivity.class.getSimpleName();
 
-  private final DynamicTheme    dynamicTheme    = new DynamicNoActionBarTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
 
   private ConversationListFragment conversationListFragment;
@@ -82,7 +79,6 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
 
   @Override
   protected void onPreCreate() {
-    dynamicTheme.onCreate(this);
     dynamicLanguage.onCreate(this);
   }
 
@@ -109,7 +105,6 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
   @Override
   public void onResume() {
     super.onResume();
-    dynamicTheme.onResume(this);
     dynamicLanguage.onResume(this);
 
     SimpleTask.run(getLifecycle(), () -> {

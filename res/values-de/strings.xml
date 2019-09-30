@@ -1325,7 +1325,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
     <string name="invitation_activity_code_desc">Bitte fügen Sie hier Ihren Code ein.</string>
     <string name="invitation_activity_code_label">CODE</string>
     <string name="accept_invite">Einladung annehmen</string>
-    <string name="bitte_geben_Sie">Bitte geben Sie ihre bereits registrierte Telefonnummer ein. Sie werden angerufen und erhalten einen Verifikationscode. Dabei können</string>
+    <string name="bitte_geben_Sie">Bitte geben Sie Ihre bereits registrierte Telefonnummer ein. Sie werden angerufen und erhalten einen Verifikationscode. Dabei können Gebühren anfallen.</string>
     <string name="your_mobile_number">Ihre mobilnummer:</string>
     <string name="registration_activity_phone_number">Telefonnummer</string>
     <string name="wrong_phonenumber">Falsche Telefonnummer?</string>
@@ -1342,5 +1342,6 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="office_app_profile_create_title">Name</string>
   <string name="office_app_profile_create_ready">Fertig</string>
   <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
+  <string name="accept_permissions">Berechtigungen gewähren</string>
   <!--EOF-->
 </resources>
