@@ -417,8 +417,8 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
         colorPreference.setColors(MaterialColors.CONVERSATION_PALETTE.asConversationColorArray(getActivity()));
         colorPreference.setColor(recipient.getColor().toActionBarColor(getActivity()));
 
-        aboutPreference.setTitle(formatAddress(recipient.getAddress()));
-        aboutPreference.setSummary(recipient.getCustomLabel());
+        aboutPreference.setTitle(recipient.getName());
+        aboutPreference.setSummary(formatAddress(recipient.getAddress()));
         aboutPreference.setSecure(recipient.getRegistered() == RecipientDatabase.RegisteredState.REGISTERED);
 
         if (recipient.isBlocked()) blockPreference.setTitle(R.string.RecipientPreferenceActivity_unblock);

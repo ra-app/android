@@ -11,6 +11,6 @@ public class DynamicNoActionBarTheme extends DynamicTheme {
 
     if (theme.equals("dark")) return R.style.TextSecure_DarkNoActionBar;
 
-    return R.style.TextSecure_LightNoActionBar;
+    return R.style.RaApp_MainTheme_NoActionBar;
   }
 }

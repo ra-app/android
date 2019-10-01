@@ -45,20 +45,7 @@
                   android:gravity="center" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:visibility="visible">
 
-        <org.raapp.messenger.components.reminder.ReminderView
-            android:id="@+id/reminder"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:visibility="gone" />
-
-    </LinearLayout>
 
 
     <org.raapp.messenger.components.registration.PulsingFloatingActionButton
@@ -81,6 +68,21 @@
         app:layout_anchor="@+id/linearLayout2"
         app:layout_anchorGravity="center"
         tools:listitem="@layout/conversation_list_item_view" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:visibility="visible">
+
+        <org.raapp.messenger.components.reminder.ReminderView
+            android:id="@+id/reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:visibility="visible" />
+
+    </LinearLayout>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

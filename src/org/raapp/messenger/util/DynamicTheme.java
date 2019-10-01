@@ -32,7 +32,7 @@ public class DynamicTheme {
 
     if (theme.equals(DARK)) return R.style.TextSecure_DarkTheme;
 
-    return R.style.TextSecure_LightTheme;
+    return R.style.RaApp_MainTheme;
   }
 
   private static final class OverridePendingTransition {
