@@ -256,7 +256,17 @@
     </style>
 
 
-    <style name="PreferenceThemeOverlay.Fix" parent="PreferenceThemeOverlay.v14.Material"></style>
+    <style name="PreferenceThemeOverlay.Fix" parent="PreferenceThemeOverlay.v14.Material">
+
+    </style>
+
+    <style name="PreferenceListHeader" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
 
     <style name="Color1SwitchStyle">
         <item name="colorControlActivated">@color/white</item>
