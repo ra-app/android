@@ -2,13 +2,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory android:key="about" android:title="@string/recipient_preferences__about">
-        <org.raapp.messenger.preferences.widgets.ContactPreference android:key="pref_key_number" android:persistent="false"/>
-    </PreferenceCategory>
+    <org.raapp.messenger.preferences.widgets.ContactPreference android:key="pref_key_number" android:persistent="false"/>
 
-    <PreferenceCategory android:key="about_divider" android:layout="@layout/preference_divider"/>
-
-    <PreferenceCategory android:key="notification_settings" android:title="@string/recipient_preferences__chat_settings">
+    <PreferenceCategory android:key="notification_settings" android:title="@string/recipient_preferences__chat_settings"
+        android:layout="@layout/ra_preference_category">
         <org.raapp.messenger.components.SwitchPreferenceCompat
                 android:key="pref_key_recipient_mute"
                 android:title="@string/recipient_preferences__mute_conversation"
@@ -22,34 +19,11 @@
             android:defaultValue="false"
             android:persistent="false" />
 
-        <org.raapp.messenger.preferences.widgets.SignalPreference
-                            android:dependency="pref_key_recipient_mute"
-                            android:key="pref_key_recipient_ringtone"
-                            android:title="@string/recipient_preferences__notification_sound"
-                            android:persistent="false"/>
-
-        <org.raapp.messenger.preferences.widgets.SignalListPreference
-                android:dependency="pref_key_recipient_mute"
-                android:key="pref_key_recipient_vibrate"
-                android:title="@string/recipient_preferences__vibrate"
-                android:entries="@array/recipient_vibrate_entries"
-                android:entryValues="@array/recipient_vibrate_values"
-                android:defaultValue="0"
-                android:persistent="false"/>
-
-        <org.raapp.messenger.preferences.widgets.ColorPickerPreference
-                android:key="pref_key_recipient_color"
-                android:title="@string/recipient_preferences__color"
-                android:defaultValue="@android:color/black"
-                android:negativeButtonText="@null"
-                android:positiveButtonText="@null"
-                android:persistent="false"
-                app:numColumns="5" />
     </PreferenceCategory>
 
     <PreferenceCategory android:layout="@layout/preference_divider"/>
 
-    <PreferenceCategory android:key="call_settings" android:title="@string/recipient_preferences__call_settings">
+    <PreferenceCategory android:key="call_settings" android:title="@string/recipient_preferences__call_settings" android:layout="@layout/ra_preference_category">
 
         <org.raapp.messenger.preferences.widgets.SignalPreference
                 android:key="pref_key_recipient_call_ringtone"
@@ -66,9 +40,8 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:key="divider" android:layout="@layout/preference_divider"/>
 
-    <PreferenceCategory android:key="privacy_settings" android:title="@string/recipient_preferences__privacy">
+    <PreferenceCategory android:key="privacy_settings" android:title="@string/recipient_preferences__privacy" android:layout="@layout/ra_preference_category">
 
         <Preference android:key="pref_key_recipient_identity"
                     android:title="@string/recipient_preferences__view_safety_number"
