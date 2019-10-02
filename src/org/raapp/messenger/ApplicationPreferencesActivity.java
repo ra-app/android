@@ -64,7 +64,9 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
   private static final String PREFERENCE_CATEGORY_SMS_MMS        = "preference_category_sms_mms";
   private static final String PREFERENCE_CATEGORY_NOTIFICATIONS  = "preference_category_notifications";
   private static final String PREFERENCE_CATEGORY_APP_PROTECTION = "preference_category_app_protection";
-  private static final String PREFERENCE_CATEGORY_APPEARANCE     = "preference_category_appearance";
+  //private static final String PREFERENCE_CATEGORY_APPEARANCE     = "preference_category_appearance";
+  private static final String PREFERENCE_CATEGORY_THEME          = "pref_theme";
+  private static final String PREFERENCE_CATEGORY_LANGUAGE       = "pref_language";
   private static final String PREFERENCE_CATEGORY_CHATS          = "preference_category_chats";
   private static final String PREFERENCE_CATEGORY_DEVICES        = "preference_category_devices";
   private static final String PREFERENCE_CATEGORY_ADVANCED       = "preference_category_advanced";
@@ -146,8 +148,8 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
         .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_NOTIFICATIONS));
       this.findPreference(PREFERENCE_CATEGORY_APP_PROTECTION)
         .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_APP_PROTECTION));
-      this.findPreference(PREFERENCE_CATEGORY_APPEARANCE)
-        .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_APPEARANCE));
+      //this.findPreference(PREFERENCE_CATEGORY_APPEARANCE)
+      //  .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_APPEARANCE));
       this.findPreference(PREFERENCE_CATEGORY_CHATS)
         .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_CHATS));
       this.findPreference(PREFERENCE_CATEGORY_DEVICES)
@@ -183,8 +185,12 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
           .setSummary(NotificationsPreferenceFragment.getSummary(getActivity()));
       this.findPreference(PREFERENCE_CATEGORY_APP_PROTECTION)
           .setSummary(AppProtectionPreferenceFragment.getSummary(getActivity()));
-      this.findPreference(PREFERENCE_CATEGORY_APPEARANCE)
-          .setSummary(AppearancePreferenceFragment.getSummary(getActivity()));
+      //this.findPreference(PREFERENCE_CATEGORY_APPEARANCE)
+      //    .setSummary(AppearancePreferenceFragment.getSummary(getActivity()));
+      this.findPreference(PREFERENCE_CATEGORY_LANGUAGE)
+              .setSummary(AppearancePreferenceFragment.getSummary(getActivity(),TextSecurePreferences.LANGUAGE_PREF));
+      this.findPreference(PREFERENCE_CATEGORY_THEME)
+              .setSummary(AppearancePreferenceFragment.getSummary(getActivity(),TextSecurePreferences.THEME_PREF));
       this.findPreference(PREFERENCE_CATEGORY_CHATS)
           .setSummary(ChatsPreferenceFragment.getSummary(getActivity()));
     }
@@ -222,7 +228,7 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       this.findPreference(PREFERENCE_CATEGORY_SMS_MMS).setIcon(sms);
       this.findPreference(PREFERENCE_CATEGORY_NOTIFICATIONS).setIcon(notifications);
       this.findPreference(PREFERENCE_CATEGORY_APP_PROTECTION).setIcon(privacy);
-      this.findPreference(PREFERENCE_CATEGORY_APPEARANCE).setIcon(appearance);
+      //this.findPreference(PREFERENCE_CATEGORY_APPEARANCE).setIcon(appearance);
       this.findPreference(PREFERENCE_CATEGORY_CHATS).setIcon(chats);
       this.findPreference(PREFERENCE_CATEGORY_DEVICES).setIcon(devices);
       this.findPreference(PREFERENCE_CATEGORY_ADVANCED).setIcon(advanced);
@@ -249,9 +255,9 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
         case PREFERENCE_CATEGORY_APP_PROTECTION:
           fragment = new AppProtectionPreferenceFragment();
           break;
-        case PREFERENCE_CATEGORY_APPEARANCE:
-          fragment = new AppearancePreferenceFragment();
-          break;
+        //case PREFERENCE_CATEGORY_APPEARANCE:
+          //fragment = new AppearancePreferenceFragment();
+          //break;
         case PREFERENCE_CATEGORY_CHATS:
           fragment = new ChatsPreferenceFragment();
           break;

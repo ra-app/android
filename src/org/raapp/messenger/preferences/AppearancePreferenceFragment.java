@@ -46,7 +46,7 @@ public class AppearancePreferenceFragment extends ListSummaryPreferenceFragment 
     getPreferenceScreen().getSharedPreferences().unregisterOnSharedPreferenceChangeListener((ApplicationPreferencesActivity) getActivity());
   }
 
-  public static CharSequence getSummary(Context context) {
+  public static CharSequence getSummary(Context context, String preference) {
     String[] languageEntries     = context.getResources().getStringArray(R.array.language_entries);
     String[] languageEntryValues = context.getResources().getStringArray(R.array.language_values);
     String[] themeEntries        = context.getResources().getStringArray(R.array.pref_theme_entries);
@@ -58,8 +58,16 @@ public class AppearancePreferenceFragment extends ListSummaryPreferenceFragment 
     if (langIndex == -1)  langIndex = 0;
     if (themeIndex == -1) themeIndex = 0;
 
-    return context.getString(R.string.ApplicationPreferencesActivity_appearance_summary,
-                             themeEntries[themeIndex],
-                             languageEntries[langIndex]);
+    if (preference.equals(TextSecurePreferences.THEME_PREF)) {
+      return context.getString(R.string.ApplicationPreferencesActivity_appearance_summary_Theme,themeEntries[themeIndex]);
+    } else if (preference.equals(TextSecurePreferences.LANGUAGE_PREF)){
+      return context.getString(R.string.ApplicationPreferencesActivity_appearance_summary_Language, languageEntries[langIndex]);
+    } else {
+      return "";
+    }
+
+    //return context.getString(R.string.ApplicationPreferencesActivity_appearance_summary,
+    //                         themeEntries[themeIndex],
+    //                         languageEntries[langIndex]);
   }
 }

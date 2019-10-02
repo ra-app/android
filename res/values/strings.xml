@@ -187,6 +187,8 @@
 
     <!-- ContactsCursorLoader -->
     <string name="ApplicationPreferencesActivity_appearance_summary">Theme %1$s, Language %2$s</string>
+    <string name="ApplicationPreferencesActivity_appearance_summary_Theme">Theme %1$s</string>
+    <string name="ApplicationPreferencesActivity_appearance_summary_Language">Language %1$s</string>
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
 
