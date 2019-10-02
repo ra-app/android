@@ -424,7 +424,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     composeText.setTransport(sendButton.getSelectedTransport());
 
     titleView.setTitle(glideRequests, recipient);
-    setActionBarColor(recipient.getColor());
+    //setActionBarColor(recipient.getColor());
     setBlockedUserState(recipient, isSecureText, isDefaultSms);
     setGroupShareProfileReminder(recipient);
     calculateCharactersRemaining();
@@ -1702,7 +1702,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       titleView.setTitle(glideRequests, recipient);
       titleView.setVerified(identityRecords.isVerified());
       setBlockedUserState(recipient, isSecureText, isDefaultSms);
-      setActionBarColor(recipient.getColor());
+      //setActionBarColor(recipient.getColor());
       setGroupShareProfileReminder(recipient);
       updateReminders(recipient.hasSeenInviteReminder());
       updateDefaultSubscriptionId(recipient.getDefaultSubscriptionId());

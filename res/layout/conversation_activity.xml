@@ -19,7 +19,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:navigationIcon="?homeAsUpIndicator"
+            app:navigationIcon="@drawable/ic_keyboard_arrow_left_white"
             tools:background="#ff007f00">
 
             <include layout="@layout/conversation_title_view" />

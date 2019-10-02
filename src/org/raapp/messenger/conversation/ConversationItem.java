@@ -342,7 +342,7 @@ public class ConversationItem extends LinearLayout
     if (messageRecord.isOutgoing()) {
       bodyBubble.getBackground().setColorFilter(defaultBubbleColor, PorterDuff.Mode.MULTIPLY);
     } else {
-      bodyBubble.getBackground().setColorFilter(messageRecord.getRecipient().getColor().toConversationColor(context), PorterDuff.Mode.MULTIPLY);
+      bodyBubble.getBackground().setColorFilter(getResources().getColor(R.color.signal_primary_alpha33), PorterDuff.Mode.MULTIPLY);
     }
 
     if (audioViewStub.resolved()) {
@@ -353,7 +353,7 @@ public class ConversationItem extends LinearLayout
   private void setAudioViewTint(MessageRecord messageRecord, Recipient recipient) {
     if (messageRecord.isOutgoing()) {
       if (DynamicTheme.LIGHT.equals(TextSecurePreferences.getTheme(context))) {
-        audioViewStub.get().setTint(getContext().getResources().getColor(R.color.core_grey_60), defaultBubbleColor);
+        audioViewStub.get().setTint(getContext().getResources().getColor(R.color.white), defaultBubbleColor);
       } else {
         audioViewStub.get().setTint(Color.WHITE, defaultBubbleColor);
       }

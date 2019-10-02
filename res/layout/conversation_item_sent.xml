@@ -33,7 +33,7 @@
             android:clipToPadding="false"
             android:clipChildren="false"
             android:background="@color/white"
-            tools:backgroundTint="@color/core_grey_05">
+            tools:backgroundTint="@color/signal_primary">
 
             <org.raapp.messenger.components.QuoteView
                 android:id="@+id/quote_view"

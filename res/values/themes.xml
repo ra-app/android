@@ -35,7 +35,7 @@
         <item name="attachment_document_icon_small">@drawable/ic_document_small_light</item>
         <item name="attachment_document_icon_large">@drawable/ic_document_large_light</item>
 
-        <item name="compose_icon_tint">@color/core_grey_60</item>
+        <item name="compose_icon_tint">@color/core_grey_45</item>
 
         <item name="conversation_list_item_background">@drawable/conversation_list_item_background</item>
         <item name="conversation_list_item_contact_color">@color/core_grey_90</item>
@@ -99,14 +99,15 @@
         <item name="emoji_category_emoticons">@drawable/ic_emoji_emoticon_light_20</item>
         <item name="emoji_variation_selector_background">@drawable/emoji_variation_selector_background_light</item>
 
-        <item name="conversation_item_bubble_background">@color/core_grey_05</item>
-        <item name="conversation_item_sent_text_primary_color">@color/core_grey_90</item>
-        <item name="conversation_item_sent_text_secondary_color">@color/core_grey_60</item>
-        <item name="conversation_item_sent_icon_color">@color/core_grey_60</item>
-        <item name="conversation_item_sent_download_icon_color">@color/core_grey_60</item>
-        <item name="conversation_item_sent_text_indicator_tab_color">#99000000</item>
-        <item name="conversation_item_received_text_primary_color">@color/core_white</item>
-        <item name="conversation_item_received_text_secondary_color">@color/core_white</item>
+        <item name="conversation_item_bubble_background">@color/signal_primary</item>
+        <item name="conversation_item_sent_text_primary_color">@color/core_white</item>
+        <item name="conversation_item_sent_text_primary_color_message">@color/core_grey_60</item>
+        <item name="conversation_item_sent_text_secondary_color">@color/core_white</item>
+        <item name="conversation_item_sent_icon_color">@color/core_white</item>
+        <item name="conversation_item_sent_download_icon_color">@color/core_white</item>
+        <item name="conversation_item_sent_text_indicator_tab_color">#99FFFFFF</item>
+        <item name="conversation_item_received_text_primary_color">@color/core_grey_75</item>
+        <item name="conversation_item_received_text_secondary_color">@color/core_grey_75</item>
         <item name="conversation_item_update_text_color">@color/core_grey_60</item>
         <item name="conversation_item_last_seen_text_color">@color/core_grey_90</item>
         <item name="conversation_item_last_seen_line_color">@color/core_grey_60</item>
@@ -402,6 +403,7 @@
 
         <item name="conversation_item_bubble_background">@color/core_grey_05</item>
         <item name="conversation_item_sent_text_primary_color">@color/core_grey_90</item>
+        <item name="conversation_item_sent_text_primary_color_message">@color/core_grey_90</item>
         <item name="conversation_item_sent_text_secondary_color">@color/core_grey_60</item>
         <item name="conversation_item_sent_icon_color">@color/core_grey_60</item>
         <item name="conversation_item_sent_download_icon_color">@color/core_grey_60</item>
@@ -537,6 +539,7 @@
 
         <item name="conversation_item_bubble_background">@color/core_grey_75</item>
         <item name="conversation_item_sent_text_primary_color">@color/core_grey_05</item>
+        <item name="conversation_item_sent_text_primary_color_message">@color/core_grey_05</item>
         <item name="conversation_item_sent_text_secondary_color">@color/core_grey_25</item>
         <item name="conversation_item_sent_icon_color">@color/core_grey_25</item>
         <item name="conversation_item_sent_download_icon_color">@color/core_white</item>

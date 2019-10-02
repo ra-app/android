@@ -30,6 +30,41 @@
         android:paddingEnd="16dp"
         android:paddingBottom="6dp">
 
+        <org.raapp.messenger.components.AnimatingToggle
+            android:id="@+id/button_toggle"
+            android:layout_width="@dimen/conversation_compose_height"
+            android:layout_height="@dimen/conversation_compose_height"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle_tintable">
+
+            <ImageButton
+                android:id="@+id/attach_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_touch_highlight_background"
+                android:contentDescription="@string/ConversationActivity_add_attachment"
+                android:nextFocusLeft="@+id/embedded_text_editor"
+                android:tint="@color/core_white"
+                app:srcCompat="@drawable/ic_plus_24" />
+
+            <org.raapp.messenger.components.SendButton
+                android:id="@+id/send_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle_touch_highlight_background"
+                android:contentDescription="@string/conversation_activity__send"
+                android:nextFocusLeft="@+id/embedded_text_editor"
+                android:paddingStart="11dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="6dp"
+                android:paddingBottom="6dp"
+                android:scaleType="fitCenter"
+                android:src="?conversation_transport_sms_indicator" />
+
+        </org.raapp.messenger.components.AnimatingToggle>
+
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -41,7 +76,6 @@
                 android:id="@+id/compose_bubble"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?attr/conversation_input_background"
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 android:orientation="vertical">
@@ -89,26 +123,39 @@
                             android:layout_gravity="bottom"
                             android:background="?selectableItemBackgroundBorderless"
                             android:contentDescription="@string/conversation_activity__emoji_toggle_description"
-                            android:paddingEnd="6dp" />
+                            android:paddingEnd="6dp"
+                            android:visibility="gone"/>
 
                         <Space
                             android:layout_width="0dp"
                             android:layout_height="@dimen/conversation_compose_height" />
 
-                        <org.raapp.messenger.components.ComposeText
-                            android:id="@+id/embedded_text_editor"
-                            style="@style/ComposeEditText"
+                        <FrameLayout
                             android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:nextFocusRight="@+id/send_button"
-                            android:nextFocusForward="@+id/send_button"
-                            tools:hint="Send TextSecure message"
-                            tools:visibility="invisible">
+                            android:background="?attr/conversation_input_background"
+                            android:clipChildren="false"
+                            android:clipToPadding="false">
 
-                            <requestFocus />
-                        </org.raapp.messenger.components.ComposeText>
+                            <org.raapp.messenger.components.ComposeText
+                                android:id="@+id/embedded_text_editor"
+                                style="@style/ComposeEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:nextFocusRight="@+id/send_button"
+                                android:nextFocusForward="@+id/send_button"
+                                tools:hint="Send TextSecure message"
+                                tools:visibility="invisible">
+
+                                <requestFocus />
+                            </org.raapp.messenger.components.ComposeText>
+
+                        </FrameLayout>
 
                         <FrameLayout
                             android:layout_width="wrap_content"
@@ -128,7 +175,8 @@
                                     android:id="@+id/quick_camera_toggle"
                                     android:layout_width="24dp"
                                     android:layout_height="match_parent"
-                                    android:layout_marginEnd="12dp"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_marginEnd="8dp"
                                     android:layout_gravity="center_vertical"
                                     android:background="?selectableItemBackgroundBorderless"
                                     android:contentDescription="@string/conversation_activity__quick_attachment_drawer_toggle_camera_description"
@@ -162,6 +210,7 @@
                                     android:id="@+id/inline_attachment_button"
                                     android:layout_width="24dp"
                                     android:layout_height="@dimen/conversation_compose_height"
+                                    android:layout_marginStart="12dp"
                                     android:layout_marginEnd="8dp"
                                     android:layout_gravity="bottom"
                                     android:background="?selectableItemBackgroundBorderless"
@@ -183,41 +232,6 @@
             </LinearLayout>
 
         </FrameLayout>
-
-        <org.raapp.messenger.components.AnimatingToggle
-            android:id="@+id/button_toggle"
-            android:layout_width="@dimen/conversation_compose_height"
-            android:layout_height="@dimen/conversation_compose_height"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="12dp"
-            android:background="@drawable/circle_tintable">
-
-            <ImageButton
-                android:id="@+id/attach_button"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="@drawable/circle_touch_highlight_background"
-                android:contentDescription="@string/ConversationActivity_add_attachment"
-                android:nextFocusLeft="@+id/embedded_text_editor"
-                android:tint="@color/core_white"
-                app:srcCompat="@drawable/ic_plus_24" />
-
-            <org.raapp.messenger.components.SendButton
-                android:id="@+id/send_button"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/circle_touch_highlight_background"
-                android:contentDescription="@string/conversation_activity__send"
-                android:nextFocusLeft="@+id/embedded_text_editor"
-                android:paddingStart="11dp"
-                android:paddingTop="6dp"
-                android:paddingEnd="6dp"
-                android:paddingBottom="6dp"
-                android:scaleType="fitCenter"
-                android:src="?conversation_transport_sms_indicator" />
-
-        </org.raapp.messenger.components.AnimatingToggle>
 
     </LinearLayout>
 </org.raapp.messenger.components.InputPanel>
