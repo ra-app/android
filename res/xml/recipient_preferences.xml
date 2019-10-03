@@ -19,6 +19,21 @@
             android:defaultValue="false"
             android:persistent="false" />
 
+        <org.raapp.messenger.preferences.widgets.SignalPreference
+            android:dependency="pref_key_recipient_mute"
+            android:key="pref_key_recipient_ringtone"
+            android:title="@string/recipient_preferences__notification_sound"
+            android:persistent="false"/>
+
+        <org.raapp.messenger.preferences.widgets.SignalListPreference
+            android:dependency="pref_key_recipient_mute"
+            android:key="pref_key_recipient_vibrate"
+            android:title="@string/recipient_preferences__vibrate"
+            android:entries="@array/recipient_vibrate_entries"
+            android:entryValues="@array/recipient_vibrate_values"
+            android:defaultValue="0"
+            android:persistent="false"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory android:layout="@layout/preference_divider"/>

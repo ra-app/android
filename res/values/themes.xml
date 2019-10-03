@@ -186,7 +186,6 @@
 
         <item name="group_members_dialog_icon">@drawable/ic_group_grey600_24dp</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.Fix</item>
-        <item name="android:listSeparatorTextViewStyle">@style/PreferenceListHeader</item>
 
         <item name="search_toolbar_background">@color/white</item>
         <item name="search_background">@color/white</item>
