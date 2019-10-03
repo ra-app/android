@@ -28,7 +28,7 @@
                 android:entryValues="@array/pref_media_download_entries" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:title="@string/preferences_chats__chats">
         <org.raapp.messenger.preferences.widgets.SignalListPreference
@@ -59,7 +59,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:key="message_trimming" android:title="@string/preferences_chats__message_trimming">
         <org.raapp.messenger.components.SwitchPreferenceCompat
@@ -80,7 +80,7 @@
                     android:dependency="pref_trim_threads" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:key="backup_category" android:title="@string/preferences_chats__backups">
         <org.raapp.messenger.components.SwitchPreferenceCompat

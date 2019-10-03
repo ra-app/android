@@ -69,7 +69,7 @@
                 android:entryValues="@array/pref_notification_priority_values"/>
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:title="@string/preferences_notifications__calls">
 
@@ -93,7 +93,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:title="@string/preferences_notifications__events">
         <org.raapp.messenger.components.SwitchPreferenceCompat

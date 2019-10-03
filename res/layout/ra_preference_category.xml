@@ -11,6 +11,6 @@
     android:paddingTop="16dp"
     android:paddingLeft="14dp"
     android:paddingBottom="12dp"
-    android:background="?pref_divider"
+    android:background="@color/ra_background"
     android:id="@android:id/title"
     />

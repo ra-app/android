@@ -88,7 +88,7 @@
                     android:visibility="visible"
                     android:layout_marginBottom="16dp"/>
 
-            <include layout="@layout/preference_divider"/>
+            <include layout="@layout/preference_divider_invisible"/>
 
             <FrameLayout android:id="@+id/preference_fragment"
                          android:layout_width="match_parent"

@@ -48,7 +48,7 @@
             android:summary="@string/preferences__request_keyboard_to_disable_personalized_learning"/>
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:title="@string/preferences_app_protection__communication">
         <org.raapp.messenger.components.SwitchPreferenceCompat
@@ -79,7 +79,7 @@
                     android:title="@string/preferences_app_protection__blocked_contacts" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:title="@string/preferences_communication__category_sealed_sender">
         <org.raapp.messenger.components.SwitchPreferenceCompat
@@ -100,7 +100,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preference_divider"/>
+    <PreferenceCategory android:layout="@layout/preference_divider_invisible"/>
 
     <PreferenceCategory android:title="@string/preferences_app_protection__registration_lock">
         <org.raapp.messenger.components.SwitchPreferenceCompat
