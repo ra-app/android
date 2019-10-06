@@ -13,16 +13,19 @@
             android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__sms_mms"/>
 
-
         <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
 
         <Preference android:key="preference_category_notifications"
             android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__notifications"/>
 
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
         <Preference android:key="preference_category_app_protection"
             android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__privacy"/>
+
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
 
        <!-- <Preference android:key="preference_category_appearance"
                     android:title="@string/preferences__appearance"/>-->
@@ -34,6 +37,8 @@
         android:entryValues="@array/language_values"
         android:defaultValue="zz"/>
 
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
         <org.raapp.messenger.preferences.widgets.SignalListPreference
             android:key="pref_theme"
             android:title="@string/preferences__theme"
@@ -42,16 +47,63 @@
             android:defaultValue="light">
         </org.raapp.messenger.preferences.widgets.SignalListPreference>
 
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
         <Preference android:key="preference_category_chats"
             android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__chats"/>
+
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
 
         <Preference android:key="preference_category_devices"
             android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__linked_devices"/>
 
-        <Preference android:key="preference_category_advanced"
-                    android:title="@string/preferences__advanced"/>
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
+        <org.raapp.messenger.components.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_toggle_push_messaging"
+            android:title="@string/preferences__signal_messages_and_calls"
+            android:summary="@string/preferences__free_private_messages_and_calls"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="support_settings" android:title="@string/office_app_support"
+        app:allowDividerAbove="false"
+        android:layout="@layout/ra_preference_category">
+
+        <Preference android:key="preference_category_need_help"
+            android:layout="@layout/ra_preference_item"
+            android:title="@string/office_app_need_help"/>
+
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
+        <Preference android:key="preference_category_give_us_opinion"
+            android:layout="@layout/ra_preference_item"
+            android:title="@string/office_app_give_us_opinion"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="privacy_policy_settings" android:title="@string/office_app_privacy_policy"
+        app:allowDividerAbove="false"
+        android:layout="@layout/ra_preference_category">
+
+        <Preference android:key="preference_category_use_conditions"
+            android:layout="@layout/ra_preference_item"
+            android:title="@string/office_app_use_conditions"/>
+
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
+        <Preference android:key="preference_category_agb"
+            android:layout="@layout/ra_preference_item"
+            android:title="@string/office_app_agb"/>
+
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
+        <Preference android:key="preference_category_delete_account"
+            android:title="@string/office_app_delete_account"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
