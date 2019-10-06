@@ -84,6 +84,8 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
   protected void onCreate(Bundle icicle, boolean ready) {
     //noinspection ConstantConditions
     this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    this.getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.bg_gradient_vertical));
+    this.getSupportActionBar().setHomeAsUpIndicator(getResources().getDrawable(R.drawable.ic_close_white_18dp));
 
     if (getIntent() != null && getIntent().getCategories() != null && getIntent().getCategories().contains("android.intent.category.NOTIFICATION_PREFERENCES")) {
       initFragment(android.R.id.content, new NotificationsPreferenceFragment());

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <org.raapp.messenger.preferences.widgets.ProfilePreference
             android:key="preference_category_profile"/>
 
     <PreferenceCategory android:key="notification_settings" android:title="@string/text_secure_normal__menu_settings"
+        app:allowDividerAbove="false"
         android:layout="@layout/ra_preference_category">
         <Preference android:key="preference_category_sms_mms"
+            android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__sms_mms"/>
 
+
+        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+
         <Preference android:key="preference_category_notifications"
+            android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__notifications"/>
 
         <Preference android:key="preference_category_app_protection"
+            android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__privacy"/>
 
        <!-- <Preference android:key="preference_category_appearance"
@@ -35,9 +43,11 @@
         </org.raapp.messenger.preferences.widgets.SignalListPreference>
 
         <Preference android:key="preference_category_chats"
+            android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__chats"/>
 
         <Preference android:key="preference_category_devices"
+            android:layout="@layout/ra_preference_item"
                     android:title="@string/preferences__linked_devices"/>
 
         <Preference android:key="preference_category_advanced"
