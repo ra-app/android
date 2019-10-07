@@ -20,7 +20,7 @@
     <!--    LEGACY SIGNAL  styles. TODO: Remove unused -->
     <style name="CustomLegacySignalTheme" parent="@style/Theme.AppCompat.Light">
         <item name="theme_type">light</item>
-        <item name="actionBarStyle">@style/TextSecure.LightActionBar</item>
+        <item name="actionBarStyle">@style/ra.LightActionBar</item>
         <item name="actionBarTabBarStyle">@style/TextSecure.LightActionBar.TabBar</item>
         <item name="actionModeBackground">@color/gray50</item>
         <item name="actionModeCloseDrawable">@drawable/ic_close_white_24dp</item>

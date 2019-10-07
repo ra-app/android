@@ -90,7 +90,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="24dp"
-                    android:src="@drawable/ic_picture_user"
+                    android:src="@drawable/ic_profile_circle_white_shadowed"
                     android:transitionName="avatar"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/name" />

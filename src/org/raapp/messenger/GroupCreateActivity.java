@@ -118,6 +118,8 @@ public class GroupCreateActivity extends PassphraseRequiredActionBarActivity
     setContentView(R.layout.group_create_activity);
     //noinspection ConstantConditions
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_keyboard_arrow_left_white);
+
     initializeResources();
     initializeExistingGroup();
   }
@@ -186,10 +188,9 @@ public class GroupCreateActivity extends PassphraseRequiredActionBarActivity
     SelectedRecipientsAdapter adapter = new SelectedRecipientsAdapter(this);
     adapter.setOnRecipientDeletedListener(this);
     lv.setAdapter(adapter);
-    recipientsEditor.setHint(R.string.recipients_panel__add_members);
     recipientsPanel.setPanelChangeListener(this);
     findViewById(R.id.contacts_button).setOnClickListener(new AddRecipientButtonListener());
-    avatar.setImageDrawable(new ResourceContactPhoto(R.drawable.ic_group_white_24dp).asDrawable(this, ContactColors.UNKNOWN_COLOR.toConversationColor(this)));
+    //avatar.setImageDrawable(new ResourceContactPhoto(R.drawable.ic_broadcast).asDrawable(this, ContactColors.UNKNOWN_COLOR.toConversationColor(this)));
     avatar.setOnClickListener(view -> AvatarSelection.startAvatarSelection(this, false, false));
   }
 

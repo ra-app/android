@@ -92,13 +92,13 @@ public class ImageDivet extends AppCompatImageView {
     final int right = getWidth();
     final int bottom = getHeight();
 
-    switch (position) {
-    case 0:
-     drawable.setBounds(
-         right - drawableIntrinsicWidth,
-         bottom - drawableIntrinsicHeight,
-         right,
-         bottom);
+      switch (position) {
+        case 0:
+          drawable.setBounds(
+                  right - drawableIntrinsicWidth,
+                  bottom - drawableIntrinsicHeight,
+                  right,
+                  bottom);
      break;
     }
   }

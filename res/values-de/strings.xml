@@ -1343,5 +1343,6 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="office_app_profile_create_ready">Fertig</string>
   <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
   <string name="accept_permissions">Berechtigungen gewähren</string>
-  <!--EOF-->
+    <string name="broadcastname">BROADCASTNAME</string>
+    <!--EOF-->
 </resources>

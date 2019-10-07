@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
              android:layout_height="wrap_content"
              android:layout_width="fill_parent"
              android:padding="10dp">
@@ -11,10 +12,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:text="name"
+        android:layout_marginBottom="4dp"
+        style="@style/ra_text"/>
 
     <TextView
         android:id="@+id/phone"
+        android:text="+3478978968"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
