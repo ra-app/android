@@ -232,7 +232,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
     final String onRes               = context.getString(R.string.ApplicationPreferencesActivity_on);
     final String offRes              = context.getString(R.string.ApplicationPreferencesActivity_off);
 
-    if (TextSecurePreferences.isPasswordDisabled(context) && !TextSecurePreferences.isScreenLockEnabled(context)) {
+    /*if (TextSecurePreferences.isPasswordDisabled(context) && !TextSecurePreferences.isScreenLockEnabled(context)) {
       if (TextSecurePreferences.isRegistrationtLockEnabled(context)) {
         return context.getString(privacySummaryResId, offRes, onRes);
       } else {
@@ -244,7 +244,8 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
       } else {
         return context.getString(privacySummaryResId, onRes, offRes);
       }
-    }
+    }*/
+    return "";
   }
 
   // Derecated

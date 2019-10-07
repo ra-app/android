@@ -19,21 +19,30 @@ package org.raapp.messenger;
 
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Build.VERSION;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.google.firebase.iid.FirebaseInstanceId;
+
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
+import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
 
+import org.raapp.messenger.logging.Log;
 import org.raapp.messenger.preferences.AdvancedPreferenceFragment;
 import org.raapp.messenger.preferences.AppProtectionPreferenceFragment;
 import org.raapp.messenger.preferences.AppearancePreferenceFragment;
@@ -42,10 +51,17 @@ import org.raapp.messenger.preferences.CorrectedPreferenceFragment;
 import org.raapp.messenger.preferences.NotificationsPreferenceFragment;
 import org.raapp.messenger.preferences.SmsMmsPreferenceFragment;
 import org.raapp.messenger.preferences.widgets.ProfilePreference;
+import org.raapp.messenger.push.AccountManagerFactory;
 import org.raapp.messenger.service.KeyCachingService;
 import org.raapp.messenger.util.DynamicLanguage;
 import org.raapp.messenger.util.DynamicTheme;
 import org.raapp.messenger.util.TextSecurePreferences;
+import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.whispersystems.libsignal.util.guava.Optional;
+import org.whispersystems.signalservice.api.SignalServiceAccountManager;
+import org.whispersystems.signalservice.api.push.exceptions.AuthorizationFailedException;
+
+import java.io.IOException;
 
 /**
  * The Activity for application preference display and management.
@@ -69,7 +85,8 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
   private static final String PREFERENCE_CATEGORY_LANGUAGE       = "pref_language";
   private static final String PREFERENCE_CATEGORY_CHATS          = "preference_category_chats";
   private static final String PREFERENCE_CATEGORY_DEVICES        = "preference_category_devices";
-  private static final String PREFERENCE_CATEGORY_ADVANCED       = "preference_category_advanced";
+  //private static final String PREFERENCE_CATEGORY_ADVANCED       = "preference_category_advanced";
+  private static final String PREFERENCE_CATEGORY_TOGGLE_PUSH      = "pref_toggle_push_messaging";
 
   private final DynamicTheme    dynamicTheme    = new DynamicTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
@@ -156,8 +173,8 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
         .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_CHATS));
       this.findPreference(PREFERENCE_CATEGORY_DEVICES)
         .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_DEVICES));
-      this.findPreference(PREFERENCE_CATEGORY_ADVANCED)
-        .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_ADVANCED));
+      //this.findPreference(PREFERENCE_CATEGORY_ADVANCED)
+      //        .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_ADVANCED));
 
       if (VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
         tintIcons(getActivity());
@@ -176,6 +193,21 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       ((ApplicationPreferencesActivity) getActivity()).getSupportActionBar().setTitle(R.string.text_secure_normal__menu_settings);
       setCategorySummaries();
       setCategoryVisibility();
+      initializePushMessagingToggle();
+    }
+
+    private void initializePushMessagingToggle() {
+      CheckBoxPreference preference = (CheckBoxPreference)this.findPreference(PREFERENCE_CATEGORY_TOGGLE_PUSH);
+
+      if (TextSecurePreferences.isPushRegistered(getActivity())) {
+        preference.setChecked(true);
+        preference.setSummary(TextSecurePreferences.getLocalNumber(getActivity()));
+      } else {
+        preference.setChecked(false);
+        preference.setSummary(R.string.preferences__free_private_messages_and_calls);
+      }
+
+      preference.setOnPreferenceChangeListener(new PushMessagingClickListener());
     }
 
     private void setCategorySummaries() {
@@ -194,7 +226,7 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       this.findPreference(PREFERENCE_CATEGORY_THEME)
               .setSummary(AppearancePreferenceFragment.getSummary(getActivity(),TextSecurePreferences.THEME_PREF));
       this.findPreference(PREFERENCE_CATEGORY_CHATS)
-          .setSummary(ChatsPreferenceFragment.getSummary(getActivity()));
+              .setSummary(ChatsPreferenceFragment.getSummary(getActivity()));
     }
 
     private void setCategoryVisibility() {
@@ -233,7 +265,7 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       //this.findPreference(PREFERENCE_CATEGORY_APPEARANCE).setIcon(appearance);
       this.findPreference(PREFERENCE_CATEGORY_CHATS).setIcon(chats);
       this.findPreference(PREFERENCE_CATEGORY_DEVICES).setIcon(devices);
-      this.findPreference(PREFERENCE_CATEGORY_ADVANCED).setIcon(advanced);
+      //this.findPreference(PREFERENCE_CATEGORY_ADVANCED).setIcon(advanced);
     }
 
     private class CategoryClickListener implements Preference.OnPreferenceClickListener {
@@ -267,9 +299,9 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
           Intent intent = new Intent(getActivity(), DeviceActivity.class);
           startActivity(intent);
           break;
-        case PREFERENCE_CATEGORY_ADVANCED:
-          fragment = new AdvancedPreferenceFragment();
-          break;
+        //case PREFERENCE_CATEGORY_ADVANCED:
+        //  fragment = new AdvancedPreferenceFragment();
+        //  break;
         default:
           throw new AssertionError();
         }
@@ -300,6 +332,86 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
         return true;
       }
     }
-  }
 
+    private class PushMessagingClickListener implements Preference.OnPreferenceChangeListener {
+      private static final int SUCCESS       = 0;
+      private static final int NETWORK_ERROR = 1;
+
+      private class DisablePushMessagesTask extends ProgressDialogAsyncTask<Void, Void, Integer> {
+        private final CheckBoxPreference checkBoxPreference;
+
+        public DisablePushMessagesTask(final CheckBoxPreference checkBoxPreference) {
+          super(getActivity(), R.string.ApplicationPreferencesActivity_unregistering, R.string.ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls);
+          this.checkBoxPreference = checkBoxPreference;
+        }
+
+        @Override
+        protected void onPostExecute(Integer result) {
+          super.onPostExecute(result);
+          switch (result) {
+            case NETWORK_ERROR:
+              Toast.makeText(getActivity(),
+                      R.string.ApplicationPreferencesActivity_error_connecting_to_server,
+                      Toast.LENGTH_LONG).show();
+              break;
+            case SUCCESS:
+              TextSecurePreferences.setPushRegistered(getActivity(), false);
+              initializePushMessagingToggle();
+              break;
+          }
+        }
+
+        @Override
+        protected Integer doInBackground(Void... params) {
+          try {
+            Context                     context        = getActivity();
+            SignalServiceAccountManager accountManager = AccountManagerFactory.createManager(context);
+
+            try {
+              accountManager.setGcmId(Optional.<String>absent());
+            } catch (AuthorizationFailedException e) {
+              Log.w(TAG, e);
+            }
+
+            if (!TextSecurePreferences.isFcmDisabled(context)) {
+              FirebaseInstanceId.getInstance().deleteInstanceId();
+            }
+
+            return SUCCESS;
+          } catch (IOException ioe) {
+            Log.w(TAG, ioe);
+            return NETWORK_ERROR;
+          }
+        }
+      }
+
+      @Override
+      public boolean onPreferenceChange(final Preference preference, Object newValue) {
+        if (((CheckBoxPreference)preference).isChecked()) {
+          AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+          builder.setIconAttribute(R.attr.dialog_info_icon);
+          builder.setTitle(R.string.ApplicationPreferencesActivity_disable_signal_messages_and_calls);
+          builder.setMessage(R.string.ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering);
+          builder.setNegativeButton(android.R.string.cancel, null);
+          builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+              new PushMessagingClickListener.DisablePushMessagesTask((CheckBoxPreference)preference).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+            }
+          });
+          builder.show();
+        } else {
+          Intent nextIntent = new Intent(getActivity(), ApplicationPreferencesActivity.class);
+
+          Intent intent = new Intent(getActivity(), RegistrationActivity.class);
+          intent.putExtra(RegistrationActivity.RE_REGISTRATION_EXTRA, true);
+          intent.putExtra("next_intent", nextIntent);
+          startActivity(intent);
+        }
+
+        return false;
+      }
+    }
+
+  }
 }

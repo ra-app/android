@@ -1583,6 +1583,12 @@
     <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
     <string name="accept_permissions">Berechtigungen gewähren</string>
     <string name="broadcastname">BROADCASTNAME</string>
-    <!-- EOF -->
+    <string name="office_app_support">UNTERSTÜTZUNG</string>
+    <string name="office_app_need_help">Hilfe erhalten</string>
+    <string name="office_app_give_us_opinion">Geben Sie uns Feedback</string>
+    <string name="office_app_privacy_policy">DATENSCHUTZ</string>
+    <string name="office_app_use_conditions">Nutzungsbedingungen</string>
+    <string name="office_app_agb">AGB</string>
+    <string name="office_app_delete_account">Account löschen</string>
 
 </resources>

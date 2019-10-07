@@ -44,6 +44,7 @@
         <TextView android:id="@android:id/summary"
             android:layout_width="wrap_content"
             tools:text="summary"
+            android:textSize="16sp"
             android:layout_toLeftOf="@+id/arrowIcon"
             android:layout_height="wrap_content"
             android:layout_marginRight="4dp"
