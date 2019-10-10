@@ -5,13 +5,21 @@ import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import androidx.annotation.AnimRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 import androidx.appcompat.app.AlertDialog;
+
+import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewAnimationUtils;
@@ -22,31 +30,54 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import org.raapp.messenger.components.ContactFilterToolbar;
 import org.raapp.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
+import org.raapp.messenger.components.PushRecipientsPanel;
 import org.raapp.messenger.contacts.ContactsCursorLoader.DisplayMode;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase;
 import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.sms.MessageSender;
 import org.raapp.messenger.sms.OutgoingTextMessage;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.SelectedRecipientsAdapter;
+import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.ViewUtil;
 import org.raapp.messenger.util.concurrent.ListenableFuture.Listener;
 import org.raapp.messenger.util.task.ProgressDialogAsyncTask;
+import org.whispersystems.libsignal.util.guava.Optional;
 
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ExecutionException;
 
-public class InviteActivity extends PassphraseRequiredActionBarActivity implements ContactSelectionListFragment.OnContactSelectedListener {
+public class InviteActivity extends PassphraseRequiredActionBarActivity implements ContactSelectionListFragment.OnContactSelectedListener, SelectedRecipientsAdapter.OnRecipientDeletedListener,
+        PushRecipientsPanel.RecipientsPanelChangedListener {
 
   private ContactSelectionListFragment contactsFragment;
   private EditText                     inviteText;
   private ViewGroup                    smsSendFrame;
-  private Button                       smsSendButton;
   private Animation                    slideInAnimation;
   private Animation                    slideOutAnimation;
-  private ImageView                    heart;
+  private ListView lv;
+
+  private final DynamicTheme dynamicTheme    = new DynamicTheme();
+  private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
+
+  @NonNull private Optional<InviteActivity.GroupData> groupToUpdate = Optional.absent();
+
+  @Override
+  protected void onPreCreate() {
+    dynamicTheme.onCreate(this);
+    dynamicLanguage.onCreate(this);
+  }
 
   @Override
   protected void onCreate(Bundle savedInstanceState, boolean ready) {
@@ -56,40 +87,56 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
 
     setContentView(R.layout.invite_activity);
     assert getSupportActionBar() != null;
-    getSupportActionBar().setTitle(R.string.AndroidManifest__invite_friends);
+    getSupportActionBar().setTitle(R.string.office_app_invite_title);
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_keyboard_arrow_left_white);
 
     initializeResources();
   }
 
+  @Override
+  public void onResume() {
+    super.onResume();
+    dynamicTheme.onResume(this);
+    dynamicLanguage.onResume(this);
+    invalidateOptionsMenu();
+  }
+
+
   private void initializeResources() {
     slideInAnimation  = loadAnimation(R.anim.slide_from_bottom);
     slideOutAnimation = loadAnimation(R.anim.slide_to_bottom);
+    lv           = ViewUtil.findById(this, R.id.selected_contacts_list);
 
     View                 shareButton     = ViewUtil.findById(this, R.id.share_button);
-    View                 smsButton       = ViewUtil.findById(this, R.id.sms_button);
-    Button               smsCancelButton = ViewUtil.findById(this, R.id.cancel_sms_button);
+    View                 smsButton       = ViewUtil.findById(this, R.id.contacts_button);
     ContactFilterToolbar contactFilter   = ViewUtil.findById(this, R.id.contact_filter);
 
     inviteText        = ViewUtil.findById(this, R.id.invite_text);
     smsSendFrame      = ViewUtil.findById(this, R.id.sms_send_frame);
-    smsSendButton     = ViewUtil.findById(this, R.id.send_sms_button);
-    heart             = ViewUtil.findById(this, R.id.heart);
     contactsFragment  = (ContactSelectionListFragment)getSupportFragmentManager().findFragmentById(R.id.contact_selection_list_fragment);
+
+    PushRecipientsPanel recipientsPanel = ViewUtil.findById(this, R.id.recipients);
+    recipientsPanel.setPanelChangeListener(this);
 
     inviteText.setText(getString(R.string.InviteActivity_lets_switch_to_signal, getString(R.string.install_url)));
     updateSmsButtonText();
 
-    if (VERSION.SDK_INT >= VERSION_CODES.LOLLIPOP) {
-      heart.getViewTreeObserver().addOnPreDrawListener(new HeartPreDrawListener());
-    }
     contactsFragment.setOnContactSelectedListener(this);
     shareButton.setOnClickListener(new ShareClickListener());
     smsButton.setOnClickListener(new SmsClickListener());
-    smsCancelButton.setOnClickListener(new SmsCancelClickListener());
-    smsSendButton.setOnClickListener(new SmsSendClickListener());
     contactFilter.setOnFilterChangedListener(new ContactFilterChangedListener());
-    contactFilter.setNavigationIcon(R.drawable.ic_search_white_24dp);
+    contactFilter.setNavigationIcon(R.drawable.ic_search_blue);
+
+    SelectedRecipientsAdapter adapter = new SelectedRecipientsAdapter(this);
+    adapter.setOnRecipientDeletedListener(this);
+    lv.setAdapter(adapter);
   }
+
+  private SelectedRecipientsAdapter getAdapter() {
+    return (SelectedRecipientsAdapter)lv.getAdapter();
+  }
+
 
   private Animation loadAnimation(@AnimRes int animResId) {
     final Animation animation = AnimationUtils.loadAnimation(this, animResId);
@@ -115,10 +162,6 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   }
 
   private void updateSmsButtonText() {
-    smsSendButton.setText(getResources().getQuantityString(R.plurals.InviteActivity_send_sms_to_friends,
-                                                           contactsFragment.getSelectedContacts().size(),
-                                                           contactsFragment.getSelectedContacts().size()));
-    smsSendButton.setEnabled(!contactsFragment.getSelectedContacts().isEmpty());
   }
 
   @Override public void onBackPressed() {
@@ -132,7 +175,33 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   private void cancelSmsSelection() {
     contactsFragment.reset();
     updateSmsButtonText();
-    ViewUtil.animateOut(smsSendFrame, slideOutAnimation, View.GONE);
+    ViewUtil.animateOut(smsSendFrame, slideOutAnimation, View.GONE).addListener(new Listener<Boolean>() {
+      @Override
+      public void onSuccess(Boolean result) {
+        invalidateOptionsMenu();
+      }
+
+      @Override
+      public void onFailure(ExecutionException e) {}
+    });
+  }
+
+  @Override
+  public void onRecipientDeleted(Recipient recipient) {
+    getAdapter().remove(recipient);
+  }
+
+  @Override
+  public void onRecipientsPanelUpdate(List<Recipient> recipients) {
+    if (recipients != null && !recipients.isEmpty()) addSelectedContacts(recipients);
+  }
+
+  private void addSelectedContacts(@NonNull Collection<Recipient> recipients) {
+    addSelectedContacts(recipients.toArray(new Recipient[recipients.size()]));
+  }
+
+  private void addSelectedContacts(@NonNull Recipient... recipients) {
+    new InviteActivity.AddMembersTask(this).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, recipients);
   }
 
   private class ShareClickListener implements OnClickListener {
@@ -154,6 +223,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     @Override
     public void onClick(View v) {
       ViewUtil.animateIn(smsSendFrame, slideInAnimation);
+      invalidateOptionsMenu();
     }
   }
 
@@ -164,17 +234,17 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     }
   }
 
+  private void clickSmsSend() {
+    for (String number : contactsFragment.getSelectedContacts()) {
+      Recipient recipient      = Recipient.from(InviteActivity.this, Address.fromExternal(InviteActivity.this, number), false);
+      getAdapter().add(recipient, false);
+    }
+    cancelSmsSelection();
+  }
+
   private class SmsSendClickListener implements OnClickListener {
     @Override
     public void onClick(View v) {
-      new AlertDialog.Builder(InviteActivity.this)
-          .setTitle(getResources().getQuantityString(R.plurals.InviteActivity_send_sms_invites,
-                                                     contactsFragment.getSelectedContacts().size(),
-                                                     contactsFragment.getSelectedContacts().size()))
-          .setMessage(inviteText.getText().toString())
-          .setPositiveButton(R.string.yes, (dialog, which) -> sendSmsInvites())
-          .setNegativeButton(R.string.no, (dialog, which) -> dialog.dismiss())
-          .show();
     }
   }
 
@@ -182,23 +252,6 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     @Override
     public void onFilterChanged(String filter) {
       contactsFragment.setQueryFilter(filter);
-    }
-  }
-
-  private class HeartPreDrawListener implements OnPreDrawListener {
-    @Override
-    @TargetApi(VERSION_CODES.LOLLIPOP)
-    public boolean onPreDraw() {
-      heart.getViewTreeObserver().removeOnPreDrawListener(this);
-      final int w = heart.getWidth();
-      final int h = heart.getHeight();
-      Animator reveal = ViewAnimationUtils.createCircularReveal(heart,
-                                                                w / 2, h,
-                                                                0, (float)Math.sqrt(h*h + (w*w/4)));
-      reveal.setInterpolator(new FastOutSlowInInterpolator());
-      reveal.setDuration(800);
-      reveal.start();
-      return false;
     }
   }
 
@@ -240,6 +293,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
         @Override
         public void onSuccess(Boolean result) {
           contactsFragment.reset();
+          invalidateOptionsMenu();
         }
 
         @Override
@@ -247,5 +301,107 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
       });
       Toast.makeText(context, R.string.InviteActivity_invitations_sent, Toast.LENGTH_LONG).show();
     }
+  }
+
+
+  private static boolean isActiveInDirectory(Recipient recipient) {
+    return recipient.resolve().getRegistered() == RecipientDatabase.RegisteredState.REGISTERED;
+  }
+
+  private static class AddMembersTask extends AsyncTask<Recipient,Void,List<InviteActivity.AddMembersTask.Result>> {
+    static class Result {
+      Optional<Recipient> recipient;
+      boolean             isPush;
+      String              reason;
+
+      public Result(@Nullable Recipient recipient, boolean isPush, @Nullable String reason) {
+        this.recipient = Optional.fromNullable(recipient);
+        this.isPush    = isPush;
+        this.reason    = reason;
+      }
+    }
+
+    private InviteActivity activity;
+    private boolean             failIfNotPush;
+
+    public AddMembersTask(@NonNull InviteActivity activity) {
+      this.activity      = activity;
+      this.failIfNotPush = activity.groupToUpdate.isPresent();
+    }
+
+    @Override
+    protected List<InviteActivity.AddMembersTask.Result> doInBackground(Recipient... recipients) {
+      final List<InviteActivity.AddMembersTask.Result> results = new LinkedList<>();
+
+      for (Recipient recipient : recipients) {
+        boolean isPush = isActiveInDirectory(recipient);
+
+        if (failIfNotPush && !isPush) {
+          results.add(new InviteActivity.AddMembersTask.Result(null, false, activity.getString(R.string.GroupCreateActivity_cannot_add_non_push_to_existing_group,
+                  recipient.toShortString())));
+        } else if (TextUtils.equals(TextSecurePreferences.getLocalNumber(activity), recipient.getAddress().serialize())) {
+          results.add(new InviteActivity.AddMembersTask.Result(null, false, activity.getString(R.string.GroupCreateActivity_youre_already_in_the_group)));
+        } else {
+          results.add(new InviteActivity.AddMembersTask.Result(recipient, isPush, null));
+        }
+      }
+      return results;
+    }
+
+    @Override
+    protected void onPostExecute(List<InviteActivity.AddMembersTask.Result> results) {
+      if (activity.isFinishing()) return;
+
+      for (InviteActivity.AddMembersTask.Result result : results) {
+        if (result.recipient.isPresent()) {
+          activity.getAdapter().add(result.recipient.get(), result.isPush);
+        } else {
+          Toast.makeText(activity, result.reason, Toast.LENGTH_SHORT).show();
+        }
+      }
+    }
+  }
+
+  private static class GroupData {
+    String         id;
+    Set<Recipient> recipients;
+    Bitmap avatarBmp;
+    byte[]         avatarBytes;
+    String         name;
+
+    public GroupData(String id, Set<Recipient> recipients, Bitmap avatarBmp, byte[] avatarBytes, String name) {
+      this.id          = id;
+      this.recipients  = recipients;
+      this.avatarBmp   = avatarBmp;
+      this.avatarBytes = avatarBytes;
+      this.name        = name;
+    }
+  }
+
+  @Override
+  public boolean onPrepareOptionsMenu(Menu menu) {
+    MenuInflater inflater = this.getMenuInflater();
+    menu.clear();
+
+    inflater.inflate(R.menu.group_create, menu);
+    MenuItem item = menu.findItem(R.id.menu_create_group);
+    item.setVisible(smsSendFrame.getVisibility() != View.GONE);
+    super.onPrepareOptionsMenu(menu);
+    return true;
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    super.onOptionsItemSelected(item);
+    switch (item.getItemId()) {
+      case android.R.id.home:
+        onBackPressed();
+        return true;
+      case R.id.menu_create_group:
+        clickSmsSend();
+        return true;
+    }
+
+    return false;
   }
 }
