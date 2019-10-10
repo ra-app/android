@@ -162,7 +162,7 @@ public class GroupCreateActivity extends PassphraseRequiredActionBarActivity
       enableSignalGroupViews();
       getSupportActionBar().setTitle(groupToUpdate.isPresent()
                                      ? R.string.GroupCreateActivity_actionbar_edit_title
-                                     : R.string.GroupCreateActivity_actionbar_title);
+                                     : R.string.new_broadcast);
     }
   }
 

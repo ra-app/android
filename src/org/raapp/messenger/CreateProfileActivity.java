@@ -21,6 +21,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.WindowManager;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -224,13 +225,24 @@ public class CreateProfileActivity extends BaseActionBarActivity implements Inje
           name.setError(getString(R.string.CreateProfileActivity_too_long));
           finishButton.setEnabled(false);
           readyButton.setEnabled(false);
-        } else if (name.getError() != null || !finishButton.isEnabled()) {
+        } else if (name.getError() != null || !readyButton.isEnabled()) {
           name.setError(null);
           finishButton.setEnabled(true);
           readyButton.setEnabled(true);
         }
       }
     });
+
+    this.name.setOnEditorActionListener((textView, actionID, keyEvent) -> {
+      if(actionID == EditorInfo.IME_ACTION_DONE){
+        if(name.getError() == null && readyButton.isEnabled()){
+          readyButton.callOnClick();
+        }
+        return true;
+      }
+      return false;
+    });
+
 
     this.finishButton.setOnClickListener(view -> {
       this.finishButton.setIndeterminateProgressMode(true);
