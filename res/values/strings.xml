@@ -1591,5 +1591,9 @@
     <string name="office_app_agb">AGB</string>
     <string name="office_app_delete_account">Account löschen</string>
     <string name="office_app_invite_title">Users einladen</string>
+    <string name="broadcast_new">Broadcast erstellen</string>
+    <string name="users_invitation">Users einladen</string>
+    <string name="admins_invitation">Admins einladen</string>
+    <string name="contact_list">Kontaktliste</string>
 
 </resources>

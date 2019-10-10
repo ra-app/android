@@ -32,6 +32,9 @@ import android.os.Build;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.fragment.app.Fragment;
 import androidx.loader.app.LoaderManager;
@@ -43,6 +46,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -50,7 +54,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -104,6 +110,7 @@ public class ConversationListFragment extends Fragment
                                                         R.drawable.empty_inbox_4,
                                                         R.drawable.empty_inbox_5 };
 
+
   private ActionMode                  actionMode;
   private RecyclerView                list;
   private ReminderView                reminderView;
@@ -111,6 +118,7 @@ public class ConversationListFragment extends Fragment
   private ImageView                   emptyImage;
   private TextView                    emptySearch;
   private PulsingFloatingActionButton fab;
+  private BottomSheetDialog           plusMenuDialog;
   private Locale                      locale;
   private String                      queryFilter  = "";
   private boolean                     archive;
@@ -144,6 +152,8 @@ public class ConversationListFragment extends Fragment
 
     new ItemTouchHelper(new ArchiveListenerCallback()).attachToRecyclerView(list);
 
+    initPlusMenu();
+
     return view;
   }
 
@@ -152,7 +162,8 @@ public class ConversationListFragment extends Fragment
     super.onActivityCreated(bundle);
 
     setHasOptionsMenu(true);
-    fab.setOnClickListener(v -> startActivity(new Intent(getActivity(), NewConversationActivity.class)));
+    fab.setOnClickListener(v -> this.showPlusMenu());
+
     initializeListAdapter();
     initializeTypingObserver();
   }
@@ -173,6 +184,49 @@ public class ConversationListFragment extends Fragment
     fab.stopPulse();
     EventBus.getDefault().unregister(this);
   }
+
+  private void initPlusMenu(){
+    View dialogView = getLayoutInflater().inflate(R.layout.dialog_admin_plus_menu, null);
+
+    // Plus Menu item actions
+    View btnClose = dialogView.findViewById(R.id.btn_close);
+    btnClose.setOnClickListener(v -> closePlusMenu());
+
+    View btnNewBroadcast = dialogView.findViewById(R.id.menu_item_new_broadcast);
+    btnNewBroadcast.setOnClickListener(v -> {
+      closePlusMenu();
+      startActivity(new Intent(getActivity(), GroupCreateActivity.class));
+    });
+
+    View btnInviteUsers = dialogView.findViewById(R.id.menu_item_invite_users);
+    btnInviteUsers.setOnClickListener(v -> {
+      closePlusMenu();
+      Toast.makeText(getContext(), "TODO: Invite Users", Toast.LENGTH_SHORT).show();
+    });
+
+    View btnInviteAdmins = dialogView.findViewById(R.id.menu_item_invite_admin);
+    btnInviteAdmins.setOnClickListener(v -> {
+      closePlusMenu();
+      Toast.makeText(getContext(), "TODO: Invite Admins", Toast.LENGTH_SHORT).show();
+    });
+
+    View btnContactList = dialogView.findViewById(R.id.menu_item_contact_list);
+    btnContactList.setOnClickListener(v -> {
+      closePlusMenu();
+      startActivity(new Intent(getActivity(), NewConversationActivity.class));
+    });
+
+    plusMenuDialog = new BottomSheetDialog(getContext());
+    plusMenuDialog.setContentView(dialogView);
+  }
+
+  private void showPlusMenu(){
+    plusMenuDialog.show();
+  }
+  private void closePlusMenu(){
+    plusMenuDialog.hide();
+  }
+
 
   public ConversationListAdapter getListAdapter() {
     return (ConversationListAdapter) list.getAdapter();

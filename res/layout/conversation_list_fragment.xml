@@ -54,7 +54,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_create_white_24dp"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/primary"
+            android:src="@drawable/ic_plus_28"
             android:focusable="true"
             android:contentDescription="@string/conversation_list_fragment__fab_content_description"/>
 
@@ -83,6 +85,5 @@
             tools:visibility="visible" />
 
     </LinearLayout>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

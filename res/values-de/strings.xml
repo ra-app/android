@@ -1346,4 +1346,9 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
     <string name="broadcastname">BROADCASTNAME</string>
   <string name="office_app_invite_title">Users einladen</string>
     <!--EOF-->
+  <string name="broadcast_new">Broadcast erstellen</string>
+  <string name="users_invitation">Users einladen</string>
+  <string name="admins_invitation">Admins einladen</string>
+  <string name="contact_list">Kontaktliste</string>
+  <!--EOF-->
 </resources>
