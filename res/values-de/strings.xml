@@ -1344,5 +1344,6 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="office_app_profile_add_image">BITTE FÜGEN SIE\nEIN PROFILBILD HINZU</string>
   <string name="accept_permissions">Berechtigungen gewähren</string>
     <string name="broadcastname">BROADCASTNAME</string>
+  <string name="office_app_invite_title">Users einladen</string>
     <!--EOF-->
 </resources>

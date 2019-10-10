@@ -1,6 +1,7 @@
 package org.raapp.messenger.components;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Rect;
 import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
@@ -51,7 +52,7 @@ public class ContactFilterToolbar extends Toolbar {
       public void onClick(View v) {
         searchText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
         ServiceUtil.getInputMethodManager(getContext()).showSoftInput(searchText, 0);
-        displayTogglingView(dialpadToggle);
+        //displayTogglingView(dialpadToggle);
       }
     });
 
@@ -60,7 +61,7 @@ public class ContactFilterToolbar extends Toolbar {
       public void onClick(View v) {
         searchText.setInputType(InputType.TYPE_CLASS_PHONE);
         ServiceUtil.getInputMethodManager(getContext()).showSoftInput(searchText, 0);
-        displayTogglingView(keyboardToggle);
+        //displayTogglingView(keyboardToggle);
       }
     });
 
@@ -68,9 +69,10 @@ public class ContactFilterToolbar extends Toolbar {
       @Override
       public void onClick(View v) {
         searchText.setText("");
+        displayTogglingView(dialpadToggle);
 
-        if (SearchUtil.isTextInput(searchText)) displayTogglingView(dialpadToggle);
-        else displayTogglingView(keyboardToggle);
+        //if (SearchUtil.isTextInput(searchText)) displayTogglingView(dialpadToggle);
+        //else displayTogglingView(keyboardToggle);
       }
     });
 
@@ -88,8 +90,8 @@ public class ContactFilterToolbar extends Toolbar {
       @Override
       public void afterTextChanged(Editable s) {
         if (!SearchUtil.isEmpty(searchText)) displayTogglingView(clearToggle);
-        else if (SearchUtil.isTextInput(searchText)) displayTogglingView(dialpadToggle);
-        else if (SearchUtil.isPhoneInput(searchText)) displayTogglingView(keyboardToggle);
+        else displayTogglingView(dialpadToggle);
+        //else if (SearchUtil.isPhoneInput(searchText)) displayTogglingView(keyboardToggle);
         notifyListener();
       }
     });

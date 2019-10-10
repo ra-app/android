@@ -7,6 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
@@ -28,7 +29,7 @@ public class ContactSelectionListItem extends LinearLayout implements RecipientM
   private TextView        numberView;
   private TextView        nameView;
   private TextView        labelView;
-  private CheckBox        checkBox;
+  private RadioButton checkBox;
 
   private String        number;
   private Recipient     recipient;

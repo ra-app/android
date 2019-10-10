@@ -1590,5 +1590,6 @@
     <string name="office_app_use_conditions">Nutzungsbedingungen</string>
     <string name="office_app_agb">AGB</string>
     <string name="office_app_delete_account">Account löschen</string>
+    <string name="office_app_invite_title">Users einladen</string>
 
 </resources>
