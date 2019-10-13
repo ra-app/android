@@ -18,6 +18,15 @@ package org.raapp.messenger;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+
+import org.raapp.messenger.components.ContactFilterToolbar;
+import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.DynamicTheme;
+import org.raapp.messenger.util.ViewUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,22 +42,71 @@ public class PushContactSelectionActivity extends ContactSelectionActivity {
   @SuppressWarnings("unused")
   private final static String TAG = PushContactSelectionActivity.class.getSimpleName();
 
+  private final DynamicTheme dynamicTheme    = new DynamicTheme();
+  private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
+
+  private ContactFilterToolbar toolbar;
+
+  @Override
+  protected void onPreCreate() {
+    dynamicTheme.onCreate(this);
+    dynamicLanguage.onCreate(this);
+  }
+
   @Override
   protected void onCreate(Bundle icicle, boolean ready) {
     getIntent().putExtra(ContactSelectionListFragment.MULTI_SELECT, true);
     super.onCreate(icicle, ready);
 
-    getToolbar().setNavigationIcon(R.drawable.ic_check_white_24dp);
-    getToolbar().setNavigationOnClickListener(v -> {
-      Intent resultIntent = getIntent();
-      List<String> selectedContacts = contactsFragment.getSelectedContacts();
+    getSupportActionBar().setTitle(R.string.kontakte_auswahlen);
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_keyboard_arrow_left_white);
 
-      if (selectedContacts != null) {
-        resultIntent.putStringArrayListExtra("contacts", new ArrayList<>(selectedContacts));
-      }
+    this.toolbar = ViewUtil.findById(this, R.id.toolbar);
+    toolbar.setNavigationIcon(R.drawable.ic_search_blue);
+  }
 
-      setResult(RESULT_OK, resultIntent);
-      finish();
-    });
+  @Override
+  public void onResume() {
+    super.onResume();
+    dynamicTheme.onResume(this);
+    dynamicLanguage.onResume(this);
+  }
+
+  @Override
+  public boolean onPrepareOptionsMenu(Menu menu) {
+    MenuInflater inflater = this.getMenuInflater();
+    menu.clear();
+
+    inflater.inflate(R.menu.group_create, menu);
+    super.onPrepareOptionsMenu(menu);
+    return true;
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    super.onOptionsItemSelected(item);
+    switch (item.getItemId()) {
+      case android.R.id.home:
+        onBackPressed();
+        return true;
+      case R.id.menu_create_group:
+        saveContacts();
+        return true;
+    }
+
+    return false;
+  }
+
+  private void saveContacts() {
+    Intent resultIntent = getIntent();
+    List<String> selectedContacts = contactsFragment.getSelectedContacts();
+
+    if (selectedContacts != null) {
+      resultIntent.putStringArrayListExtra("contacts", new ArrayList<>(selectedContacts));
+    }
+
+    setResult(RESULT_OK, resultIntent);
+    finish();
   }
 }

@@ -19,6 +19,11 @@ package org.raapp.messenger;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import org.raapp.messenger.logging.Log;
 
@@ -55,8 +60,8 @@ public abstract class ContactSelectionActivity extends PassphraseRequiredActionB
 
   @Override
   protected void onPreCreate() {
-    dynamicTheme.onCreate(this);
-    dynamicLanguage.onCreate(this);
+    /*dynamicTheme.onCreate(this);
+    dynamicLanguage.onCreate(this);*/
   }
 
   @Override
@@ -77,8 +82,8 @@ public abstract class ContactSelectionActivity extends PassphraseRequiredActionB
   @Override
   public void onResume() {
     super.onResume();
-    dynamicTheme.onResume(this);
-    dynamicLanguage.onResume(this);
+    /*dynamicTheme.onResume(this);
+    dynamicLanguage.onResume(this);*/
   }
 
   protected ContactFilterToolbar getToolbar() {
@@ -87,13 +92,15 @@ public abstract class ContactSelectionActivity extends PassphraseRequiredActionB
 
   private void initializeToolbar() {
     this.toolbar = ViewUtil.findById(this, R.id.toolbar);
-    setSupportActionBar(toolbar);
+    //setSupportActionBar(toolbar);
 
+    /*
     assert  getSupportActionBar() != null;
     getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     getSupportActionBar().setDisplayShowTitleEnabled(false);
     getSupportActionBar().setIcon(null);
     getSupportActionBar().setLogo(null);
+    */
   }
 
   private void initializeResources() {

@@ -1351,5 +1351,6 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="admins_invitation">Admins einladen</string>
   <string name="contact_list">Kontaktliste</string>
     <string name="new_broadcast">Neuer Broadcast</string>
+    <string name="kontakte_auswahlen">Kontakte auswählen</string>
     <!--EOF-->
 </resources>

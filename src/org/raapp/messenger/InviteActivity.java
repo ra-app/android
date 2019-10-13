@@ -178,6 +178,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     ViewUtil.animateOut(smsSendFrame, slideOutAnimation, View.GONE).addListener(new Listener<Boolean>() {
       @Override
       public void onSuccess(Boolean result) {
+        getSupportActionBar().setTitle(R.string.office_app_invite_title);
         invalidateOptionsMenu();
       }
 
@@ -222,6 +223,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   private class SmsClickListener implements OnClickListener {
     @Override
     public void onClick(View v) {
+      getSupportActionBar().setTitle(R.string.kontakte_auswahlen);
       ViewUtil.animateIn(smsSendFrame, slideInAnimation);
       invalidateOptionsMenu();
     }
@@ -292,6 +294,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
       ViewUtil.animateOut(smsSendFrame, slideOutAnimation, View.GONE).addListener(new Listener<Boolean>() {
         @Override
         public void onSuccess(Boolean result) {
+          getSupportActionBar().setTitle(R.string.office_app_invite_title);
           contactsFragment.reset();
           invalidateOptionsMenu();
         }
