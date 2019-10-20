@@ -136,6 +136,8 @@ dependencies {
         exclude group: 'com.fasterxml.jackson.core'
         exclude group: 'org.freemarker'
     }
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
 
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.assertj:assertj-core:3.11.1'

@@ -19,6 +19,11 @@ package org.raapp.messenger.sms;
 import android.content.Context;
 import androidx.annotation.NonNull;
 
+import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.datamodel.Message;
+import org.raapp.messenger.client.datamodel.Request.RequestSend;
+import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
+import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 import org.raapp.messenger.database.MessagingDatabase;
 import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
 import org.raapp.messenger.database.MmsSmsDatabase;
@@ -46,6 +51,7 @@ import org.raapp.messenger.mms.MmsException;
 import org.raapp.messenger.mms.OutgoingMediaMessage;
 import org.raapp.messenger.push.AccountManagerFactory;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.registration.InvitationActivity;
 import org.raapp.messenger.service.ExpiringMessageManager;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
@@ -54,7 +60,14 @@ import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MessageSender {
 
@@ -92,19 +105,40 @@ public class MessageSender {
       smsDatabase.markAsSent(messageId, true);
       smsDatabase.markUnidentified(messageId, true);
 
+      Client.buildBase(context);
+      List<String> recipients = new ArrayList<>();
+      recipients.add(recipient.getAddress().toString());
+      RequestSend requestSend = new RequestSend(recipient.getAddress().toString(), new Message(new ArrayList<>(), message.getMessageBody(), new ArrayList<>(), recipients, System.currentTimeMillis(), new ArrayList<>()));
+      Client.sendMessage(new Callback<ResponseSendMessage>() {
+        @Override
+        public void onResponse(Call<ResponseSendMessage> call, Response<ResponseSendMessage> response) {
+          if (response.isSuccessful()) {
+            ResponseSendMessage resp = response.body();
 
-      IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(context, "888888"),
-              0,
-              System.currentTimeMillis(), "Body encoded bla bla",
-              Optional.absent(), //SignalServiceGroup.newBuilder(SignalServiceGroup.Type.UNKNOWN).build()
-              50000 * 1000L,
-              false);
+            if (resp != null && resp.getSuccess()) {
 
-      textMessage = new IncomingEncryptedMessage(textMessage, "Body encoded bla bla");
-      Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+              String text = resp.getText();
 
-      long threadInsertId = insertResult.get().getThreadId();
+              IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(context, recipient.getAddress().toString()),
+                      0,
+                      System.currentTimeMillis(), text,
+                      Optional.absent(),
+                      50000 * 1000L,
+                      false);
 
+              textMessage = new IncomingEncryptedMessage(textMessage, text);
+              Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+
+              long threadInsertId = insertResult.get().getThreadId();
+            }
+          }
+        }
+
+        @Override
+        public void onFailure(Call<ResponseSendMessage> call, Throwable t) {
+
+        }
+      }, requestSend);
 
     } else {
       sendTextMessage(context, recipient, forceSms, keyExchange, messageId);

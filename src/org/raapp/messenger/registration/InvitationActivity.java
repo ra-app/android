@@ -10,11 +10,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
+import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.datamodel.Company;
+import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.recipients.Recipient;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class InvitationActivity extends AppCompatActivity {
 
@@ -57,9 +65,27 @@ public class InvitationActivity extends AppCompatActivity {
                 mContinueBtn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        //TODO: Verify code (server call?)
                         String code = mCodeET.getText().toString();
-                        createCompanyChat("888888", "Pablo");
+
+                        Client.buildBase(InvitationActivity.this);
+                        Client.getCompanyByID(new Callback<ResponseGetCompany>() {
+                            @Override
+                            public void onResponse(Call<ResponseGetCompany> call, Response<ResponseGetCompany> response) {
+                                if (response.isSuccessful()) {
+                                    ResponseGetCompany resp = response.body();
+
+                                    if (resp != null && resp.getSuccess()) {
+                                        Company company = resp.getCompany();
+                                        createCompanyChat(company.getCompanyNumber().toString(), company.getName());
+                                    }
+                                }
+                            }
+
+                            @Override
+                            public void onFailure(Call<ResponseGetCompany> call, Throwable t) {
+
+                            }
+                        }, "675728");
                     }
                 });
                 mCodeET.addTextChangedListener(new TextWatcher() {
