@@ -174,6 +174,8 @@ public class ConversationListFragment extends Fragment
 
     updateReminders(true);
     list.getAdapter().notifyDataSetChanged();
+    initializeListAdapter();
+    initializeTypingObserver();
     EventBus.getDefault().register(this);
   }
 

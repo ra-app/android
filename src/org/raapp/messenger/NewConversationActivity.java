@@ -23,10 +23,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
+import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.conversation.ConversationActivity;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.RecipientDatabase;
 import org.raapp.messenger.database.ThreadDatabase;
+import org.raapp.messenger.notifications.MessageNotifier;
 import org.raapp.messenger.recipients.Recipient;
 
 /**
@@ -43,25 +46,32 @@ public class NewConversationActivity extends ContactSelectionActivity {
   @Override
   public void onCreate(Bundle bundle, boolean ready) {
     super.onCreate(bundle, ready);
-    assert getSupportActionBar() != null;
-    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    if (getSupportActionBar() != null)
+      getSupportActionBar().setDisplayHomeAsUpEnabled(true);
   }
 
   @Override
   public void onContactSelected(String number) {
-    Recipient recipient = Recipient.from(this, Address.fromExternal(this, number), true);
+    Recipient recipient = Recipient.from(this, Address.fromExternal(this, "888888888"), true);
+
+    DatabaseFactory.getRecipientDatabase(this).setSystemDisplayName(recipient, "Pablo");
+    DatabaseFactory.getRecipientDatabase(this).setOfficeApp(recipient, true);
+    /*
+    long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
+    finish();*/
+
 
     Intent intent = new Intent(this, ConversationActivity.class);
     intent.putExtra(ConversationActivity.ADDRESS_EXTRA, recipient.getAddress());
     intent.putExtra(ConversationActivity.TEXT_EXTRA, getIntent().getStringExtra(ConversationActivity.TEXT_EXTRA));
     intent.setDataAndType(getIntent().getData(), getIntent().getType());
 
-    long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdIfExistsFor(recipient);
+    long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
 
     intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);
     intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, ThreadDatabase.DistributionTypes.DEFAULT);
     startActivity(intent);
-    finish();
+
   }
 
   @Override

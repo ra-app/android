@@ -44,7 +44,7 @@ import java.util.Map;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 
-class RecipientProvider {
+public class RecipientProvider {
 
   @SuppressWarnings("unused")
   private static final String TAG = RecipientProvider.class.getSimpleName();
@@ -155,7 +155,7 @@ class RecipientProvider {
     return new RecipientDetails(context.getString(R.string.RecipientProvider_unnamed_group), null, false, false, settings.orNull(), null);
   }
 
-  static class RecipientDetails {
+  public static class RecipientDetails {
     @Nullable final String                 name;
     @Nullable final String                 customLabel;
     @Nullable final Uri                    systemContactPhoto;
@@ -177,6 +177,7 @@ class RecipientProvider {
     @Nullable final byte[]                 profileKey;
     @Nullable final String                 profileAvatar;
               final boolean                profileSharing;
+              boolean                officeApp;
               final boolean                systemContact;
               final boolean                isLocalNumber;
     @Nullable final String                 notificationChannel;
@@ -207,6 +208,7 @@ class RecipientProvider {
       this.profileKey                      = settings     != null ? settings.getProfileKey() : null;
       this.profileAvatar                   = settings     != null ? settings.getProfileAvatar() : null;
       this.profileSharing                  = settings     != null && settings.isProfileSharing();
+      this.officeApp                       = settings     != null && settings.isOfficeApp();
       this.systemContact                   = systemContact;
       this.isLocalNumber                   = isLocalNumber;
       this.notificationChannel             = settings     != null ? settings.getNotificationChannel() : null;
@@ -217,6 +219,7 @@ class RecipientProvider {
       else                                  this.name = name;
     }
   }
+
 
   private static class RecipientCache {
 

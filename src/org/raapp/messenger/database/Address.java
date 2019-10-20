@@ -52,7 +52,7 @@ public class Address implements Parcelable, Comparable<Address> {
 
   private final String address;
 
-  private Address(@NonNull String address) {
+  public Address(@NonNull String address) {
     if (address == null) throw new AssertionError(address);
     this.address = address;
   }

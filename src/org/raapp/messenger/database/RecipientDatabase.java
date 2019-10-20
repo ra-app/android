@@ -52,6 +52,7 @@ public class RecipientDatabase extends Database {
   private static final String SIGNAL_PROFILE_NAME      = "signal_profile_name";
   private static final String SIGNAL_PROFILE_AVATAR    = "signal_profile_avatar";
   private static final String PROFILE_SHARING          = "profile_sharing_approval";
+  private static final String OFFICE_APP               = "office_app";
   private static final String CALL_RINGTONE            = "call_ringtone";
   private static final String CALL_VIBRATE             = "call_vibrate";
   private static final String NOTIFICATION_CHANNEL     = "notification_channel";
@@ -61,7 +62,7 @@ public class RecipientDatabase extends Database {
   private static final String[] RECIPIENT_PROJECTION = new String[] {
       BLOCK, NOTIFICATION, CALL_RINGTONE, VIBRATE, CALL_VIBRATE, MUTE_UNTIL, COLOR, SEEN_INVITE_REMINDER, DEFAULT_SUBSCRIPTION_ID, EXPIRE_MESSAGES, REGISTERED,
       PROFILE_KEY, SYSTEM_DISPLAY_NAME, SYSTEM_PHOTO_URI, SYSTEM_PHONE_LABEL, SYSTEM_CONTACT_URI,
-      SIGNAL_PROFILE_NAME, SIGNAL_PROFILE_AVATAR, PROFILE_SHARING, NOTIFICATION_CHANNEL,
+      SIGNAL_PROFILE_NAME, SIGNAL_PROFILE_AVATAR, PROFILE_SHARING, OFFICE_APP, NOTIFICATION_CHANNEL,
       UNIDENTIFIED_ACCESS_MODE,
       FORCE_SMS_SELECTION,
   };
@@ -145,6 +146,7 @@ public class RecipientDatabase extends Database {
           SIGNAL_PROFILE_NAME + " TEXT DEFAULT NULL, " +
           SIGNAL_PROFILE_AVATAR + " TEXT DEFAULT NULL, " +
           PROFILE_SHARING + " INTEGER DEFAULT 0, " +
+          OFFICE_APP + " INTEGER DEFAULT 0, " +
           CALL_RINGTONE + " TEXT DEFAULT NULL, " +
           CALL_VIBRATE + " INTEGER DEFAULT " + VibrateState.DEFAULT.getId() + ", " +
           NOTIFICATION_CHANNEL + " TEXT DEFAULT NULL, " +
@@ -211,6 +213,7 @@ public class RecipientDatabase extends Database {
     String  signalProfileName      = cursor.getString(cursor.getColumnIndexOrThrow(SIGNAL_PROFILE_NAME));
     String  signalProfileAvatar    = cursor.getString(cursor.getColumnIndexOrThrow(SIGNAL_PROFILE_AVATAR));
     boolean profileSharing         = cursor.getInt(cursor.getColumnIndexOrThrow(PROFILE_SHARING))      == 1;
+    boolean officeApp         = cursor.getInt(cursor.getColumnIndexOrThrow(OFFICE_APP))      == 0;
     String  notificationChannel    = cursor.getString(cursor.getColumnIndexOrThrow(NOTIFICATION_CHANNEL));
     int     unidentifiedAccessMode = cursor.getInt(cursor.getColumnIndexOrThrow(UNIDENTIFIED_ACCESS_MODE));
     boolean forceSmsSelection      = cursor.getInt(cursor.getColumnIndexOrThrow(FORCE_SMS_SELECTION))  == 1;
@@ -243,7 +246,7 @@ public class RecipientDatabase extends Database {
                                              RegisteredState.fromId(registeredState),
                                              profileKey, systemDisplayName, systemContactPhoto,
                                              systemPhoneLabel, systemContactUri,
-                                             signalProfileName, signalProfileAvatar, profileSharing,
+                                             signalProfileName, signalProfileAvatar, profileSharing, officeApp,
                                              notificationChannel, UnidentifiedAccessMode.fromMode(unidentifiedAccessMode),
                                              forceSmsSelection));
   }
@@ -356,6 +359,13 @@ public class RecipientDatabase extends Database {
     recipient.resolve().setProfileKey(profileKey);
   }
 
+  public void setSystemDisplayName(@NonNull Recipient recipient, @Nullable String name) {
+    ContentValues contentValues = new ContentValues(1);
+    contentValues.put(SYSTEM_DISPLAY_NAME, name);
+    updateOrInsert(recipient.getAddress(), contentValues);
+    recipient.resolve().setName(name);
+  }
+
   public void setProfileName(@NonNull Recipient recipient, @Nullable String profileName) {
     ContentValues contentValues = new ContentValues(1);
     contentValues.put(SIGNAL_PROFILE_NAME, profileName);
@@ -375,6 +385,13 @@ public class RecipientDatabase extends Database {
     contentValues.put(PROFILE_SHARING, enabled ? 1 : 0);
     updateOrInsert(recipient.getAddress(), contentValues);
     recipient.setProfileSharing(enabled);
+  }
+
+  public void setOfficeApp(@NonNull Recipient recipient, @SuppressWarnings("SameParameterValue") boolean isOfficeApp) {
+    ContentValues contentValues = new ContentValues(1);
+    contentValues.put(OFFICE_APP, isOfficeApp ? 1 : 0);
+    updateOrInsert(recipient.getAddress(), contentValues);
+    recipient.setOfficeApp(isOfficeApp);
   }
 
   public void setNotificationChannel(@NonNull Recipient recipient, @Nullable String notificationChannel) {
@@ -565,6 +582,7 @@ public class RecipientDatabase extends Database {
     private final String                 signalProfileName;
     private final String                 signalProfileAvatar;
     private final boolean                profileSharing;
+    private final boolean                officeApp;
     private final String                 notificationChannel;
     private final UnidentifiedAccessMode unidentifiedAccessMode;
     private final boolean                forceSmsSelection;
@@ -587,6 +605,7 @@ public class RecipientDatabase extends Database {
                       @Nullable String signalProfileName,
                       @Nullable String signalProfileAvatar,
                       boolean profileSharing,
+                      boolean officeApp,
                       @Nullable String notificationChannel,
                       @NonNull UnidentifiedAccessMode unidentifiedAccessMode,
                       boolean forceSmsSelection)
@@ -610,6 +629,7 @@ public class RecipientDatabase extends Database {
       this.signalProfileName      = signalProfileName;
       this.signalProfileAvatar    = signalProfileAvatar;
       this.profileSharing         = profileSharing;
+      this.officeApp         = officeApp;
       this.notificationChannel    = notificationChannel;
       this.unidentifiedAccessMode = unidentifiedAccessMode;
       this.forceSmsSelection      = forceSmsSelection;
@@ -689,6 +709,10 @@ public class RecipientDatabase extends Database {
 
     public boolean isProfileSharing() {
       return profileSharing;
+    }
+
+    public boolean isOfficeApp() {
+      return officeApp;
     }
 
     public @Nullable String getNotificationChannel() {

@@ -364,7 +364,7 @@ public class GroupCreateActivity extends PassphraseRequiredActionBarActivity
     }
   }
 
-  private abstract static class SignalGroupTask extends AsyncTask<Void,Void,Optional<GroupActionResult>> {
+  public abstract static class SignalGroupTask extends AsyncTask<Void,Void,Optional<GroupActionResult>> {
 
     protected GroupCreateActivity activity;
     protected Bitmap              avatar;

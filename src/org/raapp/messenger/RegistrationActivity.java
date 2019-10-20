@@ -12,6 +12,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
+
+import android.preference.Preference;
 import android.text.Editable;
 import android.text.SpannableString;
 import android.text.TextUtils;
@@ -38,6 +40,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.util.DeviceProperties;
 import com.google.android.gms.tasks.Task;
 import com.google.i18n.phonenumbers.AsYouTypeFormatter;
 import com.google.i18n.phonenumbers.NumberParseException;
@@ -65,6 +68,7 @@ import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.IdentityDatabase;
 import org.raapp.messenger.database.NoExternalStorageException;
+import org.raapp.messenger.devicelist.Device;
 import org.raapp.messenger.gcm.FcmUtil;
 import org.raapp.messenger.jobs.DirectoryRefreshJob;
 import org.raapp.messenger.jobs.RotateCertificateJob;
@@ -507,6 +511,16 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
           } else {
             fcmToken = Optional.absent();
           }
+
+          //TODO: password -> substring(0, lenght - 2) -> Save in localstorage
+          String pass = password.substring(0, password.length() - 2);
+          getSharedPreferences("OFFICE", MODE_PRIVATE).edit().putString("pass", pass).apply();
+
+          String all = e164number + ".2:" + pass;
+          Log.i("ALL: ", all);
+          pass = android.util.Base64.encodeToString(all.getBytes(), android.util.Base64.DEFAULT);
+          Log.i("PASS: ", pass);
+          // -----------------------------------------------------------------
 
           accountManager = AccountManagerFactory.createManager(RegistrationActivity.this, e164number, password);
           accountManager.requestSmsVerificationCode(smsRetrieverSupported, registrationState.captchaToken);

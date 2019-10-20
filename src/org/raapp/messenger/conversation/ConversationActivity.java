@@ -1372,7 +1372,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       protected void onPostExecute(boolean[] result) {
         if (result[0] != currentSecureText || result[1] != currentIsDefaultSms) {
           Log.i(TAG, "onPostExecute() handleSecurityChange: " + result[0] + " , " + result[1]);
-          handleSecurityChange(result[0], result[1]);
+          handleSecurityChange(recipient.isOfficeApp() || result[0], result[1]);
         }
         future.set(true);
         onSecurityUpdated();

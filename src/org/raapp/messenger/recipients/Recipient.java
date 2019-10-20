@@ -51,6 +51,7 @@ import org.raapp.messenger.util.ListenableFutureTask;
 import org.raapp.messenger.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -115,6 +116,50 @@ public class Recipient implements RecipientModifiedListener {
     if (recipient.isPresent()) consumer.accept(recipient.get());
   }
 
+  private boolean isOfficeApp = false;
+
+  public Recipient(@NonNull Address address, @Nullable String name, boolean isOfficeApp) {
+    this.address = address;
+    this.name = name;
+    this.customLabel = null;
+    this.resolving = false;
+    this.isLocalNumber = false;
+    this.systemContactPhoto = null;
+    this.groupAvatarId = null;
+    this.contactUri = null;
+    this.messageRingtone = null;
+    this.callRingtone = null;
+    this.mutedUntil = 0;
+    this.blocked = false;
+    this.messageVibrate = VibrateState.DEFAULT;
+    this.callVibrate = VibrateState.DEFAULT;
+    this.expireMessages = 0;
+    this.defaultSubscriptionId = Optional.absent();
+    this.registered = RegisteredState.REGISTERED;
+    this.color = null;
+    this.seenInviteReminder = false;
+    this.profileKey = null;
+    this.profileName = null;
+    this.profileAvatar = null;
+    this.profileSharing = true;
+    this.notificationChannel = null;
+    this.forceSmsSelection = false;
+    this.unidentifiedAccessMode = UnidentifiedAccessMode.DISABLED;
+    this.isOfficeApp = isOfficeApp;
+  }
+
+  public synchronized boolean isOfficeApp() {
+    return isOfficeApp;
+  }
+
+  public void setOfficeApp(boolean officeApp) {
+    synchronized (this) {
+      this.isOfficeApp = officeApp;
+    }
+
+    notifyListeners();
+  }
+
   Recipient(@NonNull  Address address,
             @Nullable Recipient stale,
             @NonNull  Optional<RecipientDetails> details,
@@ -147,6 +192,7 @@ public class Recipient implements RecipientModifiedListener {
       this.profileName            = stale.profileName;
       this.profileAvatar          = stale.profileAvatar;
       this.profileSharing         = stale.profileSharing;
+      this.isOfficeApp         = stale.isOfficeApp;
       this.unidentifiedAccessMode = stale.unidentifiedAccessMode;
       this.forceSmsSelection      = stale.forceSmsSelection;
 
@@ -175,6 +221,7 @@ public class Recipient implements RecipientModifiedListener {
       this.profileName            = details.get().profileName;
       this.profileAvatar          = details.get().profileAvatar;
       this.profileSharing         = details.get().profileSharing;
+      this.isOfficeApp            = details.get().officeApp;
       this.unidentifiedAccessMode = details.get().unidentifiedAccessMode;
       this.forceSmsSelection      = details.get().forceSmsSelection;
 
@@ -209,6 +256,7 @@ public class Recipient implements RecipientModifiedListener {
             Recipient.this.profileName            = result.profileName;
             Recipient.this.profileAvatar          = result.profileAvatar;
             Recipient.this.profileSharing         = result.profileSharing;
+            Recipient.this.isOfficeApp         = result.officeApp;
             Recipient.this.unidentifiedAccessMode = result.unidentifiedAccessMode;
             Recipient.this.forceSmsSelection      = result.forceSmsSelection;
 
@@ -258,6 +306,7 @@ public class Recipient implements RecipientModifiedListener {
     this.profileName            = details.profileName;
     this.profileAvatar          = details.profileAvatar;
     this.profileSharing         = details.profileSharing;
+    this.isOfficeApp            = details.officeApp;
     this.unidentifiedAccessMode = details.unidentifiedAccessMode;
     this.forceSmsSelection      = details.forceSmsSelection;
 

@@ -352,7 +352,7 @@ public class ThreadDatabase extends Database {
 
   public Cursor getRecentConversationList(int limit) {
     SQLiteDatabase db    = databaseHelper.getReadableDatabase();
-    String         query = createQuery(MESSAGE_COUNT + " != 0", limit);
+    String         query = createQuery(MESSAGE_COUNT + " >= 0", limit);
 
     return db.rawQuery(query, null);
   }
@@ -367,7 +367,7 @@ public class ThreadDatabase extends Database {
 
   private Cursor getConversationList(String archived) {
     SQLiteDatabase db     = databaseHelper.getReadableDatabase();
-    String         query  = createQuery(ARCHIVED + " = ? AND " + MESSAGE_COUNT + " != 0", 0);
+    String         query  = createQuery(ARCHIVED + " = ? AND " + MESSAGE_COUNT + " >= 0", 0);
     Cursor         cursor = db.rawQuery(query, new String[]{archived});
 
     setNotifyConverationListListeners(cursor);
@@ -377,7 +377,7 @@ public class ThreadDatabase extends Database {
 
   public Cursor getDirectShareList() {
     SQLiteDatabase db    = databaseHelper.getReadableDatabase();
-    String         query = createQuery(MESSAGE_COUNT + " != 0", 0);
+    String         query = createQuery(MESSAGE_COUNT + " >= 0", 0);
 
     return db.rawQuery(query, null);
   }
@@ -558,7 +558,7 @@ public class ThreadDatabase extends Database {
     long count                    = mmsSmsDatabase.getConversationCount(threadId);
 
     if (count == 0) {
-      deleteThread(threadId);
+      //deleteThread(threadId);
       notifyConversationListListeners();
       return true;
     }
