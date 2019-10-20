@@ -52,21 +52,14 @@ public class NewConversationActivity extends ContactSelectionActivity {
 
   @Override
   public void onContactSelected(String number) {
-    Recipient recipient = Recipient.from(this, Address.fromExternal(this, "888888888"), true);
-
-    DatabaseFactory.getRecipientDatabase(this).setSystemDisplayName(recipient, "Pablo");
-    DatabaseFactory.getRecipientDatabase(this).setOfficeApp(recipient, true);
-    /*
-    long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
-    finish();*/
-
+    Recipient recipient = Recipient.from(this, Address.fromExternal(this, number), true);
 
     Intent intent = new Intent(this, ConversationActivity.class);
     intent.putExtra(ConversationActivity.ADDRESS_EXTRA, recipient.getAddress());
     intent.putExtra(ConversationActivity.TEXT_EXTRA, getIntent().getStringExtra(ConversationActivity.TEXT_EXTRA));
     intent.setDataAndType(getIntent().getData(), getIntent().getType());
 
-    long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
+    long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdIfExistsFor(recipient);
 
     intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);
     intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, ThreadDatabase.DistributionTypes.DEFAULT);

@@ -512,18 +512,13 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
             fcmToken = Optional.absent();
           }
 
-          //TODO: password -> substring(0, lenght - 2) -> Save in localstorage
-          String pass = password.substring(0, password.length() - 2);
-          getSharedPreferences("OFFICE", MODE_PRIVATE).edit().putString("pass", pass).apply();
-
-          String all = e164number + ".2:" + pass;
-          Log.i("ALL: ", all);
-          pass = android.util.Base64.encodeToString(all.getBytes(), android.util.Base64.DEFAULT);
-          Log.i("PASS: ", pass);
-          // -----------------------------------------------------------------
-
           accountManager = AccountManagerFactory.createManager(RegistrationActivity.this, e164number, password);
           accountManager.requestSmsVerificationCode(smsRetrieverSupported, registrationState.captchaToken);
+
+          String all = e164number + ".1:" + password;
+          String pass = android.util.Base64.encodeToString(all.getBytes(), android.util.Base64.DEFAULT);
+          getSharedPreferences("ra-preferences", MODE_PRIVATE).edit().putString("office_app_token", pass).apply();
+          Log.i("PASS: ", pass);
 
           return new VerificationRequestResult(password, fcmToken, Optional.absent());
         } catch (IOException e) {

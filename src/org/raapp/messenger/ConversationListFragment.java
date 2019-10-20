@@ -84,6 +84,7 @@ import org.raapp.messenger.mms.GlideApp;
 import org.raapp.messenger.notifications.MarkReadReceiver;
 import org.raapp.messenger.notifications.MessageNotifier;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.registration.InvitationActivity;
 import org.raapp.messenger.util.Util;
 import org.raapp.messenger.util.ViewUtil;
 import org.raapp.messenger.util.task.SnackbarAsyncTask;
@@ -162,10 +163,17 @@ public class ConversationListFragment extends Fragment
     super.onActivityCreated(bundle);
 
     setHasOptionsMenu(true);
-    fab.setOnClickListener(v -> this.showPlusMenu());
+    // TODO If admin() --> fab.setOnClickListener(v -> this.showPlusMenu());
+    // If user:
+    fab.setOnClickListener(v -> this.goToInvitation());
 
     initializeListAdapter();
     initializeTypingObserver();
+  }
+
+  private void goToInvitation(){
+    Intent intent = new Intent(getContext(), InvitationActivity.class);
+    startActivity(intent);
   }
 
   @Override

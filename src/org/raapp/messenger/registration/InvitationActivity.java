@@ -10,6 +10,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import org.raapp.messenger.R;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.recipients.Recipient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,7 +28,7 @@ public class InvitationActivity extends AppCompatActivity {
     private TextView mSimpleTopbarTV;
 
     // Vars
-    private int mAccessMode = REGISTER_MODE_INVITE;
+    private int mAccessMode = REGISTER_MODE_CODE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,8 +59,7 @@ public class InvitationActivity extends AppCompatActivity {
                     public void onClick(View view) {
                         //TODO: Verify code (server call?)
                         String code = mCodeET.getText().toString();
-                        // verifyCode(code);
-                        goToEULA();
+                        createCompanyChat("888888", "Pablo");
                     }
                 });
                 mCodeET.addTextChangedListener(new TextWatcher() {
@@ -94,6 +96,16 @@ public class InvitationActivity extends AppCompatActivity {
                 break;
         }
 
+    }
+
+    private void createCompanyChat(String companyId, String companyName) {
+        Recipient recipient = Recipient.from(this, Address.fromExternal(this, companyId), true);
+
+        DatabaseFactory.getRecipientDatabase(this).setSystemDisplayName(recipient, companyName);
+        DatabaseFactory.getRecipientDatabase(this).setOfficeApp(recipient, true);
+
+        long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
+        finish();
     }
 
     private void goToEULA() {

@@ -19,6 +19,7 @@ package org.raapp.messenger.sms;
 import android.content.Context;
 import androidx.annotation.NonNull;
 
+import org.raapp.messenger.database.MessagingDatabase;
 import org.raapp.messenger.database.MessagingDatabase.SyncMessageId;
 import org.raapp.messenger.database.MmsSmsDatabase;
 import org.raapp.messenger.database.NoSuchMessageException;
@@ -49,9 +50,11 @@ import org.raapp.messenger.service.ExpiringMessageManager;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
+import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 import org.whispersystems.signalservice.api.push.ContactTokenDetails;
 
 import java.io.IOException;
+import java.util.Date;
 
 public class MessageSender {
 
@@ -77,7 +80,35 @@ public class MessageSender {
 
     long messageId = database.insertMessageOutbox(allocatedThreadId, message, forceSms, System.currentTimeMillis(), insertListener);
 
-    sendTextMessage(context, recipient, forceSms, keyExchange, messageId);
+
+    if (recipient.isOfficeApp()) {
+      //TODO: Request to OfficeApp send message(Inbox)
+      /*
+      * smsDatabase.markAsSent(messageId, true);
+        smsDatabase.markUnidentified(messageId, true);
+      * */
+
+      SmsDatabase smsDatabase = DatabaseFactory.getSmsDatabase(context);
+      smsDatabase.markAsSent(messageId, true);
+      smsDatabase.markUnidentified(messageId, true);
+
+
+      IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(context, "888888"),
+              0,
+              System.currentTimeMillis(), "Body encoded bla bla",
+              Optional.absent(), //SignalServiceGroup.newBuilder(SignalServiceGroup.Type.UNKNOWN).build()
+              50000 * 1000L,
+              false);
+
+      textMessage = new IncomingEncryptedMessage(textMessage, "Body encoded bla bla");
+      Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+
+      long threadInsertId = insertResult.get().getThreadId();
+
+
+    } else {
+      sendTextMessage(context, recipient, forceSms, keyExchange, messageId);
+    }
 
     return allocatedThreadId;
   }
