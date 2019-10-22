@@ -76,9 +76,10 @@
 
                 <EditText
                     android:id="@+id/et_code"
+                    android:inputType="text"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:lines="1"
+                    android:maxLines="1"
                     android:layout_marginBottom="20dp"></EditText>
 
                 <Button
