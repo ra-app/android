@@ -64,7 +64,7 @@ public class NewConversationActivity extends ContactSelectionActivity {
     intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);
     intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, ThreadDatabase.DistributionTypes.DEFAULT);
     startActivity(intent);
-
+    finish();
   }
 
   @Override
