@@ -123,7 +123,7 @@ public class MessageSender {
                       0,
                       System.currentTimeMillis(), text,
                       Optional.absent(),
-                      50000 * 1000L,
+                      0,
                       false);
 
               textMessage = new IncomingEncryptedMessage(textMessage, text);
