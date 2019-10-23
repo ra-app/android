@@ -49,6 +49,7 @@ import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
 import org.raapp.messenger.lock.RegistrationLockDialog;
+import org.raapp.messenger.logging.Log;
 import org.raapp.messenger.mms.GlideApp;
 import org.raapp.messenger.notifications.MarkReadReceiver;
 import org.raapp.messenger.notifications.MessageNotifier;
@@ -106,6 +107,9 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
   public void onResume() {
     super.onResume();
     dynamicLanguage.onResume(this);
+
+    String token = this.getSharedPreferences("ra-preferences", MODE_PRIVATE).getString("office_app_token", "");
+    Log.d("TOKEN:", token);
 
     SimpleTask.run(getLifecycle(), () -> {
       return Recipient.from(this, Address.fromSerialized(TextSecurePreferences.getLocalNumber(this)), false);
