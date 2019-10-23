@@ -261,7 +261,7 @@ public class RecipientDatabase extends Database {
     contentValues.put(SYSTEM_PHONE_LABEL, (String)null);
     contentValues.put(SYSTEM_CONTACT_URI, (String)null);
 
-    database.update(TABLE_NAME, contentValues, null, null);
+    database.update(TABLE_NAME, contentValues, OFFICE_APP + " != ?", new String[]{String.valueOf(1)});
 
     return new BulkOperationsHandle(database);
   }

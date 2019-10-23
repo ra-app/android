@@ -191,7 +191,7 @@ public class DirectoryHelper {
         DatabaseFactory.getContactsDatabase(context).setRegisteredUsers(account.get().getAccount(), activeAddresses, removeMissing);
 
         Cursor                                 cursor = ContactAccessor.getInstance().getAllSystemContacts(context);
-        /*RecipientDatabase.BulkOperationsHandle handle = DatabaseFactory.getRecipientDatabase(context).resetAllSystemContactInfo();
+        RecipientDatabase.BulkOperationsHandle handle = DatabaseFactory.getRecipientDatabase(context).resetAllSystemContactInfo();
 
         try {
           while (cursor != null && cursor.moveToNext()) {
@@ -210,7 +210,7 @@ public class DirectoryHelper {
           }
         } finally {
           handle.finish();
-        }*/
+        }
 
         if (NotificationChannels.supported()) {
           try (RecipientDatabase.RecipientReader recipients = DatabaseFactory.getRecipientDatabase(context).getRecipientsWithNotificationChannels()) {
