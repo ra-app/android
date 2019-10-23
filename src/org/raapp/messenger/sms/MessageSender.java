@@ -17,6 +17,8 @@
 package org.raapp.messenger.sms;
 
 import android.content.Context;
+import android.text.TextUtils;
+
 import androidx.annotation.NonNull;
 
 import org.raapp.messenger.client.Client;
@@ -95,7 +97,6 @@ public class MessageSender {
 
 
     if (recipient.isOfficeApp()) {
-      //TODO: Request to OfficeApp send message(Inbox)
       /*
       * smsDatabase.markAsSent(messageId, true);
         smsDatabase.markUnidentified(messageId, true);
@@ -119,17 +120,22 @@ public class MessageSender {
 
               String text = resp.getText();
 
-              IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(context, recipient.getAddress().toString()),
-                      0,
-                      System.currentTimeMillis(), text,
-                      Optional.absent(),
-                      0,
-                      false);
+              if(!TextUtils.isEmpty(text)){
+                IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(context, recipient.getAddress().toString()),
+                        0,
+                        System.currentTimeMillis(), text,
+                        Optional.absent(),
+                        0,
+                        false);
 
-              textMessage = new IncomingEncryptedMessage(textMessage, text);
-              Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+                textMessage = new IncomingEncryptedMessage(textMessage, text);
+                Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
 
-              long threadInsertId = insertResult.get().getThreadId();
+                long threadInsertId = insertResult.get().getThreadId();
+              }else{
+                Log.d(TAG, "invox message success but no response text");
+              }
+
             }
           }
         }
