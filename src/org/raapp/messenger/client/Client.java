@@ -27,12 +27,11 @@ public class Client {
 
     //PARAMS && HEADERS
     public static final String GENERIC_ID = "ID";
-    public static final String GENERIC_ID_2 = "ID2";
     public static final String AUTH_HEADER = "Authorization";
 
     //FINAL ENDPOINTS
     public static final String ENDPOINT_GET_COMPANY = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "{" + GENERIC_ID + "}";
-    public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "code/{" + GENERIC_ID + "}/{" + GENERIC_ID_2 + "}";
+    public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "code/{" + GENERIC_ID + "}";
     public static final String ENDPOINT_SEND_MESSAGE = ENDPOINT_BASE_VERSION_2 + ENDPOINT_INBOX;
 
     public static String token;
@@ -58,8 +57,8 @@ public class Client {
 
 
     //CALLS
-    public static void acceptInvitation(Callback<ResponseBody> callback, String companyID, String invitationCode) {
-        Call<ResponseBody> acceptInvitationCall = iClient.acceptInvitation("Basic " + token, companyID, invitationCode);
+    public static void acceptInvitation(Callback<ResponseBody> callback, String invitationCode) {
+        Call<ResponseBody> acceptInvitationCall = iClient.acceptInvitation("Basic " + token, invitationCode);
         acceptInvitationCall.enqueue(callback);
     }
     public static void getCompanyByID(Callback<ResponseGetCompany> callback, String companyID) {

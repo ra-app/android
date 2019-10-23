@@ -20,8 +20,7 @@ public interface IClient {
 
     @GET(Client.ENDPOINT_ACCEPT_INVITATION)
     Call<ResponseBody> acceptInvitation(@Header(Client.AUTH_HEADER) String authToken,
-                                        @Path(Client.GENERIC_ID) String companyID,
-                                        @Path(Client.GENERIC_ID_2) String invitationCode);
+                                        @Path(Client.GENERIC_ID) String invitationCode);
 
     @POST(Client.ENDPOINT_SEND_MESSAGE)
     Call<ResponseSendMessage> sendMessage(@Header(Client.AUTH_HEADER) String authToken,
