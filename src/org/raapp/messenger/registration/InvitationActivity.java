@@ -15,7 +15,13 @@ import org.raapp.messenger.client.datamodel.Company;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.MessagingDatabase;
+import org.raapp.messenger.database.SmsDatabase;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.sms.IncomingEncryptedMessage;
+import org.raapp.messenger.sms.IncomingTextMessage;
+import org.raapp.messenger.sms.MessageSender;
+import org.whispersystems.libsignal.util.guava.Optional;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -125,12 +131,26 @@ public class InvitationActivity extends AppCompatActivity {
     }
 
     private void createCompanyChat(String companyId, String companyName) {
+        // Build Recipient with company info
         Recipient recipient = Recipient.from(this, Address.fromExternal(this, companyId), true);
-
         DatabaseFactory.getRecipientDatabase(this).setSystemDisplayName(recipient, companyName);
         DatabaseFactory.getRecipientDatabase(this).setOfficeApp(recipient, true);
 
+        // Insert or retrieve company chat
         long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
+
+        // Insert welcoming message
+        String welcomeText = getResources().getString(R.string.welcome_to)+" "+companyName;
+        SmsDatabase database  =  DatabaseFactory.getSmsDatabase(this);
+        IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(this, recipient.getAddress().toString()),
+                0,
+                System.currentTimeMillis(), welcomeText,
+                Optional.absent(),
+                0,
+                false);
+        textMessage = new IncomingEncryptedMessage(textMessage, welcomeText);
+        Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+
         finish();
     }
 

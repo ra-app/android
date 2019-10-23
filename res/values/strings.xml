@@ -1597,5 +1597,6 @@
     <string name="contact_list">Kontaktliste</string>
     <string name="new_broadcast">Neuer Broadcast</string>
     <string name="kontakte_auswahlen">Kontakte auswählen</string>
+    <string name="welcome_to">Willkommen bei</string>
 
 </resources>
