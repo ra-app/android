@@ -127,6 +127,8 @@ public class ConversationItem extends LinearLayout
     implements RecipientModifiedListener, BindableConversationItem
 {
   private static final String TAG = ConversationItem.class.getSimpleName();
+  public static final String MAGIC_MSG= "[![TICKETMSG]!]";
+  public static final String MAGIC_MSG_REGEX= "\\[!\\[TICKETMSG]!]";
 
   private static final int MAX_MEASURE_CALLS       = 3;
   private static final int MAX_BODY_DISPLAY_LENGTH = 1000;
@@ -345,6 +347,15 @@ public class ConversationItem extends LinearLayout
       bodyBubble.getBackground().setColorFilter(getResources().getColor(R.color.signal_primary_alpha33), PorterDuff.Mode.MULTIPLY);
     }
 
+    String message = messageRecord.getDisplayBody(getContext()).toString();
+    if (message.contains(MAGIC_MSG)) {
+      bodyBubble.getBackground().setColorFilter(getResources().getColor(R.color.orange_100), PorterDuff.Mode.MULTIPLY);
+      ViewUtil.updateLayoutParams(bodyBubble, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+      bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
+      footer.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
+      footer.setIconColor(getResources().getColor(R.color.orange_100));
+    }
+
     if (audioViewStub.resolved()) {
       setAudioViewTint(messageRecord, this.conversationRecipient);
     }
@@ -458,7 +469,13 @@ public class ConversationItem extends LinearLayout
     if (isCaptionlessMms(messageRecord)) {
       bodyText.setVisibility(View.GONE);
     } else {
-      Spannable styledText = linkifyMessageBody(messageRecord.getDisplayBody(getContext()), batchSelected.isEmpty());
+      String message = messageRecord.getDisplayBody(getContext()).toString();
+
+      if (message.contains(MAGIC_MSG)) {
+        message = message.replaceAll(MAGIC_MSG_REGEX, "");
+      }
+
+      Spannable styledText = linkifyMessageBody(new SpannableString(message), batchSelected.isEmpty());
       styledText = SearchUtil.getHighlightedSpan(locale, () -> new BackgroundColorSpan(Color.YELLOW), styledText, searchQuery);
       styledText = SearchUtil.getHighlightedSpan(locale, () -> new ForegroundColorSpan(Color.BLACK), styledText, searchQuery);
 
@@ -811,10 +828,18 @@ public class ConversationItem extends LinearLayout
   }
 
   private void setGutterSizes(@NonNull MessageRecord current, boolean isGroupThread) {
+    String message = messageRecord.getDisplayBody(getContext()).toString();
+
     if (isGroupThread && current.isOutgoing()) {
       ViewUtil.setLeftMargin(container, readDimen(R.dimen.conversation_group_left_gutter));
     } else if (current.isOutgoing()) {
       ViewUtil.setLeftMargin(container, readDimen(R.dimen.conversation_individual_left_gutter));
+    }
+    if (message.contains(MAGIC_MSG)) {
+      ViewUtil.setRightMargin(bodyBubble, 0);
+      ViewUtil.setLeftMargin(bodyBubble, 24);
+      if(current.isOutgoing())
+        ViewUtil.setLeftMargin(container, readDimen(R.dimen.conversation_individual_left_gutter_magic));
     }
   }
 
