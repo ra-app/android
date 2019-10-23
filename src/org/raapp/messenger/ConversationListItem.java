@@ -22,6 +22,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.RippleDrawable;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
+import android.text.SpannableString;
 import android.text.style.StyleSpan;
 import android.util.AttributeSet;
 import android.view.View;
@@ -37,6 +38,7 @@ import org.raapp.messenger.components.DeliveryStatusView;
 import org.raapp.messenger.components.FromTextView;
 import org.raapp.messenger.components.ThumbnailView;
 import org.raapp.messenger.components.TypingIndicatorView;
+import org.raapp.messenger.conversation.ConversationItem;
 import org.raapp.messenger.database.model.ThreadRecord;
 import org.raapp.messenger.mms.GlideRequests;
 import org.raapp.messenger.recipients.Recipient;
@@ -159,7 +161,12 @@ public class ConversationListItem extends RelativeLayout
       this.typingView.stopAnimation();
 
       this.subjectView.setVisibility(VISIBLE);
-      this.subjectView.setText(getTrimmedSnippet(thread.getDisplayBody(getContext())));
+      String message = thread.getDisplayBody(getContext()).toString();
+
+      if (message.contains(ConversationItem.MAGIC_MSG)) {
+        message = message.replaceAll(ConversationItem.MAGIC_MSG_REGEX, "");
+      }
+      this.subjectView.setText(getTrimmedSnippet(new SpannableString(message)));
       this.subjectView.setTypeface(unreadCount == 0 ? LIGHT_TYPEFACE : BOLD_TYPEFACE);
       this.subjectView.setTextColor(unreadCount == 0 ? ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_subject_color)
                                                      : ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_unread_color));
