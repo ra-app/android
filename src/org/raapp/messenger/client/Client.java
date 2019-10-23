@@ -1,14 +1,13 @@
 package org.raapp.messenger.client;
 
-import android.app.Application;
 import android.content.Context;
 
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 
 import okhttp3.OkHttpClient;
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -57,8 +56,8 @@ public class Client {
 
 
     //CALLS
-    public static void acceptInvitation(Callback<ResponseBody> callback, String invitationCode) {
-        Call<ResponseBody> acceptInvitationCall = iClient.acceptInvitation("Basic " + token, invitationCode);
+    public static void acceptInvitation(Callback<ResponseInvitationCode> callback, String invitationCode) {
+        Call<ResponseInvitationCode> acceptInvitationCall = iClient.acceptInvitation("Basic " + token, invitationCode);
         acceptInvitationCall.enqueue(callback);
     }
     public static void getCompanyByID(Callback<ResponseGetCompany> callback, String companyID) {

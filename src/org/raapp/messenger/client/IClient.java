@@ -2,9 +2,9 @@ package org.raapp.messenger.client;
 
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -19,8 +19,8 @@ public interface IClient {
                                             @Path(Client.GENERIC_ID) String companyID);
 
     @GET(Client.ENDPOINT_ACCEPT_INVITATION)
-    Call<ResponseBody> acceptInvitation(@Header(Client.AUTH_HEADER) String authToken,
-                                        @Path(Client.GENERIC_ID) String invitationCode);
+    Call<ResponseInvitationCode> acceptInvitation(@Header(Client.AUTH_HEADER) String authToken,
+                                                  @Path(Client.GENERIC_ID) String invitationCode);
 
     @POST(Client.ENDPOINT_SEND_MESSAGE)
     Call<ResponseSendMessage> sendMessage(@Header(Client.AUTH_HEADER) String authToken,

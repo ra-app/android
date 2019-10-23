@@ -8,11 +8,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
 import org.raapp.messenger.client.datamodel.Company;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.MessagingDatabase;
@@ -68,31 +70,35 @@ public class InvitationActivity extends AppCompatActivity {
             case REGISTER_MODE_CODE:
                 mInviteLL.setVisibility(View.GONE);
                 mCodeLL.setVisibility(View.VISIBLE);
-                mContinueBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        String code = mCodeET.getText().toString();
+                mContinueBtn.setOnClickListener(view -> {
+                    String code = mCodeET.getText().toString();
 
-                        Client.buildBase(InvitationActivity.this);
-                        Client.getCompanyByID(new Callback<ResponseGetCompany>() {
-                            @Override
-                            public void onResponse(Call<ResponseGetCompany> call, Response<ResponseGetCompany> response) {
-                                if (response.isSuccessful()) {
-                                    ResponseGetCompany resp = response.body();
+                    Client.buildBase(InvitationActivity.this);
+                    Client.acceptInvitation(new Callback<ResponseInvitationCode>() {
+                        @Override
+                        public void onResponse(Call<ResponseInvitationCode> call, Response<ResponseInvitationCode> response) {
+                            if (response.isSuccessful()) {
+                                ResponseInvitationCode resp = response.body();
 
-                                    if (resp != null && resp.getSuccess()) {
-                                        Company company = resp.getCompany();
-                                        createCompanyChat(company.getCompanyNumber().toString(), company.getName());
-                                    }
+                                // TODO: ¿SAVE client_uuid, role?
+
+                                if (resp != null && resp.getSuccess()) {
+                                    Company company = resp.getCompany();
+                                    createCompanyChat(company.getCompanyNumber().toString(), company.getName());
+                                }else{
+                                    String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
+                                    Toast.makeText(InvitationActivity.this, errorMsg, Toast.LENGTH_LONG).show();
                                 }
+                            }else{
+                                Toast.makeText(InvitationActivity.this, "Server error", Toast.LENGTH_SHORT).show();
                             }
+                        }
 
-                            @Override
-                            public void onFailure(Call<ResponseGetCompany> call, Throwable t) {
-
-                            }
-                        }, "675728");
-                    }
+                        @Override
+                        public void onFailure(Call<ResponseInvitationCode> call, Throwable t) {
+                            Toast.makeText(InvitationActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
+                        }
+                    }, code);
                 });
                 mCodeET.addTextChangedListener(new TextWatcher() {
                     @Override
