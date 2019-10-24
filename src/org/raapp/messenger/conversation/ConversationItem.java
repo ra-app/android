@@ -354,6 +354,11 @@ public class ConversationItem extends LinearLayout
       bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
       footer.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
       footer.setIconColor(getResources().getColor(R.color.orange_100));
+    } else {
+      ViewUtil.updateLayoutParams(bodyBubble, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+      bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), messageRecord.isOutgoing() ? R.attr.conversation_item_sent_text_primary_color : R.attr.conversation_item_received_text_primary_color));
+      footer.setTextColor(ThemeUtil.getThemedColor(getContext(), messageRecord.isOutgoing() ? R.attr.conversation_item_sent_text_secondary_color : R.attr.conversation_item_received_text_secondary_color));
+      footer.setIconColor(ThemeUtil.getThemedColor(getContext(), messageRecord.isOutgoing() ? R.attr.conversation_item_sent_icon_color : R.attr.conversation_item_received_text_secondary_color));
     }
 
     if (audioViewStub.resolved()) {
