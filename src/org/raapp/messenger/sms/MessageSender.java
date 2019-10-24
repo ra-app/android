@@ -132,6 +132,9 @@ public class MessageSender {
                 Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
 
                 long threadInsertId = insertResult.get().getThreadId();
+                //TODO: Check if the message is marked as read
+                SmsDatabase smsDatabase = DatabaseFactory.getSmsDatabase(context);
+                smsDatabase.markAsNotified(threadInsertId);
               }else{
                 Log.d(TAG, "invox message success but no response text");
               }
