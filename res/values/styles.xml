@@ -318,5 +318,12 @@
         <item name="android:layout_marginBottom">0dp</item>
     </style>
 
+    <style name="ra_radio_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/ra_text</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 
 </resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ra_background"
+    tools:context=".ConversationFeedbackActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_simpleTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_gradient_vertical"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn_close"
+            android:onClick="cancel"
+            android:layout_height="24dp" android:src="@drawable/ic_close_white_48dp"></ImageView>
+
+        <TextView
+            android:text="@string/rate_communication"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerInParent="true"
+            style="@style/toolbarTitle"></TextView>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/sv_terms"
+        android:layout_above="@+id/ll_actions"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_simpleTopbar"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--  PUNTUATION  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    style="@style/ra_text"
+                    android:text="Lorem Ipsim?"></TextView>
+
+                <androidx.appcompat.widget.AppCompatSeekBar
+                    android:layout_width="match_parent"
+                    android:thumb="@drawable/circle_20dp"
+                    android:progressDrawable="@drawable/seek_bar"
+                    android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatSeekBar>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"  android:background="@color/ra_selected_blue"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"/>
+
+<!--  RADIO BUTTONS 2  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    style="@style/ra_text"
+                    android:text="Lorem Ipsim?"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/very_good"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/good"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/helpful"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/not_helpful"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"  android:background="@color/ra_selected_blue"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!--  RADIO BUTTONS 1  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    style="@style/ra_text"
+                    android:text="Lorem Ipsim?"></TextView>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/very_good"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/good"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/helpful"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:text="@string/not_helpful"
+                        style="@style/ra_radio_button"></androidx.appcompat.widget.AppCompatRadioButton>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_actions"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_continue"
+            style="@style/ra_button_gradient"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="cancel"
+            android:text="@string/conversation_activity__send"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

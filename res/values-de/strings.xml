@@ -1353,5 +1353,10 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
     <string name="new_broadcast">Neuer Broadcast</string>
     <string name="kontakte_auswahlen">Kontakte auswählen</string>
   <string name="welcome_to">Willkommen bei</string>
+    <string name="rate_communication">Kommunikation bewerten</string>
+    <string name="not_helpful">Nicht hilfreich</string>
+  <string name="helpful">Hilfreich</string>
+  <string name="good">Gut</string>
+  <string name="very_good">Serh gut</string>
   <!--EOF-->
 </resources>
