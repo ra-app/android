@@ -3,6 +3,7 @@ package org.raapp.messenger;
 import android.annotation.SuppressLint;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
@@ -26,6 +27,9 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.telephony.PhoneNumberUtils;
 
 import org.raapp.messenger.components.SwitchPreferenceCompat;
@@ -63,7 +67,9 @@ import org.raapp.messenger.notifications.NotificationChannels;
 import org.raapp.messenger.permissions.Permissions;
 import org.raapp.messenger.preferences.CorrectedPreferenceFragment;
 import org.raapp.messenger.preferences.widgets.ContactPreference;
+import org.raapp.messenger.preferences.widgets.UserListAdapter;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.recipients.RecipientExporter;
 import org.raapp.messenger.recipients.RecipientModifiedListener;
 import org.raapp.messenger.sms.MessageSender;
 import org.raapp.messenger.util.CommunicationActions;
@@ -79,6 +85,8 @@ import org.raapp.messenger.util.ViewUtil;
 import org.raapp.messenger.util.concurrent.ListenableFuture;
 import org.whispersystems.libsignal.util.guava.Optional;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 @SuppressLint("StaticFieldLeak")
@@ -108,6 +116,8 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
   private TextView                threadPhotoRailLabel;
   private ThreadPhotoRailView     threadPhotoRailView;
   private CollapsingToolbarLayout toolbarLayout;
+
+  private RecyclerView userRV;
 
   @Override
   public void onPreCreate() {
@@ -245,7 +255,17 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
 
     Bundle bundle = new Bundle();
     bundle.putParcelable(ADDRESS_EXTRA, address);
+    initUserList();
     initFragment(R.id.preference_fragment, new RecipientPreferenceFragment(), null, bundle);
+  }
+
+  private void initUserList() {
+    userRV = findViewById(R.id.rv_user_list_preference);
+    userRV.setLayoutManager(new LinearLayoutManager(this));
+    Recipient recipient = Recipient.from(this, address, true);
+    if (recipient.getAddress().isGroup()) {
+      new GroupMembersAsyncTask(this, recipient).execute();
+    }
   }
 
   @Override
@@ -791,6 +811,39 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
 
         return true;
       }
+    }
+  }
+
+
+  public class GroupMembersAsyncTask extends AsyncTask<Void, Void, List<Recipient>> {
+
+    private final String TAG = GroupMembersAsyncTask.class.getSimpleName();
+
+    private final Recipient recipient;
+    private final Context context;
+
+    public GroupMembersAsyncTask(Context context, Recipient recipient) {
+      this.recipient = recipient;
+      this.context = context;
+    }
+
+    @Override
+    public void onPreExecute() {
+    }
+
+    @Override
+    protected List<Recipient> doInBackground(Void... params) {
+      return DatabaseFactory.getGroupDatabase(context).getGroupMembers(recipient.getAddress().toGroupString(), true);
+    }
+
+    @Override
+    public void onPostExecute(List<Recipient> members) {
+      UserListAdapter adapter = new UserListAdapter(context, members);
+      userRV.setAdapter(adapter);
+    }
+
+    public void display() {
+      executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
   }
 }
