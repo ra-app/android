@@ -69,6 +69,36 @@
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
+            <LinearLayout
+                android:id="@+id/ll_rate_conversation"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:text="Ihr Vorgang ist beendet. Sie können hier einen neuen Vorgang mit [COMPANY NAME]."></TextView>
+
+                <TextView
+                    android:id="@+id/tv_rate_conversation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Bitte betwerten Sie die Kommunikation."></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ra_orange"
+                    android:textAlignment="center"
+                    android:text="(Wenn das nicht vorher gemacht wurde)"></TextView>
+
+            </LinearLayout>
+
             <ViewStub
                 android:id="@+id/attachment_editor_stub"
                 android:layout_width="match_parent"
