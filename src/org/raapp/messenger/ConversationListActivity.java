@@ -38,6 +38,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
+import org.raapp.messenger.blackboard.BlacboardActivity;
 import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.components.RatingManager;
 import org.raapp.messenger.components.SearchToolbar;
@@ -220,6 +221,11 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
     openConversation(threadId, recipient, distributionType, lastSeen, -1);
   }
 
+  @Override
+  public void onConversationBlackboardClick(long threadId, Recipient recipient) {
+    openBlackboard(threadId, recipient);
+  }
+
   public void openConversation(long threadId, Recipient recipient, int distributionType, long lastSeen, int startingPosition) {
     searchToolbar.clearFocus();
 
@@ -233,6 +239,13 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
 
     startActivity(intent);
     overridePendingTransition(R.anim.slide_from_right, R.anim.fade_scale_out);
+  }
+
+  private void openBlackboard(long threadId, Recipient recipient){
+    Intent intent = new Intent(this, BlacboardActivity.class);
+    intent.putExtra(ConversationActivity.ADDRESS_EXTRA, recipient.getAddress());
+    intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, threadId);
+    startActivity(intent);
   }
 
   @Override

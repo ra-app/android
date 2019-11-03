@@ -121,6 +121,11 @@ class ConversationListAdapter extends CursorRecyclerViewAdapter<ConversationList
       final ConversationListItem item = (ConversationListItem)inflater.inflate(R.layout.conversation_list_item_view,
                                                                                parent, false);
 
+      View blackboardIV = item.findViewById(R.id.iv_blackboard);
+      blackboardIV.setOnClickListener(view ->{
+        if (clickListener != null) clickListener.onItemBlackboardClick(item);
+      });
+
       item.setOnClickListener(view -> {
         if (clickListener != null) clickListener.onItemClick(item);
       });
@@ -199,6 +204,7 @@ class ConversationListAdapter extends CursorRecyclerViewAdapter<ConversationList
 
   interface ItemClickListener {
     void onItemClick(ConversationListItem item);
+    void onItemBlackboardClick(ConversationListItem item);
     void onItemLongClick(ConversationListItem item);
     void onSwitchToArchive();
   }

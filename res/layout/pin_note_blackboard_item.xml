@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:background="#ffe183">
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="10dp"
+                android:tint="#ffd347"
+                android:scaleType="fitXY"
+                android:layout_height="15dp" app:srcCompat="@drawable/ic_triangle_left"></ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="top|center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:tint="@color/red"
+            android:src="@drawable/circle_20dp"></ImageView>
+
+        <TextView
+            android:id="@+id/note_title"
+            android:layout_width="match_parent"
+            android:text="Lorem ipsum dolor sit"
+            android:maxLines="2"
+            style="@style/ra_text"
+            android:layout_marginBottom="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/note_body"
+            android:textColor="@color/ra_text"
+            android:layout_width="match_parent"
+            android:text="s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing "
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

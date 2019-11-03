@@ -26,6 +26,7 @@ import android.text.SpannableString;
 import android.text.style.StyleSpan;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -79,6 +80,7 @@ public class ConversationListItem extends RelativeLayout
   private DeliveryStatusView  deliveryStatusIndicator;
   private AlertView           alertView;
   private TextView            unreadIndicator;
+  private ImageView           blacBoardIcon;
   private long                lastSeen;
 
   private int             unreadCount;
@@ -109,6 +111,7 @@ public class ConversationListItem extends RelativeLayout
     this.thumbnailView           = findViewById(R.id.thumbnail);
     this.archivedView            = findViewById(R.id.archived);
     this.unreadIndicator         = findViewById(R.id.unread_indicator);
+    this.blacBoardIcon           = findViewById(R.id.iv_blackboard);
     thumbnailView.setClickable(false);
 
     ViewUtil.setTextViewGravityStart(this.fromView, getContext());
@@ -151,6 +154,8 @@ public class ConversationListItem extends RelativeLayout
       this.fromView.setText(recipient, unreadCount == 0);
     }
 
+
+
     if (typingThreads.contains(threadId)) {
       this.subjectView.setVisibility(INVISIBLE);
 
@@ -166,6 +171,7 @@ public class ConversationListItem extends RelativeLayout
       if (message.contains(ConversationItem.MAGIC_MSG)) {
         message = message.replaceAll(ConversationItem.MAGIC_MSG_REGEX, "");
       }
+
       this.subjectView.setText(getTrimmedSnippet(new SpannableString(message)));
       this.subjectView.setTypeface(unreadCount == 0 ? LIGHT_TYPEFACE : BOLD_TYPEFACE);
       this.subjectView.setTextColor(unreadCount == 0 ? ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_subject_color)
@@ -191,6 +197,8 @@ public class ConversationListItem extends RelativeLayout
     setRippleColor(recipient);
     setUnreadIndicator(thread);
     this.contactPhotoImage.setAvatar(glideRequests, recipient, true);
+
+    blacBoardIcon.setVisibility(VISIBLE);
   }
 
   public void bind(@NonNull  Recipient     contact,

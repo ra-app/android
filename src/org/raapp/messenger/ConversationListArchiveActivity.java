@@ -65,6 +65,11 @@ public class ConversationListArchiveActivity extends PassphraseRequiredActionBar
   }
 
   @Override
+  public void onConversationBlackboardClick(long threadId, Recipient recipient) {
+
+  }
+
+  @Override
   public void onSwitchToArchive() {
     throw new AssertionError();
   }

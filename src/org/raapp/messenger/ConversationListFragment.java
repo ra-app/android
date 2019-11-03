@@ -33,7 +33,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.fragment.app.Fragment;
@@ -46,7 +45,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -54,7 +52,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -468,6 +465,11 @@ public class ConversationListFragment extends Fragment
   }
 
   @Override
+  public void onItemBlackboardClick(ConversationListItem item) {
+    ((ConversationSelectedListener)getActivity()).onConversationBlackboardClick(item.getThreadId(), item.getRecipient());
+  }
+
+  @Override
   public void onItemLongClick(ConversationListItem item) {
     actionMode = ((AppCompatActivity)getActivity()).startSupportActionMode(ConversationListFragment.this);
 
@@ -483,6 +485,7 @@ public class ConversationListFragment extends Fragment
 
   public interface ConversationSelectedListener {
     void onCreateConversation(long threadId, Recipient recipient, int distributionType, long lastSeen);
+    void onConversationBlackboardClick(long threadId, Recipient recipient);
     void onSwitchToArchive();
 }
 

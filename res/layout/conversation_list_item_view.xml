@@ -46,12 +46,14 @@
     </FrameLayout>
 
     <RelativeLayout
+        android:id="@+id/rl_body"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/avatar_container"
-        android:weightSum="1"
+        android:layout_toStartOf="@+id/iv_blackboard"
         android:orientation="horizontal">
 
         <org.raapp.messenger.components.FromTextView
@@ -176,5 +178,16 @@
         </FrameLayout>
 
     </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_blackboard"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_pin_note"
+        android:tint="@color/primary"
+        android:layout_width="36dp"
+        android:visibility="gone"
+        android:layout_height="36dp" />
 
 </org.raapp.messenger.ConversationListItem>
