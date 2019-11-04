@@ -313,6 +313,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private ConversationStickerViewModel stickerViewModel;
 
     private TextView mRateConversationTV;
+    private View rateConversationLL;
 
     private Recipient recipient;
     private long threadId;
@@ -326,6 +327,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private final IdentityRecordList identityRecords = new IdentityRecordList();
     private final DynamicNoActionBarTheme dynamicTheme = new DynamicNoActionBarTheme();
     private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
+
 
     @Override
     protected void onPreCreate() {
@@ -433,6 +435,8 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
         MessageNotifier.setVisibleThread(threadId);
         markThreadAsRead();
+
+
 
         Log.i(TAG, "onResume() Finished: " + (System.currentTimeMillis() - getIntent().getLongExtra(TIMING_EXTRA, 0)));
     }
@@ -1553,6 +1557,10 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         ImageButton quickCameraToggle = ViewUtil.findById(this, R.id.quick_camera_toggle);
         ImageButton inlineAttachmentButton = ViewUtil.findById(this, R.id.inline_attachment_button);
 
+
+        rateConversationLL = ViewUtil.findById(this, R.id.ll_rate_conversation);
+        //TODO: Check ticket is close and no feedback is left -> show rateConversation view
+        rateConversationLL.setVisibility(View.GONE);
         mRateConversationTV = ViewUtil.findById(this, R.id.tv_rate_conversation);
         mRateConversationTV.setOnClickListener(view -> {
             startActivity(new Intent(ConversationActivity.this, ConversationFeedbackActivity.class));
