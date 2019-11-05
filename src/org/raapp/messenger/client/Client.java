@@ -3,7 +3,7 @@ package org.raapp.messenger.client;
 import android.content.Context;
 
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
-import org.raapp.messenger.client.datamodel.Responses.ResponseBase;
+import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
@@ -51,13 +51,15 @@ public class Client {
 
     //STATIC
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
+
     private static Retrofit.Builder builder = new Retrofit.Builder()
             .client(httpClient.build())
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create());
-    private static Retrofit retrofit = builder.build();
-    private static IClient iClient = retrofit.create(IClient.class);
 
+    private static Retrofit retrofit = builder.build();
+
+    private static IClient iClient = retrofit.create(IClient.class);
 
     //CALLS
     public static void acceptInvitation(Callback<ResponseInvitationCode> callback, String invitationCode) {
@@ -72,8 +74,8 @@ public class Client {
         Call<ResponseSendMessage> sendMessageCall = iClient.sendMessage("Basic " + token, requestSend);
         sendMessageCall.enqueue(callback);
     }
-    public static void getBlackboard(Callback<ResponseBase> callback, String clientId) {
-        Call<ResponseBase> getBlackboardCall = iClient.getBlackboard("Basic " + token, clientId);
+    public static void getBlackboard(Callback<ResponseBlackboardList> callback, String clientId) {
+        Call<ResponseBlackboardList> getBlackboardCall = iClient.getBlackboard("Basic " + token, clientId);
         getBlackboardCall.enqueue(callback);
     }
 }
