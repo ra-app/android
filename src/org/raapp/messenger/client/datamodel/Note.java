@@ -4,7 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Note {
-    @SerializedName("id")
+    @SerializedName(value = "note_id", alternate = "id")
     @Expose
     private Integer id;
     @SerializedName("title")

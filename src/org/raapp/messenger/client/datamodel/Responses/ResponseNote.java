@@ -7,16 +7,16 @@ import org.raapp.messenger.client.datamodel.Note;
 
 import java.util.List;
 
-public class ResponseBlackboardList extends ResponseBase {
+public class ResponseNote extends ResponseBase {
     @SerializedName("note")
     @Expose
-    private List<Note> note = null;
+    private Note note;
 
     //GETTERS && SETTERS
-    public List<Note> getNote() {
+    public Note getNote() {
         return note;
     }
-    public void setNote(List<Note> note) {
+    public void setNote(Note note) {
         this.note = note;
     }
 }

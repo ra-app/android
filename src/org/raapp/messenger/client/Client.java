@@ -2,10 +2,12 @@ package org.raapp.messenger.client;
 
 import android.content.Context;
 
+import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
+import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 
 import okhttp3.OkHttpClient;
@@ -23,9 +25,16 @@ public class Client {
     public static final String ENDPOINT_BASE_VERSION_1 = "latest/api/v1/";
     public static final String ENDPOINT_BASE_VERSION_2 = "latest/api/v2/";
 
+    public static final String ENDPOINT_BASE_CLIENT = "client/";
+    public static final String ENDPOINT_BASE_ADMIN = "admin/";
+
+
+
     public static final String ENDPOINT_COMPANIES = "companies/";
     public static final String ENDPOINT_INBOX = "inbox/";
-    public static final String ENDPOINT_BLACKBOARD = "client/blackboard/list/";
+
+    public static final String ENDPOINT_BLACKBOARD = "blackboard/list/";
+    public static final String ENDPOINT_BLACKBOARD_UPDATE = "blackboard/update";
 
     //PARAMS && HEADERS
     public static final String GENERIC_ID = "ID";
@@ -35,7 +44,9 @@ public class Client {
     public static final String ENDPOINT_GET_COMPANY = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "{" + GENERIC_ID + "}";
     public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "code/{" + GENERIC_ID + "}";
     public static final String ENDPOINT_SEND_MESSAGE = ENDPOINT_BASE_VERSION_2 + ENDPOINT_INBOX;
-    public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_2 + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
+
+    public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_CLIENT + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
+    public static final String ENDPOINT_UPDATE_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_BLACKBOARD_UPDATE ;
 
     public static String token;
     /*public static void cancelAll() {
@@ -74,8 +85,15 @@ public class Client {
         Call<ResponseSendMessage> sendMessageCall = iClient.sendMessage("Basic " + token, requestSend);
         sendMessageCall.enqueue(callback);
     }
+
+    //BLACKBOARD
     public static void getBlackboard(Callback<ResponseBlackboardList> callback, String clientId) {
         Call<ResponseBlackboardList> getBlackboardCall = iClient.getBlackboard("Basic " + token, clientId);
         getBlackboardCall.enqueue(callback);
     }
+    public static void updateBlackboardNote(Callback<ResponseNote> callback, Note note) {
+        Call<ResponseNote> updateBlackboardNoteCall = iClient.updateBlackboardNote("Basic " + token, note);
+        updateBlackboardNoteCall.enqueue(callback);
+    }
+
 }
