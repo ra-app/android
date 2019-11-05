@@ -1,6 +1,7 @@
 package org.raapp.messenger.client;
 
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
+import org.raapp.messenger.client.datamodel.Responses.ResponseBase;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
@@ -25,4 +26,8 @@ public interface IClient {
     @POST(Client.ENDPOINT_SEND_MESSAGE)
     Call<ResponseSendMessage> sendMessage(@Header(Client.AUTH_HEADER) String authToken,
                                           @Body RequestSend requestSend);
+
+    @GET(Client.ENDPOINT_BLACKBOARD)
+    Call<ResponseBase> getBlackboard(@Header(Client.AUTH_HEADER) String authToken,
+                                     @Path(Client.GENERIC_ID) String clientId);
 }
