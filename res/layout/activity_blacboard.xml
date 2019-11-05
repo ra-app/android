@@ -39,8 +39,23 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="vertical"
-            >
+            tools:listitem="@layout/pin_note_blackboard_item" >
         </androidx.recyclerview.widget.RecyclerView>
+
+
+        <ScrollView
+            android:id="@+id/rl_detail_pin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content">
+                <include layout="@layout/pin_note_detail_blackboard_item"></include>
+            </RelativeLayout>
+        </ScrollView>
+
+
 
     </RelativeLayout>
 
