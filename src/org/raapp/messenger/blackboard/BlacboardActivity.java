@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import org.raapp.messenger.R;
 import org.raapp.messenger.conversation.ConversationTitleView;
@@ -17,7 +19,7 @@ import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.util.DynamicLanguage;
 import org.raapp.messenger.util.DynamicNoActionBarTheme;
 
-public class BlacboardActivity extends AppCompatActivity {
+public class BlacboardActivity extends AppCompatActivity implements BlackboardInterface{
 
 
     public static final String ADDRESS_EXTRA = "address";
@@ -33,6 +35,7 @@ public class BlacboardActivity extends AppCompatActivity {
 
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
+    private View mNoteDetailView;
 
 
     @Override
@@ -78,6 +81,9 @@ public class BlacboardActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mLayoutManager = new GridLayoutManager(this,3);
         mRecyclerView.setLayoutManager(mLayoutManager);
+        mNoteDetailView = findViewById(R.id.rl_detail_pin);
+
+        showNoteList();
     }
 
     private void initializeResources() {
@@ -108,5 +114,39 @@ public class BlacboardActivity extends AppCompatActivity {
         mAdapter = new BlackboardAdapter(this,notes);
         // Set the adapter for RecyclerView
         mRecyclerView.setAdapter(mAdapter);
+    }
+
+    private void showNoteDetail(){
+        mRecyclerView.setVisibility(View.GONE);
+        mNoteDetailView.setVisibility(View.VISIBLE);
+    }
+
+    private void showNoteList(){
+        mRecyclerView.setVisibility(View.VISIBLE);
+        mNoteDetailView.setVisibility(View.GONE);
+    }
+
+    @Override
+    public void onNoteClick(Object object) {
+
+        showNoteDetail();
+
+        TextView noteTitle = mNoteDetailView.findViewById(R.id.note_title);
+        TextView noteBody = mNoteDetailView.findViewById(R.id.note_body);
+        TextView noteDate = mNoteDetailView.findViewById(R.id.note_date);
+
+        noteDate.setText("DATEHERE H:MM");
+        //noteBody.setText('get text from object');
+        //noteTitle.setText('get title from object');
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(mNoteDetailView.getVisibility() == View.VISIBLE){
+            showNoteList();
+        }else{
+            super.onBackPressed();
+        }
     }
 }

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import org.raapp.messenger.R;
+import org.raapp.messenger.recipients.Recipient;
 
 
 import androidx.recyclerview.widget.RecyclerView;
@@ -39,7 +40,7 @@ public class BlackboardAdapter extends RecyclerView.Adapter<BlackboardAdapter.Vi
     @Override
     public void onBindViewHolder(ViewHolder holder, int position){
         holder.mTitle.setText(mDataSet[position]);
-
+        holder.itemView.setOnClickListener(view -> ((BlackboardInterface)mContext).onNoteClick(mDataSet[position]));
     }
 
     @Override
@@ -49,3 +50,4 @@ public class BlackboardAdapter extends RecyclerView.Adapter<BlackboardAdapter.Vi
 
 
 }
+
