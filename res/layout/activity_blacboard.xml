@@ -28,10 +28,12 @@
         android:layout_below="@id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent" android:orientation="vertical">
+
         <ImageView
             android:layout_width="match_parent"
             android:scaleType="centerCrop"
-            android:layout_height="match_parent" android:src="@drawable/bg_blackboard"></ImageView>
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_blackboard" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:padding="4dp"
