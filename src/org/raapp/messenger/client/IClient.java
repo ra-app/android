@@ -1,8 +1,11 @@
 package org.raapp.messenger.client;
 
+import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
+import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
+import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 
 import retrofit2.Call;
@@ -25,4 +28,12 @@ public interface IClient {
     @POST(Client.ENDPOINT_SEND_MESSAGE)
     Call<ResponseSendMessage> sendMessage(@Header(Client.AUTH_HEADER) String authToken,
                                           @Body RequestSend requestSend);
+
+    @GET(Client.ENDPOINT_GET_BLACKBOARD)
+    Call<ResponseBlackboardList> getBlackboard(@Header(Client.AUTH_HEADER) String authToken,
+                                               @Path(Client.GENERIC_ID) String clientId);
+
+    @POST(Client.ENDPOINT_UPDATE_BLACKBOARD)
+    Call<ResponseNote> updateBlackboardNote(@Header(Client.AUTH_HEADER) String authToken,
+                                            @Body Note note);
 }

@@ -71,6 +71,7 @@
 
             <LinearLayout
                 android:id="@+id/ll_rate_conversation"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:padding="20dp"
                 android:layout_height="wrap_content" android:orientation="vertical">
@@ -89,7 +90,7 @@
                     android:textColor="@color/primary"
                     android:textAlignment="center"
                     android:layout_marginBottom="10dp"
-                    android:text="Bitte betwerten Sie die Kommunikation."></TextView>
+                    android:text="Bitte bewerten Sie die Kommunikation."></TextView>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

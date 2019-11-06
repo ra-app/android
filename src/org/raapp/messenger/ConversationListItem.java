@@ -198,7 +198,9 @@ public class ConversationListItem extends RelativeLayout
     setUnreadIndicator(thread);
     this.contactPhotoImage.setAvatar(glideRequests, recipient, true);
 
-    blacBoardIcon.setVisibility(VISIBLE);
+    if(recipient.isOfficeApp()){
+      blacBoardIcon.setVisibility(VISIBLE);
+    }
   }
 
   public void bind(@NonNull  Recipient     contact,
