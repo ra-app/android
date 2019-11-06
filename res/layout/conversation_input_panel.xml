@@ -30,41 +30,6 @@
         android:paddingEnd="16dp"
         android:paddingBottom="6dp">
 
-        <org.raapp.messenger.components.AnimatingToggle
-            android:id="@+id/button_toggle"
-            android:layout_width="@dimen/conversation_compose_height"
-            android:layout_height="@dimen/conversation_compose_height"
-            android:layout_gravity="bottom"
-            android:layout_marginEnd="8dp"
-            android:background="@drawable/circle_tintable">
-
-            <ImageButton
-                android:id="@+id/attach_button"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="@drawable/circle_touch_highlight_background"
-                android:contentDescription="@string/ConversationActivity_add_attachment"
-                android:nextFocusLeft="@+id/embedded_text_editor"
-                android:tint="@color/core_white"
-                app:srcCompat="@drawable/ic_plus_24" />
-
-            <org.raapp.messenger.components.SendButton
-                android:id="@+id/send_button"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/circle_touch_highlight_background"
-                android:contentDescription="@string/conversation_activity__send"
-                android:nextFocusLeft="@+id/embedded_text_editor"
-                android:paddingStart="11dp"
-                android:paddingTop="6dp"
-                android:paddingEnd="6dp"
-                android:paddingBottom="6dp"
-                android:scaleType="fitCenter"
-                android:src="?conversation_transport_sms_indicator" />
-
-        </org.raapp.messenger.components.AnimatingToggle>
-
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -232,6 +197,41 @@
             </LinearLayout>
 
         </FrameLayout>
+
+        <org.raapp.messenger.components.AnimatingToggle
+            android:id="@+id/button_toggle"
+            android:layout_width="@dimen/conversation_compose_height"
+            android:layout_height="@dimen/conversation_compose_height"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/circle_tintable">
+
+            <ImageButton
+                android:id="@+id/attach_button"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_touch_highlight_background"
+                android:contentDescription="@string/ConversationActivity_add_attachment"
+                android:nextFocusLeft="@+id/embedded_text_editor"
+                android:tint="@color/core_white"
+                app:srcCompat="@drawable/ic_plus_24" />
+
+            <org.raapp.messenger.components.SendButton
+                android:id="@+id/send_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle_touch_highlight_background"
+                android:contentDescription="@string/conversation_activity__send"
+                android:nextFocusLeft="@+id/embedded_text_editor"
+                android:paddingStart="11dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="6dp"
+                android:paddingBottom="6dp"
+                android:scaleType="fitCenter"
+                android:src="?conversation_transport_sms_indicator" />
+
+        </org.raapp.messenger.components.AnimatingToggle>
 
     </LinearLayout>
 </org.raapp.messenger.components.InputPanel>

@@ -37,6 +37,7 @@ import org.raapp.messenger.contacts.avatars.ContactPhoto;
 import org.raapp.messenger.contacts.avatars.FallbackContactPhoto;
 import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
 import org.raapp.messenger.contacts.avatars.ResourceContactPhoto;
+import org.raapp.messenger.conversation.ConversationActivity;
 import org.raapp.messenger.database.GroupDatabase;
 import org.raapp.messenger.jobs.RotateProfileKeyJob;
 import org.raapp.messenger.logging.Log;
@@ -45,6 +46,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -117,6 +119,8 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
   private ThreadPhotoRailView     threadPhotoRailView;
   private CollapsingToolbarLayout toolbarLayout;
 
+  private LinearLayout userGroupLL;
+  private LinearLayout addUserLL;
   private RecyclerView userRV;
 
   @Override
@@ -260,12 +264,21 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
   }
 
   private void initUserList() {
+    userGroupLL = findViewById(R.id.ll_user_group);
+    addUserLL = findViewById(R.id.ll_add_user);
     userRV = findViewById(R.id.rv_user_list_preference);
     userRV.setLayoutManager(new LinearLayoutManager(this));
     Recipient recipient = Recipient.from(this, address, true);
     if (recipient.getAddress().isGroup()) {
       new GroupMembersAsyncTask(this, recipient).execute();
+      userGroupLL.setVisibility(View.VISIBLE);
     }
+    addUserLL.setOnClickListener(v -> {
+      Intent intent = new Intent(this, GroupCreateActivity
+              .class);
+      intent.putExtra(GroupCreateActivity.GROUP_ADDRESS_EXTRA, recipient.getAddress());
+      startActivity(intent);
+    });
   }
 
   @Override
@@ -420,6 +433,7 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
         if (divider            != null) divider.setVisible(false);
         if (callCategory       != null) callCategory.setVisible(false);
       } if (recipient.isGroupRecipient()) {
+        aboutPreference.setTitle(recipient.getName());
         if (identityPreference != null) identityPreference.setVisible(false);
         if (callCategory       != null) callCategory.setVisible(false);
         if (aboutCategory      != null) aboutCategory.setVisible(false);
@@ -785,6 +799,14 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
                                   getString(R.string.ConversationActivity_calls_not_supported),
                                   getString(R.string.ConversationActivity_this_device_does_not_appear_to_support_dial_actions));
         }
+      }
+
+      @Override
+      public void onEditClicked() {
+        Intent intent = new Intent(getContext(), GroupCreateActivity
+                .class);
+        intent.putExtra(GroupCreateActivity.GROUP_ADDRESS_EXTRA, recipient.getAddress());
+        startActivity(intent);
       }
     }
 

@@ -16,6 +16,7 @@ public class ContactPreference extends Preference {
   private ImageView messageButton;
   private ImageView callButton;
   private ImageView secureCallButton;
+  private ImageView editButton;
 
   private Listener listener;
   private boolean secure;
@@ -51,6 +52,7 @@ public class ContactPreference extends Preference {
     this.messageButton    = (ImageView) view.findViewById(R.id.message);
     this.callButton       = (ImageView) view.findViewById(R.id.call);
     this.secureCallButton = (ImageView) view.findViewById(R.id.secure_call);
+    this.editButton    = (ImageView) view.findViewById(R.id.edit);
 
     if (listener != null) setListener(listener);
     setSecure(secure);
@@ -73,6 +75,7 @@ public class ContactPreference extends Preference {
     if (messageButton != null)    messageButton.setColorFilter(color, PorterDuff.Mode.SRC_IN);
     if (secureCallButton != null) secureCallButton.setColorFilter(color, PorterDuff.Mode.SRC_IN);
     if (callButton != null)       callButton.setColorFilter(color, PorterDuff.Mode.SRC_IN);
+    if (editButton != null)       editButton.setColorFilter(color, PorterDuff.Mode.SRC_IN);
   }
 
   public void setListener(Listener listener) {
@@ -81,12 +84,14 @@ public class ContactPreference extends Preference {
     if (this.messageButton != null)    this.messageButton.setOnClickListener(v -> listener.onMessageClicked());
     if (this.secureCallButton != null) this.secureCallButton.setOnClickListener(v -> listener.onSecureCallClicked());
     if (this.callButton != null)       this.callButton.setOnClickListener(v -> listener.onInSecureCallClicked());
+    if (this.editButton != null)       this.editButton.setOnClickListener(v -> listener.onEditClicked());
   }
 
   public interface Listener {
     public void onMessageClicked();
     public void onSecureCallClicked();
     public void onInSecureCallClicked();
+    public void onEditClicked();
   }
 
 }

@@ -80,6 +80,7 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHo
                 //TODO
                 //Intent intent = new Intent(context, ProfilePreference.class);
                 //context.startActivity(intent);
+                context.startActivity(RecipientExporter.export(recipient).asAddContactIntent());
             } else {
                 context.startActivity(RecipientExporter.export(recipient).asAddContactIntent());
             }
