@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/RaApp.MainTheme.NoActionBar"
         tools:replace="android:allowBackup">
-        <activity android:name=".blackboard.BlacboardActivity"></activity>
+        <activity android:name=".blackboard.BlacboardActivity" />
         <activity android:name=".ConversationFeedbackActivity" />
         <activity android:name=".registration.TermOfServiceActivity" />
         <activity android:name=".registration.InvitationActivity" />

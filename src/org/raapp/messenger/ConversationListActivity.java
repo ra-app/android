@@ -109,7 +109,7 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
     super.onResume();
     dynamicLanguage.onResume(this);
 
-    String token = this.getSharedPreferences("ra-preferences", MODE_PRIVATE).getString("office_app_token", "");
+    String token = this.getSharedPreferences(OfficeAppConstants.RA_PREFERENCES, MODE_PRIVATE).getString(OfficeAppConstants.TOKEN, "");
     Log.d("TOKEN:", token);
 
     SimpleTask.run(getLifecycle(), () -> {

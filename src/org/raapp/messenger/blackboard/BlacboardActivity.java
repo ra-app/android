@@ -6,22 +6,32 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.CompanyRolePreferenceUtil;
+import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
 import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
+import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.conversation.ConversationTitleView;
+import org.raapp.messenger.logging.Log;
 import org.raapp.messenger.mms.GlideApp;
 import org.raapp.messenger.mms.GlideRequests;
 import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.registration.InvitationActivity;
 import org.raapp.messenger.util.DynamicLanguage;
 import org.raapp.messenger.util.DynamicNoActionBarTheme;
 
@@ -30,7 +40,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -53,6 +62,13 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
     private RecyclerView.LayoutManager mLayoutManager;
     private View mNoteDetailView;
     private ProgressBar progressBar;
+
+    private Note selectedNote;
+    private EditText noteTitle;
+    private EditText noteBody;
+    private TextView noteDate;
+    private ImageView editSaveIV;
+    private boolean isNoteUpdated = false;
 
 
     @Override
@@ -80,6 +96,112 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         initializeActionBar();
         initViews();
         initializeResources();
+        initRole();
+    }
+
+    private void initRole() {
+        String role = "";
+        List<CompanyRoleDTO> companyRoleDTOS = CompanyRolePreferenceUtil.getCompanyRolList(this);
+        for (CompanyRoleDTO companyRoleDTO: companyRoleDTOS) {
+            if (companyRoleDTO.getCompanyId().equals(recipient.getAddress().toString())) {
+                role = companyRoleDTO.getRole();
+            }
+        }
+        Log.i("Role", "" + role);
+
+        if ("admin".equalsIgnoreCase(role)) {
+            editSaveIV.setVisibility(View.VISIBLE);
+            editSaveIV.setOnClickListener(editNoteListener);
+        }
+    }
+
+    private View.OnClickListener editNoteListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (!noteBody.isClickable()) {
+                toEditText(noteTitle);
+                toEditText(noteBody);
+                editSaveIV.setImageDrawable(getResources().getDrawable(R.drawable.ic_save_white_24dp));
+                editSaveIV.setOnClickListener(saveNoteListener);
+            } else {
+                toTextView(noteTitle);
+                toTextView(noteBody);
+                editSaveIV.setImageDrawable(getResources().getDrawable(R.drawable.ic_edit_black_24dp));
+            }
+        }
+    };
+
+    private void toEditMode() {
+        editSaveIV.setImageDrawable(getResources().getDrawable(R.drawable.ic_edit_black_24dp));
+        editSaveIV.setOnClickListener(editNoteListener);
+        toTextView(noteTitle);
+        toTextView(noteBody);
+    }
+
+    private View.OnClickListener saveNoteListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            selectedNote.setTitle(noteTitle.getText().toString());
+            selectedNote.setContent(noteBody.getText().toString());
+
+            progressBar.setVisibility(View.VISIBLE);
+            Client.buildBase(BlacboardActivity.this);
+            Client.updateBlackboardNote(new Callback<ResponseNote>() {
+                @Override
+                public void onResponse(Call<ResponseNote> call, Response<ResponseNote> response) {
+                    if (response.isSuccessful()) {
+                        ResponseNote resp = response.body();
+
+                        if (resp != null && resp.getSuccess()) {
+                            Note note = resp.getNote();
+                            isNoteUpdated = true;
+
+                            progressBar.setVisibility(View.GONE);
+                            editSaveIV.setOnClickListener(editNoteListener);
+                            editSaveIV.performClick();
+                        } else{
+                            String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
+                            Toast.makeText(BlacboardActivity.this, errorMsg, Toast.LENGTH_LONG).show();
+                            progressBar.setVisibility(View.GONE);
+                        }
+                    } else{
+                        Toast.makeText(BlacboardActivity.this, "Server error", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.GONE);
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<ResponseNote> call, Throwable t) {
+                    Toast.makeText(BlacboardActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
+                }
+            }, selectedNote, selectedNote.getCompanyId().toString());
+        }
+    };
+
+    private void toTextView(EditText editText) {
+        editText.setFocusable(false);
+        editText.setFocusableInTouchMode(false);
+        editText.setClickable(false);
+        editText.setBackground(null);
+        editText.setTextSize(16);
+        editText.setTextColor(getResources().getColor(R.color.ra_text));
+        editText.setGravity(Gravity.TOP | Gravity.START);
+    }
+
+    private void toEditText(EditText textView) {
+        textView.setFocusable(true);
+        textView.setFocusableInTouchMode(true);
+        textView.setClickable(true);
+
+        TypedArray a = getTheme().obtainStyledAttributes(R.style.RaApp_MainTheme, new int[] {android.R.attr.editTextBackground});
+        int attributeResourceId = a.getResourceId(0, 0);
+        Drawable drawable = getResources().getDrawable(attributeResourceId);
+        a.recycle();
+
+        textView.setBackground(drawable);
+        textView.setTextSize(18);
+        textView.setTextColor(getResources().getColor(R.color.primary));
+        textView.setGravity(Gravity.TOP | Gravity.START);
     }
 
     protected void initializeActionBar() {
@@ -100,6 +222,14 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         mRecyclerView.setLayoutManager(mLayoutManager);
         mNoteDetailView = findViewById(R.id.rl_detail_pin);
         progressBar = findViewById(R.id.progress_bar);
+
+        noteTitle = mNoteDetailView.findViewById(R.id.note_title);
+        noteBody = mNoteDetailView.findViewById(R.id.note_body);
+        noteDate = mNoteDetailView.findViewById(R.id.note_date);
+        editSaveIV = mNoteDetailView.findViewById(R.id.iv_edit_save);
+
+        toTextView(noteTitle);
+        toTextView(noteBody);
 
         showNoteList();
     }
@@ -146,18 +276,15 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     @Override
     public void onNoteClick(Object object) {
-        TextView noteTitle = mNoteDetailView.findViewById(R.id.note_title);
-        TextView noteBody = mNoteDetailView.findViewById(R.id.note_body);
-        TextView noteDate = mNoteDetailView.findViewById(R.id.note_date);
 
-        Note note = (Note) object;
-        noteTitle.setText(note.getTitle());
-        noteBody.setText(note.getContent());
+        selectedNote = (Note) object;
+        noteTitle.setText(selectedNote.getTitle());
+        noteBody.setText(selectedNote.getContent());
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
         Date myDate = null;
         try {
-            myDate = dateFormat.parse(note.getTsCreated());
+            myDate = dateFormat.parse(selectedNote.getTsCreated());
 
         } catch (ParseException e) {
             e.printStackTrace();
@@ -173,10 +300,25 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     @Override
     public void onBackPressed() {
+        toEditMode();
+        hideKeyboard();
         if(mNoteDetailView.getVisibility() == View.VISIBLE){
+            if (isNoteUpdated) {
+                isNoteUpdated = false;
+                initializeResources();
+            }
             showNoteList();
         }else{
             super.onBackPressed();
         }
+    }
+
+    public void hideKeyboard() {
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        View view = getCurrentFocus();
+        if (view == null) {
+            view = new View(this);
+        }
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 }
