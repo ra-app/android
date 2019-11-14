@@ -9,13 +9,12 @@ import android.widget.ScrollView;
 import android.widget.Toast;
 
 import org.raapp.messenger.ConversationListActivity;
+import org.raapp.messenger.OfficeAppConstants;
 import org.raapp.messenger.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class TermOfServiceActivity extends AppCompatActivity {
-
-    public static final String PREFERENCE_EULA_ACCEPTATION = "PREFERENCE_KEY_EULA_ACCEPTATION";
 
     private Button mContinueButton;
     private CheckBox mAcceptCheck;
@@ -67,9 +66,9 @@ public class TermOfServiceActivity extends AppCompatActivity {
     }
 
     private void saveUserAcceptation(){
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("ra-preferences", 0); // 0 - for private mode
+        SharedPreferences pref = getApplicationContext().getSharedPreferences(OfficeAppConstants.RA_PREFERENCES, 0); // 0 - for private mode
         SharedPreferences.Editor editor = pref.edit();
-        editor.putBoolean(PREFERENCE_EULA_ACCEPTATION, true);
+        editor.putBoolean(OfficeAppConstants.PREFERENCE_EULA_ACCEPTATION, true);
         editor.commit();
     }
 

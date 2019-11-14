@@ -10,9 +10,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.raapp.messenger.OfficeAppConstants;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.CompanyRolePreferenceUtil;
 import org.raapp.messenger.client.datamodel.Company;
+import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.database.Address;
@@ -80,16 +83,16 @@ public class InvitationActivity extends AppCompatActivity {
                             if (response.isSuccessful()) {
                                 ResponseInvitationCode resp = response.body();
 
-                                // TODO: ¿SAVE client_uuid, role?
-
                                 if (resp != null && resp.getSuccess()) {
                                     Company company = resp.getCompany();
+                                    CompanyRoleDTO companyRoleDTO = new CompanyRoleDTO(company.getCompanyNumber().toString(), resp.getRole().trim());
+                                    CompanyRolePreferenceUtil.addCompanyRole(InvitationActivity.this, companyRoleDTO);
                                     createCompanyChat(company.getCompanyNumber().toString(), company.getName());
-                                }else{
+                                } else{
                                     String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
                                     Toast.makeText(InvitationActivity.this, errorMsg, Toast.LENGTH_LONG).show();
                                 }
-                            }else{
+                            } else{
                                 Toast.makeText(InvitationActivity.this, "Server error", Toast.LENGTH_SHORT).show();
                             }
                         }

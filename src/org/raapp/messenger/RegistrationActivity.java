@@ -518,7 +518,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
 
           String all = e164number + ".1:" + password;
           String pass = android.util.Base64.encodeToString(all.getBytes(), android.util.Base64.DEFAULT);
-          getSharedPreferences("ra-preferences", MODE_PRIVATE).edit().putString("office_app_token", pass.trim()).apply();
+          getSharedPreferences(OfficeAppConstants.RA_PREFERENCES, MODE_PRIVATE).edit().putString(OfficeAppConstants.TOKEN, pass.trim()).apply();
           Log.i("PASS: ", pass.trim());
 
           return new VerificationRequestResult(password, fcmToken, Optional.absent());

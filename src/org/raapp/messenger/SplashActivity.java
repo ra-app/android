@@ -6,11 +6,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
-
-import org.raapp.messenger.registration.InvitationActivity;
 import org.raapp.messenger.registration.TermOfServiceActivity;
 
-import static org.raapp.messenger.registration.TermOfServiceActivity.PREFERENCE_EULA_ACCEPTATION;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -23,8 +20,8 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void start(){
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("ra-preferences", 0);
-        boolean isEULAOK = pref.getBoolean(PREFERENCE_EULA_ACCEPTATION, false);
+        SharedPreferences pref = getApplicationContext().getSharedPreferences(OfficeAppConstants.RA_PREFERENCES, 0);
+        boolean isEULAOK = pref.getBoolean(OfficeAppConstants.PREFERENCE_EULA_ACCEPTATION, false);
         if(isEULAOK){
             goToChatList();
         }else {
