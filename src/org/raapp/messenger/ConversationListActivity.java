@@ -39,6 +39,13 @@ import android.widget.Toast;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import org.raapp.messenger.blackboard.BlacboardActivity;
+import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.CompanyRolePreferenceUtil;
+import org.raapp.messenger.client.datamodel.Company;
+import org.raapp.messenger.client.datamodel.CompanyRole;
+import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
+import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.components.RatingManager;
 import org.raapp.messenger.components.SearchToolbar;
@@ -46,6 +53,7 @@ import org.raapp.messenger.contacts.avatars.ContactColors;
 import org.raapp.messenger.contacts.avatars.GeneratedContactPhoto;
 import org.raapp.messenger.contacts.avatars.ProfileContactPhoto;
 import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.conversation.admin.AdminConversationActivity;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.MessagingDatabase.MarkedMessageInfo;
@@ -56,6 +64,7 @@ import org.raapp.messenger.notifications.MarkReadReceiver;
 import org.raapp.messenger.notifications.MessageNotifier;
 import org.raapp.messenger.permissions.Permissions;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.registration.InvitationActivity;
 import org.raapp.messenger.search.SearchFragment;
 import org.raapp.messenger.service.KeyCachingService;
 import org.raapp.messenger.util.DynamicLanguage;
@@ -64,6 +73,10 @@ import org.raapp.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class ConversationListActivity extends PassphraseRequiredActionBarActivity
     implements ConversationListFragment.ConversationSelectedListener
@@ -229,7 +242,21 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
   public void openConversation(long threadId, Recipient recipient, int distributionType, long lastSeen, int startingPosition) {
     searchToolbar.clearFocus();
 
-    Intent intent = new Intent(this, ConversationActivity.class);
+    Class startClass = ConversationActivity.class;
+    String role = "";
+    List<CompanyRoleDTO> companyRoleDTOS = CompanyRolePreferenceUtil.getCompanyRolList(this);
+    for (CompanyRoleDTO companyRoleDTO: companyRoleDTOS) {
+      if (companyRoleDTO.getCompanyId().equals(recipient.getAddress().toString())) {
+        role = companyRoleDTO.getRole();
+      }
+    }
+    Log.i("Role", "" + role);
+
+    if ("admin".equalsIgnoreCase(role)) {
+      startClass = AdminConversationActivity.class;
+    }
+
+    Intent intent = new Intent(this, startClass);
     intent.putExtra(ConversationActivity.ADDRESS_EXTRA, recipient.getAddress());
     intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, threadId);
     intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, distributionType);

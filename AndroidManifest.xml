@@ -358,6 +358,8 @@
             android:name=".maps.PlacePickerActivity"
             android:label="@string/PlacePickerActivity_title"
             android:theme="@style/TextSecure.LightNoActionBar" />
+        <activity android:name=".conversation.admin.AdminConversationActivity" />
+
         <activity-alias
             android:name=".RoutingActivity"
             android:exported="true"
