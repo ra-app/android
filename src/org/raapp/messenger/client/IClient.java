@@ -3,6 +3,7 @@ package org.raapp.messenger.client;
 import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
+import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
@@ -35,5 +36,9 @@ public interface IClient {
 
     @POST(Client.ENDPOINT_UPDATE_BLACKBOARD)
     Call<ResponseNote> updateBlackboardNote(@Header(Client.AUTH_HEADER) String authToken,
-                                            @Body Note note);
+                                            @Body Note note,
+                                            @Path(Client.GENERIC_ID) String companyId);
+
+    @GET(Client.ENDPOINT_GET_COMPANY_LIST)
+    Call<ResponseCompanyList> getCompanyList(@Header(Client.AUTH_HEADER) String authToken);
 }
