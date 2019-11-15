@@ -40,12 +40,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import org.raapp.messenger.blackboard.BlacboardActivity;
 import org.raapp.messenger.client.Client;
-import org.raapp.messenger.client.CompanyRolePreferenceUtil;
-import org.raapp.messenger.client.datamodel.Company;
 import org.raapp.messenger.client.datamodel.CompanyRole;
-import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
 import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
-import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.components.RatingManager;
 import org.raapp.messenger.components.SearchToolbar;
@@ -64,10 +60,10 @@ import org.raapp.messenger.notifications.MarkReadReceiver;
 import org.raapp.messenger.notifications.MessageNotifier;
 import org.raapp.messenger.permissions.Permissions;
 import org.raapp.messenger.recipients.Recipient;
-import org.raapp.messenger.registration.InvitationActivity;
 import org.raapp.messenger.search.SearchFragment;
 import org.raapp.messenger.service.KeyCachingService;
 import org.raapp.messenger.util.DynamicLanguage;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.concurrent.SimpleTask;
 import org.whispersystems.libsignal.util.guava.Optional;
@@ -243,16 +239,7 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
     searchToolbar.clearFocus();
 
     Class startClass = ConversationActivity.class;
-    String role = "";
-    List<CompanyRoleDTO> companyRoleDTOS = CompanyRolePreferenceUtil.getCompanyRolList(this);
-    for (CompanyRoleDTO companyRoleDTO: companyRoleDTOS) {
-      if (companyRoleDTO.getCompanyId().equals(recipient.getAddress().toString())) {
-        role = companyRoleDTO.getRole();
-      }
-    }
-    Log.i("Role", "" + role);
-
-    if ("admin".equalsIgnoreCase(role)) {
+    if (RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())) {
       startClass = AdminConversationActivity.class;
     }
 

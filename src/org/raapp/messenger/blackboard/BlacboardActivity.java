@@ -11,29 +11,28 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
-import org.raapp.messenger.client.CompanyRolePreferenceUtil;
-import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
 import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.conversation.ConversationTitleView;
-import org.raapp.messenger.logging.Log;
 import org.raapp.messenger.mms.GlideApp;
 import org.raapp.messenger.mms.GlideRequests;
 import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.util.DynamicLanguage;
 import org.raapp.messenger.util.DynamicNoActionBarTheme;
+import org.raapp.messenger.util.RoleUtil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -67,8 +66,8 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
     private EditText noteTitle;
     private EditText noteBody;
     private TextView noteDate;
-    private ImageView editSaveIV;
     private boolean isNoteUpdated = false;
+    private Menu menu;
 
 
     @Override
@@ -81,127 +80,16 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         initComponents();
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed();
-                return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     private void initComponents(){
         initializeActionBar();
         initViews();
         initializeResources();
-        initRole();
     }
 
     private void initRole() {
-        String role = "";
-        List<CompanyRoleDTO> companyRoleDTOS = CompanyRolePreferenceUtil.getCompanyRolList(this);
-        for (CompanyRoleDTO companyRoleDTO: companyRoleDTOS) {
-            if (companyRoleDTO.getCompanyId().equals(recipient.getAddress().toString())) {
-                role = companyRoleDTO.getRole();
-            }
+        if (RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())) {
+            menu.findItem(R.id.edit_note).setVisible(true);
         }
-        Log.i("Role", "" + role);
-
-        if ("admin".equalsIgnoreCase(role)) {
-            editSaveIV.setVisibility(View.VISIBLE);
-            editSaveIV.setOnClickListener(editNoteListener);
-        }
-    }
-
-    private View.OnClickListener editNoteListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            if (!noteBody.isClickable()) {
-                toEditText(noteTitle);
-                toEditText(noteBody);
-                editSaveIV.setImageDrawable(getResources().getDrawable(R.drawable.ic_save_white_24dp));
-                editSaveIV.setOnClickListener(saveNoteListener);
-            } else {
-                toTextView(noteTitle);
-                toTextView(noteBody);
-                editSaveIV.setImageDrawable(getResources().getDrawable(R.drawable.ic_edit_black_24dp));
-            }
-        }
-    };
-
-    private void toEditMode() {
-        editSaveIV.setImageDrawable(getResources().getDrawable(R.drawable.ic_edit_black_24dp));
-        editSaveIV.setOnClickListener(editNoteListener);
-        toTextView(noteTitle);
-        toTextView(noteBody);
-    }
-
-    private View.OnClickListener saveNoteListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            selectedNote.setTitle(noteTitle.getText().toString());
-            selectedNote.setContent(noteBody.getText().toString());
-
-            progressBar.setVisibility(View.VISIBLE);
-            Client.buildBase(BlacboardActivity.this);
-            Client.updateBlackboardNote(new Callback<ResponseNote>() {
-                @Override
-                public void onResponse(Call<ResponseNote> call, Response<ResponseNote> response) {
-                    if (response.isSuccessful()) {
-                        ResponseNote resp = response.body();
-
-                        if (resp != null && resp.getSuccess()) {
-                            Note note = resp.getNote();
-                            isNoteUpdated = true;
-
-                            progressBar.setVisibility(View.GONE);
-                            editSaveIV.setOnClickListener(editNoteListener);
-                            editSaveIV.performClick();
-                        } else{
-                            String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
-                            Toast.makeText(BlacboardActivity.this, errorMsg, Toast.LENGTH_LONG).show();
-                            progressBar.setVisibility(View.GONE);
-                        }
-                    } else{
-                        Toast.makeText(BlacboardActivity.this, "Server error", Toast.LENGTH_SHORT).show();
-                        progressBar.setVisibility(View.GONE);
-                    }
-                }
-
-                @Override
-                public void onFailure(Call<ResponseNote> call, Throwable t) {
-                    Toast.makeText(BlacboardActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
-                }
-            }, selectedNote, selectedNote.getCompanyId().toString());
-        }
-    };
-
-    private void toTextView(EditText editText) {
-        editText.setFocusable(false);
-        editText.setFocusableInTouchMode(false);
-        editText.setClickable(false);
-        editText.setBackground(null);
-        editText.setTextSize(16);
-        editText.setTextColor(getResources().getColor(R.color.ra_text));
-        editText.setGravity(Gravity.TOP | Gravity.START);
-    }
-
-    private void toEditText(EditText textView) {
-        textView.setFocusable(true);
-        textView.setFocusableInTouchMode(true);
-        textView.setClickable(true);
-
-        TypedArray a = getTheme().obtainStyledAttributes(R.style.RaApp_MainTheme, new int[] {android.R.attr.editTextBackground});
-        int attributeResourceId = a.getResourceId(0, 0);
-        Drawable drawable = getResources().getDrawable(attributeResourceId);
-        a.recycle();
-
-        textView.setBackground(drawable);
-        textView.setTextSize(18);
-        textView.setTextColor(getResources().getColor(R.color.primary));
-        textView.setGravity(Gravity.TOP | Gravity.START);
     }
 
     protected void initializeActionBar() {
@@ -226,7 +114,6 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         noteTitle = mNoteDetailView.findViewById(R.id.note_title);
         noteBody = mNoteDetailView.findViewById(R.id.note_body);
         noteDate = mNoteDetailView.findViewById(R.id.note_date);
-        editSaveIV = mNoteDetailView.findViewById(R.id.iv_edit_save);
 
         toTextView(noteTitle);
         toTextView(noteBody);
@@ -296,6 +183,87 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         noteDate.setText(finalDate);
 
         showNoteDetail();
+        initRole();
+    }
+
+    private void editNoteClick() {
+        toEditText(noteTitle);
+        toEditText(noteBody);
+
+        menu.findItem(R.id.edit_note).setVisible(false);
+        menu.findItem(R.id.save_note).setVisible(true);
+    }
+
+    private void saveNoteClick() {
+        toTextView(noteTitle);
+        toTextView(noteBody);
+
+        selectedNote.setTitle(noteTitle.getText().toString());
+        selectedNote.setContent(noteBody.getText().toString());
+
+        progressBar.setVisibility(View.VISIBLE);
+        Client.buildBase(BlacboardActivity.this);
+        Client.updateBlackboardNote(new Callback<ResponseNote>() {
+            @Override
+            public void onResponse(Call<ResponseNote> call, Response<ResponseNote> response) {
+                if (response.isSuccessful()) {
+                    ResponseNote resp = response.body();
+
+                    if (resp != null && resp.getSuccess()) {
+                        Note note = resp.getNote();
+                        isNoteUpdated = true;
+
+                        progressBar.setVisibility(View.GONE);
+                    } else{
+                        String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
+                        Toast.makeText(BlacboardActivity.this, errorMsg, Toast.LENGTH_LONG).show();
+                        progressBar.setVisibility(View.GONE);
+                    }
+                } else{
+                    Toast.makeText(BlacboardActivity.this, "Server error", Toast.LENGTH_SHORT).show();
+                    progressBar.setVisibility(View.GONE);
+                }
+
+                menu.findItem(R.id.edit_note).setVisible(true);
+                menu.findItem(R.id.save_note).setVisible(false);
+            }
+
+            @Override
+            public void onFailure(Call<ResponseNote> call, Throwable t) {
+                Toast.makeText(BlacboardActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
+            }
+        }, selectedNote, selectedNote.getCompanyId().toString());
+    }
+
+    private void toEditMode() {
+        toTextView(noteTitle);
+        toTextView(noteBody);
+    }
+
+    private void toTextView(EditText editText) {
+        editText.setFocusable(false);
+        editText.setFocusableInTouchMode(false);
+        editText.setClickable(false);
+        editText.setBackground(null);
+        editText.setTextSize(16);
+        editText.setTextColor(getResources().getColor(R.color.ra_text));
+        editText.setGravity(Gravity.TOP | Gravity.START);
+    }
+
+    private void toEditText(EditText textView) {
+        textView.setFocusable(true);
+        textView.setFocusableInTouchMode(true);
+        textView.setClickable(true);
+
+        TypedArray a = getTheme().obtainStyledAttributes(R.style.RaApp_MainTheme, new int[] {android.R.attr.editTextBackground});
+        int attributeResourceId = a.getResourceId(0, 0);
+        Drawable drawable = getResources().getDrawable(attributeResourceId);
+        a.recycle();
+
+        textView.setBackground(drawable);
+        textView.setTextSize(18);
+        textView.setTextColor(getResources().getColor(R.color.primary));
+        textView.setGravity(Gravity.TOP | Gravity.START);
     }
 
     @Override
@@ -307,6 +275,8 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                 isNoteUpdated = false;
                 initializeResources();
             }
+            menu.findItem(R.id.save_note).setVisible(false);
+            menu.findItem(R.id.edit_note).setVisible(false);
             showNoteList();
         }else{
             super.onBackPressed();
@@ -320,5 +290,36 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
             view = new View(this);
         }
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            case R.id.edit_note:
+                editNoteClick();
+                return true;
+            case R.id.save_note:
+                saveNoteClick();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuInflater inflater = this.getMenuInflater();
+        menu.clear();
+
+        inflater.inflate(R.menu.blackboard_admin, menu);
+        menu.findItem(R.id.save_note).setVisible(false);
+        menu.findItem(R.id.edit_note).setVisible(false);
+
+        this.menu = menu;
+        super.onPrepareOptionsMenu(menu);
+        return true;
     }
 }

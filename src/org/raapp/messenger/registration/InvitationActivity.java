@@ -10,13 +10,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.raapp.messenger.OfficeAppConstants;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
-import org.raapp.messenger.client.CompanyRolePreferenceUtil;
+import org.raapp.messenger.util.CompanyRolePreferenceUtil;
 import org.raapp.messenger.client.datamodel.Company;
 import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
-import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
@@ -25,12 +23,10 @@ import org.raapp.messenger.database.SmsDatabase;
 import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.sms.IncomingEncryptedMessage;
 import org.raapp.messenger.sms.IncomingTextMessage;
-import org.raapp.messenger.sms.MessageSender;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
