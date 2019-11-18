@@ -354,7 +354,13 @@ public class ConversationItem extends LinearLayout
       bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
       footer.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
       footer.setIconColor(getResources().getColor(R.color.orange_100));
-    } else {
+    }else if(this.groupThread) {
+      bodyBubble.getBackground().setColorFilter(getResources().getColor(R.color.ra_selected_blue), PorterDuff.Mode.MULTIPLY);
+      ViewUtil.updateLayoutParams(bodyBubble, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+      bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
+      footer.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
+      footer.setIconColor(getResources().getColor(R.color.ra_selected_blue));
+    }else {
       ViewUtil.updateLayoutParams(bodyBubble, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
       bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), messageRecord.isOutgoing() ? R.attr.conversation_item_sent_text_primary_color : R.attr.conversation_item_received_text_primary_color));
       footer.setTextColor(ThemeUtil.getThemedColor(getContext(), messageRecord.isOutgoing() ? R.attr.conversation_item_sent_text_secondary_color : R.attr.conversation_item_received_text_secondary_color));
@@ -840,7 +846,7 @@ public class ConversationItem extends LinearLayout
     } else if (current.isOutgoing()) {
       ViewUtil.setLeftMargin(container, readDimen(R.dimen.conversation_individual_left_gutter));
     }
-    if (message.contains(MAGIC_MSG)) {
+    if (message.contains(MAGIC_MSG) || this.groupThread) {
       ViewUtil.setRightMargin(bodyBubble, 0);
       ViewUtil.setLeftMargin(bodyBubble, 24);
       if(current.isOutgoing())
@@ -932,13 +938,23 @@ public class ConversationItem extends LinearLayout
       } else {
         contactPhoto.setVisibility(GONE);
       }
+
     } else {
       groupSenderHolder.setVisibility(GONE);
 
       if (contactPhotoHolder != null) {
         contactPhotoHolder.setVisibility(GONE);
       }
+
     }
+
+    if(isGroupThread){
+      if(contactPhotoHolder != null){
+        contactPhotoHolder.setVisibility(GONE);
+      }
+      groupSenderHolder.setVisibility(GONE);
+    }
+
   }
 
   private void setMessageShape(@NonNull MessageRecord current, @NonNull Optional<MessageRecord> previous, @NonNull Optional<MessageRecord> next, boolean isGroupThread) {

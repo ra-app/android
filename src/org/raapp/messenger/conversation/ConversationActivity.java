@@ -197,6 +197,7 @@ import org.raapp.messenger.util.ExpirationUtil;
 import org.raapp.messenger.util.GroupUtil;
 import org.raapp.messenger.util.IdentityUtil;
 import org.raapp.messenger.util.MediaUtil;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.ServiceUtil;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.TextSecurePreferences.MediaKeyboardMode;
@@ -1980,6 +1981,8 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
             composePanel.setVisibility(View.GONE);
             makeDefaultSmsButton.setVisibility(View.VISIBLE);
             registerButton.setVisibility(View.GONE);
+        } else if(!RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())) {
+            composePanel.setVisibility(View.GONE);
         } else {
             composePanel.setVisibility(View.VISIBLE);
             unblockButton.setVisibility(View.GONE);

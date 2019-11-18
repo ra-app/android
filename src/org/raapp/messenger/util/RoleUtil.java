@@ -12,12 +12,15 @@ public final class RoleUtil {
     public static boolean isAdminInCompany(Context context, String companyId) {
         String role = "";
         List<CompanyRoleDTO> companyRoleDTOS = CompanyRolePreferenceUtil.getCompanyRolList(context);
-        for (CompanyRoleDTO companyRoleDTO: companyRoleDTOS) {
-            if (companyRoleDTO.getCompanyId().equals(companyId)) {
-                role = companyRoleDTO.getRole();
+        if(companyRoleDTOS != null){
+            for (CompanyRoleDTO companyRoleDTO: companyRoleDTOS) {
+                if (companyRoleDTO.getCompanyId().equals(companyId)) {
+                    role = companyRoleDTO.getRole();
+                }
             }
+            Log.i("Role", "" + role);
+
         }
-        Log.i("Role", "" + role);
         return "admin".equalsIgnoreCase(role);
     }
 }
