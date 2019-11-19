@@ -633,7 +633,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
             if (isSecureText) inflater.inflate(R.menu.conversation_callable_secure, menu);
             else inflater.inflate(R.menu.conversation_callable_insecure, menu);
         } else if (isGroupConversation()) {
-            inflater.inflate(R.menu.conversation_group_options, menu);
+
+
+            //inflater.inflate(R.menu.conversation_group_options, menu); //members icon
 
             if (!isPushGroupConversation()) {
                 inflater.inflate(R.menu.conversation_mms_group_options, menu);
@@ -643,7 +645,10 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                     menu.findItem(R.id.menu_distribution_conversation).setChecked(true);
                 }
             } else if (isActiveGroup()) {
-                inflater.inflate(R.menu.conversation_push_group_options, menu);
+                if(RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())){ //is ADMIN
+                    inflater.inflate(R.menu.conversation_push_group_options_edit, menu);
+                }
+                inflater.inflate(R.menu.conversation_push_group_options_leave, menu);
             }
         }
 
@@ -1981,7 +1986,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
             composePanel.setVisibility(View.GONE);
             makeDefaultSmsButton.setVisibility(View.VISIBLE);
             registerButton.setVisibility(View.GONE);
-        } else if(!RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())) {
+        } else if(!RoleUtil.isAdminInCompany(this, recipient.getAddress().toString()) && this.isGroupConversation()) {
             composePanel.setVisibility(View.GONE);
         } else {
             composePanel.setVisibility(View.VISIBLE);

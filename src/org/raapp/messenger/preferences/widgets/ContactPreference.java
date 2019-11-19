@@ -19,6 +19,9 @@ public class ContactPreference extends Preference {
   private ImageView editButton;
 
   private Listener listener;
+  private boolean isBroadcastGroup;
+  private boolean isAdmin;
+
   private boolean secure;
 
   public ContactPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
@@ -56,6 +59,15 @@ public class ContactPreference extends Preference {
 
     if (listener != null) setListener(listener);
     setSecure(secure);
+
+    if(isBroadcastGroup){
+      if(isAdmin){
+        this.initGroupAdminView();
+      }else{
+        this.initGroupUserView();
+      }
+
+    }
   }
 
   public void setSecure(boolean secure) {
@@ -77,6 +89,23 @@ public class ContactPreference extends Preference {
     if (callButton != null)       callButton.setColorFilter(color, PorterDuff.Mode.SRC_IN);
     if (editButton != null)       editButton.setColorFilter(color, PorterDuff.Mode.SRC_IN);
   }
+
+  public void initGroupAdminView(){
+    this.isBroadcastGroup = true;
+    this.isAdmin = true;
+    if (messageButton != null)    messageButton.setVisibility(View.GONE);
+    if (callButton != null)       callButton.setVisibility(View.GONE);
+    if (editButton != null)       editButton.setVisibility(View.VISIBLE);
+  }
+
+  public void initGroupUserView(){
+    this.isBroadcastGroup = true;
+    this.isAdmin = false;
+    if (messageButton != null)    messageButton.setVisibility(View.GONE);
+    if (callButton != null)       callButton.setVisibility(View.GONE);
+    if (editButton != null)       editButton.setVisibility(View.GONE);
+  }
+
 
   public void setListener(Listener listener) {
     this.listener = listener;
