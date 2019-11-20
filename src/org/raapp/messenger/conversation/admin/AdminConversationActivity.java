@@ -3,6 +3,7 @@ package org.raapp.messenger.conversation.admin;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.widget.Toolbar;
@@ -15,6 +16,10 @@ import org.raapp.messenger.ConversationListArchiveActivity;
 import org.raapp.messenger.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
 import org.raapp.messenger.RecipientPreferenceActivity;
+import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.datamodel.Request.RequestTicket;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
+import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.conversation.ConversationTitleView;
 import org.raapp.messenger.logging.Log;
 import org.raapp.messenger.mms.GlideApp;
@@ -25,6 +30,13 @@ import org.raapp.messenger.util.DynamicLanguage;
 import org.raapp.messenger.util.DynamicNoActionBarTheme;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.Util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class AdminConversationActivity extends PassphraseRequiredActionBarActivity implements RecipientModifiedListener {
 
@@ -88,10 +100,6 @@ public class AdminConversationActivity extends PassphraseRequiredActionBarActivi
         viewPager = findViewById(R.id.vp_admin_conversation);
 
         titleView.setOnClickListener(v -> handleConversationSettings());
-
-        pageAdapter = new AdminPageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
-        viewPager.setAdapter(pageAdapter);
-        tabLayout.setupWithViewPager(viewPager);
     }
 
     private void initializeResources() {
@@ -101,6 +109,16 @@ public class AdminConversationActivity extends PassphraseRequiredActionBarActivi
         glideRequests = GlideApp.with(this);
 
         recipient.addListener(this);
+
+        List<AdminConversationFragment> fragments = new ArrayList<>();
+        fragments.add(AdminConversationFragment.newInstance(0, recipient.getAddress().toString()));
+        fragments.add(AdminConversationFragment.newInstance(1, recipient.getAddress().toString()));
+        fragments.add(AdminConversationFragment.newInstance(2, recipient.getAddress().toString()));
+
+        pageAdapter = new AdminPageAdapter(getSupportFragmentManager(), fragments);
+        viewPager.setAdapter(pageAdapter);
+        viewPager.setOffscreenPageLimit(fragments.size());
+        tabLayout.setupWithViewPager(viewPager);
     }
 
     @Override

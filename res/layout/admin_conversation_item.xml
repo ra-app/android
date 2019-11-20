@@ -1,78 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <org.raapp.messenger.components.AvatarImageView
-        android:id="@+id/contact_photo_image"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="10dp"
-        android:clickable="true"
-        android:contentDescription="@string/conversation_list_item_view__contact_photo_image"
-        android:cropToPadding="true"
-        android:foreground="@drawable/contact_photo_background"
-        android:transitionName="contact_photo"
-        app:inverted="true"
-        tools:src="@drawable/ic_contact_picture" />
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
 
     <LinearLayout
-        android:id="@+id/content"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/contact_photo_image"
-        android:orientation="vertical">
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@color/blue_50"
+        android:orientation="horizontal">
 
-        <org.raapp.messenger.components.emoji.EmojiTextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:drawablePadding="5dp"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:maxLines="1"
-            android:transitionName="recipient_name"
-            tools:ignore="UnusedAttribute"
-            android:text="Contact name" />
+        <org.raapp.messenger.components.AvatarImageView
+            android:id="@+id/contact_photo_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/conversation_list_item_view__contact_photo_image"
+            android:cropToPadding="true"
+            android:foreground="@drawable/contact_photo_background"
+            android:transitionName="contact_photo"
+            app:inverted="true"
+            tools:src="@drawable/ic_contact_picture" />
 
-        <org.raapp.messenger.components.emoji.EmojiTextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:drawablePadding="5dp"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:maxLines="1"
-            android:transitionName="recipient_name"
-            tools:ignore="UnusedAttribute"
-            android:text="Ticket name" />
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-        <org.raapp.messenger.components.emoji.EmojiTextView
+            <org.raapp.messenger.components.emoji.EmojiTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="Contact name"
+                android:textColor="@color/ra_text_dark"
+                android:textSize="18sp"
+                android:transitionName="recipient_name"
+                tools:ignore="UnusedAttribute" />
+
+            <org.raapp.messenger.components.emoji.EmojiTextView
+                android:id="@+id/ticket_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="Ticket name"
+                android:textAllCaps="true"
+                android:textColor="@color/ra_text_dark"
+                android:textStyle="bold"
+                android:transitionName="recipient_name"
+                tools:ignore="UnusedAttribute" />
+
+            <org.raapp.messenger.components.emoji.EmojiTextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="Date"
+                android:textAllCaps="true"
+                android:textColor="@color/ra_text_dark"
+                android:transitionName="recipient_name"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_accept_invite"
+            style="@style/ra_button_gradient"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:drawablePadding="5dp"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:maxLines="1"
-            android:transitionName="recipient_name"
-            tools:ignore="UnusedAttribute"
-            android:text="Date" />
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="Ubergnehmen" />
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/content"
-        android:layout_alignParentRight="true"
-        android:text="asdads"/>
-
-</RelativeLayout>
+</FrameLayout>

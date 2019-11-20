@@ -111,6 +111,33 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
     RegistrationLockDialog.showReminderIfNecessary(this);
 
     TooltipCompat.setTooltipText(searchAction, getText(R.string.SearchToolbar_search_for_conversations_contacts_and_messages));
+
+
+    Client.buildBase(this);
+    Client.getCompanyList(new Callback<ResponseCompanyList>() {
+      @Override
+      public void onResponse(Call<ResponseCompanyList> call, Response<ResponseCompanyList> response) {
+          if (response.isSuccessful()) {
+              ResponseCompanyList resp = response.body();
+
+              if (resp != null && resp.getSuccess()) {
+                  List<CompanyRole> adminCompanyList = resp.getAdminCompanies();
+                  List<CompanyRole> clientCompanyList = resp.getClientCompanies();
+
+              } else{
+                  String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
+                  Toast.makeText(ConversationListActivity.this, errorMsg, Toast.LENGTH_LONG).show();
+              }
+          } else{
+              Toast.makeText(ConversationListActivity.this, "Server error", Toast.LENGTH_SHORT).show();
+          }
+      }
+
+      @Override
+      public void onFailure(Call<ResponseCompanyList> call, Throwable t) {
+          Toast.makeText(ConversationListActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
+      }
+    });
   }
 
   @Override

@@ -34,24 +34,7 @@
         android:layout_height="26dp"
         app:tabBackground="@drawable/tab_background_color_selector"
         app:tabIndicator="@null"
-        app:tabTextColor="@color/ra_text_dark">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="unzugewiesen"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="zugewiesen"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="geschiossen"/>
-
-    </com.google.android.material.tabs.TabLayout>
+        app:tabTextColor="@color/ra_text_dark"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_admin_conversation"

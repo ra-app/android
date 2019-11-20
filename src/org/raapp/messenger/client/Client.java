@@ -4,12 +4,14 @@ import android.content.Context;
 
 import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
+import org.raapp.messenger.client.datamodel.Request.RequestTicket;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
@@ -37,6 +39,7 @@ public class Client {
 
     public static final String ENDPOINT_BLACKBOARD = "blackboard/list/";
     public static final String ENDPOINT_BLACKBOARD_UPDATE = "blackboard/update";
+    public static final String ENDPOINT_TICKETS_GET = "tickets/get";
 
     //PARAMS && HEADERS
     public static final String GENERIC_ID = "ID";
@@ -50,6 +53,8 @@ public class Client {
 
     public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_CLIENT + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
     public static final String ENDPOINT_UPDATE_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_BLACKBOARD_UPDATE ;
+
+    public static final String ENDPOINT_GET_TICKET = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_TICKETS_GET ;
 
     public static String token;
     /*public static void cancelAll() {
@@ -101,6 +106,12 @@ public class Client {
     public static void updateBlackboardNote(Callback<ResponseNote> callback, Note note, String companyID) {
         Call<ResponseNote> updateBlackboardNoteCall = iClient.updateBlackboardNote("Basic " + token, note, companyID);
         updateBlackboardNoteCall.enqueue(callback);
+    }
+
+    // TICKETS
+    public static void getTickets(Callback<ResponseTickets> callback, RequestTicket requestTicket, String companyID) {
+        Call<ResponseTickets> responseTicketsCall = iClient.getTickets("Basic " + token, requestTicket, companyID);
+        responseTicketsCall.enqueue(callback);
     }
 
 }

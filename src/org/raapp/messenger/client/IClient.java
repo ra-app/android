@@ -2,12 +2,14 @@ package org.raapp.messenger.client;
 
 import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
+import org.raapp.messenger.client.datamodel.Request.RequestTicket;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -41,4 +43,9 @@ public interface IClient {
 
     @GET(Client.ENDPOINT_GET_COMPANY_LIST)
     Call<ResponseCompanyList> getCompanyList(@Header(Client.AUTH_HEADER) String authToken);
+
+    @POST(Client.ENDPOINT_GET_TICKET)
+    Call<ResponseTickets> getTickets(@Header(Client.AUTH_HEADER) String authToken,
+                                               @Body RequestTicket requestTicket,
+                                               @Path(Client.GENERIC_ID) String companyId);
 }
