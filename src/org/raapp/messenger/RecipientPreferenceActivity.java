@@ -81,6 +81,7 @@ import org.raapp.messenger.util.DynamicNoActionBarTheme;
 import org.raapp.messenger.util.DynamicTheme;
 import org.raapp.messenger.util.GroupUtil;
 import org.raapp.messenger.util.IdentityUtil;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.Util;
 import org.raapp.messenger.util.ViewUtil;
@@ -119,6 +120,8 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
   private ThreadPhotoRailView     threadPhotoRailView;
   private CollapsingToolbarLayout toolbarLayout;
 
+  private Recipient recipient;
+
   private LinearLayout userGroupLL;
   private LinearLayout addUserLL;
   private RecyclerView userRV;
@@ -135,7 +138,7 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
     this.glideRequests = GlideApp.with(this);
     this.address       = getIntent().getParcelableExtra(ADDRESS_EXTRA);
 
-    Recipient recipient = Recipient.from(this, address, true);
+    recipient = Recipient.from(this, address, true);
 
     initializeToolbar();
     setHeader(recipient);
@@ -269,10 +272,16 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
     userRV = findViewById(R.id.rv_user_list_preference);
     userRV.setLayoutManager(new LinearLayoutManager(this));
     Recipient recipient = Recipient.from(this, address, true);
+
     if (recipient.getAddress().isGroup()) {
       new GroupMembersAsyncTask(this, recipient).execute();
-      userGroupLL.setVisibility(View.VISIBLE);
+      if(RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())){ //is ADMIN
+        userGroupLL.setVisibility(View.VISIBLE);
+      }else{
+        userGroupLL.setVisibility(View.GONE);
+      }
     }
+
     addUserLL.setOnClickListener(v -> {
       Intent intent = new Intent(this, GroupCreateActivity
               .class);
@@ -345,8 +354,8 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
           .setOnPreferenceClickListener(new MuteClickedListener());
       this.findPreference(PREFERENCE_BLOCK)
           .setOnPreferenceClickListener(new BlockClickedListener());
-      ((ContactPreference)this.findPreference(PREFERENCE_ABOUT))
-          .setListener(new AboutNumberClickedListener());
+      ContactPreference aboutPreference = (ContactPreference)this.findPreference(PREFERENCE_ABOUT);
+      aboutPreference.setListener(new AboutNumberClickedListener());
     }
 
     @Override
@@ -439,6 +448,13 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
         if (aboutCategory      != null) aboutCategory.setVisible(false);
         if (aboutDivider       != null) aboutDivider.setVisible(false);
         if (divider            != null) divider.setVisible(false);
+
+        if(RoleUtil.isAdminInCompany(getActivity(), recipient.getAddress().toString())){ //is ADMIN
+          aboutPreference.initGroupAdminView();
+        }else{
+          aboutPreference.initGroupUserView();
+        }
+
       } else {
 
         aboutPreference.setTitle(recipient.getName());

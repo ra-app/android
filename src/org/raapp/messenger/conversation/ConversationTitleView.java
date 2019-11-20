@@ -18,6 +18,7 @@ import org.raapp.messenger.R;
 import org.raapp.messenger.components.AvatarImageView;
 import org.raapp.messenger.mms.GlideRequests;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.TextSecurePreferences;
 import org.raapp.messenger.util.ViewUtil;
 
@@ -120,7 +121,11 @@ public class ConversationTitleView extends RelativeLayout {
                                 .map(Recipient::toShortString)
                                 .collect(Collectors.joining(", ")));
 
-    this.subtitle.setVisibility(View.VISIBLE);
+    if(RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){ //is ADMIN
+      this.subtitle.setVisibility(View.VISIBLE);
+    }else{
+      this.subtitle.setVisibility(View.GONE);
+    }
   }
 
   private void setSelfTitle() {
