@@ -28,8 +28,7 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:tint="@color/red"
-            app:srcCompat="@drawable/ic_location"></ImageView>
+            app:srcCompat="@drawable/circle_pin"></ImageView>
 
         <TextView
             android:id="@+id/note_title"

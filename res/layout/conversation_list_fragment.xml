@@ -77,7 +77,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@color/textsecure_primary_alpha33"
         tools:visibility="visible">
 
         <org.raapp.messenger.components.reminder.ReminderView

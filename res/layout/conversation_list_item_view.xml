@@ -184,8 +184,7 @@
         android:id="@+id/iv_blackboard"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        app:srcCompat="@drawable/ic_pin_note"
-        android:tint="@color/primary"
+        app:srcCompat="@drawable/post_it_pin_icon"
         android:layout_width="36dp"
         android:visibility="gone"
         android:layout_height="36dp" />
