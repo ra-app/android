@@ -17,26 +17,22 @@ public class ResponseTickets extends ResponseBase {
     @Expose
     private String ticketCount;
 
+    //GETTERS && SETTERS
     public List<Ticket> getTickets() {
         return tickets;
     }
-
     public void setTickets(List<Ticket> tickets) {
         this.tickets = tickets;
     }
-
     public String getCompanyName() {
         return companyName;
     }
-
     public void setCompanyName(String companyName) {
         this.companyName = companyName;
     }
-
     public String getTicketCount() {
         return ticketCount;
     }
-
     public void setTicketCount(String ticketCount) {
         this.ticketCount = ticketCount;
     }

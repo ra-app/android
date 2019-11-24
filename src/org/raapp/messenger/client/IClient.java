@@ -9,6 +9,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import retrofit2.Call;
@@ -48,4 +49,9 @@ public interface IClient {
     Call<ResponseTickets> getTickets(@Header(Client.AUTH_HEADER) String authToken,
                                                @Body RequestTicket requestTicket,
                                                @Path(Client.GENERIC_ID) String companyId);
+
+    @POST(Client.ENDPOINT_GET_TICKET_DETAIL)
+    Call<ResponseTicketDetail> getTicketDetail(@Header(Client.AUTH_HEADER) String authToken,
+                                               @Path(Client.GENERIC_ID) String companyId,
+                                               @Path(Client.GENERIC_ID2) String ticketId);
 }
