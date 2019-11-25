@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/message_bubble_background"
+        android:backgroundTint="@color/blue_400"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sender"
+            style="@style/Signal.Text.Preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/message_bubble_horizontal_padding"
+            android:layout_marginTop="@dimen/message_bubble_top_padding"
+            android:layout_marginEnd="@dimen/message_bubble_horizontal_padding"
+            android:layout_marginBottom="@dimen/message_bubble_collapsed_footer_padding"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="?conversation_item_sent_text_secondary_color"
+            tools:text="+14152222222"
+            tools:visibility="visible" />
+
+        <org.raapp.messenger.components.emoji.EmojiTextView
+            android:id="@+id/tv_body"
+            style="@style/Signal.Text.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/message_bubble_horizontal_padding"
+            android:layout_marginTop="@dimen/message_bubble_top_padding"
+            android:layout_marginEnd="@dimen/message_bubble_horizontal_padding"
+            android:layout_marginBottom="@dimen/message_bubble_collapsed_footer_padding"
+            android:ellipsize="end"
+            android:textColor="?conversation_item_sent_text_secondary_color"
+            android:textColorLink="?conversation_item_sent_text_secondary_color"
+            app:emoji_maxLength="1000"
+            app:scaleEmojis="true"
+            tools:text="Mango pickle lorem ipsum" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/Signal.Text.Caption.MessageSent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/message_bubble_horizontal_padding"
+            android:layout_marginTop="@dimen/message_bubble_top_padding"
+            android:layout_marginEnd="@dimen/message_bubble_horizontal_padding"
+            android:layout_marginBottom="@dimen/message_bubble_collapsed_footer_padding"
+            android:autoLink="none"
+            android:linksClickable="false"
+            android:textAllCaps="true"
+            android:textColor="?conversation_item_sent_text_secondary_color"
+            tools:text="30 mins" />
+
+    </LinearLayout>
+
+</LinearLayout>

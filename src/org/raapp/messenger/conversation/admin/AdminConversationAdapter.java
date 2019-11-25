@@ -16,7 +16,10 @@ import org.raapp.messenger.util.ViewUtil;
 import java.util.List;
 
 
-public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversationAdapter.ViewHolder> {
+public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversationAdapter.BaseViewHolder> {
+
+    private static final int HEADER_ITEM = 0;
+    private static final int CHAT_ITEM = 1;
 
     private Context context;
     private List<Ticket> tickets;
@@ -28,18 +31,34 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public BaseViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = ViewUtil.inflate(LayoutInflater.from(context), parent, R.layout.admin_conversation_item);
+        if (viewType == HEADER_ITEM) {
+            return new ViewHolder(view);
+        } else if (viewType == CHAT_ITEM) {
+            view = ViewUtil.inflate(LayoutInflater.from(context), parent, R.layout.admin_conversation_message_item);
+            return new ChatViewHolder(view);
+        }
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull BaseViewHolder holder, int position) {
         Ticket ticket = tickets.get(position);
 
-        holder.name.setText(ticket.getName() != null ? ticket.getName() : "Unknown");
-        holder.ticketName.setText(ticket.getName() != null ? ticket.getName() : "Unknown");
-        holder.date.setText(ticket.getTsCreated() != null ? ticket.getTsCreated() : "Unknown");
+        if (getItemViewType(position) == HEADER_ITEM) {
+            ((ViewHolder)holder).name.setText(ticket.getName() != null ? ticket.getName() : "Unknown");
+            ((ViewHolder)holder).ticketName.setText(ticket.getName() != null ? ticket.getName() : "Unknown");
+            ((ViewHolder)holder).date.setText(ticket.getTsCreated() != null ? ticket.getTsCreated() : "Unknown");
+        } else if (getItemViewType(position) == CHAT_ITEM) {
+            //TODO: Bind data to chat item here
+            //if (isSent()) {
+            //
+            // } else {
+            //
+            // }
+            ViewUtil.updateLayoutParams(((ChatViewHolder) holder).itemView, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        }
     }
 
     @Override
@@ -47,15 +66,50 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
         return tickets != null ? tickets.size() : 0;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    @Override
+    public int getItemViewType(int position) {
+        if (position == 1) {
+            return HEADER_ITEM;
+        }
+        return CHAT_ITEM;
+    }
+
+    public static void setMargins (View v, int l, int t, int r, int b) {
+        if (v.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
+            ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
+            p.setMargins(l, t, r, b);
+            v.requestLayout();
+        }
+    }
+
+    class BaseViewHolder extends RecyclerView.ViewHolder {
+
+        BaseViewHolder(@NonNull View itemView) {
+            super(itemView);
+        }
+    }
+
+    public class ViewHolder extends BaseViewHolder {
 
         TextView name, ticketName, date;
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.name);
             ticketName = itemView.findViewById(R.id.ticket_name);
             date = itemView.findViewById(R.id.date);
+        }
+    }
+
+    public class ChatViewHolder extends BaseViewHolder {
+
+        TextView sender, body, date;
+
+        ChatViewHolder(@NonNull View itemView) {
+            super(itemView);
+            sender = itemView.findViewById(R.id.tv_sender);
+            body = itemView.findViewById(R.id.tv_body);
+            date = itemView.findViewById(R.id.tv_date);
         }
     }
 }
