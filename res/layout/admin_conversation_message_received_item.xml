@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.raapp.messenger.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/gray10">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/ll_bubble"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/message_bubble_background"
-        android:backgroundTint="@color/blue_400"
+        android:backgroundTint="@color/blue_100"
         android:orientation="vertical">
 
         <TextView
@@ -29,8 +32,8 @@
             android:ellipsize="end"
             android:fontFamily="sans-serif-medium"
             android:maxLines="1"
-            android:textColor="?conversation_item_sent_text_secondary_color"
-            tools:text="+14152222222"
+            android:text="+14152222222"
+            android:textColor="@color/primary"
             tools:visibility="visible" />
 
         <org.raapp.messenger.components.emoji.EmojiTextView
@@ -43,11 +46,11 @@
             android:layout_marginEnd="@dimen/message_bubble_horizontal_padding"
             android:layout_marginBottom="@dimen/message_bubble_collapsed_footer_padding"
             android:ellipsize="end"
-            android:textColor="?conversation_item_sent_text_secondary_color"
-            android:textColorLink="?conversation_item_sent_text_secondary_color"
+            android:text="Mango pickle lorem ipsum ahdja"
+            android:textColor="?conversation_item_received_text_primary_color"
+            android:textColorLink="?conversation_item_received_text_primary_color"
             app:emoji_maxLength="1000"
-            app:scaleEmojis="true"
-            tools:text="Mango pickle lorem ipsum" />
+            app:scaleEmojis="true" />
 
         <TextView
             android:id="@+id/tv_date"
@@ -60,10 +63,10 @@
             android:layout_marginBottom="@dimen/message_bubble_collapsed_footer_padding"
             android:autoLink="none"
             android:linksClickable="false"
+            android:text="30 mins"
             android:textAllCaps="true"
-            android:textColor="?conversation_item_sent_text_secondary_color"
-            tools:text="30 mins" />
+            android:textColor="?conversation_item_received_text_primary_color" />
 
     </LinearLayout>
 
-</LinearLayout>
+</org.raapp.messenger.conversation.ConversationItem>

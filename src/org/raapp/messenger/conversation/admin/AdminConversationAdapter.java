@@ -36,7 +36,7 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
         if (viewType == HEADER_ITEM) {
             return new ViewHolder(view);
         } else if (viewType == CHAT_ITEM) {
-            view = ViewUtil.inflate(LayoutInflater.from(context), parent, R.layout.admin_conversation_message_item);
+            view = ViewUtil.inflate(LayoutInflater.from(context), parent, R.layout.admin_conversation_message_sent_item);
             return new ChatViewHolder(view);
         }
         return new ViewHolder(view);
@@ -74,14 +74,6 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
         return CHAT_ITEM;
     }
 
-    public static void setMargins (View v, int l, int t, int r, int b) {
-        if (v.getLayoutParams() instanceof ViewGroup.MarginLayoutParams) {
-            ViewGroup.MarginLayoutParams p = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
-            p.setMargins(l, t, r, b);
-            v.requestLayout();
-        }
-    }
-
     class BaseViewHolder extends RecyclerView.ViewHolder {
 
         BaseViewHolder(@NonNull View itemView) {
@@ -103,6 +95,7 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
 
     public class ChatViewHolder extends BaseViewHolder {
 
+        View viewLeft, viewRight;
         TextView sender, body, date;
 
         ChatViewHolder(@NonNull View itemView) {
