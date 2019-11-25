@@ -13,6 +13,9 @@ public class Note {
     @SerializedName("content")
     @Expose
     private String content;
+    @SerializedName("note_type")
+    @Expose
+    private String noteType;
     @SerializedName("company_id")
     @Expose
     private Integer companyId;
@@ -38,6 +41,12 @@ public class Note {
     }
     public void setContent(String content) {
         this.content = content;
+    }
+    public String getNoteType() {
+        return noteType;
+    }
+    public void setNoteType(String noteType) {
+        this.noteType = noteType;
     }
     public Integer getCompanyId() {
         return companyId;
