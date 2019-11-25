@@ -93,7 +93,7 @@ public class AdminConversationFragment extends Fragment {
 
                     if (resp != null && resp.getSuccess()) {
                         List<Ticket> tickets = resp.getTickets();
-                        adapter = new AdminConversationAdapter(getContext(), tickets);
+                        adapter = new AdminConversationAdapter(getContext(), new ArrayList<>(tickets));
                         conversationRV.setAdapter(adapter);
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
