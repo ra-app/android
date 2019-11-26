@@ -5,8 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 import org.raapp.messenger.client.datamodel.Note;
 
-import java.util.List;
-
 public class ResponseNote extends ResponseBase {
     @SerializedName("note")
     @Expose

@@ -11,24 +11,22 @@ public class ResponseCompanyList extends ResponseBase {
 
     @SerializedName("client")
     @Expose
-    List<CompanyRole> clientCompanies;
+    private List<CompanyRole> clientCompanies;
 
     @SerializedName("admin")
     @Expose
-    List<CompanyRole> adminCompanies;
+    private List<CompanyRole> adminCompanies;
+
 
     public List<CompanyRole> getClientCompanies() {
         return clientCompanies;
     }
-
     public void setClientCompanies(List<CompanyRole> clientCompanies) {
         this.clientCompanies = clientCompanies;
     }
-
     public List<CompanyRole> getAdminCompanies() {
         return adminCompanies;
     }
-
     public void setAdminCompanies(List<CompanyRole> adminCompanies) {
         this.adminCompanies = adminCompanies;
     }

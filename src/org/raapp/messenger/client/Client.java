@@ -11,6 +11,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import okhttp3.OkHttpClient;
@@ -23,26 +24,26 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class Client {
 
+    //BASE STRINGS
     public static final String BASE_URL = "https://luydm9sd26.execute-api.eu-central-1.amazonaws.com/";
-
     public static final String ENDPOINT_BASE_VERSION_1 = "latest/api/v1/";
     public static final String ENDPOINT_BASE_VERSION_2 = "latest/api/v2/";
-
     public static final String ENDPOINT_BASE_CLIENT = "client/";
     public static final String ENDPOINT_BASE_ADMIN = "admin/";
 
-
-
+    //BASE ENDPOINTS
     public static final String ENDPOINT_COMPANIES = "companies/";
     public static final String ENDPOINT_CLIENT = "client/";
     public static final String ENDPOINT_INBOX = "inbox/";
-
     public static final String ENDPOINT_BLACKBOARD = "blackboard/list/";
     public static final String ENDPOINT_BLACKBOARD_UPDATE = "blackboard/update";
+
     public static final String ENDPOINT_TICKETS_GET = "tickets/get";
+    public static final String ENDPOINT_TICKETS_DETAILS = "tickets/details";
 
     //PARAMS && HEADERS
     public static final String GENERIC_ID = "ID";
+    public static final String GENERIC_ID2 = "ID2";
     public static final String AUTH_HEADER = "Authorization";
 
     //FINAL ENDPOINTS
@@ -50,20 +51,22 @@ public class Client {
     public static final String ENDPOINT_GET_COMPANY_LIST = ENDPOINT_BASE_VERSION_1 + ENDPOINT_CLIENT + ENDPOINT_COMPANIES;
     public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "code/{" + GENERIC_ID + "}";
     public static final String ENDPOINT_SEND_MESSAGE = ENDPOINT_BASE_VERSION_2 + ENDPOINT_INBOX;
-
+        //BLACKBOARD
     public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_CLIENT + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
     public static final String ENDPOINT_UPDATE_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_BLACKBOARD_UPDATE ;
-
+        //TICKETS
     public static final String ENDPOINT_GET_TICKET = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_TICKETS_GET ;
+    public static final String ENDPOINT_GET_TICKET_DETAIL = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_TICKETS_DETAILS + "{" + GENERIC_ID2 + "}";
 
     public static String token;
+
+    //UTIL
     /*public static void cancelAll() {
         if (retrofit != null) {
             OkHttpClient okHttpClient = (OkHttpClient) retrofit.callFactory();
             okHttpClient.dispatcher().cancelAll();
         }
     }*/
-
     public static void buildBase(Context context) {
         token = context.getSharedPreferences("ra-preferences", MODE_PRIVATE).getString("office_app_token", "");
     }
@@ -112,6 +115,10 @@ public class Client {
     public static void getTickets(Callback<ResponseTickets> callback, RequestTicket requestTicket, String companyID) {
         Call<ResponseTickets> responseTicketsCall = iClient.getTickets("Basic " + token, requestTicket, companyID);
         responseTicketsCall.enqueue(callback);
+    }
+    public static void getTicketDetail(Callback<ResponseTicketDetail> callback, String companyID, String ticketId ) {
+        Call<ResponseTicketDetail> responseTicketDetailCall = iClient.getTicketDetail("Basic " + token, companyID, ticketId);
+        responseTicketDetailCall.enqueue(callback);
     }
 
 }

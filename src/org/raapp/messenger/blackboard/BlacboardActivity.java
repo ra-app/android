@@ -126,6 +126,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         glideRequests = GlideApp.with(this);
         titleView.setTitle(glideRequests, recipient);
 
+        progressBar.setVisibility(View.VISIBLE);
         Client.buildBase(this);
         Client.getBlackboard(new Callback<ResponseBlackboardList>() {
             @Override
