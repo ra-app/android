@@ -79,9 +79,10 @@ public class LongMessageActivity extends PassphraseRequiredActionBarActivity imp
 
     Recipient conversationRecipient = Recipient.from(this, Address.fromSerialized(getIntent().getStringExtra(KEY_ADDRESS)), true);
     conversationRecipient.addListener(this);
-    updateActionBarColor(conversationRecipient.getColor());
+    //updateActionBarColor(conversationRecipient.getColor());
 
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    getSupportActionBar().setHomeAsUpIndicator(getResources().getDrawable(R.drawable.ic_keyboard_arrow_left_white));
   }
 
   @Override
@@ -143,11 +144,11 @@ public class LongMessageActivity extends PassphraseRequiredActionBarActivity imp
 
       if (message.get().getMessageRecord().isOutgoing()) {
         bubble = sentBubble.get();
-        bubble.getBackground().setColorFilter(ThemeUtil.getThemedColor(this, R.attr.conversation_item_bubble_background), PorterDuff.Mode.MULTIPLY);
       } else {
         bubble = receivedBubble.get();
-        bubble.getBackground().setColorFilter(message.get().getMessageRecord().getRecipient().getColor().toConversationColor(this), PorterDuff.Mode.MULTIPLY);
       }
+
+      bubble.getBackground().setColorFilter(ThemeUtil.getThemedColor(this, R.attr.conversation_item_bubble_background), PorterDuff.Mode.MULTIPLY);
 
       TextView               text   = bubble.findViewById(R.id.longmessage_text);
       ConversationItemFooter footer = bubble.findViewById(R.id.longmessage_footer);

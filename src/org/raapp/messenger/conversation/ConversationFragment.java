@@ -93,6 +93,7 @@ import org.raapp.messenger.sms.OutgoingTextMessage;
 import org.raapp.messenger.stickers.StickerLocator;
 import org.raapp.messenger.stickers.StickerPackPreviewActivity;
 import org.raapp.messenger.util.CommunicationActions;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.SaveAttachmentTask;
 import org.raapp.messenger.util.StickyHeaderDecoration;
 import org.raapp.messenger.util.TextSecurePreferences;
@@ -391,6 +392,11 @@ public class ConversationFragment extends Fragment
                                                         !messageRecord.isPending() &&
                                                         !messageRecord.isFailed()  &&
                                                         messageRecord.isSecure());
+
+      if(recipient.isGroupRecipient()){
+        menu.findItem(R.id.menu_context_reply).setVisible(false);
+      }
+
     }
     menu.findItem(R.id.menu_context_copy).setVisible(!actionMessage && hasText);
   }

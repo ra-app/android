@@ -722,7 +722,13 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                 searchView.setOnQueryTextListener(null);
                 searchViewModel.onSearchClosed();
                 searchNav.setVisibility(View.GONE);
-                inputPanel.setVisibility(View.VISIBLE);
+
+                if( ConversationActivity.this.isGroupConversation() && !RoleUtil.isAdminInCompany(ConversationActivity.this, recipient.getAddress().toString())) {
+                    inputPanel.setVisibility(View.GONE); // NOT SHOW to Broadcast normal users
+                }else{
+                    inputPanel.setVisibility(View.VISIBLE);
+                }
+
                 fragment.onSearchQueryUpdated(null);
                 invalidateOptionsMenu();
                 return true;

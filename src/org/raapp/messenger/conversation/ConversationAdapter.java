@@ -47,6 +47,7 @@ import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.util.Conversions;
 import org.raapp.messenger.util.DateUtils;
 import org.raapp.messenger.util.LRUCache;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.StickyHeaderDecoration;
 import org.raapp.messenger.util.Util;
 import org.raapp.messenger.util.ViewUtil;
@@ -224,6 +225,12 @@ public class ConversationAdapter <V extends View & BindableConversationItem>
     });
     itemView.setOnLongClickListener(view -> {
       if (clickListener != null) {
+
+        // Disable select message for normal user in broadcast
+        if(recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){
+          return true;
+        }
+
         clickListener.onItemLongClick(itemView.getMessageRecord());
       }
       return true;
