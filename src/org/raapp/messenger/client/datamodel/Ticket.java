@@ -39,6 +39,8 @@ public class Ticket {
     @Expose
     private String tsClosed;
 
+    private boolean isExpanded = false;
+
     //GETTERS && SETTERS
     public String getUuid() {
         return uuid;
@@ -105,5 +107,13 @@ public class Ticket {
     }
     public void setTsClosed(String tsClosed) {
         this.tsClosed = tsClosed;
+    }
+
+    public boolean isExpanded() {
+        return isExpanded;
+    }
+
+    public void setExpanded(boolean expanded) {
+        isExpanded = expanded;
     }
 }

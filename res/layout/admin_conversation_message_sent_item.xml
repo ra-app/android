@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.raapp.messenger.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/gray10">
+    android:background="@color/white">
 
     <LinearLayout
         android:id="@+id/ll_bubble"
@@ -36,7 +36,7 @@
             android:textColor="?conversation_item_sent_text_secondary_color"
             tools:visibility="visible" />
 
-        <org.raapp.messenger.components.emoji.EmojiTextView
+        <TextView
             android:id="@+id/tv_body"
             style="@style/Signal.Text.Body"
             android:layout_width="wrap_content"
@@ -48,9 +48,7 @@
             android:ellipsize="end"
             android:text="Mango pickle lorem ipsum ahdja"
             android:textColor="?conversation_item_sent_text_secondary_color"
-            android:textColorLink="?conversation_item_sent_text_secondary_color"
-            app:emoji_maxLength="1000"
-            app:scaleEmojis="true" />
+            android:textColorLink="?conversation_item_sent_text_secondary_color" />
 
         <TextView
             android:id="@+id/tv_date"
@@ -69,4 +67,4 @@
 
     </LinearLayout>
 
-</org.raapp.messenger.conversation.ConversationItem>
+</LinearLayout>
