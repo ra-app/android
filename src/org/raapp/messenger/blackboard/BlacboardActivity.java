@@ -289,7 +289,6 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
         textView.setBackground(drawable);
         textView.setTextSize(18);
-        textView.setTextColor(getResources().getColor(R.color.primary));
         textView.setGravity(Gravity.TOP | Gravity.START);
     }
 
