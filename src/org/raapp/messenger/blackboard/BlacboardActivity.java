@@ -70,6 +70,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
     private boolean isNoteUpdated = false;
     private Menu menu;
     private List<Object> notes;
+    private List<Object> emptyNotes;
 
 
     @Override
@@ -118,6 +119,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         noteDate = mNoteDetailView.findViewById(R.id.note_date);
 
         notes = new ArrayList<>();
+        emptyNotes = new ArrayList<>();
 
         toTextView(noteTitle);
         toTextView(noteBody);
@@ -138,8 +140,20 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                 if (response.isSuccessful()) {
                     ResponseBlackboardList resp = response.body();
                     if (resp != null && resp.getSuccess()) {
+                        notes.clear();
                         notes.addAll(resp.getNote());
-                        notes.add(new Object());
+                        for (Object note : notes) {
+                            if (((Note)note).getTitle().isEmpty() || ((Note)note).getContent().isEmpty()) {
+                                emptyNotes.add(note);
+                            }
+                        }
+                        notes.removeAll(emptyNotes);
+
+                        if (RoleUtil.isAdminInCompany(BlacboardActivity.this, recipient.getAddress().toString()) &&
+                            emptyNotes.size() > 0) {
+                            notes.add(new Object());
+                        }
+
                         if (notes != null) {
                             mAdapter = new BlackboardAdapter(BlacboardActivity.this, new ArrayList<>(notes));
                             mRecyclerView.setAdapter(mAdapter);
@@ -169,7 +183,6 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     @Override
     public void onNoteClick(Object object) {
-
         selectedNote = (Note) object;
         noteTitle.setText(selectedNote.getTitle());
         noteBody.setText(selectedNote.getContent());
@@ -194,7 +207,10 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     @Override
     public void onAddNoteClick() {
-        // TODO: ADD Request to add a note
+        if (emptyNotes.size() >  0) {
+            selectedNote = (Note)emptyNotes.get(0);
+            onNoteClick(selectedNote);
+        }
     }
 
     private void editNoteClick() {
