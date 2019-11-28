@@ -264,7 +264,6 @@ public class ConversationFragment extends Fragment
       ConversationAdapter adapter = new ConversationAdapter(getActivity(), GlideApp.with(this), locale, selectionClickListener, null, this.recipient);
       list.setAdapter(adapter);
       list.addItemDecoration(new StickyHeaderDecoration(adapter, false, false));
-
       setLastSeen(lastSeen);
       getLoaderManager().restartLoader(0, Bundle.EMPTY, this);
     }
