@@ -26,6 +26,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.annimon.stream.Stream;
@@ -195,23 +196,30 @@ public class ConversationAdapter <V extends View & BindableConversationItem>
 
   @Override
   protected void onBindItemViewHolder(ViewHolder viewHolder, @NonNull MessageRecord messageRecord) {
-    int           adapterPosition = viewHolder.getAdapterPosition();
-    MessageRecord previousRecord  = adapterPosition < getItemCount() - 1 && !isFooterPosition(adapterPosition + 1) ? getRecordForPositionOrThrow(adapterPosition + 1) : null;
-    MessageRecord nextRecord      = adapterPosition > 0 && !isHeaderPosition(adapterPosition - 1) ? getRecordForPositionOrThrow(adapterPosition - 1) : null;
+      int           adapterPosition = viewHolder.getAdapterPosition();
+      MessageRecord previousRecord  = adapterPosition < getItemCount() - 1 && !isFooterPosition(adapterPosition + 1) ? getRecordForPositionOrThrow(adapterPosition + 1) : null;
+      MessageRecord nextRecord      = adapterPosition > 0 && !isHeaderPosition(adapterPosition - 1) ? getRecordForPositionOrThrow(adapterPosition - 1) : null;
 
-    viewHolder.getView().bind(messageRecord,
-                              Optional.fromNullable(previousRecord),
-                              Optional.fromNullable(nextRecord),
-                              glideRequests,
-                              locale,
-                              batchSelected,
-                              recipient,
-                              searchQuery,
-                              messageRecord == recordToPulseHighlight);
+      viewHolder.getView().bind(messageRecord,
+              Optional.fromNullable(previousRecord),
+              Optional.fromNullable(nextRecord),
+              glideRequests,
+              locale,
+              batchSelected,
+              recipient,
+              searchQuery,
+              messageRecord == recordToPulseHighlight);
 
-    if (messageRecord == recordToPulseHighlight) {
-      recordToPulseHighlight = null;
-    }
+      if (messageRecord == recordToPulseHighlight) {
+        recordToPulseHighlight = null;
+      }
+
+      // Hide update info messages for regular user of the broadcast
+      if(messageRecord.isUpdate() && recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){
+        viewHolder.getView().setLayoutParams( new LinearLayout.LayoutParams(0, 0));
+      }
+
+
   }
 
   @Override
@@ -237,6 +245,7 @@ public class ConversationAdapter <V extends View & BindableConversationItem>
     });
     itemView.setEventListener(clickListener);
     Log.d(TAG, "Inflate time: " + (System.currentTimeMillis() - start));
+
     return new ViewHolder(itemView);
   }
 
@@ -402,6 +411,11 @@ public class ConversationAdapter <V extends View & BindableConversationItem>
     if (position < 0)               return -1;
 
     MessageRecord record = getRecordForPositionOrThrow(position);
+
+    // Remove header date for hided updated messages when user is not admin of the broadcast
+    if(record.isUpdate() && recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){
+       return -1;
+    }
 
     calendar.setTime(new Date(record.getDateSent()));
     return Util.hashCode(calendar.get(Calendar.YEAR), calendar.get(Calendar.DAY_OF_YEAR));

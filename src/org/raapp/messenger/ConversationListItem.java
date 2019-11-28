@@ -46,6 +46,7 @@ import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.recipients.RecipientModifiedListener;
 import org.raapp.messenger.search.model.MessageResult;
 import org.raapp.messenger.util.DateUtils;
+import org.raapp.messenger.util.RoleUtil;
 import org.raapp.messenger.util.SearchUtil;
 import org.raapp.messenger.util.ThemeUtil;
 import org.raapp.messenger.util.Util;
@@ -176,6 +177,15 @@ public class ConversationListItem extends RelativeLayout
       this.subjectView.setTypeface(unreadCount == 0 ? LIGHT_TYPEFACE : BOLD_TYPEFACE);
       this.subjectView.setTextColor(unreadCount == 0 ? ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_subject_color)
                                                      : ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_unread_color));
+
+      //TODO: hide updated messages in broadcast for regular user; Check thread.getDisplayBody alternative to get message type. Only show regular messages
+     /* if(recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){
+        subjectView.setVisibility(GONE);
+      }else {
+        subjectView.setVisibility(VISIBLE);
+      }
+      */
+
     }
 
     if (thread.getDate() > 0) {

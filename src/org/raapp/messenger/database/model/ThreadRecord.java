@@ -120,6 +120,8 @@ public class ThreadRecord extends DisplayRecord {
     }
   }
 
+
+
   private SpannableString emphasisAdded(String sequence) {
     return emphasisAdded(sequence, 0, sequence.length());
   }
