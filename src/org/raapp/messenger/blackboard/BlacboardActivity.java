@@ -36,6 +36,7 @@ import org.raapp.messenger.util.RoleUtil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -68,6 +69,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
     private TextView noteDate;
     private boolean isNoteUpdated = false;
     private Menu menu;
+    private List<Object> notes;
 
 
     @Override
@@ -115,6 +117,8 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         noteBody = mNoteDetailView.findViewById(R.id.note_body);
         noteDate = mNoteDetailView.findViewById(R.id.note_date);
 
+        notes = new ArrayList<>();
+
         toTextView(noteTitle);
         toTextView(noteBody);
 
@@ -134,9 +138,10 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                 if (response.isSuccessful()) {
                     ResponseBlackboardList resp = response.body();
                     if (resp != null && resp.getSuccess()) {
-                        List<Note> notes = resp.getNote();
+                        notes.addAll(resp.getNote());
+                        notes.add(new Object());
                         if (notes != null) {
-                            mAdapter = new BlackboardAdapter(BlacboardActivity.this, notes);
+                            mAdapter = new BlackboardAdapter(BlacboardActivity.this, new ArrayList<>(notes));
                             mRecyclerView.setAdapter(mAdapter);
                         }
                     }
@@ -185,6 +190,11 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
         showNoteDetail();
         initRole();
+    }
+
+    @Override
+    public void onAddNoteClick() {
+        // TODO: ADD Request to add a note
     }
 
     private void editNoteClick() {
