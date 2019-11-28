@@ -50,7 +50,7 @@ public interface IClient {
                                                @Body RequestTicket requestTicket,
                                                @Path(Client.GENERIC_ID) String companyId);
 
-    @POST(Client.ENDPOINT_GET_TICKET_DETAIL)
+    @GET(Client.ENDPOINT_GET_TICKET_DETAIL)
     Call<ResponseTicketDetail> getTicketDetail(@Header(Client.AUTH_HEADER) String authToken,
                                                @Path(Client.GENERIC_ID) String companyId,
                                                @Path(Client.GENERIC_ID2) String ticketId);
