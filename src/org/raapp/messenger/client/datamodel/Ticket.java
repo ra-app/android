@@ -3,6 +3,8 @@ package org.raapp.messenger.client.datamodel;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class Ticket {
 
     @SerializedName("uuid")
@@ -38,6 +40,9 @@ public class Ticket {
     @SerializedName("ts_closed")
     @Expose
     private String tsClosed;
+
+
+    private List<TicketEvent> ticketEvents;
 
     private boolean isExpanded = false;
 
@@ -107,6 +112,14 @@ public class Ticket {
     }
     public void setTsClosed(String tsClosed) {
         this.tsClosed = tsClosed;
+    }
+
+    public List<TicketEvent> getTicketEvents() {
+        return ticketEvents;
+    }
+
+    public void setTicketEvents(List<TicketEvent> ticketEvents) {
+        this.ticketEvents = ticketEvents;
     }
 
     public boolean isExpanded() {
