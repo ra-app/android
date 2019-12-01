@@ -1,5 +1,6 @@
 package org.raapp.messenger.conversation.admin;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -46,7 +47,8 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
     private Context context;
     private int position;
     private String address;
-    private List<Object> tickets;
+    private List<Object> tickets = new ArrayList<>();
+    private ProgressDialog progress;
 
     public static AdminConversationFragment newInstance(int position, String address) {
 
@@ -73,7 +75,6 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
         conversationRV = view.findViewById(R.id.rv_admin_conversation);
         progressBar = view.findViewById(R.id.progress_bar);
         conversationRV.setLayoutManager(new LinearLayoutManager(getContext(), RecyclerView.VERTICAL, false));
-        tickets = new ArrayList<>();
 
         return view;
     }
@@ -99,7 +100,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                     if (resp != null && resp.getSuccess()) {
                         if (resp.getTickets() != null)
                             tickets.addAll(resp.getTickets());
-                        adapter = new AdminConversationAdapter(getContext(), new ArrayList<>(tickets), AdminConversationFragment.this);
+                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this);
                         conversationRV.setAdapter(adapter);
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
@@ -121,7 +122,22 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
 
     @Override
     public void onClick(int position, String ticketId) {
-        progressBar.setVisibility(View.VISIBLE);
+        progress = ProgressDialog.show(context, "", "", true);
+
+        List <Object> removeLastEvents = new ArrayList<>();
+        int firstPos = 0;
+        for (int i = 0; i < tickets.size(); i++) {
+            Object object = tickets.get(i);
+            if (object instanceof TicketEvent) {
+                removeLastEvents.add(object);
+                if (firstPos == 0)
+                    firstPos = i;
+            }
+        }
+        tickets.removeAll(removeLastEvents);
+        if (removeLastEvents.size() > 0)
+            adapter.notifyItemRangeRemoved(firstPos, firstPos + removeLastEvents.size());
+
         Client.getTicketDetail(new Callback<ResponseTicketDetail>() {
             @Override
             public void onResponse(Call<ResponseTicketDetail> call, Response<ResponseTicketDetail> response) {
@@ -132,19 +148,21 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                         List<TicketEvent> ticketEvents = resp.getDetails().getEvents();
                         tickets.addAll(position + 1, ticketEvents);
                         tickets.add(new Object());
-                        adapter = new AdminConversationAdapter(getContext(), new ArrayList<>(tickets), AdminConversationFragment.this);
-                        conversationRV.setAdapter(adapter);
+                        adapter.notifyItemRangeInserted(position + 1, position + ticketEvents.size());
+
+                        /*adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this);
+                        conversationRV.setAdapter(adapter);*/
                     }
                 } else{
                     Toast.makeText(context, "Server error", Toast.LENGTH_SHORT).show();
                 }
-                progressBar.setVisibility(View.GONE);
+                progress.dismiss();
             }
 
             @Override
             public void onFailure(Call<ResponseTicketDetail> call, Throwable t) {
                 Toast.makeText(context, "HTTP error", Toast.LENGTH_SHORT).show();
-                progressBar.setVisibility(View.GONE);
+                progress.dismiss();
             }
         }, address, ticketId);
     }
@@ -153,8 +171,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
     public void removeRange(int fromIndex, int toIndex) {
         if (tickets != null) {
             tickets.subList(fromIndex, toIndex).clear();
-            adapter = new AdminConversationAdapter(getContext(), new ArrayList<>(tickets), AdminConversationFragment.this);
-            conversationRV.setAdapter(adapter);
+            adapter.notifyItemRangeRemoved(fromIndex, toIndex + 1);
         }
     }
 }
