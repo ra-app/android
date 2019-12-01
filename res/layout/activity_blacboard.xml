@@ -48,6 +48,7 @@
         <ScrollView
             android:id="@+id/rl_detail_pin"
             android:layout_width="match_parent"
+            android:layout_above="@+id/rg_note_type"
             android:layout_height="match_parent">
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -56,6 +57,33 @@
                 <include layout="@layout/pin_note_detail_blackboard_item"></include>
             </RelativeLayout>
         </ScrollView>
+
+        <RadioGroup
+            android:id="@+id/rg_note_type"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb_standard"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/note_type_normal"></RadioButton>
+                <RadioButton
+                    android:id="@+id/rb_calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/note_type_calendar"></RadioButton>
+
+        </RadioGroup>
 
         <ProgressBar android:id="@+id/progress_bar"
             android:layout_width="wrap_content"

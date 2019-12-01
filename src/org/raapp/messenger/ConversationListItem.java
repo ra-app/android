@@ -186,7 +186,6 @@ public class ConversationListItem extends RelativeLayout
         subjectView.setVisibility(VISIBLE);
       }
 
-
     }
 
     if (thread.getDate() > 0) {

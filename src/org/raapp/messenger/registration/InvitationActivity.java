@@ -23,6 +23,7 @@ import org.raapp.messenger.database.SmsDatabase;
 import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.sms.IncomingEncryptedMessage;
 import org.raapp.messenger.sms.IncomingTextMessage;
+import org.raapp.messenger.util.RoleUtil;
 import org.whispersystems.libsignal.util.guava.Optional;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -144,17 +145,19 @@ public class InvitationActivity extends AppCompatActivity {
         // Insert or retrieve company chat
         long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdFor(recipient);
 
-        // Insert welcoming message
-        String welcomeText = getResources().getString(R.string.welcome_to)+" "+companyName;
-        SmsDatabase database  =  DatabaseFactory.getSmsDatabase(this);
-        IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(this, recipient.getAddress().toString()),
-                0,
-                System.currentTimeMillis(), welcomeText,
-                Optional.absent(),
-                0,
-                false);
-        textMessage = new IncomingEncryptedMessage(textMessage, welcomeText);
-        Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+        if(!RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())){
+            // Insert welcoming message
+            String welcomeText = getResources().getString(R.string.welcome_to)+" "+companyName;
+            SmsDatabase database  =  DatabaseFactory.getSmsDatabase(this);
+            IncomingTextMessage textMessage = new IncomingTextMessage(Address.fromExternal(this, recipient.getAddress().toString()),
+                    0,
+                    System.currentTimeMillis(), welcomeText,
+                    Optional.absent(),
+                    0,
+                    false);
+            textMessage = new IncomingEncryptedMessage(textMessage, welcomeText);
+            Optional<MessagingDatabase.InsertResult> insertResult = database.insertMessageInbox(textMessage);
+        }
 
         finish();
     }
