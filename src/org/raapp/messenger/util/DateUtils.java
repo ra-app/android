@@ -24,6 +24,7 @@ import android.text.format.DateFormat;
 import org.raapp.messenger.R;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
@@ -142,5 +143,12 @@ public class DateUtils extends android.text.format.DateUtils {
 
   private static String getLocalizedPattern(String template, Locale locale) {
     return DateFormat.getBestDateTimePattern(locale, template);
+  }
+
+  public static String getDate(long time) {
+    Calendar cal = Calendar.getInstance(Locale.ENGLISH);
+    cal.setTimeInMillis(time);
+    String date = DateFormat.format("dd/MM/yyyy hh:mm", cal).toString();
+    return date;
   }
 }

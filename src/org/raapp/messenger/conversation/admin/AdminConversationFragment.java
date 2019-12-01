@@ -47,7 +47,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
     private Context context;
     private int position;
     private String address;
-    private List<Object> tickets = new ArrayList<>();
+    private List<Ticket> tickets = new ArrayList<>();
     private ProgressDialog progress;
 
     public static AdminConversationFragment newInstance(int position, String address) {
@@ -100,7 +100,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                     if (resp != null && resp.getSuccess()) {
                         if (resp.getTickets() != null)
                             tickets.addAll(resp.getTickets());
-                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this);
+                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this, tab);
                         conversationRV.setAdapter(adapter);
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
@@ -123,21 +123,6 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
     @Override
     public void onClick(int position, String ticketId) {
         progress = ProgressDialog.show(context, "", "", true);
-
-        List <Object> removeLastEvents = new ArrayList<>();
-        int firstPos = 0;
-        for (int i = 0; i < tickets.size(); i++) {
-            Object object = tickets.get(i);
-            if (object instanceof TicketEvent) {
-                removeLastEvents.add(object);
-                if (firstPos == 0)
-                    firstPos = i;
-            }
-        }
-        tickets.removeAll(removeLastEvents);
-        if (removeLastEvents.size() > 0)
-            adapter.notifyItemRangeRemoved(firstPos, firstPos + removeLastEvents.size());
-
         Client.getTicketDetail(new Callback<ResponseTicketDetail>() {
             @Override
             public void onResponse(Call<ResponseTicketDetail> call, Response<ResponseTicketDetail> response) {
@@ -146,12 +131,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
 
                     if (resp != null && resp.getSuccess()) {
                         List<TicketEvent> ticketEvents = resp.getDetails().getEvents();
-                        tickets.addAll(position + 1, ticketEvents);
-                        tickets.add(new Object());
-                        adapter.notifyItemRangeInserted(position + 1, position + ticketEvents.size());
-
-                        /*adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this);
-                        conversationRV.setAdapter(adapter);*/
+                        adapter.setTicketEvents(position, ticketEvents);
                     }
                 } else{
                     Toast.makeText(context, "Server error", Toast.LENGTH_SHORT).show();
@@ -165,13 +145,5 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                 progress.dismiss();
             }
         }, address, ticketId);
-    }
-
-    @Override
-    public void removeRange(int fromIndex, int toIndex) {
-        if (tickets != null) {
-            tickets.subList(fromIndex, toIndex).clear();
-            adapter.notifyItemRangeRemoved(fromIndex, toIndex + 1);
-        }
     }
 }
