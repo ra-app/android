@@ -167,7 +167,8 @@ public class ConversationListItem extends RelativeLayout
       this.typingView.stopAnimation();
 
       this.subjectView.setVisibility(VISIBLE);
-      String message = thread.getDisplayBody(getContext()).toString();
+      ThreadRecord.DisplayBodyExtended displayBodyExtended = thread.getDisplayBodyExtended(getContext());
+      String message = displayBodyExtended.getSpannableString().toString();
 
       if (message.contains(ConversationItem.MAGIC_MSG)) {
         message = message.replaceAll(ConversationItem.MAGIC_MSG_REGEX, "");
@@ -178,13 +179,13 @@ public class ConversationListItem extends RelativeLayout
       this.subjectView.setTextColor(unreadCount == 0 ? ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_subject_color)
                                                      : ThemeUtil.getThemedColor(getContext(), R.attr.conversation_list_item_unread_color));
 
-      //TODO: hide updated messages in broadcast for regular user; Check thread.getDisplayBody alternative to get message type. Only show regular messages
-     /* if(recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){
+      // Hide updated messages in broadcast for regular user; Check thread.getDisplayBody alternative to get message type. Only show regular messages
+     if(recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString()) && !displayBodyExtended.isRegularMessage()){
         subjectView.setVisibility(GONE);
       }else {
         subjectView.setVisibility(VISIBLE);
       }
-      */
+
 
     }
 
