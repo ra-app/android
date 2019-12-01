@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:padding="8dp"
@@ -89,7 +90,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_accept_invite"
+            android:id="@+id/btn_ticket"
             style="@style/ra_button_gradient"
             android:layout_width="wrap_content"
             android:layout_height="28dp"

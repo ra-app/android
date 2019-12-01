@@ -100,7 +100,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                     if (resp != null && resp.getSuccess()) {
                         if (resp.getTickets() != null)
                             tickets.addAll(resp.getTickets());
-                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this);
+                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this, tab);
                         conversationRV.setAdapter(adapter);
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";

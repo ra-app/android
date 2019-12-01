@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -27,11 +28,13 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
 
     private List<Ticket> objects;
     private HeaderListener headerListener;
+    private int tab;
 
-    public AdminConversationAdapter(Context context, List<Ticket> objects, HeaderListener headerListener){
+    public AdminConversationAdapter(Context context, List<Ticket> objects, HeaderListener headerListener, int tab){
         this.context = context;
         this.objects = objects;
         this.headerListener = headerListener;
+        this.tab = tab;
     }
 
     @NonNull
@@ -68,6 +71,12 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
                 AdminChatConversationAdapter adapter = new AdminChatConversationAdapter(context, objects.get(position).getTicketEvents());
                 holder.chatRV.setAdapter(adapter);
             }
+
+            if (tab == 2 || tab == 3) {
+                holder.ticketBTN.setBackground(context.getResources().getDrawable(R.drawable.button_gradient_disabled));
+            } else {
+                holder.ticketBTN.setBackground(context.getResources().getDrawable(R.drawable.button_gradient));
+            }
         }
     }
 
@@ -94,6 +103,7 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
         private TextView name;
         private TextView ticketName;
         private TextView date;
+        private Button ticketBTN;
         private RecyclerView chatRV;
 
         HeaderViewHolder(@NonNull View itemView) {
@@ -102,6 +112,7 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
             ticketName = itemView.findViewById(R.id.ticket_name);
             date = itemView.findViewById(R.id.date);
             chatRV = itemView.findViewById(R.id.rv_chat_list);
+            ticketBTN = itemView.findViewById(R.id.btn_ticket);
         }
     }
 }
