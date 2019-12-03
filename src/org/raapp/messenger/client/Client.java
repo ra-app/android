@@ -15,6 +15,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import okhttp3.OkHttpClient;
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -28,6 +29,7 @@ public class Client {
     public static final String BASE_URL = "https://luydm9sd26.execute-api.eu-central-1.amazonaws.com/";
     public static final String ENDPOINT_BASE_VERSION_1 = "latest/api/v1/";
     public static final String ENDPOINT_BASE_VERSION_2 = "latest/api/v2/";
+    public static final String ENDPOINT_BASE_PUBLIC = "/latest/public/";
     public static final String ENDPOINT_BASE_CLIENT = "client/";
     public static final String ENDPOINT_BASE_ADMIN = "admin/";
 
@@ -37,6 +39,7 @@ public class Client {
     public static final String ENDPOINT_INBOX = "inbox/";
     public static final String ENDPOINT_BLACKBOARD = "blackboard/list/";
     public static final String ENDPOINT_BLACKBOARD_UPDATE = "blackboard/update";
+    public static final String ENDPOINT_IMAGE = "img/";
 
     public static final String ENDPOINT_TICKETS_GET = "tickets/get";
     public static final String ENDPOINT_TICKETS_DETAILS = "tickets/details";
@@ -51,6 +54,7 @@ public class Client {
     public static final String ENDPOINT_GET_COMPANY_LIST = ENDPOINT_BASE_VERSION_1 + ENDPOINT_CLIENT + ENDPOINT_COMPANIES;
     public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "code/{" + GENERIC_ID + "}";
     public static final String ENDPOINT_SEND_MESSAGE = ENDPOINT_BASE_VERSION_2 + ENDPOINT_INBOX;
+    public static final String ENDPOINT_GET_COMPANY_IMAGE = ENDPOINT_BASE_PUBLIC + ENDPOINT_IMAGE + "{" + GENERIC_ID + "}";
         //BLACKBOARD
     public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_CLIENT + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
     public static final String ENDPOINT_UPDATE_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_BLACKBOARD_UPDATE ;
@@ -99,6 +103,11 @@ public class Client {
     public static void sendMessage(Callback<ResponseSendMessage> callback, RequestSend requestSend) {
         Call<ResponseSendMessage> sendMessageCall = iClient.sendMessage("Basic " + token, requestSend);
         sendMessageCall.enqueue(callback);
+    }
+
+    public static void getCompanyImage(Callback<ResponseBody> callback, String companyID) {
+        Call<ResponseBody> getCompanyImageCall = iClient.getCompanyImage("Basic " + token, companyID);
+        getCompanyImageCall.enqueue(callback);
     }
 
     //BLACKBOARD

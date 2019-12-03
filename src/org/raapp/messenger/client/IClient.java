@@ -12,6 +12,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -32,6 +33,10 @@ public interface IClient {
     @POST(Client.ENDPOINT_SEND_MESSAGE)
     Call<ResponseSendMessage> sendMessage(@Header(Client.AUTH_HEADER) String authToken,
                                           @Body RequestSend requestSend);
+
+    @GET(Client.ENDPOINT_GET_COMPANY_IMAGE)
+    Call<ResponseBody> getCompanyImage(@Header(Client.AUTH_HEADER) String authToken,
+                                       @Path(Client.GENERIC_ID) String companyID);
 
     @GET(Client.ENDPOINT_GET_BLACKBOARD)
     Call<ResponseBlackboardList> getBlackboard(@Header(Client.AUTH_HEADER) String authToken,
