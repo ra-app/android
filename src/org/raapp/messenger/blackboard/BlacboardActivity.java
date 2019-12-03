@@ -1,5 +1,6 @@
 package org.raapp.messenger.blackboard;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -188,6 +189,9 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                 progressBar.setVisibility(View.GONE);
             }
         }, recipient.getAddress().toString());
+
+        mStandardTypeRB.setOnClickListener(view -> updateUINoteType());
+        mCalendarTypeRB.setOnClickListener(view -> updateUINoteType());
     }
 
     private void showNoteDetail(){
@@ -201,14 +205,20 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         mNoteTypeRadioGroup.setVisibility(View.GONE);
     }
 
-    private void bindSelectedNote(){
+    private void bindSelectedNote(@Nullable String type){
         ImageView triangle = mNoteDetailViewItem.findViewById(R.id.triangle);
         mNoteDetailViewItem.setBackgroundColor(getResources().getColor(R.color.ra_yellow_note));
         triangle.setColorFilter(ContextCompat.getColor(this, R.color.ra_yellow_dark_note), android.graphics.PorterDuff.Mode.SRC_IN);
-        if(selectedNote.getNoteType()!= null && NOTE_TYPE_CALENDAR.equals(selectedNote.getNoteType())){
+        String  t = type !=null ? type : selectedNote.getNoteType();
+        if( t != null && NOTE_TYPE_CALENDAR.equals(t)){
             mNoteDetailViewItem.setBackgroundColor(getResources().getColor(R.color.ra_blue_note));
             triangle.setColorFilter(ContextCompat.getColor(this, R.color.ra_blue_dark_note), android.graphics.PorterDuff.Mode.SRC_IN);
         }
+    }
+
+    private void updateUINoteType(){
+        String type = mStandardTypeRB.isChecked() ? NOTE_TYPE_NORMAL : NOTE_TYPE_CALENDAR;
+        bindSelectedNote(type);
     }
 
     @Override
@@ -217,7 +227,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         noteTitle.setText(selectedNote.getTitle());
         noteBody.setText(selectedNote.getContent());
 
-        bindSelectedNote();
+        bindSelectedNote(null);
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
         Date myDate = null;
@@ -281,7 +291,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                         Note note = resp.getNote();
                         isNoteUpdated = true;
                         progressBar.setVisibility(View.GONE);
-                        bindSelectedNote();
+                        bindSelectedNote(null);
                         initializeResources();
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
