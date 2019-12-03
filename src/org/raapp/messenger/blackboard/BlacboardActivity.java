@@ -1,8 +1,10 @@
 package org.raapp.messenger.blackboard;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -17,7 +19,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,6 +54,9 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     public static final String ADDRESS_EXTRA = "address";
 
+    public static final String NOTE_TYPE_NORMAL = "normal";
+    public static final String NOTE_TYPE_CALENDAR = "calender";
+
     private ConversationTitleView titleView;
     private GlideRequests glideRequests;
     private Recipient recipient;
@@ -60,10 +68,13 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
-    private View mNoteDetailView;
+    private View mNoteDetailSV;
+    private RadioGroup mNoteTypeRadioGroup;
+    private RadioButton mStandardTypeRB, mCalendarTypeRB;
     private ProgressBar progressBar;
 
     private Note selectedNote;
+    private View mNoteDetailViewItem;
     private EditText noteTitle;
     private EditText noteBody;
     private TextView noteDate;
@@ -89,9 +100,12 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         initializeResources();
     }
 
-    private void initRole() {
+    private void initRole(boolean enterEditMode) {
         if (RoleUtil.isAdminInCompany(this, recipient.getAddress().toString())) {
             menu.findItem(R.id.edit_note).setVisible(true);
+            if(enterEditMode){
+                editNoteClick();
+            }
         }
     }
 
@@ -111,12 +125,17 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mLayoutManager = new GridLayoutManager(this,3);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        mNoteDetailView = findViewById(R.id.rl_detail_pin);
+        mNoteDetailSV = findViewById(R.id.rl_detail_pin);
+        mNoteTypeRadioGroup = findViewById(R.id.rg_note_type);
+        mStandardTypeRB = findViewById(R.id.rb_standard);
+        mCalendarTypeRB = findViewById(R.id.rb_calendar);
+
         progressBar = findViewById(R.id.progress_bar);
 
-        noteTitle = mNoteDetailView.findViewById(R.id.note_title);
-        noteBody = mNoteDetailView.findViewById(R.id.note_body);
-        noteDate = mNoteDetailView.findViewById(R.id.note_date);
+        mNoteDetailViewItem = mNoteDetailSV.findViewById(R.id.rl_note_item_detail);
+        noteTitle = mNoteDetailSV.findViewById(R.id.note_title);
+        noteBody = mNoteDetailSV.findViewById(R.id.note_body);
+        noteDate = mNoteDetailSV.findViewById(R.id.note_date);
 
         notes = new ArrayList<>();
         emptyNotes = new ArrayList<>();
@@ -142,8 +161,9 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                     if (resp != null && resp.getSuccess()) {
                         notes.clear();
                         notes.addAll(resp.getNote());
+                        emptyNotes.clear();
                         for (Object note : notes) {
-                            if (((Note)note).getTitle().isEmpty() || ((Note)note).getContent().isEmpty()) {
+                            if (((Note)note).getTitle().isEmpty() && ((Note)note).getContent().isEmpty()) {
                                 emptyNotes.add(note);
                             }
                         }
@@ -169,16 +189,36 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                 progressBar.setVisibility(View.GONE);
             }
         }, recipient.getAddress().toString());
+
+        mStandardTypeRB.setOnClickListener(view -> updateUINoteType());
+        mCalendarTypeRB.setOnClickListener(view -> updateUINoteType());
     }
 
     private void showNoteDetail(){
         mRecyclerView.setVisibility(View.GONE);
-        mNoteDetailView.setVisibility(View.VISIBLE);
+        mNoteDetailSV.setVisibility(View.VISIBLE);
     }
 
     private void showNoteList(){
         mRecyclerView.setVisibility(View.VISIBLE);
-        mNoteDetailView.setVisibility(View.GONE);
+        mNoteDetailSV.setVisibility(View.GONE);
+        mNoteTypeRadioGroup.setVisibility(View.GONE);
+    }
+
+    private void bindSelectedNote(@Nullable String type){
+        ImageView triangle = mNoteDetailViewItem.findViewById(R.id.triangle);
+        mNoteDetailViewItem.setBackgroundColor(getResources().getColor(R.color.ra_yellow_note));
+        triangle.setColorFilter(ContextCompat.getColor(this, R.color.ra_yellow_dark_note), android.graphics.PorterDuff.Mode.SRC_IN);
+        String  t = type !=null ? type : selectedNote.getNoteType();
+        if( t != null && NOTE_TYPE_CALENDAR.equals(t)){
+            mNoteDetailViewItem.setBackgroundColor(getResources().getColor(R.color.ra_blue_note));
+            triangle.setColorFilter(ContextCompat.getColor(this, R.color.ra_blue_dark_note), android.graphics.PorterDuff.Mode.SRC_IN);
+        }
+    }
+
+    private void updateUINoteType(){
+        String type = mStandardTypeRB.isChecked() ? NOTE_TYPE_NORMAL : NOTE_TYPE_CALENDAR;
+        bindSelectedNote(type);
     }
 
     @Override
@@ -186,6 +226,8 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         selectedNote = (Note) object;
         noteTitle.setText(selectedNote.getTitle());
         noteBody.setText(selectedNote.getContent());
+
+        bindSelectedNote(null);
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
         Date myDate = null;
@@ -202,7 +244,7 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         noteDate.setText(finalDate);
 
         showNoteDetail();
-        initRole();
+        initRole(selectedNote.isEmpty());
     }
 
     @Override
@@ -219,14 +261,23 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
         menu.findItem(R.id.edit_note).setVisible(false);
         menu.findItem(R.id.save_note).setVisible(true);
+        mNoteTypeRadioGroup.setVisibility(View.VISIBLE);
+        String type = selectedNote.getNoteType();
+        if(type != null && NOTE_TYPE_NORMAL.equals(type)){
+            mStandardTypeRB.setChecked(true);
+        }else if(type != null && NOTE_TYPE_CALENDAR.equals(type)){
+            mCalendarTypeRB.setChecked(true);
+        }
+
     }
 
     private void saveNoteClick() {
-        toTextView(noteTitle);
-        toTextView(noteBody);
+        toViewMode();
 
         selectedNote.setTitle(noteTitle.getText().toString());
         selectedNote.setContent(noteBody.getText().toString());
+        String type = mStandardTypeRB.isChecked() ? NOTE_TYPE_NORMAL : NOTE_TYPE_CALENDAR;
+        selectedNote.setNoteType(type);
 
         progressBar.setVisibility(View.VISIBLE);
         Client.buildBase(BlacboardActivity.this);
@@ -239,8 +290,9 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
                     if (resp != null && resp.getSuccess()) {
                         Note note = resp.getNote();
                         isNoteUpdated = true;
-
                         progressBar.setVisibility(View.GONE);
+                        bindSelectedNote(null);
+                        initializeResources();
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
                         Toast.makeText(BlacboardActivity.this, errorMsg, Toast.LENGTH_LONG).show();
@@ -262,9 +314,11 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
         }, selectedNote, selectedNote.getCompanyId().toString());
     }
 
-    private void toEditMode() {
+    private void toViewMode() {
+        hideKeyboard();
         toTextView(noteTitle);
         toTextView(noteBody);
+
     }
 
     private void toTextView(EditText editText) {
@@ -294,9 +348,8 @@ public class BlacboardActivity extends AppCompatActivity implements BlackboardIn
 
     @Override
     public void onBackPressed() {
-        toEditMode();
-        hideKeyboard();
-        if(mNoteDetailView.getVisibility() == View.VISIBLE){
+        toViewMode();
+        if(mNoteDetailSV.getVisibility() == View.VISIBLE){
             if (isNoteUpdated) {
                 isNoteUpdated = false;
                 initializeResources();

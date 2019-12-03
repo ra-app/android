@@ -10,7 +10,12 @@
     <color name="ra_text_label">#B1BBC0</color>
     <color name="ra_background">#F5F5F5</color>
     <color name="ra_selected_blue">#D9ECEC</color>
+    <color name="ra_blue_note">#b1feff</color>
+    <color name="ra_blue_dark_note">#FF1A8EA2</color>
+    <color name="ra_yellow_note">#ffe183</color>
+    <color name="ra_yellow_dark_note">#ffd347</color>
     <color name="ra_orange">#FFB100</color>
+
 
     <color name="signal_primary">#ff2090ea</color>
     <color name="signal_primary_dark">#ff1c7ac5</color>

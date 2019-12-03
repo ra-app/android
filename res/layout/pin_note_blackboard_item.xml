@@ -6,10 +6,12 @@
     android:layout_height="200dp">
 
     <RelativeLayout
+        android:id="@+id/rl_note"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" android:background="#ffe183">
+        android:layout_height="match_parent" android:background="@color/ra_yellow_note">
 
             <ImageView
+                android:id="@+id/triangle"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:layout_width="10dp"

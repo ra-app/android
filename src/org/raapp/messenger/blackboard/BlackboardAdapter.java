@@ -4,15 +4,19 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.datamodel.Note;
 
 
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
+import static org.raapp.messenger.blackboard.BlacboardActivity.NOTE_TYPE_CALENDAR;
 
 public class BlackboardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
@@ -29,10 +33,14 @@ public class BlackboardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
         public TextView mTitle, mBody;
+        public ImageView mTriagleIV;
+        public View mNoteRL;
         public ViewHolder(View v){
             super(v);
             mTitle = v.findViewById(R.id.note_title);
             mBody =  v.findViewById(R.id.note_body);
+            mTriagleIV = v.findViewById(R.id.triangle);
+            mNoteRL = v.findViewById(R.id.rl_note);
         }
     }
 
@@ -56,10 +64,22 @@ public class BlackboardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position){
+
+
+
         if (getItemViewType(position) == VIEWTYPE_NOTE) {
-            ((ViewHolder)holder).mTitle.setText(((Note) mNotes.get(position)).getTitle());
-            ((ViewHolder)holder).mBody.setText(((Note) mNotes.get(position)).getContent());
-            holder.itemView.setOnClickListener(view -> ((BlackboardInterface) mContext).onNoteClick(mNotes.get(position)));
+            Note note = (Note) mNotes.get(position);
+            ((ViewHolder)holder).mTitle.setText(note.getTitle());
+            ((ViewHolder)holder).mBody.setText(note.getContent());
+            holder.itemView.setOnClickListener(view -> ((BlackboardInterface) mContext).onNoteClick(note));
+
+            ((ViewHolder)holder).mNoteRL.setBackgroundColor(mContext.getResources().getColor(R.color.ra_yellow_note));
+            ((ViewHolder)holder).mTriagleIV.setColorFilter(ContextCompat.getColor(mContext, R.color.ra_yellow_dark_note), android.graphics.PorterDuff.Mode.SRC_IN);
+            if(note.getNoteType()!= null && NOTE_TYPE_CALENDAR.equals(note.getNoteType())){
+                ((ViewHolder)holder).mNoteRL.setBackgroundColor(mContext.getResources().getColor(R.color.ra_blue_note));
+                ((ViewHolder)holder).mTriagleIV.setColorFilter(ContextCompat.getColor(mContext, R.color.ra_blue_dark_note), android.graphics.PorterDuff.Mode.SRC_IN);
+            }
+
         } else {
             holder.itemView.setOnClickListener(view -> {
                 ((BlackboardInterface) mContext).onAddNoteClick();

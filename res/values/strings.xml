@@ -1603,5 +1603,9 @@
     <string name="helpful">Hilfreich</string>
     <string name="good">Gut</string>
     <string name="very_good">Serh gut</string>
+    <string name="note_title">TITEL</string>
+    <string name="note_message">NACHRICHT</string>
+    <string name="note_type_calendar">Kalender</string>
+    <string name="note_type_normal">Standard</string>
 
 </resources>

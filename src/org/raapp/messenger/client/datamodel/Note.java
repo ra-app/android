@@ -4,6 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Note {
+
     @SerializedName(value = "note_id", alternate = "id")
     @Expose
     private Integer id;
@@ -60,4 +61,9 @@ public class Note {
     public void setTsCreated(String tsCreated) {
         this.tsCreated = tsCreated;
     }
+
+    public boolean isEmpty(){
+        return title.isEmpty() && content.isEmpty();
+    }
+
 }

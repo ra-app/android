@@ -182,10 +182,11 @@ public class ConversationListItem extends RelativeLayout
       // Hide updated messages in broadcast for regular user; Check thread.getDisplayBody alternative to get message type. Only show regular messages
      if(recipient.isGroupRecipient() && !RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString()) && !displayBodyExtended.isRegularMessage()){
         subjectView.setVisibility(GONE);
-      }else {
+      }else if(recipient.isOfficeApp() && RoleUtil.isAdminInCompany(getContext(), recipient.getAddress().toString())){
+       subjectView.setVisibility(GONE);
+      } else {
         subjectView.setVisibility(VISIBLE);
       }
-
 
     }
 
