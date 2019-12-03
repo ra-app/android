@@ -32,7 +32,7 @@
             android:ellipsize="end"
             android:fontFamily="sans-serif-medium"
             android:maxLines="1"
-            android:text="+14152222222"
+            android:text="Unknow"
             android:textColor="@color/primary"
             tools:visibility="visible" />
 
