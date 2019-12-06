@@ -2,12 +2,9 @@ package org.raapp.messenger.client.datamodel.Request;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
 import org.raapp.messenger.client.datamodel.Message;
 
-
 public class RequestSend {
-
     @SerializedName("destination")
     @Expose
     private String destination;
@@ -15,6 +12,7 @@ public class RequestSend {
     @Expose
     private Message message;
 
+    //CONSTRUCTOR
     public RequestSend(String destination, Message message) {
         this.destination = destination;
         this.message = message;
