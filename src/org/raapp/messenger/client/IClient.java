@@ -1,13 +1,15 @@
 package org.raapp.messenger.client;
 
 import org.raapp.messenger.client.datamodel.Note;
-import org.raapp.messenger.client.datamodel.Request.RequestSendInvitation;
+import org.raapp.messenger.client.datamodel.Request.RequestInvitationCreate;
+import org.raapp.messenger.client.datamodel.Request.RequestInvitationSend;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
 import org.raapp.messenger.client.datamodel.Request.RequestTicket;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBase;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitation;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
@@ -53,10 +55,13 @@ public interface IClient {
     //----------------------------------------------------------------------------------------------
     //-----------------------------------ADMIN------------------------------------------------------
     @POST(Client.ENDPOINT_CREATE_INVITATION)
+    Call<ResponseInvitation> createInvitation(@Header(Client.AUTH_HEADER) String authToken,
+                                              @Body RequestInvitationCreate requestInvitationCreate,
+                                              @Path(Client.GENERIC_ID) String companyId);
+    @POST(Client.ENDPOINT_SEND_INVITE)
     Call<ResponseBase> sendInvitation(@Header(Client.AUTH_HEADER) String authToken,
-                                      @Body RequestSendInvitation requestSendInvitation,
+                                      @Body RequestInvitationSend requestInvitationSend,
                                       @Path(Client.GENERIC_ID) String companyId);
-
 
     //----------------------------------------------------------------------------------------------
     //-----------------------------------TICKETS----------------------------------------------------

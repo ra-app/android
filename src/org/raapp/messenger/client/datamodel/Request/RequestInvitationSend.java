@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 import org.raapp.messenger.client.datamodel.Message;
 
-public class RequestSendInvitation {
+public class RequestInvitationSend {
 
     @SerializedName("phone_number")
     @Expose
@@ -15,7 +15,7 @@ public class RequestSendInvitation {
     private Message code;
 
     //CONSTRUCTOR
-    public RequestSendInvitation(String phoneNumber, Message code) {
+    public RequestInvitationSend(String phoneNumber, Message code) {
         this.phoneNumber = phoneNumber;
         this.code = code;
     }

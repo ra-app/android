@@ -3,13 +3,15 @@ package org.raapp.messenger.client;
 import android.content.Context;
 
 import org.raapp.messenger.client.datamodel.Note;
+import org.raapp.messenger.client.datamodel.Request.RequestInvitationCreate;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
-import org.raapp.messenger.client.datamodel.Request.RequestSendInvitation;
+import org.raapp.messenger.client.datamodel.Request.RequestInvitationSend;
 import org.raapp.messenger.client.datamodel.Request.RequestTicket;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBase;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitation;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
@@ -47,7 +49,7 @@ public class Client {
     public static final String ENDPOINT_IMAGE = "img/";
     public static final String ENDPOINT_TICKETS_GET = "/tickets/get";
     public static final String ENDPOINT_TICKETS_DETAILS = "/tickets/details/";
-    public static final String ENDPOINT_INFO= "/info";
+    public static final String ENDPOINT_INVITE_CREATE = "/invites/create";
     public static final String ENDPOINT_INVITE_SEND= "/invites/send";
 
     //PARAMS && HEADERS
@@ -62,7 +64,7 @@ public class Client {
     public static final String ENDPOINT_SEND_MESSAGE = ENDPOINT_BASE_VERSION_2 + ENDPOINT_INBOX;
     public static final String ENDPOINT_GET_COMPANY_IMAGE = ENDPOINT_BASE_PUBLIC + ENDPOINT_IMAGE + "{" + GENERIC_ID + "}";
         //ADMIN
-    public static final String ENDPOINT_CREATE_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_INFO;
+    public static final String ENDPOINT_CREATE_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_INVITE_CREATE;
     public static final String ENDPOINT_SEND_INVITE = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_INVITE_SEND;
         //BLACKBOARD
     public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_CLIENT + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
@@ -119,9 +121,13 @@ public class Client {
     }
 
     //ADMIN
-    public static void sendInvitation(Callback<ResponseBase> callback, RequestSendInvitation requestSendInvitation, String companyID) {
-        Call<ResponseBase> sendInvitationCall = iClient.sendInvitation("Basic " + token, requestSendInvitation,companyID);
+    public static void sendInvitation(Callback<ResponseBase> callback, RequestInvitationSend requestInvitationSend, String companyID) {
+        Call<ResponseBase> sendInvitationCall = iClient.sendInvitation("Basic " + token, requestInvitationSend,companyID);
         sendInvitationCall.enqueue(callback);
+    }
+    public static void createInvitation(Callback<ResponseInvitation> callback, RequestInvitationCreate requestInvitationCreate, String companyID) {
+        Call<ResponseInvitation> createInvitationCall = iClient.createInvitation("Basic " + token, requestInvitationCreate,companyID);
+        createInvitationCall.enqueue(callback);
     }
 
     //BLACKBOARD
