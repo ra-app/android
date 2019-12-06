@@ -4,7 +4,9 @@ import android.content.Context;
 
 import org.raapp.messenger.client.datamodel.Note;
 import org.raapp.messenger.client.datamodel.Request.RequestSend;
+import org.raapp.messenger.client.datamodel.Request.RequestSendInvitation;
 import org.raapp.messenger.client.datamodel.Request.RequestTicket;
+import org.raapp.messenger.client.datamodel.Responses.ResponseBase;
 import org.raapp.messenger.client.datamodel.Responses.ResponseBlackboardList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseGetCompany;
@@ -15,6 +17,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import okhttp3.OkHttpClient;
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -26,20 +29,26 @@ public class Client {
 
     //BASE STRINGS
     public static final String BASE_URL = "https://luydm9sd26.execute-api.eu-central-1.amazonaws.com/";
-    public static final String ENDPOINT_BASE_VERSION_1 = "latest/api/v1/";
-    public static final String ENDPOINT_BASE_VERSION_2 = "latest/api/v2/";
-    public static final String ENDPOINT_BASE_CLIENT = "client/";
-    public static final String ENDPOINT_BASE_ADMIN = "admin/";
+        //BASE ENVIROMENTS
+        public static final String ENDPOINT_BASE_VERSION_1 = "latest/api/v1/";
+        public static final String ENDPOINT_BASE_VERSION_2 = "latest/api/v2/";
+        public static final String ENDPOINT_BASE_PUBLIC = "latest/public/";
+        //BASE USERS
+        public static final String ENDPOINT_BASE_CLIENT = "client/";
+        public static final String ENDPOINT_BASE_ADMIN = "admin/";
 
-    //BASE ENDPOINTS
+    //ENDPOINTS
     public static final String ENDPOINT_COMPANIES = "companies/";
     public static final String ENDPOINT_CLIENT = "client/";
     public static final String ENDPOINT_INBOX = "inbox/";
+    public static final String ENDPOINT_CODE = "code/";
     public static final String ENDPOINT_BLACKBOARD = "blackboard/list/";
-    public static final String ENDPOINT_BLACKBOARD_UPDATE = "blackboard/update";
-
-    public static final String ENDPOINT_TICKETS_GET = "tickets/get";
-    public static final String ENDPOINT_TICKETS_DETAILS = "tickets/details";
+    public static final String ENDPOINT_BLACKBOARD_UPDATE = "/blackboard/update";
+    public static final String ENDPOINT_IMAGE = "img/";
+    public static final String ENDPOINT_TICKETS_GET = "/tickets/get";
+    public static final String ENDPOINT_TICKETS_DETAILS = "/tickets/details/";
+    public static final String ENDPOINT_INFO= "/info";
+    public static final String ENDPOINT_INVITE_SEND= "/invites/send";
 
     //PARAMS && HEADERS
     public static final String GENERIC_ID = "ID";
@@ -49,14 +58,19 @@ public class Client {
     //FINAL ENDPOINTS
     public static final String ENDPOINT_GET_COMPANY = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "{" + GENERIC_ID + "}";
     public static final String ENDPOINT_GET_COMPANY_LIST = ENDPOINT_BASE_VERSION_1 + ENDPOINT_CLIENT + ENDPOINT_COMPANIES;
-    public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + "code/{" + GENERIC_ID + "}";
+    public static final String ENDPOINT_ACCEPT_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_COMPANIES + ENDPOINT_CODE + "{" + GENERIC_ID + "}";
     public static final String ENDPOINT_SEND_MESSAGE = ENDPOINT_BASE_VERSION_2 + ENDPOINT_INBOX;
+    public static final String ENDPOINT_GET_COMPANY_IMAGE = ENDPOINT_BASE_PUBLIC + ENDPOINT_IMAGE + "{" + GENERIC_ID + "}";
+        //ADMIN
+    public static final String ENDPOINT_CREATE_INVITATION = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_INFO;
+    public static final String ENDPOINT_SEND_INVITE = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_INVITE_SEND;
         //BLACKBOARD
     public static final String ENDPOINT_GET_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_CLIENT + ENDPOINT_BLACKBOARD + "{" + GENERIC_ID + "}";
-    public static final String ENDPOINT_UPDATE_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_BLACKBOARD_UPDATE ;
+    public static final String ENDPOINT_UPDATE_BLACKBOARD = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_BLACKBOARD_UPDATE ;
         //TICKETS
-    public static final String ENDPOINT_GET_TICKET = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_TICKETS_GET ;
-    public static final String ENDPOINT_GET_TICKET_DETAIL = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}/" + ENDPOINT_TICKETS_DETAILS + "/{" + GENERIC_ID2 + "}";
+    public static final String ENDPOINT_GET_TICKET = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_TICKETS_GET ;
+    public static final String ENDPOINT_GET_TICKET_DETAIL = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_TICKETS_DETAILS + "{" + GENERIC_ID2 + "}";
+
 
     public static String token;
 
@@ -80,7 +94,6 @@ public class Client {
             .addConverterFactory(GsonConverterFactory.create());
 
     private static Retrofit retrofit = builder.build();
-
     private static IClient iClient = retrofit.create(IClient.class);
 
     //CALLS
@@ -96,9 +109,19 @@ public class Client {
         Call<ResponseCompanyList> getCompanyByIDCall = iClient.getCompanyList("Basic " + token);
         getCompanyByIDCall.enqueue(callback);
     }
+    public static void getCompanyImage(Callback<ResponseBody> callback, String companyID) {
+        Call<ResponseBody> getCompanyImageCall = iClient.getCompanyImage("Basic " + token, companyID);
+        getCompanyImageCall.enqueue(callback);
+    }
     public static void sendMessage(Callback<ResponseSendMessage> callback, RequestSend requestSend) {
         Call<ResponseSendMessage> sendMessageCall = iClient.sendMessage("Basic " + token, requestSend);
         sendMessageCall.enqueue(callback);
+    }
+
+    //ADMIN
+    public static void sendInvitation(Callback<ResponseBase> callback, RequestSendInvitation requestSendInvitation, String companyID) {
+        Call<ResponseBase> sendInvitationCall = iClient.sendInvitation("Basic " + token, requestSendInvitation,companyID);
+        sendInvitationCall.enqueue(callback);
     }
 
     //BLACKBOARD

@@ -23,6 +23,7 @@ import android.text.format.DateFormat;
 
 import org.raapp.messenger.R;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -150,5 +151,18 @@ public class DateUtils extends android.text.format.DateUtils {
     cal.setTimeInMillis(time);
     String date = DateFormat.format("dd/MM/yyyy hh:mm", cal).toString();
     return date;
+  }
+
+  public static String formatTo(String dateStr, String formatStr, String outputFormatStr) {
+    SimpleDateFormat format = new SimpleDateFormat(formatStr, Locale.GERMANY);
+    Date newDate = null;
+    try {
+      newDate = format.parse(dateStr);
+    } catch (ParseException e) {
+      e.printStackTrace();
+    }
+
+    format = new SimpleDateFormat(outputFormatStr, Locale.GERMANY);
+    return format.format(newDate);
   }
 }

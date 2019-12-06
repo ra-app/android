@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.client.datamodel.TicketEvent;
+import org.raapp.messenger.util.DateUtils;
 import org.raapp.messenger.util.ViewUtil;
 
 import java.util.List;
@@ -55,7 +56,8 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
             Ticket ticket = objects.get(position);
             holder.name.setText(ticket.getName() != null ? ticket.getName() : "Unknown");
             holder.ticketName.setText(ticket.getName() != null ? ticket.getName() : "Unknown");
-            holder.date.setText(ticket.getTsCreated() != null ? ticket.getTsCreated() : "Unknown");
+            String dateStr = DateUtils.formatTo(ticket.getTsCreated(), "yyyy-MM-dd'T'HH:mm:ss", "EEEE dd/MM/yyyy HH:mm");
+            holder.date.setText(dateStr != null ? dateStr : "Unknown");
             holder.itemView.setOnClickListener(v -> {
                 if (ticket.isExpanded()) {
                     holder.chatRV.setVisibility(View.GONE);
@@ -74,8 +76,10 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
 
             if (tab == 2 || tab == 3) {
                 holder.ticketBTN.setBackground(context.getResources().getDrawable(R.drawable.button_gradient_disabled));
+                holder.ticketBTN.setEnabled(false);
             } else {
                 holder.ticketBTN.setBackground(context.getResources().getDrawable(R.drawable.button_gradient));
+                holder.ticketBTN.setEnabled(true);
             }
         }
     }

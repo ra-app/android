@@ -45,7 +45,8 @@ public class AdminChatConversationAdapter extends RecyclerView.Adapter<AdminChat
             JSONObject obj = new JSONObject(ticketEvent.getJson());
             holder.body.setText(obj.getString("body"));
             String date = DateUtils.getDate(Long.parseLong(obj.getString("timestamp")));
-            holder.date.setText(date);
+            String dateStr = DateUtils.formatTo(date, "dd/MM/yyyy hh:mm", "EEEE HH:mm");
+            holder.date.setText(dateStr);
         } catch (Throwable t) {
 
         }
