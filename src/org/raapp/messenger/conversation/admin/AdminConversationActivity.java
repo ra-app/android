@@ -2,6 +2,8 @@ package org.raapp.messenger.conversation.admin;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -13,6 +15,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import org.raapp.messenger.ConversationListActivity;
 import org.raapp.messenger.ConversationListArchiveActivity;
+import org.raapp.messenger.InviteActivity;
 import org.raapp.messenger.PassphraseRequiredActionBarActivity;
 import org.raapp.messenger.R;
 import org.raapp.messenger.RecipientPreferenceActivity;
@@ -83,6 +86,17 @@ public class AdminConversationActivity extends PassphraseRequiredActionBarActivi
         titleView.setTitle(glideRequests, recipient);
     }
 
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuInflater inflater = this.getMenuInflater();
+        menu.clear();
+
+        inflater.inflate(R.menu.admin_company_conversation_menu, menu);
+
+        super.onPrepareOptionsMenu(menu);
+        return true;
+    }
+
     protected void initializeActionBar() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -137,6 +151,12 @@ public class AdminConversationActivity extends PassphraseRequiredActionBarActivi
             case android.R.id.home:
                 handleReturnToConversationList();
                 return true;
+            case R.id.menu_invite_users:
+                handleInvite(InviteActivity.INVITE_MODE_COMPANY_USERS);
+                return true;
+            case R.id.menu_invite_admins:
+                handleInvite(InviteActivity.INVITE_MODE_COMPANY_ADMINS);
+                return true;
         }
         return false;
     }
@@ -155,6 +175,15 @@ public class AdminConversationActivity extends PassphraseRequiredActionBarActivi
 
         startActivitySceneTransition(intent, titleView.findViewById(R.id.contact_photo_image), "avatar");
     }
+
+    private void handleInvite(int inviteMode) {
+        Intent i = new Intent(this, InviteActivity.class);
+        i.putExtra(InviteActivity.INVITE_MODE, inviteMode);
+        //TODO: sent company to invitationActivity
+        //i.putExtra(InviteActivity.COMPANY_TO_INVITE, company);
+        startActivity(i);
+    }
+
 
     private boolean isSelfConversation() {
         if (!TextSecurePreferences.isPushRegistered(this)) return false;

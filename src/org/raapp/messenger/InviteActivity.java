@@ -1,20 +1,14 @@
 package org.raapp.messenger;
 
-import android.animation.Animator;
 import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
-import android.os.Build.VERSION;
-import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import androidx.annotation.AnimRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-import androidx.appcompat.app.AlertDialog;
 
 import android.text.TextUtils;
 import android.view.Menu;
@@ -22,14 +16,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver.OnPreDrawListener;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -61,12 +51,21 @@ import java.util.concurrent.ExecutionException;
 public class InviteActivity extends PassphraseRequiredActionBarActivity implements ContactSelectionListFragment.OnContactSelectedListener, SelectedRecipientsAdapter.OnRecipientDeletedListener,
         PushRecipientsPanel.RecipientsPanelChangedListener {
 
+  public static final String INVITE_MODE = "INVITE_MODE";
+  public static final String COMPANY_TO_INVITE = "COMPANY_TO_INVITE";
+
+  public static final int INVITE_MODE_COMPANY_USERS = 0;
+  public static final int INVITE_MODE_COMPANY_ADMINS = 1;
+
   private ContactSelectionListFragment contactsFragment;
   private EditText                     inviteText;
   private ViewGroup                    smsSendFrame;
   private Animation                    slideInAnimation;
   private Animation                    slideOutAnimation;
   private ListView lv;
+
+  private int invitationMode;
+  private String companyToInvite;
 
   private final DynamicTheme dynamicTheme    = new DynamicTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
@@ -81,15 +80,17 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
 
   @Override
   protected void onCreate(Bundle savedInstanceState, boolean ready) {
-    getIntent().putExtra(ContactSelectionListFragment.DISPLAY_MODE, DisplayMode.FLAG_SMS);
+    getIntent().putExtra(ContactSelectionListFragment.DISPLAY_MODE, DisplayMode.FLAG_ALL);
     getIntent().putExtra(ContactSelectionListFragment.MULTI_SELECT, true);
     getIntent().putExtra(ContactSelectionListFragment.REFRESHABLE, false);
 
+    // Get intent params
+    invitationMode = getIntent().getIntExtra(INVITE_MODE, INVITE_MODE_COMPANY_USERS);
+    companyToInvite = getIntent().getStringExtra(COMPANY_TO_INVITE);
+
     setContentView(R.layout.invite_activity);
-    assert getSupportActionBar() != null;
-    getSupportActionBar().setTitle(R.string.office_app_invite_title);
-    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_keyboard_arrow_left_white);
+
+    initToolbar();
 
     initializeResources();
   }
@@ -102,6 +103,15 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     invalidateOptionsMenu();
   }
 
+  private void initToolbar(){
+    // Init toolbar
+    int titleID = invitationMode == INVITE_MODE_COMPANY_USERS ? R.string.users_invitation : invitationMode == INVITE_MODE_COMPANY_ADMINS ? R.string.admins_invitation : R.string.users_invitation;
+    assert getSupportActionBar() != null;
+    getSupportActionBar().setTitle(titleID);
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_keyboard_arrow_left_white);
+
+  }
 
   private void initializeResources() {
     slideInAnimation  = loadAnimation(R.anim.slide_from_bottom);
@@ -178,7 +188,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     ViewUtil.animateOut(smsSendFrame, slideOutAnimation, View.GONE).addListener(new Listener<Boolean>() {
       @Override
       public void onSuccess(Boolean result) {
-        getSupportActionBar().setTitle(R.string.office_app_invite_title);
+        initToolbar();
         invalidateOptionsMenu();
       }
 
@@ -208,15 +218,19 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   private class ShareClickListener implements OnClickListener {
     @Override
     public void onClick(View v) {
-      Intent sendIntent = new Intent();
-      sendIntent.setAction(Intent.ACTION_SEND);
-      sendIntent.putExtra(Intent.EXTRA_TEXT, inviteText.getText().toString());
-      sendIntent.setType("text/plain");
-      if (sendIntent.resolveActivity(getPackageManager()) != null) {
-        startActivity(Intent.createChooser(sendIntent, getString(R.string.InviteActivity_invite_to_signal)));
-      } else {
-        Toast.makeText(InviteActivity.this, R.string.InviteActivity_no_app_to_share_to, Toast.LENGTH_LONG).show();
-      }
+
+        // TODO: GET SELECTED CONTACTS TO CREATE INVITATIONS
+
+        // TODO: CREATE INVITATIONS TO COMPANY : this.companyToInvite
+
+        // TODO: SEND ALL INVITATIONS TO COMPANY : this.companyToInvite with selected contacts
+
+        if(invitationMode == INVITE_MODE_COMPANY_USERS){
+          Toast.makeText(InviteActivity.this, "TODO: CREATE USER INVITE AND CALL SEND INVITATION API", Toast.LENGTH_LONG).show();
+        }else if(invitationMode == INVITE_MODE_COMPANY_ADMINS){
+          Toast.makeText(InviteActivity.this, "TODO: CREATE ADMIN INVITE AND CALL SEND INVITATION API", Toast.LENGTH_LONG).show();
+        }
+
     }
   }
 
@@ -236,7 +250,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     }
   }
 
-  private void clickSmsSend() {
+  private void clickConfirmContactsAdd() {
     for (String number : contactsFragment.getSelectedContacts()) {
       Recipient recipient      = Recipient.from(InviteActivity.this, Address.fromExternal(InviteActivity.this, number), false);
       getAdapter().add(recipient, false);
@@ -401,7 +415,7 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
         onBackPressed();
         return true;
       case R.id.menu_create_group:
-        clickSmsSend();
+        clickConfirmContactsAdd();
         return true;
     }
 
