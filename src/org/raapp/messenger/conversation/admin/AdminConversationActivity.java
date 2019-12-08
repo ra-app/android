@@ -170,8 +170,7 @@ public class AdminConversationActivity extends PassphraseRequiredActionBarActivi
     private void handleInvite(int inviteMode) {
         Intent i = new Intent(this, InviteActivity.class);
         i.putExtra(InviteActivity.INVITE_MODE, inviteMode);
-        //TODO: sent company to invitationActivity
-        //i.putExtra(InviteActivity.COMPANY_TO_INVITE, company);
+        i.putExtra(InviteActivity.COMPANY_TO_INVITE, recipient.getAddress().toString());
         startActivity(i);
     }
 

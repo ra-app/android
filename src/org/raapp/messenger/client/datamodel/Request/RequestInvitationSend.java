@@ -3,8 +3,6 @@ package org.raapp.messenger.client.datamodel.Request;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import org.raapp.messenger.client.datamodel.Message;
-
 public class RequestInvitationSend {
 
     @SerializedName("phone_number")
@@ -12,10 +10,10 @@ public class RequestInvitationSend {
     private String phoneNumber;
     @SerializedName("code")
     @Expose
-    private Message code;
+    private String code;
 
     //CONSTRUCTOR
-    public RequestInvitationSend(String phoneNumber, Message code) {
+    public RequestInvitationSend(String phoneNumber, String code) {
         this.phoneNumber = phoneNumber;
         this.code = code;
     }
@@ -27,10 +25,10 @@ public class RequestInvitationSend {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-    public Message getCode() {
+    public String getCode() {
         return code;
     }
-    public void setCode(Message code) {
+    public void setCode(String code) {
         this.code = code;
     }
 }

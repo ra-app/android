@@ -27,8 +27,9 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import org.raapp.messenger.client.Client;
-import org.raapp.messenger.client.datamodel.InviteInfo;
 import org.raapp.messenger.client.datamodel.Request.RequestInvitationCreate;
+import org.raapp.messenger.client.datamodel.Request.RequestInvitationSend;
+import org.raapp.messenger.client.datamodel.Responses.ResponseBase;
 import org.raapp.messenger.client.datamodel.Responses.ResponseInvitation;
 import org.raapp.messenger.components.ContactFilterToolbar;
 import org.raapp.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
@@ -234,25 +235,40 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     public void onClick(View v) {
       for (Recipient recipient : getAdapter().getRecipients()) {
         // create invitations from selected contacts
-        sendInvitation(recipient);
+        createInvitation(recipient);
       }
     }
   }
 
-  private void sendInvitation(Recipient recipient) {
+  private void createInvitation(Recipient recipient) {
     RequestInvitationCreate requestInvitationCreate = new RequestInvitationCreate(isAdminInvite, recipient.getAddress().toString());
     Client.createInvitation(new Callback<ResponseInvitation>() {
       @Override
       public void onResponse(Call<ResponseInvitation> call, Response<ResponseInvitation> response) {
-        //Toast.makeText(InviteActivity.this,response.code(), Toast.LENGTH_SHORT).show();
-        // TODO: SEND ALL INVITATIONS TO COMPANY : this.companyToInvite with selected contacts
+        sendInvitation(recipient.getAddress().toString(), response.body().getCode());
       }
 
       @Override
       public void onFailure(Call<ResponseInvitation> call, Throwable t) {
 
       }
-    }, requestInvitationCreate, "company");
+    }, requestInvitationCreate, companyToInvite);
+  }
+
+  private void sendInvitation(String number, String code ) {
+    RequestInvitationSend requestInvitationSend = new RequestInvitationSend(number,code);
+    Client.sendInvitation(new Callback<ResponseBase>() {
+      @Override
+      public void onResponse(Call<ResponseBase> call, Response<ResponseBase> response) {
+        Toast.makeText(InviteActivity.this,response.body().getSuccess().toString(), Toast.LENGTH_SHORT).show();
+      }
+
+      @Override
+      public void onFailure(Call<ResponseBase> call, Throwable t) {
+
+      }
+    },requestInvitationSend,companyToInvite);
+
   }
 
   private class SmsClickListener implements OnClickListener {
