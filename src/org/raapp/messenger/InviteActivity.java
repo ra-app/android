@@ -9,6 +9,9 @@ import androidx.annotation.AnimRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 import android.text.TextUtils;
 import android.view.Menu;
@@ -23,6 +26,10 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.datamodel.InviteInfo;
+import org.raapp.messenger.client.datamodel.Request.RequestInvitationCreate;
+import org.raapp.messenger.client.datamodel.Responses.ResponseInvitation;
 import org.raapp.messenger.components.ContactFilterToolbar;
 import org.raapp.messenger.components.ContactFilterToolbar.OnFilterChangedListener;
 import org.raapp.messenger.components.PushRecipientsPanel;
@@ -54,8 +61,8 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   public static final String INVITE_MODE = "INVITE_MODE";
   public static final String COMPANY_TO_INVITE = "COMPANY_TO_INVITE";
 
-  public static final int INVITE_MODE_COMPANY_USERS = 0;
-  public static final int INVITE_MODE_COMPANY_ADMINS = 1;
+  public static final int INVITE_MODE_COMPANY_USERS = 1001;
+  public static final int INVITE_MODE_COMPANY_ADMINS = 1002;
 
   private ContactSelectionListFragment contactsFragment;
   private EditText                     inviteText;
@@ -64,8 +71,11 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   private Animation                    slideOutAnimation;
   private ListView lv;
 
+  private Boolean isAdminInvite = false;
   private int invitationMode;
   private String companyToInvite;
+
+  private Recipient recipient;
 
   private final DynamicTheme dynamicTheme    = new DynamicTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
@@ -87,6 +97,10 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
     // Get intent params
     invitationMode = getIntent().getIntExtra(INVITE_MODE, INVITE_MODE_COMPANY_USERS);
     companyToInvite = getIntent().getStringExtra(COMPANY_TO_INVITE);
+
+    if(invitationMode == INVITE_MODE_COMPANY_ADMINS){
+      isAdminInvite = true;
+    }
 
     setContentView(R.layout.invite_activity);
 
@@ -218,20 +232,27 @@ public class InviteActivity extends PassphraseRequiredActionBarActivity implemen
   private class ShareClickListener implements OnClickListener {
     @Override
     public void onClick(View v) {
-
-        // TODO: GET SELECTED CONTACTS TO CREATE INVITATIONS
-
-        // TODO: CREATE INVITATIONS TO COMPANY : this.companyToInvite
-
-        // TODO: SEND ALL INVITATIONS TO COMPANY : this.companyToInvite with selected contacts
-
-        if(invitationMode == INVITE_MODE_COMPANY_USERS){
-          Toast.makeText(InviteActivity.this, "TODO: CREATE USER INVITE AND CALL SEND INVITATION API", Toast.LENGTH_LONG).show();
-        }else if(invitationMode == INVITE_MODE_COMPANY_ADMINS){
-          Toast.makeText(InviteActivity.this, "TODO: CREATE ADMIN INVITE AND CALL SEND INVITATION API", Toast.LENGTH_LONG).show();
-        }
-
+      for (Recipient recipient : getAdapter().getRecipients()) {
+        // create invitations from selected contacts
+        sendInvitation(recipient);
+      }
     }
+  }
+
+  private void sendInvitation(Recipient recipient) {
+    RequestInvitationCreate requestInvitationCreate = new RequestInvitationCreate(isAdminInvite, recipient.getAddress().toString());
+    Client.createInvitation(new Callback<ResponseInvitation>() {
+      @Override
+      public void onResponse(Call<ResponseInvitation> call, Response<ResponseInvitation> response) {
+        //Toast.makeText(InviteActivity.this,response.code(), Toast.LENGTH_SHORT).show();
+        // TODO: SEND ALL INVITATIONS TO COMPANY : this.companyToInvite with selected contacts
+      }
+
+      @Override
+      public void onFailure(Call<ResponseInvitation> call, Throwable t) {
+
+      }
+    }, requestInvitationCreate, "company");
   }
 
   private class SmsClickListener implements OnClickListener {
