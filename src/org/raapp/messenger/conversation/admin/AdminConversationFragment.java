@@ -37,7 +37,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
-public class AdminConversationFragment extends Fragment implements AdminConversationAdapter.HeaderListener {
+public class AdminConversationFragment extends Fragment implements AdminConversationAdapter.HeaderListener, AdminConversationAdapter.AdminConversationListener {
 
     private static final String TAB_POSITION = "tab_position";
     private static final String ADDRESS_EXTRA = "address";
@@ -100,7 +100,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                     if (resp != null && resp.getSuccess()) {
                         if (resp.getTickets() != null)
                             tickets.addAll(resp.getTickets());
-                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this, tab);
+                        adapter = new AdminConversationAdapter(getContext(), tickets, AdminConversationFragment.this, AdminConversationFragment.this, tab);
                         conversationRV.setAdapter(adapter);
                     } else{
                         String errorMsg = resp !=null ? resp.getError() : "Unexpected error";
@@ -145,5 +145,14 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
                 progress.dismiss();
             }
         }, address, ticketId);
+    }
+
+    @Override
+    public void onClaimButtonClick(Ticket ticket) {
+        Toast.makeText(context, "TODO: CALL CLAIM TICKET API and START COVERSATION WITH CLIENT", Toast.LENGTH_SHORT).show();
+
+        //TODO: CALL CLAIM TICKET API
+
+        // TODO: GET RESPONSE FROM CLAIM (Phone number) and start a regular signal conversation
     }
 }

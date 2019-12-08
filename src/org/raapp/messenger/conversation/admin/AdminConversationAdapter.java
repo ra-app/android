@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.client.datamodel.TicketEvent;
+import org.raapp.messenger.recipients.Recipient;
 import org.raapp.messenger.util.DateUtils;
 import org.raapp.messenger.util.ViewUtil;
 
@@ -29,12 +30,14 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
 
     private List<Ticket> objects;
     private HeaderListener headerListener;
+    private  AdminConversationListener adminConversationListener;
     private int tab;
 
-    public AdminConversationAdapter(Context context, List<Ticket> objects, HeaderListener headerListener, int tab){
+    public AdminConversationAdapter(Context context, List<Ticket> objects, HeaderListener headerListener, AdminConversationListener adminConversationListener, int tab){
         this.context = context;
         this.objects = objects;
         this.headerListener = headerListener;
+        this.adminConversationListener = adminConversationListener;
         this.tab = tab;
     }
 
@@ -74,6 +77,7 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
                 holder.chatRV.setAdapter(adapter);
             }
 
+            // Claim button
             if (tab == 2 || tab == 3) {
                 holder.ticketBTN.setBackground(context.getResources().getDrawable(R.drawable.button_gradient_disabled));
                 holder.ticketBTN.setEnabled(false);
@@ -81,6 +85,12 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
                 holder.ticketBTN.setBackground(context.getResources().getDrawable(R.drawable.button_gradient));
                 holder.ticketBTN.setEnabled(true);
             }
+            if(tab == 3){
+                holder.ticketBTN.setVisibility(View.GONE);
+            }else {
+                holder.ticketBTN.setVisibility(View.VISIBLE);
+            }
+            holder.ticketBTN.setOnClickListener(view -> this.adminConversationListener.onClaimButtonClick(ticket));
         }
     }
 
@@ -118,5 +128,9 @@ public class AdminConversationAdapter extends RecyclerView.Adapter<AdminConversa
             chatRV = itemView.findViewById(R.id.rv_chat_list);
             ticketBTN = itemView.findViewById(R.id.btn_ticket);
         }
+    }
+
+    public interface AdminConversationListener {
+        void onClaimButtonClick(Ticket ticket);
     }
 }
