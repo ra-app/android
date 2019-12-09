@@ -266,6 +266,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     public static final String TIMING_EXTRA = "timing";
     public static final String LAST_SEEN_EXTRA = "last_seen";
     public static final String STARTING_POSITION_EXTRA = "starting_position";
+    public static final String CLAIM_TICKET = "claim_ticket";
 
     private static final int PICK_GALLERY = 1;
     private static final int PICK_DOCUMENT = 2;
@@ -379,6 +380,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                             composeText.addTextChangedListener(typingTextWatcher);
                         }
                         composeText.setSelection(composeText.length(), composeText.length());
+
+                        handleTicketClaim();
+
                     }
                 });
             }
@@ -408,6 +412,8 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                 initializeDraft();
             }
         });
+
+
 
         if (fragment != null) {
             fragment.onNewIntent();
@@ -1258,6 +1264,14 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         calculateCharactersRemaining();
         supportInvalidateOptionsMenu();
         setBlockedUserState(recipient, isSecureText, isDefaultSms);
+    }
+
+    private void handleTicketClaim(){
+        boolean isTicketClaim = getIntent().getBooleanExtra(CLAIM_TICKET, false);
+        if(isTicketClaim){
+            sendMessage();
+        }
+        //TODO: Save in database ticket uuid to close it in the future
     }
 
     ///// Initializers

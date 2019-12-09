@@ -2,6 +2,7 @@ package org.raapp.messenger.conversation.admin;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,18 +16,18 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.raapp.messenger.ConversationListActivity;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
-import org.raapp.messenger.client.datamodel.CompanyRole;
 import org.raapp.messenger.client.datamodel.Request.RequestTicket;
-import org.raapp.messenger.client.datamodel.Responses.ResponseCompanyList;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 import org.raapp.messenger.client.datamodel.Ticket;
-import org.raapp.messenger.client.datamodel.TicketDetail;
 import org.raapp.messenger.client.datamodel.TicketEvent;
-import org.raapp.messenger.logging.Log;
+import org.raapp.messenger.conversation.ConversationActivity;
+import org.raapp.messenger.conversation.ConversationItem;
+import org.raapp.messenger.database.Address;
+import org.raapp.messenger.database.DatabaseFactory;
+import org.raapp.messenger.database.ThreadDatabase;
 import org.raapp.messenger.recipients.Recipient;
 
 import java.util.ArrayList;
@@ -154,5 +155,30 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
         //TODO: CALL CLAIM TICKET API
 
         // TODO: GET RESPONSE FROM CLAIM (Phone number) and start a regular signal conversation
+        this.startConversationWithClient("+34660279144");
     }
+
+    private void startConversationWithClient(String phone) {
+
+        // Insert TICKET DESCRIPTION message TODO: build ticket description from ticket detail
+        String ticketDescription = ConversationItem.MAGIC_MSG + "TODO: GET TICKET DESCRIPTION";
+
+
+        // Build or get Recipient with Client info
+        Recipient recipient = Recipient.from(context, Address.fromExternal(context, phone), true);
+
+        Intent intent = new Intent(context, ConversationActivity.class);
+        intent.putExtra(ConversationActivity.ADDRESS_EXTRA, recipient.getAddress());
+        intent.putExtra(ConversationActivity.TEXT_EXTRA, ticketDescription);
+        intent.putExtra(ConversationActivity.CLAIM_TICKET, true);
+        //intent.setDataAndType(getIntent().getData(), getIntent().getType());
+
+        long existingThread = DatabaseFactory.getThreadDatabase(context).getThreadIdIfExistsFor(recipient);
+
+        intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);
+        intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, ThreadDatabase.DistributionTypes.CONVERSATION);
+        startActivity(intent);
+
+    }
+
 }
