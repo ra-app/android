@@ -84,6 +84,8 @@ import org.raapp.messenger.TransportOption;
 import org.raapp.messenger.VerifyIdentityActivity;
 import org.raapp.messenger.audio.AudioRecorder;
 import org.raapp.messenger.audio.AudioSlidePlayer;
+import org.raapp.messenger.client.datamodel.AdminTicketDTO;
+import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.components.AnimatingToggle;
 import org.raapp.messenger.components.AttachmentTypeSelector;
@@ -186,6 +188,7 @@ import org.raapp.messenger.stickers.StickerLocator;
 import org.raapp.messenger.stickers.StickerManagementActivity;
 import org.raapp.messenger.stickers.StickerPackInstallEvent;
 import org.raapp.messenger.stickers.StickerSearchRepository;
+import org.raapp.messenger.util.AdminTicketsPreferenceUtil;
 import org.raapp.messenger.util.BitmapUtil;
 import org.raapp.messenger.util.CharacterCalculator.CharacterState;
 import org.raapp.messenger.util.CommunicationActions;
@@ -1766,10 +1769,15 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private void updateTicketActionMenu(Menu menu){
 
         // TODO: GET TICKET UUID AND COMPANY FROM PREFERENCES BY THREAD ID
+        List<AdminTicketDTO> adminTickets = AdminTicketsPreferenceUtil.getAdminTicketsList(this);
+        AdminTicketDTO adminTicket = AdminTicketsPreferenceUtil.findAdminTicketByThread(this, threadId);
 
-        //TODO: API CALL TICKET DETAIL -> GET STATE
 
-        //TODO: Add Close action to menu
+        //TODO: API CALL TICKET DETAIL API with adminTicket.getUuid() -> GET STATE
+
+
+        //TODO: Parse response and ADD Close action to menu if ticket state == 2
+        //Ticket ticket = Response.body;
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.conversation_close_ticket, menu);
     }

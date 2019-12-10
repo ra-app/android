@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
+import org.raapp.messenger.client.datamodel.AdminTicketDTO;
 import org.raapp.messenger.client.datamodel.Request.RequestTicket;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
@@ -29,6 +30,7 @@ import org.raapp.messenger.database.Address;
 import org.raapp.messenger.database.DatabaseFactory;
 import org.raapp.messenger.database.ThreadDatabase;
 import org.raapp.messenger.recipients.Recipient;
+import org.raapp.messenger.util.AdminTicketsPreferenceUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -152,19 +154,23 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
     public void onClaimButtonClick(Ticket ticket) {
         Toast.makeText(context, "TODO: CALL CLAIM TICKET API and START COVERSATION WITH CLIENT", Toast.LENGTH_SHORT).show();
 
-        //TODO: CALL GET TICKET DETAIL --> Get body messages from response events
+        //TODO: CALL GET TICKET DETAIL API with ticket.getUuid()-
+
+        // TODO: Get response
+        //ticket = response.body()
+
+        //TODO: build ticket description from body messages from ticket events
+        String ticketDescription = ConversationItem.MAGIC_MSG + "TODO: GET TICKET MESSAGES AND CONCAT";
 
         //TODO: CALL CLAIM TICKET API
 
         // TODO: GET RESPONSE FROM CLAIM (Phone number) and start a regular signal conversation
 
-        //TODO: build ticket description from ticket messages
-        String ticketDescription = ConversationItem.MAGIC_MSG + "TODO: GET TICKET MESSAGES AND CONCAT";
 
-        this.startConversationWithClient("+34660279144", ticketDescription);
+        this.startConversationWithClient("+34660279144", ticketDescription, ticket);
     }
 
-    private void startConversationWithClient(String phone, String ticketDescription) {
+    private void startConversationWithClient(String phone, String ticketDescription, Ticket ticket) {
 
         // Build or get Recipient with Client info
         Recipient recipient = Recipient.from(context, Address.fromExternal(context, phone), true);
@@ -178,6 +184,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
         long existingThread = DatabaseFactory.getThreadDatabase(context).getThreadIdIfExistsFor(recipient);
 
         //TODO: Save ThreadID in preferences within TICKET DATA (TICKET UUID, COMPANY, THREAD ID)
+        AdminTicketsPreferenceUtil.addAdminTicket(context, new AdminTicketDTO(ticket ,existingThread));
 
         intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);
         intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, ThreadDatabase.DistributionTypes.CONVERSATION);
