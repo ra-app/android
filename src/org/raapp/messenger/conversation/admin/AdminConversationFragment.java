@@ -152,17 +152,19 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
     public void onClaimButtonClick(Ticket ticket) {
         Toast.makeText(context, "TODO: CALL CLAIM TICKET API and START COVERSATION WITH CLIENT", Toast.LENGTH_SHORT).show();
 
+        //TODO: CALL GET TICKET DETAIL --> Get body messages from response events
+
         //TODO: CALL CLAIM TICKET API
 
         // TODO: GET RESPONSE FROM CLAIM (Phone number) and start a regular signal conversation
-        this.startConversationWithClient("+34660279144");
+
+        //TODO: build ticket description from ticket messages
+        String ticketDescription = ConversationItem.MAGIC_MSG + "TODO: GET TICKET MESSAGES AND CONCAT";
+
+        this.startConversationWithClient("+34660279144", ticketDescription);
     }
 
-    private void startConversationWithClient(String phone) {
-
-        // Insert TICKET DESCRIPTION message TODO: build ticket description from ticket detail
-        String ticketDescription = ConversationItem.MAGIC_MSG + "TODO: GET TICKET DESCRIPTION";
-
+    private void startConversationWithClient(String phone, String ticketDescription) {
 
         // Build or get Recipient with Client info
         Recipient recipient = Recipient.from(context, Address.fromExternal(context, phone), true);
@@ -174,6 +176,8 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
         //intent.setDataAndType(getIntent().getData(), getIntent().getType());
 
         long existingThread = DatabaseFactory.getThreadDatabase(context).getThreadIdIfExistsFor(recipient);
+
+        //TODO: Save ThreadID in preferences within TICKET DATA (TICKET UUID, COMPANY, THREAD ID)
 
         intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);
         intent.putExtra(ConversationActivity.DISTRIBUTION_TYPE_EXTRA, ThreadDatabase.DistributionTypes.CONVERSATION);

@@ -1362,5 +1362,6 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="note_message">NACHRICHT</string>
     <string name="note_type_calendar">Kalender</string>
   <string name="note_type_normal">Standard</string>
-  <!--EOF-->
+    <string name="close">Close</string>
+    <!--EOF-->
 </resources>

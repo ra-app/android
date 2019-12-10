@@ -742,6 +742,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         });
 
         super.onPrepareOptionsMenu(menu);
+
+        updateTicketActionMenu(menu);
+
         return true;
     }
 
@@ -800,6 +803,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
             case R.id.menu_expiring_messages_off:
             case R.id.menu_expiring_messages:
                 handleSelectMessageExpiration();
+                return true;
+            case R.id.menu_close_ticket:
+                handleTicketClose();
                 return true;
             case android.R.id.home:
                 handleReturnToConversationList();
@@ -1271,7 +1277,13 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         if(isTicketClaim){
             sendMessage();
         }
-        //TODO: Save in database ticket uuid to close it in the future
+    }
+
+    private void handleTicketClose(){
+        //TODO: API CALL CLOSE TICKET
+        Toast.makeText(this, "TODO: CALL API CLOSE TICKET", Toast.LENGTH_SHORT).show();
+
+        //TODO: Remove TICKET FROM PREFERENCES
     }
 
     ///// Initializers
@@ -1749,6 +1761,17 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
                     EventBus.getDefault().removeStickyEvent(StickerPackInstallEvent.class);
                 })
                 .show(TooltipPopup.POSITION_ABOVE);
+    }
+
+    private void updateTicketActionMenu(Menu menu){
+
+        // TODO: GET TICKET UUID AND COMPANY FROM PREFERENCES BY THREAD ID
+
+        //TODO: API CALL TICKET DETAIL -> GET STATE
+
+        //TODO: Add Close action to menu
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.conversation_close_ticket, menu);
     }
 
     @Override

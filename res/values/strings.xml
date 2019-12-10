@@ -1607,5 +1607,6 @@
     <string name="note_message">NACHRICHT</string>
     <string name="note_type_calendar">Kalender</string>
     <string name="note_type_normal">Standard</string>
+    <string name="close">Close</string>
 
 </resources>
