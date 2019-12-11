@@ -1363,5 +1363,6 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
     <string name="note_type_calendar">Kalender</string>
   <string name="note_type_normal">Standard</string>
     <string name="close">Close</string>
+    <string name="ticket_close_msg">Dieses ticket wurde geschlossen</string>
     <!--EOF-->
 </resources>

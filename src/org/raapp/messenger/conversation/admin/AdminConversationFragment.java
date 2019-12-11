@@ -183,7 +183,7 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
 
         long existingThread = DatabaseFactory.getThreadDatabase(context).getThreadIdIfExistsFor(recipient);
 
-        //TODO: Save ThreadID in preferences within TICKET DATA (TICKET UUID, COMPANY, THREAD ID)
+        //Save ThreadID in preferences within TICKET DATA (TICKET UUID, COMPANY, THREAD ID)
         AdminTicketsPreferenceUtil.addAdminTicket(context, new AdminTicketDTO(ticket ,existingThread));
 
         intent.putExtra(ConversationActivity.THREAD_ID_EXTRA, existingThread);

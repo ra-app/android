@@ -8,10 +8,9 @@ import com.google.gson.reflect.TypeToken;
 
 import org.raapp.messenger.OfficeAppConstants;
 import org.raapp.messenger.client.datamodel.AdminTicketDTO;
-import org.raapp.messenger.client.datamodel.CompanyRoleDTO;
+import org.raapp.messenger.logging.Log;
 
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.List;
 
 import static android.content.Context.MODE_PRIVATE;
@@ -30,8 +29,8 @@ public final class AdminTicketsPreferenceUtil {
     public static List<AdminTicketDTO> getAdminTicketsList(Context context) {
         SharedPreferences appSharedPrefs = context.getSharedPreferences(OfficeAppConstants.RA_PREFERENCES, MODE_PRIVATE);
         Gson gson = new Gson();
-        String json = appSharedPrefs.getString("adminTickets", "");
-        Type type = new TypeToken<List<CompanyRoleDTO>>(){}.getType();
+        String json = appSharedPrefs.getString("adminTickets", "[]");
+        Type type = new TypeToken<List<AdminTicketDTO>>(){}.getType();
         return gson.fromJson(json, type);
     }
 
@@ -44,11 +43,28 @@ public final class AdminTicketsPreferenceUtil {
         return  null;
     }
 
+    private static int findTicketIndexByUUID(Context context, String UUID){
+        List<AdminTicketDTO> list = getAdminTicketsList(context);
+        for (AdminTicketDTO adminTicket: list) {
+            if(adminTicket.getUuid() != null && adminTicket.getUuid().equals(UUID)){
+                return list.indexOf(adminTicket);
+            }
+        }
+        return  -1;
+    }
+
+    public static void removeTicketByUUID(Context context, String UUID){
+        List<AdminTicketDTO> adminTicketsDTOS = getAdminTicketsList(context);
+        int index = findTicketIndexByUUID(context, UUID);
+        if(index != -1){
+            adminTicketsDTOS.remove(index);
+            saveAdminTicketsList(context, adminTicketsDTOS);
+        }
+
+    }
+
     public static void addAdminTicket(Context context, AdminTicketDTO adminTicketDTO) {
         List<AdminTicketDTO> adminTicketsDTOS = getAdminTicketsList(context);
-        if (adminTicketsDTOS == null) {
-            adminTicketsDTOS = new ArrayList<>();
-        }
         adminTicketsDTOS.add(adminTicketDTO);
         saveAdminTicketsList(context, adminTicketsDTOS);
     }
