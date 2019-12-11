@@ -128,6 +128,7 @@ public class ConversationItem extends LinearLayout
 {
   private static final String TAG = ConversationItem.class.getSimpleName();
   public static final String MAGIC_MSG= "[![TICKETMSG]!]";
+  public static final String MAGIC_LINE= "[![TICKETLINE]!]";
   public static final String MAGIC_MSG_REGEX= "\\[!\\[TICKETMSG]!]";
 
   private static final int MAX_MEASURE_CALLS       = 3;

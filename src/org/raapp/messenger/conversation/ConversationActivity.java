@@ -322,6 +322,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
     private Recipient recipient;
     private long threadId;
+    private AdminTicketDTO adminTicket;
     private int distributionType;
     private boolean archived;
     private boolean isSecureText;
@@ -332,6 +333,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private final IdentityRecordList identityRecords = new IdentityRecordList();
     private final DynamicNoActionBarTheme dynamicTheme = new DynamicNoActionBarTheme();
     private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
+
 
 
     @Override
@@ -1286,7 +1288,22 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         //TODO: API CALL CLOSE TICKET
         Toast.makeText(this, "TODO: CALL API CLOSE TICKET", Toast.LENGTH_SHORT).show();
 
-        //TODO: Remove TICKET FROM PREFERENCES
+        // Remove TICKET FROM PREFERENCES
+        if(adminTicket != null){
+            AdminTicketsPreferenceUtil.removeTicketByUUID(this, adminTicket.getUuid());
+        }
+
+        // sendClose message
+        composeText.setText(ConversationItem.MAGIC_MSG + getResources().getString(R.string.ticket_close_msg));
+        sendMessage();
+
+        // Insert Line
+        composeText.setText(ConversationItem.MAGIC_LINE);
+        sendMessage();
+
+        // archive chat
+        DatabaseFactory.getThreadDatabase(this).archiveConversation(threadId);
+
     }
 
     ///// Initializers
@@ -1769,8 +1786,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private void updateTicketActionMenu(Menu menu){
 
         // TODO: GET TICKET UUID AND COMPANY FROM PREFERENCES BY THREAD ID
-        List<AdminTicketDTO> adminTickets = AdminTicketsPreferenceUtil.getAdminTicketsList(this);
-        AdminTicketDTO adminTicket = AdminTicketsPreferenceUtil.findAdminTicketByThread(this, threadId);
+        adminTicket = AdminTicketsPreferenceUtil.findAdminTicketByThread(this, threadId);
 
 
         //TODO: API CALL TICKET DETAIL API with adminTicket.getUuid() -> GET STATE
