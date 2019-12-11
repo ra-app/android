@@ -47,10 +47,14 @@ public class Client {
     public static final String ENDPOINT_BLACKBOARD = "blackboard/list/";
     public static final String ENDPOINT_BLACKBOARD_UPDATE = "/blackboard/update";
     public static final String ENDPOINT_IMAGE = "img/";
-    public static final String ENDPOINT_TICKETS_GET = "/tickets/get";
-    public static final String ENDPOINT_TICKETS_DETAILS = "/tickets/details/";
     public static final String ENDPOINT_INVITE_CREATE = "/invites/create";
     public static final String ENDPOINT_INVITE_SEND= "/invites/send";
+        //TICKETS
+        public static final String ENDPOINT_BASE_TICKETS = "/tickets/";
+        public static final String ENDPOINT_TICKETS_GET = ENDPOINT_BASE_TICKETS + "get/";
+        public static final String ENDPOINT_TICKETS_DETAILS = ENDPOINT_BASE_TICKETS +"details/";
+        public static final String ENDPOINT_TICKET_CLAIM = ENDPOINT_BASE_TICKETS + "claim/";
+        public static final String ENDPOINT_TICKET_CLOSE = ENDPOINT_BASE_TICKETS + "close/";
 
     //PARAMS && HEADERS
     public static final String GENERIC_ID = "ID";
@@ -72,6 +76,8 @@ public class Client {
         //TICKETS
     public static final String ENDPOINT_GET_TICKET = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_TICKETS_GET ;
     public static final String ENDPOINT_GET_TICKET_DETAIL = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_TICKETS_DETAILS + "{" + GENERIC_ID2 + "}";
+    public static final String ENDPOINT_CLAIM_TICKET  = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_TICKET_CLAIM + "{" + GENERIC_ID2 + "}";
+    public static final String ENDPOINT_CLOSE_TICKET  = ENDPOINT_BASE_VERSION_1 + ENDPOINT_BASE_ADMIN + "{" + GENERIC_ID + "}" + ENDPOINT_TICKET_CLOSE + "{" + GENERIC_ID2 + "}";
 
 
     public static String token;
@@ -142,12 +148,19 @@ public class Client {
 
     // TICKETS
     public static void getTickets(Callback<ResponseTickets> callback, RequestTicket requestTicket, String companyID) {
-        Call<ResponseTickets> responseTicketsCall = iClient.getTickets("Basic " + token, requestTicket, companyID);
-        responseTicketsCall.enqueue(callback);
+        Call<ResponseTickets> getTicketsCall = iClient.getTickets("Basic " + token, requestTicket, companyID);
+        getTicketsCall.enqueue(callback);
     }
     public static void getTicketDetail(Callback<ResponseTicketDetail> callback, String companyID, String ticketId ) {
-        Call<ResponseTicketDetail> responseTicketDetailCall = iClient.getTicketDetail("Basic " + token, companyID, ticketId);
-        responseTicketDetailCall.enqueue(callback);
+        Call<ResponseTicketDetail> getTicketDetailCall = iClient.getTicketDetail("Basic " + token, companyID, ticketId);
+        getTicketDetailCall.enqueue(callback);
     }
-
+    public static void claimTicket(Callback<ResponseTicketDetail> callback, String companyID, String ticketId ) {
+        Call<ResponseTicketDetail> claimTicketCall = iClient.claimTicket("Basic " + token, companyID, ticketId);
+        claimTicketCall.enqueue(callback);
+    }
+    public static void closeTicket(Callback<ResponseTicketDetail> callback, String companyID, String ticketId ) {
+        Call<ResponseTicketDetail> closeTicketCall = iClient.closeTicket("Basic " + token, companyID, ticketId);
+        closeTicketCall.enqueue(callback);
+    }
 }

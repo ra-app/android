@@ -73,5 +73,13 @@ public interface IClient {
     Call<ResponseTicketDetail> getTicketDetail(@Header(Client.AUTH_HEADER) String authToken,
                                                @Path(Client.GENERIC_ID) String companyId,
                                                @Path(Client.GENERIC_ID2) String ticketId);
+    @GET(Client.ENDPOINT_CLAIM_TICKET)
+    Call<ResponseTicketDetail> claimTicket(@Header(Client.AUTH_HEADER) String authToken,
+                                               @Path(Client.GENERIC_ID) String companyId,
+                                               @Path(Client.GENERIC_ID2) String ticketId);
+    @GET(Client.ENDPOINT_CLOSE_TICKET)
+    Call<ResponseTicketDetail> closeTicket(@Header(Client.AUTH_HEADER) String authToken,
+                                           @Path(Client.GENERIC_ID) String companyId,
+                                           @Path(Client.GENERIC_ID2) String ticketId);
     //----------------------------------------------------------------------------------------------
 }
