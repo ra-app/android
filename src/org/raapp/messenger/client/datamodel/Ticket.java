@@ -6,7 +6,9 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class Ticket {
-
+    @SerializedName("id")
+    @Expose
+    private String id;
     @SerializedName("uuid")
     @Expose
     private String uuid;
@@ -41,12 +43,17 @@ public class Ticket {
     @Expose
     private String tsClosed;
 
-
+    //NO PARSED
     private List<TicketEvent> ticketEvents;
-
     private boolean isExpanded = false;
 
     //GETTERS && SETTERS
+    public String getId() {
+        return id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
     public String getUuid() {
         return uuid;
     }
@@ -117,15 +124,12 @@ public class Ticket {
     public List<TicketEvent> getTicketEvents() {
         return ticketEvents;
     }
-
     public void setTicketEvents(List<TicketEvent> ticketEvents) {
         this.ticketEvents = ticketEvents;
     }
-
     public boolean isExpanded() {
         return isExpanded;
     }
-
     public void setExpanded(boolean expanded) {
         isExpanded = expanded;
     }
