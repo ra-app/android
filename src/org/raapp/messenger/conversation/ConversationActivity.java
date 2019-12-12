@@ -88,6 +88,7 @@ import org.raapp.messenger.audio.AudioRecorder;
 import org.raapp.messenger.audio.AudioSlidePlayer;
 import org.raapp.messenger.client.Client;
 import org.raapp.messenger.client.datamodel.AdminTicketDTO;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketListDetail;
 import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.color.MaterialColor;
@@ -1809,18 +1810,37 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     }
 
     private void updateTicketActionMenu(Menu menu){
-
-        // TODO: GET TICKET UUID AND COMPANY FROM PREFERENCES BY THREAD ID
+        //GET TICKET UUID AND COMPANY FROM PREFERENCES BY THREAD ID
         adminTicket = AdminTicketsPreferenceUtil.findAdminTicketByThread(this, threadId);
 
+        if (adminTicket == null) { return; }
+        //API CALL TICKET DETAIL API with adminTicket.getUuid() -> GET STATE
+        Client.buildBase(this);
+        Client.getTicketDetail(new Callback<ResponseTicketDetail>() {
+            @Override
+            public void onResponse(Call<ResponseTicketDetail> call, Response<ResponseTicketDetail> response) {
+                if (response.isSuccessful()) {
+                    ResponseTicketDetail resp = response.body();
 
-        //TODO: API CALL TICKET DETAIL API with adminTicket.getUuid() -> GET STATE
+                    if (resp != null && resp.getSuccess()) {
+                        int state = resp.getDetails().getTicket().getState();
+                        String adminID = resp.getDetails().getTicket().getAdminUuid();
 
+                        if (state == 2) {
+                            MenuInflater inflater = getMenuInflater();
+                            inflater.inflate(R.menu.conversation_close_ticket, menu);
+                        }
+                    }
+                } else{
+                    Toast.makeText(ConversationActivity.this, "Server error", Toast.LENGTH_SHORT).show();
+                }
+            }
 
-        //TODO: Parse response and ADD Close action to menu if ticket state == 2
-        //Ticket ticket = Response.body;
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.conversation_close_ticket, menu);
+            @Override
+            public void onFailure(Call<ResponseTicketDetail> call, Throwable t) {
+                Toast.makeText(ConversationActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
+            }
+        }, String.valueOf(adminTicket.getCompanyID()), adminTicket.getUuid());
     }
 
     @Override
