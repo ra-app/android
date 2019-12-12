@@ -355,6 +355,14 @@ public class ConversationItem extends LinearLayout
       bodyText.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
       footer.setTextColor(ThemeUtil.getThemedColor(getContext(), R.attr.conversation_item_received_text_primary_color));
       footer.setIconColor(getResources().getColor(R.color.orange_100));
+    }else if(message.contains(MAGIC_LINE)){
+      bodyBubble.getBackground().setColorFilter(getResources().getColor(R.color.gray13), PorterDuff.Mode.MULTIPLY);
+      final float scale = getContext().getResources().getDisplayMetrics().density;
+      int heightPX = (int) (4 * scale + 0.5f); //2dp to px
+      ViewUtil.updateLayoutParams(bodyBubble, ViewGroup.LayoutParams.MATCH_PARENT, heightPX);
+      bodyText.setTextColor(getResources().getColor(R.color.gray13));
+      footer.setTextColor(getResources().getColor(R.color.gray13));
+      footer.setIconColor(getResources().getColor(R.color.gray13));
     }else if(this.groupThread) {
       bodyBubble.getBackground().setColorFilter(getResources().getColor(R.color.ra_selected_blue), PorterDuff.Mode.MULTIPLY);
       ViewUtil.updateLayoutParams(bodyBubble, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -485,6 +493,10 @@ public class ConversationItem extends LinearLayout
 
       if (message.contains(MAGIC_MSG)) {
         message = message.replaceAll(MAGIC_MSG_REGEX, "");
+      }
+
+      if (message.contains(MAGIC_LINE)) {
+        message = "";
       }
 
       Spannable styledText = linkifyMessageBody(new SpannableString(message), batchSelected.isEmpty());
@@ -847,11 +859,18 @@ public class ConversationItem extends LinearLayout
     } else if (current.isOutgoing()) {
       ViewUtil.setLeftMargin(container, readDimen(R.dimen.conversation_individual_left_gutter));
     }
-    if (message.contains(MAGIC_MSG) || this.groupThread) {
+    if (message.contains(MAGIC_MSG) || message.contains(MAGIC_LINE) || this.groupThread) {
       ViewUtil.setRightMargin(bodyBubble, 0);
       ViewUtil.setLeftMargin(bodyBubble, 24);
-      if(current.isOutgoing())
+      if(current.isOutgoing()){
         ViewUtil.setLeftMargin(container, readDimen(R.dimen.conversation_individual_left_gutter_magic));
+      }
+
+      if(message.contains(MAGIC_LINE) ){
+        ViewUtil.setTopMargin(container, readDimen(R.dimen.ticket_claim_divider_margin_top));
+        ViewUtil.setBottomMargin(container, readDimen(R.dimen.ticket_claim_divider_margin_top));
+      }
+
     }
   }
 

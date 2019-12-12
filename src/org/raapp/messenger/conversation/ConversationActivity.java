@@ -329,6 +329,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private boolean isDefaultSms = true;
     private boolean isMmsEnabled = true;
     private boolean isSecurityInitialized = false;
+    private boolean mIsClosing = false;
 
     private final IdentityRecordList identityRecords = new IdentityRecordList();
     private final DynamicNoActionBarTheme dynamicTheme = new DynamicNoActionBarTheme();
@@ -1293,6 +1294,8 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
             AdminTicketsPreferenceUtil.removeTicketByUUID(this, adminTicket.getUuid());
         }
 
+        mIsClosing = true;
+
         // sendClose message
         composeText.setText(ConversationItem.MAGIC_MSG + getResources().getString(R.string.ticket_close_msg));
         sendMessage();
@@ -1300,9 +1303,6 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         // Insert Line
         composeText.setText(ConversationItem.MAGIC_LINE);
         sendMessage();
-
-        // archive chat
-        DatabaseFactory.getThreadDatabase(this).archiveConversation(threadId);
 
     }
 
@@ -2229,6 +2229,11 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         attachmentManager.cleanup();
 
         updateLinkPreviewState();
+
+        if(mIsClosing){
+            // archive chat after ticket close
+            DatabaseFactory.getThreadDatabase(this).archiveConversation(threadId);
+        }
     }
 
     private void sendMessage() {
