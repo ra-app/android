@@ -19,6 +19,7 @@ package org.raapp.messenger.conversation;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
+import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -41,6 +42,7 @@ import android.os.Vibrator;
 import android.provider.Browser;
 import android.provider.ContactsContract;
 import android.provider.Telephony;
+import android.telephony.PhoneNumberUtils;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -84,7 +86,9 @@ import org.raapp.messenger.TransportOption;
 import org.raapp.messenger.VerifyIdentityActivity;
 import org.raapp.messenger.audio.AudioRecorder;
 import org.raapp.messenger.audio.AudioSlidePlayer;
+import org.raapp.messenger.client.Client;
 import org.raapp.messenger.client.datamodel.AdminTicketDTO;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketListDetail;
 import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.color.MaterialColor;
 import org.raapp.messenger.components.AnimatingToggle;
@@ -236,6 +240,10 @@ import androidx.core.graphics.drawable.IconCompat;
 import androidx.core.view.MenuItemCompat;
 import androidx.lifecycle.ViewModelProviders;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 import static org.raapp.messenger.TransportOption.Type;
 import static org.raapp.messenger.database.GroupDatabase.GroupRecord;
 import static org.whispersystems.libsignal.SessionCipher.SESSION_LOCK;
@@ -330,6 +338,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     private boolean isMmsEnabled = true;
     private boolean isSecurityInitialized = false;
     private boolean mIsClosing = false;
+    private ProgressDialog progress;
 
     private final IdentityRecordList identityRecords = new IdentityRecordList();
     private final DynamicNoActionBarTheme dynamicTheme = new DynamicNoActionBarTheme();
@@ -1286,23 +1295,39 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     }
 
     private void handleTicketClose(){
-        //TODO: API CALL CLOSE TICKET
-        Toast.makeText(this, "TODO: CALL API CLOSE TICKET", Toast.LENGTH_SHORT).show();
+        progress = ProgressDialog.show(this, "", "", true);
+        Client.buildBase(this);
+        Client.closeTicket(new Callback<ResponseTicketListDetail>() {
+            @Override
+            public void onResponse(Call<ResponseTicketListDetail> call, Response<ResponseTicketListDetail> response) {
+                if (response.isSuccessful()) {
+                    ResponseTicketListDetail resp = response.body();
 
-        // Remove TICKET FROM PREFERENCES
-        if(adminTicket != null){
-            AdminTicketsPreferenceUtil.removeTicketByUUID(this, adminTicket.getUuid());
-        }
+                    if (resp != null && resp.getSuccess()) {
+                        // Remove TICKET FROM PREFERENCES
+                        if(adminTicket != null){
+                            AdminTicketsPreferenceUtil.removeTicketByUUID(ConversationActivity.this, adminTicket.getUuid());
+                        }
+                        mIsClosing = true;
+                        // sendClose message
+                        composeText.setText(ConversationItem.MAGIC_MSG + getResources().getString(R.string.ticket_close_msg));
+                        sendMessage();
+                        // Insert Line
+                        composeText.setText(ConversationItem.MAGIC_LINE);
+                        sendMessage();
+                    }
+                } else{
+                    Toast.makeText(ConversationActivity.this, "Server error", Toast.LENGTH_SHORT).show();
+                }
+                progress.dismiss();
+            }
 
-        mIsClosing = true;
-
-        // sendClose message
-        composeText.setText(ConversationItem.MAGIC_MSG + getResources().getString(R.string.ticket_close_msg));
-        sendMessage();
-
-        // Insert Line
-        composeText.setText(ConversationItem.MAGIC_LINE);
-        sendMessage();
+            @Override
+            public void onFailure(Call<ResponseTicketListDetail> call, Throwable t) {
+                Toast.makeText(ConversationActivity.this, "HTTP error", Toast.LENGTH_SHORT).show();
+                progress.dismiss();
+            }
+        }, String.valueOf(adminTicket.getCompanyID()), adminTicket.getUuid());
 
     }
 
