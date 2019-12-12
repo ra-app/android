@@ -130,6 +130,7 @@ public class ConversationItem extends LinearLayout
   public static final String MAGIC_MSG= "[![TICKETMSG]!]";
   public static final String MAGIC_LINE= "[![TICKETLINE]!]";
   public static final String MAGIC_MSG_REGEX= "\\[!\\[TICKETMSG]!]";
+  public static final String MAGIC_LINE_REGEX= "\\[!\\[TICKETLINE]!]";
 
   private static final int MAX_MEASURE_CALLS       = 3;
   private static final int MAX_BODY_DISPLAY_LENGTH = 1000;

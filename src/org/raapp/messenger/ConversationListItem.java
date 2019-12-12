@@ -188,6 +188,10 @@ public class ConversationListItem extends RelativeLayout
         subjectView.setVisibility(VISIBLE);
       }
 
+      if (message.contains(ConversationItem.MAGIC_LINE)) {
+        subjectView.setVisibility(GONE);
+      }
+
     }
 
     if (thread.getDate() > 0) {
