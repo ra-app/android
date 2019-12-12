@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.telephony.PhoneNumberUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,11 +17,16 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.mms.service_alt.PhoneUtils;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.raapp.messenger.R;
 import org.raapp.messenger.client.Client;
 import org.raapp.messenger.client.datamodel.AdminTicketDTO;
 import org.raapp.messenger.client.datamodel.Request.RequestTicket;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketListDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 import org.raapp.messenger.client.datamodel.Ticket;
 import org.raapp.messenger.client.datamodel.TicketEvent;
@@ -152,22 +158,71 @@ public class AdminConversationFragment extends Fragment implements AdminConversa
 
     @Override
     public void onClaimButtonClick(Ticket ticket) {
-        Toast.makeText(context, "TODO: CALL CLAIM TICKET API and START COVERSATION WITH CLIENT", Toast.LENGTH_SHORT).show();
+        progress = ProgressDialog.show(context, "", "", true);
+        Client.buildBase(context);
+        Client.getTicketDetail(new Callback<ResponseTicketDetail>() {
+            @Override
+            public void onResponse(Call<ResponseTicketDetail> call, Response<ResponseTicketDetail> response) {
+                if (response.isSuccessful()){
+                    ResponseTicketDetail resp = response.body();
 
-        //TODO: CALL GET TICKET DETAIL API with ticket.getUuid()-
+                    if (resp != null && resp.getSuccess()) {
+                        List<TicketEvent> ticketEvents = resp.getDetails().getEvents();
+                        String message = ConversationItem.MAGIC_MSG;
+                        for (TicketEvent ticketEvent : ticketEvents) {
 
-        // TODO: Get response
-        //ticket = response.body()
+                            try {
+                                JSONObject obj = new JSONObject(ticketEvent.getJson());
+                                message = message.concat(obj.getString("body"));
+                                message = message.concat("\n");
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
 
-        //TODO: build ticket description from body messages from ticket events
-        String ticketDescription = ConversationItem.MAGIC_MSG + "TODO: GET TICKET MESSAGES AND CONCAT";
+                        }
+                        requestClaimTicket(ticket, message);
+                    }
+                } else{
+                    Toast.makeText(context, "Server error", Toast.LENGTH_SHORT).show();
+                }
+            }
 
-        //TODO: CALL CLAIM TICKET API
+            @Override
+            public void onFailure(Call<ResponseTicketDetail> call, Throwable t) {
+                Toast.makeText(context, "HTTP error", Toast.LENGTH_SHORT).show();
+                progress.dismiss();
+            }
+        }, String.valueOf(ticket.getCompanyId()), ticket.getUuid());
+    }
 
-        // TODO: GET RESPONSE FROM CLAIM (Phone number) and start a regular signal conversation
+    private void requestClaimTicket(Ticket ticket, String message) {
 
+        Client.buildBase(context);
+        Client.claimTicket(new Callback<ResponseTicketListDetail>() {
+            @Override
+            public void onResponse(Call<ResponseTicketListDetail> call, Response<ResponseTicketListDetail> response) {
+                if (response.isSuccessful()) {
+                    ResponseTicketListDetail resp = response.body();
 
-        this.startConversationWithClient("+34660279144", ticketDescription, ticket);
+                    if (resp != null && resp.getSuccess()) {
+                        String phoneNumber = resp.getPhone_number();
+                        if (PhoneNumberUtils.isGlobalPhoneNumber(phoneNumber)) {
+                            startConversationWithClient(phoneNumber, message, ticket);
+                            progress.dismiss();
+                        }
+                    }
+                } else{
+                    Toast.makeText(context, "Server error", Toast.LENGTH_SHORT).show();
+                    progress.dismiss();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ResponseTicketListDetail> call, Throwable t) {
+                Toast.makeText(context, "HTTP error", Toast.LENGTH_SHORT).show();
+                progress.dismiss();
+            }
+        }, String.valueOf(ticket.getCompanyId()), ticket.getUuid());
     }
 
     private void startConversationWithClient(String phone, String ticketDescription, Ticket ticket) {
