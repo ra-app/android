@@ -16,6 +16,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketListDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import okhttp3.OkHttpClient;
@@ -155,12 +156,12 @@ public class Client {
         Call<ResponseTicketDetail> getTicketDetailCall = iClient.getTicketDetail("Basic " + token, companyID, ticketId);
         getTicketDetailCall.enqueue(callback);
     }
-    public static void claimTicket(Callback<ResponseTicketDetail> callback, String companyID, String ticketId ) {
-        Call<ResponseTicketDetail> claimTicketCall = iClient.claimTicket("Basic " + token, companyID, ticketId);
+    public static void claimTicket(Callback<ResponseTicketListDetail> callback, String companyID, String ticketId ) {
+        Call<ResponseTicketListDetail> claimTicketCall = iClient.claimTicket("Basic " + token, companyID, ticketId);
         claimTicketCall.enqueue(callback);
     }
-    public static void closeTicket(Callback<ResponseTicketDetail> callback, String companyID, String ticketId ) {
-        Call<ResponseTicketDetail> closeTicketCall = iClient.closeTicket("Basic " + token, companyID, ticketId);
+    public static void closeTicket(Callback<ResponseTicketListDetail> callback, String companyID, String ticketId ) {
+        Call<ResponseTicketListDetail> closeTicketCall = iClient.closeTicket("Basic " + token, companyID, ticketId);
         closeTicketCall.enqueue(callback);
     }
 }

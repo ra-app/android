@@ -14,6 +14,7 @@ import org.raapp.messenger.client.datamodel.Responses.ResponseInvitationCode;
 import org.raapp.messenger.client.datamodel.Responses.ResponseNote;
 import org.raapp.messenger.client.datamodel.Responses.ResponseSendMessage;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTicketDetail;
+import org.raapp.messenger.client.datamodel.Responses.ResponseTicketListDetail;
 import org.raapp.messenger.client.datamodel.Responses.ResponseTickets;
 
 import okhttp3.ResponseBody;
@@ -74,12 +75,12 @@ public interface IClient {
                                                @Path(Client.GENERIC_ID) String companyId,
                                                @Path(Client.GENERIC_ID2) String ticketId);
     @GET(Client.ENDPOINT_CLAIM_TICKET)
-    Call<ResponseTicketDetail> claimTicket(@Header(Client.AUTH_HEADER) String authToken,
+    Call<ResponseTicketListDetail> claimTicket(@Header(Client.AUTH_HEADER) String authToken,
                                                @Path(Client.GENERIC_ID) String companyId,
                                                @Path(Client.GENERIC_ID2) String ticketId);
     @GET(Client.ENDPOINT_CLOSE_TICKET)
-    Call<ResponseTicketDetail> closeTicket(@Header(Client.AUTH_HEADER) String authToken,
-                                           @Path(Client.GENERIC_ID) String companyId,
-                                           @Path(Client.GENERIC_ID2) String ticketId);
+    Call<ResponseTicketListDetail> closeTicket(@Header(Client.AUTH_HEADER) String authToken,
+                                               @Path(Client.GENERIC_ID) String companyId,
+                                               @Path(Client.GENERIC_ID2) String ticketId);
     //----------------------------------------------------------------------------------------------
 }
