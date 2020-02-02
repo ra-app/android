@@ -23,6 +23,8 @@ import androidx.camera.core.CameraX;
 import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ProcessLifecycleOwner;
+
+import android.app.ActivityManager;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -378,5 +380,19 @@ public class ApplicationContext extends MultiDexApplication implements Dependenc
   }
 
   private static class ProviderInitializationException extends RuntimeException {
+  }
+
+  public void clearAppData() {
+    try {
+      if (Build.VERSION_CODES.KITKAT <= Build.VERSION.SDK_INT) {
+        ((ActivityManager)getSystemService(ACTIVITY_SERVICE)).clearApplicationUserData();
+      } else {
+        String packageName = getApplicationContext().getPackageName();
+        Runtime runtime = Runtime.getRuntime();
+        runtime.exec("pm clear "+ packageName);
+      }
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
   }
 }

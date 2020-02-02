@@ -516,7 +516,7 @@ public class ConversationListFragment extends Fragment
   public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
     switch (item.getItemId()) {
     case R.id.menu_select_all:       handleSelectAllThreads();   return true;
-    case R.id.menu_delete_selected:  handleDeleteAllSelected();  return true;
+   // case R.id.menu_delete_selected:  handleDeleteAllSelected();  return true;
     case R.id.menu_archive_selected: handleArchiveAllSelected(); return true;
     }
 

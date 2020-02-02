@@ -199,6 +199,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
       Toast.makeText(this, R.string.RegistrationActivity_failed_to_verify_the_captcha, Toast.LENGTH_LONG).show();
       /*createButton.setIndeterminateProgressMode(false);
       createButton.setProgress(0);*/
+      createButton.setEnabled(true);
     }
   }
 
@@ -476,6 +477,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
   private void handleRequestVerification(@NonNull String e164number, boolean gcmSupported) {
     /*createButton.setIndeterminateProgressMode(true);
     createButton.setProgress(50);*/
+    createButton.setEnabled(false);
 
     if (gcmSupported) {
       SmsRetrieverClient client = SmsRetriever.getClient(this);
@@ -535,6 +537,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
           Toast.makeText(RegistrationActivity.this, R.string.RegistrationActivity_unable_to_connect_to_service, Toast.LENGTH_LONG).show();
           /*createButton.setIndeterminateProgressMode(false);
           createButton.setProgress(0);*/
+          createButton.setEnabled(true);
         } else {
           registrationState = new RegistrationState(RegistrationState.State.VERIFYING, e164number, result.password, result.fcmToken, Optional.absent());
           displayVerificationView(e164number, 64);
@@ -852,6 +855,7 @@ public class RegistrationActivity extends BaseActionBarActivity implements Verif
         registrationContainer.setVisibility(View.VISIBLE);
         /*createButton.setProgress(0);
         createButton.setIndeterminateProgressMode(false);*/
+        createButton.setEnabled(true);
         registrationContainer.animate().translationX(0).setDuration(SCENE_TRANSITION_DURATION).setListener(null).setInterpolator(new OvershootInterpolator()).start();
       }
     }).start();

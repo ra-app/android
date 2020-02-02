@@ -211,6 +211,7 @@
                     android:layout_weight="1"
                     android:hint="Beispel : 621 34 56 78"
                     android:background="@color/transparent"
+                    android:inputType="phone"
                     android:layout_marginStart="10dp"/>
 
             </LinearLayout>

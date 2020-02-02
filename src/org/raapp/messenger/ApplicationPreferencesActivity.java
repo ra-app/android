@@ -81,12 +81,13 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
   private static final String PREFERENCE_CATEGORY_NOTIFICATIONS  = "preference_category_notifications";
   private static final String PREFERENCE_CATEGORY_APP_PROTECTION = "preference_category_app_protection";
   //private static final String PREFERENCE_CATEGORY_APPEARANCE     = "preference_category_appearance";
-  private static final String PREFERENCE_CATEGORY_THEME          = "pref_theme";
   private static final String PREFERENCE_CATEGORY_LANGUAGE       = "pref_language";
   private static final String PREFERENCE_CATEGORY_CHATS          = "preference_category_chats";
   private static final String PREFERENCE_CATEGORY_DEVICES        = "preference_category_devices";
   //private static final String PREFERENCE_CATEGORY_ADVANCED       = "preference_category_advanced";
   private static final String PREFERENCE_CATEGORY_TOGGLE_PUSH      = "pref_toggle_push_messaging";
+  private static final String PREFERENCE_CATEGORY_DELETE_ACCOUNT     = "preference_category_delete_account";
+
 
   private final DynamicTheme    dynamicTheme    = new DynamicTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
@@ -176,6 +177,14 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       //this.findPreference(PREFERENCE_CATEGORY_ADVANCED)
       //        .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_ADVANCED));
 
+      this.findPreference(PREFERENCE_CATEGORY_DELETE_ACCOUNT).setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+        @Override
+        public boolean onPreferenceClick(Preference preference) {
+          ((ApplicationContext)getActivity().getApplication()).clearAppData();
+          return false;
+        }
+      });
+
       if (VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
         tintIcons(getActivity());
       }
@@ -223,8 +232,6 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       //    .setSummary(AppearancePreferenceFragment.getSummary(getActivity()));
       this.findPreference(PREFERENCE_CATEGORY_LANGUAGE)
               .setSummary(AppearancePreferenceFragment.getSummary(getActivity(),TextSecurePreferences.LANGUAGE_PREF));
-      this.findPreference(PREFERENCE_CATEGORY_THEME)
-              .setSummary(AppearancePreferenceFragment.getSummary(getActivity(),TextSecurePreferences.THEME_PREF));
       this.findPreference(PREFERENCE_CATEGORY_CHATS)
               .setSummary(ChatsPreferenceFragment.getSummary(getActivity()));
     }

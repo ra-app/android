@@ -33,18 +33,7 @@ public class ShareReminder extends Reminder {
   }
 
   public static boolean isEligible(final @NonNull Context context) {
-    if (!TextSecurePreferences.isPushRegistered(context) ||
-        TextSecurePreferences.hasPromptedShare(context))
-    {
-      return false;
-    }
-
-    Cursor cursor = null;
-    try {
-      cursor = DatabaseFactory.getThreadDatabase(context).getConversationList();
-      return cursor.getCount() >= 1;
-    } finally {
-      if (cursor != null) cursor.close();
-    }
+    // issue #29 Delete the text
+    return false;
   }
 }
