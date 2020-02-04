@@ -21,6 +21,7 @@ public class ContactPreference extends Preference {
   private Listener listener;
   private boolean isBroadcastGroup;
   private boolean isAdmin;
+  private boolean isOfficeApp;
 
   private boolean secure;
 
@@ -66,8 +67,12 @@ public class ContactPreference extends Preference {
       }else{
         this.initGroupUserView();
       }
-
     }
+
+    if(isOfficeApp){
+      this.initOfficeAppView();
+    }
+
   }
 
   public void setSecure(boolean secure) {
@@ -104,6 +109,14 @@ public class ContactPreference extends Preference {
     if (messageButton != null)    messageButton.setVisibility(View.GONE);
     if (callButton != null)       callButton.setVisibility(View.GONE);
     if (editButton != null)       editButton.setVisibility(View.GONE);
+  }
+
+  public void initOfficeAppView(){
+    this.isOfficeApp = true;
+    if (callButton != null)       callButton.setVisibility(View.GONE);
+    if (secureCallButton != null) secureCallButton.setVisibility(View.GONE);
+    if (editButton != null)       editButton.setVisibility(View.GONE);
+    if (messageButton != null)    messageButton.setVisibility(View.GONE);
   }
 
 

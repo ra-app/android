@@ -484,6 +484,11 @@ public class RecipientPreferenceActivity extends PassphraseRequiredActionBarActi
           }
         });
       }
+
+
+      if(recipient.isOfficeApp()){
+        aboutPreference.initOfficeAppView();
+      }
     }
 
     private @NonNull String formatAddress(@NonNull Address address) {
