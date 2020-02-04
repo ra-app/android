@@ -73,6 +73,7 @@ public class ContactPreference extends Preference {
       this.initOfficeAppView();
     }
 
+    if (messageButton != null)    messageButton.setVisibility(View.GONE);
   }
 
   public void setSecure(boolean secure) {
