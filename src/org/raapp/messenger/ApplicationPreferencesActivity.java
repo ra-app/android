@@ -83,7 +83,7 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
   //private static final String PREFERENCE_CATEGORY_APPEARANCE     = "preference_category_appearance";
   private static final String PREFERENCE_CATEGORY_LANGUAGE       = "pref_language";
   private static final String PREFERENCE_CATEGORY_CHATS          = "preference_category_chats";
-  private static final String PREFERENCE_CATEGORY_DEVICES        = "preference_category_devices";
+  //private static final String PREFERENCE_CATEGORY_DEVICES        = "preference_category_devices";
   //private static final String PREFERENCE_CATEGORY_ADVANCED       = "preference_category_advanced";
   private static final String PREFERENCE_CATEGORY_TOGGLE_PUSH      = "pref_toggle_push_messaging";
   private static final String PREFERENCE_CATEGORY_DELETE_ACCOUNT     = "preference_category_delete_account";
@@ -172,8 +172,8 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       //  .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_APPEARANCE));
       this.findPreference(PREFERENCE_CATEGORY_CHATS)
         .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_CHATS));
-      this.findPreference(PREFERENCE_CATEGORY_DEVICES)
-        .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_DEVICES));
+      //this.findPreference(PREFERENCE_CATEGORY_DEVICES)
+        //.setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_DEVICES));
       //this.findPreference(PREFERENCE_CATEGORY_ADVANCED)
       //        .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_ADVANCED));
 
@@ -201,7 +201,7 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       //noinspection ConstantConditions
       ((ApplicationPreferencesActivity) getActivity()).getSupportActionBar().setTitle(R.string.text_secure_normal__menu_settings);
       setCategorySummaries();
-      setCategoryVisibility();
+      //setCategoryVisibility();
       initializePushMessagingToggle();
     }
 
@@ -236,12 +236,12 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
               .setSummary(ChatsPreferenceFragment.getSummary(getActivity()));
     }
 
-    private void setCategoryVisibility() {
+    /*private void setCategoryVisibility() {
       Preference devicePreference = this.findPreference(PREFERENCE_CATEGORY_DEVICES);
       if (devicePreference != null && !TextSecurePreferences.isPushRegistered(getActivity())) {
         getPreferenceScreen().removePreference(devicePreference);
       }
-    }
+    }*/
 
     @TargetApi(11)
     private void tintIcons(Context context) {
@@ -271,7 +271,7 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
       this.findPreference(PREFERENCE_CATEGORY_APP_PROTECTION).setIcon(privacy);
       //this.findPreference(PREFERENCE_CATEGORY_APPEARANCE).setIcon(appearance);
       this.findPreference(PREFERENCE_CATEGORY_CHATS).setIcon(chats);
-      this.findPreference(PREFERENCE_CATEGORY_DEVICES).setIcon(devices);
+      //this.findPreference(PREFERENCE_CATEGORY_DEVICES).setIcon(devices);
       //this.findPreference(PREFERENCE_CATEGORY_ADVANCED).setIcon(advanced);
     }
 
@@ -302,10 +302,10 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActionBarA
         case PREFERENCE_CATEGORY_CHATS:
           fragment = new ChatsPreferenceFragment();
           break;
-        case PREFERENCE_CATEGORY_DEVICES:
-          Intent intent = new Intent(getActivity(), DeviceActivity.class);
-          startActivity(intent);
-          break;
+        //case PREFERENCE_CATEGORY_DEVICES:
+          //Intent intent = new Intent(getActivity(), DeviceActivity.class);
+          //startActivity(intent);
+          //break;
         //case PREFERENCE_CATEGORY_ADVANCED:
         //  fragment = new AdvancedPreferenceFragment();
         //  break;

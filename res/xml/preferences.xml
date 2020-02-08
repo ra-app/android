@@ -45,12 +45,6 @@
 
         <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
 
-        <Preference android:key="preference_category_devices"
-            android:layout="@layout/ra_preference_item"
-                    android:title="@string/preferences__linked_devices"/>
-
-        <PreferenceCategory android:layout="@layout/preference_divider" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
-
         <org.raapp.messenger.components.SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="pref_toggle_push_messaging"
