@@ -651,11 +651,14 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
             }
         }
 
+        /* issue #6 Call button remove
         if (isSingleConversation() && !recipient.isOfficeApp()) {
             if (isSecureText) inflater.inflate(R.menu.conversation_callable_secure, menu);
             else inflater.inflate(R.menu.conversation_callable_insecure, menu);
 
-        } else if (isGroupConversation()) {
+        } else
+            */
+            if (isGroupConversation()) {
 
 
             //inflater.inflate(R.menu.conversation_group_options, menu); //members icon
@@ -692,8 +695,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         }
 
         if (recipient != null && recipient.isLocalNumber()) {
-            if (isSecureText) menu.findItem(R.id.menu_call_secure).setVisible(false);
-            else menu.findItem(R.id.menu_call_insecure).setVisible(false);
+
+            //if (isSecureText) menu.findItem(R.id.menu_call_secure).setVisible(false);
+            //else menu.findItem(R.id.menu_call_insecure).setVisible(false);
 
             MenuItem muteItem = menu.findItem(R.id.menu_mute_notifications);
 

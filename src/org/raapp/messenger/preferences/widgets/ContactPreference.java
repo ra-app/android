@@ -54,8 +54,8 @@ public class ContactPreference extends Preference {
     super.onBindViewHolder(view);
 
     this.messageButton    = (ImageView) view.findViewById(R.id.message);
-    this.callButton       = (ImageView) view.findViewById(R.id.call);
-    this.secureCallButton = (ImageView) view.findViewById(R.id.secure_call);
+    //this.callButton       = (ImageView) view.findViewById(R.id.call);
+    //this.secureCallButton = (ImageView) view.findViewById(R.id.secure_call);
     this.editButton    = (ImageView) view.findViewById(R.id.edit);
 
     if (listener != null) setListener(listener);
@@ -114,8 +114,6 @@ public class ContactPreference extends Preference {
 
   public void initOfficeAppView(){
     this.isOfficeApp = true;
-    if (callButton != null)       callButton.setVisibility(View.GONE);
-    if (secureCallButton != null) secureCallButton.setVisibility(View.GONE);
     if (editButton != null)       editButton.setVisibility(View.GONE);
     if (messageButton != null)    messageButton.setVisibility(View.GONE);
   }
