@@ -167,6 +167,9 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
 
     menu.findItem(R.id.menu_clear_passphrase).setVisible(!TextSecurePreferences.isPasswordDisabled(this));
 
+    menu.findItem(R.id.menu_new_group).setVisible(false);
+    menu.findItem(R.id.menu_invite).setVisible(false);
+
     super.onPrepareOptionsMenu(menu);
     return true;
   }
